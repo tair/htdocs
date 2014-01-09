@@ -1,0 +1,86 @@
+
+ 
+A three-year postdoc training fellowship is available at the John Innes Centre, Norwich, UK
+
+ 
+
+Title: Comparative tissue development in Arabidopsis and Brassica
+
+in the laboratory of Lars Østergaard
+
+ 
+
+Description of the project
+
+            One of the biggest enigmas in developmental biology is how specific tissues form. What are the 
+molecular cues that dictate groups of cells to adopt particular morphologies and functions? The Arabidopsis 
+fruit provides a unique system to study tissue specification since it is divided into discrete parts identified 
+as the valves, the replum and the valve margins. Upon maturation, the valves detach from the replum at the valve 
+margin to allow seed dispersal by a mechanism called pod shatter. 
+
+            This project is focused on the developmental and molecular mechanisms underlying replum formation in 
+the two closely related genera, Arabidopsis and Brassica. 
+
+            Downstream targets of a key regulator of Arabidopsis replum development called REPLUMLESS (RPL) will 
+be identified. The RPL gene encodes a transcription factor and the cis-elements bound by RPL will be determined 
+using a combination of ChIP (Chromatin Immuno Precipitation), SELEX (systematic evolution of ligands by 
+exponential enrichment) and microarray techniques. This information will be used in a comparative genetics 
+approach to explore whether differences in cis-regulatory sequences of potential target genes in Arabidopsis and 
+Brassica can explain the dramatic difference in replum morphology between the two. Ultimately the knowledge 
+acquired on how the replum controls pod shatter will be used to screen a Brassica TILLING population which is 
+currently being generated in the Østergaard lab.
+
+            Brassica species are ideal for model-to-crop approaches as they include important crop plants such 
+as oilseed rape. Brassica plants also disperse their seeds by pod shatter. Although this mechanism is an 
+advantage in nature, unsynchronised pod shatter constitutes one of the biggest problems for oilseed rape farmers. 
+The present project will develop distinct strategies for controlling pod shatter in Brassica and promote crop improvement.
+
+ 
+
+Background literature
+
+Dinneny JR et al (2005) Development 132, 4687-4696
+
+Ferrándiz C et al (2000) Science 289, 436-438
+
+Liljegren SJ et al (2000) Nature 404, 766-770
+
+Liljegren SJ et al (2004) Cell 116, 843-853
+
+Østergaard L et al (2006) Plant Biotech J 4, 45-51
+
+Roeder AHK et al (2003) Curr Biol 13, 1630-1635
+
+ 
+
+Qualifications
+
+Essentials: Candidates must be within 3-years of completing the PhD with basic knowledge of plant genetics and 
+molecular biology (cloning, PCR, blotting techniques etc.) as well as skills in histological and microscopical 
+techniques. In addition, competence in the use of standard bioinformatics tools for genome mining, protein function 
+predictions, and other data mining issues is required.
+
+            The candidate must be able to design experiments, work independently and have a strong drive for solving 
+biological questions. In addition, the candidate is expected to take responsibility for short-term management of 
+undergraduate- and PhD-students and to collaborate with a network of other researchers in the group and in other labs.
+
+            The successful candidate will receive additional professional development training as well as on-the-job 
+training and mentoring as part of the BBSRC post-doctoral training and career development scheme, with a list of 
+attainment targets leading to a Certificate of Postdoctoral Training after 3 years at JIC.
+
+            Salary on appointment will be within the range of £23,022 to £26,541 per annum depending on 
+qualifications and experience. JIC offers a choice of final salary and stakeholder pensions.
+
+ 
+
+Applications
+
+If interested please visit http://www.jic.ac.uk/corporate/opportunities/vacancies/index.htm to download an 
+application form and further details. Please quote post reference number 15 74 on all correspondence. 
+
+ 
+
+or contact Lars Østergaard,   e-mail: lars.ostergaard@bbsrc.ac.uk,    Tel: +44 1603 450572
+
+Deadline for application is 23rd June, 2006
+

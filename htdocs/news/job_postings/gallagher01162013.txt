@@ -1,0 +1,29 @@
+Cells within an organism can communicate with each other through the 
+secretion of soluble proteins. In plants, communication can also occur 
+through specialized intercellular channels called plasmodesmata (PD). PD 
+allow the direct exchange of proteins between cell. This means that 
+proteins made by one cell can travel into the neighboring cell and 
+influence the behavior and/or fate of the neighbor. An important 
+question in cell signaling is how this type of protein movement is 
+regulated. Recently we identified SIEL, (for *_S_*HORT-ROOT 
+*_I_*NTERACTING *_E_*MBRYONIC *_L_*ETHAL) one of the first plant 
+proteins shown to promote the movement of an endogenously encoded plant 
+transcription factor. We have shown that SIEL interacts with and 
+promotes the movement of SHORT-ROOT (SHR). In addition SIEL also 
+interacts with CAPRICE, TARGET OF MONOPTEROUS 7and AGAMOUS-LIKE 21 all 
+of which are mobile transcription factors. The SIEL proten localizes to 
+the nucleus and the cytoplasm of root cells,where it is associated with 
+endosomes. This localization requires intact microtubules and appears to 
+promote the intracellular mobility of endosome. We propose that SIEL 
+acts as an intracellular shuttle that promotes intercellular movement of 
+SHR through associations with the microtubule cytoskeleton and with 
+endosomes. As SIEL is an essential protein, it is likely that it 
+influences both the movement of other transcription factors and 
+potentially endosome function. 
+
+The post-doc involved in this project would test the extent to which 
+SIEL is involved in the movement of transcription factors other than SHR 
+and characterize the roles that SIEL plays in endosome function. 
+Interested applicants should email their CV to Dr. Kimberly Gallagher 
+(gallagkl at sas.upenn.edu) at the University of Pennsylvania. Priority 
+will be given to applicants who have completed their PhD in the past year. 

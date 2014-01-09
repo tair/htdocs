@@ -1,0 +1,53 @@
+A postdoctoral research position in biological informatics at Cold 
+Spring Harbor Laboratory is available to a motiviated scientist who is 
+interested in applying computational approaches to manipulating and 
+analyzing large molecular and genetic datasets. The succesful 
+candidate will join an ongoing NSF-funded project studying replication 
+origins and the overall organizational structure of plant chromosomes 
+using high-density microarrays and next-generation sequencing 
+technologies. 
+ 
+The successful candidate will be responsible for developing new 
+algorithms, tools, and scripts for analysis and interpretation of the 
+high-throughput data components of this project. Research may include, 
+but is not restricted to, such topics as cluster computing, machine 
+learning systems, statistical modeling applications, and genome 
+annotation tools. 
+ 
+Candidates are required to have a Ph.D. in Genetics, Plant Biology, 
+Biochemistry and/or Computational Biology (or equivalent). Ideally, 
+they will have a good understanding of statistics and experience with 
+at least one scripting language (such as Perl or Python), the R 
+programming environment, and relational databases. Previous experience 
+with microarrays or high-throughput sequencing is desirable but not 
+required, as is a general interest in chromosome biology and 
+epigenetics. 
+ 
+Funding for this position is secured for two years, beginning as early 
+as February of 2008. However, the successful candidate is expected and 
+encouraged to apply for all eligible fellowships. 
+ 
+Cold Spring Harbor Laboratory is a world-renowned research and 
+educational institution with programs in cancer, neuroscience, plant 
+biology, genomics and bioinformatics. The Laboratory is recognized 
+internationally for its excellence in research and educational 
+activities. Candidates will have opportunities to interact with and 
+participate in advanced research in molecular biology, genetics, 
+bioinformatics, and computational biology, and will have access to 
+robust information technology resources as well as a high-performance 
+computing cluster. 
+ 
+Review of applications will begin immediately and continue until the 
+position has been filled. Please send CV, a statement of research 
+interests, and 3 reference contacts to: 
+ 
+Matthew Vaughn, Ph.D. 
+Research Assistant Professor 
+Cold Spring Harbor Laboratory 
+Delbruck Building 
+1 Bungtown Road 
+Cold Spring Harbor, NY 11724 USA 
+
+email: vaughn@cshl.edu
+tel: (516) 367-8808 
+fax: (516) 367-8369

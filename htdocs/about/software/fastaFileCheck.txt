@@ -1,0 +1,353 @@
+#!/usr/local/bin/perl
+# fastaFileCheck.pl
+# 
+# Checks a Fasta file, namely when there are additional lines after the > line that contain text instead of sequence data.
+# usage: fastaFileCheck.pl filetocheck
+
+=head1 Synopsys
+
+perl fastaFileCheck.pl [-simvh] dnafastafile
+
+perl fastaFileCheck.pl -p[simvh] proteinfastafile
+
+Checks the structure of a DNA fasta file (or protein fasta files using the -p option and prints out various information.
+
+=head1 Description
+
+The program checks
+
+=over 4
+
+=item (1)
+
+if letters other than A,T,G,C and N occur in lines that do not start with > (or letters corresponding to the one letter amino acid code +X +* when the protein option (-p) is used). 
+Less than 80% A,T,G,C and N are considered a severe problem (usually it is protein data
+or a return character in the description line, errors which will break most programs).
+
+=item (2)
+
+that there are no empty lines in the files. 
+
+=item (3)
+
+whether duplicate identifiers are present in the file.
+
+=item (4)
+
+whether identifiers exceed a length of 50 characters.
+
+=item (5)
+
+whether there are lines that are over 100000 characters long (the total sequence length of an entry
+can be infinitely long - that is not checked. Line length here means a stream of characters until a 
+carriage return is encountered. Sometimes, fasta files have lines that are 50-100 letters long, but
+is not required).
+
+=back
+
+Lines with more than 20% non-DNA characters are counted as severe errors, minor error with less.
+
+=head2 Options
+
+=over 4
+
+=item -p
+
+File contains protein sequences.
+
+=item -s
+
+Print summary only.
+
+=item -i
+
+Print identifiers only, and summary.
+
+=item -m
+
+Ignore minor problems.
+
+=item -v
+
+Print version of the program.
+
+=item -h
+
+Print help message
+
+=back
+
+=head1 Version
+
+Version 2.2 of September 17, 2002
+
+=head2 Version History
+
+ 2.0 2002/02/08 Added command line options
+ 2.1 2002/02/16 Added protein option
+                duplicate id checking
+                line length checking
+                help information
+ 2.2 2002/09/17 Fixed a bug that reported too many empty lines				       
+
+=head1 Author
+
+Lukas Mueller
+
+ The Arabidopsis Information Resource. Copyright (c) 2001, 2002. 
+ The Carnegie Institution of Washington, Department of Plant Biology. Copyright (c) 2001, 2002.
+ All Rights Reversed.
+
+Please report bugs to mueller@acoma.stanford.edu.
+
+
+=cut
+    
+
+    
+use strict;
+use Getopt::Std;
+use vars qw($opt_s $opt_m $opt_i $opt_v $opt_h $opt_p $opt_S);
+
+# opt_p : protein file.
+# opt_s : summary only. Don't generate messages during run.
+# opt_m : do not report minor problems
+# opt_i : identifiers only. Print affected identifiers.
+# opt_v : print version info
+# opt_h : print help
+# opt_S : get sequence statistics
+
+# constants
+#
+my $maxnamelength = 50;
+my $maxlinelength = 100000; # this is not the length of an entry, just the length of a line 
+                            # (of which an entry can have unlimited)
+# variable declarations
+#
+my $lineno = 0;
+my $dirtylines = 0;
+my $length = -1;  # so first entry doesn't appear to be empty
+my $linetoolongcount = 0;
+my $entryname = "";
+my $oldentryname = "";
+my $nametoolongcount = 0;
+my $zerolengthcount = 0;    # looks at length of a sequence entry
+my $zerolinelengthcount =0; # looks at the length of a individual line
+my $severeproblemcount = 0;
+my $entryProblemCount;
+my %entries;
+my $severity;
+my $duplicatedIds = 0;
+my $what;
+my $len;
+my $good;
+my @seqstats;
+my $totalentries=0;
+my $totallength=0;
+
+#my $nooptions = !scalar(@ARGV);
+
+getopts('psmivhS');
+
+if ($opt_v) { print_version(); exit(); }
+
+if ($opt_h) { print_help(); exit(); }
+
+my $filename = shift;
+
+open (F, "<$filename") || die "Can't open $filename. Execution terminated. Please try again.\n";
+
+print STDERR "Checking file... \n";
+
+my $line;
+
+while (<F>) {
+   chomp;
+   $line = $_;
+   
+   $lineno++;
+   if (length($line) == 0) {
+       message("Problem at line $lineno: Line has zero length!\n");
+       $zerolinelengthcount++;
+       $severeproblemcount++;
+   }
+   if (($line =~ /^>/)) { 
+     $totalentries++;
+     $totallength+=$length;
+       if ($length ==0) { 
+	   $entryProblemCount++;
+	   message ("Problem at entry $entryname (line# $lineno) No sequence found!!! \n\n"); 
+	   $zerolengthcount++; 
+	   $severeproblemcount++;
+       }
+       if (length($line)>$maxlinelength) { 
+	   message("Problem at line $lineno: Line too long (".length($line).">$maxlinelength)\n"); 
+	   $linetoolongcount++;
+       }
+       if ($opt_S) {
+	 $seqstats[$length]++;
+       }
+	 
+	 
+	 
+       $length = 0;
+       $entryProblemCount = 0;
+       $oldentryname = $entryname;
+       $entryname = $line;
+       $entryname =~ s/\>(.*?)\s(.*)/$1/;
+       # check if entries are duplicated.
+       if (exists ($entries{$entryname})) { 
+	   message("$entryname is duplicated\n");
+	   $duplicatedIds++;
+       }
+       else {
+	   $entries{$entryname}++; 
+       }
+       
+       if (length($entryname) > $maxnamelength) { 
+	   message("Problem at entry $entryname (line# $lineno): Name too long!\n"); $nametoolongcount++; 
+       }
+   }
+   else { 
+       $length += length($line);   
+       if ($opt_p) { $severity = checkproteinseq($line); }
+       else {
+	   $severity = checkseq($line);
+       }
+       if ($severity >0)  { 
+	   if (($severity ==1)) {
+	       # do we show minor problems? check m option
+	       if (!$opt_m) {
+		   # if minor problem and option 'ignore minor problem' not set, print it 
+		   message("Problem at line \# $lineno :\n$line\n\n");
+		   $dirtylines++; 
+		   $entryProblemCount++;
+	       }
+	   }
+	   elsif ($severity ==2) { 
+	       message("Severe problem at line \#$lineno: \n$line\n\n");
+	       $severeproblemcount ++;
+	       $entryProblemCount++;
+	   }
+	   else { 
+	       message ("Unknown problem at line \# $lineno. Severity: $severity.\n\n"); 
+	   }
+       }
+       else { 
+	   
+       } 
+       $severity = 0;
+   }       
+}
+
+close (F);
+
+print "\nSummary\n*******\n\n";
+print "This file contained the following errors:\n";
+if ($opt_m) {
+    print "- [Minor errors ignored (option -m)]\n";
+}
+else { 
+    print "- $dirtylines lines with minor sequence problems\n";
+}
+print "- $severeproblemcount lines with major sequence problems\n";
+print "- $nametoolongcount entries where the seq name is too long\n";
+print "- $zerolengthcount entries that lack sequence info.\n";
+print "- $linetoolongcount lines that are over $maxlinelength long.\n";
+print "- $zerolinelengthcount lines that are emtpy [may be trailing]\n";
+print "- $duplicatedIds duplicated Ids.\n\n";
+
+if ($severeproblemcount || $zerolengthcount) { print "This file should be checked and repaired before further use. \n\n"; }
+if ((!$severeproblemcount) && !($nametoolongcount) && (!$zerolengthcount)) { print "This file should be usable.\n\n"; }
+
+if ($opt_S) {
+  print "Sequence Statistics:\n\n";
+  my $i=0;
+  while ($seqstats[$i]==0) { $i++; }
+  my $shortest_seq = $i;
+  print "Shortest Sequence: $shortest_seq\n";
+  my $longest_seq=scalar(@seqstats);
+  print "Longest Sequence : $longest_seq\n";
+  my $total=0;
+
+  print "Average Sequence length: ".($totallength/$totalentries)."\n";
+}
+      
+
+sub checkseq 
+{     
+    $what = $_[0];
+    $len = length($what);
+    if ($what =~ /[ATGCatgcNn]{$len}/) 
+    {
+	return 0;
+    }
+    else
+    {
+	$_ =  $what;
+	    $good = tr/[ATGCatgcNn]/x/;
+	if ($good/$len > 0.8) { return 1;  }
+	else { return 2; }
+    }
+}
+
+
+sub checkproteinseq {
+    $what = $_[0];
+    $len = length($what);
+    if ($what =~ /[ACDEFGHIKLMNPQRSTVWXYacdefghiklmnpqrstvwxy\*]{$len}/)
+    {
+	return 0;
+    }
+    else
+    {
+	$_ =  $what;
+	$good = tr/[ACDEFGHIKLMNPQRSTVWXYacdefghiklmnpqrstvwxy\*]/x/;
+	if ($good/$len > 0.8) { return 1;  }
+	else { return 2; }
+    }
+}
+
+sub message {
+    my $message = shift;
+    # if 'summary only' is not on, we print everything
+    if (!$opt_s) {
+	# check if 'identifiers only' (opt_i) option is set
+	if ($opt_i) {
+	    # print the identifier only once if it contains several problems
+	    if ($entryProblemCount <= 1)  { 
+		print "$entryname ($severity)\n";
+	    }
+	}
+	else { print $message; }
+    }   
+}
+    
+sub print_version {
+    print "\nfastaFileCheck Version 2.2 of September 17, 2002.\n";
+    print "Copyright (c) 2001, 2002 by Lukas Mueller,\n";
+    print "The Arabidopsis Information Resource - TAIR, and \n";
+    print "The Carnegie Institution of Washington, Department of Plant Biology.\n\n";
+}
+
+sub print_help {
+    print "\nfastaFileCheck.pl\n\nHelp\n====\n\nOptions:\n";
+    print "-p : protein file.\n";
+    print "-s : summary only. Don't generate messages during run.\n";
+    print "-m : do not report minor problems.\n";
+    print "-i : identifiers only. Print sequence identifiers of error containing entries.\n";
+    print "-v : print version info.\n";
+    print "-h : print help (these lines, actually).\n";
+    print "-S : print some statistics\n\n";
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+
+Database Administrator
+
+TAIR, The Arabidopsis Information Resource -- http://arabidopsis.org -- is a National Science Foundation-funded 
+web resource that provides free access to a wide array of biological data and analysis tools for the model plant 
+Arabidopsis, including the first and most complete multicellular eukaryotic genome sequence. Tens of thousands of 
+plant biology researchers worldwide use TAIR in their daily work. TAIR is a project of the Carnegie Institution of 
+Washington, a leading non-profit scientific research organization.
+
+We are looking for a smart, experienced, and flexible Database Administrator to support internal and production 
+mission-critical databases with a focus on high availability and performance. The current environment is Solaris- 
+and Linux-based instances of MySQL and Sybase.
+
+Responsibilities:
+
+- Installing, upgrading, patching, monitoring, tuning, and troubleshooting database instances
+- Participating in the design and implementation of logical and physical structures
+- Managing secure access to databases
+- Backing up and restoring databases
+- Participating in requirements definition with technical team members and users
+
+Requirements:
+
+- BS in Computer Science / Management Information Systems or equivalent experience.
+- At least three years of successful experience managing relational database instances as a database administrator
+- At least one year of successful experience working with Linux and/or Solaris operating systems
+- Ability to learn new technologies quickly
+- Ability to lift and carry computer equipment (minimum 30 pounds)
+- Ability to assemble and connect computer equipment
+- Ability to interact, to work cooperatively, and to communicate with co-workers
+- Desirable: interest in biological science, genomics, and/or bioinformatics
+
+For immediate consideration, please email your resume (in text [ASCII], HTML, or Microsoft Word format) to dba-jobs@aztec.stanford.edu.
+
+Equal Opportunity Employer.

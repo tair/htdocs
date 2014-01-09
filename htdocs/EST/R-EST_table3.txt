@@ -1,0 +1,93 @@
+Table 3. Map positions and YAC clones associated with R-EST and Pto-like sequences.									
+GENBANK	Primers	Chr (a)	cM (a)	CIC YACs (b)	yUP YACs (b)	Anchor (c)			
+F13577	SS217/218	4	99.8	3H12, 9H6		um596A			
+F15353	SS219/220	nm	nm	5E7, 7B7, 7B8 					
+F15571	SS213/214	1	24.2 (d)			g3786/g3829 			
+F20107 (e)	SS211/212	2	47.0	2E12, 5B9, 8F11, 8F12, 8H11, 10F1		 g6842			
+F20108 (e)	SS215/216	2	47.0	5B9, 8F11, 8F12, 8H11, 10F1		 g6842			
+H36320	SS182/184	nm	nm	1H12, 3G7 (cp DNA)					
+H36821	SS166/167	5	13.0		12B11, 14A12*, 19G12, 21G3, 23B2, 23F6, 24C4 	g3837			
+H36913	H36913F/R	5	84.1	5H10, 10H7		m435			
+H37061	SS164/165 	nm	nm		21H1				
+H77224	SS180/181	1	111.8 (d)		12F12, 12A8	nga111			
+N38401	SS203/204	5	80.8	4B10*, 4A3*, 8G12, 12H4		mi2			
+N65692	SS225/226	1	(84.1)	2E9, 12G9		g4121 (mi230)			
+N95848	SS209/210	2	47.0	5B9, 8F11, 8H12, 10F1		 g6842			
+N96078	SS231/232	4	54.8	5E12, 6G4, 7G8 		g4539			
+N96493	SS233/234	5	24.0	9E10		mi438			
+N96711	SS207/208	5	7.2	4D2		g3715			
+N97067	SS199/200	5	14.8 (d)	6F3		KG31			
+R29891	PEST13/14	1	111.2	6H1, 9C4, 12H9		nga111			
+R30025	SS150/151 	3	"65.1 (f,g)"		4C2, 9B2, 17D3	m457 			
+R30025	PEST33/34 	5	87.6 (h)	9C9, 10B4, 10C9, 10E2, 8E1*, 8E2, 2C12, 8E3, 9C7 		m558A			
+R30624	SS172/173 	5	80.8		17D11	mi2			
+R64794	R64794F/R	5	87.6	8E1*, 8E2, 10B4		m558A			
+R64932 (i)	SS174/175 	nm	nm		20H8*				
+R89998 (j)	SS176/177	5	28.8 (d)		7F10, 8F10 17E1*, 5G5, 7G10	mi138			
+R90150	SS178/179	1	(31.9)		20C3, 14E3	yUP9H2L  (m235)			
+T04109	SS136/137 	3	54.0 (f)		11H1, 15B9 	GL1/m249			
+T04135	SS130/131	1	6.4		5H2*, 9D5, 10B6, 10C5, 10D1, 22C7	PAI1			
+T04362	PEST47/48	5	76.0	7G6, 7E12		mi423b			
+T13648	PEST45/46	nm	nm	8C9, 5F3, 11F11 					
+T14233	PEST19/20	4	47.0	3B2, 3C1, 12B6, 3D3		g6837			
+T14233	SS108/109	4	47.0		9E4*, 12A4, 15C5	g6837			
+T20493	SS90/91	nm	nm		15A8, 20H1*, 21H7 				
+T20808	PEST15/16	5	80.8 (f)	2E4, 8G12, 12H2	3F12, 19G5, 3G12, 7E1, 13G6, 14G7	mi2 			
+T21150 (j)	SS144/145	5	29.7		5G5, 8F10, 17E1*	mi138			
+T21447	SS92/93	nm	nm		21H12				
+T21477	PEST21/22	5	(80.8)	8D5, 4G5 		m268 (mi2)			
+T22090 (k)	PEST57/58	1	18.8	5D11		ve007			
+T41629	SS221/222	1	93.8	8B5, 8E4		m315			
+T41662 (l)	PEST1/2	4	54.8	2B8, 5E12, 6G4, 7G8, 12B8, 12B9,  12C8		g13683 			
+T42294	SS102/157	nm	nm	11A4* 					
+T43968	PEST9/10  	5	74.4 (f)	9A7, 2A12, 12D9, 12D10 	3G8, 3G9, 3H12, 8C12, 9B
+4, 9E9	g4028			
+T45845	PEST23/24	2	73.2	11C8	9F8	g4514			
+T46064	PEST3/4	5	62.7	7C1, 7A3*, 8C8, 6E9		m247			
+T46145 (k)	SS116/117	1	18.7		10C4	g3786			
+T46379	SS168/169	2	(67.3)	4C7 (cpDNA), 11E9, 11E11	4E4 	MRL1  (m323)			
+T46721	PEST11/12	4	61.3	2B3, 9E3		 g3883			
+T75662	SS170/171 	5	(20.0)		9A7	I/dSpm113 (mi174)			
+T88149 (i)	PEST35/36	4	72.2	1E5, 3C11, 10G2*, 12B3, 12H1		PG11 			
+Z17798	SS104/105 	5	(95.9)	3A3, 9H3, 9B5	1E7, 12G2, 12H2, 22E10	 g4554 (g2368)			
+Z17993	PEST31/32	5	100.4 (f)	5B3, 5C3*		pCITd110 (g2368) 			
+Z18443	PEST7/8  	5	76.0	4A10	1F12*, 9D2, 1E1, 5A3, 5D10	m423b			
+Z26226	PEST27/28	5	(20.0)	6C6, 11H11, 11H12 		pCITd37  (nga151)			
+Z30800	SS132/133	nm	nm	1E8*, 1F7, 6C4 	13B1 				
+Z30811	SS110/111	3	17.5	5F8, 5H8, 7D3, 12A4	4C12, 6G5, 20B8 	nga 162			
+Z30817	SS82/83 	3	(25.2)		11E2	g6220 (m105)			
+Z33873 (m)	SS134/135	5	13.0		12B11, 19G12, 21G3, 23B2, 23F6, 24C4	g3837			
+Z46819 (m)	SS112/113	5	13.0		14A12*, 19G12, 21G3, 23F6, 24C4	g3837			
+PK1 (n)	PK1F/R	1	81.2 (o)	6D4		nga128			
+PK1 (n)	PK1F/R	3	17.5 (p)	4C5		nga162			
+PK5 (n)	PK5F/R	1	84.1	6H10		 mi230			
+PK9 (n)	PK9F/R	1	39.1	1D2		ve094			
+									
+(a) "Chr" and "cM" indicate the chromosome and estimated map position relative to the RI map (May 12, 1997 version; Anderson, 1996).  A map position given in brackets indicates the map position of the nearest mapped marker to the marker anchoring the YAC clones. Occasionally, the marker anchoring the YACs was not placed on the RI map and the map position of a neighboring marker was given in the table. Thus, map positions given in brackets are not as precise as unbracketed  map positions. Map positions determined by genetic mapping on the RI lines are given where available. nm, not mapped.
+
+(b) * Indicates a chimeric YAC.
+
+(c) Markers that anchor the YAC clones. Markers in brackets are neighboring markers used to provide an estimate of the map position of the YACs and R-EST, when the anchoring marker had not been placed on the RI map. Two markers separated by a slash are two flanking markers determined by genetic mapping.
+
+(d) Denotes positions acquired via mapping the R-EST as a CAPS marker on 90 RI lines.
+
+(e) F20107 and F20808 are derived from the same clone.
+
+(f) Denotes positions acquired via mapping the R-ESTs as RFLP markers on 27-30 RI lines.
+
+(g) Locus R30025a and (h) Locus R30025b.
+
+(i) RPS2
+
+(j) R89998 and T21550 are members of TC9681.
+
+(k) T22090 and T46145 are members of TC9706.
+
+(l) RPP5
+
+(m) Z33873 and Z46819 are derived from the same gene (see text).
+
+(n) PK1, PK5, and PK9 are clone names. The GenBank numbers for the sequences of these clones are U82399 (PK1), U82401 (PK5) and U82402 (PK9).
+
+(o) Locus PK1a and (p) Locus PK1b.
+									

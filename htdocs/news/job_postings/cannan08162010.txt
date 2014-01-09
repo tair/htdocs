@@ -1,0 +1,55 @@
+Web Developer Position for the DOE Joint Genome Institute
+
+An exciting opportunity is available in the Phytozome development team 
+within the Joint Genome Institute's Computational and Plant Genomic group. 
+Phytozome (http://www.phytozome.net) is the public portal to JGI's extensive 
+plant genome data and analysis, providing sophisticated data access and 
+visualization tools for both experienced and novice plant biologists 
+worldwide. The developer in this position will be responsible for creating 
+intuitive, easily navigable, cross-browser compatible web interfaces, using 
+PHP, CSS, and advanced Javascript. Both the absolute quantity and diversity 
+of plant genomic data produced and integrated by the JGI will be increasing 
+dramatically over the next few years. This is an opportunity to apply your 
+web design and coding skills to an area of biological research undergoing 
+explosive growth and change, working with the JGI's scientists, 
+computational biologists, and developers in a state-of-the-art computational 
+environment. 
+
+*Specific Job Duties* 
+
+- Debug, maintain, extend, and redesign various PHP-based components of the 
+Phytozome web portal. 
+- Develop code that is lightweight, cross-browser-platform compatible, and 
+fast. 
+- Interface with end-users to gather feedback and requirements. 
+- Follow Software Development best practices including: frequent testing and 
+deployment, source/version control, issue tracking. 
+- Respond to software defect reports, requests for new features, or ad hoc 
+requests. 
+- Troubeshoot basic system problems. 
+
+*Qualifications* 
+
+- Typically requires a B.S. in microbiology, bioinformatics, computational 
+biology, computer science or related discipline, or equivalent experience. 
+- Demonstrated experience producing effective web sites with creative 
+designs. 
+- Expertise in PHP, HTML, CSS, Javascript, AJAX. 
+- Experience coding with one or more modern Javascript toolkits: GWT, Dojo, 
+jQuery, YUI, etc. 
+- Experience with one or more source control systems: CVS, Subversion, Git. 
+- Comfort and experience developing in a UN*X/Mac environment. 
+- Ability to work somewhat independently as well as part of a diverse team. 
+Good oral and written communication skills. 
+
+*How to Apply* 
+To apply from this page, click the link (below) to be redirected to the lab 
+job posting, then follow the on-line instructions to complete the 
+application process. As part of the online application process, please 
+submit a single attachment that includes both your resume and a cover 
+letter. Please be sure to reference where you found out about the position. 
+
+http://careers.crijob.com/lbnlcareers/detailsRedirect.asp?jid=24813&p=1 
+
+Berkeley Lab is an affirmative action/equal opportunity employer committed 
+to the development of a diverse workforce. 

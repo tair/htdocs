@@ -1,0 +1,51 @@
+<TABLE ID="Table1.html" BORDER>
+<TR><TH>MUTANT LINE<TH>ABRC PHENOTYPE<TH><TH><TH><TH>OUR PHENOTYPE
+<TR>
+<TR><TD><br>178<TD><TD>Male sterile<TD><TD><TD><TD>Male sterile/ pollenless
+<TR>
+<TR><TD>243<TD><TD>Male sterile<TD><TD><TD><TD>Female sterile or male/female sterile
+<TR>
+<TR><TD>547<TD><TD>Male sterile<TD><TD><TD><TD>Partially male sterile
+<TR>
+<TR><TD>783<TD><TD>Partially fertile, small anthers<TD>Female sterile or male/female sterile, 
+<TR><TD><TD><TD>reduced pollen
+<TR>
+<TR><TD>871<TD><TD>Male sterile<TD><TD><TD><TD>No phenotype detected
+<TR>
+<TR><TD>932<TD><TD>Male sterile/flower mutant<TD><TD>Partially sterile/dwarfed
+<TR>
+<TR><TD>1097<TD><TD>Male sterile<TD><TD><TD><TD>Pollenless
+<TR>
+<TR><TD>1180<TD><TD>Male sterile<TD><TD><TD><TD>Male sterile
+<TR>
+<TR><TD>1569<TD><TD>Male sterile<TD><TD><TD><TD>Partially sterile/dwarfed/bushy
+<TR>
+<TR><TD>1728<TD><TD>Reduced fertility mutant<TD><TD>Male sterile/pollenless
+<TR>
+<TR><TD>1746<TD><TD>Male sterile<TD><TD><TD><TD>No phenotype detected
+<TR>
+<TR><TD>1885<TD><TD>Male sterile<TD><TD><TD><TD>Male sterile/pollenless
+<TR>
+<TR><TD>1926<TD><TD>Male sterile<TD><TD><TD><TD>Male sterile - dehiscence mutant
+<TR>
+<TR><TD>2379<TD><TD>Male sterile/root mutant<TD><TD>Pollenless
+<TR>
+<TR><TD>2415<TD><TD>Male sterile<TD><TD><TD><TD>Female sterile or female/male sterile
+<TR>
+<TR><TD>2522<TD><TD>Male sterile<TD><TD><TD><TD>Male sterile/partially female sterile
+<TR>
+<TR><TD>2836<TD><TD>Partially male sterile<TD><TD><TD>Partially male sterile
+<TR>
+<TR><TD>3181<TD><TD>Male sterile<TD><TD><TD><TD>No phenotype detected
+<TR>
+<TR><TD>3529<TD><TD>Male sterile<TD><TD><TD><TD>Partially male sterile
+<TR>
+<TR><TD>3914<TD><TD>Male sterile/ yellow green<TD><TD>Pollenless/partially female sterile
+<TR>
+<TR><TD>4416<TD><TD>Anther-affected/embryo defective<TD>Not determined
+<TR><TD><TD><TD>and size mutant
+<TR>
+<TR><TD>4791<TD><TD>Anther -affected<TD><TD><TD>Not determined
+<TR>
+<TR><TD>4838<TD><TD>Male sterile<TD><TD><TD><TD>Partially male sterile
+<TR>

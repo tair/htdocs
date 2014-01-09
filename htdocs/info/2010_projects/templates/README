@@ -1,0 +1,23 @@
+Notes on index.html.template:
+
+genesearch.pl uses the HTML::Template module to allow us to separate
+the HTML from the (admittedly ugly) perl script.  If you plan to
+modify index.html.template, you'll see some weird tags in there which
+should be explained before making drastic changes.
+
+These tags will get substituted by HTML::Template right before we
+print to screen.  For example, where one sees:
+
+    <TMPL_VAR NAME=ACCESSION_NUMBER>
+
+the "template variable" will be replaced by an accession number.  If
+you'd like more details about this process, you can look at the
+documentation from "perldoc HTML::Template", or shout at me at
+dyoo@acoma.  *grin*
+
+
+Everything between the tags "<TMPL_IF NAME=IS_QUERY_PERFORMED>" and
+"</TMPL_IF>" will be displayed only if we're actually doing a query.
+
+Everything between the tags "<TMPL_LOOP name=ROWS>" and "</TMPL_LOOP>"
+will be repeated over and over for every row in the query result.

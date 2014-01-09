@@ -1,0 +1,69 @@
+
+Software Engineer
+
+Mendel is looking for a Software Engineer to join its computational
+team supporting research and discovery in plant biotechnology.
+
+As part of this team, the successful candidate will work closely with
+bioinformatics scientists and laboratory-based groups. The position
+requires experience using modular software design to develop intuitive
+web-based user interfaces and back-end processes and databases for
+laboratory data analysis.
+
+Responsibilities
+
+* Design and build web-based front-ends for new and existing
+  applications and interfaces to laboratory database schemas;
+
+* Apply web-standards and common javascript libraries to provide a
+  robust, dynamic user experience including on mobile devices;
+
+* Interact with molecular biologists and other scientists to define
+  requirements, formal specifications, and deliverable timelines for
+  data processing and interfaces;
+
+* Design and build programmatic renderers for production of
+  high-quality, stand-alone, deliverable reports based on the same
+  data modules;
+
+* Generally contribute to all Computational Biology data processing
+  and interface needs.
+
+Requirements:
+
+* BS in computer science or related technical discipline;
+  
+* Proficiency in Perl, JavaScript, AJAX, JSON, CSS, HTML, and related
+  web technologies.
+
+* Experience with relational database programming in SQL and DBI:
+  desired experience with MySQL, Postgres, and Oracle;
+
+* Solid foundation in computer science, with strong competencies in
+  data structures, algorithms and software design;
+
+* Understanding of software-specification gathering methodologies.
+  Able to extract input/output and data processing requirements from
+  scientists and other users;
+
+* Familiarity with shell scripting, package building and automation on
+  Unix/Linux systems;
+
+* Excellent written and oral communication skills. Demonstrated ethic
+  of documentation and source code revision control management.
+
+* Authorization to work in the U.S.
+
+______________________________________________________________________
+
+To apply for this job:
+
+1. Send a plain-text ASCII email with a cover letter and your
+   resume in the body of the email;
+
+2. DO NOT send attachments or HTML-formatted email;
+
+3. You may include relevant URLs in your email;
+
+4. Address your email to job186@mendelbio.com.
+

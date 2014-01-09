@@ -1,0 +1,128 @@
+/* ----------------------------------------------
+ * TAIR search.css
+ ---------------------------------------------- */
+#content {
+	padding: 0 10px 0 10px;
+}
+#content h2 {
+	color: #777;
+	font-size: 15px;
+	margin-top: 0;
+	float: left;
+}
+
+#breadcrumbs {
+	margin-left: 0;
+}
+.intro {
+	clear: both;
+}
+#help {
+	float: right;
+	text-align: right;
+	margin-top: 0;
+}
+#searchbox {
+	width: 718px;
+	background: #f1efec;
+	margin-top: 10px;
+	padding: 5px 6px 5px 10px;
+}
+
+#searchbox p {
+    color: #777;
+	font-weight: bold;
+}
+    
+#searchbox fieldset {
+	border: 1px solid #e5e2dd;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+#searchbox legend {
+        padding: 0 15px;
+        font-weight: bold;
+        font-size: 1.15em;
+}
+#searchbox .hidden {
+    display: none;
+}
+#searchbox .button {
+	padding: 0 10px 10px 5px; 
+	float: right;
+}
+#searchbox .button a {
+	border: 0;
+}
+#searchbox .button a:hover {
+	background: transparent;
+}
+#searchbox dl {
+	padding-top: 5px;
+	/*clear: both;*/
+}
+#searchbox dt {
+	float: left;
+	width: 192px;
+	color: #777;
+	font-weight: bold;
+    clear: both;
+}
+#searchbox dd {
+	padding: 0 0 3px 0;
+	margin-left: 225px;
+}
+#searchbox .box {
+	width: 205px;
+}
+#searchbox .small_box {
+	width: 80px;
+}
+#searchbox select {
+	width: 312px;
+}
+#searchbox .small_sel {
+	width: 91px;
+}
+
+#searchbox .sm_med_sel {
+    width: 130px
+}
+        
+#searchbox .medium_sel {
+        width: 170px;
+}
+#searchbox .med_large_sel {
+        width: 200px;
+}
+#searchbox .large_sel {
+        width: 223px;
+}
+#searchbox .tiny_sel {
+        width: 60px;
+}
+
+.search_buttons {
+	margin-left: 5px;
+}
+.largepad {
+	margin-left: 320px;
+}
+
+/* General Classes */
+.small {
+	font-size: x-small;
+}
+.pad {
+	padding-left: 10px;
+}
+#content a.img_link {
+	border: 0;
+	padding-left: 5px;
+}
+#content a.img_link:hover {
+	background: transparent;
+}
+#content #searchbox a:hover {
+	background: none;
+}

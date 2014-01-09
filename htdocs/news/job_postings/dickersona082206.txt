@@ -1,0 +1,62 @@
+[Arabidopsis] Bioinformatics Position Available at PLEXdb
+
+
+We are seeking applicants to help refine PLEXdb, the Plant EXpression
+Database:
+
+PLEXdb Bioinformaticist (http://www.plexdb.org/modules/PD_general/jobs.php)
+Postdoctoral Position
+Location: Ames, IA - Iowa State University
+
+Department: Virtual Reality Applications Center, Plant Pathology
+
+Proposed Start Date: As soon as possible
+
+Appointment Conditions: Term, 12 Months, Full Time, Appointment Ending
+8/31/2007
+
+Special Conditions: Renewal of appointment for up to three years
+contingent upon performance.
+
+Description: PLEXdb (www.plexdb.org) Plant and pathogen microarray
+database - is a collaborative project of Iowa State University and NSF to
+further develop on-line cyberinfrastructure for the analysis and
+interpretation of microarray data. The PLEXdb Bioinformaticist will work
+with a small local team of database and web programmers and will be
+responsible for developing and maintaining data pipelines for analyzing
+microarray data between experiments and across species and building
+cross-references to other information (e.g., GO annotation, sequence
+assemblies); development and maintenance of online tools for querying,
+analyzing, and cross-referencing data in and between experiments and
+microarrays; work with data curator to insure conformation to MIAME
+standards; communicate with remote investigator groups to ensure that all
+relevant biological information from experiments will appear as required
+or permitted fields in the database schema.
+
+Required Qualifications: M.S. or Ph.D. in bioinformatics or computer
+science; statistics coursework or experience; good written and verbal
+communication skills.
+
+Preferred Qualifications: Experience with microarray data analysis systems
+and familiarity with MIAME standards for microarray experiments.
+Experience with MySQL, PHP, and at least one language similar to Python,
+Java, or C.
+Salary/Wage: $40,000-48,000, commensurate with experience
+Application Deadline: To guarantee consideration, application must be
+received by August 31, 2006.
+
+Application Instructions: Send letter of application, resume, curriculum
+vitae, and names/phone numbers of references to Julie Dickerson, Associate
+Professor, Virtual Reality Applications Center, 2274 Howe Hall, Room 1620,
+Ames, IA 50011-2274, or electronically to julied@iastate.edu, please
+include PLEXdb in the subject line.
+Immigration Reform and Control Act verification will be a condition of
+employment. If hired, you must be able to present acceptable documents
+that provide proof of your identity and employment eligibility to work in
+the United States as required by the Immigration Reform and Control Act of
+1986.
+Iowa State University is an equal opportunity/affirmative action employer.
+
+
+
+-- Julie Dickerson Associate Professor Electrical and Computer Engineering Iowa State University, Ames, IA, USA 

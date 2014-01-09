@@ -1,0 +1,283 @@
+Genome Sequencing Monitoring at TAIR
+
+The files in this directory contain results of genome sequence
+monitoring at TAIR. We have blasted mRNA, EST and BAC end sequences from
+GenBank and TIGR against the AGI genomic sequence to see if there are
+any Arabidopsis sequences that are not included in the AGI genome
+sequencing. The dates at the end of the files indicate the date of
+analysis. EST and Bac end runs were done in August 2000, December 2000, January
+2001, and June 2001.  A run of ESTs and mRNAs was done in July 2002.
+
+Method 1 (August 2000-June 2001): We used NCBI's BLASTN. We set a maximum of 3 
+scores reported and 3 alignments per sequence, and set the expect value 
+threshold to 10 to the -10 (0.0000000001).  This seemed to give a pretty 
+reasonable cutoff.
+
+Method 2 (July 2002): 
+1e-6 cutoff for NCBI blastn, filtering on.
+
+Results:
+
+mRNA matching as of July, 2002:
+
+Total # blasted:        17,441 
+Total # not matched:    24 
+Percent Not Matching    0.0014 %
+
+EST matching as of July, 2002:
+
+Total # blasted:        174,625
+Total # not matched:    1600
+Percent Not Matching    0.009%
+
+BAC Ends Testing as of June 19, 2001
+
+Total # blasted:        61269
+Total # not matched:    3096
+Percent No Matches      5.05%
+
+TCs and singleton ESTs testing as of January 22, 2001
+Total # blasted:        31762
+Total # not matched:    467
+Percent No Matches      1.47%
+
+Files: 
+bacend.nohits081400 
+BAC end sequences that do not match to the AGI genome sequencing +
+At_chloroplast + At_mitochondria + bacterial/fungal/viral DNA
+
+bacend.nohits.mapped.081400
+Entries in 'bacend.nohits081400' that are mapped on physical maps in TAIR
+
+bacend.nohits.unpositioned.081400
+Entries in 'bacend.nohits081400' that are NOT mapped on physical maps
+in TAIR
+
+bacend.nohits.mapped.081400.fasta
+FastA formatted file of 'bacend.nohits.mapped.081400'
+
+bacend.nohits.unpositioned.081400.fasta
+FastA formatted file of 'bacend.nohits.unpositioned.081400'
+
+tc.nohits.081700
+TIGR's TC and singlton EST sequences that do not match to the AGI
+genome sequencing + At_chloroplast + At_mitochondria
+
+tc.nohits.081700.fasta
+FastA formatted file of 'tc.nohits.081700'
+
+bacend.nohits.mapped.120500.fasta
+FastA formatted file of BAC ends whose clones are mapped physically
+but that don't have a match in the AGI genome sequence as of 12/05/00.
+
+bacend.nohits.unpositioned.120500.fasta
+FastA formatted file of BAC ends that don't have a match in the AGI
+genome sequence as of 12/05/00.
+
+tc.nohits.120500.fasta
+FastA formatted file containing TIGR's TC and singlton EST sequences
+that do not match to the AGI genome sequencing + At_chloroplast +
+At_mitochondria as of 12/05/00.
+
+bacend.nohits.mapped012201 (561 entries)
+BAC end sequences that do not match to the AGI genome sequencing +
+At_chloroplast + At_mitochondria + bacterial/fungal/viral DNA as of
+01/22/01. These sequences are mapped on physical maps in TAIR.
+
+bacend.nohits.unpositioned.012201 (2570 entries)
+BAC end sequences that do not match to the AGI genome sequencing +
+At_chloroplast + At_mitochondria + bacterial/fungal/viral DNA as of
+01/22/01. These sequences are not mapped on physical maps in TAIR.
+
+tc.nohits.012201 (480 entries)
+TIGR's TC and singlton EST sequences that do not match to the AGI
+genome sequencing + At_chloroplast + At_mitochondria as of 01/22/01.
+
+bacend.nohits.mapped.012201.fasta
+FastA formatted file of 'bacend.nohits.mapped012201'.
+
+bacend.nohits.unpositioned.012201.fasta
+FastA formatted file of 'bacend.nohits.unpositioned.012201'.
+
+tc.nohits.012201.fasta
+FastA formatted file of 'tc.nohits.012201'.
+
+bacend.nohits.mapped.061901 (546 entries)
+BAC end sequences that do not match to the AGI genome sequencing +
+At_chloroplast + At_mitochondria + bacterial/fungal/viral DNA as of
+06/19/01. These sequences are mapped on physical maps in TAIR.
+
+bacend.nohits.unpositioned.061901 (2550 entries)
+BAC end sequences that do not match to the AGI genome sequencing +
+At_chloroplast + At_mitochondria + bacterial/fungal/viral DNA as of
+06/19/01. These sequences are not mapped on physical maps in TAIR.
+
+tc.nohits.061901 (467 entries)
+TIGR's TC and singlton EST sequences that do not match to the AGI
+genome sequencing + At_chloroplast + At_mitochondria as of 06/19/01.
+
+bacend.nohits.mapped.061901.fasta
+FastA formatted file of 'bacend.nohits.mapped.061901'.
+
+bacend.nohits.unpositioned.061901.fasta
+FastA formatted file of 'bacend.nohits.unpositioned.061901'.
+
+tc.nohits.061901.fasta
+FastA formatted file of 'tc.nohits.061901'.
+
+=================================================================
+I. First round of Genome monitoring. Dec 5, 2000
+
+Run date: 08/11/2000
+Run by: Eva Huala
+Query Set: AtEST built on 8/11/2000
+Database: agiset.20000805
+
+Matches   99110
+No Matches    3739
+Total query seqs: 102849
+Percent No Matches: 3.64%
+==========================
+TIGR's Unique Transcript Sequences Set:
+Run date: 8/14-16/2000
+Run by: Lukas Mueller
+Query Set: AGI.081100
+Database: agiset.20000805
+
+Matches 30518
+No Matches      1244
+Total query seqs:       31762
+Percent No Matches:     3.92%
+==========================
+BAC End Sequences:
+Run date: 8/11/2000-8/14/2000
+Run by: Eva Huala
+Query Set: AtBACEND
+Database: agiset.20000805
+
+Matches 56382
+No Matches      4053
+Total query seqs:       61269
+Percent No Matches      6.62%
+Total Ler seqs: 830
+Total BAC clones mapped: ~800
+
+Number of BAC clones mapped by chromsome:
+1     356
+2      84
+3      61
+4      47
+5     252
+===============================================================
+II. Second round of Genome monitoring. Dec 5, 2000
+
+BAC End Sequences:
+Run date: 12/5/00
+Run by: Sue Rhee
+Query Set: bacend.nohits.unpositioned.081400.fasta
+Database: AGI.nonreduandant of Nov 21, 2000 blastall -p blastn -d
+AGI.nonredundant -i
+/export/home2/genbank/ests/bacend.nohits.unpositioned.081400.fasta -o
+/export/home2/genbank/ests/bacend.out.120500 -F F -v 3 -K 3 -e
+0.0000000001 &
+Matches:        496
+No Matches:     2611
+Total query seqs:       3107
+========================
+Run date: 12/5/00
+Run by: Sue Rhee
+Query Set: bacend.nohits.mapped.081400.fasta
+Database: AGI.nonredundant of Nov 21, 2000 blastall -p blastn -d
+AGI.nonredundant -i
+/export/home2/genbank/ests/bacend.nohits.mapped.081400.fasta -o
+/export/home2/genbank/ests/bacend.mapped.out.120500 -F F -v 3 -K 3 -e
+0.0000000001 &
+Matches:        343
+No Matches:     603
+Total query seqs:       946
+=========================
+Run date: 12/5/00
+Run by: Sue Rhee
+Query Set: tc.nohits.081700.fasta (TCs + singletons)
+Database: AGI.nonredundant of Nov 21, 2000 blastall -p blastn -d
+AGI.nonredundant -i /export/home2/genbank/ests/tc.nohits.081700.fasta
+-o /export/home2/genbank/ests/tc.out.120500 -F F -v 3 -K 3 -e
+0.0000000001 &
+Matches:                691
+No Matches:     552
+Total query seqs:       1243
+===============================
+BAC Ends Testing Upto December 5, 2000
+
+Total # blasted:        61269
+Total # not matched:    3214
+Percent No Matches      5.25%
+
+TCs and singleton ESTs testing
+Total # blasted:        31762
+Total # not matched:    552
+Percent No Matches      1.81%
+
+========================================================
+III. Third round of Genome monitoring. Jan 19, 2001
+
+BAC End Sequences I:
+Run date: 1/22/00
+Run by: Sue Rhee
+Query Set: bacend.nohits.unpositioned.120500.fasta
+Database: ATH1.bacs011501 from TIGR
+blastall -p blastn -d /home/rhee/ATH1.bacs011501 -i /home/rhee/bacend.nohits.unpositioned.120500.fasta -o /home/rhee/bacend.out.012201 -F F -v 3 -K 3 -e 0.0000000001 &
+
+Matches:41      
+No Matches:2570 
+Total query seqs:2611
+==========================
+BAC End Sequences II:
+Run date: 1/22/00
+Run by: Sue Rhee
+Query Set: bacend.nohits.mapped.120500.fasta
+Database: ATH1.bacs011501 from TIGR
+blastall -p blastn -d /home/rhee/ATH1.bacs011501 -i /home/rhee/bacend.nohits.mapped.120500.fasta -o /home/rhee/bacend.mapped.out.012201 -F F -v 3 -K 3 -e 0.0000000001 &
+
+Matches :42
+No Matches:561
+Total query seqs:603
+==============================
+Transcript Sequences:
+Run date: 1/22/00
+Run by: Sue Rhee
+Query Set: tc.nohits.120500.fasta
+Database: ATH1.bacs011501 from TIGR
+blastall -p blastn -d /home/rhee/ATH1.bacs011501 -i /home/rhee/tc.nohits.120500.fasta -o /home/rhee/tc.out.012201 -F F -v 3 -K 3 -e 0.0000000001 &
+
+Matches :72
+No Matches:480  
+Total query seqs:552
+===============================
+BAC End Sequences:
+Run date: 6/19/01
+Run by: Sue Rhee
+Query Set: bacend.nohits.unpositioned.012201.fasta
+Database: ATH1_bacs.061301
+blastall -p blastn -d /home/blast_datasets/ATH1_bacs.06132001 -i /home/rhee/gen\
+ome_monitoring/bacend.nohits.unpositioned.012201.fasta -o /home/rhee/genome_mon\
+itoring/bacend.unpositioned.out.061801 -F F -v 3 -K 3 -e 0.0000000001 &
+
+BAC End Sequences II:
+Run date: 6/19/01
+Run by: Sue Rhee
+Query Set: bacend.nohits.mapped.012201.fasta
+Database: ATH1_bacs.061301
+blastall -p blastn -d /home/blast_datasets/ATH1_bacs.06132001 -i /home/rhee/gen\
+ome_monitoring/bacend.nohits.mapped.012201.fasta -o /home/rhee/genome_monitorin\
+g/bacend.mapped.out.061801 -F F -v 3 -K 3 -e 0.0000000001 &
+
+Transcript Sequences:
+Run date: 6/19/01
+Run by: Sue Rhee
+Query Set: tc.nohits.012201.fasta
+Database: ATH1_bacs.061301
+blastall -p blastn -d /home/blast_datasets/ATH1_bacs.06132001 -i /home/rhee/gen\
+ome_monitoring/tc.nohits.012201.fasta -o /home/rhee/genome_monitoring/tc.out.06\
+1801 -F F -v 3 -K 3 -e 0.0000000001 &
+

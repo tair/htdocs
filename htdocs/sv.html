@@ -1,0 +1,160 @@
+<HTML><HEAD><TITLE>TAIR- Sequence Viewer</TITLE>
+<script language="JavaScript">
+<!--
+var n = (document.layers) ? 1:0;
+var imageDB = new Array(8);
+for (var i = 0; i < imageDB.length; i++) {
+  imageDB[i] = new Image(375,5);
+  imageDB[i].src = "/images/p_"+i+".gif";
+}
+function popup(url) {
+  popup = window.open(url,'Popup','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=500,height=300,screenX=200,screenY=200,left=200,top=200');
+  popup.focus();
+}
+function isOn(x) {
+  document.images["top"].src = imageDB[x].src;
+  document.images["bottom"].src = imageDB[x].src;
+}
+function isOff() {
+  document.images["top"].src = "/images/cleargif.gif";
+  document.images["bottom"].src = "/images/cleargif.gif";
+}
+function showSequence(chr) {
+  field = eval("document.sequence.chr"+chr);
+  sIndex = field.options.selectedIndex;
+  if (sIndex==0)
+    {
+      alert("Please select a query hit.");  
+      return;
+    }
+  myhref = "/servlets/sv?action=hitseq";
+  myhref += "&chr=" + chr + "&hit=" + sIndex + "";
+  wName = "_" + chr + sIndex;
+  window.open(myhref,wName,'width=1200,height=700,toolbar=yes,menubar=yes,scrollbars=yes,resizable=yes,location=yes,status=yes');
+}
+function send(pos) {
+  document.picker.pos.value = pos;
+  document.picker.submit();
+}
+function showHelp(url) {
+  help = window.open(url,'_help','toolbar=yes,menubar=yes,scrollbars=yes,resizable=yes,location=yes,status=yes');
+  help.focus();
+}
+
+function find() {
+  text = eval("document.search.value");
+  info = escape(text.value);
+  selectedType = eval("document.search.type");
+  type = selectedType.options[selectedType.options.selectedIndex].value;
+  zoom = eval("document.chromosomeImage.zooms");
+  zoomIndex = zoom.options.selectedIndex; 
+  if (info) {
+    myhref = "/servlets/sv?action=search";
+    myhref += "&zooms=" + zoomIndex + "&value=" + info+ "&type=" + type;
+    parent.location.href = myhref;
+  }
+  else {
+    alert("Please fill in a value to search");
+  }
+}
+//-->
+</script>
+<LINK REL=StyleSheet HREF="/css/browse.css" TYPE="text/css" >
+ <!-- HEADER using external JavaScript file -->
+<SCRIPT SRC="/js/navbar.js"></SCRIPT>
+<script language='JavaScript'>
+var highlight = 2; var helpfile="/seqViewer/help/sv_intro.htm"
+ </script>
+<!-- HEADER using external JavaScript file -->
+<script language='JavaScript' SRC='/js/header'>
+</script>
+</HEAD>
+<BODY >
+<TABLE align=center border=0 cellpadding=2 cellspacing=0>
+<TR><TD>
+<TABLE  border=0 cellpadding=0 cellspacing=0>
+<TR><TD colspan=3><IMG SRC=/images/cleargif.gif width=404 height=1></TD>
+<TD colspan=1><IMG SRC=/images/cleargif.gif width=200 height=1></TD>
+<TD colspan=1><IMG SRC=/images/cleargif.gif width=1 height=1></TD></TR>
+<!-- first row, title -->
+<TR><TD colspan=3>&nbsp;&nbsp;<span class=title>TAIR SeqViewer Whole Genome View</span></TD>
+<TD colspan=2 align=right > <a href="javascript:showHelp('/seqViewer/help/sv_intro.htm')"><SPAN class= help>HELP</SPAN></A></TD></TR>
+<TR><TD rowspan = 5 colspan=4 align=center>
+<FORM name = chromosomeImage action =/servlets/sv>
+<input type = image name = "click" src="/i/d/genome.gif"  border=0 >
+<input type="hidden" name="action" value="click">
+</TD><TD>1</TD></TR>
+<TR><TD>2</TD></TR>
+<TR><TD>3</TD></TR>
+<TR><TD>4</TD></TR>
+<TR><TD>5</TD></TR>
+<TR><TD colspan=5>&nbsp;&nbsp;Click on green chromosome to open a closeup view</TD></TR>
+</TABLE>
+</TD></TR>
+<!-- control area -->
+<TR><TD align=left>
+<TABLE align=left width=605 border=0 cellpadding=0 cellspacing=10>
+<TR><TD colspan=1><IMG SRC=/images/cleargif.gif width=175 height=1></TD>
+<TD colspan=4><IMG SRC=/images/cleargif.gif width=435 height=1></TD></TR>
+<!-- close up view -->
+<TR><TD colspan=1 valign=top  class=controlbg>
+<TABLE border=0 cellpadding=0 cellspacing=0 width=100%>
+<TR><TD class=stripe>
+<B>Closeup View Options:</B></TD></TR>
+<TR><TD>
+<BR>
+<B>Zoom level:</B><BR>
+<select name="zooms">
+<option value="0"
+>1 x
+<option value="1"
+>5 Mb
+<option value="2"
+ selected 
+>1 Mb
+<option value="3"
+>200 Kb
+</select>
+</TD></TR>
+<TR><TD width=160 align="left">
+<B>Display:</B><BR>
+<input type="checkbox" name="box0" checked>
+ &nbsp; Markers<BR>
+<input type="checkbox" name="box1">
+ &nbsp; Polymorphisms<BR>
+<input type="checkbox" name="box2" checked>
+ &nbsp; Gene Models<BR>
+<input type="checkbox" name="box3" checked>
+ &nbsp; Transcripts<BR>
+<input type="checkbox" name="box4" checked>
+ &nbsp; Annotation Units&nbsp;&nbsp;
+</FORM></TD></TR>
+</TABLE></TD>
+</TD>
+<!-- whole genome view -->
+<TD colspan=4 valign=top align=center class=controlbg>
+<TABLE align=center border=0 cellpadding=0 cellspacing=0>
+<TR><TD  colspan=6 valign=bottom class=stripe>
+<B>Whole Genome View Options: </B></TD></TR>
+<FORM name=search>
+  <TR><TD colspan=6 valign=bottom><BR>
+<B>Search</B> by name <SELECT name=type ><option value=3 selected>any <option value=0>gene <option value=1>marker <option value=2>annotation unit <option value=4>transcript </SELECT>
+<input type="text" name="value" size=10>
+<input type="button" value="go" onclick='find()'>
+<INPUT TYPE="hidden" name="action" VALUE="search">
+</TD></TR></FORM>
+<TR><TD colspan=6 valign=bottom><B>Locate</B> Short Nucleotide Sequence(15-150) On Genome:</TD></TR>
+<FORM name=locate action=/servlets/sv method="POST">
+<TR><TD colspan=6><TEXTAREA NAME=query COLS=40 ROWS=4></TEXTAREA></TD></TR>
+<TR><TD COLSPAN=6>
+Paste a raw <a href="/seqViewer/help/sequence.htm">query sequence or up to 4 multifasta formatted sequences</a> into this box and click Submit. Results may take a minute or two for some queries.<BR>
+</TD></TR>
+<TR><TD COLSPAN=3 align=left><INPUT TYPE="submit" VALUE="Submit"> </TD>
+<TD colspan=3 align=right><INPUT TYPE="reset" VALUE = "Reset">&nbsp; </TD></TR>
+<INPUT TYPE="hidden" name="action" VALUE="locate">
+</TABLE></TD></TR>
+</TABLE></TD></TR>
+</TABLE>
+<script language="javascript" src="/js/footer.js"></script>
+</BODY>
+</HTML>

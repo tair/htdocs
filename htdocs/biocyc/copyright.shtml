@@ -1,0 +1,27 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>
+BioCyc Copyrights
+</title>
+<!-- Changed by: Randy Gobbel, 1-Jan-2004 -->
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<H2>BioCyc Copyrights</H2>
+
+<font size=+1><b>Copyright &copy; 1997-1999, DoubleTwist, Inc., SRI International 1996, 1999-2005.  All Rights Reserved.</b></font>
+<p>DoubleTwist is a registered trademark of DoubleTwist, Inc.<P>
+
+<P>Each BioCyc database contains its own copyright notice.
+
+<P>The Generic Frame Protocol
+is Copyright &copy; 1996 The Board of Trustees of the Leland Stanford
+Junior University and SRI International. All Rights Reserved.
+
+<p>Allegro Common Lisp is Copyright &copy; 1985-2003, Franz Inc., Berkeley, CA, USA.  All Rights Reserved.
+
+
+<!--#include virtual="/template-part3of3.shtml" -->

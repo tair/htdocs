@@ -1,0 +1,110 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="/css/help.css">
+<!-- HEADER using external JavaScript file -->
+<script language="JavaScript" src="/js/helpheader.js"></script>
+<script>
+setPrevious("sv_search.html");
+setNext("sv_nuc.html");
+writeHeader();
+</script>
+
+<!-- End of header -->
+<title>SeqViewer Closeup Page</title>
+</head>
+
+
+<blockquote>
+<h2>The SeqViewer Closeup Page</h2>
+<font class="cont"> The sequence viewer close up page displays a clickable view of the whole Arabidopsis genome on top and one or more close up views displayed below.The global controller is used to select the types and amount of data to display over all, and the single view controls permit independant scrolling, searching and zooming of individual views.</font>
+<h2>Contents</h2>
+<b><a href="#wholec">Whole Genome View</a></b><br>
+<b><a href="#closec">Closeup View</a></b><br>
+<b><a href="#seqc">Sequence Search Hit Close up view</a></b><br>
+<b><a href="#legend">Closeup View Legend</a></b><br>
+<b><a href="#globclosec">Global Closeup Controls</a></b><br>
+<b><a href="#singleclosec">Single View Controls</a></b><br>
+<b><a href="#list">Display List of Genes in View</a></b><br>
+<hr>
+
+<h4><a name="wholec"></a><font>Whole Genome View</font></h4>
+<font class="cont">The SeqViewer Closeup Page displays a clickable view of the whole Arabidopsis genome at the top.The <b>centromeres</b> are shown in blue, <b>search hits</b> are shown as vertical red bars, and positions of <b>closeup views</b> are shown as small black numbered boxes. </font>
+<p><font class="cont">New closeup views can be opened ABOVE the first closeup view (the default setting is to attach to the current page) or replace an existing closeup view (choose the image to be replaced from the drop-down menu).</font>
+<p><img src="images/closeup1.gif" border="1">
+
+<hr>
+
+<h4><a name="closec"></a>Closeup View</h4>
+
+<p>
+<font class="cont"> The closeup view is a zoomable view of a chromosome segment showing different data types as separate map bands.   <b>Markers</b> are displayed in the top band <font color=magenta><b>(magenta)</b></font>followed by <b>Polymorphisms</b> in <font color="red">red </font> and <b>T-DNA /transposon (transgene) insertions</b><font color="purple"><b>(purple)</b></font>.The <b>chromosome ruler</b> with coordinates in nucleotides is next, followed by the <b>gene</b> <font color=orange><b>(orange)</b></font> and <b>transcripts</b> <font color="gray"><b>(gray)</b></font> bands. Within the transcript band, <b>full length cDNA transcripts</b><font color="darkblue"><b>(blue)</b></font> are distinguished from ESTs. <b>Annotation units</b> (BAC clones used to assemble the genome sequence) are <font color=darksalmon><b>(pink)</b></font>.</font>
+<p><font class="cont"> Each object in a band has a tick mark on the colored tick bar below the band, in red for objects with names visible above and in black if the object is not displayed above.   Names of objects matching a text search are highlighted in yellow.  Arrowheads indicate direction of transcription (genes) or the object's orientation (clones, insertion flanking sequences).When the cursor is placed over an object, a window will appear to display information about the object.</font>
+</p>
+
+<p><img src="images/closeup4.gif" border="1" border="1">
+<p>
+<font class="cont">Use the closeup view to:
+<ul>
+  <li> <font class="cont"><strong>Scroll</strong> left or right using the scroll arrows at the top left and right corners.</font>
+  <li> <font class="cont"><strong>Recenter the view</strong> by clicking on the bar between the scroll arrows.  If the cursor is positioned in this region, a yellow bar and the words "click to recenter" will appear.</font>
+  <li> <font class="cont"><strong>Click on an object</strong> in a map band to open a new window displaying information on the object from the TAIR database.</font>
+<li><font class="cont"><strong>Mouse-over</strong> data objects to show information about the object and <strong>click</strong> on the nucleotide sequence view in the pop up window to open a nucleotide sequence view centered on the object</font>
+<li> <font class="cont"><strong>Click on the ruler</strong> to open a 10 kb nucleotide window displaying the nucleotide sequence and annotation.</font>
+<li><font class="cont"><strong>Click</strong> the 'List Genes in Range' button to display a list of loci and gene models contained within the close-up view.</font>
+</ul>
+
+<hr>
+
+<h4><a name="seqc"></a><font>Sequence Search Hit Close up View</font></h4>
+
+<p>
+<font class="cont"> If a closeup view centered on a sequence search hit is opened by clicking on a vertical red bar on the genome view, a new band appears above the top map band, containing a red line, the name of the query sequence from the fasta header, and the position of the match. Click on the name of the query sequence in the red match band to open a nucleotide window displaying the sequence match highlighted in red.</font>
+
+<p><img src="images/closeup5.gif" border="1" border="1">
+
+<hr>
+<h4><a name="legend"></a>Closeup View Legend</h4>
+<p><font class="cont">Clicking on "show legend" will display a pop-up window explaining the symbols used in the close up view display.</font>
+<hr>
+<h4><a name="globclosec"></a><font>Global Closeup Controls</h4>
+
+<p>
+<font class="cont">The Global Closeup View controls allow the zoom level and data types of all displayed closeup views to be customized for all open closeup views.  Use the drop-down menu to choose the desired zoom level and put check marks by the bands desired in the closeup view.  The number of rows of objects per band can also be set here using the 3 data rows / show all data option. Choosing show all data will display 6 rows that can be  zoomed to levels 1x, 5 Mb and 1Mb and all objects to be displayed for zoom levels 200 kb to 10 kb.</font> 
+</p>
+
+<p><img src="images/closeup2.gif" border="1">
+
+
+<p>
+<font class="cont">After choosing the zoom level, data types and number of rows, click on a chromosome in the whole genome view at the top to open a closeup view centered on that point. The update button can be used to update any open closeup views.</font> 
+</p>
+ 
+<hr>
+
+<p>
+<h4><a name="singleclosec"></a>Single View Controls</h4>
+
+<p>
+<font class="cont">Use the single view controls to the left of a closeup view to change zoom level, search within the chromosome shown in the closeup view, or choose a range to display for a custom view. Click on the "list genes in view" button to obtain a list of all genes with in the range.</font> 
+</p>
+
+<p><img src="images/closeup3.gif" border="1">
+
+<hr>
+
+<h4><a name=list></a>Display List of Genes in View</h4>
+<font class="cont">When you click on the button to display a list of genes in the view, a new window will open showing a table of all the genes in the range. You can click on the location coordinates to open a 10kb nucleotide sequence view centered on the gene, open a window showing the TAIR gene and locus detail pages or view the gene annotations in TIGR and MIPS databases. Click on "download" to download the table on to your computer in a tab delimited format which can be opened in a text editor or spreadsheet program.</font>
+<p><img src="images/genelist.gif" border ="1">
+
+
+<!-- footer using external javascript file starts here -->
+<script language="JavaScript" src ="/js/helpfoot.js"></script>
+<script>
+setPrevious("sv_search.html");
+setNext("sv_nuc.html");
+writeFooter();
+</script>
+<!-- end footer -->
+</body>
+</html>

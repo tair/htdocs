@@ -1,0 +1,6 @@
+<html>
+<head>
+<!-- This 3-part template is used on every static web page in this site. -->
+<base href="http://www.arabidopsis.org/biocyc/">
+<link rel=stylesheet type="text/css" href="style.css">
+<title>

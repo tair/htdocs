@@ -1,0 +1,24 @@
+>gi|16580617|emb|AJ295138.1|ATH295138 Arabidopsis thaliana gypsy-like retrotransposon PCR product ARAGY-L1
+>gi|20268800|gb|AY091158.1| Arabidopsis thaliana CKX5 mRNA sequence
+>gi|20268799|gb|AY091157.1| Arabidopsis thaliana RAFL04-14-M02 mRNA sequence
+>gi|13434997|gb|AF132729.1|AF132729 Arabidopsis thaliana SKP1-like protein ASK10 (ASK10) mRNA, partial cds
+>gi|14594806|emb|AJ298139.1|ATH298139 Arabidopsis thaliana mRNA for beta-glucuronidase (gus gene)
+>gi|7263633|emb|AJ276750.1|ATH276750 Arabidopsis thaliana partial mRNA, clone DiDi 17C-2a
+>gi|7263621|emb|AJ276739.1|ATH276739 Arabidopsis thaliana partial mRNA, clone DiDi 12C-1a
+>gi|7208790|emb|AJ286352.2|ATH286352 Arabidopsis thaliana partial mRNA for hypothetical protein (DiDi 1C-4c gene)
+>gi|6822112|emb|AJ286355.1|ATH286355 Arabidopsis thaliana partial mRNA for hypothetical protein (DiDi 14C-2a gene)
+>gi|6822096|emb|AJ286347.1|ATH286347 Arabidopsis thaliana partial mRNA for 60S L13 ribosomal protein (diDi 13A-1 gene)
+>gi|11762267|gb|AF325055.1|AF325055 Arabidopsis thaliana 000C19H04 mRNA, complete cds
+>gi|11120513|gb|AF303981.1|AF303981 Arabidopsis thaliana cytokinin oxidase (CKX5) mRNA, complete cds
+>gi|3283025|gb|AF051562.1|AF051562 Arabidopsis thaliana transposon Tag1 putative transposase mRNA, complete cds
+>gi|3168964|emb|AJ006409.1|ATH6409 Arabidopsis thaliana mRNA for flavanol sulfotransferase-like protein
+>gi|2281642|gb|AF003102.1|AF003102 Arabidopsis thaliana AP2 domain containing protein RAP2.9 mRNA, partial cds
+>gi|2121274|gb|AF000147.1|ATAF000147 Arabidopsis thaliana UMP/CMP kinase (pyr6) mRNA, complete cds
+>gi|1850600|gb|U88402.1|ATU88402 Arabidopsis thaliana Rac-like protein mRNA, complete cds
+>gi|1703655|gb|S82298.1|S82298 copper amine oxidase [Arabidopsis thaliana, mRNA Partial, 45 nt]
+>gi|1703653|gb|S82296.1|S82296 copper amine oxidase [Arabidopsis thaliana, mRNA Partial, 45 nt]
+>gi|22653|emb|X68304.1|ATGLUTRA A.thaliana mRNA for glutathione transferase
+>gi|16247|emb|X63616.1|ATCYCP A.thaliana mRNA for cyclophilin-like protein
+>gi|19551|emb|X60047.1|MIATNAD5C A.thaliana mitochondrial nad5 gene for NADH dehydrogenase subunit 5, exon c
+>gi|727143|gb|L33781.1|ATHCPBP Arabidopsis thaliana (strain Ecotype RLD) cab3 promoter-binding protein mRNA, complete cds
+>gi|571319|gb|U01171.1|ATHPTR2 Arabidopsis thaliana peptide transporter (ptr2) mRNA, complete cds

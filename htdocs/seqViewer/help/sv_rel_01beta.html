@@ -1,0 +1,74 @@
+<!--<BASE HREF="http://arabidopsis.org:80/search/"> -->
+<html>
+<head>
+<title>TAIR: SeqViewer Release Notes</title>
+<script language="JavaScript" src="/js/navbar.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/main.css" >
+<script language='JavaScript'>
+var highlight = 2; var helpfile="";
+</script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#F5F9FF">
+
+
+<!-- HEADER using external JavaScript file -->
+<script language='JavaScript' src="/js/header"></script>
+
+
+<P>
+<TABLE width="602" align="center" border="0" cellspacing="0" cellpadding="2">
+	<TR>
+		<TD width="602">
+		
+		<SPAN class="header">SeqViewer Release Notes</SPAN><BR>
+	  <P>TAIR's <A href="/servlets/sv">SeqViewer</A> allows users to view and search the whole Arabidopsis genome with associated annotation down to the nucleotide level.  As with the <A href="/servlets/mapper">MapViewer</A>, each map element
+is hyperlinked to a detail page from our database. A detailed help
+document on what is available and how to navigate this tool is
+available: <A href="/seqViewer/help/sv_intro.htm">TAIR SeqViewer Help</A> </P>
+
+<B>June 2003 Release</B> :<P>
+The SeqViewer bas been updated to desplay the TIGR 4.0 version of the Arabidopsis genome.  A T-DNA/Tn band has also been added in the last few months.<P>
+
+<B>Note on Annotation Units</B> :<P>
+The SeqViewer is now displaying an annotation unit band to more accurately reflect the data used to construct the map.  Annotation units are clone sequences that were artificially extended by adding neighboring clone sequences to facilitate annotation of genes in the overlap regions.  Annotation units are named after the clone that contributed the most sequence.  An annotation unit detail page containing a sequence link is hyperlinked to each annotation unit shown on the map.  From this detail page the user can click on the clone name to go to the corresponding clone detail page linked to the original GenBank clone sequence and clone ordering information.  We made this change to avoid misleading users about which clone in an overlap region contains a particular gene.  To verify that a gene is present on a clone before ordering it, try a <a href="/Blast/">BLAST</a> search using your gene of interest as the query sequence against the GenBank AGI BAC Sequences dataset and make sure your gene matches to the clone you plan to order (it may be present on two overlapping TIGR clone sequences due to the artificial extension of the sequence but only appear on one of the two GenBank clone sequences).
+	 
+	             <P><B>Major Features</B> : 
+              <UL>
+		<LI>Whole genome view showing positions of search hits.
+		<LI>Searching by sequence match (15-150 nt) or object name.
+		<LI>Closeup view zooms down to 10 kb.
+		<LI>Gene annotation including exons, introns and UTRs visible in the closeup and nucleotide views.
+		<LI>Marker, polymorphism, transcript (EST and cDNA), T-DNA and transposon insertion and annotation unit positions are visible in the closeup and nucleotide views.
+		<LI>Mouseover any object to view additional information.	
+		<LI>Click on any object to view a detail page.	
+                <LI>Forward strand or complement strand can be displayed.
+              </UL>
+              		    
+              <P><B>Known Bugs and Data Problems</B> :
+              <UL>
+		 <LI>Some objects in BAC overlap regions are truncated at the end of the annotation unit.
+		 <LI>For overlapping annotations or highlighted search results overlapping with annotations, extent and color of highlighted regions is occasionally incorrect.  To avoid this problem, try selecting the complement strand and/or hiding the gene annotation on the other strand.
+		 <LI>Nucleotide sequence numbering is offset from sequence lines for some monospace fonts.  Choose a monospace font other than Courier New in your browser.
+              </UL>
+              		    
+              <P><B>Coming Soon</B> :
+              <UL>
+		 <LI>New data types including BAC ends and microarray elements.   	     
+                 <LI>Show/hide for subsets of objects in a band.
+		 <LI>Special display for genes with mutant phenotypes.
+              </UL>
+		<HR>
+	       <P>Please note that this is the first version and we are working 
+                on improving functionalities for our next version. Please let 
+                us know if you find any bugs, have suggestions 
+                for improvement, or find errors in the data. You can contact 
+                us at: <A href="mailto:curator@arabidopsis.org">curator@arabidopsis.org</A>.
+
+		</TD>
+	</TR>
+</TABLE>
+
+<TABLE width="602" align="center"><TR><TD colspan="3"><BR><HR size=1 width="90%"></TD></TR><TR><TD><A href="http://www.ncgr.org"><IMG src="/images/ncgrlogoredsmall.gif" alt="" border="0" align="left"></A></TD><TD><A href="http://www.biosci.ohio-state.edu/~plantbio/Facilities/abrc/abrchome.htm"><IMG src="/images/abrc.gif" alt="" border="0" align="left"></A></TD><TD><A href="http://carnegiedpb.stanford.edu"><IMG src="/images/ciw-logosmall.gif" alt="" border="0" align="right"></A></TD></TR><TR><TD colspan=3 ALIGN = "CENTER">general comments or questions to: <A href="mailto:curator@arabidopsis.org"><B>curator@arabidopsis.org</B></A><BR>comments or questions about seed stocks to: <A href="mailto:seedstock@arabidopsis.org"><B>seedstock@arabidopsis.org</B></A><BR>comments or questions about DNA stocks to: <A href="mailto:dnastock@arabidopsis.org"><B>dnastock@arabidopsis.org</B></A></TABLE>
+</BODY>
+</HTML>

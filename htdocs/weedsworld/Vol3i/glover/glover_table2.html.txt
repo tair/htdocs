@@ -1,0 +1,36 @@
+
+Line Number	No insert	1 insert	2 inserts	3 or more inserts	Other*
+								or non- segregating
+
+Ratio		All kanS	3:1		Between 3:1	63:1 or &gt;63:1
+kanR:kanS					and 15:1
+						
+178		19		2		1
+
+243				3		1		4			2
+
+547		3		7		1		4			1
+
+1097		3		12		2		2			5
+
+1180		9		4				
+
+1885		2		5		2		1			12
+
+1926		17		9
+
+2379		1		5		5					15
+
+2415		2		1		1		7			6
+
+2522		29
+
+2836		6		2
+
+3181		2		8
+
+3529				3		3		5
+
+3914		6		9
+
+4416				4				1			3

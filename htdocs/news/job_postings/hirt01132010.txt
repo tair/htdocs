@@ -1,0 +1,50 @@
+Living with uninvited guests - comparing plant and animal responses to
+endocytic invasions
+
+Eukaryotic cells infected by pathogens are compromised at many
+different levels, because an extensive system of communication between
+the host and the pathogen is established via inter-species
+protein-protein interactions. How do cells respond to bacteria, which
+usually encode hundreds to thousands of genes? To which subset of the
+corresponding bacterial gene products are host cells exposed? A
+European project of 7 laboratories tries to address these questions
+for host responses to Salmonella, which physically enters both animal
+and plant cells. This spectacular and to date unique tolerance of
+Salmonella to extreme divergence of host species, makes this organism
+an ideal case study to investigate fundamental biological mechanisms
+of host-pathogen communication. Studying the similarities and
+differences in responses of very diverse hosts to the same pathogen,
+can reveal how pathogens evade detection and elimination from
+hosts. This project has practical significance, because Salmonella
+bacteria present in raw meats, fruits and vegetables cause
+salmonellosis, which is the s most widely spread food poisoning.
+
+By bringing together 7 laboratories working in infection biology,
+signalling,  transcriptomics, proteomics, bioinformatics and systems
+biology, we will ask the following Which weak  exist in animals and
+plants that this pathogen is . Our central hypothesis is that plants
+and animals respond to pathogen invasion in fundamentally similar
+ways.  We will test this hypothesis through an integrative cycle of
+computational and experimental approaches. Systems biology is needed
+to address the even more complex interaction between bacteria and
+eukaryotic hosts. Recent advances in proteomics and transcriptomics
+provide the opportunity to study the whole range of inter-dependent
+responses inaccessible to traditional methods. This will allow us to
+develop an integrated picture of cellular pathways, in which we
+identify the positions of the proteins that communicate with the
+pathogen. These results will be exploited for drug development,
+disease forecasting, prevention and control.
+
+Several post-doctoral positions are available in this 3-year project
+in the partner laboratories of Judith Klein-Seetharaman, Research
+Center Julich, Germany (coordinator); Heribert Hirt, URGV Plant Genomics,
+Paris, France; Vincent Jansen, Alex Gammerman, Mikhail Soloviev, Royal
+Holloway University of London, UK and VLA, Surrey, UK; Gary Coulton,
+St. George's University and Hospital, London, UK; Harald Mischak,
+Mosaiques Diagnostics, Germany; Baldo Oliva, Universitat Pompeu Fabra,
+Spain; Jose Manuel Mas, Veronica Martinez and Laura Pujadas,
+Infociencia, Spain.
+
+Candidates should submit a full CV, including publication record and
+two reference letters to Heribert Hirt(hirt@evry.inra.fr). Application
+deadline 28 February 2010.

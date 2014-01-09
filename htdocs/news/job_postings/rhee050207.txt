@@ -1,0 +1,67 @@
+Several bioinformatics positions available for generating and analyzing plant 
+metabolic networks
+
+Two postdoctoral research positions and a database curator position are 
+available immediately in Dr. Sue Rhee’s group at the Carnegie Institution, 
+Department of Plant Biology (Stanford, CA). 
+
+1) A bioinformatics postdoctoral position to predict metabolic pathway networks 
+in higher plants computationally. This project will use a gold-standard, 
+experimentally verified plant pathway data from the literature and available 
+sequence data to generate metabolic networks for a number of plant species.
+
+2) A bioinformatics postdoctoral position to create and test a predictable 
+metabolic network model in Arabidopsis. This project aims to convert the 
+manually curated Arabidopsis metabolic pathway database (AraCyc, 
+www.arabidopsis.org/tools/aracyc) into a statistically robust, predictable model 
+of a metabolic network and test the model by analyzing results of metabolite 
+profiling experiments with specific reactions in the network removed. The 
+project is a part of a larger metabolomics consortium program 
+(www.plantmetabolomics.org) whose goal is to use metabolite profiling 
+experiments as a way to elucidate enzyme functions and metabolic pathways.
+
+3) A scientific database curator position to develop a comprehensive catalog of 
+plant metabolic pathways and enzymes. The project expands the coverage of 
+metabolic pathways from AraCyc to all known pathways in all plant species. This 
+database will be used as a reference database to generate other organism-
+specific plant pathway databases such as for maize, wheat, and poplar. The 
+curator will be responsible for: i) researching new plant metabolic pathways and 
+enzymes in the scientific literature, and to evaluate, extract, organize, and 
+enter that information to the database; ii) contributing to the development of 
+standard procedure and operation rules on curation methods and to the general 
+development of the database, such as data integration, web page enhancement, and 
+data exchange with other databases.; and iii) communicating with the research 
+community to improve the quality of the data, to train them in using the 
+database and related tools, and to support user requests. 
+
+Requirements for the positions
+
+The successful candidates will work with highly trained metabolism curators 
+(post-Ph.D. level biologists with an expertise in plant metabolism), software 
+developers and a number of pioneering plant biochemists around the world. 
+Qualified candidates for the postdoc positions must have a Ph.D. or equivalent 
+in Biology, Mathematics, Computer Science, Engineering or related field, a 
+strong background in using statistics, programming and modeling, and strong 
+communication skills. For the curator position, a Ph.D. degree in biochemistry 
+or related field is required. The successful candidate should have a 
+demonstrated ability for independent and critical thinking, excellent 
+communication and teamwork skills. Experience with Unix operating system, Perl, 
+and web page editing is an extra asset.
+
+Please email a brief letter describing your research experience, plus your CV 
+and contact information for 3 references to Dr. Sue Rhee at 
+rhee@acoma.stanford.edu.
+
+The Carnegie Institution, a private, nonprofit organization engaged in basic 
+research and advanced education in biology, astronomy, and the earth sciences, 
+was founded and endowed by Andrew Carnegie in 1902 and incorporated by an act of 
+Congress in 1904. Andrew Carnegie conceived the Institution's purpose "to 
+encourage, in the broadest and most liberal manner, investigation, research, and 
+discovery, and the application of knowledge to the improvement of mankind." The 
+Department of Plant Biology engages in basic research on the mechanisms involved 
+in the growth and development of plants and algae. The Department of Plant 
+Biology is co-located with the Carnegie Department of Global Ecology on a seven-
+acre site on the campus of Stanford University.
+
+ 
+

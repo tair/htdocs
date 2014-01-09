@@ -1,0 +1,654 @@
+<HTML>
+<HEAD>
+<TITLE>Unformatted List of Mutant Linkage Data</TITLE>
+</HEAD>
+<HR>
+<CENTER>
+<H1>Linkage Table - Mutant Genes</H1>
+</CENTER>
+<HR>
+This is a comprehensive list of mutant genes for which linkage data are available. 
+Follow <A HREF="mutant_list_exp.html">this link</A> for an explanation of column headings. Synonyms for mutant genes 
+known by more than one name are included in. E-mail addresses of 
+laboratories contributing linkage information can be obtained by clicking 
+on the reference lab heading. 
+<P>
+<I>Note that this list has been formatted to line up.  Data is "TAB" delimited with spaces used
+to pad the field sizes so the columns will line up.  Keep this in mind if you save this 
+page as a file to edit with a spreadsheet.
+</I>
+<PRE> 
+<B>Locus</B>   <B>#</B> <B>Current</B> <B>Status</B>  <B>Map</B>  <B>Linked</B>         <B>%Rec</B>    <B>Lab</B>    <B>Full Descriptive Name</B>		  <B>Alias</B><BR><FORM ACTION="/advworks/ ........ " METHOD=POST>
+<! counters for number of "unique" loci and number of loci on classical map >
+ABA1    5          CM     98   MIN             7       1     ABA deficient                  <BR>
+ABA2    1          CM     70   CH1             12B     1     ABA deficient                  <BR>
+ABA3    1          CM     10   AN              10B     1     ABA deficient                  <BR>
+ABI1    4          CM     55   CER2            3       1     ABA insensitive                <BR>
+ABI2    5          AVM    -    TZ              -       3     ABA insensitive                <BR>
+ABI3    3          CM     38   GL1             10      1     ABA insensitive                <BR>
+ABI4    2          CM     66   -               -       3     ABA insensitive                <BR>
+ABI5    2          CM     53   -               -       3     ABA insensitive                <BR>
+ACA1    5          U      -    -               -       4     Azetidine-2-carboxylic acid re <BR>
+ACD1    3          CM     68   GL1             21      5     Accelerated cell death         <BR>
+ACD2    4          CM     68   AP2/CP3         &lt1/4    5,86  Accelerated cell death         <BR>
+ACL1    4          CM     55   -               -       7     Acaulis (short floral stems)   <BR>
+ACL2    1          CM     83*  MI209/MI303     0/0     7     Acaulis (short floral stems)   <BR>
+ACL3    3          AV     -    GL1             10      7     Acaulis (short floral stems)   <BR>
+ACL5    5          AM     -    ASA1            5B      7     Acaulis (short floral stems)   <BR>
+ACT1    1          CM     35   AN              30      6     Cp glycerol-3-phosphate acyltr <BR>
+ADD1    5          CM     23*  G4560           1       26    Arrested development           <BR>
+ADH1    1          CM     114  CLV1            6       8     Alcohol dehydrogenase deficien <BR>
+AES     1          **          GAPB/NGA280     20/10   107   Abnormal early stomata         <BR>
+AG      4          CM     42   CH42            3       1     Agamous                        <BR>
+AGE1    1          **          AtEAT1          1       97    Auxin altered gene expression  <BR>
+AGE2    5          **          NGA106          2       97    Auxin altered gene expression  <BR>
+AGR     5          AM     -    LFY3            4       60    Agravitropic                   <BR>
+AIM     4          U      BOT  -               -       27    Abnormal inflorescence meriste <BR>
+AIN1    1          CM     70   -               -       67    Ethylene insensitive           <BR>
+ALB1    1          CM     12   DIS1            10      1     Albina                         <BR>
+ALB2    5          CM     15   CO              1       1     Albina                         <BR>
+ALB3    2          U      -    -               -       9,10  Albina                         <BR>
+ALB4    4          CM     40   -               -       -     Albina                         <BR>
+ALF1    =   HLS3          -    -               -       14    Aberrant lateral root formatio HLS3*<BR>
+ALF3    5          CM     68*  DFR/NGA129      9\7     14,8  Aberrant lateral root formatio <BR>
+ALF4    5          CM     15*  NGA151/249      1\1     14,8  Aberrant lateral root formatio <BR>
+ALF5    3          U      MID  -               -       14    Aberrant lateral root formatio <BR>
+ALR1    1          AM     -    NGA280          33      72    Aluminum resistant             <BR>
+ALS1    5          CM     62*  NGA129          17A     72    Aluminum sensitive             <BR>
+ALS4    5          AM     -    NGA151          6       72    Aluminum sensitive             <BR>
+AMP1    3          U      -    AP3-TT5         -       10,6  Altered meristem program       (COP2)  (HPT)  (PT)<BR>
+AMT1    5          CM     11   ASA-1           &lt1      11    a-methyl tryptophan resistant  <BR>
+AN      1          CM     0    SUS1            &lt1      1,2   Angustifolia (narrow leaf)     <BR>
+ANL1    5          CM     15   ALB2            0A      1     Anthocyaninless                <BR>
+ANT     4          AM     -    DHS1/AG         0\19    55    Aintegumenta (integument defec <BR>
+AP1     1          CM     99   CER6            2       1     Apetala                        <BR>
+AP2     4          CM     68   FD              1       1     Apetala                        (FLO2>4)<BR>
+AP3     3          CM     81   TT5             0       1     Apetala                        <BR>
+ARA1    4          CM     37   FCA             &lt1      12    Arabinose sensitive            <BR>
+ARC6    5          U      BOT  -               -       62    Accumulation, replication chlo <BR>
+ARG1    1          **          ETR1/AP         4/2     60    Altered response to gravity    <BR>
+AS1     2          CM     64   EMB18           &lt1      1,2   Asymmetric leaves              <BR>
+AS2     1          CM     85   -               -       13    Asymmetric leaves              <BR>
+ATR     5          U      -    -               -       14    Altered tryptophan regulation  <BR>
+ATS     5          CM     64   EMB9            5B      1     Aberrant testa shape           <BR>
+AUX1    2          CM     66   -               -       1     Auxin resistant                (WAV5)<BR>
+AXR1    1          CM     12   AXR3            1       15    Auxin resistant                <BR>
+AXR2    3          CM     33   GL1             13      15    Auxin resistant                <BR>
+AXR3    1          CM     11   AXR1            1       15    Auxin resistant                <BR>
+AXR4    1          CM     62   -               -       -     Auxin resistant                (RGR)<BR>
+BAL     4          AVM    -    AG              4A      54    Ball (twisted leaves)          <BR>
+BEL1    5          CM     50   -               -       -     Bell-shaped ovules; female ste <BR>
+BER     1          AM     -    RAP10-M253      -       57    Bicyclic ether resistant       <BR>
+BIO1    5          CM     74   TZ              4       2     Biotin auxotroph               <BR>
+BIO2    2          CM     67   AS              8       2     Biotin auxotroph               <BR>
+BOT1    1          CM     115* ADH             5B      59    Botero (short hypocotyl)       <BR>
+BP1     4          CM     15   EMB132          3       1,2   Brevipedicellus (downward sili <BR>
+BUM     1          CM     89   AP1             9A      26    Bumbershoot (shoot meristem)   <BR>
+CAD1    5          CM     57   TT3             -       12    Cadmium sensitive              <BR>
+CAD2    4          U      -    -               -       12    Cadmium sensitive              <BR>
+CAL     1          CM     46   -               -       -     Cauliflower (defective inflore <BR>
+CAO     2          **          MI79a                   106   Chaos                          <BR>
+CAR1    1          CM     87*  NGA128          5B      72    CaMV resistant                 <BR>
+CBB2    4          CM     76*  DHS1            3       41    Cabbage (extreme dwarf)        <BR>
+CBB3    5          CM     13*  NGA151/106      8\11    41    Cabbage (extreme dwarf)        <BR>
+CEP     4          **          NGA1107/NGA1139         99    Constitutive expression of PR- <BR>
+CER1    1          CM     1    AN              1       1     Eceriferum (altered surface wa <BR>
+CER2    4          CM     52   EMB140          0       1,2   Eceriferum (altered surface wa <BR>
+CER3    5          CM     82   LFY             0       1,16  Eceriferum (altered surface wa <BR>
+CER4    4          CM     61   CP3             15      1     Eceriferum (altered surface wa <BR>
+CER5    1          CM     70   CLV2            16      1     Eceriferum (altered surface wa <BR>
+CER6    1          CM     96   AP1             2       1     Eceriferum (altered surface wa (POP1)<BR>
+CER7    3          CM     88   FUS6            &lt1      1,2   Eceriferum (altered surface wa <BR>
+CER8    2          CM     76   EMB39           &lt1      1,2   Eceriferum (altered surface wa <BR>
+CER9    4          CM     76   AP2             9       1     Eceriferum (altered surface wa <BR>
+CH1     1          CM     58   EMB22           4       1,2   Chlorina (yellow green)        <BR>
+CH5     5          CM     43   TT2             2       1     Chlorina (yellow green)        <BR>
+CH6     3          CM     84   TT5             3       1     Chlorina (yellow green)        <BR>
+CH12    4          U      -    -               -       17    Chlorina (yellow green)        <BR>
+CH13    4          U      -    -               -       17    Chlorina (yellow green)        <BR>
+CH17    3          U      -    -               -       17    Chlorina (yellow green)        <BR>
+CH42    4          CM     44   AG              3       1     Chlorina (yellow green)        <BR>
+CHvi3   3          U      -    -               -       17    Chlorina (yellow green)        <BR>
+CHL1    1          CM     14   DIS1            3       1     Chlorate resistant             <BR>
+CHL2    2          CM     36   ER              12      1     Chlorate resistant             <BR>
+CHL3    1          CM     56   CH1             6       1     Chlorate resistant             (NIA2)<BR>
+CHL4    =   RGN           -    -               -       18    Discontinued                   RGN*<BR>
+CHL5    2          U      -    -               -       18    Chlorate resistant             <BR>
+CHL6    5          CM     22   -               -       18    Chlorate resistant             <BR>
+CHM     3          CM     32   GL1             15      1     Chloroplast mutator            <BR>
+CHP7    5          CM     8    CO              6       1     Chlorophyll mutant             <BR>
+CHS1    1          CM     33   AN              29      6     Chilling sensitive             <BR>
+CKR1    =   EIN2          -    -               -       72    Cytokinin resistant            EIN2*<BR>
+CLM     3          AVM    -    GL1/BGL1        12/12   54    Clam (compressed rosette)      <BR>
+CLV1    1          CM     110  EMB120          3       1,2   Clavata (extra carpels)        (FLO5)<BR>
+CLV2    1          CM     89   SUS3            2       1,2   Clavata (extra carpels)        <BR>
+CLV3    2          CM     47   ER              1       42    Clavata (extra carpels)        <BR>
+CN      4          CM     31   -               -       19    Convoluta (leaf shape, twisted <BR>
+CO      5          CM     13   ALB2            1       1     Late flowering                 (FG)<BR>
+COB     5          CM     80   LFY             1       43    Cobra (root defective)         <BR>
+COG1    =   RPP1          -    -               -       34    Altered recognition of Peronos RPP1*<BR>
+COP1    2          CM     60   AS              3       2,20  Constitutive photomorphogenic  (EMB168) (FUS1)<BR>
+COP2    =   AMP1          -    -               -       20    Constitutive photomorphogenic  AMP1*<BR>
+COP3    =   HLS1          -    -               -       20    Constitutive photomorphogenic  HLS1*<BR>
+COP8    4          AM     -    GA1             14A     20    Constitutive photomorphogenic  <BR>
+COP9    4          CM     29   BP              10      2,20  Constitutive photomorphogenic  (EMB143) (FUS7)<BR>
+COP10   3          CM     13*  NGA162          2A      20    Constitutive photomorphogenic  <BR>
+COP11   =   FUS6          -    -               -       20    Constitutive photomorphogenic  FUS6*<BR>
+COP12   =   FUS12         -    -               -       20    Constitutive photomorphogenic  FUS12*<BR>
+COP13   =   FUS11         -    -               -       20    Constitutive photomorphogenic  FUS11*<BR>
+COP14   =   FUS4          -    -               -       20    Constitutive photomorphogenic  FUS4*<BR>
+COP15   =   FUS5          -    -               -       20    Constitutive photomorphogenic  FUS5*<BR>
+CP1     4          CM     28   AG              13      1     Compacta (semi dwarf)          <BR>
+CP2     2          CM     38   FVE             6       1     Compacta (semi dwarf)          <BR>
+CP3     4          CM     73   AP2             5       1,86  Compacta (semi dwarf)          <BR>
+CPC     2          CM     77*  M336            3B      58    Caprice (root hair defective)  <BR>
+CPR6    1          **          NGA280/G4026            98    Constitutive expression of PR  <BR>
+CRC     1          CM     100  AP1             1       21    Crabs claw (floral defective)  <BR>
+CRM1    3          LO     -    GL1             35      7     Corymbose inflorescence        <BR>
+CSI     4          CM     11   BP              -       22    Cesium resistant               <BR>
+CSR1    3          CM     70   TT5             9       1     Chlorsulfuron/imidazolinone re <BR>
+CTR1    5          CM     0    TT4             11A     23    Constitutive triple response   <BR>
+CUD     4          CM     66*  DHS1            16A     43    Cudgel (root defective)        <BR>
+CUE1    5          CM     43*  TTG/-           11B/-   24    CAB underexpressed             <BR>
+CYR1    5          AM     -    DFR             13      44    Cytokinin resistant            <BR>
+CYT1    2          CM     65   AS              2       2     Embryo, cytokinesis defective  (EMB101)<BR>
+DAD     2          **          M336            2       58    Defective anther dehiscence    <BR>
+DDM1    5          U      -    -               -       54    Decreased DNA methylation      <BR>
+DEI1    3          AM     -    PURM            2       59    Embryo, hypocotyl defective    <BR>
+DET1    4          CM     20   BP              4       24    De-etiolated                   (FUS2)<BR>
+DET2    2          CM     64   ER/M429         -/2A    24    De-etiolated                   <BR>
+DET3    1          CM     12   CHL1            2       24    De-etiolated                   <BR>
+DGD1    3          CM     11*  NGA162/172      6\18    85    Digalactosyl diacylglycerol de <BR>
+DIM1    =   DWF1          -    -               -       73    Diminutia                      DWF1*<BR>
+DIS1    1          CM     19   GN              2       1,2   Distorted trichomes            <BR>
+DIS2    1          CM     45   EMB88           2       1,2   Distorted trichomes            <BR>
+DOC1    3          CM     4    -               -       24    Dark over-expression of CAB    <BR>
+DOC2    5          CM     36   -               -       24    Dark over-expression of CAB    <BR>
+DOC3    1          CM     90   -               -       24    Dark over-expression of CAB    <BR>
+DRG     4          CM     56*  PG11            3       55    Dragon (ovule defective)       <BR>
+DW1     1          CM     23   GAI             &lt1      1     Dwarf                          <BR>
+DWF1    3          CM     26   -               -       25    Dwarf                          (DIM1)<BR>
+DWF2    4          **                                  25    Dwarf                          <BR>
+DWF3    5          **                                  25    Dwarf                          <BR>
+DWF4    3          **                                  25    Dwarf                          <BR>
+DWF5    1          **                                  25    Dwarf                          <BR>
+DWF7    4          **                                  25    Dwarf                          <BR>
+DWF8    5          **                                  25    Dwarf                          <BR>
+E112    =   PRC1          -    -               -       59    Discontinued                   PRC1*<BR>
+ECO     1          AM     -    NGA280          10      26    Ectopic outgrowth (meristem, l <BR>
+ECR     =   RPW           -    -               -       64,7  Discontinued                   RPW*<BR>
+EDS1    3          **          G4564/G4014             100   Enhanced disease susceptibilit <BR>
+EDS5    4          **          UM59b           1       5     Enhanced disease susceptibilit <BR>
+EDS9    3          **     TOP                          5     Enhanced disease susceptibilit <BR>
+EFS     1          **          ADH             4       1     Early flowering in short days  <BR>
+EIN1    =   ETR           -    -               -       23    Ethylene insensitive           ETR*<BR>
+EIN2    5          CM     1    -               -       23    Ethylene insensitive           (CKR1)<BR>
+EIR1    5          CM     70   TT3             12      23    Ethylene insensitive root      <BR>
+ELF3    2          CM     47   ER              1       26    Early flowering                <BR>
+ELG     4          CM     63   AP2             5A      1     Elongated hypocotyl            <BR>
+EMB1    3          CM     5    HY2             7       2     Embryo defective               <BR>
+EMB2    5          CM     27   TTG             1       2     Embryo defective               <BR>
+EMB7    2          LO     -    AS              11      2     Embryo defective               <BR>
+EMB9    5          CM     59   TT3             2       2     Embryo defective               <BR>
+EMB10   1          CM     27   DIS1            8       2     Embryo defective               <BR>
+EMB14   =   SUS2          -    -               -       2     Discontinued                   SUS2*<BR>
+EMB15   5          CM     85   YI              &lt1      2     Embryo defective               <BR>
+EMB16   5          CM     91   YI              4       2     Embryo defective               <BR>
+EMB17   1          CM     113  CLV1            5       2     Embryo defective               <BR>
+EMB18   2          CM     65   AS              1       2     Embryo defective               <BR>
+EMB19   1          LO     -    DIS1            12      2     Embryo defective               <BR>
+EMB20   4          CM     54   CER2            2       2     Embryo defective               <BR>
+EMB22   =   GK            -    -               -       2     Embryo defective               GK*<BR>
+EMB24   5          CM     1    LU              8       2     Embryo defective               <BR>
+EMB25   1          CM     100  CLV1            6       2     Embryo defective               <BR>
+EMB27   1          CM     66   CER5            4       2     Embryo defective               <BR>
+EMB28   4          CM     58   CER2            5       2     Embryo defective               (EMBRG1)<BR>
+EMB29   3          CM     24   HY2             11      2     Embryo defective               <BR>
+EMB30   1          CM     21   DIS1            2       2     Embryo defective               (GN)<BR>
+EMB31   2          LO     -    -               -       2     Embryo defective               <BR>
+EMB33   =   SUS2          -    -               -       2     Discontinued                   SUS2*<BR>
+EMB34   2          CM     4    STI             4       2     Embryo defective               (EMB55)<BR>
+EMB35   4          CM     58   CER2            4       2     Embryo defective               <BR>
+EMB36   =   EMB156        -    -               -       2     Discontinued                   EMB156*<BR>
+EMB38   2          CM     70   AS              6       2     Embryo defective               <BR>
+EMB39   2          CM     77   CER8            0       2     Embryo defective               <BR>
+EMB40   =   FS1           -    -               -       2     Embryo defective               FS1*<BR>
+EMB41   1          CM     92   CLV2            3       2     Embryo defective               <BR>
+EMB42   =   EMB104        -    -               -       2     Embryo defective               EMB104*<BR>
+EMB43   1          CM     26   DIS2            16      2     Embryo defective               <BR>
+EMB51   3          CM     14   HY2             1       2     Embryo defective               <BR>
+EMB52   3          CM     3    HY2             9       2     Embryo defective               <BR>
+EMB53   2          CM     58   AS              9       2     Embryo defective               <BR>
+EMB54   1          CM     110  CLV2            19      2     Embryo defective               <BR>
+EMB55   =   EMB34         -    -               -       2     Discontinued                   EMB34*<BR>
+EMB56   4          CM     57   CER2            4       2     Embryo defective               <BR>
+EMB57   2          CM     22   CP2             14      2     Embryo defective               <BR>
+EMB58   2          CM     18   STI             9       2     Embryo defective               <BR>
+EMB59   5          LO     -    -               -       2     Embryo defective               <BR>
+EMB60   =   SUS1          -    -               -       2     Discontinued                   SUS1*<BR>
+EMB62   2          CM     15   STI             7       2     Embryo defective               <BR>
+EMB64   5          CM     71   TT3             13      2     Embryo defective               <BR>
+EMB65   3          CM     60   GL1             14      2     Embryo defective               <BR>
+EMB66   2          LO     -    -               -       2     Embryo defective               <BR>
+EMB67   5          CM     79   YI              5       2     Embryo defective               <BR>
+EMB68   5          CM     9    TTG             18      2     Embryo defective               <BR>
+EMB69   3          CM     73   TT5             8       2     Embryo defective               <BR>
+EMB70   4          CM     61   AP2             6       2     Embryo defective               (EMB218) (EMB107)<BR>
+EMB71   1          CM     84   CLV2            5       2     Embryo defective               <BR>
+EMB76   =   SUS1          -    -               -       2     Discontinued                   SUS1*<BR>
+EMB77   4          CM     59   CER2            11      2     Embryo defective               <BR>
+EMB78   =   FUS6          -    -               -       2     Discontinued                   FUS6*<BR>
+EMB79   1          LO     -    -               -       2     Embryo defective               <BR>
+EMB80   1          CM     76   CLV2            11      2     Embryo defective               <BR>
+EMB81   4          CM     39   CER2            15      2     Embryo defective               <BR>
+EMB83   1/4        LO     -    CH1/BP          5/11    2     Embryo defective               <BR>
+EMB84   3/4        LO     -    GL1/CER2        7/3     2     Embryo defective               <BR>
+EMB86   5          CM     23   TTG             5       2     Embryo defective               (EMB263)<BR>
+EMB87   5          CM     85   YI              &lt1      2     Embryo defective               <BR>
+EMB88   1          CM     42   DIS2            2       2     Embryo defective               <BR>
+EMB89   1          AV     -    DIS1            2       2     Embryo defective               <BR>
+EMB90   3          CM     28   HY2             17      2     Embryo defective               <BR>
+EMB91   2          CM     0    STI             8       2     Embryo defective               <BR>
+EMB93   2          CM     11   STI             2       2     Embryo defective               <BR>
+EMB94   2/5        LO     -    CP2/TT4         10/10   2     Embryo defective               <BR>
+EMB95   3          CM     24   HY2             9       2     Embryo defective               <BR>
+EMB101  =   CYT1          -    -               -       2     Embryo defective               CYT1*<BR>
+EMB104  4          CM     62   AP2             6       2     Embryo defective               (EMB42)<BR>
+EMB105  1          LO     -    -               -       2     Embryo defective               <BR>
+EMB106  4          CM     55   CER2            2       2     Embryo defective               (EMB155)<BR>
+EMB107  =   EMB70         -    -               -       2     Embryo defective               EMB70*<BR>
+EMB108  5          CM     30   TTG             2       2     Embryo defective               <BR>
+EMB109  4          CM     39   CER2            14      2     Embryo defective               <BR>
+EMB110  1          LO     -    -               -       2     Embryo defective               <BR>
+EMB111  2          CM     68   AS              3       2     Embryo defective               <BR>
+EMB115  4          LO     -    -               -       2     Embryo defective               <BR>
+EMB116  =   EMB256        -    -               -       2     Discontinued                   EMB256*<BR>
+EMB117  3          CM     84   CER7            3       2     Embryo defective               <BR>
+EMB118  1          CM     69   CH1             9       2     Embryo defective               <BR>
+EMB120  1          CM     113  CLV1            3       2     Embryo defective               <BR>
+EMB122  1/3        LO     -    CLV2/GL1        16/26   2     Embryo defective               <BR>
+EMB123  1/2        LO     -    CLV2/AS         8/2     2     Embryo defective               <BR>
+EMB125  3          CM     35   GL1             10      2     Embryo defective               <BR>
+EMB126  1          CM     49   DIS2            3       2     Embryo defective               <BR>
+EMB127  =   TTN2          -    -               -       2     Embryo defective (titan)       TTN2*<BR>
+EMB128  1          CM     76   CLV2            15      2     Embryo defective               <BR>
+EMB129  3/5        LO     -    GL1/YI          3/2     2     Embryo defective               <BR>
+EMB130  4          CM     46   CER2            7       2     Embryo defective               <BR>
+EMB131  1          CM     29   DIS1            10      2     Embryo defective               <BR>
+EMB132  4          CM     18   BP              3       2     Embryo defective               <BR>
+EMB133  =   TTN1          -    -               -       2     Embryo defective (titan)       TTN1*<BR>
+EMB134  =   FUS8          -    -               -       2     Discontinued                   FUS8*<BR>
+EMB135  5          AV     -    -               -       2     Embryo defective               <BR>
+EMB137  4          CM     34   CER2            23      2     Embryo defective               <BR>
+EMB139  5          CM     51   TT3             6       2     Embryo defective               <BR>
+EMB140  4          CM     52   CER2            0       2     Embryo defective               <BR>
+EMB141  5          CM     56   TT3             1       2     Embryo defective               <BR>
+EMB142  1          CM     12   DIS1            4       2     Embryo defective               <BR>
+EMB143  =   COP9          -    -               -       2     Discontinued                   COP9*<BR>
+EMB144  =   FUS9          -    -               -       2     Discontinued                   FUS9*<BR>
+EMB145  3          CM     0    HY2             12      2     Embryo defective               <BR>
+EMB146  2          CM     20   STI             11      2     Embryo defective               <BR>
+EMB148  4          CM     27   BP              12      2     Embryo defective               <BR>
+EMB149  3          CM     75   TT5             5       2     Embryo defective               <BR>
+EMB150  4          CM     29   BP              11      2     Embryo defective               <BR>
+EMB151  3/5        LO     -    HY2/YI          1/6     2     Embryo defective               <BR>
+EMB152  2          CM     51   ER              4       2     Embryo defective               <BR>
+EMB153  3          CM     17   HY2             5       2     Embryo defective               <BR>
+EMB154  3          CM     85   CER7            3       2     Embryo defective               <BR>
+EMB155  =   EMB106        -    -               EMB106* 2     Discontinued                   EMB106*<BR>
+EMB156  1          CM     115  GL2             3       2     Embryo defective               (EMB36)<BR>
+EMB158  =   SUS3          -    -               -       2     Discontinued                   SUS3*<BR>
+EMB160  4          CM     21   BP              4       2     Embryo defective               (EMB178)<BR>
+EMB161  5          CM     39   TTG             9       2     Embryo defective               (EMB251)<BR>
+EMB163  5          CM     9    TT4             3       2     Embryo defective               <BR>
+EMB166  =   EMB175        -    -               -       2     Embryo defective               EMB175*<BR>
+EMB167  3          CM     63   GL1             12      2     Embryo defective               <BR>
+EMB168  =   COP1          -    -               -       2     Discontinued                   COP1*<BR>
+EMB170  5          CM     60   TT3             3       2     Embryo defective               (EMBRG6)<BR>
+EMB171  4          CM     27   BP              9       2     Embryo defective               <BR>
+EMB172  3          CM     74   TT5             4       2     Embryo defective               <BR>
+EMB173  1          CM     6    AN              2       2     Embryo defective               <BR>
+EMB175  5          CM     6    TT4             8       2     Embryo defective               (EMB166)<BR>
+EMB176  1          CM     11   DIS1            7       2     Embryo defective               <BR>
+EMB177  =   SUS2          -    -               -       2     Discontinued                   SUS2*<BR>
+EMB178  =   EMB160        -    -               -       2     Discontinued                   EMB160*<BR>
+EMB179  1          CM     99   CLV1            12      2     Embryo defective               <BR>
+EMB180  2/5        LO     -    ER/TT3          27/21   2     Embryo defective               <BR>
+EMB181  4          CM     44   CER2            8       2     Embryo defective               <BR>
+EMB201  3          CM     23   HY2             11      2     Embryo defective               <BR>
+EMB202  4          CM     60   AP2             10      2     Embryo defective               <BR>
+EMB208  3          CM     72   TT5             9       2     Embryo defective               <BR>
+EMB209  5          CM     82   YI              5       2     Embryo defective               <BR>
+EMB210  4          LO     -    -               -       2     Embryo defective               <BR>
+EMB212  =   LEC1          -    -               -       2     Discontinued                   LEC1*<BR>
+EMB213  5          CM     20   TTG             8       2     Embryo defective               <BR>
+EMB214  =   TWN1          -    -               -       2     Discontinued                   TWN1*<BR>
+EMB215  5          CM     40   TTG             9       2     Embryo defective               <BR>
+EMB218  =   EMB70         -    -               -       2     Embryo defective               EMB70*<BR>
+EMB222  5          CM     31   TTG             2       2     Embryo defective               <BR>
+EMB223  2          AV     -    ER              18      2     Embryo defective               <BR>
+EMB224  3          CM     30   GL1             12      2     Embryo defective               <BR>
+EMB225  2          CM     67   AS              5       2     Embryo defective               <BR>
+EMB230  4          CM     41   CER2            9       2     Embryo defective               <BR>
+EMB232  1          CM     27   DIS1            7       2     Embryo defective               <BR>
+EMB233  1          CM     3    AN              2       2     Embryo defective               <BR>
+EMB236  4          CM     33   BP              22      2     Embryo defective               <BR>
+EMB237  1          CM     11   DIS1            5       2     Embryo defective               <BR>
+EMB239  2          CM     17   STI             9       2     Embryo defective               <BR>
+EMB244  1          CM     71   CH1             13      2     Embryo defective               <BR>
+EMB246  5          CM     92   YI              7       2     Embryo defective               <BR>
+EMB251  =   EMB161        -    -               -       2     Discontinued                   EMB161*<BR>
+EMB256  5          CM     6    TT4             6       2     Embryo defective               (EMB116)<BR>
+EMB257  4          CM     47   CER2            5       2     Embryo defective               <BR>
+EMB260  1          CM     34   DIS1            14      2     Embryo defective               <BR>
+EMB262  5          CM     16   TT4             2       2     Embryo defective               <BR>
+EMB263  =   EMB86         -    -               -       2     Discontinued                   EMB86*<BR>
+EMB266  5          AV     -    TTG             3       2     Embryo defective               <BR>
+EMB269  5          CM     18   TTG             11      2     Embryo defective               <BR>
+EMB270  1/4        LO     -    CH1/CER2        12/14   2     Embryo defective               <BR>
+EMB274  4          CM     48   CER2            5       2     Embryo defective               <BR>
+EMB277  2          AV     -    ER              8       2     Embryo defective               <BR>
+EMB286  3          CM     6    HY2             6       2     Embryo defective               <BR>
+EMB287  1          AV     -    -               -       2     Embryo defective               <BR>
+EMB290  2          LO     -    ER              11      2     Embryo defective               <BR>
+EMB293  3          CM     36   GL1             10      2     Embryo defective               <BR>
+EMBRG1  =   EMB28         -    -               -       2,74  Discontinued                   EMB28*<BR>
+EMBRG2  1          CM     97   CLV2            8       2,74  Embryo defective               <BR>
+EMBRG3  1          CM     102  CLV1            6       2,74  Embryo defective               <BR>
+EMBRG4  3          LO     -    GL1             23      2,74  Embryo defective               <BR>
+EMBRG5  4          CM     50   CER2            2       2,74  Embryo defective               <BR>
+EMBRG6  =   EMB170        -    -               -       2,74  Discontinued                   EMB170*<BR>
+EMBRG7  4          CM     9    BP              7       2,74  Embryo defective               <BR>
+EMF1    5          CM     12*  G6830/6833      -       45    Embryonic flower               <BR>
+EMF2    5          CM     69*  M435/G4028      8\12    45    Embryonic flower               <BR>
+ER      2          CM     48   HY1             2       1     Erecta                         <BR>
+ERS2    1          **                                  8     ERS2 mutant gene transgenic    <BR>
+ESD4    4          U      -    -               -       9     Early flowering in short days  <BR>
+ETO1    5          CM     83   YI              2       23    Ethylene overproducer          <BR>
+ETO2    5          U      -    -               -       23    Ethylene overproducer          <BR>
+ETR1    1          CM     93   AP1             7       23,2  Ethylene insensitive           (EIN1)<BR>
+ETR2    3          U      TOP  -               -       27    Ethylene insensitive           <BR>
+FAD2    3          CM     20   G2488-9         2       6     Fatty acid desaturase deficien <BR>
+FAD3    2          CM     58   ASA2            &lt1      6     Fatty acid desaturase deficien <BR>
+FAD4    4          CM     69   CER2            17      6     Fatty acid desaturase deficien (FADA)<BR>
+FAD5    3          CM     16   GL1             26      6     Fatty acid desaturase deficien (FADB)<BR>
+FAD6    4          CM     54   AP2             13      6     Fatty acid desaturase deficien (FADC)<BR>
+FAD7    3          CM     8    HY2             3       6     Fatty acid desaturase deficien (FADD)<BR>
+FADA    =   FAD4          -    -               -       6     Discontinued                   FAD4*<BR>
+FADB    =   FAD5          -    -               -       6     Discontinued                   FAD5*<BR>
+FADC    =   FAD6          -    -               -       6     Discontinued                   FAD6*<BR>
+FADD    =   FAD7          -    -               -       6     Discontinued                   FAD7*<BR>
+FAS1    1          CM     88   GL2             29      28    Fasciated (like clavata)       <BR>
+FAS2    5          CM     56   YI              33      28    Fasciated (like clavata)       <BR>
+FB      =   GI            -    -               -       -     Discontinued                   GI*<BR>
+FCA     4          CM     32   TH3             5       1     Late flowering                 <BR>
+FD      4          CM     64   AP2             1       1     Late flowering                 <BR>
+FE      1          CM     122  AP1             22      1     Late flowering                 <BR>
+FG      =   CO            -    -               -       -     Late flowering                 CO*<BR>
+FHA     1          CM     12   GA4             11      1     Late flowering                 <BR>
+FHY2    =   PHYA          -    -               -       -     Discontinued                   PHYA*<BR>
+FIL     2          CM     71*  LTP             1       58    Filamentous flower             <BR>
+FK      3          CM     77   TT5             4       29    Fackel (embryo defective)      <BR>
+FL      1          LO     -    AN              41      19    Folliculiformis (like clavata) <BR>
+FLA     =   FRI           -    -               -       -     Late flowering                 FRI*<BR>
+FLC     5          CM     8    -               -       -     Altered flower time            <BR>
+FLF     5          AV     TOP  -               -       46    Late flowering                 <BR>
+FLO5    =   CLV1          -    -               -       30    Discontinued                   CLV1*<BR>
+FLO10   =   SUP           -    -               -       30    Floral defective               SUP*<BR>
+FLO2>4  =   AP2           -    -               -       30    Discontinued                   AP2*<BR>
+FLP     1          AM     -    NCC1/PVV4       3\26    78    Four lips (clustered stomata)  <BR>
+FOR     5          **          DFR             15      68    Fluoroorotic acid resistant    <BR>
+FPA     2          CM     87   CER8            17      1     Late flowering                 <BR>
+FRE1    =   PHYA          -    -               -       -     Discontinued                   PHYA*<BR>
+FRI     4          CM     0    -               -       1,31  Frigida (late flowering)       (FLA)<BR>
+FS1     5          CM     23   TTG             3       2,29  Fass (embryo, shoot defective) (EMB40) (TON1)<BR>
+FS2     2          LO     -    -               -       59    Fass (embryo, shoot defective) (TON2)<BR>
+FT      1          CM     88   AP1             12      1     Late flowering                 <BR>
+FUR1    4          CM     22   BP              7B      84    FUdR resistant                 <BR>
+FUS1    =   COP1          -    -               -       32    Fusca (anthocyanin in cotyledo COP1*<BR>
+FUS2    =   DET1          -    -               -       32    Fusca (anthocyanin in cotyledo DET1*<BR>
+FUS3    3          CM     41   GL1             5       32    Fusca (anthocyanin in cotyledo <BR>
+FUS4    5          CM     62*  DFR             0       20    Fusca (anthocyanin in cotyledo (COP14)<BR>
+FUS5    1          CM     4*   NGA59           4B      20    Fusca (anthocyanin in cotyledo (COP15)<BR>
+FUS6    3          CM     87   CER7            1       2     Fusca (anthocyanin in cotyledo (COP11)<BR>
+FUS7    =   COP9          -    -               -       32    Fusca (anthocyanin in cotyledo COP9*<BR>
+FUS8    5          CM     64   GL3             11      2     Fusca (anthocyanin in cotyledo (EMB134)<BR>
+FUS9    3          CM     16   HY2             4       2     Fusca (anthocyanin in cotyledo (EMB144)<BR>
+FUS11   5          CM     20*  NGA151          2B      20    Fusca (anthocyanin in cotyledo (COP13)<BR>
+FUS12   2          CM     50   ER/PY           2/5     20,3  Fusca (anthocyanin in cotyledo (COP12)<BR>
+FVE     2          CM     32   PHYB            4       1     Late flowering                 <BR>
+FWA     4          CM     54   GA5             2       1     Late flowering                 <BR>
+FY      5          CM     12   TTG             20      1     Late flowering                 <BR>
+GA1     4          CM     5    BP              10      1     GA requiring                   <BR>
+GA2     1          CM     119  CLV1            9       1     GA requiring                   <BR>
+GA3     5          CM     33   TTG             4       1     GA requiring                   <BR>
+GA4     1          CM     22   GAI             &lt1      1     GA requiring                   <BR>
+GA5     4          CM     53   CER2            1       1     GA requiring                   <BR>
+GAI     1          CM     22   GA4             &lt1      1     GA insensitive                 <BR>
+GF      2          LO     -    -               -       33    Female gametophytic factor     <BR>
+GI      1          CM     33   GA4             11      1     Gigantea (late flowering)      (FB)<BR>
+GIN     1          **     BOT                          101   Glucose insensitive            <BR>
+GK      1          CM     62   CH1             4       2,29  Gurke (embryo defective)       (EMB22)<BR>
+GL1     3          CM     46   SUP             9       1     Glabra (reduced trichomes)     <BR>
+GL2     1          CM     118  SUS2            2       1,2   Glabra (reduced trichomes)     <BR>
+GL3     5          CM     53   GA3             19      1     Glabra (reduced trichomes)     <BR>
+GLD1    2          U      -    -               -       6     Glycine decarboxylase deficien <BR>
+GLD2    5          U      -    -               -       6     Glycine decarboxylase deficien <BR>
+GN      =   EMB30         -    -               -       29    Gnom (embryo defective)        EMB30*<BR>
+GR2     5          CM     71   GL3             17      19    Grisea (gray-green leaf color) <BR>
+GRL     2          CM     64   AS              -       29    Gnarled (abnormal trichomes)   <BR>
+GUN1    2          CM     46*  GPA1            3       24    Genomes uncoupled              <BR>
+HCF107  3          AM     -    NGA162          -       94    High chlorophyll fluorescent   <BR>
+HCF109  5          CM     48*  PHYC            0       94    High chlorophyll fluorescent   <BR>
+HLS1    4          AV     -    CER2            9       23    Hookless (ethylene response)   (COP3)<BR>
+HLS2    4          AV     -    CER2            13      23    Hookless (ethylene response)   <BR>
+HLS3    2          AM     -    M605            4A      23    Hookless (ethylene response)   (ALF1) (RTY) (RTY3)<BR>
+HPT     =   AMP1          -    -               -       29    Hauptling (extra cotyledons)   AMP1*<BR>
+HXC1    5          CM     9*   ASA1            &lt1      80,8  Hypersens. Xanth. camp. pv. ca <BR>
+HY1     2          CM     48   ER              2       1     Elongated hypocotyl in light   <BR>
+HY2     3          CM     12   FAD7            3       6     Elongated hypocotyl in light   <BR>
+HY3     =   PHYB          -    -               -       1     Elongated hypocotyl in light   PHYB*<BR>
+HY4     4          CM     10   FCA             18      1     Elongated hypocotyl in light   <BR>
+HY5     5          CM     8    MS1             15      1     Elongated hypocotyl in light   <BR>
+HY8     =   PHYA          -    -               -       -     Discontinued                   PHYA*<BR>
+IAE1    2          CM     29*  PR1/MI398       0       31    Increased Ac excision          <BR>
+IAR1    1          CM     105* NGA111          3A      47    IAA-alanine resistant          <BR>
+IAR2    5          AM     -    NGA76           -       47    IAA-alanine resistant          <BR>
+ICR1    3          AV     -    TT6-GL1         -       11    IAA conjugate resistant        <BR>
+ILR1    3          CM     1*   NGA172          1A      47    IAA-leucine resistant          <BR>
+IM      4          CM     48   CER2            4       1     Immutans (variegated)          <BR>
+INO     1          AM     -    NGA248/63       6\14    55    Inner, no outer (ovule defecti <BR>
+KE21    3          U      TOP  -               -       63    Altered starch in leaves       <BR>
+KE33    1          U      TOP  -               -       63    Altered starch in leaves       <BR>
+KE81    3          U      BOT  -               -       63    Altered starch in leaves       <BR>
+KEU     1          CM     14   DIS1            5       29    Keule (embryo defective)       <BR>
+KIM     2          U      -    -               -       58    Kimagure (root hair defective) <BR>
+KLK     5          LO     -    TTG             -       29    Klunker (embryo defective)     <BR>
+KN      1          AV     -    DIS1            10      29    Knolle (embryo defective)      <BR>
+LAD     5          CM     12*  -               -       95    Late anther dehiscence         <BR>
+LAN     2          CM     54   -               -       -     Lanceolate (narrow leaves)     <BR>
+LE      1          CM     66   CH1             8       1     Lepida (dwarf)                 (PA)<BR>
+LEC1    1          CM     29   TH1             3       2     Leafy cotyledon                (EMB212)<BR>
+LEC2    1          LO     -    -               -       2     Leafy cotyledon                <BR>
+LFY     5          CM     82   TZ              9       30    Leafy (floral defective)       <BR>
+LIT     5          CM     72*  DFR/LFY         19/20   43    Lions tail (root defective)    <BR>
+LU      5          CM     10   TT4             2       1     Lutescens (yellow-green)       <BR>
+MIN     5          CM     90   ABA1            7       1     Miniature (semi-dwarf)         <BR>
+MP      1          CM     22   AN              36      29    Monopteros (embryo defective)  <BR>
+MS1     5          CM     23   TTG             6       1     Male sterile                   <BR>
+MS2     3          CM     27   -               -       -     Male sterile                   <BR>
+MS31    1          U      -    -               -       48    Male sterile                   <BR>
+MS32    1          U      -    -               -       48    Male sterile                   <BR>
+MS33    2          U      -    -               -       48    Male sterile                   <BR>
+MS34    2          U      -    -               -       48    Male sterile                   <BR>
+MS35    3          U      -    -               -       48    Male sterile                   <BR>
+MS36    3          U      -    -               -       48    Male sterile                   <BR>
+MS37    5          U      -    -               -       48    Male sterile                   <BR>
+MS38    5          U      -    -               -       48    Male sterile                   <BR>
+MTO1    3          CM     19   HY2/ABI3        8/22    52    Methionine over accumulation   <BR>
+NDR1    3          AM     -    560B1           -       65    Non race-specific disease resi <BR>
+NIA1    1          CM     116  GL2             3       18    Nitrate reductase defective    <BR>
+NIA2    =   CHL3          -    -               -       18    Nitrate reductase defective    CHL3*<BR>
+NIM1    1          CM     95*  NGA128/111      17/17   88,8  Non-inducible immunity         <BR>
+NPH1    3          CM     61   GL1             15B     91    Non-phototrophing hypocotyl    <BR>
+OMR1    3          CM     17   HY2             7       68,8  L-O-methylthreonine resistant  <BR>
+PA      =   LE            -    -               -       -     Discontinued                   LE*<BR>
+PDS1    1          CM     26   DIS1            7       2     Phytoene desaturation (ABA def <BR>
+PDS2    3          CM     4    HY2             8       2     Phytoene desaturation (ABA def <BR>
+PFL     1          CM     32   TH1             1       49    Pointed first leaves           <BR>
+PGM     5          CM     63   YI              22      1     Phosphoglucomutase deficient   <BR>
+PHO1    3          CM     27   G4708           3       6     Low inorganic phosphate        <BR>
+PHYA    1          CM     16   -               -       -     Phytochrome defective          (FHY2) (FRE1) (HY8)<BR>
+PHYB    2          CM     35   FVE             4       1     Phytochrome defective          (HY3)<BR>
+PI      5          CM     21   TTG             10      1     Pistillata (floral defective)  <BR>
+PID     2          CM     62   AS              -       21    Pinoid (meristem defective)    <BR>
+PIN1    1          CM     103  CRC             3B      21    Pin-formed (floral defective)  <BR>
+PLU     5          LO     -    -               -       82    Pluto (root defective)         <BR>
+POM1    1          CM     9*   NGA63           1       43    Pom-pon (root defective)       <BR>
+POM2    2          CM     49*  GPA1            4B      43    Pom-pon (root defective)       <BR>
+POP1    =   CER6          -    -               -       53    Pollen-pistil incompatibility  CER6*<BR>
+POP2    3          U      -    -               -       53    Pollen-pistil incompatibility  <BR>
+POP3    5          U      -    -               -       53    Pollen-pistil incompatibility  <BR>
+PRC1    5          CM     86   YI              &lt1B     59    Procuste (short, deformed hypo (E112)<BR>
+PT      =   AMP1          -    -               -       10    Primordia timing               AMP1*<BR>
+PTL     5          CM     1    TFL1            1A      21    Petaless; petal loss           <BR>
+PWK     3          **          G4711           4       109   Patchwork                      <BR>
+PY      2          CM     53   HY1             5       1     Pyrimidine requiring           <BR>
+QRT1    5          AM     -    DFR/LFY         -       53    Quartet                        <BR>
+QRT2    3          CM     2*   GAPC            &lt2      53    Quartet                        <BR>
+QUI     1          AM     -    PVV4            8       43    Quill (root defective)         <BR>
+RAC1    1          CM     51   M229-M335       -       34    Resistant to Albugo candida    (RPP9)<BR>
+RDS1    2          U      -    -               -       50    Regulation of desaturases in s TAG1*<BR>
+RE      2          CM     63   ER              19      1     Reticulata (dark veins)        <BR>
+REV     5          CM     85*  LFY/NGA129      6/21    56    Revolute leaf                  <BR>
+RGA     3          **     BOT  TSA1                    102   Repressor of GA1-3             <BR>
+RGN     1          CM     1    AN              1       1     Chlorate resistant             (CHL4)<BR>
+RGR     =   AXR4          -    -               -       -     Reduced root gravitropism      AXR4*<BR>
+RHD1    1          LO     -    AP1             -       35    Root hair defective            <BR>
+RHD2    5          LO     -    TT3             -       35    Root hair defective            <BR>
+RHD3    3          LO     -    GL1             -       35    Root hair defective            <BR>
+RHD4    3          LO     -    GL1             -       35    Root hair defective            <BR>
+RML1    4          CM     50*  MI422           &lt1      45    Root meristemless              <BR>
+RML2    3          AM     -    M457            14      45    Root meristemless              <BR>
+RPM1    3          CM     7*   M583/G4523      2/2     36    Resistance to P. syringae pv m <BR>
+RPP1    3          CM     52   GL1             -       34    Recognition of Peronospora par (COG1) (RPP1)<BR>
+RPP2    4          CM     45   M600/M557       -       34    Recognition of Peronospora par <BR>
+RPP4    4          CM     38   -               -       34    Recognition of Peronospora par <BR>
+RPP5    4          CM     37   -               -       34    Recognition of Peronospora par <BR>
+RPP6    2          LO     TOP  -               -       34    Recognition of Peronospora par <BR>
+RPP7    1          CM     69   -               -       34    Recognition of Peronospora par <BR>
+RPP8    5          CM     58   -               -       34    Recognition of Peronospora par <BR>
+RPP9    =   RAC1          -    -               -       34    Recognition of Peronospora par RAC1*<BR>
+RPP10   =   RPP1          -    -               -       34    Recognition of Peronospora par RPP1*<BR>
+RPP11   3          CM     64   -               -       34    Recognition of Peronospora par <BR>
+RPP12   4          AM     -    AG/M557         -       34    Recognition of Peronospora par <BR>
+RPP13   3          CM     56*  M249            3A      34    Recognition of Peronospora par <BR>
+RPS2    4          CM     55   -               -       -     Resistant to P. syringae       <BR>
+RPS4    5          AM     -    DFR             -       65    Resistant to P. syringae       <BR>
+RPS5    1          CM     11*  ATTS0477        0       77    Resistant to P. syringae       <BR>
+RPT1    3          CM     62*  BGL1            19A     58    Root phototropism              <BR>
+RPW1    2          LO     -    -               -       79    Recognition of powdery mildew  (ECR)<BR>
+RPW5    5          AM     -    NGA225          -       79    Recognition of powdery mildew  (ECR)<BR>
+RPW6    5          AM     -    NGA158/139      -       79    Recognition of powdery mildew  (ECR)<BR>
+RTN     2          CM     50*  ER-M220         -       51    Reduced trichome number        <BR>
+RTY     =   HLS3          -    -               -       84    Rooty                          HLS3*<BR>
+RTY3    =   HLS3          -    -               -       75    Rooty                          HLS3*<BR>
+RXC1    2          CM     60*  M323            5A      79    Resist.  to X. campestris pv a <BR>
+SAB     1          CM     88*  G4026           4       43    Sabre (root defective)         <BR>
+SAR1    1          U      MID  -               -       15    Suppressor of auxin resistance <BR>
+SE      2          **          GPA1/NGA1126    2/1     108   Serrate                        <BR>
+SEL1    1          **          ADH             2       104   Selenate resistant             <BR>
+SEL2    3          **          AFC1            2       104   Selenate resistant             <BR>
+SEX1    1          CM     13   AN              12      37    Starch excess                  (SOP)<BR>
+SGS2    3          **          M409                    105   Suppressor of gene silencing   <BR>
+SHL     =   STM           -    -               -       69    Shootless                      STM*<BR>
+SHY2    1          AM     TOP  NCC1            -       61    Short hypocotyl                <BR>
+SMA4    1          CM     92*  NGA280          13B     77    Symptoms mult. avirulence geno <BR>
+SOP     =   SEX1          -    -               -       37    Discontinued                   SEX1*<BR>
+SPR1    2          **          M246            0       103   Spiral root                    <BR>
+SPT     4          CM     68   AP2             -       21    Spatula (floral defective)     <BR>
+SPY     3          CM     12   HY2             0       75    Spindly (altered GA transducti <BR>
+SSR16   4          CM     60   CER2            8       2     Embryo defective               <BR>
+STI     2          CM     8    EMB93           2       2     Stichel (unbranced trichomes)  <BR>
+STM     1          CM     75   CH1             15B     69    Shoot meristemless             (SHL)<BR>
+STP1    2          LO     -    NGA168          30A     87    Stunted plant                  <BR>
+SU      5          CM     35   TTG             7       1     Suppressor of CHL4             <BR>
+SUL     2          CM     74   AS              10      1     Sulfurata                      <BR>
+SUP     3          CM     35   AXR2            1       8,30  Superman (also FLO10)          (FLO10)<BR>
+SUR     2          CM     35   PHYB            &lt1      59    Super root                     <BR>
+SUS1    1          CM     0    AN              &lt1      2     Abnormal suspensor             (EMB76) (EMB76-2) (EMB60)<BR>
+SUS2    1          CM     116  GL2             2       2     Abnormal suspensor             (EMB177) (EMB14) (EMB33)<BR>
+SUS3    1          CM     86   CLV2            2       2     Abnormal suspensor             (EMB158)<BR>
+TAG1    2          CM     28   CP2             8       50    Triacylglycerol biosynthesis d (RDS1)<BR>
+TED2    1          CM     45*  NGA248          5B      24    Suppressor of DET              <BR>
+TFL1    5          CM     2*   M447/TT4        1/15    26    Terminal flower                <BR>
+TFL2    5          CM     15*  TFL1/EMF1       -       26    Terminal flower                <BR>
+TH1     1          CM     33   GI              0       1     Thiamine requiring             <BR>
+TH2     5          CM     47   TT2             1       1     Thiamine requiring             <BR>
+TH3     4          CM     34   FCA             5       1     Thiamine requiring             <BR>
+TIR1    3          CM     87*  NGA112          2B      15    Auxin transport inhibitor resi <BR>
+TIR2    1          AM     BOT  -               -       15    Auxin transport inhibitor resi <BR>
+TIR3    3          AM     TOP  -               -       15    Auxin transport inhibitor resi <BR>
+TIR4    1          AM     BOT  -               -       15    Auxin transport inhibitor resi <BR>
+TIR5    5          AM     TOP  -               -       15    Auxin transport inhibitor resi <BR>
+TIR6    4          AM     TOP  -               -       15    Auxin transport inhibitor resi <BR>
+TIR7    5          AM     TOP  -               -       15    Auxin transport inhibitor resi <BR>
+TMM     1          AM     -    ADH/PAB5        9\18    78    Too many mouths (stomata)      <BR>
+TNY     5          CM     40*  TN139           0       9     Tiny                           <BR>
+TOC1    5          CM     79*  EG7F2           5B      93    Timing of CAB1                 <BR>
+TOM1    4          AM     BOT  JGB9            -       52    Tobamovirus multiplication     <BR>
+TON1    =   FS1           -    -               -       59    Tonneau                        FS1*<BR>
+TON2    =   FS2           -    -               -       59    Tonneau                        FS2*<BR>
+TOR1    4          CM     58   -               -       13    Tortifolia (twisted petioles)  <BR>
+TRP1    5          LO     -    TT4             -       38    Tryptophan biosynthesis        <BR>
+TRP2    5          AM     -    TSB1            0       38    Tryptophan biosynthesis        <BR>
+TRP3    3          CM     90*  TSA1            0       38    Tryptophan biosynthesis        <BR>
+TRP4    1          CM     35   CHL1            20B     14    Tryptophan biosynthesis        <BR>
+TRP5    5          CM     10*  ASA1            0       14    Tryptophan biosynthesis        <BR>
+TSL     5          CM     20   -               -       -     Tousled (floral defective)     <BR>
+TT1     1          CM     55   CH1             4       1     Transparent testa              <BR>
+TT2     5          CM     44   TH2             1       1     Transparent testa              <BR>
+TT3     5          CM     57   EMB9            2       1,2   Transparent testa              <BR>
+TT4     5          CM     13   LU              2       1     Transparent testa              <BR>
+TT5     3          CM     81   CH6             3       1     Transparent testa              <BR>
+TT6     3          CM     96   -               -       1,2   Transparent testa              <BR>
+TT7     5          CM     6    ALB2            10      1     Transparent testa              <BR>
+TT8     4          CM     22   BP              7B      92    Transparent testa              <BR>
+TT9     3          AV     -    GL1             5       92    Transparent testa              <BR>
+TT10    5          CM     69   CH5             24B     92    Transparent testa              <BR>
+TTG     5          CM     28   GA3             4       1     Transparent testa, glabra      <BR>
+TTN1    3          CM     85   CER7            3       2     Titan (embryo defective)       (EMB133)<BR>
+TTN2    1          CM     29   DIS1            10      2     Titan (embryo defective)       (EMB127)<BR>
+TTN3    5          AV     -    -               -       2     Titan (endosperm defective)    <BR>
+TWN1    5          LO     -    YI-TT3          -       2     Twin (embryo defective)        (EMB214)<BR>
+TWN2    1          CM     19*  M219/G12080     -       6     Twin (embryo defective)        <BR>
+TZ      5          CM     77   BIO1            4       1,2   Thiazole requiring             <BR>
+UFO     1          CM     46   -               -       -     Unusual floral organs          <BR>
+UVH1    5          AM     -    NGA76           -       39    Ultraviolet hypersensitive     <BR>
+UVH3    3          AV     -    GL1             &lt1      39    Ultraviolet hypersensitive     <BR>
+UVH6    1          AM     -    NGA59           -       39    Ultraviolet hypersensitive     <BR>
+UVR1    3          CM     53   -               -       70    UV repair defective            <BR>
+VAL1    3          CM     59   TT5             21A     84    Valine resistant               <BR>
+VAR1    5          CM     65   CER3            18      40    Variegated                     <BR>
+VAR2    2          CM     75   ER              23      40    Variegated                     <BR>
+VCS     3          **          NGA126                  96    Varicose                       <BR>
+VR2     2          LO     -    -               -       33    Virescens                      <BR>
+VRN1    3          CM     17*  MI339           3       31    Reduced vernalization response <BR>
+VRN2    4          AM     -    NGA8/MI422      -       31    Reduced vernalization response <BR>
+WAM     1          CM     89   AP1             10A     90    Waldmeister (distorted shoot)  <BR>
+WAV5    =   AUX1          -    -               -       58    Wavy roots                     AUX1*<BR>
+WDY     5          **          NGA106                  96    Woody                          <BR>
+WHG     2          **          NGA361                  96    Warthog                        <BR>
+XV      1          LO     -    -               -       33    Discontinued                   <BR>
+YAK     1          U      -    -               -       21    Yakka (disrupted inflorescence <BR>
+YI      5          CM     85   EMB15           &lt1      1,2   Yellow inflorescence           <BR>
+
+</PRE>
+<HR>
+<I><B>Total number of loci in list is 543</B></I><BR>
+<B>Number of loci on the classical map is 383</B><P>
+<ADDRESS>Contact <A HREF = mailto:meinke@osuunx.ucc.okstate.edu>David Meinke</a> for corrections or requests for
+more information.
+</ADDRESS><P>
+<a href="genepage.html"><IMG SRC="back.gif" BORDER = 0></a><BR><A HREF="genepage.html">Back</A><P>
+</BODY></HTML>

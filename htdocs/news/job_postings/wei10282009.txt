@@ -1,0 +1,23 @@
+A graduate research assistantship at the MS level is available in the
+laboratory of Dr. Hairong Wei (http://forest.mtu.edu/faculty/wei/) at School
+of Forest Resources & Environmental Science, Michigan Technological
+University (MTU) to develop novel computational approaches for inferring
+gene function with microarray data from poplar.  In addition, the candidate
+will develop web applications (tools) using JSP, or PHP, and MySQL.
+
+Applicants should have interest in developing a career in
+bioinformatics/systems biology.  Those who have skills and experience in at
+least one of the following two areas are encouraged to apply: Computer
+programming (web application), gene expression data analysis.  Strong
+ability in data manipulation using programming languages like R/SAS, perl,
+java, and C is anticipated.  The candidate should possess the ability to
+work independently and the attitude to work cooperatively in a team
+environment.  A background in either machine learning or molecular biology
+will be a plus, though not a requirement.
+
+*Expected start date:   January, 2010 *
+
+Interested candidates should send a resume highlighting their experience and
+interests, GRE scores (TOEFL is required for international students), and
+names and email addresses of three references to Dr. Hairong Wei (
+hairong@mtu.edu)

@@ -1,0 +1,33 @@
+
+Bioinformatics Postdoctoral Researcher for Marker Discovery 
+and Massively Parallel Genotyping 
+Job Description. The University of California, Davis, CA USA, 
+Seed Biotechnology Center (http://sbc.ucdavis.edu) and Genome 
+and Biomedical Sciences Facility has developed a custom 6.6 
+million feature Affymetrix GeneChip for robust, massively-parallel 
+genotyping based on Single Feature Polymorphisms (SFPs) as well 
+as for gene expression analysis in pepper. The successful candidate 
+will be responsible for developing and applying custom tools to 
+analyze genotyping and mapping Affymetrix GeneChip data from 
+pepper. Scripts are required to curate and process raw GeneChip 
+hybridization data (1 TB of data) into a relational mySQL database 
+for further analysis. Methods for identification and validation SFPs 
+will need to be developed as well as for measurement of gene 
+expression tools using the highly redundant probe sets provided by 
+the chip. Many of these algorithms can be adapted from a similar 
+project in lettuce with the same unique chip design. 
+Qualifications. Ph.D. in biology- or bioinformatics-related 
+discipline. Candidate must have demonstrated experience in 
+computational approaches to manipulate and analyze large genetic 
+and molecular datasets. Experience with at least one scripting 
+language such as Perl, PHP, Python, R or equivalent is required.  
+Basic knowledge of relational mySQL database is desirable. 
+Previous experience with Affymetrix GeneChip data is an 
+advantage.
+Supervisor: Alex Kozik and Allen Van Deynze  
+Start Date: Immediately
+End Date: Jan 2010 or later depending on funding
+Contact information
+Please send CV and references to Dr. Allen Van Deynze, Seed 
+Biotechnology Center, UC Davis. email: 
+avandeynze@ucdavis.edu.

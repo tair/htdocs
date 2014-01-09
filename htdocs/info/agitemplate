@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>TAIR AGI Links</title>
+<script language="JavaScript" src="/js/navbar.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/main.css" >
+<script language='JavaScript'>
+var highlight = 3; var helpfile="";
+</script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#F5F9FF">
+
+
+<!-- HEADER using external JavaScript file -->
+
+<script language='JavaScript' SRC='/js/header'>
+</script><p>
+
+<!-- End of header -->
+
+
+<p>
+<table width="602" align="center" border="0" cellspacing="0" cellpadding="2">
+	<tr>
+		<td width="602">
+
+		<!--
+		
+			Content goes here
+			
+		//-->
+<span class="header">AGI Links</span>
+
+<div STYLE = "font: 8pt arial, helvetica">
+<A HREF="/info/aboutarabidopsis.html">About Arabidopsis</A> |
+<A HREF="/info/agi.html">Genome Initiative</A> | 
+<A HREF="/Cereon/">Cereon SNPs</A> | 
+<A HREF="/info/protocols.html">Protocols</A> | 
+<A HREF="/info/nomenclature.html">Nomenclature</A> | 
+</div>
+	  
+<DL>
+
+<DT>
+<IMG SRC="/images/redball.gif"> <B>This page is under construction</B>
+<DD> .<P>
+    
+		
+		</td>
+	</tr>
+</TABLE>
+
+<!-- FOOTER -->
+
+<TABLE width="602" align="center">
+	<tr>
+		<td><br><hr size=1 width="90%"></td>
+	</tr>
+	<tr>
+		<td><a href="http://www.ncgr.org"><img src="/images/ncgrlogoredsmall.gif" alt="" border="0" align="left"></a>
+		<a href="http://carnegiedpb.stanford.edu"><img src="/images/ciw-logosmall.gif" alt="" border="0" align="right"></a></td>
+	</tr>
+<TR><TD ALIGN = "CENTER">
+<center><i>Last modified on August 20, 2000</i><br>
+comments or questions to: <a href="mailto:curator@arabidopsis.org"><B>curator@arabidopsis.org</B></a>
+</table>
+</body>
+</html>

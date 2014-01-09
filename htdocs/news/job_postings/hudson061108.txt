@@ -1,0 +1,21 @@
+A postdoctoral research position and graduate student assistantship are
+available immediately as part of the Feedstock Genomics program of the
+Energy Biosciences Institute at the University of Illinois,
+Urbana-Champaign.
+
+Both positions are to develop bioinformatics tools and to perform sequence
+assembly, analysis and visualization on resource-poor species utilizing
+next-generation sequencing techniques. The focus of the analysis will be on
+forthcoming sequences from Miscanthus, Sugar Cane and other Andropogoneae
+grass species with potential as lignocellulosic feedstocks. For the
+postdoctoral position, experience with plant genome sequence analysis is
+essential, and high throughput bioinformatics analysis skills are highly
+desirable. For the graduate assistantship a strong interest in computational
+biology and a background (MS preferred or BS) in either computer science or
+biology is necessary.
+
+The Andropogoneae Feedstock Genomics program is a collaboration between the
+laboratories of Steve Moose, Ray Ming and Matt Hudson at the University of
+Illinois, and Dan Rokhsar at the DoE Joint Genome Institute. The successful
+candidates for these positions will be located at the Urbana-Champaign
+branch of the Energy Biosciences Institute, which is funded by BP, plc.

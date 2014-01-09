@@ -1,0 +1,42 @@
+Post-doc Positions in Computational Biology at University of Arizona
+
+Description:
+The laboratory of Dr. Xiangfeng Wang invites applications for post-doc positions in School of Plant 
+Sciences at University of Arizona. The research interests in the Lab focus on developing computational 
+models and bioinformatic tools to interpret and integrate various epigenome and transcriptome next-
+generation sequencing data in plants, mainly in maize and rice. The successful candidate will be 
+expected to utilize bioinformatic tools and develop original algorithms for a better understanding of 
+the epigenetic mechanisms underlying the plant seed and endosperm development. The recruited postdocs 
+will participate in two ongoing projects:
+
+1. Identification of transcription factors in maize seed development
+We are currently using Illumina RNA-seq to profile the transcriptome in maize seeds. The goal is to 
+identify the important transcription factors controlling the endosperm development. The significance 
+of this project is to fundamentally improve the seed yield, human nutrition, biomass and bioenergy 
+production. From the methodological perspective, the candidate will design algorithms to module the 
+regulatory network by integrating the gene expression data and epigenomic data. We will use nucleosome 
+dynamics to improve the discovery of novel TF and regulatory motifs. For details, please check 
+"Research" in Wang Lab website.
+
+2. Epigenomic regulation of maize endosperm development
+We are also producing ChIP-Seq data for a combination of activating and silencing epigenetic marks in 
+maize endosperm development. In addition to the biological aim of understanding the epigenetic mechanism 
+underlying the endosperm development, we are also interested on developing new computational approaches 
+to: 1) improve gene prediction using activating epigenetic marks; 2) genome-wide search for the 
+epigenetically imprinted genes by an innovative strategy. The original algorithms will be finally 
+implemented as bioinformatic tools and database resources for the gene imprinting research in other 
+plant organisms. For details, please check "Research" in Wang Lab website.
+
+Requirements:
+The ideal applicants should:
+Have Ph.D in Bioinformatics, Computer Science, Biology or other related fields.
+Have strong programming skills on at least one programming language of Python, Perl or R.
+Have experiences in analyzing microarray, ChIP-Chip, ChIP-Seq and RNA-Seq data or relevant computational 
+genomics experiences.
+
+How to Apply:
+The interested applicants could send his C.V, reprints of first author publications, and names of three 
+references to xwang1@cals.arizona.edu. At the same time, the applicant should also apply online at 
+http://www.hr.arizona.edu/ by searching the job number 46179. More information about the Lab is available 
+at http://xwang.openwetware.org/.
+

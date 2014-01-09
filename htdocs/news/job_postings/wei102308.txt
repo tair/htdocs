@@ -1,0 +1,27 @@
+Ph. D. Graduate Research Assistantship in Plant Bioinformatics 
+ 
+ 
+A graduate research assistantship at the Ph.D. level is available in the laboratory of Dr. 
+Hairong Wei at School of Forest Resources & Environmental Science, Michigan 
+Technological University (MTU) to develop novel computational approaches for 
+inferring gene function via network construction using gene expression data and other 
+types of genomic data. Other research options like gene expression data analysis, 
+software/database development are potentially available.  The selected candidate will 
+acquire training in bioinformatics, and data mining for biological knowledge discovery, 
+and also have chance to learn some essential wetlab techniques for conducting research in 
+molecular biology if he/she is interested in. 
+ 
+Applicants should have interest in developing a career in bioinformatics/systems biology. 
+ Any of those who have a good background in statistics or computer science or both are 
+encouraged to apply.  Strong ability in data manipulation using at least one of 
+programming language like R/SAS, perl, java, and C is anticipated.  The candidate 
+should possess the ability to work independently and the attitude to work cooperatively. 
+ A background in either machine learning or (molecular) biology will be a plus, though 
+not a requirement.  Additional information and requirements can be found at 
+http://forest.mtu.edu/gradstudies/prospecitve.htm 
+ 
+Expected starting date:  January 2009 
+ 
+Interested candidates should send a resume highlighting their experience and interests, 
+GRE scores (TOEFL is required for international students), names and email addresses of 
+three references to Dr. Hairong Wei (hairong@mtu.edu).

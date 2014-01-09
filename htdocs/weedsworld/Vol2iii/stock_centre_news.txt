@@ -1,0 +1,223 @@
+STOCK CENTER NEWS
+
+        The stock centers have been working hard in the past few months to
+add new stocks to the collections.   Many new seed stocks and clones have
+been received recently.  In this connection a seed donation campaign,
+conducted jointly by ABRC and NASC, is in progress.   Hence, this update
+will be devoted mainly to the topic of new seed donations.   The new stock
+donations fit into several categories, which will be addressed separately.
+
+CAMPAIGN FOR DONATION OF NEW PUBLISHED MUTANTS
+
+Letters were recently sent to all senior authors known to have published
+papers describing new mutants or other lines.  A number of these
+individuals have responded with some interesting donations.  We would like
+
+Press RETURN for more...
+
+MAIL>
+
+    #1          20-DEC-1995 20:49:00.47                                  NEWMAIL
+to remind those that have not responded that now is an excellent time to
+send donations to the centers.  Seeds can be sent to either ABRC or NASC.
+For those who might have other published seed stocks, we offer apologies
+and assurance that we would be delighted to receive your lines, also.
+
+The stocks received to date (combined for ABRC and NASC) are listed below.
+
+New Stocks received by ABRC or NASC
+
+Description     Donor
+aba-1, ga1-3    R. Wilson
+adh     R. Wilson
+adh, py-201     R. Wilson
+adh1    R. Dolferus
+adh1    R. Dolferus
+an      R. Wilson
+axr4-1  L. Hobbie
+axr4-2  L. Hobbie
+axr4-2, aux1-7  L. Hobbie
+axr4-2, axr1-3  L. Hobbie
+axr4-2, axr1-12 L. Hobbie
+clv3-2  D. Smyth
+ctr1-1  J. Ecker
+cyr1    J. Deikman
+dim1-1  T. Takahashi
+ein3-1  J. Ecker
+ein4    J. Ecker
+ein5-1  J. Ecker
+ein6    J. Ecker
+ein7    J. Ecker
+eir1-1  J. Ecker
+eto2    J. Ecker
+eto3    J. Ecker
+fad2-1  C. Somerville
+fad2-1  J. Browse
+fad3# (transgenic)      C. Somerville
+fad3-2  C. Somerville
+fad7 fad8       C. Somerville
+fad7-2  J. Browse
+fey-1   J. Medford
+fus3-3  P. McCourt
+fus 4-1  S.Misera
+fus5-1  S.Misera
+fus11-1  S.Misera
+fus12-1  S.Misera
+gai, an R. Wilson
+gai, py-201     R. Wilson
+gar1, gai, an   R. Wilson
+gar2, gai, an   R. Wilson
+gar3, gai, an   R. Wilson
+gar4, gai, an   R. Wilson
+gar5, gai, an   R. Wilson
+gar6, gai, an   R. Wilson
+gar7, gai, an   R. Wilson
+gar8, gai, an   R. Wilson
+gar9, gai, an   R. Wilson
+gar10, gai, an  R. Wilson
+gar11, gai, an  R. Wilson
+gar12, gai, an  R. Wilson
+gar13, gai, an  R. Wilson
+gar14, gai, an  R. Wilson
+gar15, gai, an  R. Wilson
+gar16, gai, an  R. Wilson
+gar17, gai, an  R. Wilson
+gld     C. Somerville
+ilr1-1  B. Bartel
+jar1-1  P. Staswick
+lec1-1  D. Meinke
+lug-1   Z. Liu
+phyB overexpression (transgenic)        D. Wagner
+pid-1   D. Smyth
+pid-2   D. Smyth
+pid-3   D. Smyth
+pin-1   D. Smyth
+pfl  Mieke Van Lijsebettens 
+qrt1-1  D. Preuss
+qrt2-1  D. Preuss
+spy-5   R. Wilson
+stm, gl1        C. Somerville
+stp1    T. Baskin
+ts4     C. Somerville
+Ac1 (Stock# CS8043)     V. Sundaresan
+Ac2 (Stock# CS8044)     V. Sundaresan
+Ac5 (Stock# CS8045)     V. Sundaresan
+DsE1 (Stock# CS8046)    V. Sundaresan
+DsE2 (Stock# CS8047)    V. Sundaresan
+DsE3 (Stock# CS8048)    V. Sundaresan
+DsG1 (Stock# CS8049)    V. Sundaresan
+
+Ac Lines
+SPT :: Ac(Bg) ->        - 6
+SPT :: Ac(Bg) ->        - 7
+SPT :: Ac ->            - 1
+SPT :: Ac ->            -10
+SPT :: Ac ->            -15
+SPT :: Ac Nae1 ->       - 2
+SPT :: Ac Nae1 ->       - 3
+SPT :: Ac Nae1 <-       - 3
+SPT :: Ac Nae1 <-       -10
+
+These lines were produced by introducing the maize element Ac into
+Landsberg erecta by Agrobacterium - mediated transformation.  The Ac
+element is inserted into the 5'untranslated leader of a streptomycin
+phosphotransferase (SPT) gene (Dean et al [1992] Plant Journal 2, 69-81).
+SPT::Ac -> lines contain the wild type Ac in the same orientation as the
+SPT gene.  In SPT::Ac (BG)-> lines the Ac element has a Bgl 11 restriction
+site inserted downstream of the transposase polyadenylation site.  Both
+these lines are homozygous for the T-DNA.
+The Nae1Ac lines contain an Ac derivative, lacking 537bp of the CpG-rich 5'
+untranslated leader of the transposase.  These lines show a higher excision
+frequency and are described in Lawson et al [1994] Mgg 245, 608-615.  
+Excision of the Ac element from the SPT gene results in resistance to streptomycin.  
+Each Nae1 Ac line is selfed progeny from a highly variegated individual and should
+result in germinal excision events in the next generation.
+
+
+Buckhorn Pass ecotype   A. Murphy
+Berkeley ecotype        A. Murphy
+Santa Clara ecotype     A. Murphy
+Limeport ecotype        A. Murphy
+
+Tol-0   S. Leisner
+Tol-1   S. Leisner
+Tol-2   S. Leisner
+Tol-3   S. Leisner
+Tol-4   S. Leisner
+Tol-5   S. Leisner
+Tol-6   S. Leisner
+Tol-7   S. Leisner
+Tol-8   S. Leisner
+Tol-9   S. Leisner
+
+Arabidopsis himalaica   H. Tsukaya
+
+Eric Holub, Jim Beynon and Ian Crute RI Lines
+100 RI Lines between Col-5 and Nd-1
+F3 seed available.
+F9 will have to be bulked.
+There is quite a good spread of markers on the F3's since 
+ this material was used for their Tor et al, 1994 paper in MPMI
+
+NOTE that these stocks are not currently available - with one exception.
+The ABRC has accelerated the release process with the Ac/Ds stocks donated
+by Dr. Sundaresan, and these may be ordered from ABRC immediately.  Many of
+the remainder will be available very soon.  We will post notices to the
+Arabidopsis newsgroup when this occurs.
+
+We greatly appreciate the generosity of the above donors in sharing their
+stocks.  We hope that the cooperative spirit evidenced by these donations
+will continue.
+
+
+Press RETURN for more...
+
+MAIL>
+
+    #1          20-DEC-1995 20:49:00.47                                  NEWMAIL
+
+AC AND DS LINES WITH GENE TRAP AND PROMOTER TRAP CONSTRUCTS
+
+These stocks have all been transformed with Ds elements containing promoter
+trap or gene trap constructs or immobilized Ac elements.  As with other
+transposon tagging systems the appropriate Ac-carrying line is crossed to
+Ds plants to induce the Ds to transpose.  The Ac lines carry transposase
+genes linked to a 35S CaMV promoter so that the Ds excision rate is very
+high.  The promoter or gene trap constructs of the Ds lines utilize a
+b-glucuronidase coding region so that tissues in which expression of the
+gene has been activated by the transposition event can be visualized
+readily.   In addition, a selection scheme is incorporated into this system
+which allows transpositions near the initial Ds site to be excluded, and
+the resulting populations of transposition lines are enriched for unlinked
+and loosely linked locations.   This system represents a potentially
+important new tool for gene cloning and expression study.  Please consult
+the original publication for details of the system and individual lines,
+including maps of the constructs for all of the stocks (Sundaresan, et al.,
+1995. Genes & Development 9:1797-1810).
+
+Press RETURN for more...
+
+MAIL>
+
+    #1          20-DEC-1995 20:49:00.47                                  NEWMAIL
+
+T-DNA TAGGED LINES
+
+NASC and ABRC are currently working to procure as many T-DNA tagged lines
+as possible.  As published previously, lines from the INRA project have
+been donated to NASC, and it is hoped that these may be ready for
+distribution by mid-1996.   In addition,  the centers are currently seeking
+any substantial-sized groups of transformed lines to add to the collection.
+ We hope to be able to accumulate in excess of 20,000 lines as rapidly as
+possible so that individuals wishing to screen these lines may have the
+highest possible probability of finding the desired, tagged gene that can
+be reasonably achieved.  Any individual willing to donate such lines should
+contact Randy Scholl or Mary Anderson.
+
+The ABRC has a large new collection of DNA stocks, including specifically
+large  insert libraries and filters made from these.  Consult previous
+issues of Weeds World for details of these stocks.  The Web pages of NASC
+() and AIMS () can be consulted for additional details of all available
+Arabidopsis stocks.
+
+Press RETURN for more...

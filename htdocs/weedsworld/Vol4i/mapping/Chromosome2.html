@@ -1,0 +1,62 @@
+<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "/Vol3iii/mapping/Chromosome1.html";
+	   else if (page == 5)
+		page_title = "/Vol3iii/mapping/mapping.html";
+	   else if (page == 6)
+		page_title = "/Vol3iii/mapping/Chromosome3.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Chromosome 1 Graphical map';
+	   else if (id == 5)
+		strng = 'The latest Lister and Dean RI maps';
+	   else if (id == 6)
+		strng = 'Chromosome 3 Graphical map';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+<TITLE>Latest RI Map of Chromosome 2 ( 12-May-1997)</TITLE>
+<!-- Created by: Dr Mike Arnold, 29-Aug-1996 -->
+<!-- Changed by: Dr Mike Arnold,  3-Sep-1996 -->
+
+
+</HEAD>
+<BODY bgcolor=#ffffff>
+<blockquote>
+<H1>Latest RI Map of Chromosome 2 - May 1997</H1>
+<hr>
+<img src="chromosome2.gif">
+<hr>
+
+</blockquote>
+
+</BODY>
+</HTML>

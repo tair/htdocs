@@ -1,0 +1,24 @@
+Research Scientist (PI) in Bioinformatics (2911) 
+
+We are seeking leaders in computational biology/biostatistician. The research
+ scientist should have the capacity to work in a multidisciplinary community. 
+ This research scientist will be a member of the Basic Science Program at the 
+ Brazilian Bioethanol Science and Technology Laboratory (CTBE). CTBE is a 
+ Brazilian national laboratory founded by the Ministry of Science and 
+ Technology (MCT) to contribute for the Brazilian leadership in the renewable 
+ energy sources and chemical industry raw material production sectors, mainly 
+ by improving the sugarcane bioethanol production chain, through 
+ state-of-the-art of research, development and innovation. 
+
+Requirements: 
+- PhD and Post Doc in bioinformatics, computer science or statistics 
+- Advanced experience in the analysis of high-throughput "omics" data, 
+  particularly high throughput sequencing data and metabolomics are required. 
+- Experience in data integration for systems biology analysis. 
+- Experience in standard machine learning and statistical modelling algorithms 
+- Extensive experience in programming skills using different statistical computing languages. 
+- Experience in supervising students. 
+Interested applicants should send their and CV with contact information for 3 references to 
+Prof. Gustavo Goldman (gustavo.goldman@bioetanol.org.br) 
+Informal inquiries should be directed to Prof. Gustavo Goldman (gustavo.goldman@bioetanol.org.br) 
+Closing application date: 02 July 2012. 

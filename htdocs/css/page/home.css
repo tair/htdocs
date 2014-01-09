@@ -1,0 +1,87 @@
+/* ----------------------------------------------
+ * TAIR home.css
+ ---------------------------------------------- */
+
+/* Grid adjustments
+---------------------------------------------- */
+/*settings for leftcolumn*/
+#content #leftcolumn{
+	margin: 15px 0 0 15px;
+	padding: 0;
+	width: 171px;
+	width: 518px;
+	display: inline; /* IE double margin bug fix */
+}
+/*settings for the right column*/
+#content #rightcolumn {
+	padding: 15px 10px 0 15px;
+	margin: 0;
+	width: 171px;
+}
+#content #leftcolumn img{
+	max-width: 533px; /*protection from having too wide imgs*/
+}
+#content #rightcolumn img{
+	max-width: 171px; /*protection from having to wide imgs*/
+}
+
+
+
+/* Page styles
+---------------------------------------------- */
+
+#leftcolumn .header {
+	margin: 0;
+	font-size: large;
+}
+#leftcolumn h3 {
+	margin: 0;
+	font-size: medium;
+}
+
+#cis {
+    float: left;
+}
+
+#nsf {
+    float: right;
+    padding-left: 9px;
+}
+
+#fund {
+    text-align: center;
+}
+
+#featured_img {
+	/**background: #f7f6f3;**/
+	margin-top: 25px;
+	padding: 0px 0px;
+	border-top: 5px solid #ebe8e1;
+	border-bottom: 5px solid #ebe8e1;
+    /**background: url(../../i/aracyc_logo.gif) no-repeat 10px 10px; **/
+}
+
+#featured_img h3 {
+	background: url(../../i/icon_apps.gif) no-repeat left center;
+	padding-left: 25px;
+    padding-top: 9px;
+}
+
+#featured_img img {
+	/**padding: 4px;**/
+	border: 2px solid #000000;
+}
+
+#rightcolumn h4 {
+	border-bottom: 1px dashed #e1e1e1;
+	padding: 0 0 1px 3px;
+	font-size: 115%;
+}
+#rightcolumn a {
+	font-weight: bold;
+}
+#rightcolumn .hr {
+	width: 171px;
+	height: 4px;
+	background: url(../../i/bott_fade.gif) no-repeat;
+}

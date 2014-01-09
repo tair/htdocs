@@ -1,0 +1,128 @@
+Poplar biofuels: Postdoctoral positions in bioinformatics, genomics, 
+molecular biology, and biochemistry 
+University of British Columbia, Vancouver BC, Canada 
+ 
+Six postdoctoral positions in bioinformatics, genomics, molecular biology, 
+and biochemistry are available as part of a recently funded Genome British 
+Columbia Applied Genomics Innovation Program (AGIP) project ³Optimized 
+Populus feedstocks and novel enzyme systems for a British Columbia bioenergy 
+sector². Positions will be for two to three years, starting in the Fall of 
+2008, and will be located at the University of British Columbia. 
+ 
+This multi-investigator project is centered at the University of British 
+Columbia  (Departments of Botany, Wood Science, Forest Sciences, the Centre 
+for Plant Research, and the Michael Smith Laboratories), with collaborators 
+at the University of Victoria, and the support of technology platforms at 
+the Vancouver Genome Sciences Centre, Prostate Centre Microarray Facility, 
+and Centre for Molecular Medicine and Therapeutics (CMMT). International 
+collaborators include the US Department of Energy, USDA Forest Service, and 
+Umea Plant Science Center. 
+ 
+If interested, please forward a cover letter indicating the  position you 
+are interested in, a CV, and the names of three references via email with 
+the subject ³AGIP Biofuels Position² to: 
+ 
+Carl Douglas, Project Leader 
+AGIP Biofuels 
+Department of Botany 
+University of British Columbia 
+Vancouver BC V6T 1Z4 
+CANADA 
+E-mail: cdouglas@interchange.ubc.ca 
+ 
+Postdoctoral Fellow position - Bioinformatics for population genomics 
+As part of a team investigating the variation in natural populations of the 
+completely sequenced model tree Populus trichocarpa (with particular 
+reference to cellulosic biofuel traits), you will pioneer whole genome SNP 
+discovery using massive parallel sequencing (Solexa) data. You will 
+coordinate the assembly of short read data by bioinformatics staff at the 
+Genome Sciences Centre, Vancouver. You will be responsible, together with 
+the project database bioinformatician, for pipelining and databasing the 
+SNPs. You will also be responsible for analytical work on the SNP variation 
+patterns, including detection of the signature of selection and QTN 
+detection, and for targeting 6000 SNPs of interest for expanded sampling 
+using Illumina SNP detection platforms. The position represents a superb 
+opportunity to work at the leading edge of population genomics and your work 
+will underpin a major tree biology project. Experience with one or more of 
+the following would be an advantage: next generation sequencing, short read 
+assembly, perl programming, database management, statistical genetics, SNP 
+detection assays and selection detection algorithms. 
+ 
+Postdoctoral Fellow - Massive parallel sequencing, SNP detection and 
+association genetics. 
+As part of a team investigating the variation in natural populations of the 
+completely sequenced model tree Populus trichocarpa (with particular 
+reference to cellulosic biofuel traits), you will be responsible for the 
+genome resequencing of trees from natural populations using chip-capture 
+technology and Solexa sequencing. Your data will be analyzed and pipelined 
+by bioinformatics colleagues. You will also be responsible for large-scale 
+SNP assays involving >6000 SNPs and hundreds of trees using the Illumina 
+Golden Gate system, and in collaborating with phenotypers and 
+bioinformaticians to perform large scale association analyses with an 
+extensive range of phenotypic traits. You will have access to 
+state-of-the-art genomics platforms at the Vancouver Genome Sciences Centre 
+and at the Centre for Molecular Medicine and Therapeutics. The project 
+offers the chance to work at the forefront of connecting genome and 
+phenotype in forest trees. Experience with some or all of the following 
+would be advantageous: RNA purification, microarray technology, SNP 
+detection assays, population genetics. 
+ 
+Three Postdoctoral Fellow positions   candidate gene discovery and analysis 
+As part of a team investigating the variation in natural populations of the 
+completely sequenced model tree Populus trichocarpa (with particular 
+reference to cellulosic biofuel traits), you will be responsible for 
+performing experiments to study Populus candidate genes that may be 
+important in controlling secondary cell wall development and biochemistry. 
+You will work with a bioinformatics team and use genome sequence 
+information, expression profiling data, biological and mutant data, and 
+phylogenetic analyses to identify candidate genes for further study in 
+Populus. You will carry our a range of experiments in Populus including 
+mis-expression in transgenic trees, expression profiling, and study of 
+recombinant proteins to define the biological roles of these genes in 
+secondary wall development. Experience in some or all of the following would 
+be advantageous: molecular biology and genetics, biochemistry, RNA isolation 
+and qRT-PCR, plant transformation, microarray technology. 
+ 
+ 
+Postdoctoral Fellow position   metabolic profiling and secondary cell wall 
+biochemistry 
+As part of a team investigating the variation in natural populations of the 
+completely sequenced model tree Populus trichocarpa (with particular 
+reference to cellulosic biofuel traits), you will be responsible for 
+carrying out biochemical and metabolic analyses of the wood and secondary 
+cell walls from natural and genetically modified Populus variants. This work 
+will be carried out will the help and collaboration of team members working 
+on the molecular biology of secondary wall formation in Populus, and 
+international collaborators. Work will be carried out using state-of-the art 
+analytical facilities in the Department of Wood Science at UBC. Familiarity 
+and expertise in analytical biochemistry is required, with expertise in wood 
+chemistry and metabolic profiling advantageous 
+ 
+Postdoctoral Fellow position   adaptive and biomass trait phenotyping 
+As part of a team investigating the variation in natural populations of the 
+completely sequenced model tree Populus trichocarpa (with particular 
+reference to cellulosic biofuel traits), you will be responsible for 
+obtaining phenotypic data on physiological traits related to adaptation and 
+biomass productivity of trees from natural populations, as expressed in 
+common garden and controlled environment experiments. These data will be 
+analyzed with respect to the provenance of the genotypes (latitude, 
+rainfall, elevation) and, in collaboration with other team members, related 
+to population structure and tested for associations with SNP genotypes of 
+candidate genes. Experience with some or all of the following would be 
+advantageous: measurement of A/Ci curves by infra-red gas analysis, 
+chlorophyll fluorescence, stable carbon and/or nitrogen isotope 
+discrimination, hydroponics, water relations and frost hardiness assessment. 
+ 
+Postdoctoral Fellow  Wood rot fungi expression profiling 
+As part of a team investigating the variation in natural populations of the 
+completely sequenced model tree Populus trichocarpa (with particular 
+reference to cellulosic biofuel traits), you will be responsible for 
+carrying out studies on gene expression of wood rot fungi with completely 
+sequenced genomes using microarray technology. This work will be carried out 
+collaboratively with partners in the US, with the objective of understanding 
+the nature of cell wall degrading systems deployed by these fungi, and the 
+discovery of potential novel enzymes and enzyme complexes that could be 
+deployed to efficiently de-construct Populus feedstocks of varying wood 
+chemistry prior to fermentation of released sugars. Experience in some or 
+all of the following would be advantageous: molecular biology, RNA isolation 
+and qRT-PCR, transformation, microarray technology, fungal biology.

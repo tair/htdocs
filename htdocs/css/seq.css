@@ -1,0 +1,80 @@
+/*http://developer.netscape.com/evangelism/docs/technotes/css-underlines*/
+
+a:link, a:visited {text-decoration: none}
+
+BODY			{background:#ffffff; color:#000000; font-family:Courier;}
+
+.title			{font-size: 16pt; font-weight: bold; color: #003366; }
+
+.number			{color:#666666}
+
+.arrow			{color:blue;}
+
+
+.match			{color:cyan; background:red}
+.matchc			{color:cyan; background:red; font-style:italic}
+
+.translationalend	{color:white; background:blue; text-decoration:none;}
+.translationalendc	{color:white; background:blue; text-decoration:none;}
+
+.utr			{color:red; text-decoration:none;}
+.utrc			{color:red; text-decoration:none;}
+
+.gene			{color:#9966FF; text-decoration:none;}
+.genec			{color:#9966FF; text-decoration:none;}
+
+.exon			{color:orange; text-decoration:none;}
+.exonc			{color:orange; text-decoration:none;}
+
+.marker			{color:white; background: #FF69B4;text-decoration:none;}
+.markerc		{color:white; background: #FF69B4;text-decoration:none; font-style: italic;}
+
+.substitution		{color:white; background: #336699;text-decoration:none}
+.substitutionc		{color:white; background: #336699;text-decoration:none; font-style: italic;}
+
+.insertion		{color:white; background: #CC0000;text-decoration:none;}
+.insertionc		{color:white; background: #CC0000;text-decoration:none; font-style: italic;}
+
+.deletion		{color:white; background: green;text-decoration:none;}
+.deletionc		{color:white; background: green;text-decoration:none; font-style: italic;}
+
+.compound		{color:white; background: blueviolet;text-decoration:none;}
+.compoundc		{color:white; background: blueviolet;text-decoration:none; font-style: italic;}
+
+.repeat			{color:white; background: violet;text-decoration:none;}
+
+.cloneleftend		{color:white; background: magenta;text-decoration:none;}
+.cloneleftendc		{color:white; background: magenta;text-decoration:none; font-style: italic}
+
+.clonerightend		{color:white; background: red;text-decoration:none;}
+.clonerightendc		{color:white; background: red;text-decoration:none;font-style: italic}
+
+.bacleftend		{color:white; background: #00FF00;text-decoration:none;}
+.bacleftendc		{color:white; background: #00FF00;text-decoration:none; font-style: italic}
+
+.bacrightend		{color:white; background: #339933;text-decoration:none}
+.bacrightendc		{color:white; background: #339933;text-decoration:none; font-style: italic}
+
+.transcript		{color:blue; background:#ffffff; text-decoration:none}
+.transcriptc		{color:blue; background:#ffffff; text-decoration:none; font-style: italic}
+
+.cdna                   {color:blue; text-decoration:none}
+.cdnac		        {color:blue; text-decoration:none; font-style: italic}			
+
+.est			{color:gray; text-decoration:none}
+.estc    		{color:gray; text-decoration:none; font-style: italic}
+
+.tdna                   {color:#6600CC; text-decoration:none}
+.tdnac		        {color:#6600CC; text-decoration:none; font-style: italic}
+
+.transposon		{color:gray; text-decoration:none}
+.transposonc    	{color:gray; text-decoration:none; font-style: italic}
+
+.annotation 		{position:absolute; visibility:hidden;}
+.startAnnotation 	{position:absolute; visibility:show;}
+.item			{background:#ffffee;}
+
+.complementary		{font-style: italic}
+
+.clone			{color:pink;}
+

@@ -1,0 +1,31 @@
+PhD position in plant biochemistry 
+Title: Visualization of receptor activation in plants 
+
+Plants possess cell surface receptors to respond to extracellular signals like hormones or pathogens. 
+Activation of these signaling pathways comprises binding of ligands to the extracellular domain of a 
+receptor protein followed by changes in the phosphorylation status of the intracellular kinase domain 
+of the receptor. Phosphorylation of receptor kinases (RKs) is the key step in activation of these 
+signaling processes This project aims to develop a fluorescence-based biosensor enabling to elucidate 
+timing, localization and dynamics of active receptors in the model plant Arabidopsis thaliana. 
+
+Visualization of signaling events has received very little attention so far, mainly due to technical 
+limitations. In this project modern fluorescence spectroscopy technology is combined with an 
+interesting biological problem to unravel signaling events in a whole organism. 
+
+We are looking for a motivated candidate preferably in the field of (plant) cell biology/biochemsitry. 
+Applicants should hold a MSc degree in biochemistry or cell biology with special interest in 
+fluorescence spectroscopy. 
+
+The work will be performed in the Laboratory of Biochemistry http://www.bic.wur.nl/UK/Research/Biomolecular+Networks
+and Microspectroscopy Centre (MSC) of Wageningen University. The laboratory of Biochemistry has 
+substantial experience in RLK signaling in plants and is well accommodated for biochemical and genetic 
+analysis of these processes. The MSC is an excellent facility for optical (micro-) spectroscopic 
+analysis as required for this project.
+ 
+The position is available immediately and applicants will be accepted until the position has been filled. 
+Please send inquiries for information or your application including CV, motivation letter and 2 references to: 
+
+Dr. Jan Willem Borst 
+janwillem.borst@wur.nl 
+Phone: 31-317-483724 
+

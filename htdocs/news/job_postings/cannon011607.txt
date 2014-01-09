@@ -1,0 +1,35 @@
+Bioinformatics position open
+
+The USDA Agricultural Research Service Corn Insects and Crop Genetics Research 
+Unit in Ames, Iowa (Iowa State University campus) invites applications for a 
+programmer / computational biologist to work in a team that is helping to 
+assemble, analyze and annotate the soybean genome sequence.
+
+The job will involve working with several research groups to assemble a large, 
+complex genome sequence and to identify biologically useful information. 
+Responsibilities will include populating a database with genetic, sequence, and 
+related information; writing and maintaining bioinformatics software; and 
+participating in data mining and analysis of genomic sequence.
+
+Required knowledge and abilities include 1) ability to perform various systems 
+operations in the Unix/Linux environment; 2) knowledge of SQL and relational 
+database design and development methods; and 3) skill in the use of Perl or a 
+comparable scripting language to program, modify, analyze, and organize data. 
+For background further information on the project contact Dr. Steven Cannon at 
+scannon@iastate.edu and see related project information at http://soybase.org/.
+Note to any attendees at the Plant and Animal Genome conference: please see the 
+job board and arrange to talk with Steven Cannon at the meeting if you are 
+interested.
+
+Candidates must be U.S. citizens. This is a permanent position with no 
+publication requirement. The position will be filled at the GS-9 - GS-11 level 
+($50,471 – 72,060); salary will be commensurate with experience. A comprehensive 
+benefits package is provided.  Vacancy announcements and application information 
+can be obtained from the ARS website at 
+http://jobsearch.usajobs.opm.gov/getjob.asp?JobID=52117308. For questions 
+regarding application procedures can call Lynnette Richey 515-663-7278.
+
+Applications in response to this ad must be postmarked by January 29, 2007 and 
+reference vacancy announcement number ARS-X7W-0087.
+
+THE USDA/ARS IS AN EQUAL OPPORTUNITY PROVIDER AND EMPLOYER.

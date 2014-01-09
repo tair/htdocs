@@ -1,0 +1,33 @@
+Bioinformatics Postdoc in High Throughput Sequencing 
+ http://waksman.rutgers.edu/postdoc.php 
+ 
+The Waksman Institute of Microbiology located on the New Brunswick campus of  Rutgers 
+University is seeking applicants for a bioinformatics postdoc appointment to  develop 
+bioinformatic tools and analyze genome, transcriptome and epigenome data  generated on the 
+454, Illumina and SOLiD high-throughput sequencing platforms. The  qualified candidate will 
+develop methods to extract biological meaning from DNA  sequence information and should have 
+a strong background in biology, bioinformatics  and scripting languages with experience building 
+and maintaining biological databases.  The qualified candidate should be able to process 
+information from sequencing  machines and solve long term genomics questions that high-
+throughput sequencing can  address. It is expected that research will lead to publication in top tier 
+journals and  presentation at National and International conferences. 
+ 
+Requirements: 
+       * Ph.D. in molecular biology, genetics, bioinformatics, systems biology or other  related fields; 
+candidates with a Ph.D. in physics, mathematics or computer science that have some practical 
+biology knowledge and experience are also encouraged to apply. 
+       * Strong publication record and demonstrated scientific track record. 
+       * Strong computational and statistical skills. 
+       * Programming and database experience; Perl, python or Ruby expertise required. 
+       * Experience with next generation sequencing, microarrays or other high-throughput biology 
+is desirable. 
+       * Willingness to supervise graduate students and undergraduates is desirable. 
+How to apply: 
+>Send a cover letter stating why you are interested in this position and how your skill set 
+>        complements this position, curriculum vitae, and the names of three references that we 
+>        will contact if you are chosen for an interview to: hr@waksman.rutgers.edu with 
+>        “Genomics and Bioinformatics Postdoctoral Fellow” in the subject line. Rutgers is an equal 
+opportunity employer. 
+For more information about this position please contact: 
+>>              Dr. Joachim Messing (messing@waksman.rutgers.edu) 
+>or visit the website - http://waksman.rutgers.edu/postdoc.php

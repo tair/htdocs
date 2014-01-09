@@ -1,0 +1,61 @@
+==========================
+Postdoctoral Scientist Bioinformatics
+==========================
+The Department of Plant Systems Biology, VIB, University Ghent (
+www.psb.ugent.be) is
+an internationally renowned and dynamic research institute that employs
+molecular genetics,
+genomics and bioinformatics to unravel developmental processes in plants.
+The Systems
+Biology of Yield group, headed by Prof. Dirk Inzé, is focusing on the
+integration of multiple
+data sources (genomics, transcriptomics, phenotyping) to investigate the
+complex regulation
+of plant growth in relation to the environment.
+
+- Job description:
+We want to recruit an enthusiastic postdoc in bioinformatics/systems
+biology. With the advent
+of sequencing technologies, we are now able to exploit the natural variation
+of plants to study
+growth and development in the model species Arabidopsis thaliana as well as
+the crop
+species Zea mays (corn). You will be involved in the integrative analysis of
+RNA-seq data
+and growth phenotype data. The successful applicant will be working in close
+collaboration
+with our experimental team, to develop and apply computational methods to
+analyze inhouse
+generated data.
+- Profile:
+- You have a PhD degree in Bioinformatics, Computational Science or in
+Biotechnology/Biochemistry/**Bioengineering or equivalent.
+- You have a good knowledge/experience in programming (one or more of the
+following: Perl/Python, R, SQL, Java and/or C++), proficiency in Unix/Linux.
+- Experience with next-generation sequencing and/or microarray data
+analysis,
+genome-wide association mapping, machine learning and/or network inference
+is a
+plus
+- Strong background in statistics is a plus
+- Good knowledge of plant biology is a plus
+- You speak English fluently. You have good communication skills and like to
+work in a
+team. You can work independently and like to take initiative.
+
+- The contract will be for a period of 3 years. We offer a diverse job in a
+young international
+team, an open and informal work atmosphere and in modern facilities. The
+institute is located
+in the vibrant university city of Ghent.
+
+- Start date: as soon as possible, the position remains vacant until a
+suitable candidate is
+found.
+
+- Application: Send your letter of motivation, your CV and references to
+Christine Tiré
+(christine.tire@psb.vib-ugent.**be <christine.tire@psb.vib-ugent.be>).
+Further information can be obtained by contacting Stefanie
+De Bodt (stefanie.debodt@psb.vib-**ugent.be<stefanie.debodt@psb.vib-ugent.be>
+). 

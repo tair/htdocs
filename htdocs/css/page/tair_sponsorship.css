@@ -1,0 +1,15 @@
+#content table tr td.sponsor_image {
+    vertical-align: middle;
+}
+
+#content table tr td.sponsor_text {
+    font-weight: bold;
+    font-size: larger;
+    vertical-align: bottom;
+    padding-left: 12px;
+    padding-bottom: 11px;
+}
+
+#content table tr.sponsor_row {
+    border-bottom: 1px solid green;
+}

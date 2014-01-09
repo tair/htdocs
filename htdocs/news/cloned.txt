@@ -1,0 +1,537 @@
+Gene Symbol	Alias	Full Name of Gene Symbol 
+AAO 3		Aldehyde Oxidase 
+AAT 2		Aspartate Aminotransferase
+AAT 3	ASP 5	Aspartate Aminotransferase
+ABA 1	NPQ 2	ABA Deficient
+ABA 2	SRE 1	ABA Deficient
+ABA 3	LOS 5	ABA Deficient
+ABC 1	SIG 2	Aberrant Chloroplasts
+ABF 1		ABRE Binding Factor
+ABH 1		ABA Hypersensitive
+ABI 1		ABA Insensitive
+ABI 2		ABA Insensitive
+ABI 3		ABA Insensitive
+ABI 4		ABA Insensitive
+ABI 5		ABA Insensitive
+ABP 1		Auxin Binding Protein 
+ACD 11		Accelerated Cell Death
+ACD 2		Accelerated Cell Death
+ACE		Adhesion of Calyx Edges
+ACL 5		Acaulis
+ACT 7*		Actin
+ADG 1		ADP Glucose Pyrophosphorylase Deficient
+ADG 2		ADP Glucose Pyrophosphorylase Deficient
+ADH 1		Alcohol Dehydrogenase
+ADL 1A	ACW 2	Arabidopsis Dynamin Like
+AG		Agamous 
+AGB 1	ELK 4	Arbidopsis G Protein Beta Subunit; Erecta Like
+AGL 8	FUL	Agamous-Like
+AGO 1	ICU 9	Argonaute
+AGR 1	PIN 2; WAV 6; EIR 1	Agravitropic
+AHA 4		Arabidopsis Plasma Membrane H+ ATPase
+AIM		Abnormal Inflorescence Meristem
+AKT 1		Arabidopsis Potassium Transport
+ALB 3		Albino
+ALE 1		Abnormal Leaf Shape
+ALF 5		Aberrant Lateral Root Formation
+AML 1		Arabidopsis Minute-Like
+AMP 1	COP 2; HPT; PT	Altered Meristem Program
+AN		Angustifolia
+ANL 2		Anthocyaninless
+ANT		Aintegumenta
+AP 1		Apetala
+AP 2	FLO 2	Apetala
+AP 3		Apetala
+APG 3		Albino and Pale Green
+APT 1		Adenine Phosphoribosyl Transferase
+ARA 1	ISA 1	Arabinose Sensitive
+ARG 1		Altered Response to Gravity
+ARS 27		Arabidopsis Ribosomal Protein
+AS 1		Asymmetric Leaves
+AS 2	LBD 6	Asymmetric Leaves
+ASB 1		Asymmetric Branch
+ASB 3		Asymmetric Branch
+ASK 1		Arabidopsis SKP1-Like
+ASY 1		Asynaptic 
+ATR		Altered Tryptophan Regulation
+AUX 1	WAV 5	Auxin Resistant
+AXR 1		Auxin-Resistant
+AXR 2		Auxin-Resistant
+AXR 3		Auxin-Resistant
+BAL		Ball
+BAN		Banyuls
+BDL	IAA 12	Bodenlos
+BEL 1		Bell-Shaped Ovules
+BIN 2	UCU 1/ DWF 12	Brassinosteroid Insensitive; Ultracurvata
+BIO 1		Biotin Auxotroph
+BIO 2	EMB 49	Biotin Auxotroph
+BON 1		Bonzai
+BOU		A Bout de Souffle
+BP		Brevipedicellus
+BRI 1	CBB 2	Brassinosteroid Insensitive
+BRL 1		BRI 1 Like
+BUS 1		Bushy
+CAD 1		Cadmium Sensitive 
+CAL		Cauliflower
+CAO		Chaos
+CBB 3	CPD; DWF 3	Cabbage
+CCA 1		Circadian Clock Associated
+CER 1		Eceriferum
+CER 2		Eceriferum
+CER 3		Eceriferum
+CER 6	POP 1	Eceriferum
+CH 1		Chlorina
+CH 42		Chlorina
+CHL 1		Chlorate Resistant
+CHL 6	CNX	Chlorate Resistant
+CHY 1		CoA Ester Hydrolase
+CIA 2		Chloroplast Import Apparatus
+CKI 1		Cytokinin Independent
+CLA 		Chloroplastos Alterados
+CLCA		Chloride Channel
+CLF	ICU 1	Curly Leaf
+CLV 1	FLO 5	Clavata
+CLV 2		Clavata
+CLV 3		Clavata
+CO	FG	Constans
+COB		Cobra
+COI 1		Coronatine Insensitive
+COP 1	FUS 1; EMB 168	Constitutive Photomorphogenesis
+COP 10		Constitutive Photomorphogenesis
+COP 8	FUS 4; EMB 134; FUS 8	Constitutive Photomorphogenesis
+COP 9 	FUS 7; EMB 143	Constitutive Photomorphogenesis
+CPC		Caprice
+CPR 5	HYS 1	Constitutive Expression of PR Genes
+CRC		Crabs Claw
+CRE 1	WOL	Cytokinin Response
+CRM 2	HEN 1	Corymbosa
+CSR 1	IMR 	Chlorsulfuron / Imidazolinone Resistant
+CTR 1		Constitutive Triple Response
+CUC 1		Embryo Defective
+CUE 1	PPT	CAB Gene Underexpressed
+CUL 1	AXR 6	Cullin; Auxin Resistant
+CYT 1	EMB 101; VTC 1	Cytokinesis Defective
+DAD 1		Defective in Anther Dehiscence
+DAG 1		Dof Affecting Germination
+DDM 1	SOM	Decreased DNA Methylation
+DET 1	FUS 2	De-etiolated
+DET 2	DWF 6	De-etiolated
+DET 3		De-etiolated
+DEX 1		Defective in Exine Patterning
+DFL 1		Dwarf in Light
+DGD 1		Digalactosyl Diacylglycerol Deficient
+DHDPS 2		Dihydrodipicolinate Synthase
+DMC 1		Homolog of Yeast DMC 1
+DND 1		Defense No Death
+DPE 1		Disproportionating Enzyme
+DWF 1	DIM; CBB 1	Dwarf
+DWF 4		Dwarf
+DWF 5		Dwarf
+DWF 7	BUL; STE 1	Dwarf
+EDD		Embryo Defective Development
+EDM 1		Enhanced Downy Mildew Susceptibility
+EDR 1		Enhanced Disease Resistance
+EDS 1		Enhanced Disease Susceptibility
+EDS 5	SID 1	Enhanced Disease Susceptibility
+EIN 2	CKR 1	Ethylene Insensitive
+EIN 3		Ethylene Insensitive
+ELF 3		Early Flowering
+ELP	CTL 1	Ectopic Lignin in Pith
+EMB 1006		Embryo Defective
+EMB 1011		Embryo Defective
+EMB 1025		Embryo Defective
+EMB 1027		Embryo Defective
+EMB 1067		Embryo Defective
+EMB 1138		Embryo Defective
+EMB 1211		Embryo Defective
+EMB 1220		Embryo Defective
+EMB 1270		Embryo Defective
+EMB 1273		Embryo Defective
+EMB 1276		Embryo Defective
+EMB 1381		Embryo Defective
+EMB 1427		Embryo Defective
+EMB 1441		Embryo Defective
+EMB 1444		Embryo Defective
+EMB 1473		Embryo Defective
+EMB 1474		Embryo Defective
+EMB 1513		Embryo Defective
+EMB 1579		Embryo Defective
+EMB 1586		Embryo Defective
+EMB 1692		Embryo Defective
+EMB 1703		Embryo Defective
+EMB 1789		Embryo Defective
+EMB 1796		Embryo Defective
+EMB 1860		Embryo Defective
+EMB 1865		Embryo Defective
+EMB 1879		Embryo Defective
+EMB 1899		Embryo Defective
+EMB 1967		Embryo Defective
+EMB 2036		Embryo Defective
+EMB 2171		Embryo Defective
+EMB 2219		Embryo Defective
+EMB 2261		Embryo Defective
+EMB 2284		Embryo Defective
+EMB 2289		Embryo Defective
+EMB 2296		Embryo Defective
+EMB 2386		Embryo Defective
+EMB 2444		Embryo Defective
+EMB 2453		Embryo Defective
+EMB 2454		Embryo Defective
+EMB 30	GN	Embryo Defective; Gnom
+EMB 506		Embryo Defective
+EMF 1		Embryonic Flower
+EMF 2		Embryonic Flower
+ER		Erecta
+ERA 1		Enhanced Response to ABA
+ETR 1	EIN 1	Ethylene Response
+ETR 2		Ethylene Response
+ETT		Ettin
+FAD 2		Fatty Acid Desaturase Deficient
+FAD 3		Fatty Acid Desaturase Deficient
+FAD 6	FADC	Fatty Acid Desaturase
+FAD 7	FADD	Fatty Acid Desaturase Deficient
+FAR 1		Far-Red Impaired Response
+FAS 1		Fasciata
+FAS 2		Fasciata
+FCA		Late Flowering
+FD		Late Flowering
+FDH		Fiddlehead
+FEY	FEY 3	Forever Young
+FFC		
+FHA	CRY 2	Late Flowering; Cryptochrome
+FHY 2	PHY A; HY 8	Long Hypocotyl in Far-Red Light
+FIE		Fertilization Independent Endosperm
+FIL	AFO	Filamentous Flower
+FIN 219	JAR 1	Far-Red Insensitive
+FIP 37*		FKBP Interacting Protein
+FIS 2		Fertilization Independent Seed
+FK	HYD 2	Fackel
+FKF 1		
+FLC	FLF 	Flowering Locus C
+FLP		Four Lips
+FLS 2		Flagellin Signaling
+FLU		
+FPA		Late Flowering
+FPF		Flowering Promoting Factor
+FRA 2	ERH 3; KTN 1	Fragile Fiber; Ectopic Root Hair
+FRC 3		Furca
+FRD 3		
+FRI	FLA	Frigida
+FRO 1		Frostbite
+FRY 1		Fiery
+FS 1	TON 2; EMB 40	Fass; Tonneau
+FT		Flowering Locus T
+FUS 11		Fusca
+FUS 12	CSN 2	Fusca
+FUS 3		Fusca
+FUS 5		Fusca
+FUS 6	COP 11; EMB 78	Fusca
+FVE	MIS 4	Late Flowering
+FWA		Late Flowering
+FY		Late Flowering
+GA 1		GA Deficient
+GA 2		GA Deficient
+GA 3		GA Deficient
+GA 4		GA Deficient
+GA 5		GA Deficient
+GAI		GA-Insensitive
+GCR 1		G-Protein Coupled Receptor
+GDH 1		Glutamate Dehydrogenase
+GI	FB	Gigantea
+GL 1		Glabra
+GL 2		Glabra
+GL 3		Glabra
+GLS 1	GLU 1	Glutamate Synthase
+GUN 5		Genomes Uncoupled
+HBT		Hobbit
+HCF 136		High Chlorophyll Fluorescence
+HCF 164		High Chlorophyll Fluorescence
+HFR 1	REP 1; RSF 1	Long Hypocotyl in Far-Red Light
+HIC		High Carbon Dioxide
+HIK		Hinkel
+HLL		Huellenlos
+HLS 1	COP 3	Hookless
+HO 2		Heme Oxygenase
+HOS 1		High Response to Osmotic Stress
+HOT*	HSP 101	Sensitive to Hot Temperatures
+HUA 1		Enhancer of ag-4
+HUA 2		Enhancer of ag-4
+HY 1	GUN 2	Elongated Hypocotyl
+HY 2	GUN 3	Elongated Hypocotyl
+HY 4	CRY 1	Elongated Hypocotyl
+HY 5		Elongated Hypocotyl
+HYD 1		Hydra
+HYL 1		Hyponastic Leaves
+IAR 1		IAA-Alanine Resistant
+IAR 3		IAA-Alanine Resistant
+ILR 1		IAA-Leucine Resistant
+IM		Immutans
+INO		Inner No Outer
+IRE*		Incomplete Root Hair Elongation
+IRT 1		Iron Transport
+IRX 1		Irregular Xylem
+IRX 3		Irregular Xylem
+IRX 4		Irregular Xylem
+IXR 1		Isoxaben Resistant
+IXR 2	PRC 1	Isoxaben Resistant; Procuste
+KAK		Kaktus
+KAN		Kanadi
+KCS 1		KCS
+KEU		Keule
+KIS		Kiesel
+KJK	CSLD 3	Kojak
+KN		Knolle
+KNF	GCS 	Knopf
+KOM		Kompeito
+KOR 1	RSW 2 / TSD 1	Korrigan
+KYP		Kryptonite
+LAF 1		Long After Far-Red Light
+LAF 6		Long After Far-Red Light
+LCR		Lacerata
+LD		Luminidependens
+LEC 1		Leafy Cotyledon
+LEC 2		Leafy Cotyledon
+LFY		Leafy
+LOS 1		Low Response to Osmotic Stress
+LOS 2		Low Response to Osmotic Stress
+LRX 1		Leucine-Rich Repeat, Extensin Protein
+LSD 1		Lesions Simulating Disease Resistance
+MAA 3		Magatama
+MAM 1*		Methylthioalkylmalate Synthase
+MEA	EMB 173; FIS 1	Medea
+MGD 1		Monogalactosyl Diacylglycerol
+MIM		MMS, Irradiation, Mitomycin C Sensitive
+MKP 1*		MAP Kinase Phosphatase
+MMP		Matrix Metalloproteinase
+MNP		Monopole
+MOD 1*	ENR	Mosaic Death 
+MOM		Maintenance of Methylation
+MOR 1		Microtubule Organization
+MP		Monopteros
+MPK 4		MAP Kinase
+MRP 5		Multidrug Resistance-Associated Protein
+MS 1		Male Sterile
+MS 2		Male Sterile
+MS 5		Male Sterile
+MTO 2		Methionine Over-Accumulation
+MTO 3		Methionine Over-Accumulation
+MUR 1		Cell Wall Mutant
+MUR 2		Cell Wall Mutant
+MYB 4		MYB Gene Knockout
+MYB 61		MYB Gene Knockout
+NDR 1		Non Race-Specific Disease Resistance
+NIA 1		Nitrate Reductase
+NIA 2	CHL 3	Nitrate Reductase
+NIM 1	NPR 1	Non-Induced Immunity
+NIT 1		Resistant to Indole-3-Acetonitrile
+NPH 1		Non-Phototropic Hypocotyl
+NPH 3		Non-Phototropic Hypocotyl
+NPH 4		Non-Phototropic Hypocotyl
+NPQ 1		Nonphotochemical Quenching Defective
+NRT 2		Nitrate Transport Defective
+OMR 1		L-O-Methylthreonine Resistant
+OPR 3		Oxophytodienoate Reductase
+ORE 9	MAX 2	Oresara
+OSM 1		Osmotic Sensitive Mutant
+PAC		Pale Cress
+PAD 3		Phytoalexin Deficient
+PAD 4		Phytoalexin Deficient
+PAN		Perianthia
+PAS 1		Pasticcino
+PAT 1		Phytochrome A Transduction
+PBS 1		avrPphB Susceptible
+PBS 2	AtRAR 1	avrPphB Susceptible
+PDE 120		Pigment Defective Embryo 
+PDE 129		Pigment Defective Embryo 
+PDE 135		Pigment Defective Embryo 
+PDE 181		Pigment Defective Embryo 
+PDE 225		Pigment Defective Embryo 
+PDE 226		Pigment Defective Embryo 
+PDE 247		Pigment Defective Embryo 
+PDF 2		Protodermal Factor
+PDS 1		Phytoene Desaturase
+PED 1		Peroxisome Defective
+PED 2		Peroxisome Defective
+PEI		
+PEN 2		
+PFC 1		Paleface
+PFI		Pfifferling
+PFL		Pointed First Leaves
+PFL 2		Pointed First Leaves
+PGI 1		Phosphoglucose Isomerase
+PGM	STF	Phosphoglucomutase
+PGP		Phosphatidylglycerolphosphate Synthase
+PGR 1		Proton Gradient Regulation
+PHO 1		Low Inorganic Phosphate
+PHYB	HY 3	Phytochrome B
+PHYC		Phytochrome C
+PI		Pistillata
+PID		Pinoid
+PIN 1		Pinformed
+PIN 3		Pinformed
+PIN 4		Pinformed
+PKL		Pickle
+POC 1		Photocurrent
+POR		Porcino
+PPI 1		Plastid Protein Import
+PPI 2		Plastid Protein Import
+PRF 1		Profilin
+PRL		Prolifera
+PRPL 11		Plastid Ribosomal Protein L11
+PRS 		Pressed Flower
+PRT 1		Proteolysis
+PRZ 1		Proporz
+PSAE 1		psa E1 Knockout
+PTF 1		psbD Transcription Factor
+PXA 1	PED 3 / CTS	Peroxisomal ABC Transporter
+RAD 17*		Radiation Sensitive
+RAD 50*		Radiation Sensitive
+RAM 1		Reduced Beta Amylase
+RAN 1		Responsive to Antagonist
+RAT 5		Resistant to Agrobacterium Transformation 
+RCN 1		Altered Responses to NPA
+REF 8		Reduced Epidermal Fluorescence
+REV	IFL 1	Revoluta
+RGL 1		RGA-Like
+RHA 1		Root-Handedness Altered
+RHD 3		Root Hair Defective
+RHL 1		Root Hairless
+RML 1	CAD 2	Root Meristemless
+ROT 3		Rotundifolia
+RPM 1		Resistance to P. syringae pv. maculicola
+RPP 1	COG 1; RPP 10	Recognition of Peronospora parasitica
+RPP 13		Recognition of Peronospora parasitica
+RPP 4	RPP 5	Recognition of Peronospora parasitica
+RPP 8		Recognition of Peronospora parasitica
+RPS 2		Resistant to P. syringae
+RPS 4		Resistant to P. syringae
+RPS 5		Resistant to P. syringae
+RPT 2		Root Phototropism
+RSH		Root-Shoot-Hypocotyl Defective
+RSW 1		Radially Swollen Root
+RSY 3		Raspberry
+RTM 1		Restricted TEV Movement
+RTM 2		Restricted TEV Movement
+SAB		Sabre
+SAP		Sterile Apetala
+SCD 1		Stomatal Cytokinesis Defective
+SCR		Scarecrow
+SDD 1		Stomatal Density, Distribution
+SDS		Solo Dancers
+SE		Serrate
+SEL 1		Selenate Resistant
+SEU		Seuss
+SEX 1		Starch Excess
+SGR 2		Shoot Gravitropism
+SGR 3		Shoot Gravitropism
+SGS 2		Suppressor of Gene Silencing 
+SGS 3		Suppressor of Gene Silencing
+SHD		Shepherd
+SHI		Short Internodes
+SHR		Short Root
+SHY 2		Short Hypocotyl
+SID 2		SA Induction Deficient
+SKO		Defect in SKOR K+ Channel
+SLP		Schlepperless
+SLR		Solitary Root
+SMT 1	CPH; ORC	Sterol Methyltransferase
+SNG 1		Sinapoylglucose Accumulator
+SNG 2		Sinapoylglucose Accumulator
+SNI 1		Suppressor of npr 1 Inducible
+SON 1		Suppressor of NIM
+SOS 1		Salt Overly Sensitive
+SOS 2		Salt Overly Sensitive
+SOS 3		Salt Overly Sensitive
+SOS 4		Salt Overly Sensitive
+SOZ 2		Sensitive to Ozone
+SP1L		Spiral 1 Like
+SPA 1		Suppressor of phyA-105
+SPIK		Shaker Family K+ Channel
+SPIKE 1		Spike
+SPL	NZZ	Sporocyteless
+SPR 1*		Spiral  
+SPS		Supershoot
+SPT		Spatula
+SPY		Spindly
+SQD 1		Sulfoquinovosyl Diacyglycerol Deficient
+SQD 2		Sulfoquinovosyl Diacyglycerol Deficient
+SQN		Squint
+SRL 2		Short Hypocotyl in Red Light
+SSE		Shrunken Seed
+SSI 2		Suppressor of npr1-5
+SSR 16		Small Subunit Ribosomal Protein
+STARIK		Starik
+STI		Stichel
+STM	BUM; SHL; WAM 	Shoot Meristemless
+SUB 1*		Short Under Blue Light
+SUC 2		Sucrose Transporter
+SUP	FLO 10	Superman
+SUR 1	RTY; ALF 1; HLS 3	Super Root
+SUR 2		Super Root
+SUS 1	SIN 1; CAF; EMB 76	Abnormal Suspensor; Short Integuments; Carpel Factory
+SUS 2	EMB 177	Abnormal Suspensor
+SVP		Short Vegetative Phase
+SWI 1		Switch
+SYD		Splayed
+SYN 1	DIF 1	Meiotic Synpatic Defective
+TAG 1	RDS 1	Triacylglycerol Biosynthesis 
+TES		Tetraspore
+TFL 1		Terminal Flower
+TFL 2	LHP 1	Terminal Flower
+TIR 1		Transport Inhibitor Response
+TIR 3	DOC 1; BIG	Transport Inhibitor Response
+TMM		Too Many Mouths
+TNY		Tiny
+TOC 1		Timing of CAB Expression
+TOM 1		Tobamovirus Multiplication
+TOP 6B*		Topoisomerase 6B
+TOR*		Target of Rapamycin
+TPS*		Trehalose-6-Phosphate Synthase
+TRH 1		Tiny Root Hair
+TRP 4	ASB	Tryptophan Auxotroph
+TRP 5	AMT 1; ASA 1	Tryptophan Biosynthesis
+TSK		Tonsoku
+TSL		Tousled
+TSO 1		Tso
+TT 1		Transparent Testa
+TT 12		Transparent Testa
+TT 2		Transparent Testa
+TT 3		Transparent Testa
+TT 4		Transparent Testa
+TT 5		Transparent Testa
+TT 6		Transparent Testa
+TT 7		Transparent Testa
+TT 8		Transparent Testa
+TTG 1		Transparent Testa; Glabra
+TTG 2		Transparent Testa; Glabra
+TTN 1	CHO; EMB 133	Titan
+TTN 3		Titan
+TTN 4		Titan
+TTN 5	HAL	Titan
+TTN 6		Titan
+TTN 7		Titan
+TTN 8		Titan
+TTN 9		Titan
+TWN 2		Twin
+TZ		Thiazole Requiring
+UCU 2		Ultracurvata
+UFO		Unusual Floral Organs
+UVH 1		Ultraviolet Hypersensitive
+UVH 3		Ultraviolet Hypersensitve
+UVR 2		UV Repair Defective
+UVR 3		UV Repair Defective
+UVR 8		UV Repair Defective
+VAR 2		Variegated
+VCL 1	MAN	Vacuoleless
+VEP 1		Vein Patterning
+VRN 2		Reduced Vernalization Response 
+WER 1		Werewolf
+WUS		Wuschel
+XPB 1		XPB/RAD25 Knockout
+YDA		Yoda
+YUC		Yucca
+ZIG		Zigzag Stem
+ZLL	PNH	Zwille; Pinhead
+ZTL	ADO 1; LKP 1	Zeitlupe
+ZWI		Zwichel
+		

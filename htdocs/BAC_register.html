@@ -1,0 +1,152 @@
+<html><head><TITLE>Sequence Clone Registration Form</TITLE>
+<meta http-equiv="Refresh" content="1;url=http://www.arabidopsis.org/info/data_submission.html">
+</head>
+
+<body background="/images/arabidopsisbackground.gif">
+<a href=/><img src="/images/tairsmall.gif" border=0 align=left></a>
+
+<FORM METHOD="POST"
+ACTION="/cgi-bin/atdb-TODO****">
+
+
+<H1 align=center>Register Sequence Clones with TAIR</H1>
+<br><center><img src="/images/line.red2.gif" alt="[line]"></center>
+<p>
+
+<INPUT TYPE="Hidden" NAME="Form_Name" VALUE="BAC_register">
+
+<center>
+
+<b>THIS FORM IS FOR MEMBERS OF AGI TO REGISTER CLONES WITH TAIR</b>
+</center>
+<p>
+
+This form is solely for members of the international Arabidopsis
+sequencing effort (AGI -- Arabidopsis Genome Initiative) to register
+(or de-register) their intention to sequence a given clone.  None of
+the data submitted is hidden from users of TAIR and is available from <a
+href="/search">TAIR database</a>.
+
+<p>
+
+<hr>
+
+<p>
+
+Your lab is: e.g., JIC **name of lab to be put here by script**
+
+<br>
+
+If this is not your lab, please return to the "<a
+href="/BAC_passwd.html">Access
+Form</a>" and select your lab from the list and enter your lab's password.
+<p>
+
+Your name: <SELECT NAME="Lab">
+<OPTION SELECTED VALUE="">Select your name.
+<OPTION><**list of names to be put here by script**>
+<OPTION>Ian Bancroft
+<OPTION>Joerg Hohiesel
+<OPTION>Add my name to the list
+</SELECT>
+<pre>	   If you're <b>not</b> on the list, your name: 
+	   First: <INPUT NAME="First_Name" SIZE=15> Last: <INPUT NAME="Last_Name" SIZE=20></pre>
+
+<p>**Need to automagically add name to list for that lab.**
+<p>
+
+<hr>
+
+<p>
+
+Please note: you can do as many clones as you wish, but need to submit them one at a time.
+
+<p>
+
+I wish to register the following clone:
+<br>
+
+<pre>
+		Library     Plate/row/column  extension (if cosmid)
+	<SELECT NAME="Library">
+<OPTION SELECTED VALUE="">Select library
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+<OPTION>M(itsui)
+<OPTION>K(azusa)
+<OPTION>C(osmid)
+</SELECT> <INPUT NAME="Clone_Name" SIZE=10> <b>.</b> <INPUT NAME ="Cosmid extension" SIZE=10>
+		<i>e.g.</i>, T		  17G8  </pre>
+<p>
+
+<!-- **Cosmid extension for EU only**-->
+
+Please tell us what form of registration you wish to do for this clone (check one only):
+
+
+<pre>
+		Intention to sequence: <INPUT TYPE="radio" NAME="register" VALUE="register clone" CHECKED>
+	 Clone library in preparation: <INPUT TYPE="radio" NAME="register" VALUE="lib in preparation">
+Sequencing started (library finished): <INPUT TYPE="radio" NAME="register" VALUE="sequencing in progress">
+		  Sequencing finished: <INPUT TYPE="radio" NAME="register" VALUE="sequencing done">
+		   Sequence annotated: <INPUT TYPE="radio" NAME="register" VALUE="sequence_annotated">
+			   if annotated, accession number: <INPUT NAME="Accession" SIZE=12></pre>
+
+<INPUT TYPE="submit" VALUE="Register this clone">  
+
+<p>
+
+<hr>
+
+<p>
+
+I wish to <b>de-</b>register the following clone:<p>
+<pre>
+		Library     Plate/row/column  extension (if cosmid)
+	<SELECT NAME="Library">
+<OPTION SELECTED VALUE="">Select library
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+<OPTION>M(itsui)
+<OPTION>K(azusa)
+<OPTION>C(osmid)
+</SELECT> <INPUT NAME="Clone_Name" SIZE=10> <b>.</b> <INPUT NAME ="Cosmid extension" SIZE=10>
+		<i>e.g.</i>, T		  17G8  </pre>
+<p>
+
+<!-- **Cosmid extension for EU only**-->
+
+for the following reason (check one only):
+<pre>
+	 Clone could not be grown: <INPUT TYPE="radio" NAME="de-register" VALUE="Clone not grown" CHECKED>
+       Clone rejected as chimeric: <INPUT TYPE="radio" NAME="de-register" VALUE="Chimeric"> (Please specify type of chimerism below)
+	Library could not be made: <INPUT TYPE="radio" NAME="de-register" VALUE="Couldn't make library">
+Sequencing could not be completed: <INPUT TYPE="radio" NAME="de-register" VALUE="Couldn't complete sequence">
+		   Another reason: <INPUT TYPE="radio" NAME="de-register" VALUE="Other reason"> (Please specify below)
+</pre>
+
+<dd>Further explanations or additional comments:<br>
+<dd><TEXTAREA NAME="Other_info" ROWS=5 COLS=40 wrap=soft></TEXTAREA>
+
+<p>
+
+<INPUT TYPE="submit" VALUE="De-register this clone">  
+
+<p> 
+<hr>
+
+</FORM>
+<p>
+<center>
+Please send suggestions or comments to 
+<A HREF="mailto:curator@arabidopsis.org">TAIR Curator</A><br>
+</center>
+
+<p>
+<hr size=3 noshade width=95%>
+<p>
+<a href="/"><img src="/images/arrow.small.up.gif" border=0>Return to TAIR Home Page</a>
+</body></html>
+

@@ -1,0 +1,54 @@
+Bioinformatics Analyst 
+ 
+Requisition Code: 
+ 
+PLAN688 
+ 
+Location: 
+ 
+Rockville, Maryland 
+ 
+Department: 
+ 
+Plant Genomics 
+ 
+Schedule: 
+ 
+Full Time 
+ 
+ 
+ 
+ 
+ 
+Job Responsibilities: The Bioinformatics Analyst will work on the 
+curation and annotation of the M. truncatula genome sequence. 
+Responsibilities will include design and maintenance of web pages 
+providing access to Medicago genome sequence and annotation and 
+associated data, including outreach to the users through a community 
+annotation portal. The ideal candidate will have hands-on research 
+experience in Medicago genomics and demonstrated competence in 
+bioinformatics including Perl, SQL, HTML and cgi-scripting. 
+ 
+Qualifications: Successful candidates will have a Bachelor's or Master's 
+degree in the Biological Sciences, plus experience working with 
+computers in the field of biological sciences and a familiarity with DNA 
+sequence and annotation tools and practices. Candidates will also have a 
+demonstrated competence in appropriate computer languages including 
+Perl, SQL, HTML and cgi-scripting; web technologies including HTML, 
+DHTML, XML, CSS; Graphics tools including Photoshop, Fireworks or 
+similar; Operating Systems including UNIX and UNIX variants, Windows, 
+and/or Macintosh; Relational Database including knowledge of Sybase and 
+SQL. The Bioinformatics Analyst will have a solid knowledge of molecular 
+biology as it relates to DNA sequences, sequencing technologies and 
+genomics. Strong written and verbal communication skills, excellent 
+organization and time management skills, ability to meet schedules, the 
+ability to collaborate across a multi-disciplinary team, and work 
+independently is a must. 
+ 
+ 
+ 
+You can apply through the JCVI web site; the position is listed under 
+Plant Genomics. 
+ 
+https://careers.jcvi.org/careers/ 
+

@@ -1,0 +1,30 @@
+> Bioinformatician, Bio-Analytic Resource, University of Toronto 
+> 
+> The Bio-Analytic Resource for Plant Biology at http://bar.utoronto.ca is one 
+> of the leading online resources for plant biologists for accessing and 
+> exploring large data sets of gene expression, protein-protein interactions, 
+> predicted tertiary structures, and others. It is used 60,000 times a month 
+> by 6500+ researchers from 132 countries worldwide. Papers describing BAR 
+> tools have been cited around 1000 times. The BAR will provide apps and data 
+> sets to the new Arabidopsis Information Portal, an international initiative 
+> to integrate diverse data sets for use by plant biologists around the world. 
+> We are seeking a bioinformatician to maintain and expand the BAR's extensive 
+> databases, administer the BAR server, and develop webservices towards these 
+> goals. This individual would ideally have several years of bioinformatics 
+> experience, and some knowledge of biology. The University of Toronto is one 
+> of Canada's leading employers, and the position would be in the stimulating 
+> yet relaxed academic environment of the Provart Laboratory at the Centre for 
+> the Analysis of Genome Evolution and Function. 
+> 
+> Required Skills 
+> 
+> - MySQL and Linux server administration are a must, as well as Python and 
+> Perl and R/Bioconductor. 
+> - Experience in SVN is required. 
+> - Experience with Javascript/jQuery. Java knowledge desirable. 
+> - C/C++ and Ruby would be an asset. 
+> - A biology background or biological knowledge is recommended, as 
+> interaction with biologists is frequent. 
+> 
+> Please send a resume and cover letter to sylva.donaldson@utoronto.ca by the 
+> 24th of April 2013. 

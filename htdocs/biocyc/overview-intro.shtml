@@ -1,0 +1,109 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>
+Description of the Metabolic Overview
+</title>
+<!-- Changed by: Suzanne Mercer Paley,  9-Dec-2002 -->
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<H2>Description of the Cellular Overview</H2>
+
+<p>The Cellular Overview diagram depicts the biochemical machinery of
+an organism as described in a PGDB.  Each node in the diagram (such as
+the small circles and triangles) represents a single metabolite, and
+each blue line represents a single bioreaction.  This page describes 
+the organization of the Cellular Overview and the operations users can perform
+to interrogate it.  Different PGDBs will have different components of
+the diagram present or absent depending on what was included by the
+PGDB authors. <p>
+
+Note: The desktop version of Pathway Tools that you can install
+locally provides more extensive operations on the Overview than
+are possible through the Web; 
+<a href="desktop-vs-web-mode.shtml">click here for more details.</a><p>
+
+<h3>Small-Molecule Metabolism</h3>
+
+Within the cytoplasmic membrane, the small-molecule metabolism of the
+organism is depicted in several regions.  The glycolysis and the TCA
+cycle pathways, if present, will be placed in the middle of the
+diagram to separate predominately catabolic pathways on the right from
+pathways of anabolism and intermediary metabolism on the left. The
+existence of anaplerotic pathways prevents rigid classification. The
+majority of pathways operate in the downward direction.  Signal
+transduction pathways, if present, run along the bottom of the figure.
+Pathways are grouped into related clusters as indicated by the shaded
+regions.<p>
+
+The large group of individual reactions at the right of the figure
+represent reactions of small-molecule metabolism that have not been
+assigned to any pathway. <p>
+
+<p>The shapes of the metabolite icons represent various compound classes.
+The different shapes used are as follows:
+<UL>
+<LI>Triangle: Amino Acids
+<LI>Square: Carbohydrates and Derivatives
+<LI>Diamond: Proteins and Modified Proteins
+<LI>Vertical Ellipse: Purines
+<LI>Horizontal Ellipse: Pyrimidines
+<LI>T: tRNAs
+<LI>Circle: All other compounds
+<LI>Filled shape: Phosphorylated compound
+</UL>
+
+<P><b>Operations:</b>
+
+<ul>
+<li> <b>Mouse over a metabolite or protein node</b> in the diagram: the name of the corresponding
+metabolite and the name of the containing pathway are displayed in a
+pop-up window. <p>
+
+<li> <b>Click on a metabolite or protein node:</b> A pop-up window
+will show a higher resolution picture of the pathway.  By clicking on
+active text regions within that window you can navigate to the Pathway
+Tools display page for the pathway or the compound, produce a
+printable version of the pathway diagram, or close the window.
+<b>Use this feature in the omics viewer</b> to see a high-resolution
+depiction of omics data on the pathway.  If portions of the pop-up
+window fall outside the displayed region of the window, you can
+use the scroll bars to move them into view.
+</ul>
+
+<h3>Membranes and Transport Proteins</h3>
+
+The one or more cellular membranes of the organism are depicted,
+depending on the cellular architecture of the organism, and on 
+whether that architecture was specified when the PGDB was created.
+Transporters will be depicted in the membrane in which they reside
+as blue lines whose arrowhead indicates the direction of transport.
+For gram-negative bacteria, periplasmic proteins will be depicted
+when identified in the PGDB. <p>
+
+<P><b>Operations:</b>
+
+<ul>
+
+<li> <b>Mouse over a metabolite or protein node</b> in the diagram:
+the name of the metabolite and the transport reaction in which it is
+present are displayed in a pop-up window. <p>
+
+<li> <b>Click on a metabolite or protein node:</b> A pop-up window
+displays the name of the metabolite and the transport reaction
+and allows you to navigate to the display windows for the
+metabolite or transport reaction.
+</ul>
+
+
+<h3>General Comments</h3>
+
+Neither the metabolite icons nor the reaction lines are unique in the sense
+that a given metabolite (or a given reaction) may occur in more than
+one position in the diagram.  
+
+
+<!--#include virtual="/template-part3of3.shtml" -->

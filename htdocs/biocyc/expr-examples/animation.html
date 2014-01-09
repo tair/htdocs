@@ -1,0 +1,110 @@
+
+<html> <head>
+<title> Expression Viewer Animation</title>
+<script>
+<!--
+
+var exprImages = new Array();
+var keyImages = new Array()
+var currentTimepointIndex = 0;
+var numTimepoints = 17;
+var animationRunning = false;
+var animatorID = null
+
+function preload(imgObj, imgSrc) {
+  if (document.images) {
+    eval(imgObj+' = new Image()')
+    eval(imgObj+'.src = "'+imgSrc+'"')
+    }
+  }
+
+function requestAllImgs () {
+  var href='batch-images?'
+  for (var i=0; i< exprImages.length; i++) {
+    href += exprImages[i].src
+    href += '&'
+    href += keyImages[i].src
+    href += '&'
+  }
+  window.location=href
+}
+
+function changeTimepoint (value) {
+  currentTimepointIndex = value % numTimepoints;
+  top.frames.mapframe.document.images["expr"].src = top.exprImages[currentTimepointIndex].src;
+  top.frames.keyframe.document.images["key"].src = top.keyImages[currentTimepointIndex].src;
+  }
+
+function stopAnimation () {
+  if (animationRunning)
+    clearTimeout(animatorID)
+  animationRunning = false
+  }
+
+function playAnimation () {
+  changeTimepoint(currentTimepointIndex + 1)
+  animatorID = setTimeout("playAnimation()", 1000)
+  animationRunning = true
+}
+
+preload('exprImages[0]', 'T250.gif');
+preload('keyImages[0]', 'T251.gif');
+
+preload('exprImages[1]', 'T252.gif');
+preload('keyImages[1]', 'T253.gif');
+
+preload('exprImages[2]', 'T254.gif');
+preload('keyImages[2]', 'T255.gif');
+
+preload('exprImages[3]', 'T256.gif');
+preload('keyImages[3]', 'T257.gif');
+
+preload('exprImages[4]', 'T258.gif');
+preload('keyImages[4]', 'T259.gif');
+
+preload('exprImages[5]', 'T260.gif');
+preload('keyImages[5]', 'T261.gif');
+
+preload('exprImages[6]', 'T262.gif');
+preload('keyImages[6]', 'T263.gif');
+
+preload('exprImages[7]', 'T264.gif');
+preload('keyImages[7]', 'T265.gif');
+
+preload('exprImages[8]', 'T266.gif');
+preload('keyImages[8]', 'T267.gif');
+
+preload('exprImages[9]', 'T268.gif');
+preload('keyImages[9]', 'T269.gif');
+
+preload('exprImages[10]', 'T270.gif');
+preload('keyImages[10]', 'T271.gif');
+
+preload('exprImages[11]', 'T272.gif');
+preload('keyImages[11]', 'T273.gif');
+
+preload('exprImages[12]', 'T274.gif');
+preload('keyImages[12]', 'T275.gif');
+
+preload('exprImages[13]', 'T276.gif');
+preload('keyImages[13]', 'T277.gif');
+
+preload('exprImages[14]', 'T278.gif');
+preload('keyImages[14]', 'T279.gif');
+
+preload('exprImages[15]', 'T280.gif');
+preload('keyImages[15]', 'T281.gif');
+
+preload('exprImages[16]', 'T282.gif');
+preload('keyImages[16]', 'T283.gif');
+
+//-->
+</script>
+</head>
+
+
+  <frameset cols="200,*">
+    <frame src="ov-expression-keyframe.html" name=keyframe>
+    <frame src="ov-expression-mapframe.html" name=mapframe>
+  </frameset>
+

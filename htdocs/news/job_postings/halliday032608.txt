@@ -1,0 +1,47 @@
+TWO POST-DOC POSITIONS IN SYSTEMS BIOLOGY Edinburgh, UK 
+ 
+ LEAD EXPERIMENTAL RA, 
+ COMPUTATIONAL SYSTEMS BIOLOGIST 
+ 
+ for the ROBuST project in Arabidopsis: 
+(Regulation Of Biological Signalling by Temperature) 
+ 
+The model plant Arabidopsis grows over a 15 to 20°C temperature range 
+ how is dynamic regulation maintained  The £6M ROBuST project will 
+measure and model the temperature effects on a 50-gene network, 
+comprising the circadian clock, phytochrome signalling system and a 
+cold response pathway. We will extend current ODE models, measure 
+changes in molecular components and parameter values with temperature, 
+and identify network structures that buffer (or enhance) temperature 
+effects. The ten ROBuST labs include biologists working on molecular 
+signalling and climate change, mathematicians, statisticians and 
+informaticians at CSBE (Edinburgh), WSBC (Warwick), and the 
+Universities of York and Liverpool. 
+ 
+We are seeking: 
+ 
+1. Experienced molecular biology/biochemistry PDRA for a leading role 
+in Edinburgh: measuring kinetic parameter values, informing and 
+evaluating mathematical models: 
+Protein production and biochemistry/biophysics, preferably including 
+Biacore SPR 
+Molecular biology experience, preferably including plants e.g. 
+Arabidopsis thaliana 
+Experience of interdisciplinary work, high-quality publications 
+Highly organised, with strengths in team supervision 
+ 
+2. Computational Systems Biologist to adapt CSBEs informatics infrastructure: 
+Strong background in computational systems biology 
+Experience of database development in a biological context; also Java 
+programming 
+Track record of software delivery in a cross-disciplinary team setting 
+ 
+Contact: 
+Dr Karen Halliday 
+School of Biological Sciences, 
+Edinburgh University, 
+karen.halliday@ed.ac.uk 
+ 
+ 
+http://www.jobs.ac.uk 
+search ROBuST

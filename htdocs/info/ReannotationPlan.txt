@@ -1,0 +1,56 @@
+Genome Reannotation Plan, as of March 2001.
+
+TIGR:
+1. Make a non-redundant chromosome sequence from BAC clone sequences.
+
+2. Annotate each BAC sequence using TIGR's annotation scheme with the
+latest sequence information in GenBank (i.e. ESTs, full-length CDSes,
+Protein sequences). Update both the gene models and annotation calls.
+
+3. If new or change of chromosome loci (i.e. standard ORF names such
+as AT2G3340), communicate with MIPS and TAIR on these names.
+
+4. Provide the genome annotation data from their ATH1 database in
+searchable format via the web.
+
+5. Provide the BAC annoation data and Chromosome scaffold data of BAC
+tiling paths in their public FTP directory, with regular updates once
+a week.
+
+6. Sumbit TIGR's BAC sequences to NCBI's Nucleotide database.
+
+TAIR:
+1. Import TIGR's genome annotation data into TAIR database.
+
+2. Import BAC annotations from GenBank into TAIR database.
+
+3. Provide the genome annotation data from the TAIR database in
+searchable format.
+
+4. Annotate gene models with information from TIGR and GenBank,
+in-house sequence analysis and from the literature and develop a TAIR
+gene model.
+
+5. Communicate with TIGR and MIPS if new or changed chromsome loci are
+identified.
+
+6. Annotate genome with genetic markers, polymorphisms, and insertion
+sites.
+
+7. Group all the gene models for each Locus.
+
+8. Provide Locus data searchable from TAIR database, GO database, and
+Entrez's LinkOut.
+
+9. Provide the genome annotation data to NCBI's Genome Database.
+
+MIPS:
+1. Reannotate using MIPS' Pedant software.
+
+2. Communicate with TIGR and TAIR if new or changed chromsome loci are
+identified.
+
+3. Provide genome annotation data searchable from MATDB and
+downloadable from public FTP site.
+
+4. Submit the reannotated BAC sequences from ESSA and CSHL to EMBL.

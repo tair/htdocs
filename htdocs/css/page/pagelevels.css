@@ -1,0 +1,106 @@
+/* ----------------------------------------------
+ * TAIR pagelevels.css
+ ---------------------------------------------- */
+h2 {
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+
+.minilinks {
+    margin: 0 0 15px 0;
+}
+
+#content dl {
+    background: #f7f6f3;
+    margin-top: 5px;
+}
+
+#content dl dt {
+    font-weight: bold;
+    /*background: #f7f6f3;
+	border-top: 1px solid #e1e1d8;*/
+    padding: 5px 5px 5px 5px;
+}
+
+#content dl .button {
+    padding: 5px 10px 0 5px;
+    float: right;
+}
+
+#content dl .button a {
+    border: 0;
+}
+
+#content dl .button a:hover {
+    background: transparent;
+}
+
+#content dl dd { /*background: #f7f6f3;
+	border-bottom: 1px solid #e1e1d8;
+	/*margin: 0 0 15px 0;*/
+    margin: 0;
+    padding: 0px 10px 10px 20px;
+    clear: both;
+}
+
+#content dl dd.inline {
+    border: 0;
+    margin: 0;
+    padding: 10px 10px 0 20px;
+}
+
+#content dl dd dl dt {
+    font-weight: normal;
+    border: 0;
+    margin: 5px 0;
+    padding: 0;
+}
+
+#content dl dd dl dd {
+    border: 0;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+/*added for tables within content*/
+#content table {
+    clear: both;
+}
+
+#content table tr.alt {
+    background: #f1efec;
+}
+
+#content table tr th {
+    text-align: left;
+}
+
+#content td.fieldLabel {
+    text-align: right;
+}
+
+#content td.field {
+    text-align: left;
+}
+
+#content table tr td {
+    text-align: left;
+    vertical-align: top;
+}
+
+#content .fieldLabel {
+    text-align: right;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#content .field {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.rich-combobox-item {
+    text-align: left;
+}
+

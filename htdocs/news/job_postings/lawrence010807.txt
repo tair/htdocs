@@ -1,0 +1,45 @@
+MaizeGDB is hiring a computational biologist.  The position opened up today (8 
+January 2007), and we're trying to get the word out.  The application period 
+ends 26 February 2007.
+
+Duties:
+The incumbent will serve as the technical resource and advisor to the MaizeGDB 
+project in the area of computational biology. Specific duties include the 
+following:
+
+- Analyze and interpret maize sequence data.
+- Use data structures to efficiently represent and mine genetic and physical 
+maps of maize.
+- Build and validate predictive models, and develop and maintain databases of 
+maize genetic and genomic data.
+- Develop representations of maize sequence data to be integrated into the 
+MaizeGDB (specifically including the creation of a maize genome browser and the 
+infrastructure to enable storage of and access to maize gene models).
+- Provide guidance and advice on computational biology methods, techniques, and 
+results to other scientists in the unit and agency.
+
+A full description and information on how to apply can be found online at:
+http://jobsearch.usajobs.opm.gov/getjob.asp?JobID=52116941&aid=34353479%2D817&WT
+.mc_n=MKT000125&TabNum=1&rc=3
+
+Note that this is a permanent position with no publication requirement and that 
+applications will be accepted from US citizens and nationals.
+
+Please ask persons interested in more information to contact me using the 
+information in the footer to this email.
+
+Thanks!
+Carolyn
+-- 
+
+////////////////////////////////////////////////////////////////////////////
+       Carolyn J. Lawrence, Ph.D.
+       USDA-ARS Research Geneticist
+       http://www.lawrencelab.org
+       triffid@iastate.edu
+
+       (515) 294-4294 MaizeGDB
+       (515) 294-5332 Lab
+       (515) 294-7380 Office
+////////////////////////////////////////////////////////////////////////////
+

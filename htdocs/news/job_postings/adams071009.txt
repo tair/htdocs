@@ -1,0 +1,23 @@
+A Postdoctoral Fellow position is available in the lab of Dr. Keith Adams in the Botany 
+Department at the University of British Columbia in the area of plant genomics.  My 
+lab’s research combines molecular genetics with evolutionary biology and bioinformatics 
+approaches to study how gene expression and regulation evolve.  We focus on duplicated 
+genes, polyploidy, hybridization, and alternative intron splicing.  See my web page 
+at http://www.botany.ubc.ca/people/adams.htm for a description of current research.  I 
+am looking for a postdoc to study genomics of alternative splicing patterns in plants. 
+Projects will include examining alternative splicing patterns in plant hybrids using RNA-
+seq transcriptome profiling, and the postdoc can develop a collaborative project as well 
+that is related to the lab’s research topics.  My lab is housed in new research building 
+with excellent computational infrastructure.
+Candidates should have a strong background in genomics, bioinformatics, or molecular 
+evolution in any organism.  Experience with computational analysis of sequence or 
+expression data is required as is the ability to do scripting in Perl or Python.  Experience 
+with next generation sequence analysis (Solexa, 454, or SOLiD) is desirable but not 
+required. The start date can be any time between late July 2009 and early January 
+2010.  Funding is available for at least two years.
+ 
+For more information contact Keith Adams at keitha@interchange.ubc.ca  Informal 
+inquiries about the research area and projects are welcome.  To apply, send a CV, a 
+description of your research interests and your Ph.D. research, and contact information 
+for three references to the above email address.
+

@@ -1,0 +1,54 @@
+Post Doctoral Position in Plant Evolutionary Genomics at the New York 
+University Center for Genomics and Systems Biology 
+
+A Post-doctoral position is available as part of the NSF Plant Genome Grant 
+DBI -0922738 entitled: "Comparative Genomics of Seed Evolution". The 
+successful applicant will have skills and experience in Genomics, 
+Bioinformatics and Evolutionary Biology. The position will include 
+experimental/informatic analysis on NextGen datasets (e.g. overseeing 
+laboratory work, planning, leading and conducting analyses on RNASeq data). 
+ Skills in R, Perl, Python or other programming language are strongly 
+preferred. This position also includes Project Manager duties, which involve 
+coordinating scientific activities at four participating institutions; 
+organizing group meetings, writing grant reports, and communicating our work 
+in conferences and meetings. 
+
+This project involves the collaboration of systematists, molecular 
+biologists, genome scientists and bioinformaticians from four 
+research/educational institutions. PI: Gloria Coruzzi (NYU Center for 
+Genomics and Systems Biology); Co-PI(s): Robert DeSalle (AMNH); Dennis W 
+Stevenson (NYBG); W. Richard McCombie (CSHL); Senior Personnel(s): Rob 
+Martienssen (CSHL); Dennis Shasha (NYU). 
+
+Project description: This project involves the construction and analysis of 
+a phylogenomic view of the seed plants. In the previous cycle of funding, 
+we generated BigPlant v1.0 a phylogenomic tree constructed from a matrix of 
+22,121 orthologs from 150 seed plant species (http://nypg.bio.nyu.edu/bp/). 
+ The main goal of our current funding cycle is to generate 
+deep-transcriptomes to fill key gaps in taxa and genomic coverage in the 
+seed plant phylogenetic tree, and to develop bioinformatic and phylogenomic 
+resources that will enable a better understanding of the evolutionary 
+history of plants. Overview of Aims 1-4: Aim 1: Select 35 species for 
+transcriptome analysis of leaf, ovule and seed RNA (RNASeq) to fill in gaps 
+in depth/breath of taxa/ortholog coverage in BigPlant phylogenomic tree and 
+to provide expression data. Aim 2: Generate deep-transcriptome data used for 
+unigene assembly, ortholog identification and expression data. Aim 3: 
+Automate recurrent growth of our current phylogenomic matrix and integrate 
+trait and expression data as characters. Develop phylogenomic and machine 
+learning methods to make functional predictions for genes associated with 
+clades and/or traits of economic interest. Aim 4: Perform functional 
+validation of trait-to-gene predictions for seed traits in model 
+(Arabidopsis) and crop (maize) species. Project website: 
+http://nypg.bio.nyu.edu/main/. 
+
+Please send resume and 3 letters of reference to: 
+
+ Dr. Gloria Coruzzi (gc2@nyu.edu) 
+New York University Biology 
+
+Center for Genomics and Systems Biology 
+
+12 Waverly Place, 8th Floor 
+
+New York, NY 10003 
+

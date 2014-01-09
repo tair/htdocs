@@ -1,0 +1,50 @@
+Full-Time Genome Sequence Curator Position Available July 1, 2005
+at the Arabidopsis Information Resource (TAIR, http://arabidopsis.org)
+
+We are seeking applicants for a full-time curator to lead our genome
+structure annotation project, including computational and manual updates
+of structural annotation for genes and other sequenced objects and
+computational updates of functional annotation.
+
+The curator will be responsible for:
+
+1. Coordinating timely and high-quality genome annotation releases.
+
+2. Improving the structural annotation database schema and associated
+computational tools and analyses in collaboration with programmers and
+database developers.
+
+3. Assisting in developing improved formats and methods for community
+access to TAIR genome releases.
+
+4. Presenting TAIR's structural and functional annotation efforts at
+conferences, soliciting community feedback and incorporating it into
+future releases.
+
+5. Working with programmers to maintain and improve pipelines for
+mapping a variety of sequenced objects (cDNAs, ESTs, polymorphisms,
+markers, microarray elements, etc) to the genome.
+
+6. Maintaining TAIR's data analysis datasets and assisting with
+keeping the data analysis tools (BLAST, FASTA, PatMatch, etc)
+functioning.
+
+7. Maintaining the map, clone and marker data and interfaces.
+
+8. Coordinating improvements to TAIR's genome browser (SeqViewer) and
+map comparison tool (MapViewer).
+
+The successful candidate will work with a team of curators, software
+engineers, and database developers. Successful candidates will have a
+Ph.D. degree or equivalent in molecular biology or related field, a
+demonstrated ability for independent, critical thinking and excellent
+verbal and written communication, teamwork and organizational skills.
+Preference will be given to applicants with experience in computational
+biology, sequence analysis, comparative genome analysis, or computational
+prediction of gene structure or function.
+
+Qualified candidates should email a resume to Sue Rhee at:
+rhee@acoma.stanford.edu
+
+
+---

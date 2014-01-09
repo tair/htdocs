@@ -1,0 +1,48 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>
+BioCyc -- EcoCyc Publications
+</title>
+<!-- Changed by: Suzanne Mercer Paley,  9-Dec-2002 -->
+<!-- Changed by: John Pick, 15-Feb-2003 -->
+<!-- Changed by: Ingrid Keseler, 20-Dec-2004 -->
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<!-- EcoCyc Publications -->
+<H2>EcoCyc Publications</H2>
+<P><b>If you use EcoCyc in your research, we ask that you cite the following publication:</b><P>
+
+I.M. Keseler, J. Collado-Vides, S. Gama-Castro, J. Ingraham, S. Paley, I.T. Paulsen, M. Peralta-Gil and P.D. Karp.<br>
+<a href="http://nar.oupjournals.org/cgi/content/full/33/suppl_1/D334?ijkey=80p4BbGpEFjLQ&keytype=ref">
+EcoCyc: A comprehensive database resource for <i>Escherichia coli</i>,</a><br>
+<i>Nucleic Acids Research</i>
+33:D334-7 2005.<P>
+
+
+<P><b>See Also</b>
+
+<P>Karp P.D., Arnaud M., Collado-Vides J., Ingraham J., Paulsen I.T., Saier M.H. Jr.<br>
+<a href="http://www.asm.org/news/index.asp?bid=24051">
+The <i>E. coli</i> EcoCyc Database: No Longer Just a Metabolic Pathway Database.
+</a><br>
+<i>ASM News</i> 70(1):25-30 2004.<P>
+
+Karp, P.D. and Riley, M. and Saier, M. and Paulsen, I.T. and Paley,
+S. and Pellegrini-Toole, A., <br>
+<a href="http://nar.oupjournals.org/cgi/content/full/30/1/56">
+The EcoCyc Database,</a><br>
+<i>Nucleic Acids Research</i>
+30:59-61 2002.
+
+<P>Karp, P.D.,<BR>
+EcoCyc: The Resource and the Lessons Learned <A HREF="http://www.ai.sri.com/pkarp/pubs/ecocyc-lessons.pdf">[PDF]</A><BR>
+Kluwer Academic Publishers, pp47-62 1999.
+
+<P><b>See also:</b> <A href="publications.shtml">The BioCyc Publications Page</A>
+
+
+<!--#include virtual="/template-part3of3.shtml" -->

@@ -1,0 +1,510 @@
+ <html>
+<head>
+<title>TAIR Community Search Page</title>
+<script language="JavaScript" src="/js/navbar.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/main.css" >
+<script language='JavaScript'>
+var highlight = 1; var helpfile="";
+</script>
+<meta http-equiv="Refresh" content="1;url=http://www.arabidopsis.org/servlets/Search?action=new_search&type=community">
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#F5F9FF">
+
+<!-- HEADER using external JavaScript file -->
+
+<script language='JavaScript' SRC='/js/header'>
+</script><p>
+
+<!-- End of header -->
+
+<table width=602 align="center"><tr><td>
+<p>
+
+<span class="header">TAIR Community Search</span>
+
+<form action="http://acoma.stanford.edu:8080/cgi-bin/comm_search.pl"
+      enctype="application/x-www-form-urlencoded" method="post">
+
+      <table width=602 border="0" cellspacing="0" bgcolor="#D5D9DD">
+<tr><TD colspan=5><B>This page allows you to search the TAIR Community.<br> To restrict your search please input information in one or more boxes <br> and/or select the type of Community you would like to search in. <BR></B><BR></TD></tr>
+	
+<tr>
+<td>Last Name</td>
+<td><input name="LASTNAME" size=30></td>
+<td> &nbsp; </td>
+
+<td>&nbsp;</td>
+<td>
+Search in: </td>
+
+</tr> 
+
+<tr>
+<td>First Name</td>
+<td><input name="FIRSTNAME" size=30></td>
+    <td> &nbsp;</td> <td> &nbsp;</td><td> 
+<SELECT NAME="SEARCH_IN">
+<OPTION VALUE="" SELECTED>Any
+<OPTION VALUE="Person">People
+<OPTION VALUE="LAB">Labs
+<option value="STOCK CENTER">Stock Centers
+<option value="COMPANY">Companies
+<option value="DATABASE">Databases
+<option value="INSTITUTE">Institutes
+<option value="COMMITTEE">Committees
+<option value="UNIVERSITY">Universities
+<option value="FACILITY">Facilities
+<option value="COLLABORATION">Collaborations
+</SELECT>
+ </td>
+</tr>
+
+<tr>
+<td>Organization Name</td>
+<td><input name="ORGANIZATION_NAME" size=30></td>
+<td> &nbsp;</td><td> &nbsp; </td>
+<td> &nbsp; </td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input name="EMAIL" size=30></td>
+    <td> &nbsp;</td> <td> &nbsp;</td><td> &nbsp; </td>
+</tr>
+<tr>
+<td>City</td>
+<td><input name="CITY" size=30></td>
+<td> &nbsp;</td> <td> &nbsp;</td><td> &nbsp; </td></tr>
+
+<tr>
+<td>State/Province US/Canada</td>
+<TD>
+<SELECT NAME="STATE1">
+<OPTION VALUE="" SELECTED>NOT APPLICABLE
+  <OPTION VALUE="AL">Alabama
+<OPTION VALUE="AK">Alaska
+<OPTION VALUE="AB">Alberta, Canada
+
+<OPTION VALUE="AZ">Arizona
+<OPTION VALUE="AR">Arkansas
+
+<OPTION VALUE="BC">British Columbia, Canada
+<OPTION VALUE="CA">California
+<OPTION VALUE="CZ">Canal Zone
+<OPTION VALUE="CO">Colorado
+<OPTION VALUE="CT">Connecticut
+<OPTION VALUE="DE">Delaware
+<OPTION VALUE="DC">District of Columbia
+<OPTION VALUE="FL">Florida
+<OPTION VALUE="GA">Georgia
+<OPTION VALUE="GU">Guam
+<OPTION VALUE="HI">Hawaii
+<OPTION VALUE="ID">Idaho
+<OPTION VALUE="IL">Illinois
+<OPTION VALUE="IN">Indiana
+<OPTION VALUE="IA">Iowa
+<OPTION VALUE="KS">Kansas
+<OPTION VALUE="KY">Kentucky
+<OPTION VALUE="LA">Louisiana
+<OPTION VALUE="ME">Maine
+<OPTION VALUE="MB">Manitoba
+
+<OPTION VALUE="MD">Maryland
+<OPTION VALUE="MA">Massachusetts
+<OPTION VALUE="MI">Michigan
+
+<OPTION VALUE="MN">Minnesota
+<OPTION VALUE="MS">Mississippi
+<OPTION VALUE="MO">Missouri
+<OPTION VALUE="MT">Montana
+<OPTION VALUE="NE">Nebraska
+<OPTION VALUE="NV">Nevada
+<OPTION VALUE="NB">New Brunswick, Canada
+<OPTION VALUE="NH">New Hampshire
+<OPTION VALUE="NJ">New Jersey
+<OPTION VALUE="NM">New Mexico
+<OPTION VALUE="NSW">New South Wales
+<OPTION VALUE="NY">New York
+<OPTION VALUE="NF">Newfoundland, Canada
+
+<OPTION VALUE="NC">North Carolina
+<OPTION VALUE="ND">North Dakota
+
+<OPTION VALUE="NT">Northwest Territories
+<OPTION VALUE="NS">Nova Scotia
+<OPTION VALUE="OH">Ohio
+<OPTION VALUE="OK">Oklahoma
+<OPTION VALUE="ON">Ontario, Canada
+<OPTION VALUE="OR">Oregon
+<OPTION VALUE="PW">Palau
+<OPTION VALUE="PA">Pennsylvania
+<OPTION VALUE="PE">Prince Edward Island
+<OPTION VALUE="PQ">Province of Quebec
+<OPTION VALUE="PR">Puerto Rico
+<OPTION VALUE="QE">Quebec, Canada
+<OPTION VALUE="QLD">Queensland
+<OPTION VALUE="RI">Rhode Island
+<OPTION VALUE="SK">Saskatchewan, Canada
+<OPTION VALUE="SA">South Australia
+<OPTION VALUE="SC">South Carolina
+<OPTION VALUE="SD">South Dakota
+
+<OPTION VALUE="TN">Tennessee
+<OPTION VALUE="TX">Texas
+
+<OPTION VALUE="UT">Utah
+<OPTION VALUE="VT">Vermont
+<OPTION VALUE="VIC">Victoria
+<OPTION VALUE="VI">Virgin Islands
+<OPTION VALUE="VA">Virginia
+<OPTION VALUE="WA">Washington
+<OPTION VALUE="WV">West Virginia
+<OPTION VALUE="WI">Wisconsin
+<OPTION VALUE="WY">Wyoming
+<OPTION VALUE="YT">Yukon Territory
+<OPTION VALUE="YK">Yukon Territory, Canada
+    
+</SELECT>
+</TD>
+<td>&nbsp;</td><td>&nbsp;</td>
+<td><input type="submit" value = "SEARCH!"></td>
+</tr>
+
+<tr>
+<td>State (Other)</td>
+<td><input name="STATE2" size=30></td>
+    <td> &nbsp;</td> <td> &nbsp;</td><td> &nbsp; </td>
+</tr>
+
+
+<tr>
+<td>Country</td>
+<TD>
+<SELECT NAME="COUNTRY">
+<OPTION VALUE="">NOT APPLICABLE
+<OPTION VALUE="AF">AFGHANISTAN
+<OPTION VALUE="AL">ALBANIA
+<OPTION VALUE="AG">ALGERIA
+<OPTION VALUE="AS">AMERICAN SAMOA
+<OPTION VALUE="AD">ANDORRA
+<OPTION VALUE="AO">ANGOLA
+<OPTION VALUE="AI">ANGUILLA
+<OPTION VALUE="AQ">ANTARCTICA
+<OPTION VALUE="AB">ANTIGUA & BARBUDA
+<OPTION VALUE="AR">ARGENTINA
+<OPTION VALUE="AM">ARMENIA
+<OPTION VALUE="AW">ARUBA
+<OPTION VALUE="AU">AUSTRALIA
+<OPTION VALUE="AT">AUSTRIA
+<OPTION VALUE="AZ">AZERBAIJAN
+<OPTION VALUE="BS">BAHAMA
+<OPTION VALUE="BH">BAHRAIN
+<OPTION VALUE="BD">BANGLADESH
+<OPTION VALUE="BB">BARBADOS
+<OPTION VALUE="BY">BELARUS
+<OPTION VALUE="BE">BELGIUM
+<OPTION VALUE="BZ">BELIZE
+<OPTION VALUE="BJ">BENIN
+<OPTION VALUE="BM">BERMUDA
+<OPTION VALUE="BT">BHUTAN
+<OPTION VALUE="BO">BOLIVIA
+<OPTION VALUE="BA">BOSNIA-HEREGOVINA
+<OPTION VALUE="BW">BOTSWANA
+<OPTION VALUE="BV">BOUVET ISLAND
+<OPTION VALUE="BR">BRAZIL
+<OPTION VALUE="IO">BRITISH INDIAN OCEAN TERR.
+<OPTION VALUE="BN">BRUNEI
+<OPTION VALUE="BG">BULGARIA
+<OPTION VALUE="BF">BURKINA FASO
+<OPTION VALUE="BU">BURMA
+<OPTION VALUE="BI">BURUNDI
+<OPTION VALUE="KH">CAMBODIA
+<OPTION VALUE="CM">CAMEROON
+<OPTION VALUE="CA">CANADA
+<OPTION VALUE="CV">CAPE VERDE
+<OPTION VALUE="KY">CAYMAN ISLANDS
+<OPTION VALUE="CQ">CENTRAL & S LINE ISL.
+<OPTION VALUE="CF">CENTRAL AFRICAN REPUBLIC
+<OPTION VALUE="TD">CHAD
+<OPTION VALUE="CL">CHILE
+<OPTION VALUE="CH">CHINA
+<OPTION VALUE="CX">CHRISTMAS ISLAND
+<OPTION VALUE="CC">COCOS (KEELING) ISLANDS
+<OPTION VALUE="CO">COLOMBIA
+<OPTION VALUE="KM">COMOROS
+<OPTION VALUE="CG">CONGO
+<OPTION VALUE="CK">COOK ISLANDS
+<OPTION VALUE="CR">COSTA RICA
+<OPTION VALUE="HR">CROATIA
+<OPTION VALUE="CU">CUBA
+<OPTION VALUE="CY">CYPRUS
+<OPTION VALUE="CZ">CZECH REPUBLIC
+<OPTION VALUE="CS">CZECHOSLOVAKIA (NO LONGER)
+<OPTION VALUE="DK">DENMARK
+<OPTION VALUE="DJ">DJIBOUTI
+<OPTION VALUE="DM">DOMINICA
+<OPTION VALUE="DO">DOMINICAN REPUBLIC
+<OPTION VALUE="EC">ECUADOR
+<OPTION VALUE="EG">EGYPT
+<OPTION VALUE="SV">EL SALVADOR
+<OPTION VALUE="GQ">EQUATORIAL GUINEA
+<OPTION VALUE="ER">ERITREA
+<OPTION VALUE="EE">ESTONIA
+<OPTION VALUE="ET">ETHIOPIA
+<OPTION VALUE="FK">FALKLAND ISLANDS (MALVINAS)
+<OPTION VALUE="FO">FAROE ISLANDS
+<OPTION VALUE="FJ">FIJI
+<OPTION VALUE="FI">FINLAND
+<OPTION VALUE="FR">FRANCE
+<OPTION VALUE="GF">FRENCH GUIANA
+<OPTION VALUE="PF">FRENCH POLYNESIA
+<OPTION VALUE="TF">FRENCH SOUTHERN TERR.&ANTARC
+<OPTION VALUE="GA">GABON
+<OPTION VALUE="GB">GAMBIA
+<OPTION VALUE="GZ">GAZA STRIP
+<OPTION VALUE="GE">GEORGIA
+<OPTION VALUE="GM">GERMANY
+<OPTION VALUE="GH">GHANA
+<OPTION VALUE="GI">GIBRALTAR
+<OPTION VALUE="GR">GREECE
+<OPTION VALUE="GL">GREENLAND
+<OPTION VALUE="GD">GRENADA
+<OPTION VALUE="GP">GUADELOUPA
+<OPTION VALUE="GU">GUAM
+<OPTION VALUE="GT">GUATEMALA
+<OPTION VALUE="GN">GUINEA
+<OPTION VALUE="GW">GUINEA BISSAU
+<OPTION VALUE="GY">GUYANA
+<OPTION VALUE="HT">HAITI
+<OPTION VALUE="HM">HEARD ISLAND &MCDONALD ISLE.
+<OPTION VALUE="HN">HONDURAS
+<OPTION VALUE="HK">HONG KONG
+<OPTION VALUE="HU">HUNGARY
+<OPTION VALUE="IC">ICELAND
+<OPTION VALUE="IN">INDIA
+<OPTION VALUE="ID">INDONESIA
+<OPTION VALUE="IR">IRAN
+<OPTION VALUE="IQ">IRAQ
+<OPTION VALUE="IE">IRELAND
+<OPTION VALUE="IS">ISRAEL
+<OPTION VALUE="IT">ITALY
+<OPTION VALUE="CI">IVORY COAST
+<OPTION VALUE="JM">JAMAICA
+<OPTION VALUE="JP">JAPAN
+<OPTION VALUE="JO">JORDAN
+<OPTION VALUE="KZ">KAZKHSTAN
+<OPTION VALUE="KE">KENYA
+<OPTION VALUE="KI">KIRIBATI
+<OPTION VALUE="KW">KUWAIT
+<OPTION VALUE="KG">KYRGYZSTAN
+<OPTION VALUE="LA">LAOS
+<OPTION VALUE="LV">LATVIA
+<OPTION VALUE="LB">LEBANON
+<OPTION VALUE="LS">LESOTHO
+<OPTION VALUE="LR">LIBERIA
+<OPTION VALUE="LY">LIBYA
+<OPTION VALUE="LI">LIECHTENSTEIN
+<OPTION VALUE="LT">LITHUANIA
+<OPTION VALUE="LU">LUXEMBOURG
+<OPTION VALUE="MO">MACAU
+<OPTION VALUE="MG">MADAGASCAR
+<OPTION VALUE="MW">MALAWI
+<OPTION VALUE="MY">MALAYSIA
+<OPTION VALUE="MV">MALDIVES
+<OPTION VALUE="ML">MALI
+<OPTION VALUE="MT">MALTA
+<OPTION VALUE="MH">MARSHALL ISLANDS
+<OPTION VALUE="MQ">MARTINIQUE
+<OPTION VALUE="MR">MAURITANIA
+<OPTION VALUE="MU">MAURITIUS
+<OPTION VALUE="YT">MAYOTTE
+<OPTION VALUE="MX">MEXICO
+<OPTION VALUE="FM">MICRONESIA
+<OPTION VALUE="MI">MIDWAY ISLANDS
+<OPTION VALUE="MD">MOLDOVIA
+<OPTION VALUE="MC">MONACO
+<OPTION VALUE="MN">MONGOLIA
+<OPTION VALUE="MS">MONTSERRAT
+<OPTION VALUE="MA">MOROCCO
+<OPTION VALUE="MZ">MOZAMBIQUE
+<OPTION VALUE="MK">Macedonia
+<OPTION VALUE="NA">NAMIBIA
+<OPTION VALUE="NR">NAURU
+<OPTION VALUE="NP">NEPAL
+<OPTION VALUE="NL">NETHERLANDS
+<OPTION VALUE="AN">NETHERLANDS ANTILLES
+<OPTION VALUE="NC">NEW CALEDONIA
+<OPTION VALUE="NZ">NEW ZEALAND
+<OPTION VALUE="NI">NICARAGUA
+<OPTION VALUE="NE">NIGER
+<OPTION VALUE="NG">NIGERIA
+<OPTION VALUE="NU">NIUE
+<OPTION VALUE="NF">NORFOLK ISLAND
+<OPTION VALUE="KP">NORTH KOREA
+<OPTION VALUE="MP">NORTHERN MARIANA ISLANDS
+<OPTION VALUE="NO">NORWAY
+<OPTION VALUE="OM">OMAN
+<OPTION VALUE="OC">Other Country
+<OPTION VALUE="PK">PAKISTAN
+<OPTION VALUE="PA">PANAMA
+<OPTION VALUE="PG">PAPUA NEW GUINEA
+<OPTION VALUE="PY">PARAGUAY
+<OPTION VALUE="PE">PERU
+<OPTION VALUE="PH">PHILIPPINES
+<OPTION VALUE="PN">PITCAIRN ISLAND
+<OPTION VALUE="PL">POLAND
+<OPTION VALUE="PT">PORTUGAL
+<OPTION VALUE="PR">PUERTO RICO
+<OPTION VALUE="QA">QATAR
+<OPTION VALUE="RE">REUNION
+<OPTION VALUE="RO">ROMANIA
+<OPTION VALUE="RU">RUSSIAN FEDERATION
+<OPTION VALUE="RW">RWANDA
+<OPTION VALUE="LC">SAINT LUCIA
+<OPTION VALUE="WS">SAMOA
+<OPTION VALUE="SM">SAN MARINO
+<OPTION VALUE="ST">SAO TOME & PRINCIPE
+<OPTION VALUE="SA">SAUDI ARABIA
+<OPTION VALUE="SN">SENEGAL
+<OPTION VALUE="SX">SERBIA
+<OPTION VALUE="SC">SEYCHELLES
+<OPTION VALUE="SL">SIERRA LEONE
+<OPTION VALUE="SG">SINGAPORE
+<OPTION VALUE="SK">SLOVAKIA
+<OPTION VALUE="SI">SLOVENIA
+<OPTION VALUE="SB">SOLOMON ISLANDS
+<OPTION VALUE="SO">SOMALIA
+<OPTION VALUE="ZA">SOUTH AFRICA
+<OPTION VALUE="GS">SOUTH GEORGIA
+<OPTION VALUE="KR">SOUTH KOREA
+<OPTION VALUE="ES">SPAIN
+<OPTION VALUE="LK">SRI LANKA
+<OPTION VALUE="SH">ST. HELENA
+<OPTION VALUE="KN">ST. KITTS & NEVIS
+<OPTION VALUE="PM">ST. PIERRE & MIQUELON
+<OPTION VALUE="VC">ST. VINCENT & GRENADINES
+<OPTION VALUE="SD">SUDAN
+<OPTION VALUE="SR">SURINAME
+<OPTION VALUE="SJ">SVALBARD & JAN MAYEN ISLANDS
+<OPTION VALUE="SZ">SWAZILAND
+<OPTION VALUE="SE">SWEDEN
+<OPTION VALUE="SW">SWITZERLAND
+<OPTION VALUE="SY">SYRIA
+<OPTION VALUE="TW">TAIWAN
+<OPTION VALUE="TJ">TAJIKISTAN
+<OPTION VALUE="TZ">TANZANIA
+<OPTION VALUE="TH">THAILAND
+<OPTION VALUE="TG">TOGO
+<OPTION VALUE="TK">TOKELAU
+<OPTION VALUE="TO">TONGA
+<OPTION VALUE="TT">TRINIDAD & TOBAGO
+<OPTION VALUE="TN">TUNISIA
+<OPTION VALUE="TR">TURKEY
+<OPTION VALUE="TM">TURKMENISTAN
+<OPTION VALUE="TC">TURKS & CAICOS ISLANDS
+<OPTION VALUE="TV">TUVALU
+<OPTION VALUE="SU">U.S.S.R.
+<OPTION VALUE="UG">UGANDA
+<OPTION VALUE="UA">UKRAINE
+<OPTION VALUE="AE">UNITED ARAB EMIRATES
+<OPTION VALUE="UK">UNITED KINGDOM
+<OPTION VALUE="US" SELECTED>UNITED STATES OF AMERICA
+<OPTION VALUE="">UNKNOWN
+<OPTION VALUE="UV">UPPER VOLTA
+<OPTION VALUE="UY">URUGUAY
+<OPTION VALUE="UZ">UZBEKISTAN
+<OPTION VALUE="VU">VANUATU
+<OPTION VALUE="VA">VATICAN CITY
+<OPTION VALUE="VE">VENEZUELA
+<OPTION VALUE="VN">VIETNAM
+<OPTION VALUE="VG">VIRGIN ISLES (BRITISH)
+<OPTION VALUE="VI">VIRGIN ISLES (US)
+<OPTION VALUE="WF">WALLIS & FUTUNA ISLANDS
+<OPTION VALUE="EH">WESTERN SAHARA
+<OPTION VALUE="YE">YEMEN
+<OPTION VALUE="YO">YUGOSLAVIA
+<OPTION VALUE="ZR">ZAIRE
+<OPTION VALUE="ZM">ZAMBIA
+<OPTION VALUE="ZW">ZIMBABWE
+</SELECT></td>
+<td> &nbsp;</td> <td> &nbsp;</td><td> &nbsp; </td></tr>
+
+<tr>
+<td>URL</td>
+<td><input name="URL" size=30></td>
+<td> &nbsp;</td> <td> &nbsp;</td><td> &nbsp; </td></tr>
+
+<tr>
+<td>Keywords</td>
+<td><input name="KEYWORDS" size=30></td>
+<td> &nbsp;</td> <td> &nbsp;</td>
+
+
+<td><input type="reset" value = "RESET"></td>
+</tr>
+</table>
+
+<br>
+<br>
+</form>
+<P>
+<center><b>Browse:</b>
+<a href="http://acoma.stanford.edu:8080/cgi-bin/people.pl">People |</a>
+
+<a href="http://acoma.stanford.edu:8080/cgi-bin/labs.pl">Labs |</a>
+
+<a href="http://acoma.stanford.edu:8080/cgi-bin/stock_centers.pl">Stock Centers |</a>
+
+<a href="http://acoma.stanford.edu:8080/cgi-bin/companies.pl">Companies |</a>
+
+<a href="http://acoma.stanford.edu:8080/cgi-bin/databases.pl">Databases |</a>
+
+<a href="http://acoma.stanford.edu:8080/cgi-bin/institutions.pl">Institutions |</a>
+
+<a href="http://acoma.stanford.edu:8080/cgi-bin/committees.pl">Committees |</a>
+
+<a href="http://acoma.stanford.edu:8080/cgi-bin/universities.pl">Universities |</a>
+
+<a href="http://acoma.stanford.edu:8080/cgi-bin/facilities.pl">Facilities|</a>
+
+<a href="http://acoma.stanford.edu:8080/cgi-bin/collaborations.pl">Collaborations</a>
+
+</center>
+<form><center>
+<input type="button" name="go" value="ADD A NEW ENTRY TO PERSON"
+	      onClick="location.href='comm_add_people.html';">
+
+
+<input type="button" name="go" value="ADD A NEW ENTRY TO ORGANIZATIONS"
+	      onClick="location.href='comm_add_org.html';">
+
+	</center></form>  
+
+<a href=http://acoma.stanford.edu:8080/comm_update_user_pass.html><center> <B> Update your User Name and Password...Click Here ! </b> </center></a>
+
+</P>
+</TD></TR></TABLE>
+	      
+<!-- FOOTER -->
+
+<TABLE width="602" align="center">
+        <tr>
+                <td><br><hr size=1 width="90%"></td>
+        </tr>
+        <tr>
+                <td><a href="http://www.ncgr.org"><img src="/images/ncgrlogoredsmall.gif" alt="" border="0" align="left"></a>
+                <a href="http://carnegiedpb.stanford.edu"><img src="/images/ciw-logosmall.gif" alt="" border="0" align="right"></a></td>
+        </tr>
+<TR><TD ALIGN = "CENTER">
+<center><i>Last modified on August 20, 2000</i><br>
+comments or questions to: <a href="mailto:curator@arabidopsis.org"><B>curator@arabidopsis.org</B></a>
+</table>
+</body>
+</html>
+
+
+
+
+

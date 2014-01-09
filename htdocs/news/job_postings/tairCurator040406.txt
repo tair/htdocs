@@ -1,0 +1,42 @@
+Scientific Curator, Biological Research Database
+TAIR, Stanford, CA, USA
+
+TAIR, The Arabidopsis Information Resource (http://arabidopsis.org) is a National Science Foundation-funded 
+web resource for thousands of plant biology researchers worldwide, providing free access to a wide array of 
+biological data and analysis tools for the model plant Arabidopsis, including the first and most complete 
+multicellular eukaryotic genome sequence.
+
+We are currently seeking applicants for the position of curator. The successful candidate will work with a 
+team of curators, software engineers, and database developers to provide data to over 13,000 users of the 
+TAIR website and database. Preferred starting date: July 1, 2006.
+
+Main Responsibilities:
+
+•    Read current research articles and extract gene function and other attributes for loading into the 
+TAIR database
+•    Answer questions from the community on how to use the site
+•    Present information on how to use TAIR at meetings and workshops
+•    Assist scientists with large data submissions
+•    Assist with design of new or improved web interfaces and tools
+•    Participate in the development of controlled vocabulary terms for gene annotation
+
+
+Requirements:
+
+•    A Ph.D in Biology or related discipline with research experience in plant biology
+•    Demonstrated ability for independent, critical thinking
+•    Excellent written and verbal communication skills
+•    Ability to work well as part of a team
+•    Good basic computer skills (word processing, spreadsheets, web browsers)
+
+Recommended:
+
+•    Experience with Internet-based literature searching, Unix, HTML and mySQL 
+would be useful but is not required.
+
+Qualified candidates should email a resume to Tanya Berardini at:
+tberardi@acoma.stanford.edu
+
+The Carnegie Institution of Washington is an equal opportunity employer.
+
+

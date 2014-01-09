@@ -1,0 +1,58 @@
+Two Post-Doctoral Researchers in Protein biochemistry and biological networks and in Computational 
+Modeling for Bioenergy. 
+
+Protein biochemistry and biological networks   The successful candidate will join a team of 
+scientists working to uncover novel signaling interactions in plant metabolic networks, in a project 
+recently funded by the National Science Foundation (MCB#0951170, 
+http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0951170). The successful applicant will 
+focus on identification of proteins that interact with known or candidate proteins of the starch 
+regulatory network, functional characterization of candidate genes, and elucidation of protein-
+protein interactions. Possible biochemical approaches include, but are not limited to, protein 
+expression and purification, protein structure determination, yeast-two-hybrid screening, co-
+immunoprecipitation and tandem affinity purification. A PhD in biochemistry, biology, chemistry or
+a related field is required. Publication record should demonstrate expertise in protein functional 
+and structural characterization. Signal transduction and/or bioinformatics expertise is a plus. 
+
+Computational Modeling for Bioenergy  The postdoctoral researcher would join a 3-year DOE-funded 
+project focuses on elucidation of the metabolic and regulatory pathways that are important for 
+production of bioenergy from a simple photosynthetic organism. It will integrate innovative, 
+proprietary technical advances, global gene expression profiling experiments, and molecular and 
+computer science approaches to develop a highly versatile and genetically tractable, microalgal-
+based platform for capturing solar energy and using it to convert atmospheric + waste CO2 to high-
+energy chemical products with biofuel applications. To evaluate multidimensional metabolomic and 
+transcriptomic data, new computational approaches will need to be developed, applied, and made 
+available to the public. These computational analyses will reveal how these genetic perturbations 
+affect the metabolic network, and provide hypotheses for defining and ultimately refining the 
+molecular factors that control accumulation of high value biomolecules. The ensuing software will 
+have wide-ranging applications to research not only in bioenergy but also foods, the green chemical 
+industry, and medicine. A Ph.D. in computer science or computational biology is required. A strong 
+background in computer modeling techniques with some knowledge of database development and 
+statistics is required. An understanding of biology/biochemistry as evidenced by coursework is 
+preferred.
+
+Both individuals will be part of a multidisciplinary team that includes computer scientists, 
+computational biologists, molecular biologists and biochemists.  The successful candidate is 
+expected to demonstrate independence and creativity. Good oral and written skills and a strong 
+publication record in refereed journals are required. We seek highly motivated researchers with 
+demonstrated outstanding ability and accomplishment. The positions are located in state-of-the-art 
+facilities at Iowa State University in Ames, Iowa and offers competitive salary and benefits with 
+the opportunity for professional growth and advancement. 
+
+Applications should include a cover letter highlighting qualifications and research interests, 
+current CV, publication list. Have three letters/emails of reference sent from persons familiar 
+with your professional qualifications, include your dissertation advisor as one of the three. For 
+more information regarding application submission or project details, please contact Dr. Ling Li 
+at liling@iastate.edu.
+
+Web sites:
+http://www.gdcb.iastate.edu/faculty/facultyDetail.php?id=111%20Wurtele 
+http://metnetonline.org
+
+References: 
+Li et al. (2009) Identification of the novel protein QQS as a component of the starch metabolic 
+network in Arabidopsis leaves.  Plant Journal, 58: 485-498. 
+(Online at http://www3.interscience.wiley.com/cgi-bin/fulltext/121641416/HTMLSTART) 
+
+Mentzen and Wurtele ES. (2008) Regulon Organization of Arabidopsis. BMC Plant Biology. 8:99. 
+(Online at http://www.biomedcentral.com/1471-2229/8/99)
+

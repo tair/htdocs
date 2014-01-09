@@ -1,0 +1,27 @@
+Postdoctoral research opportunity in bioinformatics and evolutionary
+genomics
+
+Department of Forest Resources and Environmental Conservation Virginia
+Polytechnic Institute and State University
+
+A postdoctoral fellowship for an NSF-funded project is available
+starting February 1, 2011, or soon thereafter, in the Department of
+Forest Resources and Environmental Conservation at Virginia Tech. The
+initial contract will be for one year, with the possibility of renewal
+up to three years total. The overarching goal of the project is to
+understand the genomic basis for climatic adaptation in the model tree
+Populus trichocarpa (poplar) and related species. The successful
+candidate will participate in a genome-wide association mapping study,
+with downstream analyses involving comparative and landscape genomics.
+The primary responsibility will be computational analysis and
+interpretation of genomic data. Secondary duties will include assistance
+with wet lab and field work as needed, mentoring of graduate and
+undergraduate students, and participating in outreach activities. A
+Ph.D. in computational biology, evolutionary genomics, bioinformatics,
+or a related field is required, as is substantial programming experience
+(e.g., Perl, R). Experience working with next-gen sequencing data would
+be a significant asset.
+
+For more information about this exciting opportunity to work on the
+cutting edge of plant genomics research, please contact Jason Holliday
+(jah1@vt.edu).

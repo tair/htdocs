@@ -1,0 +1,57 @@
+THE SAINSBURY LABORATORY
+
+PhD STUDENTSHIP 
+
+Genomic approaches to understanding how Arabidopsis downy mildew effector 
+molecules promote disease
+The Sainsbury Laboratory is a charitable company of 70 research scientists and 
+support staff and a world leader in plant science.  We are based on the Norwich 
+Research Park and closely linked to the Gatsby Charitable Foundation, University 
+of 
+East Anglia and the John Innes Centre.  For more information visit www.tsl.ac.uk
+A PhD studentship position is available for a bright and energetic individual in 
+the 
+Jones lab (www.tsl.ac.uk/jj) from October 2007, to join a team that investigates 
+Hyaloperonospora parasitica (Hp), the downy mildew pathogen of Arabidopsis. 
+
+The Hp genome is 8x deep shotgun sequenced (http://phytophthora.vbi.vt.edu). 
+Pathogens make effector proteins that suppress plant defence mechanisms; many Hp 
+effectors are secreted proteins with a signal peptide and a so-called RxLR motif 
+that 
+promotes uptake into plant cells, and can be detected in the Hp genome by 
+bioinformatics. We have developed a method to assay effectors by delivering them 
+by 
+“type 3 secretion” from the phytopathogenic bacterium Pseudomonas syringae, and 
+to 
+identify those that contribute to pathogen virulence, or that trigger resistance 
+in diverse 
+Arabidopsis accessions. 
+
+We also have access to a Solexa sequencing machine to sequence different Hp 
+races 
+and identify effector genes that are subject to diversifying selection. 
+                                     
+(http://www.illumina.com/pagesnrn.ilmn?ID=222) 
+
+We will use the Solexa method to establish which genes are expressed by the 
+pathogen in plants. Finally, an opportunity exists to establish methods to 
+dissect which 
+aspects of the defence response are the primary targets of individual effectors 
+(see 
+Jones and Dangl Nature (2006) 444:323-9). The project will provide excellent 
+opportunities for individual creativity and initiative within this topic, and 
+excellent 
+training and experience in plant/microbe interactions, molecular biology and 
+bioinformatics. The lab is part of a European team of researchers investigating 
+Hp in 
+the UK, Holland and Germany, and there will be considerable opportunities for 
+interactions with these collaborating labs. 
+Visit http://www.jic.ac.uk/students to download an application pack or send any 
+informal 
+enquiries, quoting the reference number below, to SL.Personnel@Sainsbury-
+Laboratory.ac.uk 
+Ref NUMBER JJ12/2007
+
+
+
+Sainsbury Laboratory Vacancy File - 21/05/2007

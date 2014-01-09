@@ -1,0 +1,22 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>
+BioCyc -- EcoCyc Gene Links
+</title>
+<!-- Changed by: John Pick, 18-Feb-2003 -->
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+
+<!-- E. coli Gene-Link Table -->
+<h2><i>E. coli</i> Gene-Link Table</h2>
+<p>This table can be downloaded separately <a href="http://EcoCyc-dev/gene-links.dat">here</a>.
+<pre>
+<!--#include virtual="/gene-links.dat" -->
+</pre>
+
+
+<!--#include virtual="/template-part3of3.shtml" -->

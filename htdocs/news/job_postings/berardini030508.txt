@@ -1,0 +1,42 @@
+Scientific Curator, Biological Research Database, Carnegie Institute, 
+Stanford, CA
+
+TAIR, The Arabidopsis Information Resource (http://arabidopsis.org) is a 
+National Science Foundation-funded web resource for thousands of plant biology 
+researchers worldwide, providing free access to a wide array of biological data and 
+tools for the model plant Arabidopsis.  The Carnegie Institution Department of Plant 
+Biology is co-located with the Department of Global Ecology on a seven-acre site on 
+the campus of Stanford University.
+
+We are currently seeking applicants for the position of scientific curator to join us in 
+our functional annotation effort. The successful candidate will work with a team of 
+curators, software engineers, and database developers to provide data from the 
+experimental primary literature to over 13,000 users of the TAIR website and 
+database.  The main responsibilities of this position include reading current research 
+articles to extract gene function and other attributes for loading into the TAIR 
+database, answering questions from the community on how to use the site, presenting 
+information on how to use TAIR at meetings and workshops, assisting scientists with 
+large data submissions, assisting with the design of new or improved web interfaces 
+and tools, and participating in the development of controlled vocabulary terms for 
+gene annotation.
+
+The ideal candidate will have a Ph.D in Biology or related discipline with research 
+experience in plant biology, a demonstrated ability for independent, critical thinking, 
+excellent written and verbal communication skills, the ability to work well as part of a 
+team and good basic computer skills.  Experience with Internet-based literature 
+searching, Unix, HTML and mySQL would be useful but is not required.
+This is an on-site position, telecommuters will not be considered. Qualified candidates 
+should email a cover letter, CV and names of 3 references to Dr. Tanya Berardini at: 
+tberardini@arabidopsis.org .
+The Carnegie Institution of Washington is an equal opportunity employer.
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,119 @@
+
+      Linkage Data - Mutant Gene Markers of Arabidopsis thaliana
+				   
+		 Explanation of Attached Information
+				   
+		      David W. Meinke (12/15/92)
+
+The attached information summarizes existing linkage data for mutant
+genes of Arabidopsis thaliana.  Information on molecular markers and
+cloned wild- type genes is not included.  This table was constructed
+in response to the mapping survey recently distributed to the
+Arabidopsis community.  The main purpose of this table is to summarize
+information on linked visible markers and approximate map locations
+for mutant genes.  Over 260 genetic loci are included in this table.
+
+Contributors will be asked in the future to submit recombination data
+in a standardized format to facilitate construction of updated maps.
+Forms and additional information will be distributed to the
+Arabidopsis community in the near future.
+
+Please send additions and/or corrections to this linkage table to:
+David Meinke, curator: FAX 405-744-7673; phone 405-744-6549; email:
+btnydwm@osucc.bitnet; or to Mike Cherry
+(curator@frodo.mgh.harvard.edu).
+
+Additional information on each column of this table is presented
+below.
+
+Mutant Locus: This lists each mutant locus for which recombination
+data are available.  I have added a space between the gene symbol and
+locus number to avoid confusion between the letter "l" and the number
+"1".
+
+Linkage Group: (Self-explanatory)
+
+Map:  This reveals the current status of the locus with respect to mapping.
+
+      M: The mutant locus is included on the attached visible marker
+         map.
+      R: The mutant locus should be ready to add to the visible marker
+         map once recombination data are obtained in the appropriate
+         format.
+      X: The mutant locus is not ready to place on the map, often
+         because recombination data are available for only a single
+         linked marker.
+      U: The precise status of this locus with respect to placement on
+         the map is currently unresolved.
+
+Closest Marker Tested: This shows the most closely-linked visible
+marker (already on the map) for which recombination data with the
+mutant locus in question are available.  Other visible markers may be
+more closely linked, but recombination data with those markers have
+not been reported.  In some cases, no recombinants were found among
+relatively small populations of F2 plants.  Recombination estimates
+(0.00) for these markers were frequently misleading and inconsistent
+with data for other closely-linked markers.  Information on additional
+linked markers has therefore been included for these mutants.
+Molecular markers are included in this column only if recombination
+data for linked visible markers are not available.
+
+r: This shows the recombination estimate (%) between the mutant locus
+in column #1 and the most closely-linked marker tested in column #4.
+A/B: This summarizes what is known about the relative orientation of
+the mutant locus and linked marker.
+
+      A: The mutant locus in column 1 has been definitively shown to
+         be Above the marker on the genetic map.  This fixed order has
+         also been given to JOINMAP.
+
+      B: The mutant locus in column 1 has been definitively shown to
+         be Below the marker on the genetic map.  This fixed order has
+         also been given to JOINMAP.
+
+      *: The fixed order noted above is not reflected on the current
+         map because it is somewhat inconsistent with other 2-point
+         data and was consequently rejected by JOINMAP.  Efforts are
+         underway to resolve the inconsistencies associated with these
+         fixed orders.
+
+      a: If the mutant locus is on the map, then JOINMAP has placed
+         this locus above the closest tested marker shown in column 4,
+         though this location has not been confirmed.  In the
+         remaining cases, other data indicate that the mutant locus is
+         above the marker.
+
+      b: Same as described above for "a", but in this case, the mutant
+         locus is below the tested marker.
+             
+LOD: This calculation performed by JOINMAP illustrates the certainty
+of tight linkage between the mutant locus and tested marker.  A high
+LOD score indicates a high degree of certainty of tight linkage
+between the two genes.  High LOD scores result from large F2
+populations, small standard errors, and small recombination estimates.
+
+Current Location: This shows the current estimated map location of the
+mutant locus on the attached visible marker map constructed by JOINMAP
+with visible marker data only.
+
+Reference Laboratory: This lists the laboratory that contributed the
+recombination data for the mutant locus and most closely-linked
+visible marker.  Other laboratories may have initially placed the
+mutant locus on the map or contributed additional recombination data.
+This column has been left blank if the source of the corresponding
+recombination data has not yet been identified.
+
+Suggested Protocol for the Future:
+
+Place greater emphasis on mapping the chromosomal location of your
+favorite mutant gene prior to publication.
+
+Perform complementation tests between your mutant and other
+closely-linked mutants with related phenotypes.
+
+Report preliminary linkage information for your mutant gene as soon as
+possible by contacting David Meinke at 405-744-6549 (phone),
+405-744-7673 (FAX), or btnydwm@osucc.bitnet (email).  Initial linkage
+assignments may be reported even before the precise map location has
+been determined.  Direct submission of mapping data to existing
+databases is planned for the future.

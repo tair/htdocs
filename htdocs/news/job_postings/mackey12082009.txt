@@ -1,0 +1,34 @@
+Excellence in Plant Molecular Biology/Biotechnology Graduate
+Fellowship Program at Ohio State University
+The Plant Molecular Biology/Biotechnology (PMBB) Program at The Ohio
+State University is being dramatically expanded as a Targeted
+Investment for Excellence initiative by Ohio State. PMBB is an
+interdisciplinary group that includes faculty members from the
+Colleges of Biological Sciences and Food, Agriculture and
+Environmental Sciences. PMBB research programs conduct molecular
+studies on the cutting edge of plant science, including plant
+development, plant signaling, plant metabolic engineering,
+photosynthesis biochemistry, and plant-pathogen interactions. For the
+fourth straight year, PMBB invites outstanding students seeking to
+earn a Ph.D. in plant science from any of the participating graduate
+programs at OSU to apply for Excellence in Plant Molecular
+Biology/Biotechnology Graduate Fellowships. The fellowships provide
+up to four years of support, including stipend ($25K/year), full
+benefits, tuition and fee waivers, and travel opportunities.
+Application instructions and detailed information, including a
+directory of PMBB faculty and participating graduate programs, is
+available at: http://www.ag.ohio-state.edu/~pmbb/
+
+Requirements: (1) PhD in Plant Biology, Bioinformatics, Biochemistry,
+Molecular Biology, or related discipline and (2) demonstrated
+expertise in bioinformatics, genomics, biochemistry, or molecular
+biology, including knowledge of computational tools required for
+genetic database searches, genome annotations, whole genome
+comparisons, large data set analyses. Must be familiar with Linux and
+at least one of the scripting languages such as Perl, C, C++, Java or
+Python, and with MySQL databases. Postdoctoral experience is highly
+desirable.
+
+For more information please contact Dr. Tea Meulia,
+<mailto:meulia.1@osu.edu>meulia.1@osu.edu
+Apply on line at http://jobs.osu.edu, job requisition #348254 

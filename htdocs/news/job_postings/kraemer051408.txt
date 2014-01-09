@@ -1,0 +1,42 @@
+PhD Studentship: 
+
+Development of Computational Tools for 
+Evolutionary Functional Genomics
+
+
+A PhD studentship (salary based on TV-L West) is available for the development of 
+computational tools for comparative genomics in a joint project between Dr. Ute 
+Krämer (Evolutionary Functional Genomics) in the BioQuant Center of the University 
+of Heidelberg and Dr. Benedikt Brors/Prof. Dr. Roland Eils (Bioinformatics/Statistics) 
+at the German Cancer Research Center. 
+
+We are looking for a biologist with a strong background in statistics and an interest in 
+computational data analysis and computer programming, or a bioinformaticist/ 
+biostatistician with a strong interest in genomics, experimental genomics tools and 
+methods, genome and trait evolution in plants. Experience with the R and bioconductor 
+software, MatLab, and/or Perl programming will be useful. Candidates should have a 
+MSc, Diplom or equivalent degree in Biology, Bioinformatics, Biotechnology or a 
+related subject.
+
+Cross-species comparisons of genome-wide genomic or transcriptomic datasets from 
+Arabidopsis thaliana and two closely related plant species will be used to investigate 
+evolutionary genome dynamics and changes in transcriptional regulation underlying 
+adaptive traits, in particular naturally selected metal hyperaccumulation and associated 
+hypertolerance. Microarray-based comparative genome hybridizations and transcript 
+profiles will be analyzed initially. The developed novel tools and platforms will be used, 
+for example, to address the role of gene copy number expansions and gene deletions in 
+trait evolution at the whole-genome scale. The model trait we are studying is an extreme 
+trait found in Arabidopsis halleri: naturally selected metal hyperaccumulation and 
+associated metal hypertolerance. Experimental work can be included in the project. 
+Tools are applicable in a wider range of plant species of the Brassicaceae family, as well 
+as in other sets of related, phenotypically diversified organisms. 
+
+The studentship is funded within the FRONTIER initiative of the University of 
+Heidelberg. Further information is available from 
+Dr. Ute Krämer (ute.kraemer@bioquant.uni-heidelberg.de; http://ephedra.hip.uni-
+heidelberg.de/?u=ukraemer&l=e). 
+
+Applications will be accepted until 30 June 2008, or until the position is filled (posted 
+13 May 2008). 
+
+

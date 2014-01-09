@@ -1,0 +1,36 @@
+BIOINFORMATICS PROGRAMMER 
+ 
+ 
+A full-time programmer position is available in the NYU Center for Genomics & 
+Systems Biology, in the Plant Genomics/Systems Biology group headed by Dr. Gloria 
+Coruzzi, in the Department of Biology at New York University. The successful candidate 
+is expected to work together with biologists and bioinformaticians on an NSF-funded 
+Bioinformatics Project entitled "VirtualPlant" to develop web-based software that helps 
+biologists analyze, integrate and visualize large-scale data sets (genomic experiments). 
+The applicant should have a technical background and computational skills that allows 
+developing appropriate bioinformatics tools and algorithms for analysis, visualization and 
+public dissemination of information derived from studies of genomes. 
+ 
+ 
+Qualifications: 
+ 
+The candidate must have or be working towards a degree in Computer Science, Math or a 
+related field and have demonstrated programming experience in the development of web-
+based software. 
+ 
+- Fluent in Object Oriented PERL. 
+ 
+- Fluent in SQL and database management. 
+ 
+- Java experience is a plus. 
+ 
+- R language is a plus. 
+ 
+- Knowledge of Biology is a plus. 
+ 
+Promising candidates will be interviewed and given a mini-project to accomplish before 
+the hiring decision is made.This position includes health care benefits, and tuition 
+remission (after 3 mo. employment). 
+ 
+Please send cover letter, current resume, and 3 references to Alexis Cruikshank 
+(ac92@nyu.edu <mailto:ac92@nyu.edu>).

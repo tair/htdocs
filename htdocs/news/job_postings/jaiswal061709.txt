@@ -1,0 +1,58 @@
+Position Title: Research Associate (Senior Postdoc) / Research Associate (Postdoc) 
+Working Title: Plant Ontology Project Coordinator 
+ 
+How to Apply: 
+-------------- 
+To review the position description and apply, go to posting #0004322 
+at http://oregonstate.edu/jobs.  When applying, you will be required to electronically submit your 
+application, a cover letter citing your interest in the position and your experience, and a 
+CV/resume including 3 references.  Closing date 7/15/09. 
+ 
+Position description: 
+--------------------- 
+The Plant Ontology Consortium (www.plantontology.org) is seeking applicants for a full-time 
+position of scientific curator who will coordinate the Consortium’s efforts. The Plant Ontology 
+Consortium is a collaboration among researchers at Oregon State University, Cornell University 
+and New York Botanical Garden. The Consortium also collaborates with the curators of many 
+model organism databases including rice, Arabidopsis, maize, grasses, legumes, Solanaceae, 
+bryophytes and plant phylogenomics. The project aims to develop shared vocabularies on plant 
+anatomy and growth and developmental stages, to describe patterns of phenotype(s) and gene 
+expression. For more details on the project please see the publications (PubMed IDs:18194960, 
+17142475, 16905665, 18629207) 
+ 
+ 
+Duties / Responsibilities: 
+-------------------------- 
+Develop and refine the ontologies with the PO curators in participating databases and core labs, 
+annotate gene products and stocks with the vocabularies in the ontologies, participate in the 
+development and application of methods to streamline and enhance the quality of annotations, 
+manage website content, set project milestones, organize and moderate project meetings,  and 
+work with the project members to deliver the database releases and project reports on strict 
+timelines. 
+ 
+ 
+Required qualifications: 
+------------------------ 
+Ph.D. in an aspect of plant biology (e.g. Development, Physiology, Biochemistry, Genetics, Plant 
+Pathology, Systematics) and/or genomics, Phylogenomics, Systematics, Plant Biology and Plant 
+Anatomy.  Available immediately to start working on the project. Demonstrated ability for 
+independent, critical thinking and excellent communication, networking and teamwork skills. 
+ Previous work in any one or more areas of Plant Development, Plant Physiology, Plant 
+Biochemistry, Plant Genetics and/or genomics, Plant Pathology, Museum specimen curation, 
+Phylogenomics, Systematics, Plant Biology and Plant Anatomy.  Excellent communication skills 
+in English is a must.  Experience in teaching and outreach. Familiarity with Plant Development 
+and Anatomy.  Able to travel and attend 3-4 meetings/year of the PO consortium. 
+ 
+In order to be considered for the Research Associate (senior Postdoc) position, the candidate 
+must have 3 or more years of postdoctoral/scientist research experience and supporting 
+publications in peer reviewed international journals. The selection committee will judge the 
+candidate based on the qualifications below; in addition, to showing the ability to lead on a 
+scientific project as an independent researcher. 
+ 
+ 
+Preferred qualifications: 
+------------------------- 
+Past experience in project coordination, large scale gene expression and phenotype evaluation, 
+familiarity with basic UNIX commands, spreadsheets, and commonly used biological research 
+tools such as BLAST and Literature Database search is desired.  A working knowledge of PERL 
+and/or SQL will be considered an asset but not required.

@@ -1,0 +1,409 @@
+<html><head><TITLE>Submit Simple Contig Map Info.</TITLE></head>
+
+<body background="/images/arabidopsisbackground.gif">
+<a href=/><img src="/images/tairsmall.gif" border=0 align=left></a>
+
+<FORM METHOD="POST"
+ACTION="/cgi-bin/atdb-contig_map">
+
+<H1 align=center>Submit SIMPLE Contig MAP Details to TAIR</H1>
+<br><center><img src="/images/line.red2.gif" alt="[line]"></center>
+<p>
+
+<INPUT TYPE="Hidden" NAME="Form_Name" VALUE="Simple_Contig_Map_Info">
+
+<center>
+<b>THIS FORM IS FOR YOU TO PROVIDE SIMPLE PHYSICAL-MAP CONTIG INFORMATION TO
+ATDB.</b>
+<p>
+<a name="Top">
+
+</center>
+
+In this form, you tell us who you are, the name of your contig, and
+which probes hit which clones in your contig. Complete this form if
+your data is probably best represented as a tiling path as shown
+below. If you have more detailed mapping-data (physical relationships
+between markers, <i>etc.</i>), please fill in a <a
+href="/contig_complexmap.html">
+Submit Complex Mapping Data form</a> instead.
+
+<p>
+
+
+An <a
+href="/contig_intro.html">
+introduction to TAIR's forms</a> for submitting physical-mapping data
+is available, as is a longer <a
+href="/contig_info.html">
+explanation and help</a>.
+
+<p>
+
+If you already have some hybridization data in some sort of
+<b>computer format</b>, which you think may obviate the need to
+complete some of this or the other forms, please <a
+href="/contig_info.html#Gotdata">
+read this</a> first.<p>
+
+
+<hr>
+
+<p>
+
+
+<center>
+Example of a tiling-path:<br>
+<a
+href="#simple">
+<img src="/images/example_mtp.gif" border=0
+ALT="[Example MTP]"></a>
+</center><br>
+
+<a name="NextTop">
+
+
+<p>
+
+<img src="/images/line.red2.gif" alt="[line]">
+<center>
+
+<b>SECTION 1. YOU</b>
+</center>
+<p> 
+
+
+<pre>
+	  Your name: <INPUT NAME="Name" SIZE=50> (Required)
+Your e-mail address: <INPUT NAME="Internet" SIZE=50> (Required)
+     PI of your lab: <INPUT NAME="Associate" SIZE=50>
+</pre>
+
+If you would like to open a new window to TAIR database, in order to <b>check your colleague entry</b>, please <a
+href="/search"> click here</a>.
+
+<hr> 
+<a name="contig_name">
+<center>
+<b>SECTION 2. YOUR CONTIG</b>
+</center>
+<p> 
+
+
+Please name your contig, using the boxes
+below, according to the outermost RFLP markers you
+have used and the chromosome on which it lies: <i>e.g.</i>, <b>IV g1234 -
+mi50</b> will be a contig on chromosome IV with g1234 as the most
+northerly (left-hand) marker and mi50 as the most southerly
+(right-hand).
+<p>
+
+<pre>
+	      Chromosome Number Northern marker  Southern marker
+<b>CONTIG NAME</b>: <SELECT NAME="Contig_name_chromosome">
+<OPTION SELECTED VALUE="">Select
+<OPTION>I
+<OPTION>II
+<OPTION>III
+<OPTION>IV
+<OPTION>V
+</SELECT>    <INPUT NAME="Contig_name_N" SIZE=10>  -  <INPUT NAME="Contig_name_S" SIZE=10> (Required)
+
+Please indicate if this is a new entry or an update to contig details you
+have already sent us: <INPUT TYPE="radio" NAME="update"
+VALUE="new_entry" CHECKED> New <INPUT TYPE="radio" NAME="update"
+VALUE="update_entry"><b>Update</b>
+</pre>
+If you are <b>updating</b> an existing contig, please give us its name:
+<p>
+<pre>
+	      Chromosome Number Northern marker  Southern marker
+Previous name: <SELECT NAME="Old_contig_name_chromosome">
+<OPTION SELECTED VALUE="">Select
+<OPTION>I
+<OPTION>II
+<OPTION>III
+<OPTION>IV
+<OPTION>V
+</SELECT>    <INPUT NAME="Old_contig_name_N" SIZE=10>  -  <INPUT NAME="Old_contig_name_S" SIZE=10> (Required if an update)</pre>
+
+ <p>
+
+ <hr> 
+<a name="simple">
+<center>
+<b>SECTION 3. YOUR DATA</b>
+</center>
+<p>
+
+
+To fill in the table below, simply: 
+<a href="/contig_info.html#mtp">
+(show me an example first)</a><p>
+1: List the probes in your contig, in the most likely North (first) to South
+(last) order. Don't forget to include end probes.<br> 
+2: Select the likelihood of each probe's position: anchored, likely, or ambiguous.<br>
+3: List all the clones in your contig (in any order). <br>
+4: Give the <b>number</b>, from the first column in the table, of the
+most northerly (N) and then the most southerly (S) probe that each
+clone hybridizes with.
+<p>
+
+
+<table border=1>
+
+<tr>
+<th>Probe Number</th><th>PROBE NAME</th><th>Likelihood of probe position</th><th width=20 NOWRAP></th><th>CLONE NAME</th><th>N Probe Number</th><th>S Probe Number</th>
+</tr>
+<tr>
+<td align=center><b>1</b></td><td><INPUT NAME="Probe_name1" SIZE=12></td><td><SELECT NAME="Probe1_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name1" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No1" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No1" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>2</b></td><td><INPUT NAME="Probe_name2" SIZE=12></td><td><SELECT NAME="Probe2_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name2" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No2" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No2" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>3</b></td><td><INPUT NAME="Probe_name3" SIZE=12></td><td><SELECT NAME="Probe3_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name3" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No3" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No3" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>4</b></td><td><INPUT NAME="Probe_name4" SIZE=12></td><td><SELECT NAME="Probe4_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name4" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No4" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No4" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>5</b></td><td><INPUT NAME="Probe_name5" SIZE=12></td><td><SELECT NAME="Probe5_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name5" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No5" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No5" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>6</b></td><td><INPUT NAME="Probe_name6" SIZE=12></td><td><SELECT NAME="Probe6_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name6" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No6" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No6" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>7</b></td><td><INPUT NAME="Probe_name7" SIZE=12></td><td><SELECT NAME="Probe7_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name7" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No7" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No7" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>8</b></td><td><INPUT NAME="Probe_name8" SIZE=12></td><td><SELECT NAME="Probe8_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name8" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No8" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No8" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>9</b></td><td><INPUT NAME="Probe_name9" SIZE=12></td><td><SELECT NAME="Probe9_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name9" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No9" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No9" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>10</b></td><td><INPUT NAME="Probe_name10" SIZE=12></td><td><SELECT NAME="Probe10_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name10" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No10" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No10" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>11</b></td><td><INPUT NAME="Probe_name11" SIZE=12></td><td><SELECT NAME="Probe11_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name11" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No11" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No11" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>12</b></td><td><INPUT NAME="Probe_name12" SIZE=12></td><td><SELECT NAME="Probe12_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name12" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No12" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No12" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>13</b></td><td><INPUT NAME="Probe_name13" SIZE=12></td><td><SELECT NAME="Probe13_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name13" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No13" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No13" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>14</b></td><td><INPUT NAME="Probe_name14" SIZE=12></td><td><SELECT NAME="Probe14_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name14" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No14" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No14" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>15</b></td><td><INPUT NAME="Probe_name15" SIZE=12></td><td><SELECT NAME="Probe15_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name15" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No15" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No15" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>16</b></td><td><INPUT NAME="Probe_name16" SIZE=12></td><td><SELECT NAME="Probe16_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name16" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No16" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No16" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>17</b></td><td><INPUT NAME="Probe_name17" SIZE=12></td><td><SELECT NAME="Probe17_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name17" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No17" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No17" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>18</b></td><td><INPUT NAME="Probe_name18" SIZE=12></td><td><SELECT NAME="Probe18_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name18" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No18" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No18" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>19</b></td><td><INPUT NAME="Probe_name19" SIZE=12></td><td><SELECT NAME="Probe19_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name19" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No19" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No19" SIZE=4></td>
+</tr>
+
+<tr>
+<td align=center><b>20</b></td><td><INPUT NAME="Probe_name20" SIZE=12></td><td><SELECT NAME="Probe20_confidence"><OPTION SELECTED VALUE="">Select
+<OPTION>Anchored
+<OPTION>Likely
+<OPTION>Ambiguous
+</SELECT></td><td></td><td><INPUT NAME="Clone_name20" SIZE=12></td><td align=center><INPUT NAME="Clone_start_No20" SIZE=4></td><td align=center><INPUT NAME="Clone_end_No20" SIZE=4></td>
+</tr>
+
+</table>
+
+<p>
+
+If you have more probes or clones than there are spaces above, please
+continue on another form like this and note in the box below that it
+is a continuation. Any other comments may be added below too.<p>
+<center>
+Additional information:<br>
+<TEXTAREA NAME="Other_mtp_info" ROWS=5 COLS=50 wrap=soft></TEXTAREA><p>
+</center>
+<p>
+
+<hr>
+
+<a name="send">
+
+<center>
+<b>SECTION 4: SENDING THE FORM</b>
+</center>
+<p>
+Thank you for completing this form. To <b>transmit</b> your
+information for this contig, please press this button: <INPUT
+TYPE="submit" VALUE="Submit Contig Map Form">.  <p> Press <INPUT
+TYPE="reset" VALUE="Reset"> to clear this form and start over.
+
+<p> 
+
+In addition to completing this form, please <b>FAX a map</b>, marked
+"To: Arabidopsis Curator", to: +1-650-723 7016 or -725 1534(<a
+href="/contig_info.html#Whichforms">more
+details</a>). This will help us to interpret your form-input
+correctly. Please do not use the FAX as a substitute for filling in
+sections on these forms. Once we've checked and re-formatted your
+data, it will be displayed as a tiling path in <a
+href="/search"> TAIR database</a>.
+<p>
+
+<hr> 
+
+<center>
+<b>SECTION 5. WHAT NEXT?</b>
+</center>
+<p>
+
+We're particularly keen to have any <b>additional
+information</b> you may have regarding the size, type, map location,
+chimerism, <i>etc</i>. of individual clones or probes and Southern
+hybridization patterns. Such details can be sent to us, after you
+have finished this form, using other forms, links to which are
+provided below.  <p>
+
+
+<a
+href="/contig_probe.html">
+<img width=115 align=right hspace=10
+src="/images/example_probe_50.gif"
+ALT="[Probe]"></a>
+<a
+href="/contig_clone.html">
+<img align=left
+src="/images/example_clone_50.gif"
+ALT="[Clone]">
+<p>
+<br>
+<a
+href="/contig_probe.html">
+<p align=right>Submit Contig Probe Details Form --></P></a>
+<p>
+<center><b>and a</b></center>
+
+<p>
+<a
+href="/contig_clone.html">
+<p align=left><-- Submit Contig Clone Details Form</p></a>
+
+<br clear=left>
+<br>
+<br>
+<hr>
+
+</FORM>
+
+<p>
+<center>Please send suggestions or comments to 
+<A HREF="mailto:curator@arabidopsis.org">TAIR Curator</A><br>
+Last update: August 13, 1996</center>
+<p>
+<hr size=3 noshade width=95%>
+<p>
+<a href="/"><img src="/images/arrow.small.up.gif" border=0>Return to TAIR Home Page</a>
+</body></html>

@@ -1,0 +1,101 @@
+(in-package :ecocyc)
+
+(require :sock)
+
+(defparameter *socket-pathname* "/tmp/ptools-socket")
+(defvar *external-access-daemon-process*)
+
+(defun start-external-access-daemon (&key (verbose? t)
+					  (mode :all))
+  (setf *external-access-daemon-process*
+    (mp:process-run-function "External Access Daemon" 
+			     #'external-access-daemon 
+			     :verbose? verbose? :mode mode)))
+
+(defun stop-external-access-daemon ()
+  (when *external-access-daemon-process*
+    (ignore-errors (mp:process-kill *external-access-daemon-process*))
+    (setq *external-access-daemon-process* nil)
+    ))
+
+;; ==================================================== external-access-daemon
+
+;; paley:Mar-6-2002    Description :
+;;   Create a passive Unix file socket, and loop, listening for connections.
+;;   When a connection is made, read a piece of lisp code, evaluate it and
+;;   send back the return value.  If a connection is made but no complete
+;;   sexpr is read, time out after 60 seconds.  If the code to be evaluated
+;;   causes an error, just pass back the code :error.  Since this utility 
+;;   uses a Unix file socket, connections can only be made from a machine on
+;;   the same file system.  If the default *socket-pathname*, a file in /tmp,
+;;   is used, then connections can only be made from the same machine.  Thus,
+;;   it is not a significant security risk to just evaluate whatever code is
+;;   passed in.   Because there is a lot of error-handling and verbose output
+;;   code in this fn, I've used comments to highlight the basic 
+;;   read-eval-print loop (which is really all this fn is, but over a socket).
+;;      Arguments : verbose?: T/NIL -- when non-nil, record all connections, 
+;;                    requests and responses on *trace-output*.
+;;                  mode: one of :user, :group or :all -- specifies whether
+;;                    unix write permission for the file socket is granted
+;;                    only to the user, to group members, or to everyone.
+;;        Returns : nothing
+;;   Side Effects : deletes the file *socket-pathname* if it already exists.
+;; Update History :
+
+(defun external-access-daemon (&key (mode :all) ;; or :user or :group
+				    (verbose? t))
+  (when (probe-file *socket-pathname*) (delete-file *socket-pathname*))
+  (let ((socket (socket:make-socket :connect :passive
+				    :type :stream
+				    :address-family :file
+				    :local-filename *socket-pathname*
+				    ))
+	)
+    (when (member  mode '(:user :group))
+      (excl:run-shell-command 
+       (vector "chmod" "chmod" (if (eq mode :user) "go-w" "o-w")
+	       *socket-pathname*)))
+    (unwind-protect
+	(progn
+	  (format *trace-output* "~&The External Access Daemon is running.~%")
+	  (loop for sock-stream = (prog1 (socket:accept-connection socket)
+				    (when verbose?
+				      (ignore-errors
+				       (format *trace-output* 
+					       "~&Connection accepted~%"))))
+	      for query = (ignore-errors
+			   (mp:with-timeout (60) 
+			     (read sock-stream nil nil)))         ;; read
+	      do 
+		(unwind-protect
+		    (handler-case 
+			(when query
+			  (when verbose?
+			    (format *trace-output* 
+				    "~&External request: ~A~%" query))
+			  (let ((result (eval query)))            ;; eval
+			    (when verbose?
+			      (format *trace-output*
+				      "~&Returned: ~A~%" result))
+			    (format sock-stream "~S~%" result)))  ;; print
+		      (error (e) (ignore-errors 
+				  (format sock-stream ":error~%")
+				  (when verbose?
+				    (format *trace-output*
+					    "~&Error: ~A~%" e))
+				  ))
+		      )
+		  (when sock-stream
+		    (ignore-errors
+		     (finish-output sock-stream))
+		    (close sock-stream)
+		    (when verbose?
+		      (format *trace-output* "~&Connection ended~%"))
+		    ))))
+      (close socket)
+      (when (probe-file *socket-pathname*) (delete-file *socket-pathname*))
+      (format *trace-output* "~&The External Access Daemon has exited.~%")
+      )))
+
+(defun print-frame-to-string (frame)
+  (with-output-to-string (*standard-output*) (print-frame frame)))

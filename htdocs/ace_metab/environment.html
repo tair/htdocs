@@ -1,0 +1,190 @@
+<TITLE>ACEDB environment</TITLE>
+
+<body>
+
+<H1>ACEDB environment variables</H1>
+<I>Note:</I> Applies to code 4.0pre, 1995-05-22
+
+<DL>
+
+<DT> HOME
+<DD> File: w1/filsubs.c <br>
+Used to substitute in paths containing a tilde. This variable is set
+by your operating system/shell, and should probably not be tampered with.
+
+
+<DT> OPENWINHOME
+<DD> whooks/quovadis.c <br>
+
+<DT> ACEDB_HTML_DEBUG_MODE
+<DD> File: w1/help.c<br>
+If this environment variable is set, the www help system will print
+the name of the file it is trying to display on standard error. This
+is intended for debugging, and for finding the exact name a file needs
+to have to be displayed.
+
+<DT> ACEDB_DATA
+<DD> File: w1/parse.c; w4/update.c (twice); wace/pmapace.c; wace/stockace.c; <br>
+
+The path to the directory containing rawdata or update files. Defaults
+to $ACEDB/rawdata. Will be shown as starting directory in parse/update
+and write/dump operation file chooser dialogs. Note that this the only
+way to tell ace that the update files are not in
+$ACEDB/rawdata. pmapace is a standalone program to convert contig9
+data into ace. stockace is a standalone program to convert cgcstrn
+data into ace.
+
+<DT> ACEDB_LPR
+<DD> File: w2/graphprint.c<br>
+This should be set to a command that will print a document on your
+system. Ace will also try to build generic system calls, but if your
+setup needs special handling, set ACEDB_LPR to that
+command. &lt;insert example&gt;.
+
+<DT> PWD
+<DD> File: w2/graphprint.c; w4/session.c<br>
+Used by ace to set current working directory. This variable is set by
+your operating system/shell, and should probably not be tampered with.
+
+<DT> ACEDB_MONO
+<DD> File: w2/graphxlib.c<br>
+Set to force monochrome output on the screen. The program should be
+able to figure out on it's own how to set the screen depth, but
+sometimes this doesn't work.
+
+<DT> ACEDB_COLOUR and ACEDB_COLOR
+<DD> File: w2/graphxlib.c<br>
+Set to use colors. This will overrride ACEDB_MONO.
+
+<DT> ACEDB_GRAY and ACEDB_GREY
+<DD> File: w2/graphxlib.c<br>
+Use alternate way of making stipples for monochrome screen.
+
+<DT> ACEDB_SCREEN_FIX
+<DD> File: w2/graphxt.c (commented out)<br>
+&lt;???&gt;
+
+<DT> ACEDB
+<DD> File: w4/session.c; w9/diskdump.c; w9/diskfix.c<br>
+The directory where the database directory and the wspec directory
+lives. No longer needed - you can give the same info on the command line.
+
+<DT> ACEDB_NO_BANNER
+<DD> File: w4/session.c; w4/tacemain.c (4 times); w4/xacemain.c (3 times)<br>
+Do not print so much info on standard out.
+<UL>
+<LI> &lt;w4/session.c&gt; skip message about byte-swapping for non-native database.
+<LI> &lt;w4/tacemain.c&gt; skip main start message, do not print
+wspec/datainfo.wrm, do not give initial help message, do not print a
+comment on how to enter .ace info (but does print final 'A bientot'.)
+<LI> &lt;w4/xacemain.c&gt; skip main start message, do not print
+database directory, do not print wspec/datainfo.wrm, do not print
+final 'A bientot'.
+</UL>
+
+<DT> ACEDB_CHANGE_MAIN_RELEASE
+<DD> File: w4/session.c<br>
+Use to override the message and quit-of-program you get if you try to
+run a program on a database that was created with a different
+version. Use with a lot of caution - main code releases 3 and 4 create
+binary <B>in</B>compatible databases, so overriding will not work.
+
+<DT> ACEDB_SUBSHELLS
+<DD> File: w4/tacemain.c<br>
+Set to allow subshells in tace.
+
+<DT> ACEDB_BREAK
+<DD> File: w6/bsdumps.c<br>
+Controls the length of lines in ace format dumps of objects or entire
+database. Default is to not break lines; if you set it to anything
+that is not a valid number, then it defaults to 80 characters.
+
+<DT> ACE2WWW
+<DD> File: w6/nicedump.c<br> Turns on output (from tace)
+in a format suitable for parsing &lt;???&gt;. This format probably obsolete,
+replaced by ACE2PERL.
+
+<DT> ACE2PERL
+<DD> File: w6/nicedump.c<br>
+Output perl objects for use
+with JD's, Dougs, Sams Aceobj.pm routines.
+
+<DT> ACEQM
+<DD> File: w6/nicedump.c<br>
+Quote mark for dump. Defaults to "'".
+
+<DT> ACEDB_SERVER
+<DD> File: w6/querydisp.c; wrpc/xclient.c<br>
+Two different uses:
+<UL>
+
+<LI> &lt;w6/querydisp.c&gt; Specific to the IGD version: if compiled
+with IGD defined the menu in the query composition window will read
+'Search Locally/Search IGD/Search Server" instead of the standard
+'Search'. This variable and the next (ACEDB_CLIENT) govern the last of those
+commands.
+
+<LI> &lt;wrpc/xclient.c&gt; Tells the xclient which server it should
+connect to. It's an error not to set this.
+
+</UL>
+
+<DT> ACEDB_CLIENT
+<DD> File: w6/querydisp.c<br>
+See above.
+
+<DT> ACEDB_AUTOSAVE
+<DD> File: w6/querydisp.c<br>
+If this variable is set, the menu item about AutoSave in the Query
+window start out with 'Disable AutoSave' (i.e. it will be enabled by
+default) and save all queries automatically &lt;??? just gives an
+error about not finding the file?&gt;
+
+<DT> ACEDB_PROJECT
+<DD> File: w7/fmapcontrol.c; w9/embl.c
+Used for two completely different things:
+<UL>
+
+<LI> &lt;w7/fmapcontrol.c&gt;: Gives slight control over if the DNA
+sequence is shown or not in the Sequence display. If the variable is
+<B>not</B> set <B>and</B> the sequence region to be displayed is shorter
+than 1000 nt, then the DNA sequence and the coordinates are shown,
+else they are hidden. &lt;This doesn't seem to be the whole truth,
+is there some additional condition applied elsewhere?&gt;
+
+<LI> &lt;w9/embl.c&gt;: governs the behaviour of the EMBL dump option
+for the Sequence display. If this variable is set <B>and</B> there is
+a Genomic_Canonical tag in the sequence object, the printout will
+include the C.elegans specific parts of the EMBL dump (ID, DE, OS,
+etc). (In fact it will do this also, irregardless of the above
+condition, if the object has a cDNA tag and it's name begins with 'cm'.)
+
+</UL>
+
+<DT> ACEDB_CONTIG9
+<DD> File: w7/pmapdisp.c; w8/pmapdisp+fp.c<br>
+If set, allow editing of pMaps in the old Contig9 style.
+
+<DT> SWDIR; PIRDIR; WORMDIR; EMBLDIR; GBDIR; PRODOMDIR; PROSITEDIR; DBDIR; SEQDBIDX; DIVTABL; SEQDB
+<DD> File: w9/efetch.c; w9/fetch.c<br>
+Directory location for databases and indexes to be used by efetch and
+fetch. Need to end with a '/'.
+
+<DT> GF_TABLES
+<DD> File: w9/gfcode.c<br>
+The directory where GeneFinder should look for it's tables. If not
+set, defaults to $ACEDB/wgf.
+
+<DT> SCF_DATA
+<DD> File: wabi/basecall.c; wabi/plotseq.c<br>
+The directory containing the SCF-format trace files for the assembly routines.
+
+<DT> ACEDB_SU
+<DD> <B>Obsolete</B>. Used to be needed to gain write access to the
+database, in addition to having your name in the file
+wspec/passwd.wrm.
+
+<DT> AY_TRACE; AY_CACHE; AY_USER; AY_PW; ACESYBASE_TRACE
+<DD> File: wrpc/acesyb.c; wrpc/acesybase.c<br>
+Specific to the sybase interface. Talk to Detlef about this.
+</DL>

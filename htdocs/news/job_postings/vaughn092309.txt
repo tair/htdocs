@@ -1,0 +1,46 @@
+DESCRIPTION: 
+Epigenetic variation, which is heritable variation that is not due to sequence changes, has been 
+observed to underly a number of biological phenomena. However, the prevalence and heritable 
+behavior of epigenetic variation is not yet well understood. I am recruiting a postdoctoral fellow for 
+my Computational Genomics group at Cold Spring Harbor Laboratory to work on a project which 
+will study the prevalence, heritability and potential consequences of epigenetic variation in maize. 
+As an ideal candidate for this position, you'll be a talented, self-motivated biologist with 
+experience at the bench but who loves bioinformatics. You will be interested in applying 
+computational approaches to manipulating and analyzing large molecular and genetic data sets, 
+and in exploring new methods and technologies as they emerge. Scientifically, you should have 
+an interest in aspects of epigenetics, RNA interference, and/or genomic biology. 
+ 
+QUALIFICATIONS: 
+You will have a Ph.D. in Genetics, Plant Biology, Biochemistry, or Bioinformatics (or equivalent 
+specialization) and I expect you to have a working knowledge of statistics as it applies to the 
+design and interpretation of large, multifactorial experiments.  You need to be very comfortable 
+using a Linux/UNIX environment, and along with that, you should be proficient in a scripting 
+language like Perl or Python. Experience with microarrays or quantitative sequencing is 
+preferable, but not required. Moving beyond the technical, you need to be able to work 
+independently and have excellent problem-solving, communication, and teamwork skills. I also 
+require that you have at least one first-author publication in English. 
+ 
+INSTITUTE BACKGROUND: 
+Cold Spring Harbor Laboratory is a unique and world-renowned research and educational 
+institution with programs in plant biology, cancer, neuroscience, genomics and bioinformatics. 
+The Laboratory is recognized internationally for its excellence in research and educational 
+activities. A successful candidate will have opportunities to interact with and participate in 
+advanced research in molecular biology, genetics, bioinformatics, and computational biology, and 
+will have access to robust information technology resources including high-performance cluster 
+computing resources. 
+ 
+HOW TO APPLY: 
+Review of applications will begin immediately and continue until the position has been filled. 
+Please send CV, a statement of research interests and accomplishments, and the names of 3 
+references to: 
+ 
+Matthew Vaughn, Ph.D. 
+Research Assistant Professor 
+Cold Spring Harbor Laboratory 
+1 Bungtown Road 
+Williams #5 
+Cold Spring Harbor, NY 11724 USA 
+ 
+web: http://hispaniola.cshl.edu/vaughn/ 
+phone: (516) 367-8808 
+email: vaughn@cshl.edu

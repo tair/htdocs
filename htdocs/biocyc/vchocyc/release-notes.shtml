@@ -1,0 +1,58 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>VchoCyc Release Note History</title>
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<!-- VchoCyc Release Notes -->
+<h2>VchoCyc Release Note History</h2>
+
+<hr>
+<H2>Version 7.6</H2>
+
+<p>Released on November 4, 2003
+<p>
+In this release, we have made putative functional assignments to 59
+genes in VchoCyc. These functional assignments were made to fill
+pathway holes in the database. A pathway hole occurs when a reaction
+in a pathway does not have an assigned enzyme. The putative enzymes that
+fill these pathway holes were identified using a prediction program
+developed by Green and Karp 
+(<a href="http://www.ai.sri.com/~green/">Green, 2003</a>). Each enzymatic
+reaction linked to an enzyme by this program is identified
+by the evidence code "Computational Evidence: EV-COMP-HINF-FN-FROM-SEQ". 
+The evidence code indicates the source of information as computationally-derived
+from sequence analysis with human review. The gene product field
+of the corresponding enzyme has also been updated to include the 
+functional description of the reaction to which it has been linked.
+In total, 14 pathways were completed by filling these 59 pathway
+holes. A list of the remaining pathway holes may be found in the
+ <a href="VCHO/missing-rxns.html">Missing
+Reactions Report</a>.
+
+<hr>
+<H2>Version 7.5</H2>
+<p>Released on August 28, 2003.
+<p>
+<ul>
+<li> 2610 predicted transcription units (operons) were added to VchoCyc.
+They were computed using the Pathway Tools operon finder (see Romero and Karp,
+Bioinformatics 2004).  When a predicted transcription
+unit exists for a gene, it is displayed at the bottom of a gene page.
+</ul>
+<p>
+
+<hr>
+
+<H2>Version 6.0</H2>
+<p>Released on February 15, 2002.
+<p>
+
+<ul>
+<li> First release of VchoCyc.
+</ul>
+
+<!--#include virtual="/template-part3of3.shtml" -->

@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>TAIR: AAtDB release 3-4</title>
+<script language="JavaScript" src="/js/navbar.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/main.css" >
+<script language='JavaScript'>
+var highlight = 0; var helpfile="";
+</script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#F5F9FF">
+
+
+<!-- HEADER using external JavaScript file -->
+
+<script language='JavaScript' SRC='/js/header'>
+</script><p>
+
+<!-- End of header -->
+
+
+<p>
+<table width="602" align="center" border="0" cellspacing="0" cellpadding="2">
+	<tr>
+		<td width="602">
+
+
+<h2>AAtDB, An Arabidopsis thaliana Database</h2>
+
+John W. Morris<br>
+Curator, AAtDB Project<br>
+Department of Molecular Biology<br>
+Massachusetts General Hospital<br>
+Boston, MA  02114<br>
+USA<br>
+email john.morris@frodo.mgh.harvard.edu<br>
+Fax   617-726-6893<br>
+<hr>
+
+AAtDB is a database that focuses on the Arabidopsis genetic and
+physical maps, and in addition contains citation, sequence, stock
+center and related information.  It uses the Unix based ACEDB genome database
+software which provides a graphical user interface that allows
+exploration of the data by simply pointing and clicking.  If you are
+new to AAtDB take a look at the tutorial <a href =
+"http://weeds.mgh.harvard.edu/introaatdb/index.html"> "An Introduction
+to ACEDB: for AAtDB, An Arabidopsis thaliana Database".</a> The newly
+revised Web version contains about 20 pages of text and graphics which
+describe how to use the Unix version of the database.  <a href="http://probe.nalusda.gov:8000/acedocs/index.html"> Additional
+documentation on ACEDB</a> is available from the <a href =
+"http://probe.nalusda.gov:8000/index.html"> National Agricultural
+Library. </a> <p>
+
+
+November saw the release of Update 3-4 to the Arabidopsis research
+community.  The main features of this release are the updated genetic
+maps; the Recombinant Inbred map from Clare Lister and Caroline Dean,
+and a the Visible marker map from Maarten Koornneef and David Meinke.
+Additionally, there are new citations of Arabidopsis publications
+obtained from Agricola and Medline, and new DNA sequences from <a
+href="http://www.ncbi.nlm.nih.gov"/>Genbank</a>.  For information on
+how to get your own copy of AAtDB or access it from a remote site see
+<a href = "http://weeds.mgh.harvard.edu/release.html"> the release
+announcement</a> sent to the Arabidopsis email network. The table
+below is a listing of the numbers of entries in some of the AAtDB data
+classes.<p>
+
+<pre>
+ Map                  31    Locus               1839
+ Allele             1238    Map_Population        26
+ Author             5167    Motif                343
+ Clone             19163    Paper               4031
+ Contact            1347    Probe                528
+ DNA_Resource       2869    Sequence           23211
+ Gene_Class          244      Sequence_EST      8858
+ Gene_Product        732      Sequence_Homol   12152
+ Germplasm_Resource 7299      Sequence_Genomic+ 2201
+ Image               238    Source                59
+ Journal             391    2_point_data        3745
+</pre>
+
+
+Processing sequence information is now a major task.  For this new
+update, there were almost 4000 new sequences, close to 3800 of which
+were Expressed Sequence Tags (ESTs).  Using GenBank's Blast software,
+six frame protein translations of all the sequences were compared to
+sequences in the GenBank protein data base, to provide homology
+information that goes into AAtDB.  Thus, there are many more total
+sequence entries in the database than just Arabidopsis sequences with
+DNA. <p>
+
+Because of the growth of the sequence class in AAtDB, I've taken
+advantage of the subgroup feature of ACEDB software, and created three
+subgroups for the sequence class, Sequence_EST, Sequence_Homol,
+Sequence_Genomic+.  These contain respectively, Arabidopsis ESTs,
+Proteins with sequence similarity to translated Arabidopsis DNA (not
+necessarily Arabidopsis proteins), and other Arabidopsis DNA sequences
+including genomic DNA and coding region subsequences.  Using subgroups
+for queries can dramatically reduce the search time, as not all
+objects are opened and examined.<p>
+
+
+Many researchers access the <a href="gopher://weeds.mgh.harvard.edu/11/arabidopsis"> AAtDB information and
+other Arabidopsis information</a> through the searchable <a href ="gopher://weeds.mgh.harvard.edu/77/.index/Arabidopsis_thaliana_Genome">
+WAIS index </a> on the AAtDB gopher server.  On an average day about 130
+people connect to the server to conduct searches and retrieve files.
+Most searches are straight forward, searching for a locus or sequence
+name returns the expected results.  A problem may arise, however, if
+there are many entries.  For example, a visiting colleague was
+interested in publications describing the t-DNA tagged lines developed
+by Ken Feldmann.  Using the keyword "Feldmann" we obtained nine pages
+of output, plenty of Germplasm stocks but no papers.  We then tried
+"Feldman and paper", hoping that the Germplasm entries would not be
+included as matches, and room would be left to return entries from the
+class "Paper", however this returned no entries. Why?  Because the
+word "paper" is used so often that the indexing software would create
+an index file that is too large.  That keyword has therefore been removed
+from the index.  This also happens for other large classes in the
+database.  The solution to our problem was to use "Feldmann and
+Journal".  The lesson is two fold, if you are searching the database,
+and come up with too many items, try adding "and" with a second word
+to narrow the search. If you have too few entries try searching with a
+related word.  Lastly, do not actually use the quote ("") characters
+when typing in the search words.<p>
+
+
+As noted above, AAtDB has many classes of data.  Some information is
+gathered from national databases, such as the sequence information and
+the citations.  Other information is gathered directly from
+Arabidopsis researchers.  One of the most difficult information
+classes to keep current is the Contact class.  This is the class that
+contains name and address information, and it is always behind the
+times.  If your name and address is not now in AAtDB and you would
+like it to be listed, or the information is out of date, please take a
+few moments to send me the updated information.  If your Web viewer
+has forms support you can <a href =
+"http://weeds.mgh.harvard.edu/"> click here
+to fill out a form</a>.  Alternatively, use your viewer's Save function
+and save the <a href="http://weeds.mgh.harvard.edu/">AAtDB Contact Form</a>
+page, fill in the blanks and mail it back to me.<p>
+
+AAtDB is only as complete as the the members of the Arabidopsis research community make it.  I would especially encourage you to contact me,  if
+you have new genetic or physical mapping data that would be suitable
+for inclusion in An Arabidopsis thaliana Database.<p>
+
+<P>
+<center>Last modified on January 23, 2002</center>
+
+		</td>
+	</tr>
+</TABLE>
+
+<!-- FOOTER -->
+<script language="javascript" src="/js/footer.js"></script>
+</body>
+</html>
+

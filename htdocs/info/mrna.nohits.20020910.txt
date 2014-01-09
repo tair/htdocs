@@ -1,0 +1,26 @@
+IN COLUMBIA ECOTYPE, NOT LOCATED:
+AY091158	CKX5 mRNA sequence (Col fli-cDNA) [also AF303981-hits Ler ATL8C6336 atl7C2193 and T3J19-Sp6, also 2 Brassica seqs.  T3J19-T7 hits chr5 F22D1 near missing clone F13M11]
+AY091157	RAFL04-14-M02 mRNA sequence [hits GB ests AI995690, AA394370, AA395071 & Ler ATL8C44604, ATL8C44103]
+U88402	Rac-like protein mRNA, complete cds [cloned from Col,  hits GB ests U88402, T88110, T44597, no ler hit]
+
+MIGHT BE IN COLUMBIA ECOTYPE?:
+AF325055	000C19H04 mRNA, complete cds [no gb hit, no ler hit]
+AF132729	SKP1-like protein ASK10 (ASK10) mRNA, partial cds [cloned from Col, no gb hit, no ler hit]
+X63616	mRNA for cyclophilin-like protein [cloned from Ler, no gb hit, no ler hit]
+AF000147	UMP/CMP kinase (pyr6) mRNA, complete cds [hits Ler ATL8C35419 and ATL8C38565 ATL7C171423_1]
+X68304	mRNA for glutathione transferase [cloned from Ler, no gb hit, no ler hit, no brassica hit]
+AJ006409	mRNA for flavanol sulfotransferase-like protein [no gb hit, no ler hit, no brassica hit]
+L33781	(strain Ecotype RLD) cab3 promoter-binding protein mRNA, complete cds [cloned from RLD, no gb hit, no ler hit, no brassica hit]
+AJ295138	gypsy-like retrotransposon PCR product ARAGY-L1 [no gb hit, no ler hit, brassica hit not useful]
+
+NOT IN COLUMBIA ECOTYPE:
+AF051562	transposon Tag1 putative transposase mRNA, complete cds
+
+LIKELY CONTAMINANTS:
+AJ298139	mRNA for beta-glucuronidase (gus gene)
+AJ276750	partial mRNA, clone DiDi 17C-2a
+AJ276739	partial mRNA, clone DiDi 12C-1a
+AJ286352	partial mRNA for hypothetical protein (DiDi 1C-4c gene)
+AJ286355	partial mRNA for hypothetical protein (DiDi 14C-2a gene)
+AJ286347	partial mRNA for 60S L13 ribosomal protein (diDi 13A-1 gene)
+U01171	peptide transporter (ptr2) mRNA, complete cds

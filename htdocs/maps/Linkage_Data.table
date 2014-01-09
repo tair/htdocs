@@ -1,0 +1,323 @@
+
+		   Summary of Current Linkage Data
+				   
+	      Mutant Gene Markers - Arabidopsis thaliana
+				   
+	     Updated December 15, 1992;  David W. Meinke
+				   
+	    See Attached Page for Explanations of Columns
+				   
+
+______________________________________________________________________________
+
+                         Closest                   
+Mutant    Linkage        Marker                        Current    Reference
+Locus      Group   Map   Tested    r     A/B   LOD    Location   Laboratory
+______________________________________________________________________________
+
+aba         5      M     min       6.8    b    13.6     97.1      Koornneef
+abi1        4      M     cer2      3.0    b    31.4     50.4      Koornneef
+abi2        5      R     tz        -      -     -        -        Finkelstein
+abi3        3      M     gl1      10.2    a   113.6     37.9      Koornneef
+aca1        5      X     -         -      -     -        -        Lehle
+acd1        3      R     gl1      20.7    b     -        -        Ausubel
+acd2        4      X     ap2       -      -     -        -        Ausubel
+act1        1      M     an       30.1    B     2.8     35.3      Somerville
+adh         1      R     clv1      5.5    a     -        -        Meyerowitz
+ag          4      M     ch42      2.8    a    20.6     38.1      Koornneef
+alb1        1      M     ga4       0.0    A     5.6     12.1      Koornneef
+                         dis1     10.4    a   145.0      -        Koornneef
+alb2        5      M     co        1.2    b    50.5     15.8      Koornneef
+amt1        5      X     ASA-1    <1.0    -     -        -        Town
+an          1      M     emb76     0.4    B*  165.1      1.0      Meinke   
+ap1         1      M     cer6      2.3    b     3.9    100.8      Koornneef
+ap2         4      M     cer4      0.0    b     5.7     64.0      Koornneef
+                         fad4      0.0    a     5.1      -        Somerville
+                         fd        1.2    b   103.9      -        Koornneef
+ap3         3      M     tt5       0.0    b    60.2     84.6      Koornneef
+                         gl1      35.6    B     5.3      -        Koornneef
+ara1        4      M     fca       0.2    b     -       32.5      Cobbett
+as          2      M     re        0.0    b     5.1     58.2      Koornneef
+                         emb18     0.6    A*  106.3      -        Meinke
+aux         2      M     hy1      14.7    a     7.8     23.9      Koornneef
+axr1        1      R     dis1      6.6    a     -        -        Estelle 
+axr2        3      M     gl1      12.5    a    22.2     33.8      Estelle  
+axr3        1      R     axr1      1.0    a     -        -        Estelle
+bio1        5      M     tz        3.7    a   102.2     74.5      Meinke
+bp          4      M     emb178    2.0    a    79.2      8.6      Meinke   
+cad1        5      U     tt3       -      -     -        -        Cobbett
+cer1        1      M     an        0.7    b    71.5      1.7      Koornneef
+cer2        4      M     emb140    0.0    -   100.3     48.1      Meinke   
+                         fad6      0.0    a     6.7      -        Somerville
+                         ga5       1.1    a   245.6      -        Koornneef
+cer3        5      M     lfy       0.0    a    11.2     82.3      __________
+                         tz        5.1    b   276.7      -        Koornneef
+cer4        4      M     ap2       0.0    a     5.7     57.0      Koornneef
+                         ga5       0.0    b     2.4      -        Koornneef
+                         cp3      14.5    a     9.4      -        Koornneef
+cer5        1      M     ch1       0.0    b     5.2     71.2      Koornneef
+                         clv2     16.2    a     3.8      -        Koornneef
+cer6        1      M     ap1       2.3    a     3.9     97.2      Koornneef
+cer7        3      M     emb78     0.4    b   165.1     90.9      Meinke   
+cer8        2      M     emb39     0.3    a    97.1     70.0      Meinke   
+cer9        4      M     ap2       8.6    b     8.1     72.4      Koornneef
+ch1         1      M     cer5      0.0    a     5.2     59.5      Koornneef
+                         emb22     3.9    a   134.4      -        Meinke
+ch5         5      M     th2       0.0    a     5.8     43.6      Koornneef
+                         tt2       1.6    a    34.5      -        Koornneef
+ch6         3      M     tt5       2.9    b   107.4     87.3      Koornneef
+ch42        4      M     ag        2.8    b    20.6     39.7      Koornneef
+chl1        1      M     dis1      2.6    a   108.3     14.6      Koornneef
+chl2        2      M     er       11.6    a    75.6     31.0      Koornneef
+chl3        1      M     ch1       6.2    a    51.7     55.9      Koornneef
+chl5        2      X     -         -      -     -        -        Crawford
+chl6 (cnx)  5      R     -         -      -     -        -        Crawford
+chm         3      M     gl1      15.0    a   149.8     31.0      Koornneef
+chp7        5      M     co        5.6    a    37.9      9.1      Koornneef
+chs1        1      M     an       28.6    b     9.3     33.5      Somerville
+ckr1        5      U     -         -      -     -        -        Howell
+clv1        1      M     emb36     3.7    a    68.4    111.4      Meinke   
+clv2        1      M     ft        0.0    b     6.3     90.7      Koornneef
+                         emb158    2.3    b    70.3      -        Meinke
+cn          4      X     cer2     20      a     -        -        Relichova
+cnx         5      R     -         -      -     -        -        Koornneef
+co (fg)     5      M     alb2      1.2    a    50.4     14.4      Koornneef
+cop1        2      M     as        3.1    A    72.4     54.3      Meinke
+cp1         4      M     ag       13.1    a   191.7     24.2      Koornneef
+cp2         2      M     hy1       0.0    a     6.5     32.6      Koornneef
+                         hy3       0.0    b     5.7      -        Koornneef
+                         fve       5.8    b    30.6      -        Koornneef
+cp3         4      M     ap2      11.2    b     6.2     73.9      Koornneef
+crc         1      R     ap1       -      -     -        -        Smyth
+csi         4      X     bp        -      -     -        -        Sussman
+csr         3      M     tt5       9.0    a    24.1     74.6      Koornneef
+ctr1        5      R     tt4      10.8    a     -        -        Ecker
+det1        4      R     bp        5      b     -        -        Chory
+det2        2      R     er        -      b     -        -        Chory
+dis1        1      M     emb30     2.2    A*  239.1     18.6      Meinke   
+dis2        1      M     gi        0.0    b     7.0     44.7      Koornneef
+                         emb88     1.8    b    72.3      -        Meinke
+dw1 (dwf)   1      M     gai       0.3    b   218.5     22.9      Koornneef
+dwf1        3      U     -         -      -     -        -        _________
+ein1        1      R     ap1       7      a     -        -        Ecker
+ein2        5      R     m217      2.7    a     -        -        Ecker
+eir1        5      R     tt3      12.4    b     -        -        Ecker
+elf         2      U     hy1       -      -     -        -        Meeks-Wagner
+emb9        5      M     tt3       1.6    b    85.3     60.0      Meinke
+emb14       1      X     clv2     24.4    -     -        -        Meinke
+emb15       5      M     yi        0.3    a    97.1     86.2      Meinke
+emb16       5      M     yi        4.4    b   115.6     91.1      Meinke
+emb18       2      M     as        0.6    B*  106.3     56.4      Meinke
+emb20       4      M     cer2      1.4    B   237.9     50.4      Meinke
+emb22       1      M     ch1       3.9    b   134.4     63.0      Meinke
+emb24       5      M     lu        8.2    a    52.3      2.4      Meinke
+emb25       1      M     clv1      6.2    a    40.3    101.3      Meinke
+emb28       4      M     cer2      5.2    b   163.5     54.4      Meinke
+emb29       3      M     hy2      10.7    b    45.2     23.6      Meinke
+emb30 (gn)  1      M     dis1      2.2    B*  239.1     15.0      Meinke
+emb33       1      M     clv1      5.4    b    47.6    115.9      Meinke
+emb34       2      M     sti       2.3    a    70.3      0.0      Meinke
+emb35       4      M     cer2      4.2    b   141.7     52.4      Meinke
+emb36       1      M     gl2       3.3    a    76.0    115.9      Meinke
+emb39       2      M     cer8     <0.3    b    97.1     71.3      Meinke
+emb43       1      M     dis2     16.0    a    25.7     26.7      Meinke
+emb49       2      X     er       14.9    -     -        -        Meinke
+emb51       3      X     gl1      26.3    a     -        -        Meinke
+emb52       3      M     hy2       9.3    a    43.4      2.8      Meinke
+emb53       2      X     er        8.8    -     -        -        Meinke
+emb55       2      X     er       32.5    -     -        -        Meinke
+emb56       4      X     cer2      5.0    -     -        -        Meinke
+emb57       2      X     er       23.1    -     -        -        Meinke
+emb58       2      X     er       24.2    -     -        -        Meinke
+emb59       5      X     tt3      19.6    -     -        -        Meinke
+emb62       2      X     er       39.2    -     -        -        Meinke
+emb64       5      M     tt3      12.9    b    31.1     72.2      Meinke
+emb65       3      X     gl1      14.3    -     -        -        Meinke
+emb66       2      X     er       13.7    -     -        -        Meinke
+emb67       5      R     yi        5.3    a     -        -        Meinke
+emb69       3      R     tt5       8.1    -     -        -        Meinke
+emb70       4      X     cer2      5.4    -     -        -        Meinke
+emb71       1      M     clv2      5.4    a    63.4     85.3      Meinke
+emb76       1      M     an        0.4    A*  165.1      3.7      Meinke
+emb78       3      M     cer7      0.4    a   165.1     90.2      Meinke
+emb86       5      M     ttg       4.3    a   113.8     25.2      Meinke
+emb87       5      M     yi        0.3    a    97.1     86.1      Meinke
+emb88       1      M     dis2      1.8    a    72.3     42.3      Meinke
+emb93       2      M     sti       2.0    b    79.2      6.3      Meinke
+emb95       3      M     hy2       9.0    b    42.3     23.7      Meinke
+emb101      2      M     as        1.6    b   149.4     59.3      Meinke
+emb104      4      M     cer2     14.8    B    26.0     63.4      Meinke
+emb106      4      X     cer2      1.4    -     -        -        Meinke
+emb107      4      X     cer2      7.4    b     -        -        Meinke
+emb108      5      X     tt3      30.5    -     -        -        Meinke
+emb109      4      M     cer2     14.3    a    28.5     34.5      Meinke
+emb110      1      X     ch1      13.1    -     -        -        Meinke
+emb111      2      M     as        3.4    B    64.2     62.6      Meinke
+emb115      4      X     cer2     28.0    -     -        -        Meinke
+emb116      5      X     ttg      23.5    -     -        -        Meinke
+emb117      3      M     tt5       4.2    a    63.0     80.1      Meinke
+emb118      1      M     ch1       9.0    b    42.9     70.6      Meinke
+emb120      1      X     ch1      38.8    -     -        -        Meinke
+emb125      3      M     gl1      10.0    a    44.4     37.1      Meinke
+emb127      1      M     dis1     10.2    b    36.2     28.7      Meinke
+emb128      1      M     clv2     14.7    a    28.4     77.9      Meinke
+emb130      4      M     cer2      6.7    a   100.4     42.3      Meinke
+emb131      1      R     dis1      9.6    -     -        -        Meinke
+emb132      4      X     cer2     22.7    -     -        -        Meinke
+emb133      3      X     gl1      35.1    -     -        -        Meinke
+emb134      5      X     gl3      11.3    -     -        -        Meinke
+emb135      2      X     er       23.9    -     -        -        Meinke
+emb140      4      M     cer2     <0.3    -   100.3     48.1      Meinke
+emb141      5      R     tt3       1.1    -     -        -        Meinke
+emb142      1      M     dis1      3.5    b    55.2     21.9      Meinke
+emb144      3      X     gl1      24.4    -     -        -        Meinke
+emb145      3      M     hy2      11.5    a    66.1      0.0      Meinke
+emb146      2      X     er       35.6    -     -        -        Meinke
+emb148      4      M     bp       12.2    b    34.0     21.6      Meinke
+emb149      3      M     tt5       4.5    a    66.1     78.3      Meinke
+emb152      2      M     er        3.9    B   134.4     45.7      Meinke
+emb154      3      M     tt5       6.4    a    52.7     78.0      Meinke
+emb155      4      X     cer2      4.5    -     -        -        Meinke
+emb158      1      M     clv2      2.3    a    70.3     88.3      Meinke
+emb163      5      M     ttg      20.1    a    17.0      8.0      Meinke
+emb173      1      M     an        1.8    b    94.5      5.9      Meinke
+emb175      5      M     ttg      22.3    a    12.7      7.5      Meinke
+emb176      1      M     dis1      6.5    b    53.1     24.8      Meinke
+emb177      1      M     gl2       1.6    a    85.3    117.4      Meinke
+emb178      4      M     bp        2.0    b    79.2     10.9      Meinke
+emb179      1      X     clv2     13.8    -     -        -        Meinke
+emb181      4      M     cer2      7.6    b    50.5     55.8      Meinke
+emb224      3      X     gl1      11.5    -     -        -        Meinke
+er          2      M     hy1       2.0    b   116.5     42.3      Koornneef
+eto         5      R     yi        2.2    -     -        -        Ecker
+etr         1      R     clv2      4      b     -        -        Bleecker
+fad2        3      R     g2488-9   2.0    b     -        -        Somerville
+fad3        2      R     ASA2      0.4    a     -        -        Somerville
+fad4 (A)    4      M     ap2       0.0    b     5.1     65.2      Somerville
+                         cer2     16.8    b     6.9      -        Somerville
+fad5 (B)    3      M     hy2       0.0    b     3.6     15.4      Somerville
+                         gl1      25.7    a     6.1      -        Somerville
+fad6 (C)    4      M     cer2      0.0    b     6.7     49.2      Somerville
+                         ap2      12.8    a     5.0      -        Somerville
+fad7 (D)    3      M     hy2       2.6    a    43.7      8.0      Somerville
+fas1        1      U     gl2      29      a     -        -        Furner
+fas2        5      U     yi       33      a     -        -        Furner
+fca         4      M     th3       5.2    a    19.1     28.4      Koornneef
+fd          4      M     ga5       0.0    b     5.4     59.9      Koornneef
+                         ap2       1.2    a   103.9      -        Koornneef
+fe          1      M     gl2       0.0    b     4.9    123.4      Koornneef
+                         ap1      21.9    b    19.3      -        Koornneef
+fha         1      M     ga4      10.8    A    10.0     11.7      Koornneef
+fk          3      R     tt5       4      a     -        -        Jurgens
+fl          1      X     an       41      b     -        -        Relichova
+flo10 (sup) 3      R     axr2      0.7    -     -        -        Haughn
+fpa         2      M     cer8     16.9    b     5.2     81.6      Koornneef
+fri         4      X     3843      6.2    -     -        -        Dean
+fs          5      U     ttg       5      -     -        -        Jurgens
+ft          1      M     clv2      0.0    a     6.3     89.7      Koornneef
+                         ap1      11.7    a    71.9      -        Koornneef
+fus2        4      R     bp        5      b     -        -        Jurgens
+fus3        3      X     gl1       5.0    a     -        -        Muller
+fus7        4      U     bp       20      b     -        -        Jurgens
+fus9        3      R     hy2      10      b     -        -        Jurgens
+fus12       2      R     py        5      a     -        -        Jurgens
+fve         2      M     hy3       4.4    a    19.4     26.0      Koornneef
+fwa         4      M     ga5       2.1    B    65.2     50.9      Koornneef
+fy          5      M     ttg      20.0    a     5.2      0.4      Koornneef
+ga1         4      M     bp       10.2    a    30.0      0.0      Koornneef
+ga2         1      M     gl2       0.0    b     9.4    120.5      Koornneef
+                         clv1      9.0    b   177.3      -        Koornneef
+ga3         5      M     ttg       4.0    b   367.1     33.7      Koornneef
+ga4         1      M     alb1      0.0    b     5.6     22.5      Koornneef
+                         gai       0.1    a   297.3      -        Koornneef
+ga5         4      M     cer4      0.0    a     2.4     48.6      Koornneef
+                         fd        0.0    a     5.4      -        Koornneef
+                         cer2      1.1    B   245.6      -        Koornneef
+gai         1      M     ga4       0.1    b   297.3     22.6      Koornneef
+gf          2      U     -         -      -     -        -        Redei
+gi (fb)     1      M     dis2      0.0    a     7.0     33.9      Koornneef
+                         ga4      11.1    b    76.7      -        Koornneef
+gl1         3      M     sup       8.5    b    20.0     46.5      Koornneef
+gl2         1      M     fe        0.0    a     4.9    119.6      Koornneef
+                         ga2       0.0    a     9.4      -        Koornneef
+                         emb177    1.6    b    85.3      -        Meinke
+gl3         5      M     tt2       0.0    b     5.8     54.4      Koornneef
+                         tt3       0.0    a     4.6      -        Koornneef
+                         ga3      18.9    b    43.4      -        Koornneef
+gr          5      U     gl3      17      b     -        -        Relichova
+grl         2      X     as        -      -     -        -        Jurgens
+hls1        4      U     cer2      9.3    b     -        -        Ecker
+hls2        4      U     cer2     13.4    a     -        -        Ecker
+hy1         2      M     cp2       0.0    b     6.5     41.4      Koornneef
+                         er        2.0    a   116.5      -        Koornneef
+hy2         3      M     fad5      0.0    a     3.6     10.9      Somerville
+                         fad7      2.6    b    43.7      -        Somerville
+hy3         2      M     cp2       0.0    a     5.7     28.9      Koornneef 
+                         fve       4.4    b    19.4      -        Koornneef
+hy4         4      M     fca      17.9    a     3.5      5.6      Koornneef
+hy5         5      M     ms1      15.4    a    96.8      8.8      Koornneef
+hy6         2      U     det2     11.7    a     -        -        Chory
+im          4      M     cer2      3.5    a    47.0     44.5      Koornneef
+keu         1      R     dis1      5      a     -        -        Jurgens
+klk         5      X     ttg       -      b     -        -        Jurgens
+kn          1      U     dis1     10      a     -        -        Jurgens
+le          1      M     ch1       7.9    b   834.8     67.4      Koornneef
+lec         1      M     dis1      8.8    b    42.5     28.5      Meinke
+lfy         5      M     cer3      0.0    b    11.2     82.9      Haughn
+                         tz        9.0    b    20.6      -        Haughn
+lu          5      M     tt4       1.5    a    13.7     11.6      Koornneef
+min         5      M     aba       6.8    a    13.6     89.9      Koornneef
+mp          1      U     an       36      b     -        -        Jurgens
+ms1         5      M     tt7       0.0    b     5.0     23.8      Koornneef
+                         ttg       5.9    a   913.3      -        Koornneef
+nia1        1      R     gl2       3.0    -     -        -        Crawford
+pgm         5      M     yi       22.1    a    16.9     64.5      Koornneef
+pho1        3      R     g4708     3.1    b     -        -        Somerville
+pi          5      M     ttg       9.7    a    46.9     21.5      Koornneef
+pid         2      R     as        -      -     -        -        Smyth
+py          2      M     hy1       5.0    b    60.4     47.7      Koornneef
+rac1        1      R     m299/m33  -      -     -        -        Benyon
+re          2      M     as        0.0    a     5.1     57.2      Koornneef
+                         er       18.6    b    12.1      -        Koornneef
+rgn (chl4)  1      M     an        0.6    a   188.9      0.0      Koornneef
+rhd1        1      X     ap1       -      -     -        -        Schiefelbein
+rhd2        5      X     tt3       -      -     -        -        Schiefelbein
+rhd3        3      X     gl1       -      -     -        -        Schiefelbein
+rhd4        3      X     gl1       -      -     -        -        Schiefelbein
+rpm1        3      R     -         -      -     -        -        _________
+rpp1        3      R     gl1       -      -     -        -        Benyon
+rpp2        4      R     m600/m55  -      -     -        -        Benyon
+sex1        1      M     an       12.2    b     5.0     13.5      Caspar 
+spt         4      R     ap2       -      -     -        -        Smyth
+sti         2      M     emb93     2.0    a    79.2      3.4      Meinke 
+su          5      M     ttg       7.2    b    87.5     36.1      Koornneef
+sul         2      M     as        9.6    b   222.0     68.1      Koornneef
+sup (flo10) 3      M     gl1       8.5    a    20.0     34.5      __________
+tfl         5      M     tt4      14.7    a    26.1      0.0      __________
+th1         1      M     gi        0.0    -     -       33.9      Koornneef
+th2         5      M     ch5       0.0    b     5.8     47.6      Koornneef
+                         tt2       0.6    b    44.7      -        Koornneef
+th3         4      M     fca       5.2    b    19.9     30.1      Koornneef
+trp1        5      U     tt4       -      -     -        -        Last
+trp2        5      U     -         -      -     -        -        Last
+tt1         1      M     ch1       4.4    A    14.4     55.6      Koornneef
+tt2         5      M     gl3       0.0    a     5.8     45.2      Koornneef
+                         th2       0.6    a    44.7      -        Koornneef
+tt3         5      M     gl3       0.0    b     4.6     58.1      Koornneef
+                         emb9      1.6    a    85.3      -        Meinke
+tt4         5      M     lu        1.5    b    13.7     14.1      Koornneef
+tt5         3      M     ap3       0.0    a    60.2     84.1      Koornneef
+                         ch6       2.9    a   107.4      -        Koornneef
+tt6         3      M     gl1      38.0    b     2.1     96.7      Koornneef
+tt7         5      M     ms1       0.0    a     5.0      7.1      Koornneef
+                         alb2     10.4    a    40.3      -        Koornneef
+ttg         5      M     ga3       4.0    a   367.1     29.5      Koornneef
+tz          5      M     bio1      3.7    b   102.2     77.2      Meinke   
+uvh1        3      X     g2778     -      a     -        -        Mount
+uvh3        3      X     gl1       0.1    a     -        -        Mount
+var1        5      U     cer3     18.2    a     -        -        Martinez-Zapater
+var2        2      U     er       22.6    b     -        -        Martinez-Zapater
+vr2         2      U     -         -      -     -        -        Redei
+xv          1      U     -         -      -     -        -        Redei
+yi          5      M     emb15     0.3    b    97.1     86.5      Meinke   
+______________________________________________________________________________

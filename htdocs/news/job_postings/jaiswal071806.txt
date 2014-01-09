@@ -1,0 +1,40 @@
+[Arabidopsis] plant ontology editor position: job opportunity
+
+
+Postdoctoral Associate
+
+
+Job Description
+       
+
+Description
+
+Gramene database (http://www.gramene.org), is seeking applicants for a full time position for a 
+plant biology curator who will participate in the development and maintenance of structured vocabularies for 
+describing plant morphology, anatomy, growth and development stages for its Plant Ontology Consortium (POC) 
+project (http://www.plantontology.org).  These vocabularies (ontologies) are necessary to provide the 
+backbone for describing phenotypes and gene expression patterns, and allow database users to perform a 
+set of common queries or searches across different plant databases. The Plant Ontology Consortium is a 
+collaboration among plant genome databases related to rice, Arabidopsis, maize, legumes, Solanaceae, etc.
+
+
+
+The successful candidate will work with a team of curators, software engineers, and database developers at 
+Gramene and collaborating database projects, such as TAIR (http://www.arabidopsis.org) and MaizeGDB 
+(http://maizegdb.org); contribute to annotation of phenotypes, germplasm and gene products by using the 
+vocabularies developed in the project; participate in development and application of methods to improve 
+consistency and to enhance the quality of annotations; promote the use of ontologies in comparative 
+genomics and biology through active participation in workshops, seminars and scientific meetings.
+
+Qualifications
+
+Successful candidate will have a Ph.D. degree and training in Plant Biology and related fields 
+(e.g. Systematics, Development, Physiology), a demonstrated ability for independent, critical thinking 
+and excellent communication and teamwork skills. The curator must be able to travel to and attend 2-3 
+national and international meetings per year. Familiarity with biological data mining, basic 
+UNIX/Linux commands, spreadsheets, and commonly used biological research tools is desired. 
+A working knowledge of SQL would be an asset but not required.  Qualified candidates should e-mail a 
+cover letter and resume to Pankaj Jaiswal (pj37@cornell.edu).
+
+
+

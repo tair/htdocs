@@ -1,0 +1,86 @@
+Dept. of Forest Genetics and Plant Physiology in Umeå
+1 PhD student in the research education subject: Biology
+
+Cell wall biosynthesis regulation via the endomembrane system
+
+The cell wall of plants provides mechanical strength, defines cell shape and plant 
+morphology, and is a protection from pathogen attack. The cell wall is composed of 
+different polysaccharides including cellulose microfibrills that are embedded in a 
+hemicellulosic and pectic matrix along with proteins. The regulation of cell wall 
+dynamics occurs at multiple levels but is particularly influenced by the endomembrane 
+system and the secretory pathway. The biogenenis and maintenance of the 
+endomembrane compartments, plasma membrane (PM) and cell wall all rely on vesicular 
+trafficking, which involves vesicle formation, transport and fusion with target 
+membranes. Endocytosis is the process of cellular ingestion by which the PM invaginates 
+inward to deliver cargo molecules into the cell or to regulate protein amounts at the PM. 
+This phenomenon is extremely important in fast developmental responses. Chemical 
+biology is the use of small molecules to modify or disrupt the function of specific 
+proteins. The power of this approach is the ability to study protein function in vivo with 
+precise control of rapid endomembrane trafficking processes response via bioactive 
+chemicals. A large-scale screen (50, 000 compounds) of unbiased libraries of diverse 
+small molecules has identified 129 novel bioactive molecules valuable for the 
+characterization of endomembrane trafficking pathways. Identification of compounds that 
+specifically alter the trafficking of proteins involved in the synthesis and the deposition of 
+the primary cell walls Preliminary experiments indicate that among the 129 bioactive 
+compounds, 60 are potential inhibitors of endocytosis. Using FT-IR microspectroscopy 
+(Mouille et al., 2003), the PhD student will evaluate the impact of selected compounds on 
+cell wall composition and structure in Arabidopsis thaliana. This study will allow the 
+classification and selection of compounds according to their effects on cell wall 
+composition. In addition, the PhD student will conduct detailed macro-level phenotypic 
+analyses of Arabidopsis thaliana seedlings resulting from selected compounds. This study 
+will be implemented by a cell biology approach. Using Confocal Laser Scanning 
+Microscopy (CLSM), different transgenic lines expressing subcellular fluorescent 
+markers will define the chemically targeted endomembrane pathways. The compounds 
+that specifically perturb cell wall composition and structure will be used as probes to 
+evaluate the trafficking of KOR1 and CESA3, two proteins intimately involved in 
+cellulose biosynthesis. Identification of new molecular components involved in cell wall 
+biosynthesis and deposition To discover novel genes involved in trafficking and wall 
+composition and structure, selected lead bioactive compounds will be used to selection 
+for compound-specific resistant or hypersensitive mutants. For this purpose, an EMS 
+mutagenized population would be created in an Arabidopsis thaliana line expressing a 
+essential protein for cell wall biosynthesis, such as KOR1 fused with a fluorescent 
+protein. Mutants will be characterized and the most promising will be mapped using a 
+rapid combination of rough mapping (50 – 100 individuals) using confocal microscopy 
+and Illumina next generation sequencing to identify mutations.
+
+Qualifications
+The PhD candidate should have a master degree in Biology or Chemistry. A previous 
+experience in Cell Biology would be a plus. He/she should read and speak scientific 
+English fluently and have good communication skills.
+
+Forms for funding or employment
+Employment as PhD student 4 years
+
+SLU is an Equal Opportunity Employer.
+
+A person has basic eligibility for third level education if he or she has taken a second 
+level qualification or has completed course requirements of at least 240 higher education 
+credits, including at least 60 higher education credits at second level.
+
+Those who met the requirements for general eligibility before July 1st, 2007, i.e. had 
+completed a programme of higher education for at least 180 Higher education credits or 
+the equivalent, will continue to do so until the end of 2015."
+
+Selection among applicants meeting the requirements is made with reference to written 
+application including curriculum vitae, copies of degrees and transcripts of academic 
+records, one copy of the dissertation for masters or undergraduate degree, a list of at least 
+two references familiar with the applicant's qualifications, certified knowledge of the 
+English language and an interview.
+
+Read more about the PhD education in the Handbook for postgraduate students
+
+Read about the PhD education at SLU at www.slu.se/en/education/postgraduate-studies/
+
+Further information: Stephanie.Robert@slu.se
+
+Academic union representatives
+SACO Per Hansson +46 (0)90 786 84 74
+SEKO Inga-Lis Johansson +46 (0)90 786 82 10
+ST Hans Åkesson +46 (0)90 786 82 48
+
+PhD-student commissioner
+Monika Appel, 018-67 15 60, doktorandombudsmannen@sluss.nu
+
+Applications, marked with ref no SLU ua 1908/2011, must have arrived at the Registrar 
+of SLU, P.O. Box 7070, S- 750 07 Uppsala or registrator@slu.se no later than 2011-06-
+30.

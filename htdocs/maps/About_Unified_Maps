@@ -1,0 +1,41 @@
+The Unified-* maps are the current best estimate of an integrated
+Arabidopsis map. As more validation is performed a new version of
+the integrated map will be created.
+.   
+These maps have been produced in collaboration with David Meinke who
+has graciously volunteered to coordinate genetic mapping as genetic
+map curator for the Arabidopsis community. The unified map will be
+modified as new data becomes available. If you have mapping data you
+would like to contribute (population or pairwise data) please contact
+the AAtDB curators at curator@frodo.mgh.harvard.edu and we will assist
+you.
+.   
+The current version of the unified map is based on the following data.
+.   
+(1) All of the population and pairwise recombination data used to
+generate the 1.0_Integrated map (Hauge et al., 1993).
+.   
+(2) David Meinke's embryo defective pairwise recombination data.
+.   
+Plus the following fixed orders:
+.   
+Chromosome I:
+an act1 ch1
+an act1 ap1
+fha ga4 dis2
+tt1 chl3 ch1
+an dis1 emb30
+emb76 an dis1
+.   
+Chromosome II:
+as emb18 cer8
+as emb111 cer8
+er emb152 as
+er cop1 as
+.   
+Chromosome IV:
+bp cer2 emb104
+bp ara1 cer2
+ap2 fwa ga5 cer2
+cer2 emb20 ap2
+

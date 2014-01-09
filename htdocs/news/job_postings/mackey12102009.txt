@@ -1,0 +1,31 @@
+Research Scientist Position at Ohio State University
+The Kottman Hall Translational Plant Sciences laboratory (KH-TPS) is
+a core research facility of The Ohio State University and is seeking
+applicants for a research scientist with strong expertise in
+bioinformatics. The successful candidate will supervise and
+coordinate all core laboratory activities including the use and
+maintenance of a range of analytical and molecular biology equipment,
+and user training and assistance. Main duties will include providing
+bioinformatics support and implementing new computational tools for
+genomics, proteomics, and metabolomics research. The scientist will
+be responsible for maintaining the laboratory operating budget and
+for facilitating the acquisition of extramural funds for new
+equipment, facility maintenance and improvement. He or she will
+conduct collaborative research in the bioinformatics area, advise
+faculty and train students in data analysis and interpretation, and
+will contribute to project development with faculty, including grant
+proposal preparation.
+
+Requirements: (1) PhD in Plant Biology, Bioinformatics, Biochemistry,
+Molecular Biology, or related discipline and (2) demonstrated
+expertise in bioinformatics, genomics, biochemistry, or molecular
+biology, including knowledge of computational tools required for
+genetic database searches, genome annotations, whole genome
+comparisons, large data set analyses. Must be familiar with Linux and
+at least one of the scripting languages such as Perl, C, C++, Java or
+Python, and with MySQL databases. Postdoctoral experience is highly
+desirable.
+
+For more information please contact Dr. Tea Meulia,
+<mailto:meulia.1@osu.edu>meulia.1@osu.edu
+Apply on line at http://jobs.osu.edu, job requisition #348254 

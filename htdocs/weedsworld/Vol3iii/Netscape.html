@@ -1,0 +1,95 @@
+<HTML>
+
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "Cherry-Flanders-Petel.WW.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "abrc.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Update from Stanford - the AtDD project';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 3(ii) Contents';
+	   else if (id == 6)
+		strng = 'Update on the activities at the ABRC (AIMS)';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+<TITLE>The truth behind the NASC Server Update ( 5-Sep-1996)</TITLE>
+<!-- Created by: Dr Mike Arnold, 19-Aug-1996 -->
+<!-- Changed by: Dr Mike Arnold,  5-Sep-1996 -->
+
+
+</HEAD>
+
+
+<BODY bgcolor="#ffffff">
+<blockquote><H1>Changes for Change Sake? The NASC WWW Server Upgrade!</H1>
+<A HREF="mailto:mike@thale.nott.ac.uk">Mike Arnold</A> and <A HREF="mailto:arabidopsis@nottingham.ac.uk">Mary Anderson</A>.<p>
+
+Nottingham Arabidopsis Stock Centre, Dept. Life Science, University of Nottingham, Nottingham. NG7 2RD. UK.
+
+
+<hr>
+
+<h4>Introduction</h4>
+The success of the World Wide Web (WWW) as a distribution medium has been largely attributed to the simplicity with which the information can be accessed; it takes a WWW browser, a desktop computer, a URL and access to an Internet Service Provider. With this information, people can access articles on a whole spectrum of information with the click of a button. As the complexity of the WWW has increased, new and faster search engines and better catalogueing of the information has provided a medium that is instantly accessible and immediately beneficial to anyone and everyone. In an attempt to make the WWW an exciting distribution medium, WWW client applications have become sophisticated. With the new generation of browsers, interactive multimedia articles are becoming more widespread. The WWW is no longer a medium of flat text files, in their place are dynamic imagemaps, sound and vision and a whole range of interactive databases, JavaScript programs and Java applets. It is in the interests of Science that WWW sites which distribute scientific content exploit new developments in this excellent distribution medium. Users also need to be aware of the changes taking place, and future isuues of WeedsWorld will carry snapshots of the latest developments on the WWW.<p>
+It was with this in mind that the NASC WWW server was updated to utilise recent advances in WWW-client technology, placing it in an excellent position to be able to expand as further advances in client/server technology are made. <p>
+
+<h4>NASC Server Upgrade</h4>
+As recently announced on the BIOSCI <I>Arabidopsis</I> newsgroup, and demonstrated at the 7th International Conference for <I>Arabidopsis</I> Research, the <A HREF="http://nasc.nott.ac.uk/" target="_top">Nottingham Arabidopsis Stock Centre WWW server</A> has undergone significant changes to its layout.
+<p>
+The most important change has been the introduction of a framed, menu driven interface to the information on the server. This has led to a more intuitive, and hopefully faster, navigation of the Stock Centre WWW server. Topics have been arranged to provide a quick access to related information. In addition, a new feature not announced prior to this article is the introduction of a WWW based ftp transfer, which allows the user to select multiple files for downloading, and also allows the files to be transferred as a single, compressed file. This saves both time and internet bandwidth. A brief tutorial on how to use both the new server and the new ftp interface are <A HREF="#tutorial">given later</A>. The new search facility on the WWW server allows the user to quickly find the information they require, and will be expanded to allow the searching of the new mirror information which will be available soon. 
+<p>
+In determining the layout of the new server, care was taken not to overdo the changes so that the information was no longer available to users without the capabilities of Netscape version 2.0 or above. However, analysis of the access files for the server showed that well over 90% of the users accessing our site are using Netscape 2.0. Future enhancements to the site will require the latest version of Netscape, as our intention is to use Java related applications in the WWW pages themselves. The NASC server is currently using the Apache WWW server, which will allow us to integrate new modules into the server to handle information specific to our site. It is hoped that future enhancements to this server will benefit from these advanced features of both the server and the client software.
+ <p>
+<a name="tutorial"><h4>How to use the NASC WWW Server</h4>
+The introduction of frames to the <A HREF="http://nasc.nott.ac.uk/" target="_top">NASC WWW server</A> has allowed the information we hold to be displayed in the correct context, always having quick and easy access to related information by keeping a menu of related pages on the left hand side of the browser. By selecting any of these links, information is displayed in the right hand frame of the browser window. To go back to the previous frame of information is then reasonably straightforward. If you are using Netscape Navigator 2.0x, then click the right mouse button (UNIX and PC), or hold down the mouse button (MAC). From the pull-down menu which appears, select the BACK-IN-FRAME option and the previous article in the current frame will be displayed. If you are using the Netscape Navigator 3.0 (The release version is now available from Netscape ftp sites), then the BACK button in the toolbar achieves the same result as the pull-down menu. There is a very clear description of the use of frames at the Netscape site, <a href="http://home.netscape.com/navigate/understanding_frames.html" target="_top">http://home.netscape.com/navigate/understanding_frames.html</a>, which gives an indication of how to use the navigation buttons with frames and explains frames in more detail. 
+<p>
+With the new layout of the NASC Server, we have attempted to keep the depth of each "tree" shallow in order to limit the amount of information each branch contains. This has the added benefit that you are never far from the page you wish to view. As a result of the use of frames, bookmarking has become complex. Due to the nature of frames, bookmarks simply store information on the top-level frameset of the branch you are viewing, they do not store the page information of the current frame. This is not too much of a problem with the way the server is designed since the top-level pages are never far from the deepest pages, but is probably best kept in mind when adding bookmarks to your bookmark list.
+<p>
+<h4>How to use the NASC FTP Server</h4>
+The NASC WWW server uses the Apache server which allows integration of the  <A HREF="http://nasc.nott.ac.uk/ftp/pub/._A" target="another_window">WWW and FTP servers</a> - clicking this link will open a new window with the FTP directories in, allowing you to view the layout while reading the brief tutorial below. The link for this FTP distribution is <a href="http://nasc.nott.ac.uk/ftp/pub/._A" target="_top">http://nasc.nott.ac.uk/ftp/pub/._A</a>, and works with the WU-FTPD server we are currently running, so anonymous FTP to NASC using nasc.nott.ac.uk will still work as before. The changes are to the way the WWW displays the FTP directories, and how you download files from the account. To access any other directories within the NASC FTP site, simply place the directory name between "pub" and "._A". For example, to access the "/pub/WeedsWorld" directory the URL would be <A HREF="http://nasc.nott.ac.uk/ftp/pub/WeedsWorld/._A" target="_top">http://nasc.nott.ac.uk/ftp/pub/WeedsWorld/._A</A>. The trailing ._A is important, if this is omitted then nothing currently happens. This is one of the scheduled changes to the FTP module of the server as soon as possible. Other enhancements will be to incorporate a JAVA version of the same module, allowing a more intuitive file selection method similar to most file managers available for Macintosh and PC computers.  
+<p>
+The new module for the server allows us to display the FTP directory structure within any forms competent browser. Each file is accompanied by a checkbox, an icon (to show the file type), a highlighted link and a final download icon. To simply download an individual file, you click on the highlighted link as normal with Netscape FTP. If, however, you wish to download multiple files, then this is where the advantages of using this system are apparent. If you click the checkbox of each of the files (or directories) you wish to download you can download multiple files. Once the files are selected you select the format you wish to receive the files in. This can be a TAR file, a GZIPPED-TAR FILE or a COMPRESSED-TAR file. Once you have selected which files you want to download, and how you want them delivered, simply click the <font color=RED>RECEIVE</FONT> button. You will be presented with a dialog box which requests what you want to call the file (remember here that certain programs for dealing with GZIPPED and COMPRESSED files require specific extensions, check with your local computer guru if you are not sure), rename the file and click on the OK button. The files you have requested will be delivered to your computer in a format you can deal with. The beauty of this system is that there is a reduction in the amount of network traffic, and a simplyfied method of transferring multiple files to a client computer. <p>
+ 
+<h4>How do I search NASC?</h4>
+As well as introducing frames to the NASC WWW server, we have also added the ability to search the WWW server for articles of interest. From the NASC Home Page, click the "On-line catalogue" link. This displays a page with multiple links, one of which is the link for the SEARCH facility. Select this link. There is now a search page displayed. The page defaults to searching a concept, although a keyword search is available, details of the two different search methods can be found by clicking on the link "making queries" on this page. The search facility uses the powerful Excite Search Engine, and is extremely flexible and fast. Simply enter the term or phrase you wish to search for in the box and click on the Excite Search button. When the results are displayed, click on the article most relevent to your needs. If you wish to flick between an article and the search results, use the mouse button to go BACK-IN-FRAME as described above. A search facility is also available for the 7th International Conference on <I>Arabidopsis</I> research Abstracts, which works in the same way. 
+<h4>Mirror, mirror on the wall; Speed up access for us all.</h4>
+The next few months will see the long awaited mirroring of <I>Arabidopsis</I> EST information from Ernie Retzel's group at Minnesota, and information from the AtDB project at Stanford. This information will be searchable and will be displayed in the same manner as it is displayed at the originating site. This part of the server re-structuring will be of great benefit to European users who should see an improvement in the service for these documents. 
+<h4>What's next?</h4>
+In addition to the re-structuring of the server, we will incorporate more information into the seed lists regarding each of the stocks we carry. In particular, sequence information and links to cloned genes of stocks will be made available. Navigational aids will also be developed to allow easy navigation of the NASC WWW server, hopefully making your stay with us efficient and quick.
+<p>
+
+<hr>
+
+</BODY>

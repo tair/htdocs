@@ -1,0 +1,61 @@
+<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "mapping/Chromosome3.html";
+	   else if (page == 5)
+		page_title = "mapping/mapping.html";
+	   else if (page == 6)
+		page_title = "mapping/Chromosome5.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Chromosome 3 Graphical map';
+	   else if (id == 5)
+		strng = 'The latest Lister and Dean RI maps';
+	   else if (id == 6)
+		strng = 'Chromosome 5 Graphical map';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+<TITLE>Latest RI Map of Chromosome 4 ( 5-Sep-1996)</TITLE>
+<!-- Created by: Dr Mike Arnold, 29-Aug-1996 -->
+<!-- Changed by: Dr Mike Arnold,  5-Sep-1996 -->
+
+
+</HEAD>
+<BODY bgcolor=#ffffff>
+<blockquote>
+<H1>Latest RI Map of Chromosome 4 - September 1996</H1>
+<hr>
+<img src="../images/chromosome4.gif">
+<hr>
+
+</blockquote>
+
+</BODY>

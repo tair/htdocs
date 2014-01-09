@@ -1,0 +1,119 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>HumanCyc Release Note History</title>
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<!-- HumanCyc Release Notes -->
+<h2>HumanCyc Release Note History</h2>
+
+<H1>Release Notes for HumanCyc Version 9.1</H1>
+
+<p>Released on May 23, 2005. </p>
+  
+We have added one new human metabolic pathway in this release:
+<p>
+<ul>
+<li><a href="http://BioCyc-dev/HUMAN/new-image?type=PATHWAY&amp;object=PWY66-341">cholesterol biosynthesis</a>
+</ul>
+<p>
+This pathway describes the biosynthesis of cholesterol from farnesyl diphosphate 
+in a series of 22 reactions.&nbsp; The biosynthesis of farnesyl diphosphate from 
+acetyl-CoA is described in the linked mevalonate pathway in HumanCyc.&nbsp; The 
+cholesterol pathway proceeds through the formation of lanosterol, followed by 
+the series of membrane-associated reactions that lead to the formation of 
+cholesterol.&nbsp; Extensive 
+descriptive comments and references have been entered for this pathway and for 
+the respective enzyme entries comprising this pathway. 
+
+<H1>Release Notes for HumanCyc Version 9.0</H1>
+
+<p>Released on February 25, 2005. </p>
+  
+<p>
+We have added several new human metabolic pathways in this release:
+<p>
+<ul>
+<li><a href="http://BioCyc-dev/HUMAN/new-image?type=PATHWAY&amp;object=PWY66-301">catecholamine biosynthesis</a> 
+<li><a href="http://BioCyc-dev/HUMAN/new-image?type=PATHWAY&amp;object=PWY66-201">nicotine degradation II</a>
+<li><a href="http://BioCyc-dev/HUMAN/new-image?type=PATHWAY&amp;object=PWY66-221">nicotine degradation III</a>
+<li><a href="http://BioCyc-dev/HUMAN/new-image?type=PATHWAY&amp;object=PWY66-241">bupropion degradation</a>
+</ul>
+<p>
+The catecholamine pathway describes the 
+biosynthesis of the neurotransmitters dopamine, norepinephrine, and epinephrine.&nbsp; 
+The metabolism of xenobiotics is described in the two linked pathways of 
+nicotine degradation, and the pathway for the degradation of the antidepressant 
+drug bupropion, which is also used in smoking cessation therapy.&nbsp; Extensive 
+descriptive comments and references have been entered for these pathways and for 
+the respective enzyme entries comprising these pathways.
+
+<H1>Release Notes for HumanCyc Version 8.0</H1>
+
+Released on March 12, 2004.
+
+<p>
+We are continuing on-going curation of new and existing human metabolic pathways.
+In this release, three new pathways have been added: 
+<p>
+
+<ul>
+<li> <a href="http://biocyc.org/HUMAN/NEW-IMAGE?type=PATHWAY&object=PWY66-21">oxidative ethanol degradation I</a>
+<li> <a href="http://biocyc.org/HUMAN/NEW-IMAGE?type=PATHWAY&object=PWY66-161">oxidative ethanol degradation II</a>
+<li> <a href="http://biocyc.org/HUMAN/NEW-IMAGE?type=PATHWAY&object=PWY66-162">oxidative ethanol degradation III</a>
+</ul>
+<p>
+Extensive descriptive comments and references have been entered for these pathways and 
+for the respective gene, enzyme and reaction entries comprising these pathways. In 
+describing the genes that encode the enzymes and/or subunits of enzymes catalyzing 
+steps of pathways, specific emphasis has been placed on describing sites of 
+genetic polymorphism and their associated genotypes and/or disease associations.
+  
+<p>
+Human pathways span multiple cellular and tissue compartments.  The partitioning
+of these pathways across cellular and tissue compartments has also been described.
+
+<H1>Release Notes for HumanCyc Version 7.6</H1>
+
+Released on November 4, 2003
+
+<p>In this release, we have made putative functional assignments to 22
+genes in HumanCyc. These functional assignments were made to fill
+pathway holes in the database. A pathway hole occurs when a reaction
+in a pathway does not have an assigned enzyme. The putative enzymes that
+fill these pathway holes were identified using a prediction program
+developed by Green and Karp and described in <A href="http://www.biomedcentral.com/1471-2105/5/76">BMC Bioinformatics 5(1):76 2004</A>. Each enzymatic
+reaction linked to an enzyme by this program is identified
+by the evidence code "Computational Evidence: EV-COMP-HINF-FN-FROM-SEQ".
+The evidence code indicates the source of information as 
+computationally-derived
+from sequence analysis with human review. The gene product field
+of the corresponding enzyme has also been updated to include the
+functional description of the reaction to which it has been linked.
+
+<p>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000068120-MONOMER">ENSG00000068120-MONOMER / nucleotide binding protein / dephospho-CoA kinase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000069535-MONOMER">ENSG00000069535-MONOMER / amine oxidase (flavin-containing) B / putrescine oxidase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000084754-MONOMER">ENSG00000084754-MONOMER / trifunctional enzyme, alpha subunit, mitochondrial precursor / 3-hydroxybutyryl-CoA epimerase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000087299-MONOMER">ENSG00000087299-MONOMER / malate dehydrogenase (acceptor)</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000094841-MONOMER">ENSG00000094841-MONOMER / uracil phosphoribosyltransferase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000100412-MONOMER">ENSG00000100412-MONOMER / aconitate hydratase, mitochondrial precursor</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000101156-MONOMER">ENSG00000101156-MONOMER / uridine kinase-like 1 / uracil phosphoribosyltransferase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000118498-MONOMER">ENSG00000118498-MONOMER / DJ20N2.1 (fragment) / cytosine deaminase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000120677-MONOMER">ENSG00000120677-MONOMER / BA215B13.2 (fragment) / aspartate ammonia-lyase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000127884-MONOMER">ENSG00000127884-MONOMER / enoyl-CoA hydratase, mitochondrial precursor / 3-hydroxybutyryl-CoA dehydratase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000135838-MONOMER">ENSG00000135838-MONOMER / N-acetylneuraminate lyase / N-acetylneuraminate lyase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000136877-MONOMER">ENSG00000136877-MONOMER / folylpolyglutamate synthase, mitochondrial precursor / dihydrofolate synthase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000139344-MONOMER">ENSG00000139344-MONOMER / imidazolonepropionase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000143149-MONOMER">ENSG00000143149-MONOMER / aldehyde dehydrogenase, E3 isoenzyme / betaine-aldehyde dehydrogenase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000143891-MONOMER">ENSG00000143891-MONOMER / aldose 1-epimerase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000148459-MONOMER">ENSG00000148459-MONOMER / trans-prenyltransferase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000152642-MONOMER">ENSG00000152642-MONOMER / glycerol-3-phosphate dehydrogenase (NAD+), cytoplasmic / glycerol-3-phosphate dehydrogenase (NAD(P)+)</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000162066-MONOMER">ENSG00000162066-MONOMER / CGI-14 protein / N-acetylglucosamine-6-phosphate deacetylase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000163864-MONOMER">ENSG00000163864-MONOMER / nicotinate-nucleotide adenylyltransferase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000167588-MONOMER">ENSG00000167588-MONOMER / glycerol-3-phosphate dehydrogenase (NAD+), cytoplasmic / glycerol-3-phosphate dehydrogenase (NAD(P)+)</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000169710-MONOMER">ENSG00000169710-MONOMER / fatty acid synthase</a>
+<li><a href="http://BioCyc.org:1555/HUMAN/new-image?type=ENZYME&object=ENSG00000172992-MONOMER">ENSG00000172992-MONOMER / nucleotide binding protein / dephospho-CoA kinase</a><!--#include virtual="/template-part3of3.shtml" -->

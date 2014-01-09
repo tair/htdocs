@@ -1,0 +1,28 @@
+Bioinformatician Systems Biology
+
+Within the SPS (Saclay Plant Sciences) Laboratory of Excellence
+(http://www.versailles.inra.fr/urgv/news.htm#saclay), grouping together
+several INRA, CNRS and university institutes in the Paris region, a
+position for a bioinformatician becomes available from November 2011
+onwards. The work will be performed in close collaboration with the
+Bioinformatics and Predictive Genomics, Arabidopsis Functional Genomics
+and Signal Transduction groups of the URGV
+(http://www.versailles.inra.fr/urgv/index.htm).
+The candidate will focus on the use of high throughput proteomics-related
+data (phoshoproteomics, protein complexes, chromatin-protein and
+protein-protein interaction) with those derived from genomic and
+transcriptomic analyses. The aim of the project is to develop integrative
+network models of the regulation of plant responses to environmental
+challenges. Reiterative experimental verification of the gene network
+models will enable the development of robust models with high predictive
+value.
+Required qualifications for the position are a PhD in Bioinformatics,
+computational sciences, statistics or equivalent. Programming knowledge
+(Perl/Python, R, SQL, Java or C++), use of Unix/Linux and experience in
+large data set analysis are mandatory.
+The position is initially limited to four years, but pending on the
+qualifications of the candidate, a permanent position can become available
+for senior applicants.
+
+Please send a full CV, including two reference letters to Heribert Hirt
+(hirt@evry.inra.fr). Closing date for applications is 31 October 2011. 

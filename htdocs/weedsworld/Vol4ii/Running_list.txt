@@ -1,0 +1,34 @@
+Contents.html
+	bancroft.html
+		fig1.html
+		fig2.html
+		fig3.html
+	thorlby.html
+		table1.html
+		table2.html
+		table3.html
+	mapping.html
+		html/chrom1.html
+		html/chrom2.html
+		html/chrom3.html
+		html/chrom4.html
+		html/chrom5.html
+		gifs/chrom1.html
+		gifs/chrom2.html
+		gifs/chrom3.html
+		gifs/chrom4.html
+		gifs/chrom5.html
+		map_help.html
+	madison.html
+		doerner.html
+		harper.html
+		preuss.html
+		chang.html
+		coruzzi.html
+		frommer.html
+		chory.html
+		innes.html
+		dennis.html
+	PGenomeVI.html
+	submit.html
+

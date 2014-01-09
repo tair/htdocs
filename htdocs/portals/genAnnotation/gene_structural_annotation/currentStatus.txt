@@ -1,0 +1,36 @@
+Status checked 9/26/2003.
+status 30 = in progress but no GenBank entry yet
+status 40 = in GenBank HTG section, in one or more pieces, sequence not complete
+
+To view annotation not in GenBank, try searching the MIPS database at:
+http://www.mips.biochem.mpg.de/proj/thal/db/search/search_frame.html
+or the TIGR database at:
+http://www.tigr.org/tdb/ath1/htmls/ath1.html
+
+chromosome 1: 3 clones
+chromosome 2: 1 clone
+chromosome 3: 4 clones
+chromosome 4: 5 clones
+chromosome 5: 3 clones
+
+chrom	name	status	accession_#	group(# of pieces)	comments
+1	F8L2	40	AC087569	TIGR(10)
+1	T2P3	40	AC084820	TIGR(33)
+1	F25O15	40	AC074108	TIGR(1)
+
+2	T6C20	40	AC005898	TIGR(11)
+
+3	T25F15	40	AC009529	TIGR(1)	annotation available from TIGR or MIPS
+3	T28G19	40	AC009328	TIGR(16)
+3	T18B3	40	AC011624	TIGR(1)	annotation available from TIGR or MIPS
+3	F21A14	40	AC016828	TIGR(1)	annotation available from TIGR or MIPS
+
+4	F26K10	40	AL049803	ESSA(?)	annotation available from TIGR or MIPS
+4	T5F17	40	AL049917	ESSA(?)	annotation available from TIGR or MIPS
+4	F17A13	40	AL096692	ESSA(?)	annotation available from TIGR or MIPS
+4	F6E21	40	AL049914	ESSA(?)	annotation available from TIGR or MIPS
+4	T16I18	40	AL049915	ESSA(?)	annotation available from TIGR or MIPS
+
+5	T19N18	30	no GB entry 	MIPS: annotation complete, available from TIGR or MIPS
+5	T26N4	40	AC090030 	CSHL(15)
+5	T25B21	40	AC072047	CSHL(3)

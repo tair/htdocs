@@ -1,0 +1,32 @@
+PhD Research Project 8 
+(http://www.spot-itn.eu/index.php?menu=vacancies&sub=2#irp8) 
+
+Development of a gene network for modelling of pollen thermotolerance 
+
+Project description 
+All high-throughput approaches require the management and organization 
+of the data produced and the integration of the manifold existing 
+resources for the identication of variations with respect to 
+environment or genetics. The project will include the development of 
+an integrated database with metabolomic, transcriptomic and proteomic 
+data associated to information related to the many gene and gene 
+families involved. The objectives are 
+
+1) development of an efficient data management system, 
+2) integration of proteomics, metabolomics, and transcriptomics data 
+derived from different experimental efforts, 
+3) modelling of the regulatory network implied in the HSR, and 
+4) comparative analysis among heat sensitive and tolerant genotypes to 
+provide support for the functional analysis of major gene families 
+included in the response. 
+The project requires data management, data mining and advanced 
+bioinformatics. 
+
+Where 
+The group of Maria Luisa Chiusano, University of Naples Federico II, 
+Department of Soil, Plants, Environmental and Animal Production 
+Sciences, Laboratory of Computer Aided Biosciences, Via Universita 
+100, 80055 Portici, Italy, Chiusano@unina.it, +39 0812539492. 
+
+
+The project web site: http://www.spot-itn.eu/ 

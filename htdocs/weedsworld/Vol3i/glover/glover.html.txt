@@ -1,0 +1,49 @@
+MUTANT LINE	ABRC PHENOTYPE				OUR PHENOTYPE
+
+<br>178		Male sterile				Male sterile/ pollenless
+
+243		Male sterile				Female sterile or male/female sterile
+
+547		Male sterile				Partially male sterile
+
+783		Partially fertile, small anthers	Female sterile or male/female sterile, 
+		reduced pollen
+
+871		Male sterile				No phenotype detected
+
+932		Male sterile/flower mutant		Partially sterile/dwarfed
+
+1097		Male sterile				Pollenless
+
+1180		Male sterile				Male sterile
+
+1569		Male sterile				Partially sterile/dwarfed/bushy
+
+1728		Reduced fertility mutant		Male sterile/pollenless
+
+1746		Male sterile				No phenotype detected
+
+1885		Male sterile				Male sterile/pollenless
+
+1926		Male sterile				Male sterile - dehiscence mutant
+
+2379		Male sterile/root mutant		Pollenless
+
+2415		Male sterile				Female sterile or female/male sterile
+
+2522		Male sterile				Male sterile/partially female sterile
+
+2836		Partially male sterile			Partially male sterile
+
+3181		Male sterile				No phenotype detected
+
+3529		Male sterile				Partially male sterile
+
+3914		Male sterile/ yellow green		Pollenless/partially female sterile
+
+4416		Anther-affected/embryo defective	Not determined
+		and size mutant	
+
+4791		Anther -affected			Not determined
+
+4838		Male sterile				Partially male sterile

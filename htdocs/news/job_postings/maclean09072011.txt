@@ -1,0 +1,24 @@
+Scientific Programmer/Bioinformatics Developer in Next-Generation Analysis and Visualisation
+
+We are looking to extend the functionality of our de novo assembly program to incorporate new traversal
+algorithms that can compare different genomes and the develop visualisations of regions of interest of the
+de Bruijn graph. The Sainsbury Laboratory is a charitable company of ~80 research scientists and support
+staff and a world leader in plant science. We are based on the Norwich Research Park and closely linked
+to the Gatsby Charitable Foundation, University of East Anglia and the John Innes Centre.
+
+For more information visit www.tsl.ac.uk&lt;http://www.tsl.ac.uk>
+
+Applicants should have at least a PhD in Bioinformatics or Computer Science. Good experience with writing
+C code and algorithm implementation and preferably experience with coding in Java. An interest in graph
+theory and algorithm development is desirable along with an interest in genetics and genomics. The
+successful applicant will have excellent organisational and interpersonal skills and be highly motivated.
+
+This fixed-term position is for 18 months and will be available from September 2011. The salary, Grade 7
+on the UEA Research and Analogous scale, will be in the range £29,972 to £35,788, the appointment level
+reflecting qualifications, skills, knowledge and achievements.
+
+Applicants should provide a CV, including the names and contact details of two referees, and a covering
+letter addressing the selection criteria and their motivation for seeking the position. Please send formal
+applications, quoting the reference number below, by e-mail to HR@tsl.ac.uk<mailto:HR@tsl.ac.uk>
+Ref DM01/2011
+

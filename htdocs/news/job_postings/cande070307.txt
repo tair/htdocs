@@ -1,0 +1,166 @@
+Dear Colleagues: Please bring this postdoctoral opportunity to the attention of 
+any graduate student you know who is searching for a position.  We are looking 
+for one or two postdocs to work on the mechanism of  meiotic prophase and anther 
+development in maize using molecular genetics, genomics and proteomics 
+strategies as well advanced imaging techniques. The research is described in 
+more detail below.
+    Regards Zac Cande
+
+Postdoctoral positions are available to work on maize meiosis and commitment to 
+meiosis during anther development. The candidate should have some experience 
+working on the molecular biology or cell biology of plants.
+
+Please send cv and references to: zcande@berkeley.edu
+
+Zac Cande
+341 LSA
+Department of Molecular and Cell Biology
+University of California
+Berkeley, CA 94720-3200
+
+http://mcb.berkeley.edu/labs/cande//
+Cande Lab Research Projects:
+1. Meiosis and Anther development in maize
+
+Meiosis cytogenetics: The superb cytology of the maize chromosome, its well 
+developed genetic and genomic resources, the large meiotic mutant collection, 
+and the ability to obtain large amounts of highly synchronized meiocytes make it 
+an excellent organism for integrating cytological, molecular, genomics and 
+proteomic approaches to answer key questions in meiosis. The ability to perform 
+meiosis depends on a switch to the meiotic cell cycle, and the formation of 
+unique leptotene chromosome architecture. We hypothesize that in maize this 
+switch is mediated by the protein AMEIOTIC1 (AM1), and that the indicator of a 
+successful switch is the formation of the leptotene chromosome. Secondly, 
+changes in leptotene chromosome architecture regulate downstream meiotic 
+processes. To test these hypotheses, we will elucidate the mechanism of AM1 
+function using an allelic series to define functional domains, proteomics to 
+identify interacting proteins, and reverse genetics to resolve the functions of 
+interacting proteins. To identify genes that are regulated by AM1, we will use 
+microarrays   using meiotic RNA from wild type and am1 mutants. To determine how 
+leptotene chromosomes regulate downstream processes, we will analyze the 
+architecture of the leptotene chromosome using ultra high resolution structured 
+illumination (SI) light microscopy and relate structure to function. We will 
+develop an integrated model of chromomere and axial element organization using 
+SI and elucidate changes as chromosomes pair and synapse. We will use ChIP on 
+tiling arrays to identify histone modifications and RAD21/REC8 binding  sites in 
+a defined chromosome region. Mutants deficient in intragenic recombination or 
+chromosome architecture will be used to determine how spatial constraints in 
+chromomere architecture affect recombination. We will identify the defining 
+features of the chromatin remodeling that occurs at the leptotene zygotene 
+transition in wild type, and in am1-pra1 cells arrested at this stage, and 
+determine whether small RNA metabolism is responsible for these changes.  
+Finally, we are  cloning and characterizing mutations in genes that have been 
+identified in forward genetic screens as essential for pairing and synapsis.
+Cell Fate Acquisition in Pre-Meiotic Maize Anthers: this is a NSF Plant genomics 
+collaborative proposal with Virginia Walbot,  Stanford University
+-from the grant proposal:
+    The regulation and required downstream functions resulting in cell fates in 
+Angiosperms remain largely undefined.  In particular, the differentiation of 
+meiotic cells is not well understood despite its central importance to plant 
+breeding and reproduction.  To study how cells are fated to enter meiosis, the 
+five cell types in anther locules will be analyzed.  The maize tassel is a very 
+favorable organ for cell fate analysis, because sufficient carefully staged, 
+synchronous anthers can be dissected and a collection of >350 male-sterile 
+mutants already exists.  Mutants will be classified cytologically and in a qRT-
+PCR survey using stage and cell-type markers.  Mutants defective in cell fate 
+acquisition or maintenance will be subjected to transcriptome and proteomics 
+profiling on anthers and dissected cell types.   Pilot RNA and protein profiling 
+on staged msca1 (all anther cells switch fate), ms23 (no tapetum), and mac1 
+(excess meiotic cells) demonstrate the feasibility of the proposed approach.  
+Using reverse genetics, Mu knockout mutations in genes implicated as important 
+in rice and Arabidopsis or from transcriptome or proteomics analysis in maize 
+will be identified, and if male sterile, examined for cytological defects prior 
+to meiosis to identify genes with non-redundant roles in pre-meiotic cell fate 
+acquisition.  Discovery of a greatly enriched number of male sterile mutants 
+among Mu-tagged, anther-expressed genes demonstrates the feasibility and 
+potential power of this approach.  For important loci, directed Mu tagging will 
+be conducted to clone and sequence key genes required in anther cell fate 
+decisions.  Detailed genetic and molecular analysis will then help pinpoint the 
+role of these key genes in setting cell fates prior to meiosis and for 
+regulating the switch in the cell cycle from mitosis to meiosis.  Insights will 
+be used to define the signals present late in anther development that specify 
+cell fates.  Collectively these data will permit correlation of gene and protein 
+expression with actual cellular processes such as entry into meiosis or 
+acquisition of the tapetal cell fate, and will lead to testable hypotheses of 
+meiotic cell fate acquisition.
+Selected Publications:
+Hamant, O., Golubovskaya, I., Meeley, R., Fiume, E., Timofejeva, L., Schleiffer, 
+A., Nasmyth, K., and W. Z. Cande. 2005. A REC8 dependent plant Shugoshin is 
+required for maintenance of centromeric cohesion during meiosis, and has no 
+mitotic functions. Current Biology 15:948-954.
+Chung-Ju R. W., Chen, ., C-C., Harper, L.,and W. Z.  Cande. 2006. Toward 
+construction of an integrated cytogenetic map of maize chromosomes  by 
+fluorescence in situ hybridization.  Plant Cell 18:529-544.
+Hamant, O., Ma, H. and W. Z. Cande. 2006. Genetics of Meiotic Prophase I in 
+Plants. Ann. Rev Plant Biology  57:267-302.
+Golubovskaya, I. N., Hamant, O., Timofejeva, L., Wang, R.C. J. , Braun, D., 
+Meeley, R., and Cande, W.Z. (2006) Alleles of AFD1 uncouple axial element 
+elongation and bouquet formation from RAD51 distribution and homologous pairing. 
+J. Cell Science, 119:3306-3315.
+Li, J., Harper, L.C., Golubovskaya, I., C. Wang, R. Weber, D., Meeley, R.B., 
+McElver, J., Bowen, B., Cande, W. Z. and P. S. Schnable. 2007.  Maize RAD51 is 
+required for efficient chromosome pairing and proper chromosome segregation in 
+meiosis and the repair of radiation-induced mitotic DSBs. Genetics in press
+
+2. Other lab research projects:
+Heterochromatin function in fission yeast: Fission yeast has only three 
+chromosomes and their behavior during meiosis can be readily monitored using 
+such tools as GFP-Swi6, a chromodomain protein that binds to telomeres and 
+centromeres, and GFP-histone. We have developed a cytologically based screen to 
+identify mutants defective in various aspects of meiosis including telomere 
+clustering during meiotic prophase, and chromosome segregation during anaphase I 
+and II. One mutant dot6/bqt2 is essential for telomere clustering during 
+meiosis. Two mutants, dos1 and 2, are novel genes required for heterochromatin 
+structure  and function and interact with the RNAi machinery. We have identified 
+several proteins that interact with dos1 including a histone demethylase and a 
+nuclear pore protein and we are studying their role in heterochromatin 
+formation.
+
+Evolution of the cytoskeleton, mitosis, meiosis in basal eukaryotes: To assess 
+the molecular evolutionary conservation of spindle motors during eukaryotic 
+evolution, we are studying mitosis in Giardia intestinalis, an intestinal 
+parasite and diplomonad (with twonuclei/cell). Giardia is a member of the 
+earliest diverging lineage of eukaryotes and thus provides a model to study the 
+evolutionary history of cytoskeletal proteins and processes such as meiosis, 
+mitosis, and cytokinesis. Giardia is easily grown in the laboratory, has a 
+nearly sequenced genome; and is amenable to reverse genetic methodologies. It 
+has a very complex microtubule cytoskeleton, with more more different classes of 
+microtubule motors than plants, yeasts or metazoans, but its actin cytoskeleton 
+is noncannonical (for example no myosins, arp2/3 etc). We have identified, 
+cloned, and phylogenetically classified twenty-four kinesin like protein 
+homologs (klps) from Giardia, roughly triple the number of klps as in yeasts. 
+Many of these klps, although found in metazoans, are lacking in yeasts.  We are 
+investigating their function in pathogenesis and mitosis. Novel kinesins may be 
+prime targets for development of drugs for treating giardiasis. We have worked 
+out a method of synchronizing cells and have described how mitosis works in 
+cells that have two nuclei. We are studying microtubule, klp,  and chromosome 
+behavior in living and fixed cells using state of the art light and electron 
+microscopy and are studying phenotypes of dominant negative klp mutants strains. 
+While investigating cytoskeletal behavior during encystment, we have shown that 
+cyst nuclei undergo "automixis" (defined as the fusion of nuclei or cells 
+derived from the same parent to yield homozygous offspring) and genes that have 
+meiotic function are specifically expressed at this time.  In collaboration  
+with the Joint Genomics Institute we are sequencing Spironucleus,  another 
+diplomonad, and Naegleria, a Valkhamphid that is the deepest amoebid cell that 
+can be grown in culture. It can also form basal bodies and axonemes de novo and 
+we developing this organism as an experimental system to study basal body 
+formation.
+Selected publications:
+Jin Y., Mancuso J., Uzawa, S., Cromnebold, D. and W. Z. Cande. 2005. The fission 
+yeast homolog of human transcription factor EAP30 blocks meiotic Spindle Pole 
+Body amplification. Developmental Cell 9:63-73.
+Li, F., Goto, D., Zaratiegui,  M., Tang, X., Martienssen, R., and W. Z. Cande. 
+2005. Two novel proteins, Dos1 and Dos2, interact with Rik1 to regulate 
+heterochromatic RNA interference and histone modification. Current Biology 15:1-
+10.
+MacRae, I.J.,  Zhou, K., Li, F., Repic, A., Brooks, A.N., Cande, W.Z., Adams, P.  
+and J. Doudna. 2006.  Structural basis for double-stranded RNA processing by 
+dicer. Science 311:195-198.
+Tang X, Jin Y, Cande WZ. 2006.  Bqt2p is Essential for Initiating Telomere 
+Clustering upon Pheromone Sensing in Fission Yeast. J. Cell Biol. 173:845-5.
+Sagolla, M.S., Dawson, S.C., Mancuso, J.J. and W. Zacheus Cande. 2006. Three 
+dimensional analysis of mitosis and cytokinesis in the binucleate parasite 
+Giardia intestinalis. J. Cell Sci. 119:4889-4900.
+
+
+

@@ -1,0 +1,47 @@
+PostDoc Available - Bioinformatics and "Wet Lab" Postdoctoral Position in Loraine Lab at UNC Charlotte/NCRC
+
+I am looking for a dedicated, enthusiastic postdoctoral researcher to 
+work on an NSF supported project investigating mechanisms of cytokinin 
+signaling in Arabidopsis. This project is a collaboration with Joe 
+Kieber at UNC Chapel Hill, Eric Schaller at Dartmouth, and Dennis 
+Mathews at the University of New Hampshire. 
+
+As a postdoc in the Loraine lab, you'll have the opportunity to master 
+cutting-edge genomic and computational techniques while at the same 
+time developing an experimental system you can use to launch an 
+independent career. 
+
+Other experimentally-focused projects in the lab include (a) 
+investigating splicing regulation in Arabidopsis and (b) 
+characterizing the blueberry fruit transcriptome using next-gen 
+sequencing. You would of course have opportunities to contribute to 
+these and all other projects underway in the lab. 
+
+Necessary qualifications include: 
+
+(1) Experience with Arabidopsis 
+(2) PhD in molecular biology or related discipline 
+(3) Basic scripting knowledge (in Unix, perl, or python) and/or 
+familiarity with R/Bioconductor 
+
+If you have an outstanding track record in experimental ("wet lab") 
+research, did some simple (or complex!) scripting as part of your 
+work, discovered you liked it and want to learn more, then this job 
+could be a great fit for you. 
+
+For more information about the lab, visit http://www.transvar.org. 
+
+For an idea of the level of computational skills you can develop 
+during your postdoc in the Loraine lab, see 
+http://teaching.transvar.org. This site describes the year-long 
+bioinformatics programming class taken by non-computer science 
+students in the UNC Charlotte Professional Science Masters in 
+Bioinformatics program. 
+
+The position is located at the North Carolina Research Campus in 
+Kannapolis, NC. Your appointment would be as a postdoctoral researcher 
+in the Department of Bioinformatics and Genomics at UNC Charlotte, 
+which is located about 15 miles south of the NC Research Campus. 
+
+UNC Charlotte is an Equal Opportunity Employer. To apply, please send 
+your CV to aloraine@uncc.edu. 

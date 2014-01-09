@@ -1,0 +1,63 @@
+<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "sol-modGFP.html";
+	   else if (page == 5)
+		page_title = "sol-modGFP.html#figure1";
+	   else if (page == 6)
+		page_title = "protocols/figure2.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Back to Protocol';
+	   else if (id == 5)
+		strng = 'Back to protocol';
+	   else if (id == 6)
+		strng = 'Figure 2';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+<TITLE>Figure 1  ( 5-Sep-1996)</TITLE>
+<!-- Created by: Dr Mike Arnold, 29-Aug-1996 -->
+<!-- Changed by: Dr Mike Arnold,  5-Sep-1996 -->
+
+
+</HEAD>
+<BODY bgcolor=#ffffff>
+<center>
+<table width=80%>
+<th align=left>Figure 1<br></th>
+<tr><td><img src="figure1.gif"><br>
+<tr><td>Structures of soluble-modified GFP reporter constructions, and differences compared to the wild-type GFP and the modified mGFP4.  By site-directed mutagenesis of mGFP4, three codon substitutions (F99S, M153T, and V163A) were made to create smGFP.  From smGFP, codons for chromophore amino acids were substituted leading to smRS-GFP (S65T mutation), and smBFP (Y66H mutation).<br></td></tr>
+
+
+</table>
+</center>
+</BODY>
+</HTML>

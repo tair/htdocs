@@ -1,0 +1,131 @@
+<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "reports/Norwich.html";
+	   else if (page == 5)
+		page_title = "mapping/mapping.html";
+	   else if (page == 6)
+		page_title = "mapping/mapping.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Reports on the 7th International Arabidopsis Conference';
+	   else if (id == 5)
+		strng = 'The latest Lister and Dean RI maps';
+	   else if (id == 6)
+		strng = 'The latest Lister and Dean RI maps';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+    <TITLE>RI map database and mapping service moves to NASC</TITLE>
+<!-- Changed by: Dr Mike Arnold,  5-Sep-1996 -->
+</HEAD>
+<BODY bgcolor=#ffffff>
+<BLOCKQUOTE>
+
+<H1>Lister and Dean RI map database and mapping service moves to NASC</H1>
+<H4>Mary Anderson, Nottingham Arabidopsis Stock Centre, University of Nottingham, Department of Life Science, Nottingham, NG7 2RD</H4>
+<b>email: </b><a href="mailto:arabidopsis@nottingham.ac.uk">arabidopsis@nottingham.ac.uk</a>
+<hr>
+
+On the 19th July, Clare Lister (John Innes Centre, Norwich, UK) formally
+handed over the recombinant inbred (RI) map database for the Lister
+and Dean RI lines, which she has developed
+over the last four years, to the Nottingham Arabidopsis Stock Centre (NASC).
+NASC will now maintain the database, display regular updates to the RI map
+and continue to offer a mapping service to the community. <BR>
+<BR>
+Anyone can send in their mapping data to NASC for mapping. The positions
+of all markers mapped by NASC will be made publically available through
+the NASC WWW server. The mapping data will be run once a week and the main
+map updated once a month.<BR>
+<BR>
+The segregation data for the <A HREF="67_loci.html">67 loci</A> described in Lister and Dean
+(1993) is available at NASC and through <A HREF="/" target="_top">TAIR</A> but the central database
+will not be distributed. The aim is to produce one large integrated map
+rather than many non-integrated ones. <BR>
+<BR>
+Please note that NASC can supply information about the probes on request.
+ However, NASC does not distribute any of the markers. DNA markers must
+be obtained from either the <A HREF="http://aims.cps.msu.edu/aims" target="_top">Arabidopsis Biological Resource Center</A> (ABRC) or from the investigators themselves. Stocks of the RI lines are
+available from <A HREF="http://nasc.nott.ac.uk/" target="_top">NASC</A> and <A HREF="http://aims.cps.msu.edu/aims" target="_top">ABRC</A>.<BR>
+<BR>
+As promised at the 7th International Arabidopsis meeting at Norwich, Clare
+has made one last version of the map. This is available as a text file, as individual postscript files for printing, or as graphics from our <a href="http://nasc.nott.ac.uk/ftp/pub/RI_data/._A" target="_top">FTP site</a>. The latest map carries 592 markers.<BR>
+<BR>
+<H4>How to submit data to NASC.</H4>
+RI mapping is conducted using Mapmaker (Lander <I>et al</I> 1987) and so the data
+has to conform to the Mapmaker format. We have designed a <A HREF="http://nasc.nott.ac.uk/RI_submit.html" target="_top">special form</A>
+for data submission to help you send in the data in the correct format. Although the form is only currently supported by Netscape version 3.0, we are working on a version complient with all forms-capable browsers.
+We recommend that you use this form for data submission and that you fill
+in the information for each line. It has been designed to allow us to automatically
+enter your data and so circumvents any potential problems with typing errors.
+<BR>
+<BR>
+However, we can also receive data by email to <a href="mailto:arabidopsis@nottingham.ac.uk">arabidopsis@nottingham.ac.uk</a>.
+Label your message RIDATA. If sending your information by email please adhere
+strictly to the following format, indicating the numbers of the RI lines
+used and including the data in (RI) numerical order. <BR>
+<BR>
+Enter your scores for the RI lines data into a Text file (eg. MacExcel,
+or another text file) as follows:-<BR>
+A = like Columbia parent<BR>
+B = like Landsberg parent<BR>
+H = heterozygote (if possible to score)<BR>
+- = unscorable or no score<BR>
+<BR>
+Marker names should start with a * followed by a letter (small or capital)
+ie. *w23 and should have a single space or tab between each entry. Names
+MUST BE LESS than EIGHT characters. Mapmaker, the programme we use for mapping,
+is not case sensitive and so reads &quot;a&quot; and &quot;A&quot; as the
+same thing. Please check the current names used for Loci, so as not to generate
+conflicts. 
+<p>
+Your file should look like this:
+<pre>
+RI line Number		4	5	13	14	17	25	29<br>
+*A1			A	A	B	-	A	B	B<br>
+*b2			B	B	B	A	H	-	B<br>
+*C4			B	A	-	A	B	B	A<br>
+</pre>
+
+Save as TEXT ONLY. <BR>
+<BR>
+<BR>
+For information on how to map your own data using Mapmaker, please refer to the brief description carried in the <a href="http://nasc.nott.ac.uk/complete_dean_ri/how_to_map.html" target="_top">NASC on-line catalogue</a>.<BR>
+<hr>
+<H4>Reference</H4>
+<BR>
+Lister C. and Dean C. (1993). Recombinant inbred lines for mapping RFLP
+and phenotypic markers in <I>Arabidopsis thaliana</I>. Plant Journal 4,
+745-750
+<hr>
+</BLOCKQUOTE
+</BODY>
+</HTML>

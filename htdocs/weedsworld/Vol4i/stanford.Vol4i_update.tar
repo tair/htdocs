@@ -1,0 +1,1256 @@
+Copyright.html010066400001470000012000000023200633602133600140310ustar00mikestaff00001250000004<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "Contents.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "Contents.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 6)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+<TITLE>Copyright Statement for Weeds World ( 12-May-1997)</TITLE>
+<!-- Created by: Dr Mike Arnold,  2-Sep-1996 -->
+<!-- Changed by: Dr Mike Arnold,  12-May-1997 -->
+
+
+</HEAD>
+<BODY bgcolor=#ffffff>
+<blockquote>
+<center>
+<H1>Copyright Statement for Weeds World</H1></center>
+
+<hr>
+All copyright for articles in Weeds World remains with the authors. If you wish to reference any information from Weeds World please use the Volume and page numbers as you would for a hard copy journal. 
+<hr>
+
+</blockquote>
+
+
+</BODY>
+charging.html010066400001470000012000000340000633610250100136350ustar00mikestaff00001250000004<html>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "morris.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "naasc.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'AREST: Arabidopsis Related ESTs';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 6)
+		strng = 'NAASC Committee Update';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+<HEAD>
+<TITLE>Stock Centers obtain further funding and introduce user fees</TITLE>
+</HEAD>
+<BODY bgcolor="#ffffff">
+<blockquote>
+      <H1>Stock Centers obtain further funding and introduce user fees</H1> <h4>Randy Scholl (1),
+      Keith Davis(1) and Mary Anderson (2)</h4> <p>(1)Arabidopsis
+      Biological Resource Center, Ohio State University, 309 B&amp;Z
+      Building, 1735 Neil Ave., Columbus, OH 43210, USA<br> phone:
+      614-292-9371<BR> fax: 614-292-0603<BR> email: <A
+      HREF="arabidopsis+@osu.edu">arabidopsis+@osu.edu</a><BR> AIMS
+      WWW Server URL:<A HREF="http://aims.cps.msu.edu/aims"
+      target="_top"> http://aims.cps.msu.edu/aims/</A></p>
+
+	   (2) Nottingham Arabidopsis Stock Centre, Dept Life Science,
+	   University of Nottingham, Nottingham, NG7 2RD, UK<BR> Tel +44
+	   115 9791216<BR> Fax +44 115 9513251<BR> email <A
+	   HREF="mailto:arabidopsis@nottingham.ac.uk">arabidopsis@nottingham.ac.uk</A>
+	   <br> WWW server URL= <A
+	   HREF="http://nasc.nott.ac.uk/" target="_top">http://nasc.nott.ac.uk/</A><BR>
+	   
+<hr>
+</blockquote>
+
+<blockquote> 
+<h3>Stock Centres obtain further funding</h3>
+	  <p>We are pleased to announce that, based on the success of
+	  the last five years, the Stock Centres have now officially
+	  received funding to continue to provide seed, DNA and
+	  information resources.  The Nottingham Arabidopsis Stock
+	  Centre (NASC) and the Arabidopsis Biological Resource Center
+	  (ABRC) have received five-year and four-year funding from
+	  the BBSRC and NSF, respectively.  Together with the funds
+	  raised from user fees, we will be able to continue the
+	  expansion of our collections to meet the needs of the
+	  research programme.</p>
+
+<h3>Introduction of user fees</h3>
+	  <p>As part of our renewed funding programme and as announced
+	  on the Arabidopsis newsgroup, from April 1, 1997, ABRC and
+	  NASC have implemented a user fee system.  Some user fees
+	  were necessary to allow us to keep pace with the demand for
+	  services in the current grant funding climate.  The user
+	  system involves "general" fees, which are annual fees
+	  covering different range of usages for individual seed and
+	  DNA stocks plus a few individual charges for seed stocks
+	  such as sets of T-DNA lines and DNA stocks such as library
+	  filters.</p>
+
+	  <p>The user fee system was design to be simple to deal with,
+	  fair to all users and minimize associated paperwork.  The
+	  fees of ABRC and NASC are coordinated, and we expect to be
+	  cooperating in this effort, as in the past, to minimize the
+	  overall effort associated with Arabidopsis stock curation
+	  and distribution.  We hope that enough funds will be raised
+	  to cover the continually increasing demand for our stocks
+	  and allow the necessary increase of effort required to
+	  handle increased numbers of stocks such as larger
+	  collections of T-DNA lines, new mutant stocks and BAC
+	  clones.
+</p>
+	  <p>The text of the sections describing the justification and
+	  detail of charging from the original newsgroup annoucement
+	  on charging are reprinted below.  If you have any questions
+	  feel free to contact us.
+</p>
+  
+
+<h3>Partial Text of the  Newsgroup Announcement on User Fees</h3>
+
+ 
+<p>The Arabidopsis Biological Resource Center (ABRC) and the
+      Nottingham Arabidopsis Stock Centre (NASC) have been providing
+      stocks to researchers for over five years, subsidized by the NSF
+      in the U.S and the BBSRC in the U.K.  It was the initial policy
+      of both centers to provide resources to all users free of
+      charge.  This policy has served Arabidopsis research well and
+      fostered the development of major research activity. Funding
+      constraints in both the U.S. and U.K. combined with the
+      continually increasing variety of and demand for stocks have
+      resulted in a gap between the funds available and those needed
+      to provide these services. Hence, both the NASC and ABRC
+      advisory committees concluded to best serve Arabidopsis research
+      in the future, user fees should be instituted.  Below, we
+      outline the benefits and details of the new user fee system.</p>
+
+<H3>Why user fees are now necessary</H3>
+
+<P>The stock centers were initially established to preserve seed and
+DNA stocks of Arabidopsis and to distribute these to anyone interested
+in using these for research.  It was envisaged that mutant lines,
+ecotypes, clones of individual genes and YAC and phage libraries would
+be received and distributed.  The budgets for the first five years of
+both centers were developed on these bases.  All of the initially
+proposed seed items have been incorporated into the NASC and ABRC
+collections.  In addition, many stocks, not initially existing, also
+have been placed into the collections.  Most notable of these are
+pooled samples of several thousand T-DNA transformants.  Demand for
+all of our stocks has been exceedingly high, resulting in larger than
+anticipated supply expenditures.  In spite of this, the centers have
+managed to operate within their originally allocated budgets.  </P>
+
+<P>As we plan for the future, it is expected that funding for the Centers
+from both U.K and U.S. funding agencies will decrease with time, while
+still providing significant financial support.  This is in keeping with
+the very tight overall support of research from governments.  However,
+demand for current stocks is still increasing, and there are many new
+stocks which clearly should be incorporated into our collections and
+distributed.  The potential new stocks include vastly increased
+holdings of T-DNA and transposon lines, more large-insert libraries
+(probably including those that will be associated with the Arabidopsis
+sequencing project) and pooled DNAs for PCR probing of both of the
+above resources.
+</P> 
+<P>It has been agreed by the Advisory Committees of both centers to
+initiate some user fees.  It is felt that the fee schedules outlined in
+the following section can accomplish all of the above goals.  We hope
+that you will find the fees modest and not onerous.  The anticipated
+revenues from the user fees will account for less than
+20% of the total (direct plus indirect) support of either center from
+outside sources.  Also, the stocks centers will not in any case realize
+profits on any stocks.  Rather the fees recover some of our handling
+and materials costs.
+</P>
+
+<H3>Details of the charging system</H3>
+<P>The charging policies of the Arabidopsis centers are designed to raise
+some necessary operating funds while adhering to the following
+principles: 
+<ol>
+	    <li>Keep costs to users as low as possible;</li>
+
+	    <li>Minimize paperwork for users and the centers</li>
+	    
+<li>Charge as equitably as possible relative to individual usage
+while keeping the pricing structure simple</li>
+	  </ol>
+</P>
+
+<P>Based on the above criteria, the charging policy is as follows:</p>
+
+<p> Annual <b>"general"</b> fees based on usage levels will be
+collected from each laboratory ordering stocks from a stock center.
+Also, some large groups of seed stocks and major DNA stocks will have
+individual fees.  The usage levels determining the general fees are:
+</P>
+
+<OL> <p> <LI> <b>Occasional users</b>.  Users ordering 10 or fewer
+individual stocks in a single order per year will be considered
+"occasional" users and will not be asked to pay a general fee.  These
+stocks will be provided free of charge.
+ </p>
+
+<p><LI> <b>Small quantity users.</b> If a laboratory orders 11 stocks
+from NASC but does not exceed 100 stocks, then they are considered a
+small quantity user. For orders from the ABRC, a small quantity user
+will be someone who orders more than 11 but less than 101 stocks in
+either the seed or DNA category.  Here, the classification is not
+based on the sum of seed and DNA stocks ordered, but rather on the
+larger order total of the two.</p>
+ 
+ 
+	<LI> <b>Large quantity users.</b>  If a laboratory orders from NASC at least 101 but does
+not exceed 200 stocks, then they are a large quantity user. Similarly, if a laboratory orders at least 101 from ABRC but does
+not exceed 200 stocks  in either the seed or DNA category, it
+is a large quantity user (with the higher of the two classifications
+determining the usage level).  
+</OL> 
+ 
+<P>For laboratories exceeding the 200-stock limit, proportional additional
+fees will be requested.
+</P> 
+ 
+<P> European users are expected to order and pay general fees through
+NASC and North American users are expected to order from and pay
+general fees to ABRC.  Laboratories in other locations may establish
+their primary affiliation with either center.  Users will need only to
+pay the annual fee to one centre for seeds.  If it becomes necessary
+to order from the second centre, there will be no additional charge.
+In such cases, the total number of stocks ordered at both centres will
+determine the general fee category.  However, DNA-only supplemental
+general affiliations to ABRC are available to NASC subscribers at 1/2
+the regular rates.  In no case will double (full) fees to ABRC and
+NASC be charged.  The pricing/fee structure for current stocks is
+outlined below: </P>
+
+
+<CENTER>
+<TABLE>
+
+<TR><th align=left colspan=2>NASC general fee for all users:</Th></tr>
+<TR><TH ALIGN=LEFT>High users:</TD><TD ALIGN=CENTER>260 pounds</TD> 
+<TR><TH ALIGN=LEFT>Low users:</TD><TD ALIGN=CENTER>130</TD>
+
+<TR><TH ALIGN=LEFT COLSPAN=2>ABRC general fee for all North and South American users:</TD>
+<TR><TH ALIGN=LEFT>High users:</TD><TD ALIGN=CENTER>$400</TD>
+<TR><TH ALIGN=LEFT>Low users:</TD><TD ALIGN=CENTER> 200</TD>
+ 
+ 
+<TR><TH ALIGN=LEFT COLSPAN=2>ABRC general fees for other users:</TH>
+  <TR><TH ALIGN=LEFT>Seed:</TD>
+        <TR><TH ALIGN=LEFT>High users:</TD>                     <TD ALIGN=CENTER>$400</TD>
+        <TR><TH ALIGN=LEFT>Low users:</TD>                      <TD ALIGN=CENTER>200</TD>
+
+  <TR><TH ALIGN=LEFT>DNA:</TH><TH ALIGN=LEFT>With NASC or ABRC seed subscription:</TH>
+<TH ALIGN=LEFT>Without any seed subscription:</TH>
+ 
+ 
+        <TR><TH ALIGN=LEFT>High users:</TH><TD ALIGN=CENTER>$200</TD>
+              <TD ALIGN=CENTER>$400</TD>
+ 
+        <TR><TH ALIGN=LEFT>Low users:</TD><TD ALIGN=CENTER>100</TD>
+                 <TD ALIGN=CENTER>200</TD>
+</TABLE>
+</CENTER>
+
+<P>The current stocks for which individual charges will be assessed are
+sets of T-DNA pools, recombinant inbred sets, large-insert libraries
+and filters, pooled DNA from large-insert libraries and pooled DNA from
+T-DNA lines.  The cost of these will be essentially proportional to the
+number of stocks in the group.  Ordering of these stocks does not
+require a general fee nor contribute to a laboratory's user size
+classification.
+</P> 
+ 
+<P>Shipping costs will be added to the invoice for all orders requiring
+special handling.
+</P>
+
+<H3>Invoicing information</H3>
+
+<P>The charging system was introduced on April 1, 1997.  From this
+date, you simply order stocks as previously, and we will send an
+invoice along with your stocks when you have qualified for a usage
+level and/or for stocks which have specific associated costs.  Please
+be sure to include the name of the person in charge of the laboratory
+on all orders, since we must have this information to process the
+order.  The period to which the first annual fee applies will extend
+through until April 30, 1998 ie an extra month for this first year.
+All questions regarding invoices should be directed to the appropriate 
+stock center.
+
+</P>
+<P>Payments to the ABRC should be made by cheque to The Ohio State
+University in U.S.  Dollars and for NASC the cheque should be made
+payable in Pounds Sterling to the University of Nottingham.  Note that
+for certain European Community countries a 17.5% Value Added Tax (VAT)
+will be added for NASC orders.  The general fees cover all individuals
+working in a single laboratory.
+</P>
+
+ 
+<P><b>NOTE</b>, that for any laboratory which needs a particular
+stock(s) but which cannot afford the associated charge, we will
+send the stock free of charge.  </P>
+
+ 
+<P>Our primary goal remains to serve Arabidopsis researchers, and the
+funds generated by this system will allow us to serve you even better.
+Feel free to contact either NASC or ABRC if you have questions or
+comments regarding this policy.  Since this represents a new dimension
+to our operations, we hope that you will be understanding as we
+implement this system.  We encourage any comments or suggestions you
+may have regarding these charges.  We are certain that improvements can
+be made as we gain experience.
+</P> 
+ 
+<P>The mailing addresses for payment of fees and questions about invoices
+are the same as for ordering stocks:
+<p>
+Arabidopsis Biological Resource Center<BR>
+Ohio State University<BR>
+309 Botany & Zoology Bldg.<BR>
+1735 Neil Avenue<BR>
+Columbus, OH 43210 USA
+</p>
+ <P>
+Nottingham Arabidopsis Stock Centre<BR>
+Department of Life Science<BR>
+University of Nottingham<BR>
+University Park<BR>
+Nottingham, NG7 2RD, U.K.
+</p>
+<TABLE>
+<tr>
+<td>Email</td><td>Web address</td></tr>
+<tr>
+<TD>NASC <A HREF="mailto:arabidopsis@nottingham.ac.uk">arabidopsis@nottingham.ac.uk</A></TD>
+ <TD><A HREF="http://nasc.nott.ac.uk/" target="_top">http://nasc.nott.ac.uk/</A></TD>
+</tr>
+<tr>
+<TD>ABRC <A HREF="mailto:arabidopsis+@osu.edu">arabidopsis+@osu.edu</A></TD>
+<TD><A HREF="http://aims.cps.msu.edu/aims/" target="_top">http://aims.cps.msu.edu/aims/</A></TD>
+</tr>
+   
+</TABLE> 
+<p> 
+Feel free to contact us at <A HREF="mailto:arabidopsis@nottingham.ac.uk">arabidopsis@nottingham.ac.uk</A> (NASC) or <A HREF="mailto:arabidopsis+@osu.edu">arabidopsis+@osu.edu</a> (ABRC),if you have questions.
+</P> 
+</blockquote> 
+</BODY>
+</HTML>
+
+
+genome_V.html010066400001470000012000000315160633610254300136310ustar00mikestaff00001250000004<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "mapping/mapping.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "town.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 6)
+		strng = 'Mapping of icr genes reveals that tt6 should be placed on Chromosome 5';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+<HEAD>
+    <TITLE>Plant and Animal Genome V  Arabidopsis Workshop</TITLE>
+</HEAD>
+<BODY bgcolor="#ffffff">
+<blockquote>
+<H2>Plant and Animal Genome V, San Diego, USA, January 12-16 1997<br>
+<i>Arabidopsis</i> Workshop</H2> <h3>The session was chaired by Renate
+Schmidt.<BR> Max-Delbrueck-Laboratorium in der MPG, Carl-von-Linne-Weg
+10, 50829 Koeln, Fed. Rep. Germany</h3><hr>
+<BR>
+This year the Plant Genome conference welcomed Animal Genomes. This
+increased the size and diversity of the meeting so that we could see
+interesting QTL analysis amongst ponies and pigs alongside wheat and
+barley. During this meeting there was a workshop devoted to our
+favourite plant, <I>Arabidopsis</I>. What follows is a short report of
+the workshop by the participating speakers and Mary Anderson.  <P>
+
+<hr>
+ <P>
+<A HREF="#Rounsley"><I>Arabidopsis</I> genomic sequencing at TIGR- Current
+status and goals for the future</A>: Steve Rounsley<BR>
+<BR>
+<A HREF="#Davis">Genomic analysis of <I>Arabidopsis thaliana</I></A>: Ron
+Davis<BR>
+<BR>
+<A HREF="#Delseney">The <I>Arabidopsis</I> EST Programme: Progress,
+Applications and Perspectives</A>: Michel Delseney<BR>
+<BR>
+<A HREF="#Retzel"> Plant EST Analysis: Biological Aspects</A> : Ernie
+Retzel<BR>
+<BR>
+<A HREF="#Martienssen"><I>Arabidopsis thaliana</I> genome analysis</A> : Dick
+McCombie and Rob Martienssen<BR>
+<BR>
+<A HREF="#Pereira">Targeted insertion mutagenesis with the En-I
+Transposon system in <I>Arabidopsis</I></A> : Andy Pereira<BR>
+<BR>
+<HR>
+<H3><A Name="Rounsley"><I>Arabidopsis</I> genomic sequencing at TIGR-
+Current status and goals for the future</A></H3> Steve Rounsley<BR>
+TIGR, 9712 Medical Center Drive, Rockville, MD 20850 
+<BR><BR>
+Steve Rounsley presented an overview of the approach that the TIGR
+group is taking to the sequencing of chromosome II.  Initial BAC
+clones that are distributed along the chromosome are selected for
+sequencing, and then other BAC clones that hybridize to the same CIC
+YACs are selected for end sequencing. These end sequences are then
+used to select the minimally overlapping clones for extending the
+sequence walk.  Steve described the different stages of the sequencing
+process (shotgun library production, high throughput sequences, and
+closure).  The final step in the process at TIGR is annotation.  Steve
+described their approach to annotation and stressed the need for
+providing supporting evidence for annotated genes.  The current status
+of the project was also presented, further progress can be tracked at
+the TIGR web site <A
+HREF="http://www.tigr.org/tdb/at/atgenome/atgenome.html" target="_top">http://www.tigr.org/tdb/at/atgenome/atgenome.html</a>
+<BR><BR>
+<HR>
+      <H3><A NAME="Davis">Genomic Analysis of <i>Arabidopsis thaliana</i></a></H3>
+
+Ron Davis<BR> Stanford DNA Sequence and Technology Center, 855
+California Avenue, Palo Alto, CA 94304, USA<BR>
+<BR>
+Ron Davis described how the recently formed SPP Consortium, composed
+of the Stanford DNA Sequencing and Technology Center, the Plant Gene
+Expression Center, and the University of Pennsylvania, had started
+sequencing on chromosome 1 of <i>Arabidopsis thaliana</i>.  Their
+strategy involves mapping BAC clones from the TAMU and IGF libraries
+to chromosome 1, followed by the construction of sequencing libraries
+in M13 and plasmid vectors. In addition, Ron described how they are
+developing a set of markers for <i>Arabidopsis thaliana</i> that can
+be analyzed in an automated, non-gel based manner. They have used
+denaturing high performance liquid chromatography (DHPLC), a novel
+mismatch detection technology, to identify over 200 single-nucleotide
+changes between the Columbia and Landsberg <i>erecta</i> strains of
+<i>A. thaliana</i>. Sequencing of these polymorphisms from both
+strains reveals a variety of substitutions and small deletions.  These
+markers will be the basis for the construction of an Affymetrix chip
+which can be used to integrate the physical and genetic map.  They are
+also initiating the arraying of <i>Arabidopsis</i> cDNAs on glass slides
+using a robotic arrayer developed at Stanford.  These arrays will be
+hybridized with two-colour fluorescent probes for expression analysis
+and for identification of insertion mutant alleles in T-DNA tagged
+<i>Arabidopsis</i> strains.
+<br>
+<BR>
+<hr> <H3><A NAME="Delseney"> The <i>Arabidopsis</i> EST Programme: Progress,
+Applications and Perspectives</a></H3> Michel Delseney<BR> LPBMV,
+Universite de Perpignan, 52, avenue de Villeneuve, 66860
+Perpignan-Cedex, France
+
+<br><br>Michel Delseney spoke about the ESSA (European Scientists
+Sequencing Arabidopsis) programme, which has contributed about half
+the non redundant <i>Arabidopsis thaliana</i> ESTs in dbEST. However, with
+approximately 30000 ESTs, increasing redundancy makes this strategy no
+longer cost effective to tag new genes. Analysis of the ESTs has
+produced some interesting findings. Using TIGR assembler, it has been
+possible to reconstruct about 12000 unique contigs. This is likely an
+overestimate of effectively tagged genes due to sequencing errors and
+non-overlapping ESTs which appear to tag different genes. Further, a
+detailed investigation of ESTs tagging ribosomal protein genes
+identified 104 full length cDNAs corresponding to 50 types of non
+ambiguously identified ribosomal proteins. They are coded by up to
+four members of small multigene families. Michel described how they
+have mapped about 600 ESTs corresponding to genes of interest to their
+labs (genes expressed in etiolated seedlings, genes for LEA proteins
+or protein kinases), combining classical RFLP or CAPS genetic mapping
+and physical mapping by PCR on the CIC YAC library 3-D pools. It is
+now clear that many genes in <i>Arabidopsis</i> are organised as mosaic
+structures with short exons and multiple introns. Michel also
+described some exciting work in which they have taken 1-2 % of ESTs
+showing conservation at the nucleotide level between <i>Arabidopsis</i> and
+rice and used them for comparative mapping analysis using common
+identified markers which are likely to exist in all plant species.
+<br>
+<BR>
+
+<HR>
+<H3><A NAME="Retzel">Plant EST Analysis: Biological Aspects</a></H3>
+Ernie Retzel<BR>
+Medical School, University of Minnesota, Minneapolis, MN 55455, USA<BR>
+<BR>
+Ernie Retzel discussed the biological aspects resulting from merging
+the data from the variety of plant EST and genomic sequencing
+projects.  Integrating the analytical data from the US and French
+<i>Arabidopsis</i> projects with the Japanese rice project and the
+USDA-IFG/North Carolina State University pine project has resulted in
+some tantalizing preliminary results on what may be specific to
+<i>Arabidopsis</i>, and, at the very least, allows commonalities across the
+evolutionary spectrum to be identified.  This information was developed
+from the results of Blastn self-comparisons, and the extraction of the
+results were from the relational database management system developed as
+part of the US/NSF-sponsored project, and are displayed as set of data
+common to all tested plants, to any pair of organisms, and those
+apparently unique to a genus.
+<BR><BR>
+In addition, new techniques for "clustering" of related sequences were
+described.  These techniques also involve large-scale self-comparisons
+of data sets, but extend the number of variables that are
+examined in a process in which the variables are simultaneously
+optimized and the results graphically displayed.  This process was
+tested using data which included the contigs generated by Steve
+Rounsley at TIGR, and the results reflected the very high stringency
+utilized to generate these contigs.  In addition, the visualization
+allows further insights into relationships not directly based on
+functional similarity.  This technique, as it develops, will break the
+ground for the exploration of higher order relationships of sequences.<BR>
+<BR>
+
+<a name="Martienssen"><hr> <h3><i>Arabidopsis thaliana </i> genome analysis</h3> Dick McCombie and
+Rob Martienssen <br>Cold Spring Harbor Lab, P. O. Box 100 , Cold
+Spring Harbor, NY, 11724, USA
+
+<br><br>Dick McCombie and Rob Martienssen made a joint presentation
+with Dick talking about the sequencing efforts and Rob about the
+targetted approach they are taking for gene discovery and the study of
+gene expression. The Cold Spring Harbor Group in collaboration with
+colleagues at Applied Biosystems and the Genome Sequencing Center at
+Washington University have begun by sequencing two areas on the short
+arm of chromosome IV.  They have continued sequencing on this
+chromosome and have also extended their efforts to chromosome V.
+While the initial sequencing was cosmid based they are primarily
+sequencing from bacterial artificial chromosome (BAC) based clones at
+the present time.  The sequencing strategy uses M13 shotgun sequencing
+and ABI automated sequencers.  The intention is to complete 6.5-7
+million bases by September of 1999.  They have already sequenced in
+excess of 250 kilobases from these regions. Sequence is made available
+to the community via the World Wide Web as it is generated, with no
+delay prior to public availability.  <br><br>
+
+Rob the described how they have developed an efficient gene and
+enhancer trap transposon mutagenesis system in <i>Arabidopsis</i> using the
+maize elements Ac/Ds and the reporter gene GUS.  More than 10,000
+insertions have been generated at random around the genome, and PCR
+amplification and sequencing of a few hundred insertion sites has
+revealed insertion into a wide variety of genes. Gene traps that lead
+to reporter gene expression are inserted in the correct orientation
+within the transcription unit, while enhancer traps are often found
+outside the transcribed region.  Gene disruptions in several known
+genes, such as HOOKLESS1 and AGL8 give rise to mutant phenotypes, and
+result in expected patterns of reporter gene expression.  By
+sequencing the insertion sites of many thousands of elements, they
+hope to develop a dense map of transposons whose locations are
+precisely known by comparison with the genomic sequence.  Because of
+the single copy nature of these insertions, they can be used as
+genetic landmarks to tie the sequence to the genetic map.  They can
+also be used for local saturation mutagenesis, and Rob's group has
+demonstrated this possibility around the prolifera locus on chromosome
+4.<br><br>
+<hr>
+
+<a name="Pereira"><h3>Targeted insertion mutagenesis with the En-I transposon system in
+<i>Arabidopsis</i>.</h3> Andy Pereira <br>Centre for Plant Breeding and
+Reproduction Research (CPRO-DLO), PO Box 16, 6700AA Wageningen, The
+Netherlands
+
+<br><br>Andy Pereira described how the maize Enhancer-Inhibitor (En-I
+or Spm-dSpm) transposable element system introduced into <i>Arabidopsis</i>
+displays continuous and frequent transposition. The transposon system
+consists of an En-transposase source under control of the CaMV35S
+promoter, which mediates `constitutive' transposition of the mobile
+I-elements throughout plant development and often leads to transposon
+multiplication. About 20 tagged mutants and 5 cloned genes have been
+isolated by a random tagging strategy. Andy also described how
+targeted tagging with linked I elements has been successful in the
+recovery of tagged Cer6 and Clv1 mutants. The numerous tagged mutants
+together with a resource of about 30 mapped I elements, now facilitate
+targeted tagging with linked transposons of specific genes with a
+distinguishable mutant phenotype. To produce a `mutation machine' in
+<i>Arabidopsis</i> and recover inserts in any gene of interest, this linked
+transposition behaviour was utilized to produce plant populations
+saturated for independent transpositions in specific chromosomal
+regions. Plant populations, with an I element transposing on
+chromosome 4, were organized in pools and the extracted DNA used for
+PCR screening with primers derived from sequenced genes in chromosome
+4. Many inserts were found in genes identified by the ESSA chromosome
+4 sequenced region. Target genes at different distances from the
+mapped I element, are being screened to estimate mutagenesis
+frequencies. For a `targeted gene inactivation' strategy of the whole
+genome, populations containing multiple (20-40 per plant) independent
+I element insertions, are produced which can be used for PCR screening
+of inserts in any gene.  <br><br>
+<hr>
+</blockquote>
+</BODY>
+
+</HTML>
+help.html010064400001470000017000000111500633602142600132150ustar00mikeukcrop00001250000004<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "Contents.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "Contents.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 6)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+<TITLE>Help Page for New WeedsWorld Layout ( 12-May-1997)</TITLE>
+<!-- Created by: Dr Mike Arnold, 29-Aug-1996 -->
+<!-- Changed by: Dr Mike Arnold,  12-May-1997 -->
+
+
+</HEAD>
+<BODY bgcolor=#ffffff>
+<BLOCKQUOTE>
+<center>
+<H1>Help Page for New WeedsWorld Layout</H1>
+</center>
+<hr>
+With the continued improvement in WWW client technology we are now able to bring an improved version of WeedsWorld. As with the Nottingham Arabidopsis Stock Centre Home Page, we have used "FRAMES", although this time the screen is split horizontally. The Navigation bar is co-ordinated using Javascript, which is supported by Netscape. I am currently unaware of any other browsers which support frames but do not support Javascript. If you have difficulties with the Navigation bar; you can't see it, it doesn't work or you get strange error messages, then I'd like to hear from you. Email me at <a href="mailto:mike@thale.nott.ac.uk">mike@thale.nott.ac.uk</a>.<p>
+<hr>
+The top frame contains a navigation bar with the following buttons.
+
+<center><table width=80%>
+<th colspan=2 align=left>Navigation buttons for WeedsWorld</th>
+<tr><td><img src="images/home4.gif" width=35 height=35></td><td align=left>This button always takes you back to the WeedsWorld Home Page</td></tr>
+<tr><td><img src="images/toc_bt.gif" width=35 height=35></td><td align=left>A contents page button. Selecting this button will take you to the contents page for the current issue of WeedsWorld.</td></tr>
+<tr><td><img src="images/ftp_btn.gif" width=35 height=35></td><td align=left>This button always takes you directly to the NASC  FTP server. From here you can download files relating to the Stock Centre and WeedsWorld.</td></tr>
+<tr><td><img src="images/btn-005.jpg" width=35 height=35></td><td align=left>This, and the right arrow, button are for navigating between the pages as if you were browsing the chapters in a book. The left arrow takes you to the previous article.</td></tr>
+<tr><td><img src="images/btn-006.jpg" width=35 height=35></td><td>Some articles in WeedsWorld have a multi-document structure. This button takes you to the contents page in such cases, to the current WeedsWorld Volume contents page in all other cases.</td></tr>
+<tr><td><img src="images/btn-008.jpg" width=35 height=35></td><td>The right arrow takes you to the next article. These are not the same as the BACK and the FORWARD buttons of the WWW client. The locations are set in the header of the incoming page, and as such are dictated by WeedsWorld editorial staff, not the WWW client.</td></tr>
+<tr><td><img src="images/btn-003.jpg" width=35 height=35></td><td>This button contains a permanent link to email the editor of WeedsWorld. Pressing this will launch the browsers email window so you can send comments to the editors of WeedsWorld.</td></tr>
+<tr><td><img src="images/btn-010.jpg" width=35 height=35></td><td>This button launches the help file you are now reading.</td></tr>
+<tr><td><img src="images/btn-011.jpg" width=35 height=35></td><td>A copyright declaration regarding the articles published in WeedsWorld.</td></tr>
+</table>
+</center>
+<hr>
+As you pass over each of the buttons, a short message is displayed in the status bar at the bottom of the browser. This gives some indication of the content of the next article. Other than the white backgrounds to the articles, which we feel makes the pages easier to read, there are no other changes to the layout of the newsletter. 
+<p>
+<table>
+<tr><td><a href="mailto:edito@thale.nott.ac.uk" border=0><img src="images/btn-003.jpg" width=35 height=35 wrap=right></a></td><td>Please feel free to comment on the changes, or anything else in WeedsWorld by pressing the mail button in the navigation bar.</td></tr>
+</table>
+
+<hr>
+This site is being developed for use using the latest in WWW client software, <A HREF="Netscape.html">as described in this issue of WeedsWorld</A>, and we recommend the use of Netscape Navigator version 2.0 or above for viewing these pages.
+
+
+</BLOCKQUOTE>
+</BODY>
+morris.html010066400001450000012000000107100633610271500134200ustar00marystaff00001250000004 <html>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "prakash.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "charging.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Towards the development of cold tolerant plants';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 6)
+		strng = 'Stock Centers obtain further funding and introduce user fees';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+<head>
+<title>AREST:  Arabidopsis Related ESTs</title>
+</head>
+<body bgcolor="#ffffff">
+<blockquote>
+<h2><a href="http://weeds.mgh.harvard.edu/arest/" target="_top">AREST:</a> Arabidopsis Related ESTs</h2>
+
+John W. Morris<br>
+Department of Molecular Biology, Massachusetts General Hospital, Boston, MA 02114. USA<br>
+Fax 617-726-6893 <br>
+<A HREF="mailto:john.morris@frodo.mgh.harvard.edu">email john.morris@frodo.mgh.harvard.edu</a>
+
+<hr>
+
+With the growing number of EST sequences available through the NCBI's
+<a href="http://www.ncbi.nlm.nih.gov" target="_top">GenBank</a>, it is becoming
+easier to go prospecting for related genes in other model organisms.
+The AREST web site was inspired by a presentation at Massachusetts
+General Hospital by the guest lecturer Dr. Andrea Ballabio on the
+extensive <a
+href="http://www.tigem.it/LOCAL/drosophila/dros.html" target="_top">Drosophila
+Related EST (DREST)</a> resource.  The AREST site like the DREST site,
+shows blast sequence matches to translated EST sequences.  The DREST
+site shows matches of Drosophila genes against human ESTs, while AREST
+shows <i>Arabidopsis</i> genes matched against four animal species; human,
+mouse (<i>Mus musculus</i>), fly (<i>Drosophila melanogaster</i>) and nematode
+(<i>Caenorhabditus elegans</i>).
+<p>
+Rather than selecting genes with known mutant phenotypes, as in the
+DREST database, AREST sequences were selected from the all the
+<i>Arabidopsis</i> sequences in GenBank having both a defined coding
+sequence (CDS) and a Medline accession.  This reduced the
+approximately 31,000 <i>Arabidopsis</i> sequences in GenBank down to 806.
+These 806 sequences were matched against the ESTs in GenBank using
+network tblastn, and the results for the four species above were
+reformated into HTML for the web display.
+<p>
+The advantage of the AREST web display over the standard blast output
+is that in the case where several sequences match a particular region
+of a sequence of interest, all the matches are lined up as a group.
+One can see clearly the more conserved and variable domains, as shown
+in the figure below. <p>
+<img src="images/arest.gif">
+
+<p>
+(Exact match = underscore '_', Conservative match
+= blue-green font, Nonconservative match = red font)
+ 
+<p>
+<b>Limitations</b>
+<p>
+1.  The AREST displays are meant only to stimulate your interest.  They are
+built from the tblastn reports and so they are unlikely to contain the
+entire sequence of the match.  If you find a set of sequence
+alignments of interest, download the sequences from GenBank and try
+the alignment independently before you cut and paste it from the AREST
+display into your next publication or proposal.
+<p>
+2.  Maybe your sequence of interest wasn't included in the set of 806.
+If this is the case, you can create a somewhat similar display using
+"power blast" software from NCBI which has a HTML output option.  With
+the help of a web browser, you can view the stacked alignment of
+matching sequences as shown in the figure below for a blastn
+alignment.  <a href="ftp://ncbi.nlm.nih.gov/pub/sim2/PowerBlast/">
+Software is available</a> for Windows, Mac and some UNIX operating
+systems.
+<p>
+<img src="images/arest.pb.gif">
+<p>
+<b>Future Direction</b>
+<p>
+AREST began life as a fun afternoon exercise following a noon seminar
+by Dr Ballabio, and has grown since then.  The hope is that AREST
+pages will expand to look at human (and mouse?) CDSs matched against
+<i>Arabidopsis</i> ESTs.  Those blast reports may better define some
+<i>Arabidopsis</i> genes.  However, there are hardware and software
+difficulties to overcome before that happens. So, please
+visit the site <a href="http://weeds.mgh.harvard.edu/arest/" target="_top">http://weeds.mgh.harvard.edu/arest/</a> periodically to check on progress.
+</blockquote>
+</body>
+</html>
+
+
+
+
+
+velopment of cold tolerant plants';
+	   else if (id == 5prakash.html010066400001470000012000000117160633610235200135210ustar00mikestaff00001250000004<html>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "town.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "morris.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Mapping of icr genes reveals that tt6 should be placed on Chromosome 5';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 6)
+		strng = 'AREST: Arabidopsis Related ESTs';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+
+<TITLE>Towards The Development of Cold Tolerant Plants</TITLE>
+</HEAD>
+
+<BODY bgcolor="#ffffff">
+<blockquote>
+<h1>Towards The Development of Cold Tolerant Plants</h1>
+
+C. S. Prakash<br>                     
+Center for Plant Biotechnology Research, College of Agricultural, Env and Nat Sci. , Tuskegee University, Tuskegee, AL 36088, USA<br><a href="mailto:Prakash@acd.tusk.edu">Prakash@acd.tusk.edu</a>
+<p>
+(Reprinted from January 1997 issue of ISB News Report (<a href="http://www.nbiap.vt.edu" target="_top">http://www.nbiap.vt.edu</a>)
+<hr>
+      <p>Any farmer or home gardener in the temperate region knows well one
+cold fact about the winter: freezing temperatures can kill most plants!
+Cold temperatures are a major environmental constraint in improving the
+crop productivity in these areas.  Classical plant breeding has had limited
+success in imparting cold hardiness to crop plants.  Little is understood
+as to why some plant species tolerate cold better than others.
+Biotechnology with its powerful tools however may provide answers through
+the isolation of cold-fighting genes and thus may help in the development
+of  crop plants that can withstand frigid temperatures.  This optimism is
+supported by a recent publication from Michael Thomashow's group at
+Michigan State University (1) which provides some valuable insights into
+how plants respond to cold temperatures.  The research shows for the first
+time that freezing tolerance can be enhanced in plants through an insertion
+of a single gene involved in cold-acclimation.</p>
+
+      <p> Mike Thomashow's strategy has been to understand 'cold
+acclimation', a process where plants exposed to low, non-freezing
+temperatures somehow learn to put up with subsequent freezing temperatures.
+For instance, 'cold-acclimated' rye plants can survive temperatures of up
+to -30C!   The underlying reasons for this phenomenon  appears to be
+complex but it is known that cold acclimation is controlled by many genes
+and that cell membranes are particularly vulnerable to cold damage.
+Thomashow and colleagues have isolated many genes that are turned on during
+cold acclimation in <i>Arabidopsis</i>.  One
+such gene is COR15a  which is speculated to have a role in freezing
+tolerance.</p>
+
+      <p> The Michigan group developed transgenic <i>Arabidopsis</i> plants
+expressing the COR15a  gene in a constitutive manner.  In regular plants
+this gene is turned on only through cold acclimation while the transgenic
+plants showed COR15a  gene product in both cold-acclimated and non
+acclimated plants.  Chloroplasts in leaves of transgenic plants showed
+reduced damage to freezing temperatures when compared to those from the
+control plants.  Further, in collaboration with Peter Steponkus and
+colleagues at Cornell University, it was found that protoplasts isolated
+from transgenic plants survived better at subzero temperatures (18% better
+survival at -6.5C) than the control.  Although the COR15a  gene produces a
+chloroplast-targeted protein, the results indicate that the expression of
+gene may also affect other cellular functions including improving the
+cryostability of the plasma membrane.</p>
+
+      <p>The COR15a  gene enhanced the freezing tolerance of chloroplasts in
+engineered plants by almost 2C which was nearly one-third of the increase
+seen due to cold-acclimation.  While this might not appear as a large
+increase, an improvement of freeze tolerance by 2C could potentially
+benefit certain crop plants, argue Artus <i>et al</i>.  There are many more COR
+genes known to scientists and if one stacks them up together in a plant,
+even more dramatic tolerance to cold especially at the whole plant level
+may be achieved, according to Thomashow.  Ongoing research in Michigan lab
+is striving to further understand the intricacies of plant gene expression
+in response to freezing temperatures and this knowledge may empower
+scientists to develop crop plants which can brave the cold.  Clearly, the
+molecular biology has the potential to help plants and farmers beat the
+winter blues.
+	  </p>
+<h3>Reference</h3>
+	  Artus, N. N. <i>et al.</i> 1996. Constitutive expression of the cold-regulated
+<i>Arabidopsis thaliana</i> COR15a gene affects both chloroplast and protoplast
+freezing tolerance. Proc. Natl. Acad. Sci. 93: 13404-13409.
+
+
+</blockquote>
+</body>
+town.html010066400001470000012000000156000633604230300130520ustar00mikestaff00001250000004  <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "genome_V.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "prakash.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Plant and Animal Genome V - Arabidopsis Workshop';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 6)
+		strng = 'Towards the development of cold tolerant plants';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+  <head>
+    <title>Mapping of icr genes reveals that tt6 should be placed on Chromosome 5</title>
+  </head>
+
+  <body bgcolor="#ffffff">
+    <blockquote>
+
+      <h1>Mapping of icr genes reveals that tt6 should be placed on Chromosome 5</h1>
+    
+James J. Campanella(1), Weiqin Dong and Christopher D. Town<br> Biology
+Department, Case Western Reserve University, Cleveland, OH 44106.<br>(1)
+Current address: Department of Biological Sciences, Lehigh University,
+Bethlehem, PA 18015.
+<hr>
+      <p>We recently described the identification of two genes, icr1
+      and icr2, mutations which confer increased resistance to growth
+      inhibition by amino acid conjugates of indole-3-acetic acid
+      (IAA) <a href="#campanella">(Campanella <i>et al</i>.,
+      1996)</a>. In a cross between icr1 and MSU25 (er, gl1, hy2,
+      tt6), we found that icr1 was linked to tt6, but not to hy2 or
+      gl1.  We then used RFLP, CAPS <a href="#konieczny">(Konieczny
+      and Ausubel, 1993)</a> and SSLP <a href="#bell">(Bell and Ecker,
+      1994)</a> markers to more precisely locate icr1. Surpringly, we
+      found that neither icr1 nor tt6 were linked to either pCIT1210
+      or nga6, both located close to the stated position of tt6 on the
+      unified map (Table 1).
+
+
+</p>
+
+<center>
+      <table align=center>
+	<tr><td colspan=2 bgcolor="#cccccc"><font color="#790000"><b>Table 1. Linkage between icr1, tt6 and markers on Chromosome 3</b></font></td></tr>
+	<tr><th align=left>Loci Examined</th><th align=left> r &plusmn; S.E.1</th></tr>
+	<tr><th align=left>tt6/icr1</th><td>        0.12 &plusmn; 0.07</td></tr>
+	<tr><th align=left>pCIT1210*/gl1</th><td>    0.12 &plusmn; 0.08</td></tr>
+	<tr><th align=left>gl1/nga6</th><td>         0.19 &plusmn; 0.01</td></tr>
+	<tr><th align=left>pCIT1210/nga6</th><td>    0.02 &plusmn; 0.02</td></tr>
+	<tr><th align=left>icr1/nga6 </th><td>       0.33 &plusmn; 0.10</td></tr>
+	<tr><th align=left>icr1/pCIT1210</th><td>    0.35 &plusmn; 0.10</td></tr>
+	<tr><th align=left>tt6/pCIT1210</th><td>     0.50 &plusmn; 0.13</td></tr>
+	<tr><th align=left>tt6/nga6</th><td>         0.46 &plusmn; 0.19</td></tr>
+	
+      </table> 
+</center>
+
+      <p>(*Using XbaI, pCIT1210 detects a polymorphism between Ws-2
+      and Landsberg erecta. Using a set of SSLP markers covering the remaining
+      four chromosomes, both icr1 and tt6 were found to be linked to
+      nga 151, which is located near the top of chromosome 5. (Table
+      2). Correspondence with Dr. Maarten Koornneef revealed that the
+      original placement of tt6 on chromsome 3 was based on loose
+      linkage to gl1 (38cM), and is thus not inconsistent with our
+      current observations. We therefore believe that tt6 and icr1
+      should be placed above nga 151 on chromsome 5.</p>
+
+
+<center><table align="center">
+<tr><td colspan=2 bgcolor="#cccccc"><font color="#790000"><b>Table 2 Linkage between icr1, tt6 and markers on Chromosome 5</b></font></td></tr>
+<tr><th align="left">Loci Examined</th><th align="left">   r &plusmn; S.E.</th></tr>
+<tr><th align="left">nga225/icr1</th><td>     0.31 &plusmn; 0.05</td></tr>
+<tr><th align="left">nga225/tt6</th><td>      0.24 &plusmn; 0.05</td></tr>
+<tr><th align="left">nga158/icr1</th><td>     0.30 &plusmn; 0.05</td></tr>
+<tr><th align="left">nga158/tt6</th><td>      0.23 &plusmn; 0.05</td></tr>
+<tr><th align="left">nga158/nga151</th><td>   0.19 &plusmn; 0.05</td></tr>
+<tr><th align="left">icr1/tt6</th><td>        0.18 &plusmn; 0.05</td></tr>
+<tr><th align="left">icr1/nga151</th><td>     0.42 &plusmn; 0.08</td></tr>
+<tr><th align="left">tt6/nga151</th><td>      0.44 &plusmn; 0.10</td></tr>
+<tr><th align="left">nga225/nga158</th><td>   0.09 &plusmn; 0.02</td></tr>
+<tr><th align="left">nga225/nga151</th><td>   0.19 &plusmn; 0.05</td></tr>
+	
+</table>
+</center><p>
+Similar mapping of icr2 places this marker towards the bottom of chromosome 
+5 (Table 3).<p>
+
+
+	<center>
+      <table>
+	<tr><td colspan="2" bgcolor="#cccccc" ><font color="#79000"><b>Table 3 Linkage between icr2 and markers on Chromosome 5</b></font></tr></td>
+	<tr><th align="left">Loci Examined</th><th align="left">   r &plusmn; S.E.</th</tr>
+	<tr><th align="left">icr2/DFR </th><td>       39 &plusmn; 13</td></tr>
+	<tr><th align="left">icr2/LFY3</th><td>       29 &plusmn; 8</td></tr>
+	<tr><th align="left">icr2/ILL1/2 </th><td>    14 &plusmn; 6</td></tr>
+	<tr><th align="left">icr2/g2368</th><td>      15.7 &plusmn; 6.5</td></tr>
+	<tr><th align="left">icr2/CATHANKA</th><td>   26 &plusmn; 8</td></tr>
+	<tr><th align="left">cathanka-g2368</th><td>  12&plusmn;4</td></tr>
+	<tr><th align="left">cathanka-ill1/2</th><td> 25 &plusmn; 6</td></tr>
+	<tr><th align="left">g2368-ill1/2 </th><td>   12 &plusmn; 4</td></tr>
+	
+      </table>
+    </center>
+
+      <p>We would like to point out that these map locations are not
+      precise, since due to the incomplete dominance of both icr1 and
+      icr2, it is sometimes difficult to distinguish heterozygotes
+      from homozyotes. We report here the re-location of tt6 since it
+      may have bearing on the research of other groups <a href="#pelletier">(e.g. Pelletier
+      <i>et al</i>., 1997)</a>. We have included our current data on icr1
+      and icr2 since we are not pursuing this at present and the
+      information may be of interest to others.
+</p>
+      <h3>Literature Cited</h3>
+
+<a name="bell">Bell, C.J. and Ecker, J.R. (1994) Assignment of 30 Microsatellite Loci to 
+the Linkage Map of <i>Arabidopsis</i> . Genomics <b>19</b>137-144.<p>
+<a name="campanella">Campanella, J.J., Ludwig-Mueller, J and Town, C.D. (1996). Isolation and 
+Characterization of Mutants of <i>Arabidopsis thaliana</i> with Increased 
+Resistance to Growth Inhibition by IAA-amino acid Conjugates. Plant Physiol. 
+<b>112</b> 735-745.<p>
+<a name="konieczny">Konieczny A. and Ausubel, F.M.  (1993). A Procedure for Mapping <i>Arabidopsis</i> 
+Mutations Using Co-dominant Ecotype-specific PCR-based Markers. Plant J. <b>4</b>
+403-410.<p>
+<a name="pelletier">Pelletier, M.K., Murrell, J.R., Shirley, B.W. (1997). Characterization of 
+flavonol synthase and lecuoanthocyanidin dioxygenase genes in <i>Arabidopsis</i>. 
+Plant Physiol. (in press).
+
+
+      
+
+
+      <hr>
+	  </blockquote>
+  </body> 
+</html>
+
+nt observations. We therefore believe that tt6 and icr1
+      should be placed above nga 151 on chromsome 5.</p>
+
+
+<center><tablmapping/Chromosome5.html010066400001470000012000000020430633610225200157130ustar00mikestaff00001250000004<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "/Vol3iii/mapping/Chromosome4.html";
+	   else if (page == 5)
+		page_title = "/Vol3iii/mapping/mapping.html";
+	   else if (page == 6)
+		page_title = "/Vol3iii/mapping/Chromosome1.text.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Chromosome 4 Graphical map';
+	   else if (id == 5)
+		strng = 'The latest Lister and Dean RI maps';
+	   else if (id == 6)
+		strng = 'Chromosome 1 Graphical map';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+<TITLE>Latest RI Map of Chromosome 5 ( 12-May-1997)</TITLE>
+<!-- Created by: Dr Mike Arnold, 29-Aug-1996 -->
+<!-- Changed by: Dr Mike Arnold,  3-Sep-1996 -->
+
+
+</HEAD>
+<BODY bgcolor=#ffffff>
+<blockquote>
+<H1>Latest RI Map of Chromosome 5 - May 1997</H1>
+<hr>
+<img src="chromosome5.gif">
+<hr>
+
+</blockquote>
+
+</BODY>
+</HTML>

@@ -1,0 +1,184 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>
+BioCyc Query Page Help
+</title>
+<!-- Changed by: Suzanne Mercer Paley,  9-Dec-2002 -->
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<H1>Query Page Help</H1>
+
+The Pathway Tools <A
+href="server.html">Query Page</A>
+is organized into several sections that support different types of
+queries to a Pathway/Genome Database such as EcoCyc.  Each type of query can be
+thought of as a different form of entry to the database.  <P>
+
+This help page describes each form of entry by using the same
+structure as the Query Page itself.<P>
+
+<HR>
+<H2>Select a Dataset</H2>
+<UL>
+<LI> The dataset selector lets the user choose the dataset (database)
+to be queried.  In most cases, a dataset describes a single
+organism -- the exception is the MetaCyc dataset, which includes
+experimentally-derived data from many organisms.
+<p>
+<LI> In some Pathway Tools configurations, only a single dataset will be available.
+</UL>
+
+
+<HR>
+<a name=substring>
+<H2>Query</H2>
+</a>
+<UL>
+<LI> This pull-down menu allows you to specify which type of objects you
+would like to search.  Usually you will search for entries which
+include your key words in their name. In addition, in the case of
+reactions or enzymes, you may also type in the E.C. (Enzyme
+Commission) number associated with the reaction or enzyme.
+<P>
+Here are a few rules that will enhance your searches:
+<P>
+
+<UL>
+<LI> To match several words or text-fragments simultaneously, type in the words separated
+by commas. For example, if you choose <b>Pathway (by name)</b> and
+enter <b>nitrate camphor</b>, the program will search for a single
+pathway that has both <b>nitrate</b> and <b>camphor</b> in its
+name. However, entering <b>nitrate, camphor</b> would result in a
+search for pathways which have either <b>nitrate</b> or
+<b>camphor</b> in their names.
+<P>
+<LI> If your query text is one or two characters in length, only exact text
+matches will be returned because of the many matches that would
+otherwise result.  For longer text fragments, the search will
+return all
+objects that contain the text rather than match it exactly.
+<P>
+<LI> If the query returns a single object, that object will be displayed
+immediately. If the query returns more than one object, their names
+will be listed. Click on the name of the desired object to display it.
+<P>
+<LI> To display a map of a given chromosome, select the desired chromosome
+by name, and then either:
+<P>
+<UL>
+<LI> Click Submit immediately, in which case a low-resolution view of
+the chromosome will be displayed.  or
+<P>
+<LI> Type a gene name in the text field and click <b>Submit,</b> in which
+case the chromosome viewer will zoom in on the desired gene.  In
+either case, you may zoom in on any region of a chromosome map by
+clicking on one of the horizontal tick marks on the chromosome itself,
+to indicate the region you wish to zoom in on.
+</UL>
+</UL>
+<P>
+Here are a few examples you can try to become familiar with the interface. 
+Choose the <i>E. coli</i> K12 dataset (the EcoCyc database), then: 
+<UL>
+<LI> Select the type <b>Gene</b> and enter the text <b>trp</b>
+<LI> Select <b>Chromosome</b> and enter the text <b>sdhA</b> 
+<LI> Select the type <b>Protein</b> and enter the text <b>pyruvate</b> 
+<LI> Select the type <b>Reaction</b> and enter the text <b>2.7.1.40 </b>
+<LI> Select the type <b>Compound</b> and enter the text <b>glucose</b> 
+<LI> Select the type <b>Pathway</b> and enter the text <b>biosynthesis</b> 
+</UL>
+<P>
+This section allows you to query a specified type of object (such as
+genes) or all object types (genes, pathways, proteins, etc) using a
+text search against the names of all objects of that type, or by
+specifying the EC number for reactions or proteins.  For text
+searches, all names that contain the supplied text will be matched.
+
+<HR>
+<a name=hierarchy>
+<H2>Browse Ontology</H2>
+</a>
+
+What is an ontology? It is a carefully constructed vocabulary of
+terms, often called a controlled vocabulary.  The terms are organized
+into a classification hierarchy (also called a taxonomy).  Ontologies
+can be used to browse and search for objects by drilling down from
+more general categories to more specific ones.  Each Pathway/Genome
+Database contains several ontologies.  <P>
+
+What are ontologies good for? Let's say that you would like to see all the enzymes that can break a carbon-nitrogen bond in <i>E. coli.</i>
+
+<UL>
+<LI> In the <b>Select a dataset</b> box, choose the <b>E. coli K12</b> dataset
+<P>
+<LI> In the <b>Browse Ontology</b> box, choose <b>EC hierarchy</b> and click <b>submit</b>
+<P>
+<LI> Scroll down to <b>4 -- LYASES</b> and click on the <b>+</b> next to it
+<P>
+<LI> Click on the <b>+</b> next to <b>4.3 -- CARBON-NITROGEN LYASES</b>
+<P>
+<LI> The screen now shows the following classes:
+<P>
+<UL>
+<LI> <b>4.3.1 -- AMMONIA-LYASES</b>
+<LI> <b>4.3.2 -- AMIDINE-LYASES</b>
+<LI> <b>4.3.3 -- AMINE-LYASES </b>
+<LI> <b>4.3.99 -- OTHER CARBON-NITROGEN-LYASES </b>
+</UL>
+<P>
+<LI> Click on any of these child classes to see the list of enzymes. For example, clicking on <b>4.3.1 -- AMMONIA-LYASES</b>  will show five such instances in the form of the reaction catalyzed by the enzyme:
+<P>
+<UL>
+<LI> <b>4.3.1.1: L-aspartate = fumarate + NH3</b>
+<LI> <b>4.3.1.7: ethanol-amine = acetaldehyde + NH3</b>
+<LI> <b>4.3.1.8: H2O + 4 porphobilinogen = 4 NH3 + hydroxymethylbilane</b>
+<LI> <b>4.3.1.15: 2,3-diaminopropionate + H2O = 2 NH3 + pyruvate </b>
+<LI> <b>4.3.1.19: L-threonine = 2-oxobutanoate + NH3 </b>
+</UL>
+<P>
+<LI> Clicking on any of these reactions will open the reaction page. Notice that the enzyme catalyzing the reaction is listed at the top of the page, above the frame containing the reaction. Clicking on the enzyme name will open the enzyme page, with information about the enzyme.
+</UL>
+
+
+<HR>
+<H2>Choose from a List of Pathways or Proteins or Compounds or Genes</H2>
+
+Clicking on this link will open a complete listing of all
+the pathways, proteins, chemical compounds, or genes in the current
+dataset.
+<P>
+
+
+<HR>
+<H2>Links to Summary Information About the Selected Organism</H2>
+
+This section contains links to other WWW pages describing the selected dataset.<P>
+
+<UL>
+<LI> The <b>Summary</b> page provides statistics about the dataset.
+<P>
+<LI> The Cellular <b>Overview</b> Diagram shows the full metabolic map of the selected dataset, and for some datasets, the transport proteins.  The Omics Viewer allows you to paint your own gene expression, protein expression, or metabolomics data onto the Overview Diagram.
+<P>
+<LI> The <b>History of updates to this dataset</b> page contains release notes and version information about the dataset.
+<P>
+<LI> The <b>PathoLogic pathway analysis</b> pages describe the evidence found
+for each pathway predicted to be in the dataset, if the dataset was created
+using the PathoLogic pathway-prediction program.
+</UL>
+
+<HR>
+<H2>BLAST Search</H2>
+
+This facility (not available for all organisms) allows you to perform
+sequence-similarity searches using the 
+<A href="http://ncbi.nlm.nih.gov/BLAST/">BLAST</A> program to compare your
+protein or nucleic acid sequence against the complete genome of a
+selected dataset.
+
+
+
+<!--#include virtual="/template-part3of3.shtml" -->

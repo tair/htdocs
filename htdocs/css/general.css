@@ -1,0 +1,60 @@
+
+body	{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+			font-size: 12pt;
+			background-color: #ffffff;
+		}
+a:link	{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+			font-size: 12pt;
+			color: #000066;
+		}
+a:visited	{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+				font-size: 12pt;
+				color: #000066;
+			}	
+td	{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+		font-size: 12pt;
+	}
+	
+small	{	font-size: 10pt;	}
+.abstract	{	font-size: 10pt;}	
+
+.tiny	{	font-size: 10pt;	}
+.tinyg	{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+            font-size:10pt;
+            color: #cccccc;
+		}
+.ft_a		{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+            	font-size:12pt;
+				font-weight: bold;
+            	color: #660033;
+			}
+.ft_r		{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+            	font-size:12pt;
+				font-weight: bold;
+            	color: #000066;
+			}
+.ft_s		{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+            	font-size:12pt;
+				font-weight: bold;
+            	color: #336699;
+			}
+					
+.header	{	font-size: 14pt;
+			font-weight: bold;	}
+
+.title	{	font-size: 16pt;
+			font-weight: bold;
+		}
+.huge	{	font-size: 18pt;
+			font-weight: bold;
+		}
+.navbl	{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+			font-size:10pt;
+			color: #000066;
+		}
+
+.navab	{	font-family: Times, Helvetica, Zurich, Verdana, Arial, Sans-serif;
+			font-size:12pt;
+			font-weight: bold;
+			color: #cccccc;
+		}

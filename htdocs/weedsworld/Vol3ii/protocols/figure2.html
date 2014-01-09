@@ -1,0 +1,60 @@
+<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "protocols/figure1.html";
+	   else if (page == 5)
+		page_title = "sol-modGFP.html#figure2";
+	   else if (page == 6)
+		page_title = "protocols/figure3.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Figure 1';
+	   else if (id == 5)
+		strng = 'Back to protocol';
+	   else if (id == 6)
+		strng = 'Figure 3';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+<TITLE>Figure 2 ( 5-Sep-1996)</TITLE>
+<!-- Created by: Dr Mike Arnold, 29-Aug-1996 -->
+<!-- Changed by: Dr Mike Arnold,  5-Sep-1996 -->
+
+
+</HEAD>
+<BODY bgcolor=#ffffff>
+<BLOCKQUOTE>
+<table width=80% align=center>
+<th align=left>Figure 2</th>
+<tr><td><img src="figure2.gif"></td></tr>
+<tr><td>Image of a trichome cell from the first true leaf of an <I>A. thaliana</I> seedling using a FITC filter set (470-490nm excitation, 505nm dichroic mirror, 515-550nm emission).<br></td></tr>
+</table>
+</BLOCKQUOTE>
+</BODY>

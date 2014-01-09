@@ -1,0 +1,96 @@
+<TITLE>Arabidopsis EST Analysis</TITLE>
+<IMG SRC="banner1.gif">
+<hr>
+
+<H2>Protocol for Assembly of <i>Arabidopsis</i> ESTs and Transcripts</H2>
+<p><p>
+<B>Preparation of EST data </B>
+ <p>
+ <ul>
+ <li>Sequences were extracted from the dbEST public Sybase server.
+
+ <li>Sequences were subjected to quality control screening 
+ <br>(vector, polyA, T, or CT removal, min length criteria, percent_N criteria) 
+</ul><p>
+<B>Preparation of non-redundant transcript database</B>
+<p>
+<ul>
+<li>All <i>Arabidopsis</i> sequences in the PLANT division of GenBank were extracted.
+<li>Non-coding sequences were discarded.
+<li>Coding sequences from genomic entries were extracted.
+<li>Redundant entries for the same gene were removed, retaining link to accession number.
+<li>822 transcript sequences were used from 1314 entries extracted
+from GenBank.
+</ul>
+<p>
+<B>Assembly</B>
+<p>
+<ul><li>Cleaned EST sequences and non-redundant transcript sequences were combined.
+<li>Using TIGR Assembler sequences were assembled into contigs.  Strict criteria help minimize the creation of chimeric contigs.  These contigs are assigned a TC (Tentative Consensus) number.
+</ul>
+<p>
+
+<center><table border=2 cellpadding=3>
+        <tr><th colspan=3>Summary of Assembly Results for Release 1.0 
+        <tr><td rowspan=2 align = center><B>23921</B> EST sequences input<br> following quality control.
+       <td align = center><B>3764</B> assemblies produced, <br>containing <b>15218</b> ESTs (<b>63.6%</b>).</td>
+        <tr><td align = center><B>8703</B> 'singletons' remained (<b>36.4%</b>).</TD>
+</table>
+</center>
+<p>
+<B>Name Assignment</B>
+<p>
+Names are assigned on the basis of the results of sequence similarity searches against
+ protein and nucleotide databases.  Only 'significant' matches are assigned names.  The match is categorized in 4 different classes.  
+<ul>
+<li>Class 1: An exact match against a known <i>Arabidopsis</i> coding sequence.
+<li>Class 2: A non exact match against a known <i>Arabidopsis</i> coding sequence.
+<li>Class 3: A non exact match against a non-<i>Arabidopsis</i> coding sequence.
+<li>Class 4: Various forms of contamination.  (<i>E. coli</i> sequences, rRNA genes etc)
+</ul>
+
+Name assignment for singleton ESTs is automatic.  The results of blastx
+ searches stored in dbEST are parsed, and the name of the top scoring protein
+ match is stored if the score is above a threshold of 90.  These matches, because they are not manually inspected, are not assigned a class category. 
+<p>
+
+
+<center><table border =2>
+	<tr><th colspan=4>Name Assignment Summary
+        <tr><td rowspan=7 align=center> TCs
+	<td colspan=3 ><B>1826</b> assemblies (<b>48.5%</B>) have been assigned putative IDs. 
+	<tr><th align = center>Class
+	    <th align = center>Assemblies
+	    <th align = center>ESTs
+	<tr><td align = center>1
+	    <td align = center>641 (17%)
+	    <td align = center>4275 (28%)
+	<tr><td align = center>2
+            <td align = center>279 (7.4%)
+            <td align = center>1286 (8.5%)
+	<tr><td align = center>3
+            <td align = center>888 (23.6%)
+            <td align = center>3808 (25%)
+	<tr><td align = center>4
+            <td align = center>18 (0.5%)
+            <td align = center>71 (0.5%)
+	<tr><td align = center>No Match
+            <td align = center>1938 (51.5%)
+            <td align = center>5778 (38%)
+        <tr>
+        <tr><td rowspan=5 align=center>Singletons<br> (IDs parsed<br> automatica
+lly<br> from dbEST)
+        <td rowspan=1 align=center>Significant Hit
+            <td align=center>2446 (32%)
+            <td rowspan=3><img src="arab.li.gif"></td>
+        <tr><td align=center>No Significant hits
+            <td align=center>5175 (68%)
+        <tr><td align=center>No data available
+            <td align=center>1082
+
+</table>
+<hr>
+<p>
+<center><a href="tutorial_top.html">Back to the tutorial</a>
+</center>
+

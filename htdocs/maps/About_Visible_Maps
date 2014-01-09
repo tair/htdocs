@@ -1,0 +1,52 @@
+	Current Map of Visible Markers of Arabidopsis thaliana
+				   
+		 Explanation of Attached Information
+				   
+		     David Meinke and Mike Cherry
+				   
+			  December 15, 1992
+				   
+The attached map of visible markers was constructed by JOINMAP, a
+computer mapping program written by Piet Stam (Wageningen Agricultural
+University).
+
+Only pairwise recombination estimates for visible markers were used to
+make this particular map.  Most of the recombination data were
+supplied by Maarten Koornneef and David Meinke.
+
+Molecular data involving RFLP markers and recombinant inbred lines
+were excluded from this map because their inclusion resulted in maps
+that were inconsistent with available data for visible markers.
+
+This map should be viewed as simply an estimate of gene locations
+based on available genetic data.
+
+In most cases, the orientation of closely-linked genes has not been
+clearly established.
+
+Mean chi-square values are reported by JOINMAP as each marker is added
+to the map.  Higher values indicate more contradictions and therefore
+greater uncertainty in map location.  The first two markers placed by
+JOINMAP on each linkage group have mean chi-square values of 0.000.
+
+Fixed gene orders used by JOINMAP in map preparation are listed below
+(orientations are based on 3-point data unless otherwise noted):
+
+______________________________________________________________________________
+
+Chromosome 1:  an     act1    chl   (Koornneef)
+               an     act1    ap1   (Koornneef)
+               fha    ga4     dis2  (Koornneef)
+               tt1    chl3    chl   (Koornneef)
+               an     dis1    emb30 (not accepted by JOINMAP) (Meinke)
+               emb76  an      dis1  (not accepted by JOINMAP)  (Meinke)
+
+Chromosome 2:  as     emb18   cer8  (not accepted by JOINMAP) (Meinke)
+               as     emb111  cer8  (Meinke) 
+               er     emb152  as    (Meinke) 
+               er     cop1    as    (data from emb168 = cop1) (Meinke)
+
+Chromosome 4:  bp     ara1    cer2  (Koornneef)
+               cer2   ga5     fwa    ap2   (Koornneef)
+               cer2   emb20   ap2   (Meinke)
+               bp     cer2    emb104 (Meinke 2-pt data; required by JOINMAP)

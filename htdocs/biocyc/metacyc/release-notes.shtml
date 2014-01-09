@@ -1,0 +1,1734 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>
+MetaCyc Release Note History
+</title>
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<!-- MetaCyc Release Notes -->
+<h2>MetaCyc Release Note History</h2>
+<p>This document summarizes the release history of MetaCyc.</p>
+<p>&nbsp;</p>
+<p></p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong><a NAME="statistics">MetaCyc KB Statistics by Year</a></strong>
+  </caption>
+  <tr>
+    <td></td>
+    <td><b>2005</b></td>
+    <td><b>2004</b></td>
+    <td><b>2003</b></td>
+    <td><b>2002</b></td>
+    <td><b>2001</b></td>
+    <td><b>2000</b></td>
+    <td><b>1999</b></td>
+    <td><b>Description</b></td>
+  </tr>
+  <tr>
+    <td><b>Metabolic Pathways</b></td>
+    <td>621</td>
+    <td>528</td>
+    <td>491</td>
+    <td>460</td>
+    <td>445</td>
+    <td>366</td>
+    <td>296</td>
+    <td>Number of metabolic pathways, excluding superpathways.</td>
+  </tr>
+  <tr>
+    <td><b>Metabolic Pathways with Comments</b></td>
+    <td>412</td>
+    <td>280</td>
+    <td>243</td>
+    <td>180</td>
+    <td>160</td>
+    <td>83</td>
+    <td>39</td>
+    <td>Number of metabolic pathways that contain comments.</td>
+  </tr>
+  <tr>
+    <td><b>Enzymatic Reactions</b></td>
+    <td>5428</td>
+    <td>4955</td>
+    <td>4858</td>
+    <td>4294</td>
+    <td>4218</td>
+    <td>4002</td>
+    <td>3779</td>
+    <td>Number of enzymatic reactions.</td>
+  </tr>
+  <tr>
+    <td><b>Enzymes</b></td>
+    <td>2698</td>
+    <td>1940</td>
+    <td>1618</td>
+    <td>1267</td>
+    <td>1115</td>
+    <td>344</td>
+    <td>82</td>
+    <td>Number of enzymes that catalyze biochemical reactions.</td>
+  </tr>
+  <tr>
+    <td><b>Enzymes with Comments</b></td>
+    <td>2376</td>
+    <td>1716</td>
+    <td>1437</td>
+    <td>1123</td>
+    <td>1054</td>
+    <td>234</td>
+    <td>75</td>
+    <td>Number of enzymes that contain comments</td>
+  </tr>
+  <tr>
+    <td><b>Genes</b></td>
+    <td>2662</td>
+    <td>1821</td>
+    <td>1673</td>
+    <td>600</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Number of genes.</td>
+  </tr>
+  <tr>
+    <td><b>Chemical Compounds</b></td>
+    <td>4620</td>
+    <td>3551</td>
+    <td>3029</td>
+    <td>2404</td>
+    <td>2335</td>
+    <td>2180</td>
+    <td>1949</td>
+    <td>Number of chemical compounds.</td>
+  </tr>
+  <tr>
+    <td><b>Organisms</b></td>
+    <td>506</td>
+    <td>302</td>
+    <td>222</td>
+    <td>174</td>
+    <td>158</td>
+    <td>131</td>
+    <td>NA</td>
+    <td>The number of organisms is defined as the number of distinct genera, 
+    species and strains associated with pathways in MetaCyc.</td>
+  </tr>
+  <tr>
+    <td><b>Citations</b></td>
+    <td>7368</td>
+    <td>5050</td>
+    <td>3619</td>
+    <td>2718</td>
+    <td>2381</td>
+    <td>604</td>
+    <td>184</td>
+    <td>Number of distinct references cited in MetaCyc.</td>
+  </tr>
+</table>
+<p>Note: The statistics for each year pertain to the last MetaCyc version 
+released in that year. </p>
+<p>NA = Not available.</p>
+<hr>
+<h1>Release Notes for MetaCyc Version 9.5</h1>
+<p>Released on September 30, 2005.</p>
+<p><b>New and Updated Pathways</b></p>
+<p>During this quarter we have added 30 new pathways to MetaCyc, and updated the 
+information in 15 additional pathways, for a total of 45 new or modified 
+pathways .</p>
+<p>In microbial metabolism, we focused primarily on the biochemistry of the 
+important thiols glutathione and mycothiol, the transformations of choline, &#947;-butyrobetaine, 
+glycine betaine and carnitine, and the biosynthesis and degradation of the amino 
+acids methionine and cysteine. In addition, we added pathways covering the 
+degradation of butanediol and the biosynthesis of the enzyme cofactor lipoate. 
+We also rewrote the pathway for the biosynthesis of teichoic acid, an important 
+component of the cell wall of Gram-positive bacteria.</p>
+<p>In plant metabolism , we have added many new pathways involved in the primary 
+metabolism of plants. Main topics were carbohydrate (galactose, mannitol, and 
+sucrose) metabolism, membrane phospholipids (choline I and II) biosynthesis, 
+enzyme cofactors (tetrahydrofolate, formyltetrahydrofolate and biotin) 
+biosynthesis, asparagine degradation, and biosynthesis of the abiotic stress 
+response secondary metabolite, &#946;-alanine betaine. We also added&nbsp; two 
+biosynthetic pathways of plant alkaloids (berberine and (<i>S</i>)-reticuline), 
+and covered the biosynthesis of &#946;-alanine and pantothenate. </p>
+<p><b>Update of EC Reactions</b></p>
+<p>During this quarter we have updated the reactions in MetaCyc with the latest 
+information (as of January 2005) from the Nomenclature Committee of the 
+International Union of Biochemistry and Molecular Biology (NC-IUBMB), by&nbsp; 
+incorporating supplement 10 (see
+<a href="http://www.chem.qmul.ac.uk/iubmb/enzyme/supplements/sup2004/">Enzyme 
+Nomenclature Supplement 10</a>).</p>
+<p><b>New Cellular Location Ontology</b></p>
+<p>We have introduced an improved and expanded cellular component ontology that 
+is used both for specifying enzyme cellular locations, and for describing the 
+compartments involved in transport reactions. Our vocabulary of cellular 
+component terms was expanded from 35 to over 150 terms, which are now organized 
+into classes, subclasses and instances. The terms are also related to each other 
+using multiple relationships such as 'component-of' and 'surrounded-by'. For 
+example, the term &quot;inner membrane (sensu Gram-negative bacteria)&quot; is surrounded 
+by the terms &quot;periplasmic space (sensu Gram-negative bacteria)&quot; and &quot;cell wall (sensu 
+Gram-negative bacteria)&quot;, and surrounds the terms &quot;cytoplasm&quot; and &quot;cytosol&quot;. 
+These new relationships between cellular locations will allow us to introduce 
+more robust querying, and a better graphical display of protein locations. 
+Whenever possible, the new ontology terms have a cross-reference to the
+<a href="http://www.geneontology.org/">Gene Ontology Consortium</a>'s (GO) 
+cellular component ontology.</p>
+<p><b>More Chemical Structures</b></p>
+<p>We also continued the addition of chemical structures to our compound 
+library. We have added 724 new structures during this period, and now have 4316 
+compounds with structures.</p>
+<p><b>Pathway Tools Software Enhancements</b></p>
+<p>There have been <i>many</i> enhancements to the Pathway Tools software which 
+is used to query MetaCyc. Please see the
+<a href="http://bioinformatics.ai.sri.com/ptools/release-notes.html">Pathway 
+Tools Release Notes</a> for more details.</p>
+<p><b>New microbial pathways are:</b></p>
+<ul>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3602">
+  carnitine degradation II</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3641">
+  carnitine degradation III</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3721">
+  choline degradation II</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3621">&#947;-butyrobetaine 
+  degradation</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-4041">&#947;-glutamyl 
+  cycle</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-4081">
+  glutathione redox reactions I</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-4061">
+  glutathione-mediated detoxification</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3722">
+  glycine betaine biosynthesis II (Gram-positive bacteria)</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3661">
+  glycine betaine degradation</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY0-1221">
+  putrescine degradation II</a> (from EcoCyc) </li>
+</ul>
+<p><b>Modified microbial pathways are:.</b></p>
+<ul>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=P125-PWY">
+  butanediol biosynthesis</a> </li>
+  <li>
+  <a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=CHOLINE-BETAINE-ANA-PWY">
+  choline degradation I</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY1G-170">
+  formaldehyde oxidation III (mycothiol-dependent)</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=BETSYN-PWY">
+  glycine betaine biosynthesis I (Gram-negative bacteria)</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=P541-PWY">
+  glycine betaine biosynthesis IV (from glycine)</a> </li>
+  <li>
+  <a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=GLUT-REDOX-PWY">
+  glutathione redox reactions II</a> </li>
+  <li>
+  <a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=CYSTEINE-DEG-PWY">
+  L-cysteine degradation I</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY0-501">
+  lipoate biosynthesis and incorporation</a>&nbsp; (from EcoCyc) </li>
+  <li>
+  <a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=HSERMETANA-PWY">
+  methionine biosynthesis III</a> </li>
+  <li>
+  <a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=ADENOSYLHOMOCYSCAT-PWY">
+  methionine biosynthesis IV</a> </li>
+  <li>
+  <a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=METHIONINE-DEG1-PWY">
+  methionine degradation I</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY1G-0">
+  mycothiol biosynthesis</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY1G-1">
+  mycothiol-mediated detoxification</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY1G-126">
+  mycothiol oxidation</a> </li>
+  <li>
+  <a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=TEICHOICACID-PWY">
+  teichoic acid (poly-glycerol) biosynthesis</a> </li>
+</ul>
+<p><b>New plant pathways are:</b></p>
+<ul>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3781">
+  aerobic respiration</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-4001">
+  asparagine degradation II</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-4002">
+  asparagine degradation III</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-4021">
+  &#946;-alanine betaine biosynthesis</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3981">
+  &#946;-alanine biosynthesis I</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3941">
+  &#946;-alanine biosynthesis II</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3982">
+  &#946;-alanine biosynthesis III</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3901">
+  berberine biosynthesis</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3701">
+  biotin biosynthesis III</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3542">
+  choline biosynthesis II</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3561">
+  choline biosynthesis III</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3841">
+  formylTHF biosynthesis I</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3821">
+  galactose degradation III</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3881">
+  mannitol biosynthesis</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3861">
+  mannitol degradation II</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3921">
+  pantothenate biosynthesis II</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3961">
+  pantothenate biosynthesis III</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3581">
+  (S)-reticuline biosynthesis</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3801">
+  sucrose degradation to ethanol and lactate (anaerobic)</a> </li>
+  <li><a href="http://BioCyc-dev/META/new-image?type=PATHWAY&object=PWY-3742">
+  tetrahydrofolate biosynthesis I</a> </li>
+</ul>
+<hr>
+<h1>Release Notes for MetaCyc Version 9.1</h1>
+<p>Released on May 23, 2005.</p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>601</td>
+  </tr>
+  <tr>
+    <td>Enzymatic Reactions</td>
+    <td>5273</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>2458</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>4496</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>456</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>6566</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>This last quarter has been very productive at MetaCyc. We have added a total 
+of 62 new pathways, and updated the information in 20 additional pathways!</p>
+<p>In microbial metabolism, we added 20 new pathways. These pathways include 
+expanded coverage of the metabolism of the amino acids lysine, isoleucine and 
+tryptophan, the biosynthesis of the important redox cofactor nicotinamide 
+adenine dinucleotide (NAD), a
+<a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2504">superpathway</a> 
+that ties together the different pathways for aerobic degradation of aromatic 
+compounds found in <i>Pseudomonas</i>, the metabolism of the sugar trehalose, 
+and a few new pathways for the degradation of xenobiotic compounds. </p>
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2504">aromatic 
+  compound degradation (aerobic)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2503">benzoate 
+  degradation I (aerobic)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2421">
+  indole-3-acetate degradation to anthranilate</a></li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2601">
+  isethionate degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2941">lysine 
+  biosynthesis II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2942">lysine 
+  biosynthesis III</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3081">lysine 
+  biosynthesis V</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=NADSYN-PWY">NAD 
+  biosynthesis II (from tryptophan)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PYRIDNUCSAL-PWY">
+  NAD salvage pathway I</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3001">
+  superpathway of isoleucine biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3502">
+  superpathway of NAD biosynthesis in eukaryotes</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2622">
+  trehalose biosynthesis IV</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2661">
+  trehalose biosynthesis V</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY0-1182">
+  trehalose degradation II (high osmolarity)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2721">
+  trehalose degradation III</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2722">
+  trehalose degradation IV</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2723">
+  trehalose degradation V</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3161">
+  tryptophan degradation V (via indole-3-acetamide)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3162">
+  tryptophan degradation VI (side chain pathway)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3181">
+  tryptophan degradation VII (via tryptamine)</a> </li>
+</ul>
+<p>In plant metabolism we added 38 new pathways. New plant pathways include 
+plant variants of amino acid metabolism, pathways of fatty acid metabolism, 
+plant hormone biosynthesis (brassinosteroids and cytokinins), and secondary 
+metabolism (isoflavonoids, phenylpropanoids, nitrogen-containing glucosides and 
+terpenoids). </p>
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3282">ammonia 
+  assimilation cycle II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2861">
+  biochanin A conjugates interconversion</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2582">
+  brassinosteroid biosynthesis II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2921">
+  capsidiol biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3385">choline 
+  biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2781"><i>cis</i>-zeatin 
+  biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2881">
+  cytokinins 7-<i>N</i>-glucoside biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2901">
+  cytokinins 9-<i>N</i>-glucoside biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2841">
+  cytokinins degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2902">
+  cytokinins-<i>O</i>-glucoside biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2981">
+  diterpene phytoalexins precursors biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3221">
+  dTDP-L-rhamnose biosynthesis II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2501">fatty 
+  acid oxidation pathway II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2724">fatty 
+  acid oxidation pathway III</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3101">flavonol 
+  biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2904">
+  formononetin conjugates interconversion</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2821">
+  glucosinolate biosynthesis from phenylalanine</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3322">
+  glutamate degradation IX</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2761">
+  glyceollin biosynthesis I</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2762">
+  glyceollin biosynthesis II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3022">
+  linamarin biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3121">
+  linamarin degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2464">
+  maackiain biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2701">
+  maackiain conjugates interconversion</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2463">
+  medicarpin biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2561">
+  medicarpin conjugates interconversion</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3061">menthol 
+  biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3042">
+  phaseollin biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3462">
+  phenylalanine biosynthesis III</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2467">pisatin 
+  biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3041">plant 
+  monoterpene biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3341">proline 
+  biosynthesis III</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2961">
+  sesquiterpenoid phytoalexins biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3301">sinapate 
+  ester biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2541">sterol 
+  biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2681"><i>trans</i>-zeatin 
+  biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3461">tyrosine 
+  biosynthesis II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3261">
+  UDP-L-rhamnose biosynthesis</a></li>
+</ul>
+<p>In mammalian metabolism we have added a cholesterol biosynthesis pathway from 
+HumanCyc. This pathway describes the biosynthesis of cholesterol from farnesyl 
+diphosphate in an extensive series of 22 reactions.&nbsp; Combined with the 
+existing <a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-922">
+mevalonate pathway</a>, which is linked to it, MetaCyc now covers the complete 
+biosynthesis of cholesterol from acetyl-CoA.</p>
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY66-341">
+  cholesterol biosynthesis</a></li>
+</ul>
+<p>We have also incorporated the following new yeast pathways which were curated 
+by our friends at SGD. Thank you Eurie Hong and Rama Balakrishnan!</p>
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=ALLANTOINDEG-PWY">
+  allantoin degradation II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=GLUGLNSYN-PWY">
+  glutamate biosynthesis from glutamine</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-3502">
+  superpathway of NAD biosynthesis in eukaryotes</a></li>
+</ul>
+<p></p>
+<p>Additional yeast-specific information, provided by SGD, was added to the 
+following existing MetaCyc pathways: </p>
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=GLUTSYNIII-PWY">
+  glutamate biosynthesis III</a></li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=NADSYN-PWY">NAD 
+  biosynthesis II (from tryptophan)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PYRIDNUCSAL-PWY">
+  NAD salvage pathway I</a> </li>
+</ul>
+<p>Besides entering new pathways, we have been working on adding commentary and 
+updated enzyme and gene information to existing pathways. The following pathways 
+have been revised to reflect current knowledge and to provide better commentary:
+</p>
+<p></p>
+<ul>
+  <li>
+  <a href="file://Salt/META/new-image?type=PATHWAY&object=6-HYDROXYCINEOLE-DEGRADATION-PWY">
+  1,8-cineole degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY1F-823">
+  anthocyanin biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=ARGSYN-PWY">
+  arginine biosynthesis I</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=ARGSYNBSUB-PWY">
+  arginine biosynthesis II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-699">
+  brassinosteroid biosynthesis I</a> </li>
+  <li>
+  <a href="file://Salt/META/new-image?type=PATHWAY&object=MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS">
+  dolichyl-diphosphooligosaccharide biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=GLYCGREAT-PWY">
+  glycine degradation II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2083">
+  isoflavonoid biosynthesis II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=DAPLYSINESYN-PWY">
+  lysine biosynthesis I</a></li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=LYSDEGII-PWY">
+  lysine degradation III</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PYRIDNUCSYN-PWY">
+  NAD biosynthesis I</a> </li>
+  <li>
+  <a href="file://Salt/META/new-image?type=PATHWAY&object=|NAD BIOSYNTHESIS II|">
+  NAD salvage II</a></li>
+  <li>
+  <a href="file://Salt/META/new-image?type=PATHWAY&object=|NAD BIOSYNTHESIS III|">
+  NAD salvage III</a></li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=P621-PWY">nylon-6 
+  oligomer degradation</a></li>
+  <li>
+  <a href="file://Salt/META/new-image?type=PATHWAY&object=SOPHOROSYLOXYDOCOSANOATE-SYN-PWY">
+  sophorosyloxydocosanoate biosynthesis</a> </li>
+  <li>
+  <a href="file://Salt/META/new-image?type=PATHWAY&object=SOPHOROSYLOXYDOCOSANOATE-DEG-PWY">
+  sophorosyloxydocosanoate degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=SUCROSEUTIL2-PWY">
+  sucrose degradation II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=TRESYN-PWY">
+  trehalose biosynthesis I</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-881">trehalose 
+  biosynthesis II</a></li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=TREDEGLOW-PWY">
+  trehalose degradation I</a></li>
+</ul>
+<p>In addition, we continue to expand our chemical compound library and add 
+chemical structures to the compounds. Over 93% of our 4496 compounds have 
+structures.</p>
+<p></p>
+<hr>
+<h1>Release Notes for MetaCyc Version 9.0</h1>
+<p>Released on February 25, 2005.</p>
+<p>
+<note to self-change numbers in table></note>
+</p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>547</td>
+  </tr>
+  <tr>
+    <td>Enzymatic Reactions</td>
+    <td>5046</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>2062</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>3945</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>341</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>5468</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<li>A total of 20 new pathways have been added to MetaCyc in this release.
+<p>In bacterial metabolism, we have expanded our coverage of ammonia oxidation 
+and folate metabolism by adding new pathways and improving the annotation of 
+existing ones. We have expanded our coverage of the Entner-Doudoroff pathway to 
+include the interesting variations found in different species of archaebacteria, 
+added a new pathway and more information about nitro-aromatic compounds 
+degradation, and added a pathway for the biosynthesis of <i>myo</i>-inositol.
+</p>
+<p>In plant metabolism we continue to cover secondary metabolism, with new 
+pathways covering the metabolism of phenylpropanoid acid, the biosynthesis of 
+pterocarpan, and the interconversion of genistein and daidzein conjugates. </p>
+<p>In mammalian metabolism we added four human pathways: A pathway for the 
+biosynthesis of the catecholamine neuro transmitters (norepinephrine, 
+epinephrine and dopamine), a pathway for the degradation of the antidepressant 
+drug bupropion, and two pathways that cover the various routes used in the 
+metabolism of nicotine. </p>
+<p>We have also included three new yeast pathways, which were originally created 
+for YeastCyc (SGD). Two of these pathways cover the biosynthesis of major 
+constituents of the fungal plasma membrane (ergosterol and sphingolipid), and 
+the third one describes a variant pathway for lysine biosynthesis. </p>
+<p>The following pathways have been curated in MetaCyc since the last release:
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2242">ammonia 
+  oxidation III</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2261">
+  ascorbate glutathione cycle</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2343">daidzein 
+  conjugates interconversion</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=NPGLUCAT-PWY">
+  Entner-Doudoroff pathway II (non-phosphorylative)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2221">
+  Entner-Doudoroff pathway III (semi-phosphorylative)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2161B">folate 
+  polyglutamylation II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2201">folate 
+  transformations</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2345">
+  genistein conjugates interconversion</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2301"><i>myo</i>-inositol 
+  biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2381">
+  4-nitrobenzoate degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2181">
+  phenylpropanoid acid pathway</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2321">
+  pterocarpan biosynthesis</a> </li>
+</ul>
+<p>The following new pathway has been imported from the EcoCyc database:
+<ul>
+  <p></p>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-2161">folate 
+  polyglutamylation I</a></li>
+</ul>
+<p>The following new yeast pathways have been provided by the YeastCyc database, 
+ands were curated by Eurie L. Hong. Thank you for this contribution! </p>
+<p>
+<ul>
+  <li>
+  <a href="file://Salt/META/new-image?type=PATHWAY&object=ERGOSTEROL-SYN-PWY">
+  ergosterol biosynthesis</a> </li>
+  <li>
+  <a href="file://Salt/META/new-image?type=PATHWAY&object=LYSINE-AMINOAD-PWY">
+  lysine biosynthesis II</a> </li>
+  <li>
+  <a href="file://Salt/META/new-image?type=PATHWAY&object=SPHINGOLIPID-SYN-PWY">
+  sphingolipid metabolism</a></li>
+</ul>
+<p>The following new human pathways have been imported from the HumanCyc 
+database. We thank Teresa Steininger and Tom Kilduff for curation of the 
+catecholamine biosynthesis pathway: </p>
+<p>
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY66-241">
+  bupropion degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY66-301">
+  catecholamine biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY66-201">
+  nicotine degradation II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY66-221">
+  nicotine degradation III</a> </li>
+</ul>
+<p>The following existing pathways have been revised to reflect current 
+knowledge and to provide better commentary: </p>
+<p>
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=AMMOXID-PWY">
+  ammonia oxidation I (aerobic)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=P303-PWY">ammonia 
+  oxidation II (anaerobic)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=P421-PWY">
+  4-nitrotoluene degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PHOSLIPSYN-PWY">
+  phospholipid biosynthesis I</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PCEDEG-PWY">
+  tetracholroethene degradation</a> </li>
+</ul>
+<p>In addition, we have continued adding chemical structures to compounds in our 
+chemical compound library. The number of compounds with structures is now 3592.
+</p>
+<p></p>
+<hr>
+<h1>Release Notes for MetaCyc Version 8.6</h1>
+<p>Released on November 8, 2004.</p>
+<p>
+<note to self-change numbers in table /></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>528</td>
+  </tr>
+  <tr>
+    <td>Enzymatic Reactions</td>
+    <td>4955</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1940</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>3551</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>302</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>5050</td>
+  </tr>
+</table>
+<p>The following new pathways have been added since the last release:
+<ul>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1901">aurone 
+  biosynthesis</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1781">
+  &#946;-alanine degradation II</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1801">
+  formaldehyde oxidation II (GSH-dependent)</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1722">
+  formaldehyde oxidation IV (tetrahydrofolate pathway)</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1723">
+  formaldehyde oxidation V (H<sub>4</sub>MPT pathway)</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1881">formate 
+  oxidation to CO<sub>2</sub></a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1822">IAA 
+  biosynthesis II</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1921">IAA 
+  biosynthesis III</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1741">IAA 
+  conjugate biosynthesis I</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1782">IAA 
+  conjugate biosynthesis II</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1961">IAA 
+  degradation I</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1962">IAA 
+  degradation II</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1981">IAA 
+  degradation III</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-2021">IAA 
+  degradation IV</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-2083">
+  isoflavonoid biosynthesis</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-2002">
+  isoflavonoid biosynthesis, initial reactions</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1641">methane 
+  oxidation to methanol</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1701">methanol 
+  and methylamine oxidation to formaldehyde</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1882">
+  superpathway of C1 compounds oxidation to CO<sub>2</sub></a> </li>
+</ul>
+<p>New bacterial pathways mainly focus on C1 metabolism, specifically the 
+different pathways employed by the methylotrophs, while new plant pathways 
+mostly cover the different pathways employed in the metabolism of the plant 
+hormone indole-3-acetate (IAA), and isoflavonoid biosynthesis. </p>
+<p>Several pathways have been modified. In particular, the plant pathways for 
+anthocyanin and flavonoid biosynthesis, and the bacterial pathways covering 
+glycerol metabolism, formaldehyde assimilation, the degradation of &#946;-alanine, 
+and the degradation of lactose. Modified pathways include:
+<ul>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY0-381">glycerol 
+  and glycerphosphodiester degradation</a> </li>
+  <li>
+  <a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=GLYCEROLMETAB-PWY">
+  glycerol degradation II</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=GOLPDLCAT-PWY">
+  glycerol fermentation to 1,3-propanediol</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1622">
+  formaldehyde assimilation I (serine pathway)</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=PWY-1861">
+  formaldehyde assimilation II (RuMP Cycle)</a> </li>
+  <li>
+  <a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=BETA-ALA-DEGRADATION-I-PWY">
+  &#946;-alanine degradation I</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=LACTOSEUTIL-PWY">
+  lactose degradation II</a> </li>
+  <li><a href="file://Salt/META/NEW-IMAGE?type=PATHWAY&object=BGALACT-PWY">
+  lactose degradation III</a> </li>
+</ul>
+<p>In addition, we have added chemical structures to many of the compounds in 
+our chemical compound library. The number of compounds with structures is now 
+3258. </p>
+<p></p>
+<hr>
+<h1>Release Notes for MetaCyc Version 8.5</h1>
+<p>Released on September 17, 2004.</p>
+<p>
+<note to self-change numbers in table /></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>513</td>
+  </tr>
+  <tr>
+    <td>Enzymatic Reactions</td>
+    <td>4924</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1840</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>3467</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>262</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>4662</td>
+  </tr>
+</table>
+<p>In this upgrade we introduced stereochemistry to our compound library. While 
+not all structures have been updated yet, we are continuously adding 
+stereochemistry information to our library of compounds. </p>
+<p>Another change you would notice is the labeling of genes and proteins in 
+graphical diagrams with the initials of the organism's genus and species names. 
+For example, the <i>trpA</i> gene from <i>E. coli</i> would now appear as 
+Ec-trpA, and the tryptophan synthase protein will appear as tryptophan synthase 
+(Ec). This was done to make it easier to tell genes and proteins appart, such as 
+when genes and proteins from multiple organisms are present in a single pathway.
+</p>
+<p>In addition, we are continuing our on-going curation of new and existing 
+pathways in MetaCyc. Editing existing pathways involves adding descriptive 
+comments, references, and enzymes, and updating the pathway to reflect the 
+latest available information. </p>
+<p>The following new pathways have been added since the last release:
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY66-21">
+  oxidative ethanol degradation I</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY66-161">
+  oxidative ethanol degradation II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY66-162">
+  oxidative ethanol degradation III</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1581">
+  plastoquinone biosynthesis</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1541">
+  superpathway of taurine degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1622">
+  formaldehyde assimilation I (serine pathway)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1602">
+  formaldehyde assimilation II (RuMP cycle)</a> </li>
+</ul>
+<p>The following existing pathways were edited extensively:
+<ul>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=P184-PWY">
+  protocatechuate degradation I (meta cleavage pathway)</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=P601-PWY">
+  D-camphor degradation</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=P481-PWY">
+  adamantanone transformation</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=P301-PWY">
+  galena oxidation</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1263">
+  taurine degradation I</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1264">
+  taurine degradation II</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=TAURINEDEG-PWY">
+  taurine degradation III</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=P282-PWY">
+  nitrite oxidation</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=AMMOXID-PWY">
+  ammonia oxidation I (aerobic)</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=RUMP-PWY">
+  formaldehyde oxidation I</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=FORMASS-PWY">
+  formaldehyde oxidation II</a> </li>
+</ul>
+<p>We also continue our effort of adding chemical structures for metabolites and 
+other small molecules to MetaCyc. Currently 3074 of our compounds have a full 
+molecular structure. </p>
+<hr>
+<h1>Release Notes for MetaCyc Version 8.1</h1>
+<p>Released on June 23, 2004.</p>
+<p>
+<note to self-change numbers in table /></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>506</td>
+  </tr>
+  <tr>
+    <td>Enzymatic Reactions</td>
+    <td>4912</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1813</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>3091</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>243</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>4455</td>
+  </tr>
+</table>
+<p>We are continuing our on-going curation of new and existing pathways in 
+MetaCyc. Editing existing pathways involves adding descriptive comments, 
+references, and enzymes. </p>
+<p>The following new pathways were curated:
+<ul>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1361">
+  benzoyl-CoA degradation (aerobic)</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY1F-353">betaine 
+  biosynthesis V</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1381">fluorene 
+  degradation II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1281">
+  sulfoacetaldehyde degradation</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1263">taurine 
+  degradation I</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1264">taurine 
+  degradation II</a> </li>
+  <li><a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1422">vitamin 
+  E biosynthesis</a> </li>
+</ul>
+<p>The following existing pathways were edited extensively:
+<ul>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=FLUORENE-DEG-9-ONE-PWY">
+  fluorene degradation I</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-361">
+  lignin biosynthesis</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY">
+  protocatechuate degradation II (ortho-cleavage pathway)</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=TAURINEDEG-PWY">
+  taurine degradation III</a> </li>
+</ul>
+<p>Many miscellaneous corrections and updates were applied. For example, the 
+pathway for phenylalanine degradation was divided into two pathways,
+<a href="file://Salt/META/new-image?type=PATHWAY&object=ANAPHENOXI-PWY">
+phenylalanine degradation II (anaerobic)</a>, which includes the reactions from 
+phenylalanine to phenylacetate and
+<a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1341">phenylacetate 
+degradation (anaerobic)</a>, which includes the reactions from phenylalanine to 
+benzoyl-CoA. One enzyme in phenylacetate degradation (anaerobic) was newly 
+curated. </p>
+<p>In addition a new superpathway was created,
+<a href="file://Salt/META/new-image?type=PATHWAY&object=PWY-1461">&#946;-ketoadipate 
+pathway</a>, which is comprised of the following two pathways:
+<a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=CATECHOL-ORTHO-CLEAVAGE-PWY">
+catechol degradation II (ortho-cleavage pathway)</a> and
+<a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY">
+protocatechuate degradation II (ortho-cleavage pathway)</a>. </p>
+<p>Chemical structures for metabolites and other small molecules are being 
+continiously added to MetaCyc. Currently 2737 of our compounds have a full 
+molecular structure. </p>
+<hr>
+<h1>Release Notes for MetaCyc Version 8.0</h1>
+<p>Released on March 12, 2004.</p>
+<p>
+<note to self-change numbers in table /></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>496</td>
+  </tr>
+  <tr>
+    <td>Enzymatic Reactions</td>
+    <td>4873</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1665</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>3051</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>231</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>3771</td>
+  </tr>
+</table>
+<p>We are continuing our on-going curation of new and existing pathways in 
+MetaCyc. Editing existing pathways involves adding descriptive comments, 
+references, and enzymes. </p>
+<p>The following existing pathway was edited extensively:
+<ul>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=LACTOSECAT-PWY">
+  lactose and galactose degradation I</a> </li>
+</ul>
+<p>Many miscellaneous corrections and updates were applied. For example, the 
+reactions within the
+<a href="http://BioCyc.org/ECOLI/NEW-IMAGE?type=PATHWAY&object=ARGDEG-PWY">
+superpathway of arginine degradation</a> were reorganized into three separate 
+subpathways:
+<ul>
+  <li><a href="file://Salt/ECOLI/new-image?type=PATHWAY&object=PWY0-823">
+  arginine degradation XII</a>, which includes the reactions from arginine to 
+  putrescine </li>
+  <li><a href="file://Salt/ECOLI/new-image?type=PATHWAY&object=PUTDEG-PWY">
+  putrescine degradation</a>, which includes the reactions from putrescine to 
+  4-aminobutyrate </li>
+  <li>
+  <a href="file://Salt/ECOLI/new-image?type=PATHWAY&object=4AMINOBUTMETAB-PWY">
+  4-aminobutyrate degradation</a>, which includes the reactions from 
+  4-aminobutyrate to succinate </li>
+</ul>
+<p>Chemical structures for metabolites and other small molecules have been added 
+to MetaCyc. </p>
+<p>The set of enzyme inhibition categories that are represented in MetaCyc has 
+been extended and revised. The new set includes: noncompetitive inhibitors, 
+uncompetitive inhibitors and irreversible inhibitors, in addition to the 
+previously existing categories of competitive inhibitors and allosteric 
+inhibitors. A new category, inhibitors of unknown mechanism replaces two old 
+categories that distinguished between mechanisms that were unknown because they 
+had not been extensively curated versus ones that remained unknown after a 
+substantial literature search, and the new category, other inhibitors, replaces 
+a similar category in previous versions for all inhibitors that were neither 
+competitive nor allosteric. </p>
+<p>Categories of enzyme activation were similarly reexamined, and documentation 
+was updated. Although no new activation categories were added, the two 
+categories for activators whose mechanism was unknown after a minimal versus a 
+substantial literature search were combined into a single category for 
+activators of unknown mechanism. </p>
+<p>See the PTools release notes for additional information on revising the 
+enzyme inhibition and activation categories. </p>
+<p>Enhancements to MetaCyc over the last two years are described in the article,
+<a href="http://nar.oupjournals.org/cgi/content/full/32/suppl_1/D438?gca=32%2Fsuppl_1%2FD41&gca=32%2Fsuppl_1%2FD112&gca=32%2Fsuppl_1%2FD115&gca=32%2Fsuppl_1%2FD122&gca=32%2Fsuppl_1%2FD129&gca=32%2Fsuppl_1%2FD134&gca=32%2Fsuppl_1%2FD138&gca=32%2Fsuppl_1%2FD142&gca=32%2Fsuppl_1%2FD196&gca=32%2Fsuppl_1%2FD223&gca=32%2Fsuppl_1%2FD235&gca=32%2Fsuppl_1%2FD258&gca=32%2Fsuppl_1%2FD262&gca=32%2Fsuppl_1%2FD277&gca=32%2Fsuppl_1%2FD296&gca=32%2Fsuppl_1%2FD300&gca=32%2Fsuppl_1%2FD303&gca=32%2Fsuppl_1%2FD311&gca=32%2Fsuppl_1%2FD332&gca=32%2Fsuppl_1%2FD339&gca=32%2Fsuppl_1%2FD431&gca=32%2Fsuppl_1%2FD434&gca=32%2Fsuppl_1%2FD438&gca=32%2Fsuppl_1%2FD449&sendit=Get+All+Checked+Abstract%28s%29&">
+MetaCyc: a multiorganism database of metabolic pathways and enzymes</a>, which 
+was recently published in the Nucleic Acids Research 2004 Database issue. </p>
+<hr>
+<h1>Release Notes for MetaCyc Version 7.6</h1>
+<p>Released on November 4, 2003.</p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>491</td>
+  </tr>
+  <tr>
+    <td>Enzymatic Reactions</td>
+    <td>4858</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1618</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>3029</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>222</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>3619</td>
+  </tr>
+</table>
+<p>The following pathways were newly curated in MetaCyc:
+<ul>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1164">
+  carbon disulfide oxidation</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1042">
+  glycolysis IV</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1187">
+  glucosinolate biosynthesis from homomethionine</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1061">
+  homogalacturonan biosynthesis</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1081">
+  homogalacturonan degradation</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1186">
+  homomethionine biosynthesis</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1121">
+  suberin biosynthesis</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-1141">
+  xanthophyll cycle</a> </li>
+</ul>
+<p>The following pathways were imported from EcoCyc:
+<ul>
+  <li><a href="file://Salt/ECOLI/NEW-IMAGE?type=PATHWAY&object=PWY0-662">PPRP 
+  biosynthesis I</a> </li>
+  <li><a href="file://Salt/ECOLI/NEW-IMAGE?type=PATHWAY&object=PWY0-661">PPRP 
+  biosynthesis II</a> </li>
+</ul>
+<p>The following pathways, which already existed in MetaCyc, were edited 
+extensively:
+<ul>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=P261-PWY">
+  coenzyme M biosynthesis</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=PWY-601">
+  glucosinolate biosynthesis from tryptophan</a> </li>
+  <li>
+  <a href="file://Salt/home/brg/website/biocyc-dev/metacyc/META/NEW-IMAGE?type=PATHWAY&object=P561-PWY">
+  stachydrine degradation</a> </li>
+</ul>
+<p>Many other miscellaneous corrections and updates have been applied. </p>
+<p>Chemical structures for metabolites and other small molecules have been added 
+to MetaCyc. </p>
+<hr>
+<h1>Release Notes for MetaCyc Version 7.5</h1>
+<p>Released on August 29, 2003.</p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>492</td>
+  </tr>
+  <tr>
+    <td>Enzymatic Reactions</td>
+    <td>4831</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1571</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>2994</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>214</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>3337</td>
+  </tr>
+</table>
+<p>New pathways have been added to MetaCyc either from recent curation or from 
+importing them from other Pathway/Genome Databases. Existing pathways also have 
+been extensively edited. </p>
+<p>The following pathways were newly curated in MetaCyc:
+<ul>
+  <li>ascorbate biosynthesis </li>
+  <li>cellulose biosynthesis </li>
+  <li>salicylic acid biosynthesis </li>
+  <li>sulfide oxidation II </li>
+</ul>
+<p>The following pathways were imported from EcoCyc:
+<ul>
+  <li>cyclopropane fatty acid (CFA) biosynthesis </li>
+  <li>fructoselysine degradation </li>
+  <li>lipoate biosynthesis and modification </li>
+  <li>lipoate salvage and modification </li>
+  <li>lysine degradation I </li>
+</ul>
+<p>The following pathways were imported from CauloCyc:
+<ul>
+  <li>alanine degradation IV </li>
+  <li>PHB biosynthesis </li>
+</ul>
+<p>The following existing pathways were edited extensively in MetaCyc:
+<ul>
+  <li>coenzyme B biosynthesis </li>
+  <li>thiocyanate degradation I </li>
+</ul>
+<p>MetaCyc display windows now feature full lists of references in addition to 
+links to abstracts that have been supplied previously. The list of references 
+associated with each database object (e.g., pathway, polypeptide, etc.) is 
+located at the bottom of the display window. </p>
+<p>The pathway class hierarchy has been updated and improved to facilitate 
+browsing of metabolic pathways within the BioCyc databases. The pathway 
+hierarchy may be viewed
+<a href="http://biocyc.org:1555/META/class-subs?object=Pathways">here</a>. </p>
+<p>The Pathway Tools software now supports association of evidence codes with 
+information in BioCyc databases. Evidence codes are used to indicate the type of 
+evidence that supports assertions within these databases. For example, an 
+evidence code can be used to describe whether a pathway was predicted 
+computationally or elucidated experimentally. The presence of a computer icon or 
+a flask icon, respectively, indicate computational versus experimental evidence 
+for an assertion. Click on these icons to obtain more details about the evidence 
+for a given entity. Evidence information will be available in subsequent MetaCyc 
+releases. For more information see the
+<a href="http://bioinformatics.ai.sri.com/ptools/release-notes.html">Pathway 
+Tools 7.5 release notes</a>. </p>
+<p>Many other miscellaneous corrections and updates have been applied. </p>
+<p>Chemical structures for metabolites and other small molecules have been added 
+to MetaCyc </p>
+<hr>
+<h1>Release Notes for MetaCyc Version 7.1</h1>
+<p>Released on May 20, 2003.</p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>484</td>
+  </tr>
+  <tr>
+    <td>Reactions</td>
+    <td>4460</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1520</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>2942</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>201</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>3029</td>
+  </tr>
+</table>
+<p>The following pathways were newly curated in MetaCyc:
+<ul>
+  <li>fructan biosynthesis </li>
+  <li>fructan degradation </li>
+  <li>glycolate degradation II </li>
+  <li>glycosylglyceride desaturation pathway </li>
+  <li>methionine biosynthesis from homoserine II </li>
+  <li>phospholipid desaturation pathway </li>
+  <li>starch degradation </li>
+  <li>thiocyanate degradation II </li>
+</ul>
+<p>The following existing pathways were edited extensively in MetaCyc:
+<ul>
+  <li>triacylglycerol biosynthesis </li>
+  <li>TCA cycle variation IX (TCA cycle in <i>Helicobacter pylori</i>) </li>
+</ul>
+<p>Chemical structures for 27 metabolites and other small molecules have been 
+added to MetaCyc </p>
+<p>Note: The pathway classification hierarchy in MetaCyc is undergoing 
+significant revision. Please be aware that some pathways may be assigned to 
+inappropriate locations in the hierarchy in the version 7.1 release. These 
+assignments will be corrected in the next release. </p>
+<hr>
+<h1>Release Notes for MetaCyc Version 7.0</h1>
+<p>Released on February 28, 2003.</p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>477</td>
+  </tr>
+  <tr>
+    <td>Reactions</td>
+    <td>4429</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1470</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>2921</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>190</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>2974</td>
+  </tr>
+</table>
+<p>
+<ul>
+  <li>New pathways have been added to MetaCyc either from recent curation or 
+  from importing them from other Pathway/Genome Databases. Existing pathways 
+  also have been extensively edited.
+  <p>The following pathways were newly curated in MetaCyc:
+  <ul>
+    <li>anaerobic ethylbenzene degradation </li>
+    <li>auxin biosynthesis </li>
+    <li>lipoxygenase pathway </li>
+    <li>starch biosynthesis </li>
+    <li>sucrose degradation III </li>
+  </ul>
+  <p>The following pathways were imported from EcoCyc:
+  <ul>
+    <li>L-ascorbate degradation </li>
+    <li>ethanol degradation </li>
+    <li>de novo biosynthesis of purine nucleotides </li>
+    <li>de novo biosynthesis of pyrimidine deoxyribonucleotides </li>
+    <li>de novo biosynthesis of pyrimidine ribonucleotidesribitol degradation
+    </li>
+    <li>glycerol degradation I </li>
+    <li>phenylacetate degradation, aerobic </li>
+    <li>salvage pathways of adenine, hypoxanthine, and their nucleosides </li>
+    <li>salvage pathways of guanine, xanthine, and their nucleosides </li>
+    <li>salvage pathways of pyrimidine deoxyribonucleotides </li>
+    <li>salvage pathways of pyrimidine ribonucleotides </li>
+  </ul>
+  <p>The following pathways were imported from
+  <a href="http://arabidopsis.org:1555">AraCyc</a>:
+  <ul>
+    <li>abscisic acid biosynthesis </li>
+    <li>athocyanin biosynthesis </li>
+    <li>brassinosteroid biosynthesis </li>
+    <li>camalexin biosynthesis </li>
+    <li>carotenoid biosynthesis </li>
+    <li>chlorophyll biosynthesis </li>
+    <li>flavonoid biosynthesis </li>
+    <li>flavonoid biosynthesis II </li>
+    <li>gibberellin biosynthesis </li>
+    <li>indolylmethyl glucosinolate biosynthesis </li>
+    <li>jasmonic acid biosynthesis </li>
+    <li>phenylpropanoid pathway </li>
+    <li>polyamine biosynthesis III </li>
+    <li>proanthocyanidin biosynthesis from flavanols </li>
+  </ul>
+  <p>The following pathways were imported from MtbRvCyc:
+  <ul>
+    <li>mycothiol biosynthesis </li>
+    <li>mycothiol oxidation </li>
+    <li>mycothiol-dependent detoxification pathway </li>
+    <li>mycothiol-dependent formaldehyde detoxification </li>
+  </ul>
+  <p>The following existing pathways were edited extensively in MetaCyc:
+  <ul>
+    <li>asparagine biosynthesis II </li>
+    <li>dibenzo-p-dioxin degradation </li>
+    <li>dibenzofuran degradation </li>
+    <li>ethylene biosynthesis from methionine </li>
+    <li>lipase pathway </li>
+    <li>phospholipid biosynthesis II </li>
+    <li>orcinol degradation </li>
+    <li>resorcinol degradation </li>
+    <li>sucrose biosynthesis </li>
+    <li>sulfate assimilation III </li>
+    <li>tetrachloroethene degradation </li>
+    <li>ureide biosynthesis </li>
+    <li>ureide degradation </li>
+  </ul>
+  <p></li>
+  <li>400 new chemical structures for metabolites and other small molecules have 
+  been added to MetaCyc </li>
+</ul>
+<hr>
+<h1>Release Notes for MetaCyc Version 6.5</h1>
+<p>Released on August 30, 2002.</p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>460</td>
+  </tr>
+  <tr>
+    <td>Reactions</td>
+    <td>4294</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1267</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>2404</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>174</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>2718</td>
+  </tr>
+</table>
+<p>This release contains several new changes:
+<ul>
+  <li>SRI has started a collaboration with TAIR (The Arabidopsis Information 
+  Resource) at the Carnegie Institution. TAIR is responsible for adding new and 
+  editing existing plant-specific pathways to MetaCyc. </li>
+  <li>The following pathways were added since the last release. Please note they 
+  include both microbial and plant pathways.
+  <ul>
+    <li>anaerobic toluene degradation </li>
+    <li>anaerobic <i>m</i>-xylene degradation </li>
+    <li>anaerobic cyclohexane-1-carboxylate degradation </li>
+    <li>C4 photosynthetic carbon assimilation cycle </li>
+    <li>carotenoid biosynthesis </li>
+    <li>cutin biosynthesis </li>
+    <li>epicuticular wax biosynthesis </li>
+    <li>glycosylglyceride biosynthesis </li>
+    <li>lignin biosynthesis </li>
+    <li>nitrate assimilation pathway </li>
+    <li>photorespiration </li>
+    <li>photosynthesis, light reaction </li>
+  </ul>
+  </li>
+  <li>In addition to adding new pathways to MetaCyc, we have also edited 
+  existing ones. We have added chemical structures, enzymes, reactions, comments 
+  and literature citations to existing pathways. The following pathways have 
+  been enhanced significantly.
+  <ul>
+    <li>glutamate fermentation-the methylaspartate pathway </li>
+    <li>glutamate fermentation-the hydroxyglutarate pathway </li>
+    <li>methionine salvage pathway </li>
+    <li>anaerobic benzoyl-CoA degradation II </li>
+  </ul>
+  </li>
+  <li>Genes have been added to MetaCyc for some enzymes. </li>
+</ul>
+<p></p>
+<hr>
+<h1>Release Notes for MetaCyc Version 6.0</h1>
+<p>Released on February 25, 2002.</p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>449</td>
+  </tr>
+  <tr>
+    <td>Reactions</td>
+    <td>4218</td>
+  </tr>
+  <tr>
+    <td>Enzymes</td>
+    <td>1147</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>2339</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>158</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>2597</td>
+  </tr>
+</table>
+<p>New pathways in this release:
+<ul>
+  <li>dhurrin biosynthesis </li>
+  <li>homoserine degradation I </li>
+  <li>methylglyoxal catabolism </li>
+  <li>mevalonate pathway </li>
+  <li>proline utilization 2 </li>
+  <li>purine synthesis 2 </li>
+  <li>trehalose biosynthesis 2 </li>
+</ul>
+<p></p>
+<hr>
+<h1>Release Notes for MetaCyc Version 5.6</h1>
+<p>Released on June 15, 2001.</p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>445</td>
+  </tr>
+  <tr>
+    <td>Reactions</td>
+    <td>4218</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>2335</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>158</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>2383</td>
+  </tr>
+</table>
+<ul>
+  <li>Each reaction in MetaCyc that has an EC number now contains WWW links to 
+  all proteins in the PIR database that have the same EC number. </li>
+  <li>Each reaction in MetaCyc that has an EC number now contains all enzyme 
+  names associated with that EC number by the Enzyme Commission. </li>
+  <li>The following pathways were added to MetaCyc since the last release:
+  <ul>
+    <li>(+)-camphor degradation </li>
+    <li>2-nitropropane degradation </li>
+    <li>3-methylquinoline degradation </li>
+    <li>4-aminobutyrate degradation II </li>
+    <li>4-nitrotoluene catabolism </li>
+    <li><i>myo</i>-inositol degradation </li>
+    <li><i>p</i>-cymene degradation </li>
+    <li>acetate fermentation </li>
+    <li>acetyl-CoA assimilation </li>
+    <li>acrylonitrile degradation </li>
+    <li>adamantanone catabolism </li>
+    <li>aldoxime metabolism </li>
+    <li>alkanesulfonate monooxygenase two-component system </li>
+    <li>anaerobic ammonium oxidation </li>
+    <li>anaerobic benzoate degradation </li>
+    <li>APS pathway of sulfate reduction </li>
+    <li>arsonoacetate degradation </li>
+    <li>atrazine catabolism II </li>
+    <li>atrazine catabolism III </li>
+    <li>betaine biosynthesis II </li>
+    <li>betaine biosynthesis III </li>
+    <li>bifidum pathway </li>
+    <li>bisulfite reduction </li>
+    <li>butanediol fermentation </li>
+    <li>caprolactam degradation </li>
+    <li>carbon tetrachloride degradation </li>
+    <li>cobalamin biosynthesis, aerobic pathway </li>
+    <li>coenzyme B biosynthesis </li>
+    <li>coenzyme M biosynthesis </li>
+    <li>cyanide degradation </li>
+    <li>degradation of 3-phenylpropionic acid </li>
+    <li>degradation of urate </li>
+    <li>diacetyl fermentation </li>
+    <li>dibenzo-<i>p</i>-dioxin degradation </li>
+    <li>dibenzofuran degradation </li>
+    <li>dibenzothiophene desulfurization </li>
+    <li>disproportionation of elemental sulfur </li>
+    <li>dissimilation of catechol, <i>meta</i>-cleavage </li>
+    <li>dissimilation of protocatechuate, <i>meta</i>-cleavage </li>
+    <li>ethanol-acetate fermentation </li>
+    <li>Formation of acetate from pyruvate </li>
+    <li>gallate degradation, anaerobic </li>
+    <li>glutamate degradation IX </li>
+    <li>glycolysis 2 </li>
+    <li>heterofermentative lactate fermentation </li>
+    <li>homocysteine and cysteine interconversion </li>
+    <li>hydrogen oxidation </li>
+    <li>ketogluconate metabolism </li>
+    <li>L-sorbose metabolism </li>
+    <li>lysine degradation III </li>
+    <li>maleamate pathway </li>
+    <li>methionine degradation 2 </li>
+    <li>methionine recycling </li>
+    <li>N-acetylneuraminate catabolism </li>
+    <li>nitrite oxidation </li>
+    <li>orcinol metabolism </li>
+    <li>oxidation of galena </li>
+    <li>oxidation of sulfide or sulfur to sulfite </li>
+    <li>phenylmercury acetate degradation </li>
+    <li>phospholipid biosynthesis II </li>
+    <li>phosphonoacetate metabolism </li>
+    <li>propionate catabolism, 2-methylcitrate cycle </li>
+    <li>purine fermentation </li>
+    <li>reductive tricarboxylic acid pathway </li>
+    <li>resorcinol metabolism </li>
+    <li>rhizobactin 1021 biosynthesis </li>
+    <li>RuMP cycle and formaldehyde assimilation </li>
+    <li>serine-isocitrate lyase pathway </li>
+    <li>sorbitol metabolism </li>
+    <li>stachydrine catabolism </li>
+    <li>succinate-propionate fermentation pathway </li>
+    <li>sulfate assimilation 2 </li>
+    <li>sulfide oxidation </li>
+    <li>TCA cycle, variation 1 </li>
+    <li>TCA cycle, variation 2 </li>
+    <li>TCA cycle, variation 3 </li>
+    <li>TCA cycle, variation 4 </li>
+    <li>TCA cycle, variation 5 </li>
+    <li>TCA cycle, variation 6 </li>
+    <li>TCA cycle, variation 7 </li>
+    <li>TCA cycle, variation 8 </li>
+    <li>thiocyanate metabolism </li>
+    <li>threonine biosynthesis from homoserine </li>
+    <li>xylulose-monophosphate cycle </li>
+  </ul>
+  </li>
+</ul>
+<hr>
+<h1>Release Notes for MetaCyc Version 5.4</h1>
+<p>Released on Sept 1, 2000.</p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>366</td>
+  </tr>
+  <tr>
+    <td>Reactions</td>
+    <td>4002</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>2180</td>
+  </tr>
+  <tr>
+    <td>Organisms</td>
+    <td>131</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>604</td>
+  </tr>
+</table>
+<p>The following new pathways are contained in this version of MetaCyc:</p>
+<p>
+<ul>
+  <li>ureide biosynthesis </li>
+  <li>lipoxygenase pathway I </li>
+  <li>threonine biosynthesis from homoserine </li>
+  <li>nicotine degradation </li>
+  <li>phosphonotase pathway </li>
+  <li>4-toluenesulfonate degradation pathway </li>
+  <li>sophorosyloxydocosanoate degradation </li>
+  <li>phenol degradation </li>
+  <li>pentachlorophenol degradation pathway </li>
+  <li>tetrachloroethene degradation pathway </li>
+  <li>octane oxidation </li>
+  <li>atrazine catabolism </li>
+  <li>&#947;-hexachlorocyclohexane degradation pathway </li>
+  <li>cyclohexanol oxidation </li>
+  <li>central benzoyl-CoA pathway </li>
+  <li>aromatic compound degradation </li>
+  <li>7&#945;-dehydroxylation pathway </li>
+  <li>4-toluenecarboxylate degradation </li>
+  <li>2-aminobenzoate degradation </li>
+  <li>1,4-dichlorobenzene degradation pathway </li>
+  <li>1,2-dichloroethane degradation pathway </li>
+  <li>sucrose biosynthesis </li>
+  <li>acetylene degradation, anaerobic </li>
+  <li>anaerobic oxidation of phenylalanine </li>
+  <li>ethylene biosynthesis from methionine </li>
+  <li>glyceraldehyde 3-phosphate catabolism </li>
+  <li>pyruvate metabolism </li>
+  <li>pentose phosphate pathway, Mycoplasma pneumoniae </li>
+  <li>glucose fermentation </li>
+  <li>carbon monoxide dehydrogenase pathway </li>
+  <li>interconversion of arginine, ornithine and proline </li>
+  <li>anaerobic glycolysis </li>
+  <li>sophorosyloxydocosanoate biosynthesis </li>
+  <li>trypanothione biosynthesis </li>
+  <li>polyamine biosynthesis, Bacillus subtilis </li>
+  <li>ureide degradation </li>
+  <li>triglyceride biosynthesis </li>
+  <li>phytoalexin biosynthesis </li>
+  <li>galactolipid biosynthesis </li>
+  <li>lipoxygenase pathway II </li>
+  <li>lipases biosynthesis </li>
+  <li>glycerol biosynthesis </li>
+  <li>flavonoid biosynthesis </li>
+  <li>biotin biosynthesis II </li>
+  <li>starch and cellulose biosynthesis </li>
+  <li>phenylalanine biosynthesis IV </li>
+  <li>phenylalanine biosynthesis, Bacillus subtilis </li>
+  <li>asparagine biosynthesis II </li>
+  <li>arginine biosynthesis, Bacillus subtilis </li>
+  <li>ectoine synthesis </li>
+  <li>polythionate oxidation </li>
+  <li>sulfur oxidation </li>
+  <li>sulfur degradation II </li>
+  <li>Fe<sup>3+</sup>-dependent sulfur oxidation pathway </li>
+  <li>desulfonation of 2-aminobenzenesulfonate, benzenesulfonate and 
+  4-toluenesulfonate </li>
+  <li>2-aminobenzenesulfonate desulfonation pathway </li>
+  <li>nitroglycerin metabolism </li>
+  <li>denitrification pathway </li>
+  <li>oxidation of ammonia </li>
+  <li>UDP-glucose conversion </li>
+  <li>purine salvage, Halobacterium salinarium </li>
+  <li>purine and pyrimidine metabolism in Mycoplasma pneumoniae </li>
+</ul>
+<hr>
+<h1>Release Notes for MetaCyc Version 5.0</h1>
+<p>Released on June 1, 1999.</p>
+<p></p>
+<table CELLPADDING="3" BORDER="1" ALIGN="CENTER">
+  <caption><strong>MetaCyc KB Statistics</strong> </caption>
+  <tr>
+    <td>Pathways</td>
+    <td>296</td>
+  </tr>
+  <tr>
+    <td>Reactions</td>
+    <td>3779</td>
+  </tr>
+  <tr>
+    <td>Chemical Compounds</td>
+    <td>1949</td>
+  </tr>
+  <tr>
+    <td>Citations</td>
+    <td>184</td>
+  </tr>
+</table>
+<p>This first release of the MetaCyc Metabolic Encyclopedia is called version 
+5.0 so that its version numbers are synchronized with the version numbering of 
+EcoCyc and of Pangea's Pathway Tools software.</p>
+<p></p>
+<hr>
+<!--#include virtual="/template-part3of3.shtml" -->
+
+</ul>
+
+</body>
+
+</html>

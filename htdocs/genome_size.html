@@ -1,0 +1,30 @@
+<HTML><head><title>Estimation of Genome Size</title></head>
+<BODY BGCOLOR="#ffffff"><a href="/"><img src="/images/tairsmall.gif" alt="TAIR Database" border=0 align=left></a>
+
+<CENTER><H1>Estimation of Genome Size</H1></CENTER>
+
+<hr>
+<p>
+
+The figure for total unique genomic sequence in GenBank is derived from the
+data used by TAIR to construct its Sequence Map. The value is obtained
+by first adding the sizes of all AGI entries in the following three
+categories in TAIR's AGI database:
+
+<ul>
+<li>completed, annotated sequences (in TAIR: "Annotated GenBank release")
+<li>completed, non-annotated sequences ("Sequencing completed")
+<li>not yet completed clones ("Non-annotated GenBank release")
+</ul>
+
+From this total is then subtracted the total of the 5' and 3' overlaps
+(divided by two) between entries as determined by TAIR using BLAST.
+
+<p>
+The current estimate of 117 Mb of unique sequence comes from presentations
+at the AGI meeting held at TIGR on August 22, 2000.  This estimate is subject
+to revision.  Not included are repetitive regions from the NORs, telomeres
+and centromeres, which contain ~7Mb of rDNA and 5Mb of 180bp tandem
+repeats.
+
+</HTML>

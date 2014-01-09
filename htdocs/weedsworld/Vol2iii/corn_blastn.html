@@ -1,0 +1,135 @@
+<html><head>
+<title>BLASTN query output</title>
+</head>
+<body>
+
+<H1>BLASTN query output</H1>
+
+BLASTN was ran against the database <I>Corn</I>.
+The query sequence was:<BR>
+
+
+<PRE>
+AAGCCTATTTGGGGGATCATCAACCTTCTATCATCACCATGGATCCTTACAAGTATCGTC
+CTTCAAGCGCGTACAACGCCCCATTCTACACCACAAACGGTGGTGCTCCAGTCTCCAACA
+ACATCTCTTCCCTCACCATCGGAGAAAGAGGTCCGGTTCTTCTTGAGGATTATNATTTGA
+TCGAGAAGGTTGCTAATTTCACCAGAGAGAGGNTCCCTGAGAGAGTGGTTCATGCTAGAG
+GAATCAGTGCTAAGGGTTTCTTTGAAGTCACCCATGACATTTCAAACCTCACTTTGTGCT
+GATTTTCTCAGAGCCCCNTGGGTGTTCAAACTCCCGGTTATTGTNCCGTTTTCTTCCAAC
+GGTTGTNCCACGGGAACGTGCCCAGTCCNTNAAACCAATNNNGGGGANATTCCGTGGGTT
+TTNCTTGTCAAGGNTTTTCAACCAGNGGAGGGNAAACTTTTNCNTT</PRE>
+<HR>
+<PRE>
+BLASTN 1.3.13 [3-Mar-93]
+<BR>
+<BR>Reference:  Altschul, Stephen F., Warren Gish, Webb Miller, Eugene W. Myers,
+<BR>and David J. Lipman (1990).  Basic local alignment search tool.  J. Mol. Biol.
+<BR>215:403-410.
+<BR>
+<BR>Notice:  this program is optimized to find nearly identical sequences rapidly.
+<BR>To identify weak similarities encoded in nucleic acid, use BLASTX or TBLASTN.
+<BR>
+<BR>Query=  NO NAME
+<BR>        (466 letters, both strands)
+<BR>
+<BR>Database:  /export/arab1/cdna/chi/db/Corn
+<BR>           1180 sequences; 367,242 total letters.
+<BR>Searching..................................................done
+<BR>
+<BR>                                                                     Smallest
+<BR>                                                                     Poisson
+<BR>                                                              High  Probability
+<BR>Sequences producing High-scoring Segment Pairs:              Score  P(N)      N
+<BR>
+<BR> 40249  dbEST sequence Corn EST                                263  4.2e-15   1
+<BR> 44511  dbEST sequence Corn EST                                107  0.088     1
+<BR> 52796  dbEST sequence Corn EST                                 94  0.74      1
+<BR>
+<BR>
+<BR>
+<BR>>40249  dbEST sequence Corn EST
+<BR>  Length = 237
+<BR>
+<BR>  Plus Strand HSPs:
+<BR>
+<BR> Score = 263 (72.7 bits), Expect = 4.2e-15, P = 4.2e-15
+<BR> Identities = 103/166 (62%), Positives = 103/166 (62%), Strand = Plus
+<BR>
+<BR>Query:    34 TCACCATGGATCCTTACAAGTATCGTCCTTCAAGCGCGTACAACGCCCCATTCTACACCA 93
+<BR>             |||| |||||||||  |||||  ||||| || |||    ||  | |  |  |    || |
+<BR>Sbjct:    36 TCACAATGGATCCTACCAAGTCCCGTCCGTCCAGCAGCCACGNCACGACGGTGACGACGA 95
+<BR>
+<BR>Query:    94 CAAACGGTGGTGCTCCAGTCTCCAACAACATCTCTTCCCTCACCATCGGAGAAAGAGGTC 153
+<BR>             | ||||  || ||||| || |  ||| ||| |    | || ||  | ||     | ||||
+<BR>Sbjct:    96 CGAACGCGGGCGCTCCTGTGTGGAACGACAACGAGGCGCTGACTGTGGGGCCTCGCGGTC 155
+<BR>
+<BR>Query:   154 CGGTTCTTCTTGAGGATTATNATTTGATCGAGAAGGTTGCTAATTT 199
+<BR>             |  | || || ||||  ||  |  ||||||||||||| ||  | ||
+<BR>Sbjct:   156 CCATCCTGCTGGAGGNCTACCACCTGATCGAGAAGGTGGCGCACTT 201
+<BR>
+<BR>
+<BR>>44511  dbEST sequence Corn EST
+<BR>  Length = 218
+<BR>
+<BR>  Plus Strand HSPs:
+<BR>
+<BR> Score = 107 (29.6 bits), Expect = 0.092, P = 0.088
+<BR> Identities = 31/43 (72%), Positives = 31/43 (72%), Strand = Plus
+<BR>
+<BR>Query:   157 TTCTTCTTGAGGATTATNATTTGATCGAGAAGGTTGCTAATTT 199
+<BR>             | || || ||||| ||  |  ||||||||||||| ||  | ||
+<BR>Sbjct:   176 TCCTGCTGGAGGACTACCACCTGATCGAGAAGGTGGCGCACTT 218
+<BR>
+<BR>
+<BR>>52796  dbEST sequence Corn EST
+<BR>  Length = 428
+<BR>
+<BR>  Plus Strand HSPs:
+<BR>
+<BR> Score = 94 (26.0 bits), Expect = 1.4, P = 0.74
+<BR> Identities = 26/35 (74%), Positives = 26/35 (74%), Strand = Plus
+<BR>
+<BR>Query:   282 TCAAACCTCACTTTGTGCTGATTTTCTCAGAGCCC 316
+<BR>             || || |||||||||||| |  |||| | |  |||
+<BR>Sbjct:   385 TCGAATCTCACTTTGTGCCGTCTTTCACCGGTCCC 419
+<BR>
+<BR>Parameters:
+<BR>  E = 10., S = 85 (23.5 bits),  E2 = n/a, S2 = n/a
+<BR>  W = 12, T = n/a, X = 73 (20.2 bits)
+<BR>  M = +5 (1.4 bits), N = -4 (-1.1 bits)
+<BR>  H = 0, V = 500, B = 250
+<BR>  -gapdecayrate 0.5 (the default)
+<BR>
+<BR>Statistics:
+<BR>  Lambda = 0.192 nats/unit score, Lambda/ln2 = 0.276 bits/unit score
+<BR>  K = 0.173, H = 0.515 bits/position
+<BR>  Expected/Observed high score = 92 (25.4 bits) / 263 (72.7 bits)
+<BR>  # of letters in query sequence = 466  (Effective length = 449)
+<BR>  # of 8-tuples in query sequence and complement = 714
+<BR>  Database:  /export/arab1/cdna/chi/db/Corn
+<BR>  # of letters in database = 367,242
+<BR>  # of 8-tuple hits against database = 1312
+<BR>  # of 12-tuple hits against database = 29
+<BR>  # of failed hit extensions = 18
+<BR>  # of successful hit extensions = 3
+<BR>  # of overlapping HSPs discarded = 0
+<BR>  # of HSPs reportable = 3
+<BR>  # of sequences in database = 1180
+<BR>  # of database sequences with at least one HSP = 3
+<BR>No. of states in DFA:  222 (222 KB)
+<BR>Total size of DFA:  231 KB (250 KB)
+<BR>Time to build DFA:  0.10u 0.05s 0.15t  Real: 00:00:00
+<BR>Time to search database:  0.18u 0.11s 0.30t  Real: 00:00:00
+<BR>Total cpu time:  0.33u 0.30s 0.63t  Real: 00:00:00
+<BR></PRE><HR>Here is a list of the variables you entered...<P><DL COMPACT><DT><B>database</B><DD><I>Corn</I><BR><DT><B>text</B><DD><I>AAGCCTATTTGGGGGATCATCAACCTTCTATCATCACCATGGATCCTTACAAGTATCGTC<BR>CTTCAAGCGCGTACAACGCCCCATTCTACACCACAAACGGTGGTGCTCCAGTCTCCAACA<BR>ACATCTCTTCCCTCACCATCGGAGAAAGAGGTCCGGTTCTTCTTGAGGATTATNATTTGA<BR>TCGAGAAGGTTGCTAATTTCACCAGAGAGAGGNTCCCTGAGAGAGTGGTTCATGCTAGAG<BR>GAATCAGTGCTAAGGGTTTCTTTGAAGTCACCCATGACATTTCAAACCTCACTTTGTGCT<BR>GATTTTCTCAGAGCCCCNTGGGTGTTCAAACTCCCGGTTATTGTNCCGTTTTCTTCCAAC<BR>GGTTGTNCCACGGGAACGTGCCCAGTCCNTNAAACCAATNNNGGGGANATTCCGTGGGTT<BR>TTNCTTGTCAAGGNTTTTCAACCAGNGGAGGGNAAACTTTTNCNTT<BR></I><BR></DL>
+
+<HR>
+<address>
+This page is brought to you by Ed H. Chi <BR>
+chi@lenti.med.umn.edu<BR>
+Mon May  8 14:35:20 CDT 1995<BR>
+</address>
+
+<HR>Go back to the <A HREF="mX_blastn_tutorial.html#DATABASE">tutorial</A>
+
+</body></html>

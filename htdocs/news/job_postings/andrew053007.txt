@@ -1,0 +1,59 @@
+The University of Edinburgh; Centre for Systems Biology at Edinburgh.
+Positions detailed below, including 4 postdocs to work on the clock in 
+Arabidopsis.
+For further information and to apply: http://csbe.bio.ed.ac.uk 
+
+The University of Edinburgh is proud to launch the Centre for Systems Biology at 
+Edinburgh (CSBE), a unique opportunity presented by a £17M investment from 
+BBSRC, EPSRC and the University. CSBE draws expertise from 11 internationally-
+leading Systems Biology research groups to understand the general principles 
+underlying dynamic biological processes, initially in the areas of RNA 
+metabolism in yeast, circadian clocks in plants and interferon signalling in 
+immunity. We now seek 18 outstanding individuals with a passion for 
+interdisciplinary research, to integrate new biological data and mathematical 
+models into large-scale informatics infrastructure, in the following roles: 
+
+Centre Manager £41,544-£46,758 (Ref: 3007427NA) The Centre Manager has a 
+strategic role in coordinating experimental with theoretical research; 
+implementing long-term research and funding strategy; and managing outreach, 
+knowledge transfer and commercialisation.
+ 
+Project Manager for Theory £32,795-£39,160 (Ref: 3007435NA) This Project Manager 
+will coordinate theoretical research across the CSBE labs, manage software 
+development and informatics services. 
+
+Project Manager for Experiments £32,795-£39,160 (Ref: 3007432NA) This Project 
+Manager will coordinate experimental research across the CSBE labs, manage core 
+experimental facilities and develop outreach activity. 
+
+Senior Research Fellow £41,544-£46,758 (Ref: 3007438NA) The Research Fellow will 
+guide the core experimental facility to measure kinetic parameter values, and 
+establish an independent programme of technological research. An initial focus 
+will be on mass spectroscopy. 
+
+Research Technician £18,157-£21,050 (Ref: 3007437NA) The Technician will support 
+quantitative, robotised molecular assays in the core experimental facility. 
+
+Three Software Developers £26,666-£31,840 (Ref: 3007409NA) The Developers will 
+implement a Systems Biology Software Infrastructure, linking experimental data 
+repositories directly to models, model-building and analysis tools. 
+
+Ten Post-Doctoral Research Associates £26,666-£31,840 (or exceptionally £32,795-
+£39,160 for positions 3007425NA and 3007405NA) Protein mass spectroscopy for RNA 
+metabolism in budding yeast (PI: J.Beggs/D.Tollervery; Ref: 3007430NA). 
+Biochemistry and molecular genetics of the circadian clock in Arabidopsis (PI: 
+A. Millar; 2 positions; Ref: 3007418NA). Mathematical modelling and analysis of 
+rhythmic gene circuits (PI: A. Millar; 2 positions; Ref: 3007423NA.). Software 
+tools for graphical design of biological models (PI: I. Goryanin; Ref: 
+3007425NA). Mathematical analysis of high-dimensional dynamic networks using 
+high-performance computing (PI: I. Goryanin; Ref: 3007405NA). Machine learning 
+methods for network inference from molecular data (D. Husmeier; Ref: 3007407NA). 
+Process algebra models of biochemical pathways and associated quantitative 
+analysis with development of experimental software tools. (PI: J. Hillston; Ref: 
+3007424NA). Petri-net based models and languages for s!
+ ystems biology (PI: G. Plotkin; Ref: 3007439NA). 
+
+For further information and to apply: http://csbe.bio.ed.ac.uk
+CSBE is a Centre for Integrative Systems Biology supported by BBSRC and EPSRC.  
+The University of Edinburgh Tel: +44 (0)131 650 2511 www.ed.ac.uk 
+

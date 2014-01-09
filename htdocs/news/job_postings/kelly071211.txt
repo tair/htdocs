@@ -1,0 +1,50 @@
+Research Associate - Biostatistics/Bioinformatics 
+
+Department of Plant Sciences, University of Cambridge, UK 
+
+  
+
+Modelling control of meiotic recombination frequency 
+
+---------------------------------------------------- 
+
+Meiotic recombination generates novel combinations of genetic variation via 
+reciprocal exchange between homologous chromosomes. To better understand 
+this process we are generating genome-wide recombination frequency maps in 
+the model plant Arabidopsis thaliana. 
+
+  
+
+The research associate will integrate recombination frequency maps with 
+genomic, epigenomic and population genetic data. They will then develop a 
+quantitative model for control of recombination frequency, which will be 
+tested using experimental genetics. This research has important implications 
+for population genetics and food security via crop breeding. 
+
+  
+
+The research associate will work jointly within Dr Ian Henderson's 
+experimental research group and the Departmental Bioinformatics Group led by 
+Dr Krys Kelly. The bioinformatics group currently consists of five people 
+developing statistical methodology and analysing genome-wide patterns of 
+small RNAs and epigenetic information in association with Prof Sir David 
+Baulcombe. 
+
+  
+
+Applicants should have a Ph.D and substantial experience of a statistical 
+language (e.g. R, Matlab). Experience in statistics, statistical genetics, 
+quantitative genetics or genomics would also be beneficial. 
+
+  
+
+Vacancy Reference No: PD09942. Salary: £27,319-£35,646 pa. 
+
+The post is available for 2 years, in the first instance. 
+
+  
+
+Download the further particulars and details of how to apply from 
+http://www.plantsci.cam.ac.uk/jobs/index.html 
+
+Closing date is 12 noon on 16 December 2011. 

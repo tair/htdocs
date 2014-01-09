@@ -1,0 +1,565 @@
+<TITLE>Everything you wanted to know about the University
+of Minnesota's analysis of Arabidopsis ESTs but were afraid to ask</TITLE>
+<H1>Everything you wanted to know about the University
+of Minnesota's analysis of Arabidopsis ESTs but were afraid to ask</H1>
+
+<ADDRESS>Kristi L. Swope<em sup>(1,2),</em> Thomas C.
+Newman<em sup>(3)</em>, Elizabeth Shoop<em
+sup>(2),</em> Paul Bieganski<em sup>(2),</em> Ed Chi<em sup>(2),</em> 
+Olaf Holt<em sup>(2)</em>, John Carlis<em sup>(2)</em>, John Riedl<em
+sup>(2)</em> and Ernest F. Retzel<em sup>(1)</em></ADDRESS><P>
+
+<ADDRESS> <em sup>(1)</em>Medical School and <em sup>(2)</em>Department of Computer
+Science, University of Minnesota, Minneapolis,
+MN</ADDRESS> <ADDRESS><em sup>(3)</em>DOE Plant Research Laboratory,
+Michigan State University, East Lansing, MI</ADDRESS><P>
+<ADDRESS>email:
+comments@lenti.med.umn.edu</ADDRESS> <HR><H2>Table of Contents</H2> 
+
+<UL> <A HREF="tutorial.fm3.html#HDR1"><B>1.0 Overview</B></A> <BR>
+
+<A HREF="tutorial.fm3.html#REF84656"><B>2.0 Making mountains of data
+(or, What exactly do we analyze?)</B></A>
+
+<UL> <A HREF="tutorial.fm3.html#HDR2">2.1 Preparation of the raw
+sequence</A> <BR>
+
+<A HREF="tutorial.fm3.html#HDR3">2.2 Similarity analysis of the
+sequence</A> <BR>
+
+<A HREF="tutorial.fm3.html#HDR4">2.3 Making the data easy to access,
+read and retrieve</A> </UL>
+
+<A HREF="tutorial.fm3.html#HDR5"><B>3.0 Searching through mountains of
+data to find your buried treasure</B></A>
+
+<UL> <A HREF="tutorial.fm3.html#REF64692">3.1 Conducting a WAIS
+search</A> <BR>
+
+<A HREF="tutorial.fm3.html#REF42494">3.2 Looking at the results of
+your WAIS search</A> <BR>
+
+<A HREF="tutorial.fm3.html#REF15728">3.3 A word about jumping around
+web pages via links</A> </UL>
+
+<A HREF="tutorial.fm3.html#HDR6"><B>4.0 Future Directions</B></A>
+
+<UL> <A HREF="tutorial.fm3.html#HDR7">4.1 Software</A> <BR>
+
+<A HREF="tutorial.fm3.html#HDR8">4.2 Connecting the Dots (or Related
+projects)</A> </UL>
+
+<A HREF="tutorial.fm3.html#HDR9"><B>5.0 Acknowledgments</B></A> <BR>
+
+<A HREF="tutorial.fm3.html#HDR10"><B>6.0 References</B></A> </UL>
+
+
+<HR><!-- This file was created with the fm2html filter.The filter is
+copyright Norwegian Telecom Research and was programmed by Jon
+Stephenson von Tetzchner.  -->
+
+
+<H2><A NAME="HDR1">1.0 Overview</A></H2> At the Plant Molecular
+Informatics Center at the University of Minnesota, <I>Arabidopsis</I>
+EST sequences from the Michigan State University<I> </I>and the French
+consortium are being processed for quality and analyzed for similarity against
+public database sequences (GenBank, GenInfo, PIR), and the resulting
+data is made available on the World Wide Web <A HREF="tutorial.fm3.html#SHOOP95">(Shoop <I>et al</I>.,
+1995)</A>. In short, we supply information pertaining to:<p>
+
+<UL> <LI>the cDNA sequence and its length after removing vector and
+trimming the sequence to improve quality;<BR>
+
+<LI>the percentage of unknown bases (N) in the sequence;<BR>
+
+<LI>results from running BLASTN and BLASTX against GenBank, GenInfo
+and PIR;<BR>
+
+<LI>the presence of low composition complexity (LCC) regions in the
+sequence; and<BR>
+
+<LI>results from running BLASTP on sequences with LCC regions masked
+out, if these regions exist.<BR> </UL>
+
+
+In addition to processing data for <I>Arabidopsis</I>, we are
+processing sequences for other plant genomes, including rice, maize,
+and loblolly pine, with <I>Brassica</I> soon to come. All of the
+results are made available <I>via</I> <a href="http://lenti.med.umn.edu/">our Web server</a>
+[http://lenti.med.umn.edu] under a queriable WAIS index. <p>
+The purpose of this electronic tutorial is to explain the work that we
+have done to date and to demonstrate methods for accessing the
+mountains of data. In addition, we will take you step by step through
+example reports, providing tips regarding our presentation of the
+data.<p> 
+
+<H2><A NAME="REF84656">2.0 Making mountains of data (or, What
+exactly do we analyze?)</A></H2> <H3><A NAME="HDR2">2.1 Preparation of
+the raw sequence</A></H3> We obtain raw sequence information directly
+from Michigan State University  <A HREF="tutorial.fm3.html#NEWMAN">(Newman, <I>et al</I>., 1994)</A>, and the first step in processing the
+sequences is to filter artifacts from machine sequencing out of the
+data set. Each EST is checked for quality by checking for the ratio of
+unknown bases to the total number of bases in that sequence. A
+sequence with less than 4 or 5% of unknown bases is considered to be
+of reasonably good quality, and sequences with a higher percent of
+unknown bases are trimmed from the 3' end until sequence quality is
+satisfactory. In addition, 5' and 3' vector are removed from each
+sequence to prevent the potential similarities to sequences of
+interest being overshadowed by matches to vector sequences in the
+public databanks <A HREF="tutorial.fm3.html#GISH">(Gish and States, 1993)</A>. While it would be
+ideal to remove all vector before checking for quality, the strict
+rules that are necessary for a computer to remove vector automatically
+sometimes requires that the quality of the sequence be improved before
+vector removal.<p> 
+
+<H3><A NAME="HDR3">2.2 Similarity analysis of the sequence</A></H3> The
+next step in the sequence processing involves conducting similarity
+searches on the filtered sequences.  The current suite of similarity
+algorithms executed includes BLASTN, BLASTX, and, if low compositional
+complexity regions are found, BLASTP <A
+HREF="tutorial.fm3.html#ALTSCHUL">(Altschul <I>et al</I>., 1990)</A>.
+
+By and large, the statistical
+array of amino acids in proteins are very close to random, and for some
+proteins, there is a bias toward a certain class of amino acids, which
+has biological function, such as acidic or basic proteins.  However,
+frequently, there are regions of low compositional complexity (LCC);
+such regions contain a non-random distribution of amino acids.  These
+LCC regions often lack real biological function, resulting in spurious
+similarities.  We use the XNU program of Claverie and States <A
+HREF="tutorial.fm3.html#CLAVERIE">(Claverie and States, 1993)</A> to
+ identify potential LCC regions and to mask out those regions in
+peptide sequences translated from the ESTs.  However, because of the nature of
+our anonymous ESTs, we do not make value judgements:  we present both the
+unmasked BLASTX results and the LCC-masked BLASTP results. For example,
+sometimes the low complexity regions seem to be the only part of a relatively
+poor hit:<P>
+
+<PRE>
+ Score: 58  Frame = 2   
+   FLRDITMVTTMVTDMD*LAISTIDSMTGLVRVFKRLLSPEFGELLKMILESLHLFFDSIS 
+   F+  +  + T+   +  ++   +  +     ++  LL   +  LL+  L +++L+++ +S
+   FMLSLIYLFTLRYTLKVFSCEIFIKIVNAFALYGSLLYISYIILLNFGLLNFNLIYEHLS </pre>
+
+and sometimes the hit contains LCC regions, but still appears important:<P>
+
+<PRE>
+ Score: 249  Frame = 1   
+   TSNLNYRFYDRSCPRLQTIVKSGVWRAFKDDSRIAASLLRLHFHDCFVNGCDGSILLNDS 
+   +++L+ RFY RSCPR Q+I++ GV  A + + R++ASLLRLHFHDCFV+GCD+SILL+D+
+   SAQLSPRFYARSCPRAQAIIRRGVAAAVRSERRMGASLLRLHFHDCFVQGCDASILLSDT </PRE>
+<P> In both of the above examples, lysine occurs much more frequently than would be
+expected for a random distribution, where there would be approximately
+one lysine in every 20 residues.<P>
+
+A few other items are taken into consideration in processing the
+sequences.  When DNA libraries are made using directional cloning, only
+the positive strand is analyzed. If the clones are not directionally
+cloned, as is the case for some of our other projects, then all six
+frames are processed. The blasts are performed against current versions
+of GenBank, PIR and GenPept databases using a PAM score <A
+HREF="tutorial.fm3.html#DAYHOFF"> (Dayhoff <I>et al</I>., 1978)</A> of
+250. The high PAM score has been chosen because it allows for
+similarity matches, or hits, between sequences of large evolutionary
+distance, and plant DNA makes up a relatively small proportion of the
+public databases. This high PAM value does not affect matches to very
+similar sequences (<I>i.e.</i>, other plants). Finally, the EST
+sequences are re-blasted on a reasonably regular basis to keep up with
+additions to the public databases.<p>
+
+<H3><A NAME="HDR4">2.3 Making the data easy
+to access, read and retrieve</A></H3> The results of the automated
+analysis performed on a set of ESTs consists of several files that
+contain information about each individual EST. Some of the files, like
+the similarity search outputs, are hundreds of lines long and contain
+information that is interrelated. It is difficult for anyone to peruse
+each file for an EST manually and get the whole picture of the
+analysis for that EST. It is equally difficult to obtain a summarized
+view of the results of the similarity searches for a set of
+ESTs. Therefore, we package the results from the various analyses
+performed and produce a single document for each EST with hypertext
+links connecting related material. You can browse this single document
+using a hypertext browser like Mosaic or Netscape and move through it
+using the links (<A
+HREF="tutorial.fm3.html#REF15728">Section 3.3</A>). In order to view
+blast results for a single sequence at a glance, we have included in
+this document images from Alignment Viewer, a visualization tool
+developed as part of this work <A HREF="tutorial.fm3.html#CHI">(Chi <I>et al.</I>,
+1995)</A>. The Alignment Viewer (AV) tool provides a graphical
+representation of all the hits for an input EST sequence, color-coding
+the hits to different frames, and organizing the hits by score and the
+locations of the amino acid residues where the hit occurred along the
+probe sequence. The resulting display provides for rapid
+interpretation of the BLASTX or BLASTP hits most likely to provide
+clues about the function of the unknown sequence. Samples of these
+documents and their interpretation is provided below (<A
+HREF="tutorial.fm3.html#REF42494">Section 3.2</A>).<p> As another step
+in making data accessible, we submit all sequences that are at least
+200 base pairs in length with no more than 5% unknown bases (these
+criteria were defined experimentally, <A HREF="tutorial.fm3.html#SHOOP94">Shoop, <I>et al</I>.,
+1994</A>) to dbEST <A HREF="tutorial.fm3.html#BOGUSKI">(Boguski <I>et al</I>., 1993)</A> at
+<A HREF="http://www.ncbi.nlm.nih.gov/">NCBI</A>. The individual clones, which contain the EST
+sequences, are also made available at the <A
+HREF="http://aims.cps.msu.edu/aims/">
+ABRC Stock Center </A>
+at Ohio State University.<p> 
+
+<H2><A NAME="HDR5">3.0 Searching through
+mountains of data to find your buried treasure</A></H2> <H3><A
+NAME="REF64692">3.1 Conducting a WAIS search</A></H3> You can pull up
+a form for conducting a search on this data by linking to our server
+[http://lenti.med.umn.edu] and clicking first on the link &quot;Arabidopsis 
+cDNA Sequence Analysis Project&quot;, and next on the &quot;WAIS index
+search&quot; link. One way to think of WAIS searching is to liken it
+to conducting a literature search, except instead of searching through
+many journals for articles of interest, you are searching through
+quality and blast reports for sequences of interest. The form used is
+shown in <A HREF="fig1_wais_form.gif">Figure 1</A>. 
+You need to make a choice as to which groups
+of sequences you wish to search. Any combination of one or all of the
+groups is acceptable. The yellow boxes indicate that the group of
+sequences will be included in the search. Next, type in the key word
+or words into the query search string box. There are two important
+points to keep in mind when choosing your key word. First, WAIS does
+not treat a phrase as a phrase <I>per se</I>, but as individual
+words. For example, if you get a hit on the query &quot;early light
+inducible&quot; it could be because the phrase &quot;early light
+inducible&quot; was found in the document, or it could be because the
+word &quot;early&quot; was found in the document, but not
+&quot;light&quot; or &quot;inducible&quot;. The second key to remember
+is that, while in most literature searches you can restrict hits to
+the title or the abstract or look for hits anywhere in the report, in
+WAIS searches, you do not have a choice of restricting searches to
+particular fields. You can find more tips on conducting a WAIS search
+under the &quot;tips and pitfalls&quot; link which is just above the
+form shown in Figure 1. Our server also points to a very detailed
+explanation on how to conduct searches
+[http://ls6-www.informatik.uni-dortmund.de/freeWAIS-sf/fwsf_5.html#SEC45]. After
+typing in your query, choose the number of hits you want returned, and
+then click the start search button.<p> After searching, the server
+will provide you with a list of documents appearing as links 
+(<A HREF="fig2_wais_diagn.gif">Figure 2</A>). 
+Each of these
+documents contain all the information described above (<A
+HREF="tutorial.fm3.html#REF84656">Section 2.0</A>) for a single cDNA,
+and only the documents containing the key word(s) for which you
+searched are listed. If any the fields that you selected have no hits,
+this is reported at the top of this list. For example, when searching
+the MSU <I>Arabidopsis</I> sequences and the USDA loblolly pine
+sequences for &quot;catalase&quot;, we find that there are no hits for
+the pine sequences; therefore, the hits listed are all from the
+<I>Arabidopsis</I> sequences (<A HREF="fig2_wais_diagn.gif">Figure 2</A>). The default value for the
+number of documents returned is 200. If you get 200, it is probably
+because there are a lot more than 200 documents that contain your
+search words. This list of documents is ordered based on the score
+that the freeWAIS program, which is used to make the WAIS index,
+assigns to each document. This score is based on the number of
+occurrences of the search words in a document, the location of the
+words in a document, the frequency of those words within the
+collection, and the size of the document. It is important to keep this
+in mind as you survey your results, because, for example, a high score
+may point to a document that contains very few or no data. <p> 
+
+<H3><A
+NAME="REF42494">3.2 Looking at the results of your WAIS
+search</A></H3> After the WAIS search comes back with the list
+described above (<A HREF="tutorial.fm3.html#REF64692">Section
+3.1</A>), you may click on one of the links to open up one of the
+documents containing the sequence, quality information and several
+forms of blast data. For example, by clicking on the link <P>
+http://lenti.med.umn.edu/r2.MSU_Ath/950315b/154N18T7-JCAG500.seq.html <P>
+that is seen in <A HREF="fig2_wais_diagn.gif">Figure 2</A>, the file containing the sequence
+analysis information for clone 154N18T7 is opened (<A
+HREF="fig3_table_contents.gif">Figure 3</A>). 
+This document can be very
+large, and it is generally advantageous to review its contents by
+scrolling through various parts of the document and clicking on links
+to hop quickly to other parts. Another way to move to items of interest is to
+use the "Find In Current" (or "Find") feature under the "File" (or "Edit") menu, which is part of
+Mosaic (or Netscape) itself.  Here you can type in a key word, such as what you
+used for the WAIS search, and find the location of the words in the current
+document.  For now, we will use the scroll bar on the right side of the file to take you through the
+document.
+First, we move directly to information about the EST
+studied in this file (<A HREF="fig4_sequence.gif">Figure 4</A>). 
+The DNA sequence
+is presented at the top of this file so that you may copy it for your
+own records.<p> Following the background sequence information, a
+visualization of BLASTX similarity results is presented with an image
+from the Alignment Viewer tool 
+(<A HREF="fig5_av_blastx.gif">Figure 5</A>), 
+followed by a visualization of BLASTP hits. In these images, all the
+alignments to the sequence in question are plotted according to score
+on the y axis and according to the location and length of the
+alignment on the x axis. Alignments with scores of 150 or greater are
+considered strong hits, and a putative function can be assigned ESTs
+which have hits with this high a score (<A HREF="tutorial.fm3.html#SHOOP94">Shoop <I>et al</I>.,
+1994</A>). Alignments with scores of less than 80 should be viewed
+critically, as such a low score suggests that the alignment was
+largely due to chance. Also, short regions of high similarity may have
+an artificially high score.<p> Sometimes the BLASTP image appears
+empty (<A HREF="fig6_av.blastp.gif">Figure 6</A>), 
+and this can occur for various reasons. For instance, if
+there are no LCC regions found in the sequence, the BLASTP program is
+not run. As another example, there may be LCC regions found in frame
+1, but alignments only in frame 3. In this case, a BLASTP was run on
+frame 1, but since there are no hits to frame 1, there are no data to
+graph. If there are LCC regions found in a frame that shows sequence
+similarity to a public sequence, the location of the regions is
+presented, as shown in <A HREF="fig7_LCC_found.gif">Figure 7</A>. 
+
+<p> Underneath the description of LCC
+regions, a link allows you to go directly to a summary list of protein
+alignments that were obtained with BLASTP (<A HREF="fig8_blastp_sum.gif">Figure 8</A>). 
+This summary enables you to
+determine at a glance what frame the alignments occurred in, whether
+or not there was a frame shift, and a brief description of the
+sequence to which the alignment occurred. Additionally, the higher
+scores and lower <I>p</I>-values indicate which hits are the
+strongest. By clicking on the &quot;goto&quot; link, you can see the
+actual alignment between the protein sequences, as well as a longer
+description of the sequence from the databank 
+(<A HREF="fig9_protein.algn.gif">Figure 9</A>). 
+You can also get to these alignments by
+continuing to scroll down the document from the summary list. Note
+that the top sequence is the test (or probe) sequence that blast was run against
+and the bottom sequence is the similar sequence from the target public
+databank. If you are interested in researching the latter sequence,
+there are links, which connect directly to the databank, in both the
+summary report and the individual alignment reports.<p> 
+
+If, instead of
+using the link to go to the BLASTP data, you continue to scroll down
+the report, there is a summary list of protein alignments that were
+obtained with BLASTX. These data are collected without masking out any
+low complexity regions, but the presentation of the data is identical
+to the BLASTP data. In cases where LCC regions are found, it is
+important to compare the BLASTX and BLASTP results to determine which
+data are appropriate for your research purposes.<p> The summary list
+of BLASTX alignments is followed by the summary list of BLASTN
+alignments, which provides similar information on the DNA alignments
+obtained with BLASTN. After the summary lists are the detailed lists
+of BLASTX, BLASTN, and BLASTP hits (<A HREF="fig9_protein.algn.gif">Figure 9</A>),
+respectively. These lists are ordered according to increasing
+<I>p</I>-value, and hits with <I>p</I>-values greater than 0.1 are
+omitted from the list. For some ESTs, when you look for the BLASTP
+hits, you may find the heading of this section, but no entries
+(<A HREF="fig10_empty_blastp.gif">Figure 10</A>). 
+This may seem puzzling at
+first. However, if there are no low complexity regions, or hits
+occurred with a <I>p</I>-value greater than 0.1, there are no
+reportable BLASTP results, and hence, this section should be empty. If
+you go back to the table of contents at the top of the document, and
+click on the &quot;Low Complexity Regions&quot; title, you can double
+check whether or not LCC regions were found.<p> <H3><A
+NAME="REF15728">3.3 A word about jumping around web pages via
+links</A></H3> As you explore these web pages and others, it is useful
+to keep in mind a few features about links. First, sometimes when you
+click on a link, you may get a response indicating that a server is
+not available. This occurs when the local machines that store the
+information you are requesting is busy or the network itself is busy,
+in which case the query times out before the server responds. In these
+cases, it is best to try the link at another time, and you are more
+likely to get through. Second, one of the attractive features about
+links, is that server A can point to the information in server B
+without needing to worry about keeping the information up to
+date. Server B controls this information and is responsible for
+updates. However, server B controls the link name as well. If server B
+has a need to change the name of the link, it is not a trivial task to
+inform server A of this change. Therefore, the link to server B may be
+outdated without server A being aware that a change has taken
+place. Webmasters, or the people who make the web pages available, do
+a great job in keeping these links current, but occasionally, you may
+find an outdated link before they do. In these cases, a brief email
+sent to a contact provided on the web pages, describing the link and
+the problem, would be greatly appreciated.<p> 
+
+<H2><A NAME="HDR6">4.0
+Future directions</A></H2> We are generally quite proud of the server
+as it is, with nearly 30,000 sequences and their analyses across the
+species. However, we are far from done with it! There are many things
+in queue and planned that you should be aware of, if for no other
+reason than to encourage you to register with the User Group on the
+system so you will be notified of new developments and additions. <p>
+<H3><A NAME="HDR7">4.1 Software</A></H3> There are several pieces of
+attached (within the server) and associated (clients of the server)
+software coming on-line soon. By &quot;soon,&quot; we mean they
+already exist, and are either in the final stages of testing and
+documentation, or are getting their respective databases updated.<p>
+First, we have a local BLASTN search tool ready, and it will likely be
+on our server before you read this paper. This will allow you to
+search our data sets with your DNA sequence(s). It is interactive, and
+web-based, and all you need do is select the target genomes you are
+interested in, paste your sequence into the window, and click on the
+&quot;submit your query&quot; button. An obvious follow-up for this
+program is a version for BLASTX to run your data against the
+translations of coding sequences in our data. All we are waiting for
+to bring this up is the new version of  Xgrail (Xgrail 1.3; unfortunately, the current
+version isn't suitable for our needs) from Oak
+Ridge National Labs so we can have a smarter version of the
+translations of the sequences. <p> Second, Alignment Viewer (AV)
+<A HREF="tutorial.fm3.html#CHI">(Chi <I>et al</I>., 1995)</A> is the tool we use to produce the
+static images in the EST analysis reports. In its &quot;real&quot;
+incarnation, the program is 3-dimensional and interactive, and
+additional information is calculated and displayed &quot;on the
+fly&quot; (specifically, it shows you a curve of what the substitution
+matrices will do if you were to run them all; both PAM <A
+HREF="tutorial.fm3.html#DAYHOFF">(Dayhoff <I>et
+al.</I>, 1978)</A> and BLOSUM <A HREF="tutorial.fm3.html#HENIKOFF">(Henikoff and
+Henikoff, 1993)</A> matrices are included. If you have a
+Sun (SunOS 4.1.3, Solaris 2.4), SGI or Linux computer running 
+the "motif" window system, you will be able to run this client. It functions much like
+other external viewers for the Web (<I>xv</I> being one of them for
+Unix-based machines), in that it resides on your machine, but reads
+data from ours.<p> Third, the MotifExplorer <A HREF="tutorial.fm3.html#BIEGANSK96">(Bieganski, <I>et al</I>.,
+1996)</A> is based on a something called a &quot;suffix tree&quot;
+<A HREF="tutorial.fm3.html#BIEGANSK95">(Bieganski, <I>et al</I>., 1994; Bieganski, 1995)</A>. The
+underlying algorithm and data structure is described in the papers
+above; what it *is*, however, is a very fast pattern matching
+tool. This is the only large scale implemetation that we know of, and
+presently allows you to explore PIR using a variety of patterns,
+including ProSite patterns or those of your own design. Our own data
+will be available under this tool, shortly after we get
+Xgrail 1.3 (see note above).<p> 
+
+One of our
+longest term and most complex projects has been the development of a
+relational database management system (DBMS) for sequences, lab,
+analytical and derived information. This system will allow for very
+complex searches, or queries, against the entire data set. The data
+structure has been defined, and, indeed, data has been loaded into the
+database. It is still very much under development, and is queriable
+only by Structured Query Language (SQL) at the moment; however, we are
+designing web-based &quot;query-building&quot; screens so that one
+will not have to understand SQL (or even know that it exists) to use
+the DBMS. One of the unique additions to this system has been the
+development of database operators (termed "datablades") for the DBMS that understands protein
+motifs <A HREF="tutorial.fm3.html#LUNDBERG">(Lundberg, 1995)</A>. This allows the searching of sequences in the
+database with any pattern and particularly the ProSite patterns.<p>
+
+<H3><A NAME="HDR8">4.2 Connecting the Dots (or, Related
+projects)</A></H3> We have several projects which are primarily
+collaborative in nature. Among these is the addition of mapping
+information when ESTs have been intentionally (Bertrand Lemieux, York
+University, Ontario, CA), or accidentally (Amir Sherman, MIT, Boston, USA) mapped
+onto YACs, BACs or cosmids. We are also adding information
+supplied by other groups, when families of proteins have been
+identified with ESTs and other, sometimes characterized clones are
+available (for example, Estelle Hrabak, at the University of Wisconsin, Madison, USA, has 
+identified ESTs that are isoforms of CDPK). Finally, we are trying to figure out a means to
+include identified phenotypic mutants from laboratory experiments,
+particularly when that information maps onto our EST data. Write to us
+at <I>comments@lenti.med.umn.edu</i> if you have similar information you
+would like us to make available to the community. You will be the key
+contact regarding any information you provide.<p> As happy as we are
+with the directions we have taken for this project, EST data, even
+extended by a variety of analyses, needs a context to exist in. To
+that end, we have been volunteering our time to work on other genomes,
+feeling that some of the real treasures may be in the <i>comparative</i>
+genome analysis. While this part of the project is presently unfunded,
+we are gathering ESTs from rice, maize and loblolly pine presently,
+and we will shortly add some of the <I>Brassica</I> sequences. In
+addition, some preliminary discussions are in progress with other
+projects. We feel very strongly that this database of multi-genus
+plant ESTs has the ability to begin to provide direction both for
+molecular and for biological experimentation.<p> 
+
+<H2><A
+NAME="HDR9">5.0 Acknowledgments</A></H2> The University of Minnesota
+Plant Data Acquisition, Analysis and Distribution Project is funded
+under NSF Grant BIR 940-2380, and the Michigan State University DOE
+Plant Research Laboratory <I>Arabidopsis</I> cDNA Sequencing Project
+is funded under NSF Grant BIR 931-3751. In addition, we are supported
+by major resources from the following: The University of Minnesota
+Medical School, with special thanks to Dean Frank Cerra; Computing and
+Informations Services, with special thanks to Professor and Vice
+President Don Riley; University Networking Services, with special
+thanks to Director Larry Dunn; Sun Microsystems, with special thanks
+to Sandra Swenson; IBM with special thanks to Norm Troullie and Pat
+Carey; and Cray Research, Inc., with special thanks to John Carpenter
+and Bill King.<p> 
+
+We would also like to give our thanks to Mary Anderson of the Nottingham
+<i>Arabidopsis</i> Stock Centre, and Carolyn Tolstoshev,
+Mark Boguski and Jane Weisemann of
+NCBI's dbEST; their encouragement and assistance in this work has been very
+important to us.
+
+<H2><A NAME="HDR10">6.0 References</A></H2>
+
+<A NAME="ALTSCHUL">S.F. Altschul, W. Gish, W. Miller, E.W. Myers, and
+D. J. Lipman. 1990. </A>&quot;Basic Alignment Search Tool.&quot; Journal
+of Molecular Biology, <B>215</B>:403-410.<BR><P>
+
+<A NAME="BIEGANSK95">P. Bieganski. 1995.</A> &quot;Genetic Sequence Data Retrieval and
+Manipulation based on Generalized Suffix Trees.&quot; Ph.D. Thesis,
+University of Minnesota, Minneapolis, MN.<BR><P>
+
+<A NAME="BIEGANSK94">P. Bieganski, J. Riedl, J.V. Carlis and
+E.F. Retzel. 1994. </A>&quot;Generalized Suffix Trees for Biological
+Sequence Data: Applications and Implementation.&quot; In: Proceedings
+of the IEEE 27th Hawaii International Conference on System
+Sciences. Oahu, Hawaii. L. Shriver and L. Hunter, (Eds.). IEEE
+Computer Society Press. <B>V</B>:35-44.<BR><P>
+
+<A NAME="BIEGANSK96">P. Bieganski,
+J. Riedl, J.V. Carlis and E.F. Retzel. 1996.</A> &quot;Motif Explorer--A Tool for
+Interactive Exploration of Amino Acid Sequence Motifs.&quot; Pacific
+Symposium on Biocomputing, Hawaii. Submitted.<BR><P>
+
+<A NAME="BOGUSKI">M.S. Boguski, T.M.J. Lowe, and
+C.M. Tolstoshev. 1993.</A> &quot;dbest - database for expressed sequence
+tags.&quot; Nature Genetics, <B>4</B>:332-333.<BR><P>
+
+<A NAME="CHI">Ed Huai-hsin
+Chi, Phillip Barry, Elizabeth Shoop, John V. Carlis, Ernest Retzel,
+John Riedl. 1995.</A> &quot;Visualization of Biological Sequence
+Similarity Search Results&quot; Accepted for &quot;IEEE Visualization
+'95&quot; October Conference. Atlanta.<BR><P>
+
+<A NAME="CLAVERIE">Jean-Michel Claverie and David
+States. 1993.</A> &quot;Information enhancement methods for large scale
+sequence analysis.&quot; Computers and Chemistry,
+<B>17</B>(2):191-201.<BR><P>
+
+<A NAME="DAYHOFF">M. O. Dayhoff, R. M. Schwartz, and
+B. C. Orcutt. 1978.</A> &quot;A model of evolutionary change in
+proteins.&quot; In: Atlas of Protein Sequence and Structure,
+M. O. Dayhoff, (Ed.). National Biomedical Research Foundation, Vol. 5,
+Suppl. 3, chapter 22, 345-352. <BR><P>
+
+<A NAME="GISH">Warren Gish and David
+States.</A> 1993. &quot;Identification of protein coding regions by
+database similarity search.&quot; Nature Genetics,
+<B>3</B>:266-272.<BR><P>
+
+<A NAME="HENIKOFF">Steven Henikoff and Jorga Henikoff.</A> 1993. &quot;Performance
+evaluation of amino acid substitution matrices.&quot; Proteins: Structure, Function, and
+Genetics, <B>17</B>:49-61.<BR><P>
+
+<A NAME="LUNDBERG"> Ann M. Lundberg. 1995.</A> &quot;Extension of a DBMS with Protein
+Motif Search Capabilities.&quot; M.S. Thesis,
+University of Minnesota, Minneapolis, MN.<BR><P>
+
+<A NAME="NEWMAN"> T. Newman, F. de Bruijn, P. Green, </A>K. Keegstra, H. Kende, L.
+McIntosh, J.  Ohlrogge, N. Raikhel, S. Somerville, M. Thomashow, E.F. Retzel and C.
+Somerville. 1994. &quot;Genes Galore: A Summary of Methods for Accessing Results from
+Large-Scale P artial Sequencing of Anonymous <I>Arabidopsis</I> cDNA
+Clones.&quot;  Plant Physiology. <B>106</B>:1241-1255.<BR><P>
+
+<A NAME="SHOOP95">E. Shoop, E. Chi, J.V. Carlis,
+P. Bieganski, J. Riedl, N. Dalton, T. Newman and
+E.F. Retzel. 1995.</A> &quot;Implementation and Testing of an Automated EST
+Processing and Similarity Ana lysis System.&quot; In: Proceedings of
+the IEEE 28th Annual International Conference on System
+Sciences. Maui, Hawaii. L. Shriver and L. Hunter, (Eds.). IEEE
+Computer Society Press. <B>5</B>:52-61.<BR><P>
+
+<A NAME="SHOOP94">E. Shoop,
+J.V. Carlis and E.F. Retzel. 1994.</A> &quot;Automating and Streamlining
+Inference of Function of ESTs within a Data Analysis System&quot; In:
+Proceedings of the IEEE 27th Hawaii International Conference on System
+Sciences. Oahu, Hawaii. L. Shriver and L. Hunter, (Eds.). IEEE
+Computer Society Press. <B>V</B>:45-46. <BR><P>
+ <A
+NAME="ENDFILE"><PRE> </PRE></A>

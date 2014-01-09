@@ -1,0 +1,52 @@
+Metabolic pathway curator position available immediately
+
+We are seeking applicants for a full-time curator position to annotate
+metabolic pathways of plants. This project is a collaboration between
+Carnegie Institution and SRI International, in which plant metabolic
+pathways are being curated into MetaCyc, a comprehensive,
+experimentally verified metabolic pathway database
+(http://www.metacyc.org/) and AraCyc, an Arabidopsis-specific
+metabolic pathway database (http://www.arabidopsis.org/aracyc/).
+
+The curator will be responsible for:
+
+1. Researching new plant metabolic pathways, enzymes, and transporters
+in the scientific literature, and evaluating, synthesizing, and entering
+that information into the MetaCyc and AraCyc databases.
+
+2. Contributing to the development of standard operating procedures for
+annotation methods and to the general development of MetaCyc and
+AraCyc such as adding new data types, data integration, and web page
+enhancement.
+
+3. Communicating with researchers at meetings or via email to improve
+the quality of the data, train researchers in using the tools at
+MetaCyc and AraCyc, and answer user questions.
+
+4. Validating and updating computationally derived AraCyc pathways
+using information from the literature.
+
+5. Running the 'Pathway hole filler' algorithm of the Pathway Tools
+software for AraCyc to assign potential genes/enzymes to pathway holes
+(reactions that do not have any annotated Arabidopsis genes mapped to
+them) and validating the results.
+
+The successful candidate will work with a team of curators, software
+engineers, and database developers. Successful candidates will have a
+Ph.D. degree or equivalent in biochemistry or a related field, a
+demonstrated ability for independent, critical thinking and iniative,
+and excellent communication and teamwork skills. Experience in using
+Unix and knowledge of programming languages such as Perl and Lisp are a
+plus but not required.
+
+Qualified candidates should email a resume to Sue Rhee at:
+rhee@acoma.stanford.edu
+
+
+
+
+
+_______________________________________________
+Biocurator mailing list
+Biocurator@aztec.stanford.edu
+http://aztec.stanford.edu/mailman/listinfo/biocurator

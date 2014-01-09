@@ -1,0 +1,23 @@
+
+
+A bioinformatics postdoctoral position is available immediately to work on a
+tomato functional genomics project which focuses on improving fruit nutrition
+and flavor quality using an integrated functional genomics and bioinformatics
+approach. The major responsibilities for this position include implementation
+of computational tools and resources to integrate gene expression and
+metabolite profile data; analysis of large scale sequence, gene and protein
+expression, and metabolite profile data; inference and modeling of
+transcriptional and metabolic networks.
+
+Requirements: The successful candidate will have a recent Ph.D or equivalent in
+Bioinformatics, Molecular Biology, Computer Science or closely related fields;
+demonstrated professional experiences in bioinformatics algorithm/tool
+development and large scale data mining and analysis. Additional experience in
+web-based bioinformatics database development is preferred but not essential.
+
+To Apply: Please send a cover letter stating research interests, a CV, and the
+contact information of 3 references to Dr. Zhangjun Fei, Boyce Thompson
+Institute for Plant Research, Tower Road, Ithaca, NY 14853.
+Email:zf25@cornell.edu. Salary will be commensurate with experience.
+
+

@@ -1,0 +1,41 @@
+  A postdoctoral position is available to study the control of RNA decay
+  in Arabidopsis, particularly in response to abiotic stress or small
+  RNAs. Approaches will include deep sequencing of the RNA Degradome
+  with short or long-read technologies (Illumina and PacBio),
+  bioinformatic analysis, and follow-up experiments to investigate
+  biological significance. A few examples are below and full set of lab
+  publications can be found under the pull-down menu at
+  [1]http://ag.udel.edu/plsc/faculty/pamgreen/index.html
+  Our laboratory is located in the Delaware Biotechnology Institute
+  (DBI), a state-of-the-art interdisciplinary research facility of the
+  University of Delaware. DBI has a vibrant intellectual atmosphere and
+  career development activities specifically for postdocs. Our location
+  in Newark, DE, near major cities (Philadelphia, Baltimore, New York
+  and Washington DC) and waterways, provides a variety of cultural and
+  outdoor activities, a pleasant college town environment, and a modest
+  cost of living.
+  Individuals with strong molecular backgrounds (in any system), some
+  programming ability/aptitude, demonstrated research accomplishments,
+  and good communication skills are particularly encouraged to apply.
+  Candidates should a letter of interest, CV, and the names and contact
+  information for three references to Pam Green, [2]green@dbi.udel.edu
+  Also, please let me know if you'll be at the ASPB meeting as we may
+  have the chance to interact there.
+  German, M.A., Pillay, M., Jeong, D-H., Hetawal, A., Luo, S.,
+  Janardhanan, P., Kannan, V., Rymarquis, L., Nobuta, K., German, R., De
+  Paoli, E., Lu, C., Schroth, G., Meyers, B.C. and Green, P.J. Global
+  identification of microRNA-target RNA pairs by parallel analysis of
+  RNA ends. Nature Biotechnology 26: 941 - 946 (2008)
+  German, M.A., Luo, S., Schroth, G., Meyers, B.C., and Green, P.J.
+  Construction of Parallel Analysis of RNA Ends (PARE) libraries for the
+  study of cleaved miRNA targets and the RNA degradome. Nature Protocols
+  4:356-362 (2009)
+  Rymarquis, L.A., Souret, F.F., and Green, P.J. Evidence that XRN4, an
+  Arabidopsis homolog of exoribonuclease XRN1, preferentially impacts
+  transcripts with certain sequences or in particular functional
+  categories. RNA 17: 501-511 (2011)
+
+References
+
+  1. http://ag.udel.edu/plsc/faculty/pamgreen/index.html
+  2. mailto:green@dbi.udel.edu 

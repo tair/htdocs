@@ -1,0 +1,50 @@
+The Department of Molecular Ecology headed by Professor Ian Baldwin at the 
+Max Planck Institute for Chemical Ecology is offering a postdoctoral 
+position in plant genomics and bioinformatics. 
+
+/Nicotiana attenuata/ (common name Coyote tobacco) has been developed as an 
+ecological model plant for plant-herbivore interactions, and its 
+sophisticated herbivore-induced direct and indirect defenses have been 
+intensively investigated during the last 20 years (for more information see: 
+http://ice.mpg.de/ext/**molecular-ecology.html&lt;http://ice.mpg.de/ext/molecular-ecology.html&gt;). 
+To further understand the genomic basis of plant defense mechanisms and 
+other adaptations of this remarkable plant to its native habitat (the Great 
+Basin Desert), the Department (in collaboration with the Max Planck 
+Institute of Molecular Genetics in Berlin) is currently sequencing the 
+complete genome of /N. attenuata/ (estimated size 2.5 Gb), as well as a 
+near relative (/N. obtusifolia/) and multiple herbivory-elicited 
+time-course transcriptomes of these two species, near relatives and 
+allopolyploid relatives. 
+
+The main tasks of the candidate will be to contribute to the analysis of 
+/Nicotiana/ genomes together with other researchers from the genomics team 
+in the Department and help to build tools that will assist people in the 
+group to optimally use the genome and transcriptome data. 
+
+The candidate should have strong background in bioinformatics, 
+computational biology, and computational analysis of next-generation 
+sequences (NGS). Experience in database design and construction is a plus. 
+The candidate should be experienced in at least one programming languages, 
+such as Perl, Python or Java/C++. Experience in Linux system administration 
+and facilities operations is preferred. 
+
+The Max Planck Society offers a competitive fellowship, with a duration of 
+3 years starting May 2013. The opportunity for a German scale salary (TVL-D 
+13) will depend on the candidates' profile. The postdoctoral fellow will be 
+part of the Max Planck Postdoctoral Network, which offers trainings and 
+science communication opportunities. 
+
+Jena is a University town in the center of Germany, with an international 
+student community and good transport connections to other cities (Berlin, 
+Dresden and Munich). 
+
+Application review process will begin on the 10^th January 2013 and 
+continue until position is filled. In case of the (TVL-D 13) position the 
+deadline for application is the 20^th of January. 
+
+If you are interested in this position, please send a CV, a description of 
+research interests and contact information of 2-3 referees to Prof. Ian 
+Baldwin (baldwin@ice.mpg.de). 
+
+For further information, please contact Dr. Shuqing Xu (sxu@ice.mpg.de) or 
+Dr. Aura Navarro (anavarro@ice.mpg.de) 

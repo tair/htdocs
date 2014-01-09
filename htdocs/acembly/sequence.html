@@ -1,0 +1,392 @@
+<TITLE>Sequence magic tags</TITLE>
+<H2>?Sequence and associated classes <br>
+?Map, ?DNA, </H2>
+
+Notes:<p>
+<ul>
+<li>Models from ACEDB version 4.
+<li>All magic tags are linked to a description of their function.
+Many non-magic tags have been removed from these models.
+</ul>
+
+<hr>
+
+ <PRE>
+?Sequence <A HREF="#DNA">DNA</A> UNIQUE ?DNA UNIQUE Int		// Int is the length
+		// if you want to register a length without a DNA sequence, then use
+		// a dummy sequence object, say "-".  This ensures that when a real
+		// sequence appears, its length dominates.
+	  Structure  From <A HREF="#Source">Source</A> UNIQUE ?Sequence
+			  <A HREF="#Source_Exons">Source_Exons</A> Int UNIQUE Int // start at 1
+		     <A HREF="#Subsequence">Subsequence</A> ?Sequence XREF Source UNIQUE Int UNIQUE Int
+		     Overlap_right UNIQUE ?Sequence XREF Overlap_left UNIQUE Int
+			// potentially use Overlap_right integer for auto-linking
+		     Overlap_left UNIQUE ?Sequence XREF Overlap_right
+		     <A HREF="#Clone_left_end">Clone_left_end</A> ?Clone XREF Clone_left_end UNIQUE Int
+		     <A HREF="#Clone_right_end">Clone_right_end</A> ?Clone XREF Clone_right_end UNIQUE Int
+	  Map <A HREF="#?Map">?Map</A> XREF Sequence #Map_position		// use in particular for Genomic_canonical
+	  <A HREF="#Visible">Visible</A> Title UNIQUE ?Text
+	  		Other_name ?Text	// for repeats
+			<A HREF="#Matching_Genomic">Matching_Genomic</A> ?Sequence XREF Matching_cDNA
+		 	<A HREF="#Matching_cDNA">Matching_cDNA</A> ?Sequence XREF Matching_Genomic
+			<A HREF="#Corresponding_protein">Corresponding_protein</A> UNIQUE ?Protein XREF Corresponding_DNA
+		  	Clone ?Clone XREF Sequence 
+          	        Locus ?Locus XREF Sequence
+			Enzyme ?Enzyme XREF Sequence
+		        <A HREF="#Related_DNA">Related_DNA</A> ?Sequence XREF Related_DNA
+		        <A HREF="#Related_protein">Related_protein</A> ?Protein XREF Related_DNA
+			Remark ?Text
+			Confidential_remark ?Text
+			Brief_identification UNIQUE ?Text
+	  		Reference ?Paper XREF Sequence
+			Expression_construct ?Clone
+		// tag2 system: names of all objects following next tag are shown in the 
+		//   general annotation display column as "tag:objname"
+	  Properties    Pseudogene Text		// explanation***
+			Transposon Text		// transposon type
+			Genomic_canonical
+			cDNA cDNA_EST
+			RNA	// if set then use U in place of T
+			Coding	<A HREF="#CDS">CDS</A> UNIQUE Int UNIQUE Int
+				CDS_predicted_by ?Method Float // score of method
+				Precursor
+			End_not_found
+			Start_not_found
+			<A HREF="#Transcript">Transcript</A> UNIQUE mRNA UNIQUE Processed_mRNA
+						      Unprocessed_mRNA
+					  tRNA UNIQUE Text
+					  rRNA UNIQUE Text
+					  snRNA UNIQUE Text
+					  scRNA UNIQUE Text
+					  misc_RNA UNIQUE Text
+			Status	Received UNIQUE DateType
+				Library_construction UNIQUE DateType
+				Shotgun	UNIQUE DateType
+				Shotgun_complete UNIQUE DateType
+				Contiguous UNIQUE DateType
+				Finished UNIQUE DateType
+				Submitted UNIQUE DateType
+				Archived UNIQUE DateType UNIQUE Text // Date Disk
+			Match_type  UNIQUE Match_with_function
+					   Match_without_function
+				// These are designed specifically for measuring 
+				// statistics.  What you match should be listed in 
+				// Brief_id, Remark etc.  The aim now is to use Brief_id
+				// exactly for what you would like a half-line summary to
+				// contain, for making tables etc.
+	  Assembly  Total_contig_length Int
+		    Nbr_gel_readings Int
+		    Nbr_contigs Int			// total number
+		    Nbr_large_contigs Int		// number > 750bp
+		    Large_contig_length Int		// lengths > 750bp
+		    Pads_in_large_contigs Int
+		    Ns_in_large_contigs Int
+		    Double_strand Int	// amount of sequence left to double strand
+		// Should most of these be UNIQUE, giving the current status, or is
+		// the idea that they will show the time progression?
+	  Splices	Confirmed_intron  Int Int #Splice_confirmation
+			Predicted_5 ?Method Float Int Int // (x, x+1) or (x, x-1)
+			Predicted_3 ?Method Float Int Int // (x, x+1) or (x, x-1)
+	  Oligo ?Oligo XREF In_sequence Int UNIQUE Int	// for human mapping mostly
+	  <A HREF="#Assembly_tags">Assembly_tags</A>	Text Int Int Text // type, start, stop, comment
+	  <A HREF="#Allele">Allele</A> ?Allele XREF Sequence UNIQUE Int UNIQUE Int UNIQUE Text
+		// start, stop, replacement sequence
+		// if an insertion point Text is transposon name (distinguished
+		// by containing non ACTG letters), and (n, n+1) = T A, so indicates 
+		// direction (if known).
+		// if a deletion, put '-' as the replacement sequence
+	  <A HREF="#EMBL_feature">EMBL_feature</A>  CAAT_signal	Int Int Text #EMBL_info
+			GC_signal	Int Int Text #EMBL_info
+			TATA_signal	Int Int Text #EMBL_info
+			allele_seq	Int Int Text #EMBL_info
+			conflict	Int Int Text #EMBL_info
+			mat_peptide	Int Int Text #EMBL_info
+			misc_binding	Int Int Text #EMBL_info
+			misc_feature	Int Int Text #EMBL_info
+			misc_signal	Int Int Text #EMBL_info
+			misc_recomb	Int Int Text #EMBL_info
+			modified_base	Int Int Text #EMBL_info
+			mutation	Int Int Text #EMBL_info
+			old_sequence	Int Int Text #EMBL_info
+			polyA_signal	Int Int Text #EMBL_info
+			polyA_site	Int Int Text #EMBL_info
+			prim_binding	Int Int Text #EMBL_info
+			prim_transcript Int Int Text #EMBL_info
+			promoter	Int Int Text #EMBL_info
+			repeat_region	Int Int Text #EMBL_info
+			repeat_unit	Int Int Text #EMBL_info
+			satellite	Int Int Text #EMBL_info
+			sig_peptide	Int Int Text #EMBL_info
+			variation	Int Int Text #EMBL_info
+			enhancer	Int Int Text #EMBL_info
+			protein_bind	Int Int Text #EMBL_info
+			stem_loop	Int Int Text #EMBL_info
+			primer_bind	Int Int Text #EMBL_info
+			transit_peptide Int Int Text #EMBL_info
+			misc_structure  Int Int Text #EMBL_info
+			precursor_RNA   Int Int Text #EMBL_info
+		// EMBL_features are for legitimate EMBL feature table entries only
+	  <A HREF="#Homol">Homol</A>	DNA_homol ?Sequence XREF DNA_homol ?Method Float Int UNIQUE Int Int UNIQUE Int
+		Pep_homol ?Protein XREF DNA_homol ?Method Float Int UNIQUE Int Int UNIQUE Int
+		Motif_homol ?Motif XREF Seq_homol ?Method Float Int UNIQUE Int Int UNIQUE Int
+			// We will generate a column for each distinct ?Method.  So for
+			// distinct Worm_EST and Worm_genomic columns, use ?Method objects
+			// Worm_EST_Blastn and Worm_genomic_Blastn.
+	  <A HREF="#Feature">Feature</A> ?Method Int Int UNIQUE Float UNIQUE Text
+		// Float is score
+		// Text is shown on select, and same Text are neighbours
+		// again, each method has a column
+		// double-click shows the method
+		// absorb TSL_site, TSL, Inverted, Tandem as features
+		// and probably Assembly_tags (not yet)
+
+?EMBL_info	Location UNIQUE Text	// full location if non-trivial
+		Qualifier Note Text	// all qualifiers correctly
+			  Product Text
+	// We could have in #EMBL_info a more complete representation of
+	// feature table qualifiers/syntax.  I doubt this is worth it.
+
+?Splice_confirmation UNIQUE <A HREF="#cDNA">cDNA</A>
+			    Homology
+
+?Repeat_info	Percent_Identity UNIQUE Int
+		Score ?Method UNIQUE Float
+		N_gaps UNIQUE Int
+		Loop UNIQUE Int UNIQUE Int	// rel start, stop
+		Unit_Length UNIQUE Int
+
+?Method	Remark ?Text
+	Display Colour #Colour
+		Frame_sensitive
+		Strand_sensitive
+		Score	Score_by_offset	// has priority over width, for Jean
+			Score_by_width
+			Score_bounds UNIQUE Float UNIQUE Float 
+				// limits for squashing
+			Percent // '%' in text, + default bounds 25, 100
+		Bumpable
+		Width UNIQUE Float
+		Symbol UNIQUE Text	// first char only is used
+		Right_priority UNIQUE Float // the greater the more right
+	Blastn		// can calculate percent from score if blastn
+	Blixem  Blixem_X
+		Blixem_N
+	  // the Display information controls how the column looks.
+
+//#Method#- this is 22ace
+
+?Method	Remark ?Text
+	Display Colour #Colour // the Display information controls how the column looks.
+		Frame_sensitive
+		Strand_sensitive
+		Score	Score_by_offset	// has priority over width, for Jean
+			Score_by_width
+			Score_bounds UNIQUE Float UNIQUE Float 
+				// limits for squashing
+			Percent // '%' in text, + default bounds 25, 100
+		Bumpable
+		Width UNIQUE Float
+		Symbol UNIQUE Text	// first char only is used
+		Right_priority UNIQUE Float // the greater the more right
+	Blastn		// can calculate percent from score if blastn
+	Blixem  Blixem_X
+		Blixem_N 
+	Function ?Text	// what does it do?
+	Variant_of UNIQUE ?Method XREF Variant
+	Variant ?Method
+	Version	Text
+	Parameters 	Float_Params UNIQUE Text Float REPEAT 
+			Int_Params UNIQUE Text Int REPEAT
+			Text_Params UNIQUE Text Text REPEAT
+	Min_score	UNIQUE	Float	// used in plotting
+	Reference ?Paper XREF Search_Method
+	Foreign_Reference Text
+##end 22ace
+
+?Oligo	Sequence UNIQUE Text	// verbatim sequence - useful
+	In_sequence ?Sequence XREF Oligo
+	STS STS1 UNIQUE ?STS XREF Oligo1
+	    STS2 UNIQUE ?STS XREF Oligo2
+
+?STS	Oligo1 UNIQUE ?Oligo
+	Oligo2 UNIQUE ?Oligo
+	Map ?Map #Map_position
+
+
+
+</PRE>
+<hr>
+
+<H3><a name=Visible>Visible</A> &lt;Object&gt; &lt;Tag&gt;</H3>
+
+Visible allows objects to be displayed in the final
+column display. This can be used to annotate any feature
+including other "magic tags" used in this display.
+
+In the example below a Title and Reference are used in this way.
+When the objects are selected in this column the data appears
+in the Blue Report Bar.
+
+
+<hr>
+Sequence display is constructed through the use of columns.
+Running left to right through the display the order of columns is
+as follows: the item selected to view the column is given in ""
+followed by a description. <P>
+
+1. "Locator"<br>
+This is the Scale bar <P>
+
+2."Sequence and ends"<br>
+Next column indicates entire sequence this is configurable to
+display less than 100%. Defaults normally apply. The end of this bar has
+an arrow pointing towards the centre when zoom out beyond 100%<P>
+
+<img src=scale.gif> <P>
+
+3."Up Genes"<br>
+Contains exon and intron display for the 'other strand'
+"upstream" controlled by Source_exon information. <P>
+
+Columns 1-3,5 and 6 demonstrated in fig below: <P>
+<img src=exon.gif> <P>
+
+4. "Restriction map"<br>
+This is displayed when restriction motif has been identified in the
+sequence using the Analysis Tool. <P>
+
+5. "Summary bar"<br>
+Indicates the extent of the View displayed. If less than the whole
+view is displayed then a blue bar is added to the yellow bar to delinate the
+region.  <P>
+
+6. "Scale"<br>
+The scale (units bp). <P>
+
+7. "Down Genes"<br>
+This is the 'standard' 5' to 3' display for a gene. (or at least that's
+the way it is used). <P>
+
+8. "EMBL features"<br>
+See model, many features may be displayed in this column. <P>
+In this example a CAAT_signal and TATA_signal have been identified in the
+EM:CECAL1.1 sequence <P>
+
+<img src=EMBL.gif> <P>
+
+9. "Finished"<br>
+Displayed as dark grey bar.<br>
+Used by major sequencing centres in shotgun sequencing projects. <P>
+
+10. "CDS Lines"<br>
+The CDS concept is:- these are 'thought' to be translated.<br>
+Horizontal bars are displayed which are centred on the length of the CDS. <P>
+
+11. "CDS Boxes"<br>
+Displays the CDS position and interval as filled black boxes. Left of
+the axis are "Up Genes" and right are "Down Genes". Genes appears as
+the Title to the display. <P>
+
+CDS Lines and boxes are illustrated below <P>
+<img src=CDS.gif> <P>
+
+12. "Alleles"<br>
+Allele can have start, stop, replacement sequence. If an insertion 
+point Text is transposon name (distinguished by containing non ACTG 
+letters), and (n, n+1) = T A, so indicates direction (if known). 
+If a deletion, put '-' as the replacement sequence. The different
+types of allele have type specific displays.<P>
+
+In this instance the Allele has a transposon insertion. <P>
+<img src=Allele.gif> <P>
+
+13. "cDNAs"<br>
+Displays the cDNAs position and interval as filled black boxes for
+both strands. <P>
+
+14. "Gene Names"<br>
+This displays Locus information if known (this is in ?Locus) <P>
+
+15. "Assembly Tags"<br>
+Short horizontal bars indicate assembly tags. (presumably from
+?Assembly- used for contigs?????)<P>
+
+16. "3 Frame Translation"<br>
+Each frame translation is displayed as a column. <P>
+ 
+17. "ORF's"<br>
+These are stop codons displayed in a frame specific manner side by side
+each reading frame in 3 frame translation. <P>
+
+18. "Coding frame"<br>
+This is displayed as narrow unfilled blue boxes beside the ORF's,
+which indicate the reading frame of the spliced gene. <P>
+
+19. "ATG"<br>
+Solid yellow boxes show the ATG sites in a frame specific manner. <P>
+
+20. "GF_coding_seg"<br>
+Crashes the database, unless gene finder features have already been 
+selected. Displays Genefinder results.<P>
+
+21. "PSsearch" governed through ?Method<br>
+Data obtained from a Prosite search, displayed as a sky blue
+horizontal bar. The extent of the bar relates to the length of homology. <P>
+
+22. "BLASTX" governed through ?Method<br>
+Data obtained from a BLASTX search is displayed as blue grey
+boxes. These are displayed in each of the three reading frames. <P>
+
+23.  "Gene Translation"<br>
+Displays the translation of a gene defined in the display. <P>
+
+24. "BLASTN_EST_elegans" governed through ?Method<br>
+Data from BLASTN searches. <P>
+When displaying BLASTN data it is advantageous
+to set the Method tag which sets a percentage identity calculated from
+the BLASTN result.  <P>
+
+25. "TBLASTX-EST" governed through ?Method<br>
+Data from TBLASTX searches. <P>
+
+26. "scan" governed through ?Method<br>
+In-house for worm folks. looks for repeating motifs on one against 
+one sequence. <P>
+
+27. "inverted" governed through ?Method<br>
+Definition of repeat. <P>
+
+28. "Splices"<br>
+We think that this is part of the Gene Translation display. If select
+splices directly from the display options then see 3 vertical bars
+which cover the extent of the display. If however, the GenFinder
+function has been invoked then the display changes to show:-
+Colour is used to indicate the 3 reading frames- default apparently
+red, green, blue. Horizontal length is dependent on the "certainty" of
+prediction. Vertical lines at the end of the bars indicate the
+direction of splice. Displayed on a log scale.<P>
+
+<img src=splice.gif> <P>
+
+29. "Coords"<br>
+Defines the sequence coordinates. <P>
+
+30. "DNA Sequence"<br>
+Can be selected by columns or the DNA toggle button in the main
+display window. ... indicates that the entire sequence is not being
+shown. <P>
+
+31. "Brief identifications"<br>
+Used to annotate data. <P>
+
+32. "Text Features"<br>
+Used to annotate data.<P>
+
+<hr>
+
+In the Display options, found by clicking column button a series of
+default entries are displayed which govern how the information is
+displayed. Display options which have come from ?Method are generated
+on the fly and then appear in this same list of display options. These
+options are configurable and we need to document this.
+

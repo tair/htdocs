@@ -1,0 +1,152 @@
+   
+   PhD Research Studentship: Organellar fate during cytokinesis
+   
+   Supervisors: Dr John Runions, Prof Chris Hawes, Dr David Evans
+   
+   Eligibility: Applicants require a good Honours degree (2.1 or
+   equivalent) and either have been educated to degree level through the
+   medium of English or have TOEFL 600 (250) / IELTS 7 or equivalent
+   
+   Value p.a. £11,500 bursary, & fees
+   
+   Closing Date: 21st May
+   Interviews will be held on either June 6th, 7th or 8th
+   
+   Project Description
+   
+   Background: Little is known about the mechanisms that determine
+   organellar fate during cytokinesis. As cells enter mitosis, the
+   nuclear envelope breaks down and rearrangements occur in the structure
+   of the cytoskeleton and endoplasmic reticulum (ER). In addition, Golgi
+   bodies, peroxisomes and mitochondria must re-duplicate so that
+   daughter cells are equally partitioned. We have in place techniques
+   for studying cell divisions at high resolution in a developmental
+   context. The arabidopsis root meristem is an ideal system in which to
+   study cell division in situ. Fluorescent protein marking of organelles
+   combined with confocal microscopy and image analysis of tissue 3D/4D
+   reconstructions will enable us to answer a number of questions about
+   organelle behaviour in the cell division zone. For example, i) what
+   role does the ER play in cell plate and nuclear envelope formation,
+   and ii) when do Golgi bodies re-duplicate and how are they partitioned
+   between daughter cells?
+   
+   Project:
+   
+   1) Cytokinesis in wild-type roots. Arabidopsis roots are ideal for
+   imaging when grown in coverslip-bottomed containers as they remain
+   healthy and continue to grow during observation. The student will
+   first learn high resolution live-cell imaging techniques by studying
+   cytokinesis in arabidopsis roots that have been stably transformed
+   with H2B-YFP which is a histone marker (Kurup et al, 2006) (fig.1).
+   This marker allows observation of nuclei during prophase and of
+   chromatin during other phases of the cell cycle. Co-Supervisor's
+   laboratories have fluorescent markers for other organelles. These will
+   be co-transformed into the nuclear-marking line in appropriate
+   combinations to describe the dynamics and disappearance / reappearance
+   of organelles during the cell cycle. We will concentrate on behaviour
+   of the ER, nuclear envelope and Golgi bodies during this phase. We
+   will use a cyclin marker that indicates entry into metaphase prior to
+   chromatin condensation for ease of targeting about-to-divide cells in
+   subsequent experimentation.
+   
+   2) Photoactivation of organelles during mitosis. JR has developed a
+   technique for monitoring organelle development and dynamics using
+   photoactivatible fluorescent protein marking (Runions et al., 2006).
+   This technique utilises the short wavelength laser of the confocal
+   microscope system to either switch fluorescent proteins on or to
+   change their colour. The student will activate regions of ER both
+   proximal and distal to the site of cell-plate formation at different
+   phases of mitosis to monitor the contribution of existing ER into the
+   new cell plate and into the nuclear envelope. In addition, Golgi
+   bodies marked with the `kaede' fluorescent protein will be colour
+   photoswitched so that we can assess their dynamics during daughter
+   cell partitioning in later stages of mitosis.
+   
+   3) Cytokinesis defective mutants. Several mutant lines of arabidopsis
+   have altered tissue morphology due to defects in cytokinesis (Jergens,
+   2005). These are distinct from cell-wall and cytoskeleton mutants and
+   seem to affect cell division because of defects in secretory pathway
+   function. Genes that play a role in cell division and that affect root
+   patterning include SCD1 (At1g49040), a homologue of the guanine
+   nucleotide exchange factors that regulate Rab GTPases and which affect
+   intracellular protein transport (Falbel et al., 2003), and several
+   including the KEULE-like loci which are Sec1p homologues that play a
+   role in membrane fusion (Sollner et al., 2002). Mutant arabidopsis
+   lines that are defective for these genes will be crossed with the
+   H2B-YFP nuclear marking line so that the role of the ER in defective
+   cytokinesis can be monitored using the techniques described above.
+   
+   Ultimately, the student will report on the role of ER, and on the
+   behaviour of Golgi bodies and the nuclear envelope during normal and
+   defective cell division. This will be a significant contribution to
+   our understanding of cell function.
+   
+   References:
+   
+   Falbel, TG et al. (2003) SCD1 is required for cytokinesis and
+   polarized cell expansion in Arabidopsis thaliana. Development 130:
+   4011-4024.
+   
+   Jergens, G (2005) Cytokinesis in higher plants. Annual Review of Plant
+   Biology 56: 281-299.
+   Kurup, K et al. (2006) Marking cell lineages in living tissues. Plant
+   Journal 42: 444-453.
+   Runions, J et al. (2006) Photoactivation of GFP reveals protein
+   dynamics within the endoplasmic reticulum membrane. Journal of
+   Experimental Botany 57: 43-50.
+   Sollner, R et al. (2002) Cytokinesis defective mutants of arabidopsis.
+   Plant Physiology 129: 678-690.
+   
+   An opportunity to develop teaching skills in higher education may be
+   included in the training available with this studentship.
+   
+   To discuss the project and for any other scientific queries contact
+   John Runions ([1]jrunions@brookes.ac.uk). 
+   
+   To apply for this project, applicants should quote the title of the
+   studentship and include a letter of application, CV and the names and
+   addresses of two academic referees (one of whom can also comment on
+   the applicant's potential for teaching)
+   
+   Applications will only be accepted by post, and not by email, to:
+   
+   Ms Angela Robinson
+   Research Administrator
+   School of Life Sciences
+   Oxford Brookes University
+   Headington
+   Oxford
+   OX3 0BP
+   
+   Tel: +44 (0) 1865 483295
+   
+   Email: Ms Angela Robinson
+   
+   --
+   
+   *********************************
+   C. John Runions, Ph.D.
+   School of Life Sciences
+   Oxford Brookes University
+   Oxford, UK
+   OX3 0BP
+   email:  [2]jrunions@brookes.ac.uk 
+   phone: +44 (0) 1865 483 964
+   
+   web: [3]http://www.brookes.ac.uk/lifesci/runions/HTMLpages/index.html
+   
+   
+   New - Oxford Brookes Master's in [4]Bioimaging with Molecular
+   Technology
+
+References
+
+   Visible links
+   1. mailto:jrunions@brookes.ac.uk
+   2. mailto:jrunions@brookes.ac.uk
+   3. http://www.brookes.ac.uk/lifesci/runions/HTMLpages/index.html
+   4. https://www.brookes.ac.uk/studying/courses/postgraduate/2007/bmt
+
+   Hidden links:
+   5. mailto:jrunions@brookes.ac.uk
+

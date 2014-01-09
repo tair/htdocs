@@ -1,0 +1,32 @@
+Post-doctoral Research Fellowship in Computational Systems Biology
+
+A Post-doctoral Research Fellow is sought in the group of Reka Albert
+at the Pennsylvania State University to work on Computational Systems
+Biology related research problems.
+
+The main focus of the postdoctoral fellow will be to develop graph
+inference, network analysis and dynamic modeling methods for
+reconstructing and modeling plant signal transduction networks from
+partial and indirect knowledge. The successful candidate will join a
+vibrant interdisciplinary group and will have the opportunity to
+collaborate with the group of Prof. Sarah M. Assmann. More details of
+the research can be found at http://www.phys.psu.edu/~ralbert/  see
+especially S. Li, S. M. Assmann, R. Albert PLoS Biology 4 (10): e312,
+2006.
+
+Candidates  should have a Ph.D.  in the life sciences or a
+quantitative science such as physics or mathematics. Candidates with a
+life sciences background need to have expertise in computational
+biology or bioinformatics, those with a quantitative background need
+prior experience  in biology. Strong analytic skills, proficient
+computer programming skills, and a track record of research
+accomplishments are required.
+
+Please send a CV including names of references, and a cover letter
+describing your specific interests to Professor Reka Albert at
+rza1@psu.edu The start date for this position is flexible. Evaluation
+of the applications will start immediately and will continue until the
+position is filled. Penn State is committed to affirmative action,
+equal opportunity and the diversity of its workforce.
+
+

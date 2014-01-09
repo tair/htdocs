@@ -1,0 +1,33 @@
+Maps with names of the form "Scolnik_" were created by Pablo Scolnik
+and his colleagues at the Du Pont experimental station in Wilmington,
+Delaware (see Reiter et al. 1992 PNAS 89, 1477-1481). Their map
+contains 252 random amplified polymorphic DNA markers (RAPDs), 60
+RFLPs, and nine phenotypic ("classical") markers. The mapping was
+carried out using a set of recombinant inbred lines that were
+generated at Du Pont and which are now available from the Nottingham
+and Ohio State stock centers. The maps presented in AAtDB were created
+by transcribing information directly from figure 3 in the PNAS
+publication.
+
+Two maps are presented in the "Scolnik_" series. Maps designated
+"Scolnik_3LOD_" contain a subset of 126 markers that were ordered with
+a LOD score > 3. Although the positions of these markers are not known
+with absolute certainty, error information was not included in the
+publication. Thus the error associated with markers on this map is 0.
+This map is referred to as the "core map" by the Du Pont group.
+
+Maps designated "Scolnik_All_" include all the markers presented in the
+publication, i.e., markers from the "core map" plus those which could
+not be ordered unambigously relative to the core markers.  Unlike the
+core markers, each ambiguous marker is associated with an uncertainty
+value proportional to its distance (with orientation unspecified) from
+one of the core markers.
+
+You may wish to distinguish the core markers from the ambiguous
+markers on the "Scolnik_All_" maps. To do this, try the following
+query:
+
+.       >?Locus Position_ambiguous
+
+You can then use the "Highlight" button on the genetic map window
+to identify the ambiguous markers on any of the "Scolnik_All_" maps.

@@ -1,0 +1,55 @@
+Questions for AtDB course in Uppsala.
+
+When searching the Genbank database a number of different problems may
+arise.
+
+1.  Redundant gene names.  The search term you use may refer to a
+number of genes.  Occasionally the same gene name may have been used
+for two different proteins.
+
+An example of this is the gene name AAT1 which has been used for an
+aspartate aminotransferase (ATAAT1) and a cationic amino acid
+transporter (ATAAT1G).  If you retrieve both of the Genbank records
+via Entrez at: http://www.ncbi.nlm.nih.gov/Entrez/nucleotide.html You
+can see that both refer to the gene AAT1 but that the amino acid
+sequence is distinct.  The easiest way to confirm that genes of an
+identical name are in fact different is to look at the amino acid
+sequence.
+
+2.  A similar situation appears to have arisen with the records for
+the gene GLP3 (germin-like protein).  There are nine seperate GenBank
+entries for this gene, which may represent members of a gene family.
+The Locus identifiers are ATU75189, ATU75190, ATU75196, ATU75197,
+ATU75201, ATU75206, ATU95034, ATU95035, ATGLP3.  Using FASTA searches
+see if you can distinguish the members of this "family".
+
+Hint David, these are mostly the same thing actually ATGLP-3 is
+different from the other six entries that are also supposed to be
+GLP-3.
+
+3.  Occasionally members of closely related gene families will have
+very similar sequences.  An example of this is the vacuolar H+-pumping
+ATPase family referred to as; ava-p(ATHAVAPB), ava-p1 (ATHAVAP),
+ava-p2 (ATHAVAPA), ava-p2e (ATHAVAPD) and AVP-3 (ATHAVP3).  In this
+case the amino acid sequences of the genes ava-p and ava-p1 appear to
+be identical and both of these are in turn very similar to avap2e.
+Thus the amino acid sequence does not provide enough detail to reveal
+the differences between these genes.  However, a nucleotide based,
+BLAST search reveals that there are a number of differences between
+these loci.  Suggesting that, unlike the entries in the previous
+question, these do represent individual loci.
+
+4.  Gene families and clustal arrangements.  It is increasingly likely
+that a gene under investigation may be a member of a previously
+defined gene family.  This will become obvious through BLAST
+searching, but a more detailed way to examine the level and extent of
+homology is to arrange members of a family alongside one another.
+Four such genes can be used to illustrate this agamous (ATAGAMSG)
+agamous like gene 5 (ATHAGL5A) a MADS like gene from pine trees
+(PRU42400) and an outlying member of this family, the yeast gene MCM1
+(SCMCM1).  Use these locus identifiers to retrieve the FASTA format,
+protein record which may then be pasted into the CLUSTALW form
+available from Larry Parnell's home page (which is found on the course
+home page).  See if you can identify the MADS box, Dave this name
+comes from MCM1, agamous, deficiens, and SRF1, the MADS box should be
+around the 5' end and be highly conserved.

@@ -1,0 +1,50 @@
+4 yr PhD project
+
+Title: Modelling receptor recruitment into different signalling pathways
+
+Coordinator: prof.dr. S.C. de Vries, Laboratory of Biochemistry, Wageningen 
+University, the Netherlands.
+
+Signalling processes in eukaryotes require a high degree of robustness in order to perform 
+normally despite both internal and external perturbation. Typically, robustness in a signalling 
+system is achieved by a network organized in a so-called hour-glass structure where multiple 
+inputs are channelled through a common core system. The Arabidopsis receptor-like kinase 
+SERK3(BAK1) was previously identified as a non-ligand binding co-receptor of the main plant 
+steroid hormone (brassinolide) perceiving receptor BRI1. Recently it was shown that SERK3 
+also functions in plant cell death control and in plant innate immunity. Because these last two 
+pathways appear independent of brassinolides this suggests that the concept of robust 
+signalling networks employing hour-glass structures is also used in Arabidopsis. This raises 
+the question how the available SERK3 receptors are distributed over the diverse pathways. 
+We propose to integrate existing and novel molecular, biochemical and genetic parameters 
+into a testable mathematical model to answer whether a pool of free SERK3 exists that can 
+be mobilized upon selective activation of the associating main receptors or, alternatively, pre-
+assembly results in multiple SERK3-containing complexes present in the same cells. 
+Preliminary biochemical data suggest that both situations co-exist. The results of this project 
+may reveal general principles of receptor recruitment for multiple purposes, a now generally 
+recognized phenomenon.
+
+The candidate should have a completed academic curriculum in biomolocular sciences or 
+equivalent curricula with a proven interest and experience in mathematical procedures to 
+describe biochemical processes.
+We offer you a full-time position for a period of one year with a possibility of extension for 3 
+years. Gross salary per month € 2000 in the first year rising to € 2558 per month in the fourth 
+year.
+After succesful completion of the thesis a PhD will be awarded at Wageningen University, the 
+Netherlands.
+
+Biochemistry (www.bic.wur.nl) is the scientific discipline in which the study of the function of 
+proteins is the central theme. Our research is focused on how proteins fold, work and finally 
+die inside the cell itself, in short Cellular Biochemistry. Topics are signaling processes in 
+plants that underly the perception of plant steroid hormones (brassinosteroids) and the 
+formation of stem cells in meristems. Other topics are molecular enzymology, protein folding 
+and metabolomics. Techniques to study proteins rely heavily on sophisticated bio-analytical 
+techniques such as mass spectrometry, NMR and fluorescence spectroscopy. To apply the 
+power of modern sophisticated biochemical techniques the Laboratory of Biochemistry is in 
+the ideal situation that all state-of-the-art facilities to study proteins are available. Together 
+with other laboratories we are host of the WUR Technology Platforms MicroSpectroscopy 
+Centre (MSC) and Wageningen NMR Centre (WNMRC). The latest addition is the start-up 
+company Biqualys where the new FTMS is installed.
+
+Information and application: 
+For more information about the project and applications please contact prof.dr. S.C. de Vries, 
+tel +31.317.483866, e-mail sacco.devries@wur.nl.

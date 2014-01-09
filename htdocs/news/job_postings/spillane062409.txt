@@ -1,0 +1,40 @@
+
+
+
+
+
+PhD Student Position (Bioinformatics & genomics)
+
+Genetics & Biotechnology Lab, University College Cork (UCC), 
+Ireland
+
+The Genetics & Biotechnology lab of Dr. Charles Spillane at 
+University College Cork, Ireland is seeking candidates for a PhD in 
+bioinformatics and systems biology of large-genomic datasets. The 
+successful applicant will form part of a team (postdocs, PhD students) 
+in the lab working on a combination of bioinformatic, systems biology 
+and functional wet-lab approaches for understanding gene regulatory 
+systems involving genomic imprinting and gene dosage. The PhD 
+student will also interface extensively with collaborator labs outside 
+Ireland. We are seeking highly motivated applicants with consistently 
+excellent grades (ideally to MSc level), who are eager to develop a 
+long-term career in genome bioinformatics and/or computational 
+systems biology. We are particularly interested in candidates with an 
+excellent grasp of genetics, statistics and computer programming 
+(Python, R, Bioconductor, SQL, UNIX/LINUX), who have 
+bioinformatics research experience (e.g. as RAs, MSc/diploma 
+students, interns, etc) in research lab/institute settings, and are 
+experienced in efficiently handling multiple large data-sets.
+
+Applicants should send an e-mail outlining research interest and 
+motivations, including; (a) your C.V.  (list grades, interests and 
+experimental skills) & (b) contact details and e-mail addresses for 3 
+referees to:
+
+Dr. Charlie Spillane, Genetics & Biotechnology Lab, Biochemistry 
+Dept & Biosciences Institute, University College Cork, LM 2.10, Cork, 
+Ireland. E-mail: c.spillane@ucc.ie
+
+The deadline for applications is 10th July 2009 or until suitable 
+candidate is recruited.  
+

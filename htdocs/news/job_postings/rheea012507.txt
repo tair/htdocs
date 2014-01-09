@@ -1,0 +1,14 @@
+Bioinformatics postdoc position to study transcriptional regulatory networks in Arabidopsis
+
+A bioinformatics postdoctoral position is available immediately in the laboratory of Dr. Sue Rhee at the Carnegie 
+Institution, Department of Plant Biology (Stanford, CA), to create and analyze transcriptional regulatory network 
+models of environmental stress response in Arabidopsis.
+
+The successful candidate will be responsible for carrying out bioinformatic analyses of microarray and other 
+functional genomics data to create, analyze, and test models of transcriptional regulatory networks.
+
+Qualified candidates must have a Ph.D. or equivalent in Biology, Mathematics, Computer Science, Engineering or
+ related field, a strong background in using statistics, modeling and programming, and strong communication skills.
+
+Please email a brief letter describing your research experience, plus your CV and contact information for 3 
+references to Dr. Sue Rhee at rhee@acoma.stanford.edu.

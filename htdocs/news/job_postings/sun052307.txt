@@ -1,0 +1,42 @@
+Postdoctoral Position in the Dept. of Biology, Duke University:
+
+A postdoctoral position is available immediately to study "Gibberellin Signaling 
+in Arabidopsis."
+
+Gibberellin Signaling in Arabidopsis:
+
+Bioactive gibberellins (GAs) are a class of plant hormones that modulate diverse 
+developmental processes throughout the life cycle of a plant.  The nuclear DELLA 
+proteins are highly conserved negative regulators of GA signaling that act 
+immediately downstream of the GA receptors GID1 to repress GA-mediated growth in 
+Arabidopsis and in a number of crops.  GA signal appears to de-repress its 
+response pathway by triggering degradation of these repressor proteins.  DELLA 
+proteins may function as transcriptional regulators, although their direct 
+targets have not been identified.  Elucidating the signaling events immediately 
+downstream of DELLA is key to our understanding of how GA controls plant 
+development.  By microarray analysis and chromatin immunoprecipitation, we 
+identified several direct target genes of DELLA proteins. Using biochemical and 
+reverse genetic approaches, we are currently investigating the roles of these 
+DELLA targets in modulating GA responses.
+Related publications:
+
+Dill et al. (2004) The Arabidopsis F-box protein SLEEPY1 targets GA signaling 
+repressors for GA-induced degradation. Plant Cell, 16, 1392-1405.
+
+Sun and Gubler (2004) Molecular mechanism of gibberellin signaling in plants. 
+Annu. Rev. Plant Biol. 55, 197-223.
+
+Fleet and Sun (2005) A DELLAcate balance: the role of gibberellin in plant 
+morphogenesis. Curr. Opin. Plant Biol. 8, 77-85.
+
+Griffiths et al. (2006) Genetic characterization and functional analysis of the 
+GID1 gibberellin receptors in Arabidopsis. Plant Cell, 18, 3399-3414.
+
+A background in protein chemistry, genetics, molecular biology or plant 
+development is desirable.  If you are interested in applying, please send (by e-
+mail) a curriculum vitae and names, e-mail addresses, and phone numbers of three 
+references to:
+
+Tai-ping Sun
+e-mail address: tps@duke.edu
+

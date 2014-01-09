@@ -1,0 +1,70 @@
+Subject:
+[Biocurator] Job Announcement TAIR
+From:
+David Swarbreck <dswarbreck@acoma.stanford.edu>
+Date:
+Wed, 31 May 2006 16:52:02 -0700
+To:
+biocurator@acoma.stanford.edu
+
+Job Announcement follows:
+
+TAIR, The Arabidopsis Information Resource (http://arabidopsis.org) is a 
+National Science Foundation-funded web resource for thousands of plant 
+biology researchers worldwide, providing free access to a wide array of 
+biological data and analysis tools for the model plant Arabidopsis. TAIR 
+is located at the Carnegie Institution of Washington, Department of 
+Plant Biology in Stanford, CA.
+
+We are currently seeking applicants for the position of scientific 
+curator to work on our genomic sequence annotation project. As part of 
+the TAIR team you will be involved in computational and manual updates 
+of structural annotation for genes and other sequenced objects and 
+computational updates of functional annotation. You will also work 
+alongside software and database developers to enhance annotation tools 
+and assess the automatic analysis procedure.
+
+Responsibilities include:
+
+1. Assisting with timely and high-quality genome annotation releases.
+
+2. Improving the structural annotation database schema and associated 
+computational tools and analyses in collaboration with programmers and 
+database developers.
+
+3. Assisting in developing improved formats and methods for community 
+access to TAIR genome releases.
+
+4. Presenting TAIR's structural and functional annotation efforts at 
+conferences, soliciting community feedback and incorporating it into 
+future releases.
+
+5. Working with programmers to maintain and improve pipelines for 
+mapping a variety of sequenced objects (cDNAs, ESTs, polymorphisms, 
+markers, microarray elements, etc) to the genome.
+
+6. Helping maintain TAIR's data analysis datasets and assisting with 
+keeping the data analysis tools (BLAST, FASTA, PatMatch, etc) functioning.
+
+7. Assisting with implementing improvements to TAIR's genome browser 
+(SeqViewer) and map comparison tool (MapViewer).
+
+Requirements:
+ 
+Ph.D. degree or equivalent in biological research involving DNA or 
+protein sequence analysis. You must have a keen eye for detail, a 
+demonstrated ability for independent critical thinking, excellent 
+communication and computer literacy skills.
+
+Experience in computational biology, sequence analysis, comparative 
+genome analysis, or computational prediction of gene structure or function.
+
+Experience of UNIX, MYSQL and perl would be beneficial but is not required.
+
+Qualified candidates should email a resume to David Swarbreck at:
+dswarbreck@acoma.stanford.edu
+
+The preferred starting date is September, 2006.
+The Carnegie Institution of Washington is an equal opportunity employer.
+
+-- ************************************ David Swarbreck The Arabidopsis Information Resource Carnegie Institution of Washington Department of Plant Biology 260 Panama St. Stanford, CA 94305 U.S.A E-mail dswarbreck@acoma.stanford.edu www.arabidopsis.org/about/staff.jsp ************************************ _______________________________________________ Biocurator mailing list Biocurator@acoma.stanford.edu http://aztec.stanford.edu/mailman/listinfo/biocurator 

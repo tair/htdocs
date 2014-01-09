@@ -1,0 +1,31 @@
+Two three-year postdoctoral positions are available at the John Innes
+Centre, to work on a collaborative systems biology project that involves the
+labs of Robert Sablowski (JIC), Enrico Coen (JIC), Andrew Bangham (UEA), Jan
+Traas (ENS-Lyon), Christophe Godin (INRIA-Montpellier) and François Parcy
+(INRA-Grenoble). The aims of the project are to produce quantitative models
+of floral organ growth at the cellular and whole-organ levels, and to
+investigate how growth parameters change in response to manipulation of
+floral homeotic genes.
+ 
+The candidate to join the Coen group
+(http://www.jic.ac.uk/STAFF/enrico-coen/) will establish gene-based models
+for floral morphogenesis through a combination of experimental analysis and
+computer modelling in close collaboration with the Bangham group. The
+candidate joining the group of Robert Sablowski
+(http://www.jic.ac.uk/STAFF/robert-sablowski/sablowski.htm) will use growth
+models to analyse the developmental changes directed by floral homeotic
+genes, in close collaboration with the Traas group (for modelling at the
+cellular level) and Coen/Bangham groups (for modelling at the whole-organ
+level).  A PhD in molecular biology, genetics or related subject is required
+for both positions; experience in plant development, genetics, advanced
+imaging techniques and computer programming will be advantageous.
+ 
+For both candidates, creativity and intellectual independence are essential,
+and proven ability to write scientific papers is desirable. The candidates
+must be available to travel to international meetings and for short visits
+to collaborating labs abroad.
+ 
+To apply, please send a CV and personal statement to
+Robert.sablowski@bbsrc.ac.uk <mailto:Robert.sablowski@bbsrc.ac.uk> , quoting
+job reference 1001676.The closing date for applications is 5 December 2007.
+ 

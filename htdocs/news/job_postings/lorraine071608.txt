@@ -1,0 +1,46 @@
+Postdoctoral researcher position in the Loraine lab at UNC Charlotte: 
+ 
+A postdoctoral trainee position is available starting September, 2008 in the combined 
+computational/experimental biology lab of Ann Loraine in the Bioinformatics Research 
+Center at UNC Charlotte. 
+ 
+The position will primarily involve bench research but will also have a substantial 
+computational component. This position will be an excellent opportunity for a Ph.D. level 
+scientist to gain expertise in bioinformatics while building an independent research 
+program. For information about on-going projects in the lab, visit 
+http://www.transvar.org. 
+ 
+Candidate Profile: 
+The ideal candidate should possess outstanding laboratory skills, including demonstrated 
+ability to trouble-shoot and/or optimize lab protocols. Candidates should have extensive 
+experience in Arabidopsis genetics, e.g., working with T-DNA insertion lines, growing 
+plants, and performing crosses. He or she should have some experience applying 
+bioinformatics techniques in research or classroom settings, such as simple scripting to 
+automate repetitive tasks or using tools like R and Bioconductor to analyze data. Ability 
+to learn and willingness to use software tools for managing research are absolutely 
+essential. However, PhD-level expertise in computer science or advanced programming 
+expertise is neither expected nor required. (We can teach you what you need to know.) 
+The position is intended for PhD-level biologists who want to develop an independent, 
+lab-based research program while at the same time gaining credentials in bioinformatics. 
+ 
+Duties: 
+Plan, perform, and trouble-shoot laboratory experiments; Present research at scientific 
+conferences; Provide text and data for funding applications; Write scientific articles; 
+Assist in setting up wet lab scheduled to open in October, 2008 at the North Carolina 
+Research Campus; Assist in interviewing and training staff research technician for the 
+lab; Help develop requirements documents for software development projects; Perform 
+analysis of expression microarray data and other genome-scale data sets using custom 
+tools developed by the PI and collaborators. 
+ 
+Position Location: 
+The position will be located at the North Carolina Research Campus, located around 20 
+minutes drive north of the UNC Charlotte main campus. Health insurance coverage is 
+provided, with additional spousal or dependent coverage available for purchase. The 
+applicant will join a vibrant and growing Bioinformatics program at UNCC, which 
+currently includes ten faculty specializing in bioinformatics and computational biology. 
+ 
+To apply: 
+Send an e-mail to aloraine@uncc.edu with the following information:  (1) introductory 
+letter describing your interests and qualifications for the position, (2) a CV, (3) the names 
+and contact information for 3 references, including at least one co-worker (e.g., fellow 
+graduate student) from your thesis lab.

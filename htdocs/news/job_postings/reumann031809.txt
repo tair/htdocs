@@ -1,0 +1,91 @@
+UNIVERSITY OF STAVANGER
+
+Research Fellow (PhD) in Plant Molecular, Cell and Computational Biology
+
+The University of Stavanger invites applications for a three-year doctorate scholarship in Biological 
+Chemistry at the Faculty of Science and Technology, Department of Mathematics and Natural 
+Science, at the Centre for Organelle Research (CORE), beginning August 1, 2009.
+
+The title of the project is “Prediction and functional characterization of novel plant 
+peroxisomal proteins”.
+
+The research group by Prof. S. Reumann aims to comprehensively characterize the physiological 
+function of peroxisomes in the model plant Arabidopsis. To this end, we apply two large-scale 
+approaches, i.e. computational protein prediction and proteomics. In collaboration with 
+bioinformaticians in Germany and at UiS we develop and constantly improve new mathematical 
+models for high-accuracy prediction of peroxisome targeting signals and test them by experimental 
+in vivo subcellular localization studies. Proteins of key metabolic or regulatory functions, for 
+instance those predicted to be involved in photorespiration and stress adaptation, are studied at the 
+molecular level, for instance by heterologous gene overexpression, yeast complementation studies, 
+and phenotypic characterization of Arabidopsis T-DNA insertion lines. 
+
+The Reumann laboratory is part of the newly established Centre for Organelle Research (CORE), 
+which houses state-of-the-art equipment in genomics, proteomics, and microscopy. CORE 
+represents a highly active and stimulating environment and encourages collaborative and cross-
+disciplinary research, for instance with the Department of Electrical and Computer Engineering, 
+Profs. T. Ryen and T. Eftestøl). The project is technically and intellectually demanding and requires 
+experience in plant physiology, molecular and cell biology. Students with a background and/or an 
+interest in studying computational biology are prime candidates for the position.
+
+Key references:
+
+Changle Ma and Sigrun Reumann (2008) Improved prediction of peroxisomal PTS1 proteins from 
+genome sequences based on experimental subcellular targeting analyses as exemplified for protein 
+kinases from Arabidopsis. J. Exp. Bot. 59: 3767-79.
+Sigrun Reumann et al. (2007) Proteome analysis of Arabidopsis leaf peroxisomes reveals novel 
+targeting peptides, metabolic pathways, and defense mechanisms. Plant Cell 19:3170-93. 
+Changle Ma, Martin Haslbeck, Lavanya Babujee, Olaf Jahn, Sigrun Reumann (2006) Identification 
+and characterization of a stress-inducible and a constitutive small heat-shock protein targeted to the 
+matrix of plant peroxisomes. Plant Physiol. 141, 47-60. 
+Sigrun Reumann (2004) Specification of the peroxisome targeting signals type 1 and type 2 of plant 
+peroxisomes by bioinformatics analyses. Plant Physiol. 135, 783-800
+Sigrun Reumann, Changle Ma, Stefan Lemke, and Lavanya Babujee (2004). AraPerox. A database 
+of putative Arabidopsis proteins from plant peroxisomes. Plant Physiol. 136, 2587-2608
+
+
+The position is funded by Ministry of Education and Research. 
+
+Applicants must have earned a Master degree or possess corresponding qualifications which could 
+provide a basis for successfully completing a doctorate. It is necessary to have obtained an average 
+grade of B or better in order to qualify. The appointee must be able to work independently and as a 
+member of a team, be creative and innovative. The research fellow must have a good command of 
+oral and written English.
+
+The research fellow will be admitted to the doctoral program at the University of Stavanger on an 
+agreement to complete the doctorate within the duration of the scholarship.
+
+The program will mainly be carried out at the University of Stavanger, apart from a period of study 
+abroad at a recognized and relevant centre of research.
+
+The research fellow is salaried according to the State Salary Code, l.pl 17.515, code 1017, LR 20, 
+ltr  45, of NOK 353.200,-  per annum. 
+
+The position provides for automatic membership in the Norwegian Public Service Pension Fund, 
+which guarantees favorable retirement benefits. Members may also apply for home investment 
+loans at favorable interest rates.
+
+Project description and further information about the position can be obtained from Professor 
+Sigrun Reumann, telephone +47 51 83 18 97 or +47 41 17 47 77, e-mail sigrun.reumann@uis.no 
+(see also http://core.ux.uis.no/).
+
+ The application must contain the following documents and material and must be submitted in three 
+complete verified copies: 
+
+1. A curriculum vita including educational background and employment history 
+2. The application form (Information to be made available to the applicants, see 
+     http://uis.cp-prod.uis.no/getfile.php/Ledige%20stillinger%20-
+%20utvidet%20s%C3%B8knadsskjema/Utvidet_soekerskje_eng5.rtf) 
+3. Diplomas and certificates (certified by the educational institution) 
+4. References 
+5. List of publications 
+6. Any other documentation that the applicant considers relevant 
+
+and be addressed to:
+University of Stavanger
+Faculty of Science and Technology
+N-4036 Stavanger
+Norway
+
+The application should be marked st.id 30029595. 
+
+Closing date for applications is April 15th, 2009

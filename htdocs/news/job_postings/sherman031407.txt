@@ -1,0 +1,25 @@
+Senior Research Scientist - Plant Systems Biology
+
+Mendel Biotechnology, Inc., invites applications for a Senior Research
+Scientist position in Plant Systems Biology. The candidate needs to
+have expertise in both computer science, statistics or mathematics,
+and biology. Strong computer programming capabilities are required, as
+are proven skills analyzing large sets of gene expression/microarray
+data as well as DNA and protein sequences. The successful applicant
+will design & implement tools for processing, analyzing and
+visualizing large datasets, including using mathematical models for
+predicting gene expression network organization and de novo
+identification of cis-acting promoter regulatory elements. Candidates
+who have previously worked with plant systems are especially
+encouraged to apply. Applicants must have a PhD with a minimum of 3
+years postdoctoral experience. Strong written and oral communication
+skills in the English language are considered essential.
+
+Applications, including the names, mailing addresses, and e-mail
+addresses of at least two references should be submitted to:
+
+   job71-at-mendelbio.com
+
+http://www.mendelbio.com/job/
+
+

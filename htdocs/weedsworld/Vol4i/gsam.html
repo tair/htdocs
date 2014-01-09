@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "ficpmb.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "amspp.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Fifth International Congress of Plant Molecular Biology';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 6)
+		strng = 'American Society of Plant Physiologists meeting';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+  <head>
+    <title>Genetic Society Annual Meeting</title>
+  </head>
+
+  <body bgcolor="#ffffff">
+      <blockquote>
+	  <h1>Genetic Society Annual Meeting</h1>
+	  
+	  <hr>
+	  The Genetic Society Annual Meeting will take place on Friday 14th November 1997 at the Wellcome Building, London. <p>
+Contact:
+<blockquote>
+	      Jill Hunter,<br>
+	      Membership Secretary,<br>
+	      The Genetic Society,<br>
+	      MRC Human Genetics Unit, <br>
+	      Western General Hospital,<br>
+	      Crewe Road, <br>
+	      Edinburgh.<br>
+	      EH4 2XU.<br><br>
+	      Telephone : (0131) 343 2362<br>
+	      Fax : (0131) 343 2620<br>
+	      Email : <a href="mailto:jillh@hgu.mrc.ac.uk">jillh@hgu.mrc.ac.uk</a><br>
+
+	  </blockquote>
+	  Membership application forms can be obtained from any member or from the Membership Secretary.
+	  
+      </blockquote>
+  </body>
+</html>

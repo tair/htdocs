@@ -1,0 +1,43 @@
+-- PhD student Systems Biology of Yield -- 
+ 
+Job description: 
+For our group, we are looking for enthusiastic PhD students in bioinformatics/systems biology. 
+You will be involved in a project which is highly complementary to ongoing research in the group, 
+where microarray, proteomics and interaction data related to growth control is generated. You will 
+be responsible for the application and development of computational methods to analyze and 
+integrate these data. You will collaborate with both experimental and computational biologists to 
+obtain a systems-level understanding of leaf growth (http://www.psb.ugent.be/groups/systems-
+biology-of-yield-group). 
+. 
+ 
+Profile: 
+• You have a degree in Bioinformatics, Informatics or in Biotechnology/ 
+Biochemistry/Bioengineering. 
+• You have a good knowledge/experience in programming (Perl, R, Java and/or C++). 
+• You have knowledge or experience with databases (mySQL). 
+• You have an interest in web design (PHP). 
+• You speak English fluently. 
+• You have good communication skills. You are a team player. You are independent and like to 
+take initiative. You are flexible. 
+ 
+ 
+We offer a contract of 2 years, within University Gent, with the possibility of prolongation. 
+We offer a diverse job in a young team, an open and informal work atmosphere and in modern 
+facilities. The Department of Plant Systems Biology, VIB, University Gent (www.psb.ugent.be) is 
+an internationally renowned and dynamic research institute that employs molecular genetics, 
+genomics and bioinformatics to unravel developmental processes in plants and is led by Prof. 
+Dirk Inzé. 
+ 
+Start date: as soon as possible, the position remains vacant until a suitable candidate is found. 
+ 
+Information: Further information can be obtained by contacting Stefanie De Bodt 
+(stefanie.debodt@psb.vib-ugent.be) 
+Application: Send your letter of motivation, your CV and if possible references to: 
+Stefanie De Bodt 
+Department of Plant Systems Biology 
+Technologiepark 927 
+9052 Gent 
+Tel: +32 93313806 
+ 
+or through email to stefanie.debodt@psb.vib-ugent.be 
+

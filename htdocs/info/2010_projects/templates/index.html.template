@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+
+<title>TAIR</title>
+
+<style type="text/css">
+@import "/css/base.css";
+@import "/css/page/home.css";
+</style>
+
+
+<script type="text/javascript" src="/js/global.js"></script>
+
+<script type="text/javascript" src="/js/menu.js"></script>
+<script type="text/javascript" src="/js/footerNew.js"></script>
+<script type="text/javascript" src="/js/init.js"></script>
+
+</head>
+
+<body>
+<!-- HEADER using external JavaScript file -->
+<div id="container">
+
+<p>
+
+<!-- End of header -->
+
+
+<div id="content">
+<table width="602" align="center" border="0" cellspacing="0" cellpadding="2">
+        <tr>
+                <td width="602">
+<p>
+<span class="mainheader">
+Functional Genomics Characterization of 
+<I>Arabidopsis
+</I> Genes
+</span>
+
+</td></tr></table>
+
+<table width="602" align="center" border="0" cellspacing="0" cellpadding="2">
+        <tr>
+                <td width="602">
+          <p>
+                
+<!--  //--> 
+
+<p><a href="/info/2010_projects">Back to Functional Genomics Page</a></p>
+
+
+<TMPL_IF NAME=QUERY_STRING>
+<TMPL_ELSE>
+
+<p>Select a search category in the drop down menu and enter the query
+string in the input box. For multiple inputs, please separate each
+input string by a semicolon (e.g. At2g41140; AT2G32530; AC004681;
+T04189). The search is case insensitive and uses regular expression
+wild-cards.</p>
+
+</TMPL_IF>
+
+
+
+<!-- <form method=GET action="/cgi-bin/2010_projects/2010_search.pl"> -->
+<!-- Let's just have the action be to ourselves. -->
+<form method=GET>
+Query Text: <input name="qstring" size=30>
+    <select name="stype">
+        <option selected value="any">Any
+        <option value="accession">Genbank Accession #
+        <option value="locus">Locus Name
+        <option value="other_gene_names">Other Gene Names
+        <option value="lead_pi">PI Name
+        <option value="proposal">Proposal Title
+    </select>
+    <input type="submit">
+</form>
+
+
+<TMPL_IF NAME=QUERY_STRING>
+
+    <TMPL_IF NAME=TOO_MANY_RESULTS>
+        <h3>Too many results returned; truncating result set.</h3>
+
+        <p>
+           Your query resulted in more than 
+           <TMPL_VAR name="NUM_OF_MAX_RESULTS"> result hits; only the first
+           <TMPL_VAR NAME="NUM_OF_MAX_RESULTS"> results are displayed.  If you wish
+           to retrieve all the results as a tab-delimited text file, right click on this 
+           <a href="2010_search.pl/results.txt?qstring=<TMPL_VAR NAME='QUERY_STRING'>&stype=<TMPL_VAR NAME='QUERY_TYPE'>&text=1">link</a> and select the "Save Page As" option.</p>
+
+           <p>You can also download the entire dataset from the
+           ftp directory
+           (<a href="ftp://ftp.arabidopsis.org/home/tair/Genes/2010_projects/">
+            ftp://ftp.arabidopsis.org/home/tair/Genes/2010_projects/</a>.)
+        </p>
+
+    </TMPL_IF>
+
+
+    <h3><TMPL_VAR NAME="NUM_OF_MAX_RESULTS"> match(es) found.
+	Displaying <TMPL_VAR NAME="START"> to <TMPL_VAR NAME="END">.</h3>
+
+	[<a href="2010_search.pl?qstring=<TMPL_VAR NAME='QUERY_STRING'>&stype=<TMPL_VAR NAME='QUERY_TYPE'>&start=<TMPL_VAR NAME='PREVIOUS'>&limit=<TMPL_VAR NAME='LIMIT'>">Previous</a>] 
+
+	[<a href="2010_search.pl?qstring=<TMPL_VAR NAME='QUERY_STRING'>&stype=<TMPL_VAR NAME='QUERY_TYPE'>&start=<TMPL_VAR NAME='NEXT'>&limit=<TMPL_VAR NAME='LIMIT'>">Next</a>]
+
+
+    <TMPL_IF NAME="NUM_OF_ROWS"><table border=1 bgcolor="#ffffff">
+        <!-- headers -->
+        <tr>
+          <th>PI Name</th>
+          <th>Proposal #</th>
+          <th>Title</th>
+          <th>Locus Name</th>
+          <th>Other Gene Names</th>
+          <th>Genbank Accession</th>
+          <th>Comment</th>                  
+        </tr>
+    
+        <!-- for every row of output, we'll be printing out one of these
+             blocks. -->
+        <TMPL_LOOP name=ROWS>
+        <tr>
+            <td valign=top><TMPL_VAR NAME=PI_NAME>&nbsp;</td>
+
+            <TMPL_IF name="IS_NSF">
+                <td valign="top">
+                    <a href="https://www.fastlane.nsf.gov/servlet/showaward?award=<TMPL_VAR NAME=PROPOSAL_NUMBER>" target="new_window">
+                <TMPL_VAR NAME=PROPOSAL_NUMBER>
+                    </a>
+                    <TMPL_VAR NAME=GRANTING_AGENCY>
+                    &nbsp;
+                </td>
+            <TMPL_ELSE>
+                <td valign="top">
+                    <TMPL_IF name='OPTIONAL_PROPOSAL_NUMBER_URL'>
+                       <a href="<TMPL_VAR name='OPTIONAL_PROPOSAL_NUMBER_URL'>"
+                          target="new_window">
+                       <TMPL_VAR NAME=PROPOSAL_NUMBER>
+                       </a>
+                    <TMPL_ELSE>
+                        <TMPL_VAR NAME=PROPOSAL_NUMBER>
+                    </TMPL_IF>
+                    <TMPL_VAR NAME=GRANTING_AGENCY>
+                    &nbsp;
+                </td>
+            </TMPL_IF>
+
+
+            <td valign="top">
+                <TMPL_IF NAME="WEB_SITE">
+                        <a href="<TMPL_VAR NAME=WEB_SITE>">
+                        <TMPL_VAR NAME=PROPOSAL_NAME>
+                        </a>
+                <TMPL_ELSE>
+                        <TMPL_VAR NAME=PROPOSAL_NAME>
+                </TMPL_IF>
+
+                &nbsp;
+            </td>
+
+            <td valign=top>
+                <a href="http://arabidopsis.org/servlets/TairObject?name=<TMPL_VAR NAME=LOCUS>&type=locus" target="new_window">
+                <TMPL_VAR NAME=LOCUS></a>
+                &nbsp;
+            </td>
+
+            <td valign=top>
+                <TMPL_VAR NAME=OTHER_GENE_NAMES>&nbsp;
+            </td>
+
+            <td valign=top>
+
+
+                <TMPL_IF NAME="PROTEIN_ACCESSION">
+
+                    <TMPL_LOOP name=ACCESSION_NUMBERS>
+                       <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=protein&term=<TMPL_VAR NAME=ACCESSION_NUMBER>&dopt=GenPept" target="_blank">
+                           <TMPL_VAR NAME=ACCESSION_NUMBER>
+                       </a>
+                    </TMPL_LOOP>
+
+
+                <TMPL_ELSE>
+                    <TMPL_LOOP name=ACCESSION_NUMBERS>
+                       <a href="http://www4.ncbi.nlm.nih.gov/htbin-post/Entrez/query?db=n&form=6&dopt=g&uid=<TMPL_VAR NAME=ACCESSION_NUMBER>" target="_blank">
+                           <TMPL_VAR NAME=ACCESSION_NUMBER></a>&nbsp;
+                    </TMPL_LOOP>
+                </TMPL_IF>
+
+
+            </td>
+            <td valign=top><TMPL_VAR NAME=COMMENT>&nbsp;</td>
+        </tr>
+        </TMPL_LOOP>            
+    </table></TMPL_IF>
+</TMPL_IF>
+
+
+          
+                </td>
+        </tr>
+</TABLE>
+</div>
+<script type="text/javascript">
+writeFooter();
+</script>
+</div>
+</body>
+
+</html>

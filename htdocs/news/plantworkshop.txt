@@ -1,0 +1,55 @@
+PLANT LONG OLIGONUCLEOTIDE MICROARRAY WORKSHOP
+
+May 8-13, 2005
+The University of Arizona
+Tucson, Arizona
+
+This workshop will comprise a combination of lectures and hand-on
+laboratory sessions. The participants will primarily employ
+Arabidopsis and maize whole genome 70-mer oligonucleotide microarrays
+in their laboratory work (for details of these arrays see
+<http://www.ag.arizona.edu/microarray>http://www.ag.arizona.edu/microarray 
+and <http://www.maizearray.org/>http://www.maizearray.org/).
+
+The workshop will be divided into two parts: Part I (Sunday 4PM to
+Wednesday 5PM) will cover wet-lab aspects of microarray target
+production and amplification, microarray hybridization, and scanning. 
+Part II (all
+day, Thursday and Friday) will concentrate on data extraction,
+statistical analysis, and experimental design. Together these topics
+are aimed at the goal of the participants obtaining optimal results using
+oligonucleotide-based microarrays. Part II may be taken separately.
+
+Specific topics to be covered include:
+
+* Experimental design.
+* Probe preparation and microarray printing.
+* Microarray rehydration and probe immobilization.
+* Target preparation, including RNA extraction, direct and indirect
+labeling, and amplification techniques.
+* Microarray hybridization.
+* Array scanning and data extraction.
+* Data analysis and archiving.
+
+Registration (Part I plus Part II) is $650, which includes costs of
+the microarrays and other supplies that you will use.
+Part II registration only is $250. Part I participants will be
+limited to 30 on a first-come, first-serve basis. Overall
+participation will be limited to 40 individuals.
+
+For further details and to register, please contact
+David Galbraith 
+(<mailto:galbraith@arizona.edu&replyto=5.1.0.14.2.20040123155837.0296b098@ag.arizona.edu&subject=Re:%20Microarray%20Workshop%20May%202004>galbraith@arizona.edu).
+
+David W. Galbraith
+Professor of Plant Sciences
+& Professor, Bio5 Institute
+University of Arizona
+303 Forbes Building
+P.O. Box 210036
+Tucson Arizona 85721-0036 USA.
+
+Tel: (520) 621-9153
+Fax: (520) 621-7186
+Email: galbraith@arizona.edu
+http://latin.arizona.edu/galbraith

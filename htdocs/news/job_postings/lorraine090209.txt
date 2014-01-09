@@ -1,0 +1,40 @@
+*Bioinformatics Postdoc* The Loraine lab at UNC Charlotte seeks a 
+postdoctoral researcher for primarily computational projects, with 
+possibility for experimental work.  Available projects include: Analysis and 
+annotation of blueberry transcriptomes and next-generation sequencing data; 
+Developing methods, tools, and Web services for mining expression data in 
+plants; and developing visualization software for bioinformatics and 
+genomics (IGB, Genoviz SDK, TableView, etc.). 
+ 
+*General qualifications:* 
+Ph.D. in one of: computer science, applied math, physics, chemistry, 
+biology. 
+ 
+*Qualifications, by project:* 
+*Analysis and annotation of blueberry NGS data*: Familiarity with molecular 
+biology and gene expression regulation; research experience using 
+bioinformatics programs; excellent cross-disciplinary communication and 
+writing skills; scripting experience and some command-line programming. 
+*Co-expression*: Java Web programming (or similar); familiarity with DNA 
+expression microarray design and analysis methods, especially R and 
+Bioconductor; and sufficient lab training to design expression measurement 
+experiments at the bench. 
+*Visualization*: User interface development in Java; knowledge of software 
+engineering principles; excellent communication skills; experience 
+supervising or training junior colleagues; and a track record of high 
+productivity and quality in software development. 
+ 
+The position is at the North Carolina Research Campus in Kannapolis, NC, 
+located 15 miles north of the UNC Charlotte main campus. 
+ 
+Fringe benefits: Vacation and health insurance coverage with additional 
+spousal or dependent coverage available for purchase. 
+ 
+To apply: Email aloraine@uncc.edu with (1) cover letter describing your 
+interests and qualifications for the position, (2) a CV, (3) the names and 
+contact information for 3 references. 
+ 
+For further information about the lab, please visit http://www.transvar.org. 
+ 
+For information about postdoctoral positions at UNC Charlotte, visit: 
+http://www.research.uncc.edu/rs/postdoctoral.cfm

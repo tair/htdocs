@@ -1,0 +1,24 @@
+http://news.gramene.org/?p=392 
+ 
+Bioinformatics and software programmer openings at the rank of Faculty Research Assistant are 
+available in the Jaiswal lab at the Department of Botany and Plant Pathology to work on the 
+Computational Biology and Bioinformatics projects.  This is a full-time, (1.0 FTE), 12-month, fixed-
+term position working in the Jaiswal lab (http://www.science.oregonstate.edu/bpp/faculty/jaiswal/). 
+The positions are renewable annually. 
+ 
+The projects involve development and maintenance of the databases, software and analysis 
+pipelines necessary for development of the Plant Gene Expression, biochemical and regulatory 
+pathway networks, comparative genomics, text mining and biological ontology projects. The 
+incumbent will have the necessary skills on developing the software in C, C++, Java, Perl, 
+BioPerl, R, MATLAB, Shell, any other scientific programming language, etc.; and development of 
+MySQL database driven web accessible applications, website coding in HTML, XML, JSP, PHP 
+and computer science applications. 
+ 
+To review the position description and apply, go to posting #0004776 
+at http://oregonstate.edu/jobs.  When applying, you will be required to electronically submit your 
+application, a Letter of Intent, and a Curriculum Vitae (including 3 references).  Applications will 
+be considered throughout the 2009-2010 fiscal year. The closing date is subject to change 
+without notice to applicants. 
+ 
+Oregon State University is an Affirmative Action/Equal Opportunity Employer and has a policy of 
+being responsive to dual-career needs.

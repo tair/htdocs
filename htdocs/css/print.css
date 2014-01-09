@@ -1,0 +1,38 @@
+/* ----------------------------------------------
+ * TAIR print.css
+ * 1/10/05 Leonore Reiser- added a function to not 
+ * display printer friendly line when NOT using div tags.
+ ---------------------------------------------- */
+
+body {
+	padding: 10px;
+	margin: 0;
+}
+
+/*global font family*/
+body, p, h1, h2, h3, h4, h5, h6, address {
+	font-family: arial, helvetica, verdana, sans-serif;
+	font-size: 12px;
+}
+img {
+	border: 0;
+}
+
+#buttons {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+#buttons img {
+	padding: 0 8px;
+	position: relative;
+	top: 3px;
+}
+
+#leftcolumn {
+	display: none; /* hide the left column */
+}
+
+#printer_friendly {
+	display:none; 
+}

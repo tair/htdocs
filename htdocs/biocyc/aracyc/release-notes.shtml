@@ -1,0 +1,15 @@
+<HTML><HEAD>
+<TITLE>History of updates to AraCyc</TITLE>
+<LINK REL=STYLESHEET type="text/css" href="http://www.arabidopsis.org:1555/style.css">
+</HEAD>
+<BODY >
+<A HREF="http://www.arabidopsis.org/biocyc/releasenotes.jsp"> Please refer to the current AraCyc release notes.</A><p><hr><FORM>
+
+<INPUT type=button value="Query Page" onClick="location.href='server.html?'">
+<INPUT type=button value="Advanced Query Page" onClick="location.href='query.html?'">
+
+<INPUT type=button value="Report Errors or Provide Feedback" onClick="window.open('feedback.html?' + location, 'bugreport', 'toolbar=no,dependent=yes,height=640,width=620,menubar=no,location=no,scrollbars=yes')">
+</FORM>
+
+
+</BODY></HTML>

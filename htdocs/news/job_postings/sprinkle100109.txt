@@ -1,0 +1,40 @@
+Postdoctoral Research Positions—Computational Phylogenetics/Phyloinformatics
+Multiple postdoctoral positions are available for research and cyberinfrastructure development associated with reconstructing the 
+green plant tree of life. Positions are sponsored by the iPlant Collaborative (http://iplantcollaborative.org), which is supporting 
+cyberinfrastructure across the plant sciences. Individuals would work with one of a number of identified investigators focusing on 
+specific issues in phylogenetic cyberinfrastructure development. These include high performance computing and scalable tree 
+construction (Alexandros Stamatakis—Technical University, Munich; email: stamatak@cs.tum.edu), data set assembly (Doug 
+Soltis—U Florida; email: dsoltis@botany.ufl.edu, Pam Soltis—U Florida; email: psoltis@flmnh.ufl.edu; Michael Donoghue—Yale; 
+email: michael.donoghue@yale.edu), gene tree reconciliation (Todd Vision—UNC; email: tjv@bio.unc.edu), character evolution 
+(Brian O’Meara—U Tennessee; email: bomeara@utk.edu), and tree visualization (Michael Sanderson, UC-Davis; email: 
+sanderm@email.arizona.edu). Fellows can anticipate working in a highly collaborative, multi-institutional context, with some travel 
+between working groups encouraged. In addition to undertaking basic research in phylogenetic methods, postdocs will be expected 
+to provide advice on and work in collaboration with cyberinfastructure developers in the iPlant team. Qualifications include familiarity 
+with the data, methods, and software of phylogenetic analysis, and programming experience at least at the level of a scripting 
+language such as PERL. Individual PIs may have additional requirements. Inquiries should be directed to any of the Grand 
+Challenge Team members listed above. Positions are available immediately. A full description of the iPToL (iPlant Tree of Life) 
+project can be found online at http://iptol.iplantcollaborative.org. The institutions involved in this program may be Affirmative Action 
+and/or Equal Opportunity Employers.
+
+Program Announcement—Connecting Genotypes to Phenotypes in Complex Environments
+Multiple postdoctoral positions will be available for research and cyberinfrastructure development associated with elucidating the 
+relationship between plant genotypes and the resultant phenotypes (G2P) in changing environments. The program is sponsored by 
+the iPlant Collaborative (http://iplantcollaborative.org), which develops and enables cyberinfrastructure support for Grand Challenge 
+research across the plant sciences. Individuals will be work in a team setting with one of a number of specific investigators having 
+key roles in issues related to G2P cyberinfrastructure development. These include pipelining and analysis of Next Generation 
+sequence data (Tom Brutnell—Boyce Thompson Institute, Cornell University; email: tpb8@cornell.edu), data integration (Matthew 
+Vaughn email: vaughn@cshl.edu, and Doreen Ware email: ware@cshl.edu, — both at Cold Spring Harbor Laboratory), statistical 
+inference for genome-wide association mapping (Dan Kliebenstein— University of California, Davis; email: 
+kliebenstein@ucdavis.edu), visualization/analysis (Ruth Grene—Virginia Tech; email: grene@vt.edu), modeling tools (Stephen 
+Welch—Kansas State University; email: welchsm@ksu.edu). The work setting will be a highly collaborative, multi-institutional 
+context, with some travel between working groups encouraged. In addition to undertaking basic G2P research, individuals will be 
+expected to provide advice on and work in collaboration with iPlant cyberinfastructure developers. Qualifications include familiarity 
+with one (or preferably more) of the following areas:  functional-, quantitative-, or computational genetics/genomics; bioinformatics; 
+programming experience (either scripting languages like PERL or compiled languages like C/C++);  modeling (systems biological, 
+ecophysiological, or statistical); database use; current topics in plant biology (especially stress, photosynthesis, or phenology); or 
+high performance computing. Individual investigators may have additional requirements. Inquiries should be directed to any of the 
+individuals listed above. A full description of the iPlant G2P program, including specific position descriptions as they become 
+available, can be found online at http://ipg2p.iplantcollaborative.org.  The institutions involved in this program may be Affirmative 
+Action and/or Equal Opportunity Employers.
+
+

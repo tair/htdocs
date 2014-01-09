@@ -1,0 +1,38 @@
+A bioinformatics postdoctoral research position available to generate 
+metabolic networks in plants
+
+A bioinformatics postdoctoral position is available immediately in the laboratory of 
+Dr. Sue Rhee at the Carnegie Institution, Department of Plant Biology (Stanford, 
+CA), to create and analyze metabolic networks of plants. This project aims to use 
+existing bioinformatic tools and data to predict the metabolic network context for 
+plants with substantial sequence information such as poplar, maize, wheat, 
+soybean and sugarcane, among others. This project is an important component 
+of a larger project called the Plant Metabolic Network (PMN) whose goal is to 
+create a gold-standard and comprehensive reference database of plant 
+metabolic pathways (called PlantCyc) and a collection of species-specific 
+metabolic pathway databases. The collection of databases will have a number of 
+applications including metabolic engineering and comparative genomics. The 
+successful candidate will work closely with database curators and programmers 
+at Carnegie.
+
+Qualified candidates must have a Ph.D. or equivalent in Biology, Mathematics, 
+Computer Science, Engineering or related field, and a strong background in 
+using statistics and bioinformatics. Proficiency in Perl programming, Unix, and 
+common bioinformatics tools for large-scale sequence analysis are required. The 
+successful candidate should also have a demonstrated ability for independent 
+and critical thinking, excellent communication and teamwork skills.
+
+The Carnegie Institution, a private, nonprofit organization engaged in basic 
+research and advanced education in biology, astronomy, and the earth sciences, 
+was founded and endowed by Andrew Carnegie in 1902 and incorporated by an 
+act of Congress in 1904. Andrew Carnegie conceived the Institution's purpose "to 
+encourage, in the broadest and most liberal manner, investigation, research, and 
+discovery, and the application of knowledge to the improvement of mankind." The 
+Department of Plant Biology engages in basic research on the mechanisms 
+involved in the growth and development of plants and algae. The Department of 
+Plant Biology is co-located with the Carnegie Department of Global Ecology on a 
+seven-acre site on the campus of Stanford University.
+
+Please email a brief letter describing your research experience, plus your CV and 
+contact information for 3 references to Sue Rhee (rhee@acoma.stanford.edu).
+

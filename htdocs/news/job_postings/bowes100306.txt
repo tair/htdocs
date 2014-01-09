@@ -1,0 +1,45 @@
+
+[Biocurator] Scientific Curator position with Xenbase (Calgary, Canada)
+
+
+A scientific curator position is available with Xenbase, at the University of Calgary.  Xenbase is a Xenopus model organism 
+database that will soon be launching its first fully database-backed version including a gene catalog, genome browser, and gene 
+expression data. This is an excellent opportunity to play a lead role in developing curation practices for a new model organism 
+database.
+
+The curator will acquire, analyze and index information about Xenopus genes, expression patterns and gene function from other 
+databases, literature and direct submissions from laboratories.  Initial duties will focus on annotating gene entries in the 
+gene catalog, providing quality control testing for data entered into the gene catalog via pipelines and annotating in situ gene expression data.  
+
+The successful candidate will be Xenbase’s first curator.  As such, they will initiate development of curation methodology 
+and standards for Xenbase.  They will also work with software developers to design curation interfaces and quality control 
+processes for data pipelines. This curator will also participate in design of an anatomical ontology for Xenopus.
+
+ A Ph.D. or M.Sc. degree in life sciences, experience in vertebrate development and knowledge of molecular biology is required. 
+Prior biological curation experience is strongly preferred. Exposure to databases, HTML and/or HTML editors, XML, and 
+bioinformatics will be considered an asset.  Strong written/verbal communications skills are a must. 
+
+This position will start as soon as possible.  The project has stable long term funding from the NIH.
+
+We are located in Calgary, Canada – a vibrant, multicultural city (population over 1,000,000) near the Rocky Mountains 
+with fantastic recreational possibilities.
+
+Send your resume and cover letter to bowes@ucalgary.ca.  Please reference “Xenbase Scientific Curator” in the subject line.
+
+For further information please contact:
+
+Dr. Peter Vize
+Department of Biological Sciences
+2500 University Drive N.W.
+Calgary, Alberta, Canada
+T2N 1N4
+Phone:  (403) 220-8502
+Fax:   (403) 289-9311
+Email: pvize@ucalgary.ca
+
+
+
+
+
+
+

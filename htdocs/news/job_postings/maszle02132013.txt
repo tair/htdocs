@@ -1,0 +1,88 @@
+Bioinformatics Scientist 
+
+This is a position at Mendel Biotechnology, Inc. in the Computational 
+Biology group: a small team responsible for management and analysis of 
+bioinformatics data for all scientific research functions. 
+
+Description 
+
+We are looking for a Bioinformatics Scientist to join a team 
+conducting chemical and genetics R&D to develop products for crop 
+improvement. The scientist will be responsible for executing a wide 
+range of core computational tasks and must be an expert in the 
+bioinformatics analysis of DNA and protein sequences. 
+
+Responsibilities 
+
+* Design, implementation and support of internal sequence database 
+  infrastructure; 
+
+* Curation and maintenance of automated database update and 
+  BLAST-related resources; 
+
+* Maintenance and extension of internal Galaxy bioinformatics platform; 
+
+* Execution of ad hoc sequence-analysis requests such as promoter 
+  identification, cloning primer design, etc. 
+
+* Preparation of phylogenetic trees, alignments and other analyses to 
+  support patent filings; 
+
+* Discovery and characterization of sequences of functional 
+  orthologues across multiple targets species; 
+
+* Discovery and characterization of sequence motifs related to loci of 
+  interest; 
+
+* Development of novel algorithms and methods for the analysis of 
+  genomic data, including ORA, GWAS and eQTL analysis; 
+
+* Maintenance and extension of automated multiple-genome primary 
+  analysis pipelines for next-generation sequencing data; 
+
+* Integration and analysis of data from disparate sources, including 
+  public, commercial and proprietary datasets; 
+
+* Development of models of interaction and regulation based on these 
+  data. 
+
+Requirements 
+
+* PhD or equivalent qualifications in bioinformatics, biostatistics, 
+  computational biology, or related field; 
+
+* 3-5 years of relevant work experience; 
+
+* Excellent problem solving and programming skills. Able to 
+  develop innovative solutions to solve large-scale and complex 
+  computational problems in bioinformatics software development and 
+  genomic analysis; 
+
+* Broad understanding of core bioinformatics techniques and algorithms; 
+
+* Understanding of current NGS algorithms and analysis tools for 
+  alignment and comparative analysis, including Illumina GA 
+  Pipeline software, Tophat, Cufflinks, and Bioconductor libraries 
+
+* Excellent programming skills in Perl; proficiency or familiarity in 
+  other languages such as Java, shell, R/Splus; 
+
+* A wide variety of computational skills, such as shell scripting, 
+  statistics and the R environment; 
+
+* Solid understanding of SQL and fundamentals of relational database 
+  design as used in bioinformatics and sequence analysis; 
+
+* Excellent written and verbal communication skills; 
+
+* Authorization to work in the U.S. 
+
+
+To apply for this job via e-mail, please read carefully: 
+
+1. DO NOT send attachments or HTML-formatted mail; 
+2. Send plain-text ASCII mail with your c.v. or resume, and a 
+   cover letter in the body of the e-mail; 
+3. You may include relevant URLs in your e-mail; 
+4. Send your application to job1-13@mendelbio.com. 
+

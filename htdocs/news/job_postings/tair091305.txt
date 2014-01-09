@@ -1,0 +1,49 @@
+Post-doc: Metabolic networks of Arabidopsis thaliana
+Availability: Available immediately.
+
+Job description:
+
+
+A postdoctoral position is available immediately to study metabolic 
+networks of Arabidopsis 
+thaliana bioinformatically. S/he will analyze the Arabidopsis 
+metabolism database, AraCyc 
+(www.arabidopsis.org/tools/aracyc), and Arabidopsis genome annotation 
+data at TAIR to identify 
+the candidate genes whose function could be best determined by 
+metabolite profiling and analyze 
+the results of the profiling experiments in the context of the 
+metabolic networks in AraCyc. 
+The candidate will work with a team of metabolism database curators and 
+researchers in leading 
+metabolite profiling labs to demonstrate how metabolite profiling can 
+enhance our understanding 
+of metabolic networks in Arabidopsis and how the systems-level analysis 
+of metabolism could 
+lead to new insights in plant biology. Some specific tasks include:
+
+
+developing a set of criteria and a program to select best target genes 
+for metabolite profiling 
+using genome annotation information in TAIR, pathway data in AraCyc, 
+sequence or structure-based 
+enzyme prediction methods, and information in the literature
+
+developing methods to quantitatively and qualitatively compare AraCyc 
+pathways with respect to 
+gene expression and metabolite profiling data
+
+incorporating metabolites identified from metabolite profiling 
+experiments into AraCyc
+
+Applicants should have a Ph.D. in biochemistry, plant biology, 
+molecular genetics, bioinformatics or related field.
+Experience with programming in Perl or Java and databases such as MySQL 
+are a plus.
+
+Carnegie Institution, Dept. Plant Biology, is located on Stanford 
+University campus, in the San Francisco Bay Area.
+
+To apply, please email a cover letter, CV and names of three references 
+to Sue Rhee (rhee@acoma.stanford.edu).
+

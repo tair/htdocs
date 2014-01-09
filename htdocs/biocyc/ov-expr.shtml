@@ -1,0 +1,226 @@
+<html>
+<head>
+   <LINK REL=STYLESHEET type="text/css" href="style.css">
+<title>Using the Pathway Tools Omics Viewer</title>
+<!-- Changed by: Suzanne Paley, 28-Sep-1999 -->
+<!-- Changed by: Peter Karp, 29-Sep-1999 -->
+<!-- Changed by: Suzanne Paley, 29-Sep-1999 -->
+<!-- Changed by: Suzanne Mercer Paley, 27-Jan-2000 -->
+<!-- Changed by: Peter Karp, 23-Feb-2000 -->
+<!-- Changed by: Suzanne Mercer Paley, 29-Apr-2002 -->
+<!-- Changed by: John Pick, 14-Feb-2003 -->
+</head>
+<body>
+<h1>Using the Pathway Tools Omics Viewer</h1>
+
+<em>Note: The Pathway Tools Omics Viewer was formerly known as the Pathway 
+Tools Expression Viewer.  It has recently been extended to display many other
+types of experimental data, not just gene expression data, so has been 
+renamed.</em><p>
+
+The Pathway Tools Omics Viewer uses the Metabolic Overview for an
+organism to illustrate the results of high-throughput experiments in a
+global metabolic pathway context.  Genes (in the case of a gene
+expression experiment) and proteins (in the case of a proteomics
+experiment) that are involved in metabolism are mapped to reaction
+steps in the Metabolic Overview, and the range of data values levels
+in a given experimental dataset is mapped to a spectrum of colors.
+Reaction steps in the Metabolic Overview are colored according to the
+corresponding data value.  Similarly, for metabolomics experiments,
+compound nodes are colored according to the data value for the
+corresponding compound.  This facility enables the user to see
+instantly which pathways are active or inactive under some set of
+experimental conditions.
+
+<p>
+The Omics Viewer can be used for:
+<ul>
+<li><b>Microarray Expression Data:</b>
+Reaction lines (and protein icons, where present) are color-coded 
+according to the relative or absolute expression level of the gene that codes 
+for the enzyme that catalyzes that reaction step.  The Omics Viewer allows a 
+scientist to interpret the results of gene-expression experiments in a pathway
+context.
+<li><b>Proteomics Data:</b>
+Reaction lines (and protein icons, where present) are color-coded 
+according to the concentration of the enzyme that
+catalyzes that reaction step.  
+<li><b>Metabolomics Data:</b>
+Compound icons are color-coded according to the concentration of the compound.
+<li><b>Reaction Flux Data:</b>
+Reaction lines are color-coded according to reaction flux values.
+<li><b>Other Experimental Data:</b>
+Any experiment, high-throughput or otherwise, in which data values are assigned to genes,
+proteins, reactions or metabolites can be viewed in a pathway context using 
+the Omics Viewer.
+</li>
+<p>
+
+The Omics Viewer can show absolute data values (such as the
+concentration of a metabolite or protein, or the absolute expression
+level of a gene), or it can be used to compare two sets of
+experimental data by computing a ratio and mapping the ratios onto a
+color spectrum.  
+<p>
+
+The superposition of multiple sets of experimental data on the
+metabolic overview can also be animated to show, for example, how gene
+expression levels of enzymes change with time over the course of an
+experiment.
+
+<p>
+<form action="expression.html">
+<input type=submit value="Go to Omics Viewer">
+</form>
+<p>
+
+<h2>Examples</h2>
+
+<table border=1 cellpadding=5>
+<tr>
+<td>Single gene expression experiment:</td>
+<td><a href="expr-examples/coli.dat">Sample datafile and brief description</a></td>
+<td><a href="expr-examples/single-expt.html">Sample display</a></td></tr>
+<tr>
+<td>Time series gene expression animation:</td>
+<td><a href="expr-examples/time-series.txt">Sample datafile and brief description</a></td>
+<td><a href="expr-examples/animation.html">Sample display</a></td></tr>
+</table>
+
+
+<h2><a name="file-format">Omics Dataset File Format</a></h2>
+
+Experimental data is imported from a file provided by the user that is
+stored on the user's computer.  Each line of the file contains data
+for a single gene, protein, reaction or metabolite, and is of the form:
+
+<pre>
+&lt;name-or-ID&gt;	&lt;data-column1&gt;...&lt;data-columnN&gt;
+</pre>
+
+Columns are separated by the tab character.  Lines that
+start with <code>#</code> or <code>;</code> are taken to be comment
+lines and are ignored by the program.  
+<p>
+&lt;name-or-ID&gt; can be either a common name for an object (the
+BioCyc data typically includes extensive synonym lists, and every
+attempt is made to match a name to the appropriate target), or the
+BioCyc internal ID for the object.  Gene IDs from sequencing projects
+(such as the <em>E. coli</em> B-numbers) are generally acceptable and
+unambiguous.  For protein or reaction data, EC numbers may be used.
+You must specify whether the entities in the &lt;name-or-ID&gt; column
+are genes, proteins, reactions, compounds, or a mixture.<p>
+
+The numbers in the data columns can represent either absolute or
+relative values.  If the data values represent absolute numbers, you
+may choose to visualize either a single column of absolute data values
+(select "Absolute" and one data column), or the ratio of two data
+columns as relative data values (select "Relative" and two data
+columns).  If the data values themselves represent relative numbers,
+then you need supply only a single column number, and select
+"Relative".  An entry (a row of data for a gene or other object) may
+contain any number of data columns (for example, if you wish to
+compile measurements from several experiments or time points into a
+single file), but only those data columns specified will be visualized
+at a time -- all other columns will be ignored.  <p>
+
+
+<h2><a name=color>Color Scales</a></h2>
+
+The color scale used depends on the type and, by default, the range of
+the data.  Thus, a particular color may correspond to one gene expression
+level for one dataset, and a different gene expression level for another
+dataset, depending on the range of values or the supplied maximum
+cutoff value for each dataset.  We use the
+spectrum from yellow/green to red, with yellow representing the lowest
+expression levels or ratios in the dataset, blue representing values
+in the middle, and red representing the highest values.  Reactions for
+which no data was provided are drawn in black.  The legend for mapping
+colors to data values is shown in the key, which is drawn to the
+right of the overview for a single experiment, or to the
+left for an animation.
+
+<p> A maximum cutoff value is chosen.  By default, this is computed
+from the data.  Alternatively, the user may supply a maximum cutoff
+value to use.  Supplying the same maximum cutoff value for multiple
+experiments ensures that the same color scale is used for
+each one, so that the displays are directly comparable.
+
+<p>
+The minimum cutoff value is determined based on the maximum cutoff
+value and the other parameters.  For absolute data values, we
+use a minimum cutoff value of zero.  For relative data values
+that are not logs, we use the inverse of the maximum cutoff.  For
+relative data values that are logs, we use the negative of the
+maximum cutoff.  The color spectrum is then mapped evenly along a log
+scale between the maximum cutoff and the minimum cutoff.
+<p>
+
+In many cases, several genes or proteins, each with their own
+expression level or concentration, will map to a single reaction.
+This is because the reaction might be catalyzed by an enzyme complex
+made up of several gene products, or the reaction might be catalyzed
+by several isozymes, each with its own gene or genes.  Since a
+reaction can only be colored a single color, we must choose which data
+value to use.  For absolute data values, we choose the maximum.  For
+relative data values, we choose the value whose log has the greatest
+deviation from zero, under the assumption that the user is primarily
+interested in identifying the entities whose behavior differ most
+between the two datasets.  <p>
+
+<h2><a name=returned>Omics Viewer Results</a></h2>
+
+After you submit your dataset to the Pathway Tools, the Omics Viewer
+returns several results:
+
+<OL>
+<LI> The Overview Diagram, colorized with experimental data.
+
+<LI> The color key for the Overview.
+
+<LI> For single experiments, some basic statistics computed from the
+data file.  The program counts and lists gene/protein/metabolite names
+that could not be resolved, or for which data was missing or
+malformed.  Since, for example, not all genes will code for enzymes,
+and therefore not all will correspond to reactions in the Metabolic
+Overview, we compile separate statistics for only those that are
+represented in the Overview and for the dataset as a whole.  The
+statistics that we compute and tabulate are: number of values,
+minimum, maximum and median values, and mean and standard deviation of
+the natural logs of the values.  These statistics are not computed
+when generating animations
+
+<LI>  A histogram that shows the distribution of values in
+the dataset.  This histogram is displayed directly beneath the
+color key.  The data value range is divided into 50 intervals, using the same
+criteria that we use for assigning colors.  The number of data values
+in each interval is shown on the histogram, colored appropriately.  To
+the left of the vertical axis is the histogram for the entities that are
+represented in the overview.  To the
+right of the axis is the histogram for all other entities in the dataset.
+</OL>
+<p>
+
+<h2>Animation Controls</h2>
+
+A time series can be displayed as an animation by
+specifying multiple data column numbers.  The result will be a Dynamic
+HTML page that initially plays the animation in a continuous loop,
+showing how the experimental values and histogram change with each
+experiment.  Four buttons control the animation.  They can be used to
+stop and restart the animation, and step through the
+individual time points.
+
+
+<ul>
+<li><img src=stop.gif height=25> Stop the animation at the current time point
+<li><img src=play.gif height=25> Start playing the animation from the current
+time point
+<li><img src=prev.gif height=20> Go back one time point
+<li><img src=next.gif height=20> Go forward one time point
+</ul>
+<p>
+Note that older browsers that do not support Dynamic HTML will not be able 
+to run the animation. 
+</BODY>
+</HTML>

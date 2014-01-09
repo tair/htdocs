@@ -1,0 +1,42 @@
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "Contents.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "mapping/mapping.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'WeedsWorld Volume 3(ii) Contents';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 3(ii) Contents';
+	   else if (id == 6)
+		strng = 'Report on the 7th International Conference on Arabidopsis Research';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>

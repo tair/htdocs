@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/css/help.css">
+<!-- HEADER using external JavaScript file -->
+<script language="JavaScript" src="/js/helpheader.js"></script>
+<script>
+setPrevious("");
+setNext("sv_search.html");
+writeHeader();
+</script>
+
+<!-- End of header -->
+<title>SeqViewer Introduction</title>
+</head>
+
+
+
+<blockquote>
+
+<h2>SeqViewer Introduction</h2><hr>
+<ul>
+<li><a href="#whole"><h4>SeqViewer Search Page</a></h4>
+<li><a href="#close"><h4>SeqViewer Closeup Page</a></h4>
+<li><a href="#nuc"><h4>SeqViewer Nucleotide Page</a></h4>
+</ul>
+
+<p>
+   TAIR's <a href="/servlets/sv">SeqViewer</a> is a tool for viewing the Arabidopsis genome and its associated annotation from a whole genome view down to the nucleotide level. The SeqViewer displays gene annotations, annotation units (BAC clones used to generate and assemble the genome sequence), transcripts (including ESTs and full length cDNAs), polymorphisms, T-DNA/Transposon insertions, and markers on the Arabidopsis genome sequence.  Users can search with up to 250 names or up to four short (< 150 nucleotide) nucleotide sequences, and visualize the locations of one or many search hits on the whole genome, in a closeup view (zoomable from 50 megabases to 10 kilobases) or in a 10 kilobase nucleotide window. Objects displayed in the SeqViewer are clickable and linked to TAIR database where you can find detailed records.
+
+<p><B>Note</B> : The SeqViewer displays an annotation unit band to more accurately reflect the data used to construct the map.  See the<a href="sv_rel_01beta.html#annotunit">SeqViewer Release Update Notes</a> for more information about the annotation unit band. Information about the version of the genome currently being displayed is shown on the SeqViewer home page. Coordinates can change between versions due to changes in the tiling path or BAC sequences.If you come across any bugs or errors in the tools or data shown here, please contact us at: <a href="javascript:location.href='mailto:curator@arabidopsis.org?SUBJECT=' + document.title + '&BODY=' +'URL: ' + escape(location.href)" onClick="javascript:urchinTracker('/outgoing/curator_at_arabidopsis_org');">curator@arabidopsis.org</a>
+</p>
+
+<h4>
+  <a name="whole"> </a>SeqViewer Search Page</h4>
+
+<p>
+  <font class="cont">The SeqViewer entry page  displays a whole genome view of the five Arabidopsis chromosomes and provides the following functions:
+<ul>
+  <li> <b>Search by name</b> to find the location of a gene, annotation unit, polymorphism, transcript, marker or T-DNA/Transposon.
+  <li> <b>Search by sequence</b> to find the location of up to four short sequences (15-150 nt each). 
+  <li> <b>Open a closeup view</b> by clicking on a point on one of the five chromosomes. 
+</ul></font>
+
+<p>
+<font class="cont">For more information on how to use the SeqViewer Search Page, <a href="sv_search.html">click here</a></font>.  
+
+<h4> <a name="close"> </a>SeqViewer Closeup Page</h4>
+
+<p>
+<font class="cont">The Closeup View page  displays a whole genome view of the five Arabidopsis chromosomes at the top and one or more closeup views below containing marker, polymorphism, T-DNA/Transposon, gene model,transcript  and annotation unit bands.  Functions available from the closeup page include:
+
+
+<ul>
+  <li> <b>Scroll</b> left or right, change zoom level, enter a range or recenter to customize the view.
+  <li> <b>Search</b> within a single chromosome for a marker, gene, clone, . 
+  <li> <b>Click on names</b> of objects such as genes, T-DNA/Transposons, markers) to link to a TAIR detail page for more information on the object such as stock information for clones and insertion lines. 
+  <li> <b>Open additional closeup views</b> by clicking on another point in the five chromosome view at the top.
+  <li> <b>Open a nucleotide window</b> to view 10 kb of nucleotide sequence with genes and other features highlighted. 
+  <li> <b>Add or Remove</b> sets of data from the closeup view.
+  <li> <b>Zoom in and out</b> from a whole chromosome to a 10Kb view.
+  <li> <b>Show all data</b> or only display three rows at a time for each data type.Hidden data will display as tickmarks.
+  <li> <b>List genes in range</b> displayed in the view.
+</ul>
+
+<p>
+   For more information on how to use the SeqViewer Closeup Page, <a href="sv_closeup.html">click here</a>.</font> 
+</p>
+
+<h4><a name="nuc"></a>SeqViewer Nucleotide Page</h4>
+
+<p>
+<font class="cont">The Nucleotide View page  displays a 10,000 nucleotide section of sequence displaying a customizable variety of objects annotated on the sequence.  Functions available from the nucleotide page include:
+
+<ul>
+  <li> <b>Scroll</b> left or right to jump 5000 nucleotides to the left or right.
+  <li> <b>View complement strand</b> and show or hide annotations on the other strand.
+  <li> <b>Click on names</b> (e.g. gene, marker, transcript) to link to detailed information from TAIR database. 
+  <li> <b>Select one or more object types</b> to be highlighted on the sequence. 
+  <li> <b>Copy and paste</b> a region of sequence into another application. 
+</ul>
+
+<p>
+   For more information on how to use the Nucleotide Page, <a href="sv_nuc.html">click here</a>. 
+</tr>
+</table>
+
+<!-- footer using external javascript file starts here -->
+<script language="JavaScript" src ="/js/helpfoot.js"></script>
+<script>
+setPrevious("");
+setNext("sv_search.html");
+writeFooter();
+</script>
+<!-- end footer -->
+</body>
+</html>

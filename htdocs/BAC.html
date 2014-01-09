@@ -1,0 +1,237 @@
+<html><head><TITLE>Submit BAC Info.</TITLE>
+<meta http-equiv="Refresh" content="1;url=http://www.arabidopsis.org/info/data_submission.html">
+</head>
+
+<body background="/images/arabidopsisbackground.gif">
+<a href=/><img src="/images/tairsmall.gif" border=0 align=left></a>
+
+<FORM METHOD="POST"
+ACTION="/cgi-bin/atdb-bac">
+
+
+<H1 align=center>Submit BAC Details to TAIR</H1>
+<br><center><img src="/images/line.red2.gif" alt="[line]"></center>
+<p>
+
+<INPUT TYPE="Hidden" NAME="Form_Name" VALUE="BAC_Info">
+
+<center>
+<b>THIS FORM IS FOR YOU TO PROVIDE BAC MAPPING-DATA TO TAIR.</b>
+</center>
+<p>
+
+In this form, you tell us who you are, the probe you've used and the
+BACs that probe hits. Please complete a new form for each probe used.
+If you already have your data in some sort of <b>computer format</b>,
+which you think may obviate the need to complete this form, please <a
+href="/contig_info.html#Gotdata">
+read this</a> first <a
+href="/contig_info.html#Webforms">
+Tips on how to fill in Web forms</a> are available, if you're unsure
+of how to proceed. If you have <b>more than 10 BACs </b>hit by your
+probe, please use the <a
+href="/BAC_long.html">extra-space
+version</a>.
+
+
+<p>
+
+The purpose of this form is to enable TAIR to collect BAC-mapping
+data. This will be of use to the community in general for mapping and
+also of specific use for the genome sequencing projects. All BAC, and
+<a href="/contig_intro.html">
+other physical-mapping</a>, data submitted to TAIR will be displayed soon
+in <a href="/search">TAIR database</a>.
+
+<p>
+
+If you have details regarding the TAMU BACs only, and prefer not to
+complete this Web form, <a href="mailto:rwing@clemson.edu"> Rod
+Wing</a> (from the <a href="http://http.tamu.edu:8000/~creel/TOC.html">
+TAMU BAC project</a> and now at Clemson University) is,
+as announced on the 
+<a href="/AT-arabgen.html">
+Arabidopsis Bulletin board</a>, collecting such data
+via e-mail. He will then collate and forward the information to TAIR.
+
+<p>
+
+<center>
+<b>PLEASE FILL IN A SEPARATE FORM FOR EACH PROBE USED</b>
+</center>
+<p>
+
+<hr>
+<center>
+<b>SECTION 1. ABOUT YOU</b>
+</center>
+<p> 
+<pre>
+	  Your name: <INPUT NAME="Name" SIZE=50> (Required)
+Your e-mail address: <INPUT NAME="Internet" SIZE=50> (Required)
+</pre>
+
+If you would like to open a new window to TAIR's new prototype
+database, in order to <b>check your colleague entry</b>, please <a
+href="/search"> click here</a>.
+<p>
+<hr>
+<center>
+<b>SECTION 2. ABOUT THE PROBE</b>
+</center>
+<p> 
+<pre>
+         PROBE name: <INPUT NAME="Probe_name" SIZE=20> (Required)
+Alternative name(s): <INPUT NAME="Probe_alias" SIZE=50>
+for probe, <i>e.g.</i>, cab1 is an alternative for clone pAB140 (separate multiple alternatives with commas)<br>
+ Maps to chromosome: <SELECT NAME="probe_chr_num">
+<OPTION SELECTED VALUE="">Select
+<OPTION>I
+<OPTION>II
+<OPTION>III
+<OPTION>IV
+<OPTION>V
+<OPTION>Unknown
+</SELECT> At position: <INPUT NAME="probe_cM" SIZE=6>cM
+	   Map used: <SELECT NAME="probe_map_used"><OPTION SELECTED VALUE="">Not applicable
+<OPTION>Visible
+<OPTION>Dean & Lister RI
+<OPTION>Scolnik 3LOD
+<OPTION>Scolnik All
+<OPTION>Integrated (Hauge)
+<OPTION>Unified (AAtDB)
+<OPTION>AFLP
+<OPTION>Physical
+<OPTION>Other (specify-->)
+</SELECT> If "other" map: <INPUT NAME="probe_alt_map_used" SIZE=10>
+</pre>
+<p>
+<hr>
+<center>
+<b>SECTION 3. ABOUT THE BACs HIT BY THE PROBE</b>
+</center>
+<p> 
+
+<table border=1>
+
+<tr>
+<th colspan=3>BAC</th><th colspan=4>Check box if...</th><th><br></th>
+</tr>
+<tr>
+<th>Library</th><th>Address <a href="http://http.tamu.edu:8000/~creel/bacman2.html">(384-well)</a></th><th>Insert size(s)* (kb)<th>Southern confirmed</th><th>PCR confirmed</th><th>Left-end (T7) sequenced</th><th>Right-end (Sp6) sequenced</th><th align=left>Comments</th>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe1_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe1_add" SIZE=8></td><td align=center><INPUT NAME="Probe1_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe1_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe1_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe1_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe1_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe1_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe2_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe2_add" SIZE=8></td><td align=center><INPUT NAME="Probe2_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe2_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe2_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe2_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe2_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe2_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe3_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe3_add" SIZE=8></td><td align=center><INPUT NAME="Probe3_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe3_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe3_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe3_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe3_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe3_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe4_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe4_add" SIZE=8></td><td align=center><INPUT NAME="Probe4_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe4_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe4_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe4_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe4_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe4_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe5_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe5_add" SIZE=8></td><td align=center><INPUT NAME="Probe5_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe5_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe5_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe5_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe5_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe5_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe6_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe6_add" SIZE=8></td><td align=center><INPUT NAME="Probe6_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe6_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe6_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe6_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe6_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe6_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe7_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe7_add" SIZE=8></td><td align=center><INPUT NAME="Probe7_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe7_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe7_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe7_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe7_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe7_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe8_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe8_add" SIZE=8></td><td align=center><INPUT NAME="Probe8_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe8_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe8_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe8_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe8_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe8_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe9_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe9_add" SIZE=8></td><td align=center><INPUT NAME="Probe9_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe9_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe9_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe9_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe9_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe9_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=center><SELECT NAME="Probe10_lib"><OPTION SELECTED VALUE="">Select
+<OPTION>T(AMU)
+<OPTION>(IG)F
+<OPTION>U(CD)
+</SELECT></td><td align=center><INPUT NAME="Probe10_add" SIZE=8></td><td align=center><INPUT NAME="Probe10_size" SIZE=8></td><td align=center><INPUT TYPE="checkbox" NAME="Probe10_Southern" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe10_PCR" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe10_LEsequenced" VALUE="Yes"></td><td align=center><INPUT TYPE="checkbox" NAME="Probe10_REsequenced" VALUE="Yes"></td><td><INPUT NAME="Probe10_comment" SIZE=30"></td>
+</tr>
+
+<tr>
+<td align=left><b><i>e.g.</i>:</b> T(AMU)</td><td align=center>17G8</td><td align=center>90</td><td colspan=4><br></td>
+</tr>
+</table>
+<dd><b>*excluding</b> vector (T&U vector size = 7.4kb; F vector size = 8.5kb)
+
+<p>
+
+<center>
+Enter any other relevant information here:<br>
+<TEXTAREA NAME="Other_info" ROWS=5 COLS=40 wrap=soft></TEXTAREA>
+</center>
+<p>
+
+<hr>
+
+Thank you for completing this form. To <b>transmit</b> your
+BAC information, please press this button: <INPUT
+TYPE="submit" VALUE="Submit BAC Form">.  <p> Press <INPUT
+TYPE="reset" VALUE="Reset"> to clear this form and start over.
+
+<p> 
+<hr>
+
+</FORM>
+<p>
+<center>Please send suggestions or comments to 
+<A HREF="mailto:curator@arabidopsis.org">TAIR Curator</A><br>
+Last update: August 19, 1996</center>
+<p>
+<hr size=3 noshade width=95%>
+<p>
+<a href="/"><img src="/images/arrow.small.up.gif" border=0>Return to TAIR Home Page</a>
+</body></html>

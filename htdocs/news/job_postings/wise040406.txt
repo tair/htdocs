@@ -1,0 +1,55 @@
+Postdoctoral Position Available
+Iowa State University
+Functional Genomics of Plant Disease Defense
+
+A postdoctoral research position is available immediately in the Iowa State University Center for 
+Plant Responses to Enviromental Stresses under the direction of Drs. Roger Wise and Steve Whitham.  
+The overall goals of the NSF-Plant Genome project "Functional Genomics of Plant Disease Defense 
+Pathways" http://nsf.gov/awardsearch/showAward.do?AwardNumber=0500461 are to utilize functional 
+genomics tools and resources available to barley, rice, and the model dicot Arabidopsis thaliana, 
+to accelerate comparative analysis of disease defense pathways important in agriculture.
+
+Candidates will work with a team responsible for molecular, genetic, and functional characterization 
+of gene-specific sequences associated with and required for R-gene mediated resistance responses 
+using barley powdery mildew as a model system. Approaches include utilization of the 22K Affymetrix 
+Barley1 GeneChip to characterize the transcriptional networks regulated during powdery mildew 
+induced programmed cell death and subsequent high-throughput reverse genetic systems in barley and 
+Arabidopsis to functionally validate candidate genes in resistance pathways of both monocot and 
+dicot plants.  All of the above approaches will be facilitated by well-characterized, high-resolution, 
+recombinant mapping populations, accelerated cell-death mutants, RNAi and TILLING silencing systems, 
+BAC, cosmid, and cDNA library resources.
+
+Funding is available up to three years. Salary is commensurate with experience.  Ph.D. required in 
+genetics, molecular biology, plant physiology, plant pathology or related field.  Experience in 
+bioinformatics/computational/statistical analysis, single-cell transcript profiling, RNAi mediated 
+gene silencing, cell biology, and/or high-throughput gene mapping is desirable.  Highly motivated 
+individuals should send curriculum vitae, research interests, and reprints to the address below:
+
+- Name, e-mail, address, phone, and fax no. of three references should be included -
+
+Dr. Roger Wise, USDA-ARS
+Department of Plant Pathology
+Iowa State University
+Ames, IA, 50011-1020
+rpwise@iastate.edu
+Phone: 515-294-9756
+Fax: 515-294-9420
+http://wiselab.org/ ; http://plexdb.org/
+
+Recent Literature:
+Shen, L, J Gong, RA Caldo, D Nettleton, D Cook, RP Wise, and JA Dickerson. 2005. 
+BarleyBase-an expression profiling database for plant genomics. Nucleic Acids Research 33: D614-D618.
+
+Caldo, RA, D Nettleton and RP Wise. 2004. Interaction-dependent gene expression in Mla-specified 
+response to barley powdery mildew. Plant Cell. 16: 2514-2528.
+
+Close, TJ, S Wanamaker, R Caldo, SM Turner, DA Ashlock, JA Dickerson, RA Wing, GJ Muehlbauer, 
+A Kleinhofs and RP Wise. 2004. A new resource for cereal genomics: 22K barley GeneChip comes of age. 
+Plant Physiology 134: 960-968.
+
+Halterman, D and RP Wise. 2004. A single amino acid substitution in the sixth leucine-rich repeat of 
+barley MLA6 and MLA13 alleviates dependence on RAR1 for disease resistance signaling. 
+Plant Journal 38: 215-226.
+
+Iowa State University is an Equal Opportunity/Affirmative Action Employer.
+_______________________________________________

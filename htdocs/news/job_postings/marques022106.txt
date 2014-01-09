@@ -1,0 +1,68 @@
+CNRS FELLOWSHIP FOR A POST-DOCTORAL RESEARCH POSITION
+ 
+Hosting group:      "Plant adaptation to metals"
+                     BPMP UMR 5004
+                     IBIP AGRO-M, Pl Viala
+                     34060 Montpellier cedex 1  FRANCE
+ 
+Title of the project: Role of plant defensins with respect to zinc tolerance
+in Arabidopsis halleri
+ 
+Offer description :
+Our group aims at identifying mechanisms enabling plants to grow in metal
+contaminated soils and to hyper accumulate metallic ions in their foliar
+tissues. Our recent studies showed the existence of a cellular component of
+metal tolerance in the metal hyper accumulating species Thlaspi caerulescens
+and Arabidopsis halleri (Marquès et al., 2004, New Phytol 164:289). A
+functional screening of a cDNA library from A. halleri leaves in yeast
+allowed us to clone several defensins that confer zinc tolerance to yeast.
+Transgenic plants of Arabidopsis thaliana expressing one of these A. halleri
+defensins were shown to also display increased zinc tolerance (Mirouze et
+al., Plant J, in revision). These results are quite innovative since plant
+defensins were up to now only known for a role in defence against fungi.
+Defensins have never been suspected to be involved in metal tolerance. Our
+goal is now to characterize the role of defensins in the zinc tolerance of
+A. halleri at both the cellular and whole-plant levels:
+
+-       at the cellular level, we suppose that defensin could interfere with
+membrane ionic fluxes as they do during their interaction with fungi
+(Thevissen et al. 2004 J Biol Chem 379:3900), or as some insect toxins
+structurally very close to defensins do on some ion channels (Bloch et al.
+1998 Proteins 32:334). The action of defensins on zinc (and on other
+cations) trans-membrane transport will be studied on A. halleri protoplasts
+and membrane vesicles in collaboration with different teams of the lab that
+have a good expertise of these techniques.
+
+-       at the whole-plant level, a RNAi approach will be conducted in order
+to study the impact of reducing the defensin pool on the A. halleri zinc
+tolerance.
+
+ 
+
+Candidate profile :
+
+Applicant should possess a Ph.D. degree in Plant Biology with prior
+experience in plant biochemistry, particularly in the field of transmembrane
+transport and with the cellular approaches developed in this field. A
+practical experience of plant transgenic methods will be appreciated.
+Ability to interact and work with different people is also critical.
+ 
+Conditions : CNRS fellowship for 2 years, starting in Septembre-October
+2006.
+The selection procedure is open. Candidacies must be composed of at least
+(i) a detailed curriculum with the names and full references of 2-3
+supervisors of the applicant¹s previous research activities and (ii) a brief
+summary of every previous research activity. Candidacies should be addressed
+to Dr. Laurence Marquès.
+ 
+Contact:
+Pierre Berthomieu / Laurence Marquès
+(+33) (0) 4 99 61 31 58 / 31 57
+berthom@ensam.inra.fr <mailto:mailtoberthom@ensam.inra.fr> ;
+laurence.marques@univ-montp2.fr
+
+
+_______________________________________________
+Arab-gen mailing list
+Arab-gen@net.bio.net
+http://www.bio.net/biomail/listinfo/arab-gen

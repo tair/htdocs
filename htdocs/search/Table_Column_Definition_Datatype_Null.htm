@@ -1,0 +1,3429 @@
+<HTML>
+<HEAD>
+<TITLE>
+Table/Column/Type/Definition/Null : Table/Column/Definition/Datatype/Null &nbsp;&nbsp;(Tair.ER1, &nbsp;Monday, June 05, 2000 10:35:57, 482 rows)
+</TITLE>
+</HEAD>
+<BODY>
+<FONT FACE="Arial" SIZE="4"><B>
+<H1  ALIGN="CENTER">Table/Column/Definition/Datatype/Null</H1>
+</B>
+</FONT>
+<FONT FACE="Arial" SIZE="3">
+
+<P>
+<P><TABLE BORDER>
+<TR>
+<FONT FACE="Arial" SIZE="3"><B>
+<TH>Table Name</TH>
+<TH>Column Name</TH>
+<TH>Column Comment</TH>
+<TH>Datatype</TH>
+<TH>Null Option</TH>
+</B>
+</FONT>
+</TR>
+<FONT FACE="Arial" SIZE="3">
+<TR>
+<TD>AASequence</TD>
+<TD>aa_sequence_id</TD>
+<TD>Unique identifier to an Amino Acid Sequence.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date_last_modified</TD>
+<TD></TD>
+<TD>smalldatetime</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date_made_public</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genbank_accession</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genbank_definition</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genbank_gi</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genbank_locus</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genbank_protein_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_experimental</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_modified</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Identifier that is a foreign key to a Mappable Element, of which Amino Acid Sequence is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>nucleotide_seq_id</TD>
+<TD>Identifier that is a foreign key to a DNA Sequence.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>pbd_id</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>pir_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>sequence</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>swiss_prot_id</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>version</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>Address</TD>
+<TD>address</TD>
+<TD>The address of a specific community member.</TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>address_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>city</TD>
+<TD></TD>
+<TD>varchar(30)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_id</TD>
+<TD>Identifier to a Community, to which the Address is belongs.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>country</TD>
+<TD></TD>
+<TD>varchar(30)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>postal_code</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>region</TD>
+<TD>State, region or province</TD>
+<TD>varchar(30)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Affiliation</TD>
+<TD>community_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_pi</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>organization_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>AGIClone</TD>
+<TD>agi_clone_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>chromosome</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>clone_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>clone_name</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>contig_number</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genbank_accession</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>group_name</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>insert_size</TD>
+<TD>Size of insert in kb.</TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>left_overlap_clone</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>left_overlap_size</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>markers_in_clone</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>note</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>orientation</TD>
+<TD>F (i.e. forward) if orientatin is left-to-right, 
+R (i.e. reverse) if orientatin is right-to-left.</TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>registration_date</TD>
+<TD></TD>
+<TD>smalldatetime</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>right_overlap_clone</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>right_overlap_size</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>seq_status</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>sequence_size</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>Alias</TD>
+<TD>alias</TD>
+<TD>Alternate name for the TAIR Object.</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>alias_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>AnalysisReference</TD>
+<TD>analysis_reference_id</TD>
+<TD>Identifier to an Analysis Reference.</TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>analysis_software_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date_run</TD>
+<TD>Date the program was run</TD>
+<TD>smalldatetime</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_nucleotide</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_peptide</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>Analysis program name</TD>
+<TD>varchar(100)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>output_definition_criteria</TD>
+<TD>The criteria used to specify the type of output</TD>
+<TD>text</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>parameters</TD>
+<TD>All the parameters used when the program was run</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reference_id</TD>
+<TD>Identifier to a Reference, of which Analysis Reference is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>AnalysisSoftware</TD>
+<TD>analysis_software_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>author</TD>
+<TD>Who wrote the program</TD>
+<TD>varchar(100)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date_released</TD>
+<TD></TD>
+<TD>smalldatetime</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>description</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>function</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>program_name</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>source</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>url_id</TD>
+<TD>Unique identifier to an URL.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>version</TD>
+<TD></TD>
+<TD>char(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Assignment</TD>
+<TD>assignment_basis</TD>
+<TD>Previously called assignment_method;
+Current allowable values include:
+Hybridization, SequenceMatch, and Recombination. &nbsp;Used as type descriminator but the only subtype currently defined is Hybridization.</TD>
+<TD>varchar(30)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>assignment_id</TD>
+<TD>Unique identifier to an Assignment.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>end_position</TD>
+<TD>This describes the end position of an assignment. if an assignment is a point, the end position is the same as the start position. if an assignment has a range, the end position can be null.</TD>
+<TD>float</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_derived</TD>
+<TD>This says whether &nbsp;an absolute assignement was derived from a relative position. Depending on a map type, either relative position or metric position is derived. Primary assignment comes from AssignSource table. &nbsp;Map types whose primary assign is relative in TAIR:AGI, fingerprint. Map types whose primary assign is metric in TAIR: physical maps (minus fingerprint), reference sequence, RI, classical, miRFLP,</TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>left_assignment</TD>
+<TD>Foreign key that recursively points to the left Assignment.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>left_distance</TD>
+<TD>The distance between the Assignment and its left &nbsp;Assignment. The unit is the same unit as the Map where the Assignment lies.</TD>
+<TD>float</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_id</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>orientation</TD>
+<TD>Orientation of the assigned object relative to the map. &nbsp;F=forward; R=reverse</TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>range</TD>
+<TD>this attribute describes the uncertainty of an assignment. a value in this attribute allows the assignment to lie within it.</TD>
+<TD>float</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>right_assignment</TD>
+<TD>Foreign key that recursively points to the right Assignment.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>right_distance</TD>
+<TD>The distance between the Assignment and its right Assignment.The unit for distance is the same as the Map where the Assignment lies.</TD>
+<TD>float</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>start_position</TD>
+<TD>This is the start position of an assignment. it cannot be null. unit information comes from the map the assignment lies in.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>vis_rank</TD>
+<TD>this is to rank the assignments on a map for the map visualization tool.</TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>Attribution</TD>
+<TD>attribution_type_id</TD>
+<TD>Foreign key to AttributionType look up table.
+Identifies the type of attribution made.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date</TD>
+<TD>Date the attribution was made.</TD>
+<TD>smalldatetime</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD>Foreign key to a TairObject. &nbsp;One or more will
+exist for every TairObject created.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>AttributionType</TD>
+<TD>attribution_type</TD>
+<TD>Type of attribution.</TD>
+<TD>varchar(64)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>attribution_type_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>Author</TD>
+<TD>author_id</TD>
+<TD>Unique identifier to the Author table.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>author_name</TD>
+<TD>Author&#146;s name. &nbsp;Format must be:
+Last, First Middle [Middle ...]</TD>
+<TD>varchar(100)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>author_order</TD>
+<TD>An ordinal that indicates the order that the current author is with respect to the list of authors associated with a publication.</TD>
+<TD>tinyint</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_id</TD>
+<TD>Foreign key to a specific Community.</TD>
+<TD>numeric(12)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>publication_id</TD>
+<TD>Foreign key into the Publication table that identifies the publication that the author is associated with.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>Clone</TD>
+<TD>clone_chimerism_id</TD>
+<TD>Foreign to a CloneChimerism.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>clone_id</TD>
+<TD>Unique identifier to a Clone.</TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>has_clone_end</TD>
+<TD>Boolean indicating if this clone has a clone end.</TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>insert_size</TD>
+<TD>Insertion size in kb.</TD>
+<TD>float</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_agi_clone</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_cdna</TD>
+<TD>Boolean indicating if this clone is cDNA.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_chimeric</TD>
+<TD>Boolean indicating if this clone is chimeric.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>library_id</TD>
+<TD>Foreign key to a Library, identifying the library
+that the clone was isolated from.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Foreign key to a Mappable Element, of which Map is a type of.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>Unique name identifying a clone.</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD>Foreign key to a TairObject, of which 
+MappableElement is a type of, and where
+Clone is a type of MappableElement.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>vector_id</TD>
+<TD>Foreign key to a Vector.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>vector_type</TD>
+<TD>Types include: BAC, YAC, P1, TAC, Plasmid, Lambda, Cosmid</TD>
+<TD>char(7)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Clone_Gene</TD>
+<TD>clone_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_id</TD>
+<TD>Unique identifier of Gene</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>CloneAlternateSize</TD>
+<TD>alternate_size</TD>
+<TD>The alternate size of the clone.</TD>
+<TD>float</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>clone_alt_size_id</TD>
+<TD>Unique identifier to a CloneAlternateSize.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>clone_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>CloneChimerism</TD>
+<TD>chim_on_left</TD>
+<TD>Boolean indicating if the chimeric part is on the
+left side of the clone.</TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>chim_on_right</TD>
+<TD>Boolean indicating if the chimeric part is on the
+right side of the clone.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>chim_pos_known</TD>
+<TD>Boolean indicating if the position of the chimeric part within the clone is known.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>clone_chimerism_id</TD>
+<TD>Unique identifier to a CloneChimerism</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genome_type</TD>
+<TD>Type of the genome: nuclear, chloroplast, or
+mitochondrial.</TD>
+<TD>varchar(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_on_same_chr</TD>
+<TD>Boolean indicating if the chimeric clones are on the same chromosome.</TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_repeat</TD>
+<TD>Boolean indicating if the chimeric part contains repetitive DNA.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>repeat_type</TD>
+<TD>Types of repeat are: rDNA, 180bp HindIII repeat, and other repeat</TD>
+<TD>varchar(15)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>CloneEnd</TD>
+<TD>clone_end_id</TD>
+<TD>Unique identifier to a Clone End.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>clone_id</TD>
+<TD>Foreign key to a Clone.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Foreign key to a Mappable Element, of which CloneEnd is a type of.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>oligo_info</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD>Foreign key to a TairObject, of which MappableElement is a type of, and where CloneEnd is a type of MappableElement.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Types include: BAC end, YAC end, P1 end, TAC end, EST</TD>
+<TD>varchar(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Comment</TD>
+<TD>comment_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date_entered</TD>
+<TD></TD>
+<TD>datetime</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>entered_by</TD>
+<TD>Foreign key that is an identifier to who within Community entered the Comment.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>long_comment</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>short_comment</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>Communication</TD>
+<TD>author_name</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>communication</TD>
+<TD>The full text of the communication</TD>
+<TD>text</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>communication_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date</TD>
+<TD>Date of submission to TAIR or date of publication.</TD>
+<TD>smalldatetime</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reference_id</TD>
+<TD>Identifier to a Reference, of which a Communication is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>Community</TD>
+<TD>community_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>email</TD>
+<TD>Email address for person or group</TD>
+<TD>varchar(100)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_obsolete</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>last_updated</TD>
+<TD>Date of last update</TD>
+<TD>smalldatetime</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>password</TD>
+<TD>Password selected by user to login</TD>
+<TD>char(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>password_hint</TD>
+<TD>String entered by user to help remember the password</TD>
+<TD>varchar(100)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>accepted values are: database, company, person, lab, facility, stock center, institute, other</TD>
+<TD>varchar(30)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>user_name</TD>
+<TD>Name selected by user to login</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>Community_Phone</TD>
+<TD>community_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>phone_id</TD>
+<TD>Unique identifier into the Phone table.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Community_URL</TD>
+<TD>community_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>url_id</TD>
+<TD>Unique identifier to an URL.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>CommunityAlias</TD>
+<TD>alias</TD>
+<TD>An alternative name for a Community.</TD>
+<TD>varchar(100)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_alias_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_id</TD>
+<TD>Identifier to a Community, which has this Community Alias.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_author_name</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>CommunityAttribution</TD>
+<TD>attributee_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>attribution_type_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>attributor_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>CommunityHistory</TD>
+<TD>comment</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_history_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date_submitted</TD>
+<TD></TD>
+<TD>smalldatetime</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>previous_data</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD></TD>
+<TD>varchar(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>CommunityKeyword</TD>
+<TD>community_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_keyword_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>keyword</TD>
+<TD></TD>
+<TD>varchar(200)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>DatabaseReference</TD>
+<TD>database_reference_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date_last_updated</TD>
+<TD></TD>
+<TD>smalldatetime</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>description</TD>
+<TD>Description of reference</TD>
+<TD>text</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>extdb_field</TD>
+<TD>Field of the xternal db where the reference is found</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>extdb_id</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>extdb_table</TD>
+<TD>Table in xternal db were refrence is found</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_stock_center</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>Name of the external reference db</TD>
+<TD>varchar(100)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reference_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Editor</TD>
+<TD>community_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>editor_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>editor_name</TD>
+<TD>Editor name</TD>
+<TD>varchar(100)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>editor_order</TD>
+<TD>Ordinal indicating the order of the current
+editor within the list of editors pointed to by pub_source_id</TD>
+<TD>tinyint</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>pub_source_id</TD>
+<TD>Foreign key into the PubSource table indicating a publication source that an editor is associated with.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Erratum</TD>
+<TD>erratum</TD>
+<TD>Published and personalyl-communicated erratum</TD>
+<TD>text</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>erratum_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reference_id</TD>
+<TD>Identifier to a Reference for which this Erratum has been generated for.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>FlankingSequence</TD>
+<TD>flank_sequences_id</TD>
+<TD>Unique identifier to a PCR Marker.</TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>sequence1</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>sequence2</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Allowable types are: Flank and Primer</TD>
+<TD>varchar(20)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>Gene</TD>
+<TD>full_name</TD>
+<TD>The full name of the gene symbol used in TAIR</TD>
+<TD>varchar(100)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_id</TD>
+<TD>Unique identifier of Gene</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_product_class</TD>
+<TD>used for gene categorization based on function</TD>
+<TD>varchar(100)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_product_desc</TD>
+<TD>description of functional/structural properties of gene product</TD>
+<TD>text</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_product_name</TD>
+<TD>Name of gene product. In capital letters.</TD>
+<TD>varchar(100)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_exp_verified</TD>
+<TD>True (when cDNA or EST match exists), false or NULL (= unknown)</TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_predicted</TD>
+<TD>True, false or NULL (= unknown)</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>mendel_number</TD>
+<TD>the gene identifier used &nbsp;in Mendel GFdb</TD>
+<TD>varchar(10)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>Gene symbol that TAIR prefers (based on usage by community and/or first time published, or registered in TAIR)</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>orf_name</TD>
+<TD>the name given by AGI</TD>
+<TD>varchar(30)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>verification_method</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>GeneAlias</TD>
+<TD>alias</TD>
+<TD>Another name for a gene, orf or gene product</TD>
+<TD>varchar(100)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>alias_type</TD>
+<TD>Needed to identifiy what name is the alias applied to. Accepted values are: gene, gene product, orf.</TD>
+<TD>varchar(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_alias_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>GeneFeature</TD>
+<TD>gene_feature_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_feature_type_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_id</TD>
+<TD>Identifier to the Gene that contains this Gene Feature.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_predicted</TD>
+<TD>Indicates if this Gene Feature is predicted.
+0 = False; 1 = True.</TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_verified</TD>
+<TD>Indicates if the Gene Feature has been verified.
+0 = False; 1 = True.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Identifier to a Mappable Element, of which Gene Feature is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>verification_method</TD>
+<TD>Describes the method used to verify the Gene Feature.</TD>
+<TD>varchar(255)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>GeneFeatureType</TD>
+<TD>gene_feature_type</TD>
+<TD>Gene feature types include: attenuator, binding_site, coding_region, exon, intron, polyA_site, promoter, origin_of_replication, terminator, 3&#146;splice_site, 5&#146;splice_site, 3&#146;UTR, 5&#146;UTR</TD>
+<TD>varchar(20)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_feature_type_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>GeneNameReservation</TD>
+<TD>gene_id</TD>
+<TD>Unique identifier of Gene</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gene_name_res_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>person_id</TD>
+<TD>Unique identifier to a Person.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reservation_date</TD>
+<TD>The date in which the database was contacted to make the reservation for a gene name</TD>
+<TD>smalldatetime</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reserved_expiration_date</TD>
+<TD>The date in which the reservation for a gene name expires.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reserved_full_name</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reserved_name</TD>
+<TD></TD>
+<TD>varchar(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>GeneticMarker</TD>
+<TD>genetic_marker_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_pcr_marker</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>made_from_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>name of the marker</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>special_conditions</TD>
+<TD>list special requirements for detection of marker;amplification conditions;grwoth conditions; digest conditions</TD>
+<TD>text</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Marker types are defined by the detection method. &nbsp;CAPS marker is defined by marker name, enzyme and primer pair
+
+Allowable types : PCR;visible;RFLP</TD>
+<TD>varchar(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Hybridization</TD>
+<TD>assignment_id</TD>
+<TD>Unique identifier to an Assignment.</TD>
+<TD>numeric(12)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>checked_by_southern</TD>
+<TD>Boolean indicating whether the hybridization was confirmed by Sothern blot analysis.</TD>
+<TD>char(1)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>clone_id</TD>
+<TD>Foreign key into the Clone table.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>clone_size_known</TD>
+<TD>Boolean indicating whether the clone size is known.</TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>has_expected_bands</TD>
+<TD>Boolean indicating whether the southern blot to confirm hybridization had expected band patterns.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>hybridization_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>probe_id</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Type of hybridization include: PCR, filter hyb, indirect (probe to YAC to BAC) or sequence match.</TD>
+<TD>varchar(24)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Image</TD>
+<TD>image</TD>
+<TD></TD>
+<TD>image</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>image_id</TD>
+<TD>Unique identifier into the Image table.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Image types include: micrographs, models, gels (protein and nucleotide), arrays, etc.</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Keyword</TD>
+<TD>keyword</TD>
+<TD>Keyword</TD>
+<TD>varchar(200)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>keyword_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>Library</TD>
+<TD>abbreviation</TD>
+<TD>ex. TAMU=T, IGF=F</TD>
+<TD>varchar(3)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>description</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>library_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>source_id</TD>
+<TD>Foreign key to an identifier for a Source.</TD>
+<TD>numeric(12)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>vector_id</TD>
+<TD>Identifier to a Vector.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>Locus</TD>
+<TD>locus_id</TD>
+<TD>Unique identifier to a Locus.</TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Uniquely identifies a MappableElement</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>This will hold the offical tair name for a locus. This naming will be given once we determine the standard of operation procedure (sop) for a standard tair locus name.</TD>
+<TD>varchar(50)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tmp_full_name</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tmp_name</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>MapElement</TD>
+<TD>chromosome</TD>
+<TD>A list of comma separated chromosomes; may
+be left empty</TD>
+<TD>varchar(25)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>has_flank_sequence</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_a_map</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_genetic_marker</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>length</TD>
+<TD></TD>
+<TD>float</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>locus_id</TD>
+<TD>Foreign key to an identifier for a Locus.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_type_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_type</TD>
+<TD></TD>
+<TD>varchar(35)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>is a name of the mappable element.</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>source_id</TD>
+<TD>Foreign key to an identifier for a Source.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>species_variant_id</TD>
+<TD>Unique identifier to a Species Variant.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>units</TD>
+<TD></TD>
+<TD>char(2)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>used_as_probe</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>MapElementType</TD>
+<TD>map_element_type</TD>
+<TD>Current allowed types:
+Map, AASequence, NucleotideSequence,
+Gene, GeneticMarker, GeneFeature,
+Locus, Clone, CloneEnd, Oligo, Vector,
+TDNAFlank, TransposonFlank,
+SimpleRepeat, and Unknown</TD>
+<TD>varchar(20)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_type_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>NucleoSeq_Transcript</TD>
+<TD>cds_is_est</TD>
+<TD>0 = false; 1 = true</TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>cds_is_full_length</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>cds_is_transpliced</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>nucleotide_seq_id</TD>
+<TD>Unique identifier to a DNA Sequence</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>transcript_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Nucleotide_MapElement</TD>
+<TD>map_element_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>nucleotide_seq_id</TD>
+<TD>Unique identifier to a DNA Sequence</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>NucleotideSequence</TD>
+<TD>a_count</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>c_count</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date_last_modified</TD>
+<TD></TD>
+<TD>smalldatetime</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date_made_public</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>definition</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>g_count</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genbank_gi</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genbank_locus</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genome_type</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gsdb_accession</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>ic_accession</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_clone_end</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>map_element_id</TD>
+<TD>Identifer to a Mappable Element, of which this DNA Sequence is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>Name of this DNA Sequence.</TD>
+<TD>varchar(50)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>nucleotide_seq_id</TD>
+<TD>Unique identifier to a DNA Sequence</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>other_count</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>sequence</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>t_count</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>translation_tables_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Allowable types include: CDNA, BAC, BACEND</TD>
+<TD>varchar(10)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>version</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>Organization</TD>
+<TD>community_id</TD>
+<TD>Foreign key into the Community table.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>contact_person_id</TD>
+<TD>Unique identifier into the Person table.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>description</TD>
+<TD>Describes what the organization does.</TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>organization_id</TD>
+<TD>Unique identifier to an Organization.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Descriminates the type of organization. &nbsp;Allowable values are: databases, labs, facilities, companies, stock centers,, collaborations, institutes (universities are considered institutes), commitees</TD>
+<TD>varchar(30)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>Person</TD>
+<TD>birthdate</TD>
+<TD>Person&#146;s birthdate. &nbsp;This information will be protected. Birthday is to be used as a lightweight security measure for people who do not login.</TD>
+<TD>smalldatetime</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_id</TD>
+<TD>Identifier to a Community, of which Person is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>first_name</TD>
+<TD>Given name. Can have more then one word required</TD>
+<TD>varchar(30)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_external_curator</TD>
+<TD>Indicates if this person is an external curator.
+0 = false; 1 = true</TD>
+<TD>char(1)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_tair_curator</TD>
+<TD>Indicates if this person is a TAIR curator.
+0 = false; 1 = true</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_user_focus</TD>
+<TD>Indicates if this person is a member of the user focus group.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>job_title</TD>
+<TD>Person&#146;s job title.</TD>
+<TD>varchar(60)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>last_name</TD>
+<TD>Family name. Can have more then one word. No restrictions on how to write it.</TD>
+<TD>varchar(30)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>middle_name</TD>
+<TD>Middle name. &nbsp;May contain more than one word or initials.</TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>person_id</TD>
+<TD>Unique identifier to a Person.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>research_interest</TD>
+<TD>Free form with controlled vocabulary. &nbsp;Do we want this, or is it enough with keyword?</TD>
+<TD>varchar(255)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>suffix</TD>
+<TD>Suffix associated with a person&#146;s name. &nbsp;E.g. Sr., Jr., III, etc.</TD>
+<TD>varchar(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Phone</TD>
+<TD>phone_id</TD>
+<TD>Unique identifier into the Phone table.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>phone_number</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD></TD>
+<TD>varchar(10)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>PolymorphicState</TD>
+<TD>genetic_marker_id</TD>
+<TD>Identifier to a Genetic Marker, which has this Polymorphic State.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_present</TD>
+<TD>Another way of describing a PCR polymorphism- RE site may be absent, PCR product may be absent. &nbsp;True, false or NULL (= unknown)</TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_verified</TD>
+<TD>Indicates if the polymorphic state is experimentally verified? &nbsp;True, false or NULL (= unknown)</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>locus_id</TD>
+<TD>Identifier to a Locus.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>Name can be same as Genetic Marker name; or SNP name, etc.</TD>
+<TD>varchar(50)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>polymorphic_state_id</TD>
+<TD>Unique identifier to a Polymorphic State.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>polymorphism_lengths</TD>
+<TD>Length of PCR product or fragments from a restriction digest.</TD>
+<TD>varchar(60)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>polymorphism_type_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>state_number</TD>
+<TD>Accession type field that helps group related polymorphic states. eg. bel1-1;bel1-2</TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>units</TD>
+<TD>Units of measure: bp; kb</TD>
+<TD>char(2)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>verification_method</TD>
+<TD>Experimental method used to verify the Polymorphic State.</TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>PolymorphismType</TD>
+<TD>polymorphism_type</TD>
+<TD>Defines the method by which the polymorphism is identfied. &nbsp;Allowable types include: digest_pattern; PCR_product_length; visible; sequence_variant; other</TD>
+<TD>varchar(20)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>polymorphism_type_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>PolyState_RestrEnz</TD>
+<TD>num_sites</TD>
+<TD>The number of fragments seen on a southern or gel.</TD>
+<TD>int</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>polymorphic_state_id</TD>
+<TD>Unique identifier to a Polymorphic State.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>restriction_enzyme_id</TD>
+<TD>Unique identifier to a Restrition Enzyme.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Publication</TD>
+<TD>abstract</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>agricola_id</TD>
+<TD>Agricola identifier</TD>
+<TD>char(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>authors</TD>
+<TD>List of authors in the order as they appear in the publication</TD>
+<TD>text</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>biosis_id</TD>
+<TD>Biosis identifier</TD>
+<TD>char(10)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_electronic_reference</TD>
+<TD>Indicates if this publication exists as an electron reference. Electronic references can be found in Weeds World or AIS. &nbsp;True, false or NULL (= unknown)</TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_peer_reviewed</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_print_reference</TD>
+<TD>Indicates if the publication is a printed reference. &nbsp;True, false or NULL (= unknown)</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>issue</TD>
+<TD>Issue number for a journal or electronic reference</TD>
+<TD>varchar(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>medline_id</TD>
+<TD>Medline identifier</TD>
+<TD>char(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>page_start</TD>
+<TD>The first page of the publication</TD>
+<TD>char(6)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>pub_source_id</TD>
+<TD>Foreign key into the PubSource table.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>publication_id</TD>
+<TD>Unique identifier into the Publication table.</TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>pubmed_central_id</TD>
+<TD>A new web-based repository for reports in the life science, both non-peer-reviewed and peer-reviewed.</TD>
+<TD>varchar(12)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>pubmed_id</TD>
+<TD>Pubmed identifier</TD>
+<TD>char(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>ref_text</TD>
+<TD>Actual text of the publication. &nbsp;This field will always be filled if publication is an electronic reference from either Weeds World or AIS.</TD>
+<TD>text</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reference_id</TD>
+<TD>Foreign key into the Reference table.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>title</TD>
+<TD>The title of the publication</TD>
+<TD>text</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>volume</TD>
+<TD>Journal, book or electronic reference volume</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>year</TD>
+<TD>Year of publication, or the year of submission</TD>
+<TD>smallint</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>PubSource</TD>
+<TD>editors</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>isbn_number</TD>
+<TD>the international serial book number when more than one, we take the first one</TD>
+<TD>varchar(13)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>issn_number</TD>
+<TD>the interational serial standard number</TD>
+<TD>varchar(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>The title of publication source (book, journal, conference proceedings, dissertation etc)</TD>
+<TD>varchar(255)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>pub_source_id</TD>
+<TD>unique identifier for PubSource table</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>publisher</TD>
+<TD>Publisher name, city, state/region and country</TD>
+<TD>varchar(100)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>accepted values are: journal article, book, book series, conference proceedings, dissertation, AIS, WeedsWorld</TD>
+<TD>varchar(50)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>PubSourceAlias</TD>
+<TD>alias</TD>
+<TD>synonym for PubSource</TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>is_standard</TD>
+<TD>the standard abbreviation of a journal, extracted from science citation index</TD>
+<TD>char(1)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>pub_source_alias_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>pub_source_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>Reference</TD>
+<TD>reference_id</TD>
+<TD>Unique identifier to a Reference.</TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Accepted values are: book, book chapter, Thesis, journal article, personal communications, electronic references, conference proceedings, analysis reference, database reference</TD>
+<TD>varchar(30)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>Reference_Image</TD>
+<TD>image_id</TD>
+<TD>Unique identifier into the Image table.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reference_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Reference_URL</TD>
+<TD>&nbsp;</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>url_id</TD>
+<TD>Unique identifier to an URL.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>RefKeyword</TD>
+<TD>keyword</TD>
+<TD></TD>
+<TD>varchar(200)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>ref_keyword_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reference_id</TD>
+<TD>Foreign key to the identifier that uniquely identifies a Reference.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>RestrictionEnzyme</TD>
+<TD>cleavage</TD>
+<TD></TD>
+<TD>varchar(30)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>isoschizomer</TD>
+<TD>Other enzymes that have the same recognition site.</TD>
+<TD>varchar(15)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>Name of a Restriction Enzyme.</TD>
+<TD>varchar(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>offset</TD>
+<TD></TD>
+<TD>smallint</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>overhang</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>restriction_enzyme_id</TD>
+<TD>Unique identifier to a Restrition Enzyme.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>site</TD>
+<TD>Recognition sequence.</TD>
+<TD>varchar(30)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>SequenceMatch</TD>
+<TD>alignment_detail</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>assignment_id</TD>
+<TD>Unique identifier to an Assignment.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>expect</TD>
+<TD></TD>
+<TD>float</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>gaps</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>identities</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>positives</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>query_end</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>query_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>query_start</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>seq_match_score</TD>
+<TD>this is for the significance of an assignment that has been assigned by sequence similarity algorithm such as BLAST or FASTA. includes the score and e-value</TD>
+<TD>float</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>sequence_match_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>subject_end</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>subject_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>subject_start</TD>
+<TD></TD>
+<TD>int</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD></TD>
+<TD>varchar(12)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>SequenceVariant</TD>
+<TD>polymorphic_seq</TD>
+<TD>Defines the polymorphic sequence in sequence varient. Can be single or multiple nucleotides. Can use nnnnnn to represent deletions.</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>polymorphic_state_id</TD>
+<TD>Identifier to a Polymorphic State, of which Sequence Variant is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>sequence_variant_id</TD>
+<TD>Unique identifier to a Sequence Variant.</TD>
+<TD>&nbsp;</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>SNP; IN/DEL; other; substitution</TD>
+<TD>varchar(20)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Source</TD>
+<TD>description</TD>
+<TD>stopgap measure to store information about where source tissue came from.includes &nbsp;&nbsp&nbsp;&nbsp&nbsp;information about anatomical parts, developmental stages, experimental treatments</TD>
+<TD>text</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genome_type</TD>
+<TD>Refers to source of DNA; Allowable values include: total; chloroplast; mitochondrial: chromosomal; bacterial; fungal; viral</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>source_id</TD>
+<TD>Unique identifier to a Source.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>species_variant_id</TD>
+<TD>Identifier to a Species Variant.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>SpeciesVariant</TD>
+<TD>abbrev_name</TD>
+<TD>Abbreviated ecotype name</TD>
+<TD>varchar(50)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>accession_number</TD>
+<TD>Isolate or collection made by someone or lab from Accession table</TD>
+<TD>varchar(4)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>description</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>external_db_id</TD>
+<TD></TD>
+<TD>varchar(15)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>isolated_from</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD>Name of species variant.</TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>species_variant_id</TD>
+<TD>Unique identifier to a Species Variant.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>taxon_id</TD>
+<TD>Identifier to a Taxonomy, of which Species Variant is sub-classification of.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Taxonomic level below species; including: subspecies; strain; cultivar; ecotype</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>SpecVar_PolyState</TD>
+<TD>polymorphic_state_id</TD>
+<TD>Unique identifier to a Polymorphic State.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>species_variant_id</TD>
+<TD>Foreign key to an identifier for a Species Variant.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>TairObj_Ref</TD>
+<TD>attribution_type_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>reference_id</TD>
+<TD>Unique identifier to a Reference.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>TairObject</TD>
+<TD>is_obsolete</TD>
+<TD>Boolean that indicates if this TAIR Object has been labeled as obsolete.</TD>
+<TD>char(1)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>original_name</TD>
+<TD></TD>
+<TD>varchar(100)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_name</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>TairObject_Image</TD>
+<TD>image_id</TD>
+<TD>Unique identifier into the Image table.</TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>Taxon</TD>
+<TD>common_name</TD>
+<TD>Non-scientific name, eg corn, Arabidopsis.</TD>
+<TD>varchar(50)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>division_code</TD>
+<TD>Division code information from GenBank or GSDB</TD>
+<TD>char(3)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genbank_taxonomy_id</TD>
+<TD>Identification number for taxonomic relationships from genbank entry.</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>genus</TD>
+<TD>The major subdivision of the family or subfamily in the taxonomic classification of the organism.</TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>scientific_name</TD>
+<TD>Complete scientific name, with at least the genus and species names.</TD>
+<TD>varchar(255)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>species</TD>
+<TD>Species name.</TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>taxon_id</TD>
+<TD>Unique identifier to a Taxon.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>taxonomy</TD>
+<TD>Text description of taxonomic relationship from GenBank id.</TD>
+<TD>varchar(255)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>Transcript</TD>
+<TD>is_edited</TD>
+<TD></TD>
+<TD>char(1)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>orientation</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>transcript_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>TranslationTables</TD>
+<TD>internal_translation</TD>
+<TD></TD>
+<TD>char(64)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>start_translation</TD>
+<TD></TD>
+<TD>char(64)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>stop_translation</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>translation_tables_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>UpdateHistory</TD>
+<TD>attribution_type_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>comment</TD>
+<TD></TD>
+<TD>varchar(255)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>community_id</TD>
+<TD>Unique identifier to a specific Community.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>date</TD>
+<TD></TD>
+<TD>datetime</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>previous_data</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD></TD>
+<TD>varchar(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>update_history_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>URL</TD>
+<TD>date_last_verified</TD>
+<TD>Date of last validation</TD>
+<TD>smalldatetime</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>url</TD>
+<TD>The URL address</TD>
+<TD>varchar(255)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>url_id</TD>
+<TD>Unique identifier to an URL.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>web_site_name</TD>
+<TD>Title of the page</TD>
+<TD>varchar(100)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>Vector</TD>
+<TD>map_element_id</TD>
+<TD>Foreign key / identifier for a Mappable Element, of which Map is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>name</TD>
+<TD></TD>
+<TD>varchar(50)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>type</TD>
+<TD>Types of vectors, such as BAC, YAC, PAC, P1, TAC, etc. the common names</TD>
+<TD>varchar(10)</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>vector_id</TD>
+<TD></TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+<TR>
+<TD>VisiblePhenotype</TD>
+<TD>inheritance</TD>
+<TD></TD>
+<TD>varchar(20)</TD>
+<TD>NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>polymorphic_state_id</TD>
+<TD>Identifier to a Polymorphic State, of which Visible Phenotype is a type of.</TD>
+<TD>numeric(12)</TD>
+<TD>NOT NULL</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>tair_object_id</TD>
+<TD></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>visible_description</TD>
+<TD></TD>
+<TD>text</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>visible_phenotype_id</TD>
+<TD>Unique identifier to a visible phenotype.</TD>
+<TD>numeric(12)</TD>
+<TD>IDENTITY</TD>
+</TR>
+</FONT>
+</TABLE>
+</FONT></BODY>
+</HTML>

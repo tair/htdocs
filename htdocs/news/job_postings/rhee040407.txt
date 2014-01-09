@@ -1,0 +1,38 @@
+A postdoctoral research position available to generate and test a predictable 
+metabolic network model in Arabidopsis
+
+A bioinformatics postdoctoral position is available June 1, 2007 in the 
+laboratory of Dr. Sue Rhee at the Carnegie Institution, Department of Plant 
+Biology (Stanford, CA), to create and test a predictable metabolic network model 
+in Arabidopsis. This project aims to convert the manually curated Arabidopsis 
+metabolic pathway database (http://www.arabidopsis.org/biocyc/index.jsp) into 
+a statistically robust, predictable model of metabolic network and test the 
+model by analyzing results of metabolite profiling experiments in which specific 
+reactions in the network have been removed by a knock-out mutation. The project 
+is a part of a larger metabolomics consortium program(www.plantmetabolomics.org) 
+and aims to test the feasibility of using metabolomics approaches in identifying 
+gene function. This is a collaborative project among researchers in 
+metabolomics, databases, computational biology, statistics, and engineering.
+
+The Carnegie Institution, a private, nonprofit organization engaged in basic 
+research and advanced education in biology, astronomy, and the earth sciences, 
+was founded and endowed by Andrew Carnegie in 1902 and incorporated by an act of 
+Congress in 1904. Andrew Carnegie conceived the Institution's purpose "to 
+encourage, in the broadest and most liberal manner, investigation, research, 
+and discovery, and the application of knowledge to the improvement of mankind." 
+The Department of Plant Biology engages in basic research on the mechanisms 
+involved in the growth and development of plants and algae. The Department of 
+Plant Biology is co-located with the Carnegie Department of Global Ecology on a 
+seven-acre site on the campus of Stanford University.
+
+Qualified candidates must have a Ph.D. or equivalent in Biology, Mathematics, 
+Computer Science, Engineering or related field, a strong background in using 
+statistics, modeling and programming, and strong communication skills. Please 
+email a brief letter describing your research experience, plus your CV and 
+contact information for 3 references to Sue Rhee at rhee@acoma.stanford.edu.
+
+
+   
+
+
+ 

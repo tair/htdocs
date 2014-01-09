@@ -1,0 +1,129 @@
+ <html>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "prakash.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "charging.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Towards the development of cold tolerant plants';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 4(i) Contents';
+	   else if (id == 6)
+		strng = 'Stock Centers obtain further funding and introduce user fees';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+<head>
+<title>AREST:  Arabidopsis Related ESTs</title>
+</head>
+<body bgcolor="#ffffff">
+<blockquote>
+<h2><a href="http://weeds.mgh.harvard.edu/arest/" target="_top">AREST:</a> Arabidopsis Related ESTs</h2>
+
+John W. Morris<br>
+Department of Molecular Biology, Massachusetts General Hospital, Boston, MA 02114. USA<br>
+Fax 617-726-6893 <br>
+<A HREF="mailto:john.morris@frodo.mgh.harvard.edu">email john.morris@frodo.mgh.harvard.edu</a>
+
+<hr>
+
+With the growing number of EST sequences available through the NCBI's
+<a href="http://www.ncbi.nlm.nih.gov" target="_top">GenBank</a>, it is becoming
+easier to go prospecting for related genes in other model organisms.
+The AREST web site was inspired by a presentation at Massachusetts
+General Hospital by the guest lecturer Dr. Andrea Ballabio on the
+extensive <a
+href="http://www.tigem.it/LOCAL/drosophila/dros.html" target="_top">Drosophila
+Related EST (DREST)</a> resource.  The AREST site like the DREST site,
+shows blast sequence matches to translated EST sequences.  The DREST
+site shows matches of Drosophila genes against human ESTs, while AREST
+shows <i>Arabidopsis</i> genes matched against four animal species; human,
+mouse (<i>Mus musculus</i>), fly (<i>Drosophila melanogaster</i>) and nematode
+(<i>Caenorhabditus elegans</i>).
+<p>
+Rather than selecting genes with known mutant phenotypes, as in the
+DREST database, AREST sequences were selected from the all the
+<i>Arabidopsis</i> sequences in GenBank having both a defined coding
+sequence (CDS) and a Medline accession.  This reduced the
+approximately 31,000 <i>Arabidopsis</i> sequences in GenBank down to 806.
+These 806 sequences were matched against the ESTs in GenBank using
+network tblastn, and the results for the four species above were
+reformated into HTML for the web display.
+<p>
+The advantage of the AREST web display over the standard blast output
+is that in the case where several sequences match a particular region
+of a sequence of interest, all the matches are lined up as a group.
+One can see clearly the more conserved and variable domains, as shown
+in the figure below. <p>
+<img src="images/arest.gif">
+
+<p>
+(Exact match = underscore '_', Conservative match
+= blue-green font, Nonconservative match = red font)
+ 
+<p>
+<b>Limitations</b>
+<p>
+1.  The AREST displays are meant only to stimulate your interest.  They are
+built from the tblastn reports and so they are unlikely to contain the
+entire sequence of the match.  If you find a set of sequence
+alignments of interest, download the sequences from GenBank and try
+the alignment independently before you cut and paste it from the AREST
+display into your next publication or proposal.
+<p>
+2.  Maybe your sequence of interest wasn't included in the set of 806.
+If this is the case, you can create a somewhat similar display using
+"power blast" software from NCBI which has a HTML output option.  With
+the help of a web browser, you can view the stacked alignment of
+matching sequences as shown in the figure below for a blastn
+alignment.  <a href="ftp://ncbi.nlm.nih.gov/pub/sim2/PowerBlast/">
+Software is available</a> for Windows, Mac and some UNIX operating
+systems.
+<p>
+<img src="images/arest.pb.gif">
+<p>
+<b>Future Direction</b>
+<p>
+AREST began life as a fun afternoon exercise following a noon seminar
+by Dr Ballabio, and has grown since then.  The hope is that AREST
+pages will expand to look at human (and mouse?) CDSs matched against
+<i>Arabidopsis</i> ESTs.  Those blast reports may better define some
+<i>Arabidopsis</i> genes.  However, there are hardware and software
+difficulties to overcome before that happens. So, please
+visit the site <a href="http://weeds.mgh.harvard.edu/arest/" target="_top">http://weeds.mgh.harvard.edu/arest/</a> periodically to check on progress.
+</blockquote>
+</body>
+</html>
+
+
+
+
+

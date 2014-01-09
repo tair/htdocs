@@ -1,0 +1,61 @@
+Database Systems Engineer
+
+Mendel is looking for a Database Systems Engineer to join its
+computational team supporting research and discovery in plant
+biotechnology.
+
+As part of this team, the successful candidate will work with
+bioinformatics scientists and others in coordination with the IT
+department, and will focus primarily on inhouse custom databases,
+schema design and implementation, and refactoring existing systems for
+consistency and sustainable growth.
+
+The needs are driven by a fast moving, contract-conscious science team
+and integrate requirements for flexible laboratory information
+systems, high-thoughput screening pipelines and 3rd party consumer
+software.
+
+Responsibilities
+
+* Modify database schemas as needed by project managers; implement
+  suitable logical and physical database structures;
+
+* Develop, maintain and thoroughly document administrative tools for
+  monitoring and performance tuning strategies;
+
+* Ensure data integrity through development and implementation of
+  backup, validation, and recovery strategies in coordination with IT;
+
+* Install and maintain database instances, and inhouse, commercial,
+  and open-source database applications in Oracle, MySQL, Postgres,
+  and MS-SQL.
+
+* Participate in providing 24x7 database support.
+
+Requirements:
+
+* BS in computer science or related technical discipline;
+  experience;
+
+* Strong knowledge of SQL and relational database concepts;
+
+* Ability to work with minimum supervision and guidance;
+
+* Experience with Perl or Bourne-like shell scripting for automation
+  on Unix/Linux systems;
+
+* Excellent written and oral communication skills;
+
+* Authorization to work in the U.S.
+______________________________________________________________________
+
+To apply for this job:
+
+1. Send a plain-text ASCII email with a cover letter and your c.v. or
+   resume in the body of the email;
+
+2. DO NOT send attachments or HTML-formatted email;
+
+3. You may include relevant URLs in your email;
+
+4. Address your email to job187@mendelbio.com. 

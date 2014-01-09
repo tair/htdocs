@@ -1,0 +1,296 @@
+<head>
+<title>metab tags</title>
+</head>
+<h2>Magic Tags<br>
+in the Metabolic Pathway display</h2>
+
+<I>/staffan 1995-05-24</I> <P>
+<B>Note</B> This is incomplete and applies to a prerelease version 4 of xace. <P>
+
+The software behind the Metabolic Pathway display is fairly
+complicated, because the task of laying out the <B>nodes</B>
+(corresponding to Metabolites) and <B>arcs</B> (Pathways/Reactions) is
+computationally quite demanding. Given that, the number of
+<I>magic</I> tags is surprisingly low. <P>
+
+The following discussion will be in terms of nodes and arcs, because
+that is what it's all about. It can be useful to keep in mind that
+Pathway in the models necessary for this display stand for both
+Pathway in the sense of the whole set of reactions leading from a
+Reactant to a Product, and for the individual reactions.
+
+ <PRE>
+
+?Pathway	Structure <A HREF="#Components">Components</A> ?Pathway XREF In_Pathway
+			  In_Pathway ?Pathway XREF Components
+			  Diagram UNIQUE <A HREF="#PathwayDiagram">?PathwayDiagram</A> XREF Pathway
+		<A HREF="#Enzyme">Enzyme</A> ?Enzyme XREF Catalyzes
+		Metabolites 	<A HREF="#Major_Reactant">Major_Reactant</A> ?Metabolite XREF Consumed_by
+				Minor_Reactant ?Metabolite XREF Consumed_by
+				<A HREF="#Major_Reactant">Major_Product</A> ?Metabolite XREF Produced_by
+				Minor_Product ?Metabolite XREF Produced_by
+				<A HREF="#Cofactor_Reactant">Cofactor_Reactant</A> ?Metabolite XREF Consumed_by
+				<A HREF="#Cofactor_Reactant">Cofactor_Product</A> ?Metabolite XREF Produced_by
+				Additional_Cofactor_Reactant ?Metabolite XREF Consumed_by
+				Additional_Cofactor_Product ?Metabolite XREF Produced_by
+	
+?Enzyme		Catalyzes ?Pathway
+
+?Metabolite	Consumed_by	?Pathway
+		Produced_by	?Pathway
+
+<A HREF="#PathwayDiagram">?PathwayDiagram</A>	Name ?Text
+		Pathway ?Pathway		
+		Node Int Float Float Int ?Metabolite // ID X Y LabelID Metabolite
+		Arc  Int Int Int  Int Int Float  ?Pathway // ID  Label From To  Curvature Radius Step
+		TangentArc Int Int  // Arc Tangent
+		Label Int Float Float Text // ID X Y Label
+
+</PRE>
+
+
+<hr>
+
+<H2><A NAME="Components">Components</A>, <A NAME="Major_Reactant">Major_Reactant</A> and <A NAME="Major_Product">Major_Product</A></H2></A>
+There is a certain amount of interaction needed between different
+objects of the Pathway class to produce a drawing. In fact there has
+to be at least <B>two</B> Pathway objects to produce a graphic. <P>
+
+A minimal set of objects and data values is the following:
+
+<PRE>
+Pathway : "*Glutamine synthesis"
+Components "Glutamate -&gt; Glutamine"
+
+Pathway : "Glutamate -&gt; Glutamine"
+Major_Reactant Glutamate
+Major_Product Glutamine
+</PRE>
+
+Loading this data set and clicking on the Pathway object "*Glutamine
+synthesis" will open the following window: <P>
+
+<IMG SRC="simplemet.gif"> <P>
+
+Thus you need a "<I>wrapper</I>" Pathway for the reaction. The
+reaction itself needs to have at least one Major_Reactant and one
+Major_Product. In fact, only Pathways with Components will be
+displayed as a graphic, and only the Components that have
+Major_Reactant and Major_Product will be included in the graphic. You
+will get a warning about Pathways that cannot be drawn because they
+have no Major_Reactant and Major_Product. (This can actually cause you
+to get an empty graphic ...)<P>
+
+If you have more than one of either Major_Reactant or Major_Product
+you will get the expected forks: the dataset <P>
+
+<PRE>
+Pathway : "*Alanine biosynthesis"
+Components	 "Glutamate -> Alanine"
+
+Pathway : "Glutamate -> Alanine"
+Major_Reactant	 "Glutamate"
+Major_Reactant	 "Pyruvate"
+Major_Product	 "Alanine"
+Major_Product	 "2-Oxoglutarate"
+</PRE>
+
+gives this display: <P>
+<IMG SRC="forkedmet.gif"> <P>
+
+<hr>
+
+<A NAME="Enzyme"><H2>Enzyme</H2></A>
+
+The Enzyme value will override the default labelling of the arc, and instead label it with the Enzyme name:
+<PRE>
+Pathway : "*Glutamine synthesis"
+Components "Glutamate -&gt; Glutamine"
+
+Pathway : "Glutamate -&gt; Glutamine"
+<B>Enzyme "Glutamate ammonia-ligase"</B>
+Major_Reactant Glutamate
+Major_Product Glutamine
+</PRE>
+gives <P>
+<IMG SRC="simplemet_enz.gif"> <P>
+
+<hr>
+
+<H2><A NAME="Cofactor_Reactant">Cofactor_Reactant</A> and <A NAME="Cofactor_Reactant">Cofactor_Reactant</A></H2>
+
+The two tags Cofactor_Reactant and Cofactor_Product decide if there is
+going to be a small tangent arc to the arc, and what goes on the
+tangent arc. In contrast to Major_Reactant/Major_Product, only the
+first of each will be drawn.
+
+<PRE>
+Pathway : "*Glutamine synthesis"
+Components "Glutamate -&gt; Glutamine"
+
+Pathway : "Glutamate -&gt; Glutamine"
+Enzyme "Glutamate ammonia-ligase"
+Major_Reactant Glutamate
+Major_Product Glutamine
+<B>Cofactor_Reactant ATP
+Cofactor_Product ADP
+</B></PRE>
+produces the following: <P>
+<IMG SRC="simplemet_cofact.gif">
+
+
+<hr>
+<H2>Editing the layout</H2>
+
+The graph can be edited, by dragging things around with the
+<B>middle</B> mouse button. If you drag one of the objects
+(i.e. nodes or labels), they move. Arcs attached to nodes you move,
+follow along. If you grab at the middle of an arc, you will change the
+curvature of it. You can move labels, node names and cofactor names,
+but if you after you have positioned the labels change the arc or node
+they belong to, the labels will snap back to their default
+positions. <P>
+
+The menu choice <B>Recompute</B> will put everything back to their
+computed positions. <P>
+
+If you have changed the layout of a graph and close it, you will get a
+question if you want to save the it. If you answer yes, the program
+will create a <A HREF="#PathwayDiagram">?PathwayDiagram</A> object.
+
+  <hr>
+
+<A NAME="PathwayDiagram"><H2>The PathwayDiagram class</H2></A>
+
+The PathwayDiagram classs contains the exact layout information for a
+graph where you have changed the layout from the default computed
+one. This is a complicated thing, and you'd be better off not messing
+with it. Positions on the graph are given in a coordinate system with
+the origin at upper left, x-axis horisontal, and y-axis vertical. The
+units are character-widths (&lt;???&gt;). The PathwayDiagram model has 
+4 vectors with data:
+
+<PRE>
+    <B>Node</B> Int Float Float Int ?Metabolite // ID X Y LabelID Metabolite
+</PRE>
+<OL>
+
+<LI> &lt;Int&gt; node ID -- this is used in the Arc vector
+
+<LI> &lt;Float&gt; x coordinate (of upper left corner &lt;???&gt;)
+
+<LI> &lt;Float&gt; y coordinate (of upper left corner &lt;???&gt;)
+
+<LI> &lt;Int&gt; label ID -- the label for this node. If -1, it is unlabeled
+
+<LI> &lt;?Metabolite&gt; the label on the node (note this is
+redundant, since the label is stored also in the label vector for
+this node)
+
+</OL>
+<PRE>
+    <B>Arc</B> Int Int Int Int Int Float ?Pathway // ID  Label From To  Curvature Radius Step
+</PRE>
+
+<OL>
+
+<LI> &lt;Int&gt; Arc ID -- used in TangentArc vector
+
+<LI> &lt;Int&gt; Label ID -- the id of the label for this arc. If -1, it is unlabeled
+
+<LI> &lt;Int&gt; a Node ID -- the node where the arc starts
+
+<LI> &lt;Int&gt; a Node ID -- the node where the arc ends
+
+<LI> &lt;Int&gt; -1, 0 or 1 -- if -1 draw a small, tangent arc, if 0 draw a straight line, if 1 draw a curved arc.
+
+<LI> &lt;Float&gt; the curvature of the arc (in &lt;???&gt; units); if the Curvature is 0, this is ignored
+
+<LI> &lt;?Pathway&gt; the Pathway object this arc corresponds to; empty for TangentArcs
+
+</OL>
+
+<PRE>
+    <B>TangentArc</B> Int Int  // Arc Tangent
+</PRE>
+<OL>
+
+<LI> &lt;Int&gt; Arc it is attached to
+
+<LI> &lt;Int&gt; The ArcID for this arc
+
+</OL>
+
+<PRE>
+    <B>Label</B> Int Float Float Text // ID X Y Label
+</PRE>
+<OL>
+
+<LI> &lt;Int&gt; Label ID -- used in the Node and Arc vectors
+
+<LI> &lt;Float&gt; x coordinate of (upper left &lt;???&gt;) corner of label
+
+<LI> &lt;Float&gt; y coordinate of (upper left &lt;???&gt;) corner of label
+
+<LI> &lt;Text&gt; the label text
+ 
+</OL>
+
+An example:  <P>
+<IMG SRC="edited_pw.gif"> <P>
+
+(which is essentially the same as the one above, but with the tangent
+arc a bit larger and the label for the arc moved.)
+
+<PRE>
+// data dumped from tree display - and edited for legibility
+
+PathwayDiagram : "*Glutamine synthesis Diagram Info"
+Pathway	 "*Glutamine synthesis"
+!!
+!!Node   ID  x-coord    y-coord    LabelID  Metabolite
+!!
+Node	  9  31.418339  14.081660    10     "ADP"
+Node	  7  31.418339   6.918340     8     "ATP"
+Node	  3  35.000000  18.000000     4     "Glutamine"
+Node	  1  35.000000   3.000000     2     "Glutamate"
+!!
+!!Arc    ID  LabelID  FromNode  ToNode  Curvature  Radius    Pathway
+!!
+Arc	 11    -1     7         9       -1         3.581660
+Arc	  5     6     1         3        0         7.500000  "Glutamate -> Glutamine"
+!!
+!! Tangent  ArcID  TangentArcID
+!!
+TangentArc    5      11
+!!
+!! Label  LabelID  x-coord    y-coord    LabelText
+!!
+Label	    10     28.418339  13.758583  "ADP"
+Label	     8     28.268337   6.595263  "ATP"
+Label	     6     24.449997   9.514424  "Glutamate-ammonia ligase"
+Label	     4     37.000000  17.500000  "Glutamine"
+Label	     2     37.000000   2.500000  "Glutamate"
+</PRE>
+
+
+<hr>
+<H2>Things to watch out for</H2>
+<UL>
+
+<LI> The menu item Redraw doesn't seem to do anything
+
+<LI> The menu item Expand toggles between Expand and No Expand, but
+does nothing
+
+<LI> The menu item Hide Arc Labels will hide labels on arcs, but if
+you Recompute the labels reappear but the menu item is not changed
+back, instead it is now out of phase.
+
+<LI> Saving a layout for a graph that you already have a
+PathwayDiagram object for crashes the program (apparently because it
+is not smart enough to figure out a unique name for the new object)
+(&lt; error message: <I>metab.c:1226 failed assertion 'bsAddKey(pw,
+_Diagram, diagkey) IOT trap'</I>&gt;).
+
+</UL>

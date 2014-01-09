@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0 6px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+a:link {
+	color: #003366;
+}
+
+.small {
+	font-size: 9pt;
+	vertical-align: text-top;
+}
+
+.large {
+	font-size: 14pt;
+	vertical-align: text-top;
+}
+
+.label {
+	font-weight: bold;
+	text-align: left;
+	vertical-align: text-top;
+}
+
+.graphicLabel {
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+}
+
+.error {
+	font-weight: bold;
+	color: red;
+	font-size: 12pt;
+	}

@@ -1,0 +1,107 @@
+<html>
+
+<head>
+<LINK REL=StyleSheet HREF="/css/seq.css" TYPE="text/css" >
+<link rel="stylesheet" type="text/css" href="/css/help.css">
+<!-- HEADER using external JavaScript file -->
+<script language="JavaScript" src="/js/helpheader.js"></script>
+<script>
+setPrevious("sv_closeup.html");
+setNext("");
+writeHeader();
+</script>
+<!-- End of header -->
+<title>SeqViewer Nucleotide View Page</title>
+</head>
+
+<blockquote>
+<h2>SeqViewer Nucleotide Window</h2>
+<font class="cont">The SeqViewer Nucleotide Window displays a 10 kb region of the Arabidopsis genome sequence with genes, markers, transcripts, polymorphisms, T-DNA/Transposon transgene insertion flanking sequences, and clone ends marked on the sequence.  </font>
+<hr>
+<p><h4>Contents</h4>
+<ul>
+<li><h4><a href="#nucontrol">Nucleotide Window Controls and Legend</a></h4>
+<li><h4><a href="#seqann">Sequence and Annotation</a></h4>
+<ul>
+<li><a href="#seqann1">Gene Annotations</a>
+<li><a href="#seqann2">Polymorphism Annotations</a>
+<li><a href="#seqann3">T-DNA/Transposon Annotations</a>
+<li><a href="#seqann4">Marker and Clone Annotations</a>
+<li><a href="#seqann5">Transcript Annotations</a>
+</ul>
+</ul>
+<hr>
+<h2><a name="nucontrol"></a>Nucleotide window Controls and Legend</h2>
+<p><font class="cont">Gene feature,polymorphism, transcript, T-DNA/Tn insertion,  marker and clone end color-coding are identified in the top half of the left control panel. Italics are used to indicate genes in the reverse orientation. The legend changes, depending upon the types of annotations being viewed. The arrows on the left and right side can be used to scroll the view by 5 kb in either direction.</font>
+<p><img src="images/nucseq1.gif" border="1">
+
+<p><font class="cont"> To view the complement strand, use the drop down menu to change the orientation from "forward strand" to "reverse strand". You can use the drop down menu to  select which types of annotation to display on the nucleotide sequence. Display options are:<br>
+<ul>
+<li>Genes
+<li>Markers and Polymorphisms 
+<li>T-DNA and transposon insertions
+<li>Annotation Units
+<li>Transcripts
+<li>Genes, Markers, Polymorphisms
+<li>Genes, Annotations Units
+<li>Genes, Transcripts
+</ul>
+</font>
+<p><img src="images/nucseq8.gif" border="1">
+
+<h4><font>Other Features:</font></h4>
+<ul>
+<li> <font class="cont"><strong>Rulers</strong> at the top, bottom and left can be used to find the chromosome position of any nucleotide measured from the left/top telomere.  <b>Note:  the nucleotide positions shown are subject to change as the Arabidopsis genome sequence continues to improve.</b></font>
+<li> <font class="cont"><strong>Gene and marker names </strong> on the right can be clicked to bring up a page of detailed gene information from the TAIR database.</font>
+<li><font class="cont">When the cursor is placed above transcripts, transposon/T-DNA insertions, clones, markers, genes and polymorphisms a pop up window appears displaying information about the type of object. Click on the object to obtain a detail page from TAIR database.
+<li> <font class="cont"><strong>Matches</strong> to sequence queries are highlighted in <SPAN class = match><b>red</b></SPAN>.</font>
+<li> Each nucleotide sequence view has a <b>figure legend</b> displayed on the upper portion of the view. The key changes, depending on the selected data types being displayed in the view.
+</ul>
+<hr>
+
+<h2><a name="seqann"></a>Sequence Annotation</h2>
+<p><font class="cont">The nucleotide sequence view will show all annotated objects within the 10 kb view. Each row of the nucleotide sequence view displays 100 base pairs of sequence in the default (forward strand) orientation. The pop up windows display information about the annotated objects and clicking on the object (e.g. a marker) will open a window with the detail page from TAIR database.</font>
+
+<h4><a name="seqann1"></a><font>Gene Annotation:</font></h4>
+<ul>
+  <li> <font class="cont"><strong>Coding regions</strong> are UPPERCASE and noncoding regions, including introns and UTRs, are lowercase.  This allows users to retain some annotation information when copying and pasting sequences into a new document.</font>
+  <li> <font class="cont"><strong>UTRs</strong> are in <font color=red><b>red</b></font>, <strong>exons</strong> are in <font color=orange><b>orange</b></font> and <strong>introns</strong> are in <font color="#CCCCFF"><b>light purple</b></font>.</font>
+  <li> <font class="cont"><strong>Start and stop codons</strong> are highlighted in <font color="darkblue"><b>blue</b></font>.</font>
+  <li> <font class="cont"><strong>Genes in reverse orientation</strong> appear in <i>italics</i> (with annotation color coding).</font>
+<li><font class="cont">Gene names and orientations are visible along the right hand margin of the nucelotide sequence.</font>
+</ul>
+
+<p><a name="seqann2"></a><h4>Polymorphism Annotation:</h4>
+<ul>
+<li><b>Insertions</b>.The two nucleotides flanking the insertion are highlighted in<font color="red"><b> red</b></font>.
+<li><b>Deletions</b> are highlighted in <font color="darkgreen"><b>dark green</b></font>.
+<li><b>Compound</b> polymorphisms (combinations of deletions/insertions or subsitutions) are highlighted in <font color="pink"><b>pink</b></font>.
+<li><b>Substitutions</b> are highlighted in <font color="#6699CC"><b>teal</b></font>.
+</ul>
+
+<p><a name="seqann3"><h4>Marker and Clone Annotation:</h4>
+<ul>
+  <li> <font class="cont"><strong>Markers</strong> are highlighted in <font color="pink"><b>pink</b></font> with name and size shown to the right.  For PCR markers, the two primers and all intervening sequences are highlighted.</font>
+  <li> <font class="cont"><strong>Annotation unit (BAC ends) </strong> are indicated by 10 nt segments highlighted in <font color="magenta"><b>magenta</b></font> (left end) and <font color="red"><b>red</b></font> (right end).</font>
+</ul>
+
+<p><img src="images/nucseq2.gif" border ="1">
+<p><a name="seqann4"></a><h4>T-DNA/Transposon Annotation</h4>
+<p><font class="cont">When T-DNA/Tn annotations are displayed what is actually shown are the positions and orientations of the plant genomic sequences flanking the actual insertions. The annotations will be shown below each line of the genome sequence. The extent and orientation of the sequence is shown with an <b>arrow (>)</b>, the position nearest the insertion site is designated with a <b> vertical bar (|)</b>. The position of the insertions is determined by matching the flanking sequences to the genome. Regions of significant matches are indicated with a <b>double line (======) </b> and non-matching insertion flanking sequences are indicated with a <b>single dashed line (-----) </b>. <b><br>Note that the position of may insertions is not exact and sequencing of the insertion site should be performed to determine the EXACT position of the insertion</b>.</font>
+<p><img src="images/nucseq3.gif" border="1">>
+<p><a name="seqann5"></a><h4>Transcript Annotation</h4>
+<p><font class="cont">Transcript sequences are displayed below the genome sequence. Each transcript on a separate line. <b>EST</b> sequences are in <font color="gray"><b>gray</b></font> and <b>cDNA</b> sequences in <font color="darkblue"><b>blue</b></font>. EST's also display the orientation (e.g. either 3' sequence or 5' end sequence).</font>
+<p><img src="images/nucseq4.gif" border="1">
+
+
+
+<hr>
+<!-- footer using external javascript file starts here -->
+<script language="JavaScript" src ="/js/helpfoot.js"></script>
+<script>
+setPrevious("sv_closeup.html");
+setNext("");
+writeFooter();
+</script>
+</body>
+</html>

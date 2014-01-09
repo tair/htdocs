@@ -1,0 +1,17 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>ShigellaCyc Release Note History</title>
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<!-- ShigellaCyc Release Notes -->
+<h2>ShigellaCyc Release Note History</h2>
+
+<H1>Release Notes for ShigellaCyc Version 7.6</H1>
+
+Initially released on November 4, 2003
+
+<!--#include virtual="/template-part3of3.shtml" -->

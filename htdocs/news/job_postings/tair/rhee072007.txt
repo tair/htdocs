@@ -1,0 +1,47 @@
+The Carnegie Institution, located on the Stanford University campus, is looking 
+for a junior-level programmer to support our state-of-the-art, co-located web 
+site and our internal systems. TAIR, The Arabidopsis Information Resource --
+http://arabidopsis.org -- provides leading-edge genomics research data and 
+tools.
+
+Responsibilities:
+*	Programming software systems in Java, Perl, Python, and SQL
+
+*	Managing data in relational databases with SQL
+
+*	Maintaining existing software systems
+
+*	Other duties as required
+
+Requirements:
+*	BS in Computer Science/Management Information Systems or equivalent 
+experience.
+
+*	At least one year of experience with script programming in Perl, Python, 
+or another major scripting language
+
+*	At least six months of experience programming databases with SQL
+
+*	Basic knowledge of software engineering (programming, testing, object-
+oriented systems programming and design)
+
+*	Flexibility to learn and grow in a dynamic research environment
+
+*	Ability to interact, to work cooperatively, and to communicate with co-
+workers
+
+Preferred:
+*	Knowledge of basic.biology and genetics
+
+*	Knowledge of web-based programming (HTML, Javascript)
+
+*	Knowledge of the Java programming language
+
+Carnegie offers excellent benefits, a competitive salary, 5 weeks of vacation 
+per year, a great work location on the Stanford campus, and a stimulating 
+scientific and computing environment. For immediate consideration, please email 
+your resume (in text [ASCII], HTML, Acrobat (PDF), or Microsoft Word format) to 
+jobs@acoma.stanford.edu.
+
+Equal Opportunity Employer.
+

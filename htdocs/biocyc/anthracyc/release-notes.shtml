@@ -1,0 +1,20 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>
+AnthraCyc Release Note History
+</title>
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<!-- AnthraCyc Release Notes -->
+<h2>AnthraCyc Release Note History</h2>
+<H1>Release Notes for AnthraCyc Version 9.1</H1>
+<p>Released on May 23, 2005. </p>
+<p>
+24 proteins determined to be in the secretome were assigned a location of 
+extracellular-space.  We gratefully acknowledge Dr. Alexander Walz and 
+Dr. Vito DelVecchio of Vital Probes, Inc. for supplying this data, to be published in LaMonica JM, Wagner M, Eschenbrenner M, Williams LE, Miller TL, Patra, G (2005), "Comparative Analyses of Three Bacillus anthracis Strains with Variant Plasmid Contents," Infection and Immunity:73(6).
+
+<!--#include virtual="/template-part3of3.shtml" -->

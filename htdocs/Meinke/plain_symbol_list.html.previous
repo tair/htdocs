@@ -1,0 +1,759 @@
+<HTML>
+<HEAD>
+<TITLE>Unformatted Listing of the Symbol Database Information</TITLE>
+</HEAD>
+<HR>
+<CENTER>
+<H1>List of Registered Symbols for Mutant Genes</H1>
+</CENTER>
+<HR>
+<PRE> 
+<B><H3>Explanation of Columns:</H3></B><UL>
+<LI>Locus:  Gene symbol (CAPS to avoid confusion between letters and numbers).
+<LI>Descriptive Name:  Formal name of locus; description of phenotype.
+<LI>Date:   Shows date when symbol was reserved or identified.
+<UL><LI>YB = Already in previous genome report list (Yellow Book, Year 3).
+<LI>M95 = Obtained from abstract book - Arabidopsis meeting, June 1995.
+<LI>N96 = Obtained from WWW abstracts - Arabidopsis meeting, June 1996.
+<LI>M97 = Obtained from abstracts/pages - Arabidopsis meeting, June 1997.</UL>
+<LI>Reference Laboratory:  Source of mutant gene symbol.</UL>
+<I>Note that this list has no formatting.  Data is "TAB" delimited with spaces used to
+create uniform field lengths.  You can save this page as a file and edit it with the 
+spreadsheet of your choice.</I><P>
+
+<B>Symbol</B>	<B>Descriptive Name/Mutant Phenotype</B>	<B>Date</B>	<B>Ref_Lab</B><BR>
+<FORM ACTION="/advworks/ ........ " METHOD=POST>
+AAT   	Aspartate aminotransferase deficien	YB    	Coruzzi, Schulz     <BR>
+ABA   	ABA deficient                      	YB    	Koornneef           <BR>
+ABI   	ABA insensitive                    	YB    	Koornneef           <BR>
+ABS   	Abnormal, aborted seeds            	YB    	Vizir               <BR>
+ACA   	Azetidine-2-carboxylic acid resista	YB    	Lehle               <BR>
+ACD   	Accelerated cell death             	YB    	Ausubel, Greenberg  <BR>
+ACE   	Adhesion of calyx edges            	M97   	Araki               <BR>
+ACF   	Suppressor of FCA                  	YB    	Dean                <BR>
+ACL   	Acaulis (short floral stems)       	YB    	Komeda              <BR>
+ACT   	Chloroplast glycerol-3-phosphate-ac	YB    	Somerville          <BR>
+ADA   	Andarta (female gametophytic lethal	2/98  	Grossniklaus        <BR>
+ADD   	Arrested development               	4/95  	Pickett, Meeks-Wagne<BR>
+ADG   	ADP glucose pyrophosphorylase defic	YB    	Caspar              <BR>
+ADH   	Alcohol dehydrogenase deficient    	YB    	Meyerowitz, Jacobs  <BR>
+ADN   	Adnormal (radially symmetric leaves	M97   	Barton              <BR>
+AES   	Abnormal early stomata             	11/97 	Schneider           <BR>
+AG    	Agamous                            	YB    	Koornneef           <BR>
+AGA   	Agamous activated                  	10/97 	Chen, Meyerowitz    <BR>
+AGE   	Auxin altered gene expression      	9/96  	Theologis           <BR>
+AGL   	Loss of AGL8 fx.(abnormal silique) 	M97   	Yanofsky, Martiensse<BR>
+AGO   	Argonaute (narrow leaf blade)      	10/96 	Benning, Caboche    <BR>
+AGR   	Agravitropic                       	YB    	Maher               <BR>
+AHA   	Knockout of plasma membrane H+-ATPa	M97   	Sussman             <BR>
+AHD   	Airhead (organ fusion)             	9/96  	Pruitt, Lolle       <BR>
+AHS   	ACC Hypersensitive                 	N96   	Van der Straeten    <BR>
+AIM   	Abnormal inflorescence meristem    	M95   	Bleecker            <BR>
+AIN   	Ethylene insensitive               	YB    	Van der Straeten    <BR>
+AIP   	Altered inflorescence phyllotaxy   	1/96  	Davis               <BR>
+AKT   	Defect in plasma membrane K+ channe	M97   	Sussman             <BR>
+ALB   	Albina                             	YB    	Koornneef           <BR>
+ALF   	Aberrant lateral root formation    	YB    	Celenza, Fink       <BR>
+ALI   	Alien (abnormal trichomes)         	YB    	Jurgens, Hulskamp   <BR>
+ALR   	Aluminum resistant                 	4/95  	Howell              <BR>
+ALS   	Aluminum sensitive                 	4/95  	Howell              <BR>
+AMP   	Altered meristem program           	YB    	Chaudhury           <BR>
+AMT   	a-methyl tryptophan resistant      	YB    	Town                <BR>
+AN    	Angustifolia (narrow leaf)         	YB    	Redei, Koornneef    <BR>
+ANL   	Anthocyaninless                    	6/95  	Koornneef           <BR>
+ANT   	Aintegumenta (integument defect)   	6/95  	Fischer, Gasser     <BR>
+AP    	Apetala                            	YB    	Koornneef           <BR>
+APA   	Apetala 1 activated                	10/97 	Chen, Meyerowitz    <BR>
+APT   	Adenine phosphoribosyl transferase 	YB    	Moffatt, Somerville <BR>
+ARA   	Arabinose sensitive                	YB    	Cobbett             <BR>
+ARC   	Accumulation, replication chloropla	YB    	Pyke, Leech         <BR>
+ARD   	Ardhagarva (megagametophyte)       	M95   	Ray                 <BR>
+ARG   	Altered response to gravity        	4/94  	Sedbrook, Caspar, Ma<BR>
+ARP   	Altered RNase profile              	8/94  	Abler, Green        <BR>
+ART   	Aerial rosette                     	12/95 	Grbic, Barton       <BR>
+ARX   	Altered reaction to Xanthomonas    	9/96  	Buell               <BR>
+AS    	Asymmetric leaves                  	YB    	Redei, Koornneef    <BR>
+ASF   	Altered suspensor fate             	9/97  	Lindsey             <BR>
+ASK   	Arabidopsis Skp1-like (see also SKL	10/97 	Crosby              <BR>
+AST   	Anthocyanin spotted testa          	5/96  	Tanaka              <BR>
+ASY   	Meiosis defective (asynaptic)      	3/97  	Vizir               <BR>
+ATD   	Amidophosphoribosyl transferase def	3/97  	van der Graaff      <BR>
+ATR   	Altered tryptophan regulation      	YB    	Bender, Fink        <BR>
+ATS   	Aberrant testa shape               	YB    	Koornneef           <BR>
+AUX   	Auxin-resistant                    	YB    	Maher               <BR>
+AXR   	Auxin-resistant                    	YB    	Estelle             <BR>
+AZA   	5-azacytidine resistant            	7/95  	Dellaporta          <BR>
+AZD   	5'-aza-2' deoxycytidine resistant  	7/95  	Dellaporta          <BR>
+BAD   	Basal deletion (embryo,seedling)   	M95   	Berleth             <BR>
+BAG   	Blassig (ovule defective)          	6/96  	Pruitt, Schneitz    <BR>
+BAL   	Ball (twisted leaves, reduced apica	11/95 	Richards            <BR>
+BAN   	Banyuls (anthocyanin in seed coat) 	12/95 	Albert, Devic       <BR>
+BBB   	Reserved (leaf mutant)             	YB    	Feldmann            <BR>
+BBL   	Bombadil (root defective)          	YB    	Scheres             <BR>
+BCF   	Bicentifolia (leaf mutant)         	YB    	Feldmann            <BR>
+BEL   	Bell-shaped ovules, female sterile 	YB    	Pruitt, Gasser, Modr<BR>
+BER   	Bicyclic ether resistant           	YB    	Russell, Scolnik    <BR>
+BFP   	Big fat pollen                     	N96   	Dickinson           <BR>
+BIC   	Bacterial induced chlorosis        	YB    	Dangl               <BR>
+BIO   	Biotin auxotroph                   	YB    	Meinke              <BR>
+BLO   	Bloated (keule like)               	7/96  	Assad               <BR>
+BLU   	Discontinued (allelic to HY)       	YB    	Hangarter           <BR>
+BNS   	Bonsai                             	12/96 	Kakutani            <BR>
+BOR   	Requires high [boron]              	3/97  	Fujiwara            <BR>
+BOT   	Botero (short hypocotyl)           	9/95  	Caboche             <BR>
+BP    	Brevipedicellus (siliques)         	YB    	Koornneef           <BR>
+BPS   	Bypass (leaf venation defect)      	M97   	Sieburth            <BR>
+BPY   	Bumpy meristem: disorganized SAM   	M97   	Barton              <BR>
+BRC   	Big root cap                       	3/97  	van der Graaff      <BR>
+BRI   	Brassinosteroid insensitive        	M95   	Clouse, Langford    <BR>
+BUD   	Bulkhead (organ fusion)            	2/97  	Lolle, Pruitt       <BR>
+BUM   	Bumbershoot (shoot meristem)       	YB    	Meeks-Wagner        <BR>
+CA    	Caespitosa (short stems, bushy plan	YB    	McKelvie, Redei     <BR>
+CAD   	Cadmium sensitive                  	YB    	Cobbett             <BR>
+CAF   	Carpel factory (floral defective)  	7/95  	Jacobsen, Meyerowitz<BR>
+CAI   	Carbohydrate insensitive           	N96   	Graham              <BR>
+CAL   	Cauliflower (defective inflorescenc	YB    	Bowman, Meyerowitz  <BR>
+CAM   	Carbohydrate accumulation mutants  	3/95  	Chen                <BR>
+CAO   	Chaos (pale green)                 	11/97 	Jones               <BR>
+CAR   	CaMV resistant                     	4/95  	Howell              <BR>
+CAU   	Caulis (suppressor of acl1-2)      	YB    	Komeda              <BR>
+CBB   	Cabbage (extreme dwarfs)           	6/95  	Altmann             <BR>
+CCM   	Conditional chlorina               	M97   	Brusslan            <BR>
+CDO   	Chardonnay (abnormal trichomes)    	YB    	Jurgens, Hulskamp   <BR>
+CEL   	Callus expression of RBCL          	11/95 	Kobayashi           <BR>
+CEP   	Constitutive expression of PR-1    	M97   	Klessig             <BR>
+CER   	Eceriferum (altered surface wax)   	YB    	Koornnef            <BR>
+CES   	Callus expression of RBCS          	11/95 	Kobayashi           <BR>
+CGL   	Complex glycan deficient           	YB    	Chrispeels          <BR>
+CH    	Chlorina (yellow green)            	YB    	Redei, Koornneef    <BR>
+CHA   	Chablis (abnormal trichomes)       	YB    	Jurgens, Hulskamp   <BR>
+CHL   	Chlorate resistant                 	YB    	Crawford, Feenstra  <BR>
+CHM   	* duplicate symbol*  Chloroplast mu	YB    	Redei, Koornneef / R<BR>
+CHP   	Chlorophyll mutant                 	YB    	Koornneef           <BR>
+CHS   	Chilling sensitive                 	YB    	Hugly, Somerville   <BR>
+CIM   	Constitutive immunity              	YB    	Delaney, Ryals      <BR>
+CIN   	Cytokinin insensitive              	4/97  	Kieber              <BR>
+CKH   	Cytokinin hypersensitive           	M97   	Kakimoto            <BR>
+CKI   	Cytokinin independent              	N96   	Kakimoto            <BR>
+CKR   	Cytokinin resistant (allelic to EIN	YB    	Howell              <BR>
+CLA   	Cloroplastos alterados             	12/95 	Leon, Feldmann      <BR>
+CLF   	Curly leaf                         	N96   	Meyerowitz, Coupland<BR>
+CLG   	Coiling (agravitropic)             	4/96  	Migliaccio, Ferrari <BR>
+CLM   	Clam (compressed rosette, semisteri	11/95 	Richards            <BR>
+CLV   	Clavata (extra carpels)            	YB    	Koornneef           <BR>
+CLY   	Early flowering                    	N96   	Martinez-Zapater    <BR>
+CMR   	Chlorflurenol resistant            	YB    	Estelle             <BR>
+CMT   	Cytosine methyltransferase deficien	1/98  	Comai               <BR>
+CN    	Convoluta (leaf shape, twisted stem	YB    	Relichova           <BR>
+CO    	Late flowering (replaces FG)       	YB    	Redei, Koornneef    <BR>
+COB   	Cobra (root defective)             	YB    	Benfey              <BR>
+COD   	Conehead (organ fusion)            	2/97  	Lolle, Pruitt       <BR>
+COG   	Altered recognition of Peronospora 	8/95  	Holub, Benyon       <BR>
+COI   	Coronatine insensitive             	YB    	Turner              <BR>
+COL   	Columella (gene trap)              	9/97  	Lindsey             <BR>
+COP   	Constitutive photomorphogenic      	YB    	Deng                <BR>
+COS   	Corolla superia (floral defect)    	7/95  	Ma                  <BR>
+COT   	Cotyledon trichomes                	4/95  	Marks               <BR>
+COV   	Continuous vascular ring           	M95   	Turner, Somerville  <BR>
+COW   	Root hair defective                	YB    	Dolan               <BR>
+CP    	*duplicate* Cupuliformis(Relichova)	YB    	Koornneef           <BR>
+CPC   	Caprice (root hair defective)      	8/95  	Okada               <BR>
+CPD   	Constitutive photomorphogenic dwarf	-/96  	Koncz               <BR>
+CPH   	Cephalopod (hypocotyl defective)   	N96   	Jurgens             <BR>
+CPK   	Knockout of calmodulin domain prote	M97   	Sussman             <BR>
+CPR   	Constitutive expression of PR genes	4/94  	Bowling/Dong        <BR>
+CPT   	Complex pattern thickening         	M95   	Turner, Somerville  <BR>
+CRC   	Crabs claw (floral defective)      	YB    	Smyth               <BR>
+CRK   	Crooked (abnormal trichomes)       	YB    	Jurgens, Hulskamp   <BR>
+CRL   	Curly (defective leavs, cotyledons)	YB    	Medford             <BR>
+CRM   	Corymbose inflorescence            	YB    	Komeda              <BR>
+CS    	Pale                               	M95   	Furner, Koncz       <BR>
+CSI   	Cesium resistant                   	YB    	Sussman             <BR>
+CSR   	Chlorsulfuron / imidazolinone resis	YB    	Haughn, Somerville  <BR>
+CTD   	Circadian timing defective         	6/96  	McClung             <BR>
+CTR   	Constitutive triple response       	YB    	Ecker               <BR>
+CU    	Curvata (rolled leaf margins)      	1/96  	Micol               <BR>
+CUC   	Cup-shaped cotyledon               	7/96  	Tasaka              <BR>
+CUD   	Cudgel (root defective)            	11/94 	Benfey              <BR>
+CUE   	Discontinued (now PPT)             	-     	Chory               <BR>
+CUM   	Cucumovirus multiplication         	9/95  	Naito               <BR>
+CUP   	Copper sensitive                   	11/94 	Cobbett             <BR>
+CUT   	Altered epicuticular wax accumulati	4/97  	Millar, Kunst       <BR>
+CYD   	Cytokinesis defective              	M97   	Sack                <BR>
+CYM   	Cytokinin metabolism defective     	11/96 	Auer                <BR>
+CYP   	Cytochrome P450 defective          	4/96  	Winkler             <BR>
+CYR   	Cytokinin resistant                	3/94  	Deikmann            <BR>
+CYT   	Cytokinesis defective              	5/96  	Meinke              <BR>
+DAD   	Defective in anther dehiscence     	M97   	Okada               <BR>
+DCT   	Dicarboxylate transport defective  	YB    	Somerville, Ogren   <BR>
+DDM   	Decreased DNA methylation          	YB    	Richards            <BR>
+DED   	Deadhead (organ fusion)            	9/96  	Pruitt, Lolle       <BR>
+DEI   	Embryo, hypocotyl defects          	M95   	Bellini, Caboche    <BR>
+DEL   	Depressed expression of RBCL       	11/95 	Kobayashi           <BR>
+DES   	Depressed expression of RBCS       	11/95 	Kobayashi           <BR>
+DET   	De-etiolated                       	YB    	Chory               <BR>
+DEX   	Defective in exine patterning      	11/96 	Makaroff            <BR>
+DGD   	Digalactosyl diacylglycerol deficie	M95   	Benning             <BR>
+DIF   	Reserved symbol                    	YB    	Dean                <BR>
+DIM   	Diminutia (allelic to DWF)         	-     	Chua                <BR>
+DIP   	Disrupted (defective leaves, merist	YB    	Medford             <BR>
+DIR   	Defective in induced resistance    	5/96  	Cameron             <BR>
+DIS   	Distorted trichomes                	YB    	Feenstra, Koornneef <BR>
+DN    	Dentata (broad leaves, late floweri	YB    	Relichova           <BR>
+DND   	Defense no death                   	8/97  	Bent                <BR>
+DOC   	Dark over-expression of CAB        	YB    	Chory               <BR>
+DOV   	Differential development of vascula	5/96  	Pyke                <BR>
+DRG   	Dragon (ovule defective)           	YB    	Gasser              <BR>
+DRL   	Deformed roots and leaves          	YB    	Dean                <BR>
+DRT   	Disease resistant, abnormal trichom	6/97  	Kunkel              <BR>
+DSR   	Dark green leaves, stunted roots   	YB    	Dean                <BR>
+DSY   	Meiosis defective (desynaptic)     	3/97  	Vizir               <BR>
+DUO   	Duo (binuclear pollen)             	6/96  	Twell, Howden       <BR>
+DW    	Dwarf                              	YB    	Koornneef           <BR>
+DWF   	Dwarf, auxin resistant             	YB    	Mizra, Maher, Feldma<BR>
+DWG   	Dwarf gigantica                    	YB    	Feldmann            <BR>
+EAF   	Early flowering                    	YB    	Honma, Huala        <BR>
+EAP   	Enhancer of AP1                    	3/95  	Irish               <BR>
+EAR   	Tentative reservation              	3/96  	Grbic, Barton       <BR>
+EBS   	Early bolting short days           	N96   	Martinez-Zapater    <BR>
+ECO   	Ectopic outgrowth (meristem, leaf) 	4/95  	Meeks-Wagner        <BR>
+ECR   	Discontinued (now RPW)             	5/95  	S. Somerville, Olive<BR>
+EDD   	Embryo defective development       	1/97  	Altmann             <BR>
+EDI   	Early daylength insensitive        	9/97  	Koornneef           <BR>
+EDR   	Enhanced disease resistance        	1/97  	Innes               <BR>
+EDS   	Enhanced disease susceptibility    	N96   	Glazebrook, Ausubel <BR>
+EER   	Enhanced ethylene response         	2/98  	Larsen              <BR>
+EFS   	Early flowering in short days      	M97   	Koornneef           <BR>
+EGS   	Ectopic transgene silencing        	3/95  	Grant, Dehio, Schell<BR>
+EIN   	Ethylene insensitive               	YB    	Ecker               <BR>
+EIR   	Ethylene insensitive root          	YB    	Ecker               <BR>
+ELA   	Enhanced linolenate accumulation   	YB    	Browse, Somerville  <BR>
+ELF   	Early flowering                    	YB    	Meeks-Wagner        <BR>
+ELG   	Elongated (hypocotyl)              	6/95  	Koornneef           <BR>
+ELL   	Extra long lifespan                	M95   	Sheen               <BR>
+ELV   	Elvish (root defective)            	YB    	Scheres             <BR>
+EMB   	Embryo defective                   	YB    	Meinke              <BR>
+EMD   	Embryo sac defective               	6/96  	Schneitz            <BR>
+EMF   	Embryonic flower                   	YB    	Sung                <BR>
+ENS   	Ensalada (meristem, leaf developmen	8/95  	Meeks-Wagner        <BR>
+EOR   	Enhancer of rps2                   	7/97  	Kunkel              <BR>
+EPN   	Extra pollen nuclei                	N96   	Dickinson           <BR>
+ER    	Erecta                             	YB    	Redei, Koornneef    <BR>
+ERA   	Enhanced response to ABA           	M95   	McCourt             <BR>
+ERB   	Enhanced resistance to bact. pathog	4/94  	Bowling, Dong       <BR>
+ERG   	Erigere (erecta like)              	3/98  	Davis, Vierstra     <BR>
+ERH   	Ectopic root hair                  	N96   	Schneider, Roberts  <BR>
+ERS   	Ethylene resistant (transgene)     	M97   	Meyerowitz          <BR>
+ERT   	Early trichomes                    	M97   	Poethig             <BR>
+ESD   	Early flowering in short days      	YB    	Coupland            <BR>
+ESK   	Eskimo (freezing tolerant)         	M97   	Browse              <BR>
+ETO   	Ethylene overproducer              	YB    	Ecker               <BR>
+ETR   	Ethylene receptor                  	YB    	Bleecker            <BR>
+ETT   	Ettin (floral defective)           	YB    	Roe, Zambryski      <BR>
+EXC   	Extra cells (nucellar defect)      	M95   	Ray                 <BR>
+EXI   	Exigua (small leaves)              	1/96  	Micol               <BR>
+EXO   	Exordium (gene trap)               	9/97  	Lindsey             <BR>
+EXP   	Expansin knockout                  	9/97  	Cosgrove            <BR>
+FAB   	Fatty acid biosynthesis defective  	YB    	James, Dooner       <BR>
+FAD   	Fatty acid desaturase deficient    	YB    	Somerville          <BR>
+FAE   	Fatty acid elongation defective    	YB    	Kunst,  Somerville  <BR>
+FAH   	Ferulic acid 5-hydroxylase deficien	YB    	Chapple, Somerville <BR>
+FAS   	Fasciated (like clavata)           	YB    	Furner              <BR>
+FB    	Discontinued (now GI)              	YB    	Koornneef           <BR>
+FCA   	Late flowering                     	YB    	Koornneef           <BR>
+FD    	Late flowering                     	YB    	Koornneef           <BR>
+FDH   	Fiddlehead (organ fusion)          	YB    	Lolle, Sussex       <BR>
+FDI   	Factor differentiation instability 	YB    	Vizir               <BR>
+FDR   	Flowering time QTL in RI lines     	8/94  	Mitchell Olds       <BR>
+FE    	Late flowering                     	YB    	Koornneef           <BR>
+FEC   	Discontinued (now PLF)             	YB    	Hensel-Burke, Bleeck<BR>
+FEM   	Gametophytic female sterile        	M97   	Drews               <BR>
+FEY   	Forever young (altered shoot apex) 	YB    	Medford             <BR>
+FFO   	Fused floral organs                	5/97  	Meyerowitz          <BR>
+FG    	Discontinued (now CO)              	YB    	Koornneef           <BR>
+FGL   	Fingerleaf                         	1/96  	Medford             <BR>
+FHA   	Late flowering                     	YB    	Koornneef           <BR>
+FHY   	Discontinued (now PHYA)            	YB    	Harberd             <BR>
+FIE   	Fertilization independent endosperm	5/95  	Fischer             <BR>
+FIF   	Flower in flower (similar to ap2)  	9/95  	Goto                <BR>
+FIL   	Filamentous flower                 	8/95  	Okada               <BR>
+FIR   	5-fluoroindole resistant           	YB    	Barczak, Last       <BR>
+FIS   	Fertilization independent seed     	5/95  	Chaudhury           <BR>
+FK    	Fackel (embryo defective)          	YB    	Jurgens             <BR>
+FL    	Folliculiformis (like CLV)         	YB    	Relichova           <BR>
+FLA   	Discontinued (now FRI)             	YB    	Amasino             <BR>
+FLB   	Floral abortive                    	12/94 	Howard, Cheung      <BR>
+FLC   	Altered flower time, modifier of LD	YB    	Amasino, Koornneef  <BR>
+FLF   	Late flowering                     	4/95  	Dennis              <BR>
+FLO   	Floral defective                   	YB    	Haughn              <BR>
+FLP   	Four lips (clustered stomata)      	8/94  	Yang, Sack          <BR>
+FMC   	Late flowering (extreme)           	YB    	McKelvie, Koornneef <BR>
+FON   	Floral organ number                	2/94  	Ma                  <BR>
+FOR   	Resistant to fluoroorotic acid     	2/95  	Mourad              <BR>
+FPA   	Late flowering                     	YB    	Koornneef           <BR>
+FRC   	Furca (trichome mutant)            	12/97 	Oppenheimer         <BR>
+FRD   	Ferric reductase defective         	-/94  	Guerinot            <BR>
+FRE   	Discontinued (now PHYA)            	YB    	Nagatani            <BR>
+FRI   	Frigida (late flowering)           	YB    	Napp Zinn, Dean     <BR>
+FRS   	Freezing sensitive                 	N96   	Martinez-Zapater    <BR>
+FS    	Fass (embryo defective)            	YB    	Jurgens             <BR>
+FT    	Late flowering                     	YB    	Koornneef           <BR>
+FTD   	Flowering time defective           	2/97  	McClung             <BR>
+FTS   	Flowering gene from Tsukuba        	2/97  	Kakutani            <BR>
+FUF   	Fully fasciated                    	YB    	Medford             <BR>
+FUR   	FUdR resistant                     	YB    	Wu, King            <BR>
+FUS   	Fusca (anthocyanin in cotyledons)  	YB    	Muller, Misera, Mein<BR>
+FVE   	Late flowering                     	YB    	Koornneef           <BR>
+FWA   	Late flowering                     	YB    	Koornneef           <BR>
+FY    	Late flowering                     	YB    	Koornneef           <BR>
+GA    	GA requiring                       	YB    	Koornneef           <BR>
+GAI   	GA insensitive                     	YB    	Koornneef           <BR>
+GAR   	GA responder (suppressor of GAI)   	YB    	Wilson, Somerville  <BR>
+GAS   	*duplicate*GA superresponder(Wilson	YB    	Wilson, Somerville /<BR>
+GAT   	Circadian gating of light responses	M97   	Millar              <BR>
+GBL   	Goblin (root defective)            	YB    	Scheres             <BR>
+GDH   	Glutamate dehydrogenase deficient  	YB    	Coruzzi, Oliveira   <BR>
+GEM   	Gemini (divided pollen)            	6/96  	Twell, Howden       <BR>
+GF    	Female gametophytic factor         	YB    	Redei               <BR>
+GFF   	Gametophytic factor - female       	M95   	Feldmann            <BR>
+GFM   	Gametophytic factor - male         	M95   	Feldmann            <BR>
+GH    	Gelbherzig (yellow center of plant)	YB    	Redei               <BR>
+GI    	Gigantea, late flowering (replaces 	YB    	Redei, Koornneef    <BR>
+GIN   	Glucose insensitive                	N96   	Sheen               <BR>
+GK    	Gurke (embryo defective)           	YB    	Jurgens             <BR>
+GL    	Glabra (reduced trichomes)         	YB    	Koornneef, Marks    <BR>
+GLD   	Glycine decarboxylase deficient    	YB    	Somerville, Ogren   <BR>
+GLF   	Gandalf (root defective)           	-/94  	Scheres             <BR>
+GLM   	Gollum (root defective)            	YB    	Scheres             <BR>
+GLO   	Glabrous, chlorotic                	2/96  	Osborne             <BR>
+GLS   	Glutamate synthase deficient       	YB    	Somerville, Ogren   <BR>
+GN    	Gnom (allelic to EMB30)            	YB    	Jurgens             <BR>
+GPB   	Reserved symbol                    	YB    	Ma                  <BR>
+GPL   	Gametophytic lethality             	M95   	Misera              <BR>
+GR    	Grisea (gray-green leaf color)     	YB    	Relichova           <BR>
+GRL   	Gnarled (abnormal trichomes)       	YB    	Jurgens, Hulskamp   <BR>
+GRM   	Gremlin (root defective)           	YB    	Scheres             <BR>
+GSM   	Glucosinolate metabolism defective 	-/94  	Haughn              <BR>
+GSS   	Glucose super sensitive            	2/98  	Smeekens            <BR>
+GUN   	Genomes uncoupled                  	YB    	Chory               <BR>
+GUP   	Glutathione-S-transferase Upregulat	N96   	Van der Zaal        <BR>
+HAN   	Hanaba taranu (floral defective)   	YB    	Sakai, Meyerowitz   <BR>
+HAR   	Hyponastic aerial rosette          	11/97 	Watson              <BR>
+HAS   	Handshake (embryo, hypocotyl)      	M95   	Hofte, Caboche      <BR>
+HBA   	High level beta amylase 1          	M97   	Nakamura            <BR>
+HBT   	Hobbit (root defective)            	YB    	Scheres             <BR>
+HCF   	High chlorophyll fluorescent       	YB    	Green, Dinkins      <BR>
+HCR   	High CO2 requiring                 	YB    	Artus, Somerville   <BR>
+HCS   	High CO2 sensitive                 	YB    	Artus, Somerville   <BR>
+HDD   	Hadad (female gametophytic lethal) 	9/97  	Grossniklaus        <BR>
+HER   	Hypocotyl elongation repressed     	N96   	Nagatani            <BR>
+HEX   	Hexose analog resistant            	YB    	Cobbett             <BR>
+HLL   	Huellenlos (ovule defective)       	N96   	Pruitt              <BR>
+HLS   	Hookless (ethylene response)       	YB    	Ecker               <BR>
+HOF   	Hoof (root defective)              	YB    	Benfey              <BR>
+HOG   	Altered transgene silencing        	2/98  	Furner              <BR>
+HOS   	High response to osmotic stress    	6/96  	Jian-Kang Zhu       <BR>
+HOT   	Hosoba toge toge (narrow leaf) Dele	4/96  	Araki               <BR>
+HPT   	Hauptling (allelic to AMP1)        	-/95  	Jurgens             <BR>
+HRT   	Heartless (embryo defective)       	YB    	Harada              <BR>
+HRY   	Discontinued (now LEC)             	YB    	Harada              <BR>
+HSE   	Heart shaped embryo                	9/95  	Goto                <BR>
+HST   	Hasty (altered trichome distributio	YB    	Telfer, Poethig     <BR>
+HTH   	Hothead (organ fusion)             	9/96  	Pruitt, Lolle       <BR>
+HUA   	Enhancer of ag-4                   	9/97  	Chen, Meyerowitz    <BR>
+HVT   	Helicase vascular/tapetum (gene tra	9/97  	Lindsey             <BR>
+HXC   	Hypersensitivity to Xanthomonas cam	8/95  	Van Montagu, Roby   <BR>
+HY    	Elongated hypocotyl in light       	YB    	Koornneef, Chory    <BR>
+HYA   	Hyade (root defective)             	2/95  	Hauser              <BR>
+HYD   	Hydra (defective seedling)         	9/97  	Lindsey             <BR>
+IAD   	Increased apical dominance         	12/96 	Kakutani            <BR>
+IAE   	Increased Ac-excision              	YB    	Dean                <BR>
+IAR   	IAA-alanine resistant              	3/95  	Bartel, Fink        <BR>
+IBC   	Induced by cytokinin (gene)        	7/97  	Kieber              <BR>
+ICR   	IAA conjugate resistant            	2/94  	Town                <BR>
+ICU   	Incurvata (rolled leaf margins)    	1/96  	Micol               <BR>
+ICX   	Increased chalcone synthase express	N96   	Jenkins             <BR>
+IFE   	Increased FAD3 expression          	2/97  	Browse              <BR>
+ILR   	IAA-leucine resistant              	3/95  	Bartel, Fink        <BR>
+IM    	Immutans (variegated)              	YB    	Redei, Koornneef    <BR>
+IND   	Indecisive (shoot meristem defect) 	YB    	Pickett, Meeks-Wagne<BR>
+INO   	Inner, no outer (ovule defective)  	YB    	Gasser              <BR>
+INV   	Involute leaf                      	YB    	Comai               <BR>
+IRN   	Yellow-green                       	3/95  	Groom               <BR>
+IRX   	Irregular xylem                    	M95   	Turner, Somerville  <BR>
+IV    	Involuta (leaf shape, early floweri	YB    	Relichova           <BR>
+IVR   	Invasive root                      	YB    	Sung                <BR>
+IXR   	Isoxaben resistant                 	YB    	Heim, Larrinua      <BR>
+JIN   	Jasmonate insensitive              	M97   	Berger, Mullet      <BR>
+JRX   	Jumbo rocks (tracheary defective)  	M97   	Sieburth            <BR>
+KAK   	Kaktus (abnormal trichomes)        	YB    	Jurgens, Hulskamp   <BR>
+KE    	Altered starch in leaves           	M95   	Chen                <BR>
+KEU   	Keule (embryo defective)           	YB    	Jurgens             <BR>
+KIM   	Kimagure (root hair defective)     	-     	Okada               <BR>
+KLK   	Klunker (embryo defective)         	YB    	Jurgens             <BR>
+KN    	Knolle (embryo defective)          	YB    	Jurgens             <BR>
+KNB   	Knobhead (leaf mutant)             	YB    	Feldmann            <BR>
+KNF   	Knopf (embryo defective)           	YB    	Jurgens             <BR>
+KNK   	Kinky (leaf mutant)                	YB    	Feldmann            <BR>
+KNO   	Knotted root                       	YB    	Sung                <BR>
+KOR   	Korrigan (short deformed hypocotyl)	M97   	Nicol, Hofte        <BR>
+LAD   	Late anther dehiscence             	9/95  	Aerts               <BR>
+LAG   	Late germinating                   	M97   	Campanella          <BR>
+LAL   	Laelli (ovule defective)           	N96   	Pruitt              <BR>
+LAN   	Lanceolate (narrow leaves)         	YB    	Koornneef           <BR>
+LAP   	Less adherent pollen               	11/97 	Preuss              <BR>
+LAT   	Laterne (cotyledons missing)       	-/95  	Jurgens             <BR>
+LBA   	Low level beta amylase             	8/97  	Nakamura            <BR>
+LC    	Lucida (light green)               	YB    	Relichova           <BR>
+LCT   	Low CAB 140 transcript             	YB    	Brusslan, Tobin     <BR>
+LD    	Luminidependans (late flowering)   	YB    	Redei               <BR>
+LE    	Lepida (dwarf, see PA)             	YB    	McKelvie, Koornneef <BR>
+LEC   	Leafy cotyledon                    	YB    	Meinke              <BR>
+LES   	Disease lesion mimic               	YB    	Ryals               <BR>
+LET   	Lettuce (large leaves)             	3/97  	van der Graaff      <BR>
+LFY   	Leafy (floral defective)           	YB    	Meyerowitz, Haughn  <BR>
+LHY   	Late flowering                     	M95   	Coupland            <BR>
+LIT   	Lions tail (root defective)        	YB    	Benfey              <BR>
+LOC   	Yellow green                       	3/95  	Groom               <BR>
+LOS   	Low response to osmotic stress     	9/96  	Jian-Kang Zhu       <BR>
+LRI   	Lateral root indicator (gene trap) 	9/97  	Lindsey             <BR>
+LS    	Light sensitive (chlorotic in high 	YB    	Hirschberg          <BR>
+LSD   	Lesions simulating disease resistan	-/94  	Dietrich, Dangl,Dela<BR>
+LU    	Lutescens (yellow-green)           	YB    	Lee-Chen, Koornneef <BR>
+LUG   	Leunig (floral defective)          	3/95  	Liu, Meyerowitz     <BR>
+LUT   	Lutein deficient                   	M95   	Della Penna         <BR>
+LY    	Lycopodioformia (forked inflorescen	YB    	Relichova           <BR>
+MAN   	Mangled (embryo cell wall defect)  	M97   	Somerville          <BR>
+MAT   	Defective seed coat and root       	YB    	Valvekens           <BR>
+MCD   	Meiotic chromosome disruption      	3/97  	Vizir               <BR>
+MEA   	Medea (female gametophytic emb def.	4/96  	Grossniklaus        <BR>
+MED   	Medusa                             	YB    	Mitchell-Olds       <BR>
+MIC   	Mickey (embryo defective)          	YB    	Jurgens             <BR>
+MIG   	Mannose Insensitive Germination    	8/96  	Smeekens            <BR>
+MIN   	Miniature (semi dwarf)             	YB    	Koornneef           <BR>
+MLH   	Knockout of AtMLH1                 	M97   	Jean, Belzile       <BR>
+MNP   	Monopole (embryo defective)        	2/98  	Lukowitz            <BR>
+MOD   	* duplicate * Modifier of DWF1 (Dil	8/94  	Dilkes, Feldmann / L<BR>
+MOG   	Mollig (ovule defective)           	N96   	Pruitt              <BR>
+MP    	Monopteros (embryo defective)      	YB    	Jurgens             <BR>
+MS    	Male sterile                       	YB    	Many labs           <BR>
+MSD   	Megasporogenesis defective         	M95   	Schneitz            <BR>
+MSH   	Many shoots                        	N96   	Kakimoto            <BR>
+MTO   	Methionine over accumulation       	3/94  	Naito               <BR>
+MTP   	Multipetala                        	M95   	Running, Meyerowitz <BR>
+MTR   	Methyl tryptophan resistant (see AM	YB    	Koornneef           <BR>
+MUM   	Mucilage modified seed mutant      	1/96  	Western, Haughn     <BR>
+MUN   	Multinucleate (root cytokinesis def	M97   	Hauser              <BR>
+MUR   	Cell wall mutant                   	YB    	Reiter/Chapple      <BR>
+MW    	Mowe (embryo, hypocotyl)           	M95   	Berleth             <BR>
+MYB   	Knockout of MYB gene               	M97   	Kranz, Paz-Ares     <BR>
+NAR   	Gnarly (leaf mutant)               	YB    	Feldmann            <BR>
+NDR   	Non race-specific disease resistanc	-/94  	Staskawicz          <BR>
+NIA   	Nitrate reductase defective        	YB    	Crawford, Cheng     <BR>
+NII   	Nitrite reductatse defective       	YB    	Crawford            <BR>
+NIM   	Non-inducible immunity             	YB    	Delaney, Ryals      <BR>
+NIT   	Resistant to Indole-3-acetonitrile 	4/96  	Bartel              <BR>
+NOK   	Noeck (trichome defective)         	6/97  	Hulskamp            <BR>
+NPH   	Non-phototroping hypocotyl         	2/94  	Liscum, Briggs      <BR>
+NPQ   	Defective in nonphotochemical quenc	8/96  	Niyogi, Grossman, Bj<BR>
+NPR   	Non-expression of PR genes         	4/94  	Bowling/Dong        <BR>
+NRG   	Nitrate regulatory defect          	YB    	Crawford            <BR>
+NRT   	Nitrate transport defective        	YB    	Crawford            <BR>
+NZZ   	Nozzle (ovule defective)           	N96   	Pruitt              <BR>
+OLT   	Old timer                          	YB    	Medford             <BR>
+OMR   	L-O-methylthreonine resistant      	YB    	Mourad, King        <BR>
+ORC   	Orc (root defective)               	YB    	Scheres             <BR>
+ORN   	Ornata (stem morphology)           	YB    	vandeLoo, Somerville<BR>
+OVM   	Female sterile, ovule mutant       	YB    	Fischer             <BR>
+PA    	Discontinued (now LE)              	YB    	Kranz, Scheidemann  <BR>
+PAC   	Pale cress (chloroplast defective) 	YB    	Scolnik             <BR>
+PAD   	Phytoalexin deficient              	YB    	Glazebrook, Ausubel <BR>
+PAN   	Extra perianth organs              	YB    	Running, Meyerowitz <BR>
+PBS   	avrPphB susceptible (P. syringae)  	4/97  	Innes               <BR>
+PCM   	Pale leaves in culture             	YB    	Dean                <BR>
+PCO   	Phosphoglycolate phosphatase defici	YB    	Somerville, Ogren   <BR>
+PDS   	Phytoene desaturation (ABA deficien	YB    	Della Penna         <BR>
+PFC   	Paleface (chlorotic at 5 C)        	M97   	Browse              <BR>
+PFL   	Pointed first leaves               	YB    	Van Lijsebettens    <BR>
+PFS   	Pretty few seeds (ovule defective) 	M97   	Gasser              <BR>
+PGM   	Phosphoglucomutase deficient       	YB    	Caspar, Koornneef   <BR>
+PHD   	Pothead (organ fusion)             	9/96  	Pruitt, Lolle       <BR>
+PHO   	Low inorganic phosphate            	YB    	Poirier, Somerville <BR>
+PHX   	Phoenix                            	6/96  	Dangl               <BR>
+PHY   	Phytochrome mutants (revised)      	1/94  	Community effort    <BR>
+PI    	Pistillata (floral defective)      	YB    	Koornneef           <BR>
+PIC   	Pinocchio (root/embryonic defect)  	8/94  	Benfey              <BR>
+PID   	Pinoid (meristem defective)        	YB    	Smyth               <BR>
+PIN   	Pin-formed (floral defective)      	YB    	Goto, Kranz, Okada  <BR>
+PIP   	Pippin (meristem defective)        	7/95  	McKhann, Scheres    <BR>
+PKL   	Pickle (root defective)            	M97   	Ogas, Somerville    <BR>
+PLC   	Polychome (trichome defective)     	M97   	Hulskampt, Herzog   <BR>
+PLE   	Pleidade (root defective)          	2/95  	Hauser              <BR>
+PLF   	Proliferous (formerly FEC)         	7/95  	Hensel-Burke, Bleeck<BR>
+PLS   	Polaris (gene trap)                	9/97  	Lindsey             <BR>
+PLU   	Pluto (root defective)             	2/95  	Hauser              <BR>
+PNH   	Pinhead                            	-/94  	Barton              <BR>
+PNL   	Pointed leaves                     	3/97  	van der Graaff      <BR>
+POC   	Photo current mutants              	12/97 	Halliday            <BR>
+POL   	Poltergeist (suppressor of CLV)    	M97   	Clark               <BR>
+POM   	Pom-pon (root defective)           	YB    	Benfey              <BR>
+POP   	Pollen-pistil incompatibility      	YB    	Preuss              <BR>
+PPT   	Phosphate/phosphoenolpyruvate trans	7/97  	Chory               <BR>
+PRC   	Procuste (short, deformed hypocotyl	6/95  	Hofte, Caboche      <BR>
+PRL   	Prolifera (gametophyte, embryo)    	2/95  	Springer, Martiensse<BR>
+PRO   	Proembryo (embryo defective)       	YB    	Koltunow, Goldberg  <BR>
+PRS   	Pressed flower                     	12/97 	Matsumoto, Okada    <BR>
+PRT   	Proteolysis                        	-/93  	Bachmair            <BR>
+PSD   	Paused                             	3/95  	Poethig             <BR>
+PSI   	Phytochrome signalling             	4/95  	Mayer, Chua         <BR>
+PSR   	Pseudomonas syringae resistance    	7/95  	Greenberg           <BR>
+PST   	Photoautotrophic salt tolerance    	12/96 	Kobayashi           <BR>
+PSV   	Pseudoverticillata                 	YB    	Relichova           <BR>
+PT    	Primordia timing (allelic to AMP1) 	YB    	Vizir               <BR>
+PTL   	Petal loss, petaless               	M/95  	Smyth, Conceicao    <BR>
+PUP   	Phosphatase underproducers         	6/95  	Deikman             <BR>
+PWK   	Patchwork (leaf cell patterning)   	7/97  	Martiennsen, Gu     <BR>
+PY    	Pyrimidine requiring               	YB    	Redei, Feenstra     <BR>
+QRT   	Quartet (pollen tetrad defect)     	YB    	Preuss              <BR>
+QUI   	Discontinued (see PRC)             	11/94 	Benfey              <BR>
+RAB   	Rabbit ears                        	12/97 	Matsumoto, Okada    <BR>
+RAC   	Resistant to Albugo candida        	YB    	Benyon              <BR>
+RAD   	Hypersensitive to gamma radiation  	YB    	Mount               <BR>
+RAM   	Reduced B-amylase                  	M97   	Gibson              <BR>
+RAN   	Responsive to antagonist           	10/97 	Ecker               <BR>
+RCA   	Regulation of carboxylase activatio	YB    	Somerville          <BR>
+RCN   	Resistant to NPA                   	M95   	Soll                <BR>
+RCT   	Resistant to beet curly top virus  	7/95  	Davis               <BR>
+RCU   	Recurvata (rolled leaf margins)    	1/96  	Micol               <BR>
+RD    	Rotundata (leaf shape)             	YB    	Relichova           <BR>
+RDO   	Reduced dormancy                   	6/95  	Koornneef           <BR>
+RDS   	Regulation of desaturases in seeds 	3/94  	Kunst               <BR>
+RE    	Reticulata (dark veins)            	YB    	Redei, Koornneef    <BR>
+REB   	Root epidermal bulger              	YB    	Williamson          <BR>
+REC   	Reduced root chirality             	M97   	Migliaccio          <BR>
+RED   	Red light elongated                	7/95  	Quail               <BR>
+REL   	Root expression of RBCL            	11/95 	Kobayashi           <BR>
+REM   	Round embryo                       	3/95  	Vernon, Meinke      <BR>
+RES   	Root expression of RBCS            	11/95 	Kobayashi           <BR>
+REV   	Revolute leaf                      	YB    	Comai               <BR>
+RGA   	Repressor of GA1-3                 	9/96  	Silverstone, Sun    <BR>
+RGM   	Rapid germination                  	YB    	Galau               <BR>
+RGN   	Chlorate resistant (CHL4)          	YB    	Feenstra, Koornneef <BR>
+RGR   	Reduced root gravitropism (allelic 	YB    	Simmons, Caspar, Sol<BR>
+RHA   	Root-handedness altered            	4/97  	Migliaccio          <BR>
+RHD   	Root hair defective                	YB    	Schiefelbein        <BR>
+RHL   	Root hairless                      	9/97  	Schneider, Roberts  <BR>
+RML   	Root meristemless                  	M95   	Sung                <BR>
+ROD   	Reduced oleate desaturation        	YB    	Browse, Somerville  <BR>
+ROT   	Rotundifolia (leaf expansion defect	M95   	Uchimiya            <BR>
+ROZ   	Resistant to ozone                 	9/95  	Conklin, Last       <BR>
+RP    	Proline resistant                  	YB    	van Montagu         <BR>
+RPB   	Reaction to Plasmodiophora brassica	N96   	Koehn, Sacristan    <BR>
+RPG   	Rapid precocious germination       	YB    	Galau               <BR>
+RPM   	Resistance to Pseudomonas syringae 	YB    	Dangl               <BR>
+RPP   	Recognition of Peronospora parasiti	YB    	Benyon, Holub       <BR>
+RPS   	Resistant to Pseudomonas syringae  	YB    	Staskawicz, Ausubel <BR>
+RPT   	Root phototropism                  	8/95  	Okada               <BR>
+RPW   	Recognition of Powdery Mildew      	8/95  	S. Somerville, Olive<BR>
+RS    	Resistant to salt                  	YB    	Saleki              <BR>
+RSW   	Radially swollen root              	YB    	Williamson          <BR>
+RTN   	Reduced trichome number            	4/95  	Marks               <BR>
+RTS   	Retsina (abnormal trichomes)       	YB    	Jurgens, Hulskamp   <BR>
+RTY   	Rooty                              	M95   	Olszewski           <BR>
+RXA   	Resistant to Xanthomonas campestris	YB    	Lazo                <BR>
+RXC   	Reaction to Xanthomonas campestris 	YB    	Buell, S. Somerville<BR>
+SAB   	Sabre (root defective)             	YB    	Benfey              <BR>
+SAD   	Salt (NaCl) addiction              	YB    	Lehle, Kahn         <BR>
+SAI   	Salicyclic acid insensitive        	N96   	Klessig             <BR>
+SAM   	Shoot apical meristem defective    	-/94  	Barton              <BR>
+SAP   	Sterile apetala                    	M95   	Byzova, Angenent    <BR>
+SAR   	Suppressor of auxin resistance     	YB    	Estelle             <BR>
+SAS   	Sodium super-accumulation in shoot 	5/97  	Berthomieu          <BR>
+SAT   	Serine-glyoxylate aminotrasferase d	YB    	Somerville, Ogren   <BR>
+SAX   	Hypersensitive to ABA, auxin       	9/97  	Barbier-Brygoo      <BR>
+SCF   	Scarface (leaf/cotyl. venation defe	M97   	Sieburth            <BR>
+SCH   	Starch accumulating root           	YB    	Sung                <BR>
+SCL   	Scarecrow like (genes)             	11/97 	Benfey              <BR>
+SCO   	Scoop (ovule defective)            	12/95 	Gasser              <BR>
+SCP   	Side car pollen                    	6/95  	Chen, McCormick     <BR>
+SCR   	Scarecrow (root defective)         	3/94  	DiLaurenzio, Benfey <BR>
+SDD   	Stomatal density, distribution     	M97   	Altmann             <BR>
+SDR   	Sulfadiazine resistant             	YB    	Mourad, King        <BR>
+SE    	Serrate                            	2/96  	Redei, Meeks Wagner <BR>
+SEL   	Selenate resistant                 	M97   	Rose                <BR>
+SEM   	Semisterile                        	8/97  	Drews               <BR>
+SER   	Serrated leaf                      	YB    	Feldmann            <BR>
+SEX   	Starch excess (formerly SOP)       	YB    	Caspar              <BR>
+SFR   	Sensitive to freezing              	8/94  	Warren              <BR>
+SFT   	Suppressor of FT                   	M97   	Araki               <BR>
+SGR   	Reduced gravitropic response       	1/96  	Fukaki              <BR>
+SGS   	Suppressor of gene silencing       	M97   	Vaucheret           <BR>
+SHI   	Short internodes                   	3/97  	Sundberg            <BR>
+SHL   	Discontinued (now STM)             	YB    	Barton, Poethig     <BR>
+SHR   	* duplicate *Short root(Benfey) AND	YB    	Benfey / Sung       <BR>
+SHS   	Suppressor of FAB                  	3/95  	Lightner, Browse    <BR>
+SHT   	Short tap, long lateral root       	YB    	Sung                <BR>
+SHY   	Short hypocotyl (suppressor of HY) 	M95   	Chory, Nam          <BR>
+SHZ   	Schizoid (vegetative shoot apex)   	YB    	Medford             <BR>
+SID   	Salicylic acid induction deficient 	6/96  	Nawrath, Metraux    <BR>
+SIG   	Sucrose insensitive growth         	2/98  	Smeekens            <BR>
+SIL   	Altered transgene silencing        	2/98  	Furner              <BR>
+SIN   	*duplicate* Short integuments (Prui	YB    	Pruitt, Gasser / Cha<BR>
+SIS   	Sucrose insensitive                	YB    	Gibson, Somerville  <BR>
+SKL   	Skp-like (see also ASK)            	12/97 	Ma                  <BR>
+SKU   	Skewed root growth on agar         	3/95  	Masson              <BR>
+SLY   	Sleepy (GA-insensitive suppressor o	12/97 	McCourt             <BR>
+SMA   	Symptoms to multiple avirulence gen	8/95  	Innes               <BR>
+SMD   	Sporophyte, megagametogenesis defec	M95   	Schneitz            <BR>
+SNE   	Curled trichomes, short root hairs 	YB    	Marks               <BR>
+SNF   	Snuffleupagus (female sterile)     	1/98  	Gasser              <BR>
+SNG   	Sinapoyl glucose accumulator       	5/96  	Chapple             <BR>
+SNO   	Snowball (floral defective)        	YB    	Williams, Meyerowitz<BR>
+SNS   	Spontaneous necrotic spots         	3/97  	van der Graaff      <BR>
+SNV   	Supernova (overexpression of CAB2:L	1/96  	Strayer, Kay        <BR>
+SOL   	Solo (uninuclear pollen)           	6/96  	Twell, Howden       <BR>
+SOM   	Somniferous (epigenetic silencing d	M97   	Paszkowski          <BR>
+SON   	Suppressor of NIM                  	9/96  	Delaney             <BR>
+SOP   	Discontinued (now SEX1)            	-     	Caspar              <BR>
+SOR   	Suppressor of rps2                 	7/97  	Kunkel              <BR>
+SOS   	Salt overly sensitive              	9/96  	Jian-Kang Zhu       <BR>
+SOT   	Suppressor of TRP2                 	YB    	Mahoney, Fink       <BR>
+SOZ   	Sensitive to ozone                 	9/95  	Conklin, Last       <BR>
+SPE   	Spermine/spermidine deficient      	YB    	Malmberg            <BR>
+SPI   	Spirrig (abnormal trichomes)       	YB    	Jurgens, Hulskamp   <BR>
+SPL   	Sporocyteless (sterile)            	3/98  	Yang                <BR>
+SPM   	Resistant to spermine              	6/95  	Mirza               <BR>
+SPN   	Spoon (embryo defective)           	M95   	Berleth             <BR>
+SPP   	Tightly clustered inflorescence    	9/95  	Goto                <BR>
+SPR   	Spermine resistant (Mirza) AND Spir	8/95  	Mirza / Hashimoto   <BR>
+SPT   	Spatula (floral defective)         	YB    	Smyth               <BR>
+SPY   	Spindly (altered GA transduction)  	YB    	Olszewski           <BR>
+SQD   	Sulfolipid (sulfoquinovosyl diacylg	10/96 	Benning             <BR>
+SRD   	Shoot redifferentiation defective  	-     	Yasutani            <BR>
+SRH   	Short root hairs                   	3/97  	van der Graaff      <BR>
+SSA   	Super-sensitive to auxin           	2/98  	Reed, Krall         <BR>
+SSR   	Small subunit ribosomal protein    	5/96  	Tsugeki, Fedoroff   <BR>
+SSS   	Sucrose super sensitive            	2/98  	Smeekens            <BR>
+SST   	Stomatal signal transduction       	-/94  	Kearns              <BR>
+STA   	Stachel (abnormal trichomes)       	YB    	Jurgens, Hulskamp   <BR>
+STD   	Stud (PMC cytokinesis defective)   	2/97  	Pruitt              <BR>
+STE   	Ovule defective                    	M95   	Gasser              <BR>
+STF   	Starch free                        	-     	Caspar              <BR>
+STI   	Stichel (unbranced trichomes)      	YB    	Jurgens, Hulskamp   <BR>
+STM   	* duplicate *Serine transhydroxymet	YB    	Somerville, Ogren   <BR>
+STP   	Stunted plant                      	YB    	Williamson          <BR>
+STR   	Stunted root                       	YB    	Sung                <BR>
+STU   	Stumpy                             	8/94  	Kuhn                <BR>
+SU    	Suppressor of CHL4                 	YB    	Braaksma, Feenstra  <BR>
+SUB   	Strubbelig (ovule defective)       	N96   	Pruitt              <BR>
+SUL   	Sulfurata                          	YB    	Redei               <BR>
+SUN   	Sucrose uncoupled                  	7/96  	Smeekens            <BR>
+SUP   	Superman (floral defective)        	YB    	Bowman, Meyerowitz  <BR>
+SUR   	Super root                         	YB    	Boerjan, Inze, Belli<BR>
+SUS   	Abnormal suspensor                 	11/93 	Schwartz, Meinke    <BR>
+SUZ   	Suppressor of zwichel trichomes    	M97   	Oppenheimer         <BR>
+SYN   	Meiotic synaptic defective         	8/96  	Peirson             <BR>
+TAG   	Triacylglycerol biosynthesis defect	11/94 	Kunst               <BR>
+TAR   	Tarantula (vegetative, floral defec	M97   	Meyerowitz          <BR>
+TBR   	Trichome birefringence             	YB    	Delmer              <BR>
+TCI   	Slender peaked petal               	9/95  	Goto                <BR>
+TCU   	Transcurvata (rolled leaf margins) 	1/96  	Micol               <BR>
+TDM   	Meiosis defective (three division m	3/97  	Vizir               <BR>
+TED   	Suppressor of DET                  	YB    	Chory               <BR>
+TES   	Tetraspore                         	9/96  	Preuss              <BR>
+TFA   	Things fall apart (ectopic cell sep	M97   	Bleecker            <BR>
+TFL   	Terminal flower                    	YB    	Meeks Wagner, Smyth <BR>
+TH    	Thiamine requiring                 	YB    	Li, Redei, Koornneef<BR>
+THD   	Thunderhead                        	9/96  	Pruitt, Lolle       <BR>
+TIC   	Circadian timing defective         	YB    	Millar, Kay, Chua   <BR>
+TIN   	Tinman (embryo defective)          	YB    	Harada              <BR>
+TIP   	Tip growth defective               	YB    	Schiefelbein        <BR>
+TIR   	Auxin transport inhibitor resistant	YB    	Estelle             <BR>
+TIS   	Auxin transport inhibitor hypersens	YB    	Estelle             <BR>
+TLM   	Timing of leaf movements           	9/97  	Carre               <BR>
+TMM   	Too many mouths (stomata)          	YB    	Sack                <BR>
+TNY   	Tiny                               	9/95  	Coupland            <BR>
+TOC   	Timing of CAB1                     	YB    	Millar, Kay, Chua   <BR>
+TOL   	Altered tolerance to black rot     	9/95  	Buell               <BR>
+TOM   	Tobamovirus multiplication         	YB    	Ishikawa, Naito     <BR>
+TON   	Tonneau (preprophase band defective	7/95  	Traas, Caboche      <BR>
+TOR   	Tortifolia (twisted petioles)      	YB    	Robbelen, Schaeffner<BR>
+TOS   	Constitutive response to osmotic st	9/96  	Jian-Kang Zhu       <BR>
+TPL   	Topless (SAM defective)            	M97   	Barton              <BR>
+TRL   	Troll (root defective)             	YB    	Scheres             <BR>
+TRN   	Tornado (twisted dwarf)            	YB    	Cnops, van Lijsebett<BR>
+TRP   	Tryptophan auxotroph               	YB    	Last, Fink          <BR>
+TRY   	Triptychon (clustered trichomes)   	YB    	Jurgens, Hulskamp   <BR>
+TSL   	Tousled (floral defective)         	YB    	Roe, Zambryski      <BR>
+TSO   	Tso (floral defective)             	YB    	Liu, Meyerowitz     <BR>
+TT    	Transparent testa                  	YB    	Koornneef           <BR>
+TTG   	Transparent testa, glabrous        	YB    	Koornneef           <BR>
+TTM   	Tom two mutation modifier 1        	8/97  	Ishikawa            <BR>
+TTN   	Titan (embryo defective)           	5/96  	Meinke              <BR>
+TTR   	Tolerance to tobacco ringspot virus	7/95  	Hartman             <BR>
+TUG   	Tumorous growth                    	M95   	Rhee, Somerville    <BR>
+TWD   	Twisted dwarf                      	YB    	Feldmann            <BR>
+TWN   	Twin embryos                       	YB    	Vernon, Meinke      <BR>
+TYA   	Tistrya (female gametophytic lethal	2/98  	Grossniklaus        <BR>
+TZ    	Thiazole requiring                 	YB    	Redei, Feenstra     <BR>
+UCN   	Unicorn (ovule defective)          	6/96  	Pruitt, Schneitz    <BR>
+UCU   	Ultracurvata (leaves curved at midr	1/96  	Micol               <BR>
+UDS   	Underdeveloped shoot               	3/97  	van der Graaff      <BR>
+UFO   	Unusual floral organs              	YB    	Haughn, Meyerowitz  <BR>
+UPS   	Underinducer pathogen and stress   	2/98  	Last                <BR>
+UVH   	Ultraviolet hypersensitive         	YB    	Mount               <BR>
+UVR   	UV repair defective                	YB    	Britt, Mitchell     <BR>
+UVS   	Ultraviolet light hypersensitive   	3/97  	Chatterjee          <BR>
+VAL   	Valine resistant                   	7/95  	King                <BR>
+VAR   	Variegated                         	YB    	Martinez Zapater    <BR>
+VCH   	Vertically challenged (cell elongat	9/97  	Lindsey             <BR>
+VCS   	Varicose (ectopic tracheary element	M97   	Sieburth            <BR>
+VEN   	Venosa (yellow leaves, green veins)	1/96  	Micol               <BR>
+VI    	Viridis (dark green, round leaves) 	YB    	Redei               <BR>
+VICI  	Virus-induced corymb-like infloresc	N96   	Citovsky            <BR>
+VIP   	Discontinued (now CAF)             	3/95  	Jacobsen, Meyerowitz<BR>
+VIR   	Virscent                           	M95   	Tobin               <BR>
+VR    	Virescens                          	YB    	Redei               <BR>
+VRN   	Reduced vernalization response     	YB    	Dean                <BR>
+VSM   	Virus systemic movement            	N96   	Citovsky            <BR>
+VTC   	Vitamin C (ascorbate) defective    	6/97  	Conklin, Last       <BR>
+WAM   	Waldmeister (distorted shoot)      	2/94  	Morris              <BR>
+WAV   	Wavy roots                         	YB    	Okada               <BR>
+WAX   	Wax defective in leaves            	1/95  	Feldmann            <BR>
+WCO   	White cotyledons                   	7/97  	Yamamoto            <BR>
+WDY   	Woody (tracheary elements in cots) 	M97   	Sieburth            <BR>
+WEN   	Wendell (floral defective)         	YB    	Williams, Meyerowitz<BR>
+WHG   	Warthog (tracheary elements around 	M97   	Sieburth            <BR>
+WIG   	Wiggum (increased floral organ numb	M97   	Meyerowitz          <BR>
+WLC   	Wavy leaves, cotyledons curled back	YB    	Dean                <BR>
+WOL   	Wooden leg (root defective)        	M95   	Benfey              <BR>
+WRG   	Warg (root defective)              	YB    	Scheres             <BR>
+WRI   	Wrinkled seed                      	M95   	Benning             <BR>
+WRM   	Wurm (abnormal trichomes)          	YB    	Jurgens, Hulskamp   <BR>
+WUS   	Wuschel (shoot meristem defective) 	N96   	Laux                <BR>
+WVC   	Root defective                     	M95   	Masson              <BR>
+WVD   	Altered root waves on tilted agar  	M97   	Masson              <BR>
+WVS   	Wavy sepal                         	12/96 	Kakutani            <BR>
+WZL   	Wurzellos (embryo, hypocotyl)      	M95   	Berleth             <BR>
+XAV   	Xantha variegation (pigment)       	YB    	Mednik, Usmanov     <BR>
+XCL   	Extra cyclin levels (overexpress cy	6/97  	Celenza             <BR>
+XRS   	Hypersensitive to X-irradiation    	M97   	Paszkowski          <BR>
+XTC   	Extra cotyledon (leaf morphology)  	YB    	Conway, Poethig     <BR>
+XV    	Xantha-viridis (yellow cotyledons a	YB    	Redei               <BR>
+YAK   	Yakka (disrupted inflorescence)    	-/94  	Smyth               <BR>
+YI    	Yellow inflorescence               	YB    	Koornneef           <BR>
+YOR   	Yosemite resistance                	-/96  	Morris, Schaeffner  <BR>
+ZIG   	Zig zag stem                       	7/96  	Tasaka              <BR>
+ZLL   	Zwille (shootless)                 	YB    	Jurgens             <BR>
+ZWI   	Zwichel (abnormal trichomes)       	YB    	Jurgens, Hulskamp   <BR>
+
+<HR>
+<B><I>Total number of symbols in list: 723</I></B>
+</pre>
+<ADDRESS>Contact <A HREF = mailto:meinke@osuunx.ucc.okstate.edu>David Meinke</a> for corrections or requests for
+more information.
+</ADDRESS><P>
+<BR>
+<a href="genepage.html"><IMG SRC="back.gif" BORDER = 0></a><BR>
+<A HREF="genepage.html">Back</A><P>
+</BODY></HTML>

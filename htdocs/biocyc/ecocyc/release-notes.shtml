@@ -1,0 +1,2111 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+<title>
+EcoCyc Release History
+</title>
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<!-- EcoCyc Release Notes -->
+<h1>EcoCyc Release History</h1>
+
+This document summarizes the release history of EcoCyc.<P>
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics by Year</STRONG>
+</CAPTION>
+<TR>
+<TD> </TD>
+<TD>2005</TD>
+<TD>2004</TD>
+<TD>2003</TD>
+<TD>2002</TD>
+<TD>2001</TD>
+<TD>2000</TD>
+<TD>1999</TD>
+<TD>Description</TD>
+</TR>
+<TR>
+<TD>Pathways</TD>
+<TD>184</TD>
+<TD>182</TD>
+<TD>176</TD>
+<TD>164</TD>
+<TD>165</TD>
+<TD>165</TD>
+<TD>159</TD>
+<TD>Number of metabolic plus signaling pathways.  Excludes super-pathways.</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3939</TD>
+<TD>3676</TD>
+<TD>3177</TD>
+<TD>2862</TD>
+<TD>2604</TD>
+<TD>2115</TD>
+<TD>946</TD>
+<TD>Number of reactions -- includes metabolic reactions, transport reactions, reactions involving binding of transcription factors to their binding sites.</TD>
+</TR>
+<TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>1198</TD>
+<TD>1144</TD>
+<TD>992</TD>
+<TD>918</TD>
+<TD>905</TD>
+<TD>884</TD>
+<TD>629</TD>
+<TD>Number of enzymes that catalyze biochemical reactions.  </TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>198</TD>
+<TD>197</TD>
+<TD>169</TD>
+<TD>168</TD>
+<TD>162</TD>
+<TD>158</TD>
+<TD>13</TD>
+<TD>Number of transporters.</TD>
+</TR>
+<TR>
+<TD>Protein comments</TD>
+<TD>3676</TD>
+<TD>3503</TD>
+<TD>1929</TD>
+<TD>1030</TD>
+<TD>921</TD>
+<TD>846</TD>
+<TD>486</TD>
+<TD>Number of proteins that contain comments.</TD>
+<TD></TD>
+</TR>
+<TD>Genes</TD>
+<TD>4481</TD>
+<TD>4476</TD>
+<TD>4477</TD>
+<TD>4393</TD>
+<TD>4393</TD>
+<TD>4393</TD>
+<TD>4390</TD>
+<TD>Number of genes, including some that have not been pinned to the DNA sequence.</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>1127</TD>
+<TD>977</TD>
+<TD>828</TD>
+<TD>724</TD>
+<TD>629</TD>
+<TD>NA</TD>
+<TD>NA</TD>
+<TD>Number of transcription units -- includes operons and single-gene transcription-units.</TD>
+</TR>
+<TR>
+<TR>
+<TD>Citations</TD>
+<TD>11079</TD>
+<TD>9305</TD>
+<TD>6223</TD>
+<TD>3701</TD>
+<TD>3508</TD>
+<TD>3208</TD>
+<TD>1944</TD>
+<TD>Number of distinct references cited in EcoCyc.</TD>
+</TR>
+</TABLE>
+
+<P>Note: The statistics for each year pertain to the last EcoCyc version
+released in that year.
+<hr>
+<a name="9.5"></a>
+
+<H1>Release Notes for EcoCyc Version 9.5</H1>
+
+Released on September 30th, 2005.<P>
+<!-- Updated by: Ingrid Keseler, Aug-8-2005  -->
+
+<UL>
+<LI> There have been <i>many</i> enhancements to the Pathway Tools software used
+to query EcoCyc.  Please see the <a href="http://bioinformatics.ai.sri.com/ptools/release-notes.html">Pathway Tools Release Notes</a>
+for more details.  Highlights include: <p>
+
+<ul>
+<li> Many improvements to the Cellular Overview and Omics Viewer, including
+abilities to magnify the display of a pathway within the Overview and Omics
+Viewer, and the ability to generate a table of omics-colored
+pathway drawings for all pathways whose omics values exceed some threshold. <p>
+
+<li> A new suite of comparative genomics tools allows you to perform
+global comparisons among the 170 BioCyc DBs including EcoCyc.
+See the new <b>Comparative Analysis</b> section in the
+<a href="http://biocyc.org/server.html">BioCyc Query Page</a>. <p>
+
+<li> A new comparative genome browser allows you to visualize chromosomal
+regions containing orthologous genes from EcoCyc and the other 170 BioCyc
+databases. An example comparing <i>E. coli</i> and <i>Shigella flexneri</i> <i>bglH</i> orthologs is <a href="http://biocyc-dev/ECOLI/new-image?type=LOCUS-POSITION&object=(EG11364+YIEC)&orgids=(ECOLI+SHIGELLA)">here</a></font>. <p>
+
+</ul>
+
+<LI> We have added one new pathway to EcoCyc:
+<ul>
+<li><a href="http://BioCyc-dev/ECOLI/new-image?type=PATHWAY&object=PWY0-1221">putrescine degradation II</a>
+</ul> 
+<P>
+
+<LI> Annotations of 57 transcriptional regulators have been updated and checked.  Where experimental data
+was available, appropriate literature citations were added.  In addition, annotations of membrane 
+proteins have been updated and expanded, and we have added significant curation of proteins involved in 
+RNA degradation and processing.
+<P>
+
+<LI> In an ongoing effort to eliminate duplicate information, we have combined the display of 
+polypeptides and their homomultimers.  Due to this update, the reported number of proteins that have
+comments in EcoCyc has declined since version 9.1.
+<P>
+
+<hr>
+
+
+<a name="9.1"></a>
+
+<H1>Release Notes for EcoCyc Version 9.1</H1>
+
+Released on May 23, 2005.<P>
+<!-- Updated by: Ingrid Keseler, May-10-2005  -->
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>183</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3873</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>1186</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>197</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4477</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>1113</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>10747</TD>
+</TR>
+</TABLE>
+
+<UL>
+<LI> <b>EcoCyc has passed the 10,000 citation milestone!</b>
+<P>
+The information in EcoCyc has been derived from 10,747 peer-reviewed publications which are cited
+in the database.  EcoCyc curators integrate information
+from many biomedical publications.  They produce mini reviews of protein and RNA
+gene products that are stored as comments within those database objects.
+Of the 4465 polypeptides within EcoCyc, 3722 now have comments or citations or are components of a complex that has a comment or citations.  
+<P> 
+<LI> We have curated protein degradation and processing, including twenty-eight 
+proteases and peptidases and a number of functionally related proteins. 
+<P>
+<LI> We have added one new pathway to EcoCyc:
+<UL>
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=PWY0-1182">trehalose degradation II (high osmolarity)</a>
+</UL> 
+<P>
+<LI> We have analyzed the <i>E. coli</i> regulatory network in RegulonDB and EcoCyc in detail.  Differences between the two databases were mentioned in 
+<a href="http://nar.oupjournals.org/cgi/content/full/32/22/6643">Ma HW, et al., 2004,  Nucleic Acids Res. 2004 32(22):6643-9</a>.  We have identified all differences 
+and have generated a unified description of the regulatory network in terms of regulatory and regulated genes and proteins.
+<P>
+<LI> Annotations of transcriptional regulators have been updated and expanded.
+
+<P>
+
+<hr>
+
+<a name="9.0"></a>
+
+<H1>Release Notes for EcoCyc Version 9.0</H1>
+
+Released on February 25, 2005.<P>
+<!-- Updated by: Ingrid Keseler, Jan-17-2005  -->
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>183</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3634</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>1148</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>196</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4476</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>983</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>9873</TD>
+</TR>
+</TABLE>
+
+<UL>
+
+<LI> EcoCyc's coverage of complex cellular systems has grown.  We have recently entered or updated comments on 
+essential and non-essential cell division proteins in <i>E. coli</i>.  This curation was performed under the guidance of Dr. William Margolin 
+at the University of Texas, Houston.  In addition, we have curated a number of flagellar proteins and membrane lipoproteins.
+<P>
+<LI> Our general curation update project is progressing.  Of the 4463 polypeptides within EcoCyc, 3609 now have comments or citations or are components of a complex that has a comment or citations.  The database now contains 9873 citations. 
+<P> 
+<LI> We have added one new pathway to EcoCyc:
+<UL>
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=PWY-2161">folate polyglutamylation I</a>
+</UL> 
+<P>
+<LI> Due to our ongoing effort to eliminate duplicate binding sites of transcriptional regulatory proteins 
+in the promoter regions of divergently transcribed genes and operons, the number of reactions reported in EcoCyc has declined.
+<P>
+<LI> We have substantially reorganized and expanded our display of genes and transcription units on the gene pages.  In addition 
+to the gene and operon, we now display information on the surrounding genes and their 
+regulatory sites.  This allows visualization of potentially overlapping regulatory regions, and thus the 
+formulation of new hypotheses concerning transcriptional regulation.  For example, see <a href="ECOLI/new-image?type=GENE&object=EG12842"><i>ybjC</i></a>.
+<P>
+
+<LI> A new genome browser with expanded features implemented in the more common horizontal display format is available.  
+For example, see the browser centered around
+<A href="http://biocyc.org/ECOLI/new-image?type=FULL-MAP&object=EG10235"><i>dnaA</i></a>.
+Some of the key features are:<P>
+    <ul>
+      <LI> At the top of the page, the full chromosome is shown at low
+      resolution.  A selected region of the chromosome is displayed
+      at higher magnification in the lower part of the screen.
+
+      <LI> The full chromosome view at the very top indicates the magnified
+      region by means of a red, rectangular cursor.
+
+      <LI> Magnified regions are wrapped over several lines, thus showing
+      more context.
+
+      <LI> Several levels of semantic zooming show increasing detail upon
+      increased magnification.
+
+      <li> Protein ORFs are visually distinguished from RNA genes, and
+      genes belonging to the same operon are assigned the same color.
+
+      <LI> An improved navigation interface offers a panel of control arrows that
+      allow movement and zooming.  Additionally, basepair positions or a
+      gene name can be manually entered into text entry boxes to position the
+      browser.
+
+     <li> Mouse-over of genes shows gene names and intergenic distances
+     to the neighbors in basepairs.  Mouse-over of promoters shows the activating and
+     inhibiting transcription factors.
+    </ul>
+
+
+<hr>
+
+<a name="8.6"></a>
+
+<H1>Release Notes for EcoCyc Version 8.6</H1>
+
+Released on November 8, 2004.<P>
+<!-- Updated by: Ingrid Keseler, Nov-1-2004  -->
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>182</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3676</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>1144</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>197</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4476</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>977</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>9305</TD>
+</TR>
+</TABLE>
+
+<UL>
+
+<LI> This EcoCyc release includes updates derived from the revised 2004 <i>E. coli</i> K-12
+GenBank entry U00096.2, which supersedes the GenBank entry U00096.1 desposited by the Blattner laboratory in 1997.  A summary of the updates
+to EcoCyc is listed below.  <b>Please note that due to changes in U00096.1, the genes encoded by successive b-numbers above b4409 are not necessarily
+adjacent on the chromosome.</b>
+<P>
+<LI> Our curation update project is progressing.  Of the 4458 polypeptides within EcoCyc, 3503 now have comments or citations or are components of a complex that has a comment or citations.  The database now contains 9305 citations. 
+<P> 
+<LI>We have reorganized and added comments to three pathways in EcoCyc:
+<UL>
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=BGALACT-PWY">lactose degradation III</a> 
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=PWY0-381">glycerol and glycerophosphodiester degradation</a>
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=GLYCEROLMETAB-PWY">glycerol degradation II</a>
+</UL> 
+<P>
+<LI> Summary of the EcoCyc updates performed as a result of incorporating GenBank entry U00096.2:
+<P>
+<UL>
+<LI> The nucleotide sequence has been revised in 254 locations.  The revisions
+include insertions, deletions, and substitutions.   The
+Blattner laboratory provides a full list of sequence updates at URL
+<A href="http://www.genome.wisc.edu/sequencing/MG1655_update.xls">http://www.genome.wisc.edu/sequencing/MG1655_update.xls</A>.
+<P>
+<LI> Those sequence revisions necessitated updating all sequence features in
+EcoCyc including the locations of genes, transcription start sites, terminators, and transcription
+factor binding sites.  We are grateful to
+Tatiana Tatusov and James Ostell of NCBI for assistance in computing the new
+coordinates of these sequence features.  All EcoCyc version 8.6 gene sequence coordinates 
+were obtained directly from U00096.2, with the exception that in approximately 25 cases,
+the EcoCyc project has modified the extents of the genes based on information
+from the experimental literature.  However, coordinates of transcription start sites, terminators, and
+transcription factor binding sites in EcoCyc version 8.6 were derived from the EcoCyc version 8.5 coordinates, transformed
+to reflect the nucleotide sequence insertions and deletions.
+<P>
+<LI> U00096.2 modifies the <i>E. coli</i> gene list with deletions, additions, 
+merges, and splits, and those modifications have been imported into EcoCyc
+as follows.  Please note that gene names and product names were not imported from U00096.2
+into EcoCyc on a large scale because of the careful curation of these fields that has
+occurred in EcoCyc for many years.  However, for the genes below we did review all
+gene names and product names from U00096.2 and import them into EcoCyc when appropriate
+(e.g., for the created genes listed below).
+<P>
+<UL>
+<LI> The following genes were deleted:
+b0302
+b0322
+b0332
+b0395
+b0663
+b0667
+b0669
+b0671
+b1017
+b1030
+b1031
+b2391
+b3122
+b3837
+<P>
+<LI> The following genes were created:
+b4409
+b4411
+b4412
+b4415
+b4419
+b4420
+b4421
+b4422
+b4423
+b4424
+b4425
+b4428
+b4429
+b4447
+b4455
+<P>
+<LI> The following genes were merged:
+<UL>
+<LI> b2612 and b2613 were merged and became b4461
+<LI> b1898 and b1899 were merged and became b4460
+<LI> b2655 and b2656 were merged and became b4462
+<LI> b2772 and b2773 were merged and became b4463
+<LI> b2884 and b2885 were merged and became b4464
+<LI> b2931 and b2932 were merged and became b4465
+<LI> b2973 and b2974 were merged and became b4466
+<LI> b3015 and b3016 were merged and became b4469
+<LI> b3108 and b3109 were merged and became b4470
+<LI> b3111 and b3112 were merged and became b4471
+<LI> b3245 and b3246 were merged and became b4472
+<LI> b3285 and b3286 were merged and became b4473
+<LI> b3372 and b3373 were merged and became b4474
+<LI> b3419 and b3420 were merged and became b4475
+<LI> b3435 and b3436 were merged and became b4476
+<LI> b3694 and b3695 were merged and became b4479
+<LI> b3762 and b3763 were merged and became b4480
+<LI> b3814 and b3815 were merged and became b4482
+<LI> b3840 and b3841 were merged and became b4483
+<LI> b3913 and b3914 were merged and became b4484
+<LI> b4228 and b4229 were merged and became b4485
+<LI> b4343 and b4344 were merged and became b4486
+<LI> b4404 and b4405 were merged and became b4481
+<LI> b3948 was merged into b3947
+</UL>
+<P>
+<LI> The following genes were split:
+<UL>
+<LI> b2978 was split into b4467 and b4468
+<LI> b3692 was split into b4477 and b4478
+</UL>
+<P>
+<LI> The following genes changed b-numbers.  Many of these genes are interrupted genes that contain
+distinct IDs within EcoCyc, but are assigned a single b-number in U00096.2.
+<UL>
+<LI> b3767 and b3768 became b4488
+<LI> b1016 became b4490
+<LI> b1169 and b1170 became b4491
+<LI> b1401 and b1405 became b4492
+<LI> b1416 and b1417 became b4493
+<LI> b1720 and b1721 became b4494
+<LI> b1933 and b1934 became b4495
+<LI> b1964, b1965 and b1966 became b4496
+<LI> b1979 and b1980 became b4497
+<LI> b2087 and b2090 became b4498
+<LI> b2115, b2116 and b2117 became b4499
+<LI> b2227 and b2228 became b4500
+<LI> b4091 became b4487
+</UL>
+</UL>
+</UL>
+</UL>
+
+<hr>
+
+<a name="8.5"></a>
+
+<H1>Release Notes for EcoCyc Version 8.5</H1>
+
+Released on Sept. 17, 2004.<P>
+<!-- Updated by: Ingrid Keseler, Sep-21-2004  -->
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>182</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3629</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>1133</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>197</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4497</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>956</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>8862</TD>
+</TR>
+</TABLE>
+
+<UL>
+
+<LI> Our curation update project is progressing.  Of the 4478 polypeptides within EcoCyc, 3461 now have comments or citations or are components of a complex that has a comment or citations.  The database now contains 8862 citations. 
+<P>
+<LI> Coverage of regulation of transcription initiation has grown.  EcoCyc now describes 2393 specific interactions of transcription initiation (promoters and binding sites for regulators), including more than 1000 mapped transcription initiation sites with nearly 1400 binding sites for specific transcriptional regulatory factors (TFs).  Furthermore, the names of TFs have been standardized, describing whether a TF acts as a repressor, activator, or has a dual effect.  Comments on regulatory proteins have been expanded and updated.  Annotations include the active conformation of TFs with the associated signal metabolites, the evolutionary family to which they belong, and whether they are autoregulated.
+<P>
+<LI> The EcoCyc Cellular Overview diagram has been re-organized.  Metabolic pathways
+within the Overview are now grouped by classes, for example, all amino-acid biosynthetic
+pathways are grouped together on the diagram.  Mousing-over a shaded background
+region of the Overview will identify the class of pathways in that region.
+<P>
+<LI> Please note that EcoCyc has not yet been modified to include the
+recent update to the <i>E. coli</i> genome sequence deposited in Genbank.
+We plan to include the updated <i>E. coli</i> sequence in our November 2004
+release.
+<p>
+<li>EcoCyc is now an open database, meaning it is free to all users, and that it can be redistributed,
+with or without modifications.  See the license agreement that you
+click through on the way to the data files for more details.
+EcoCyc continues to be available in the following forms:
+ <ul>
+ <li><a href="download.shtml">Bundled with the Pathway Tools software</a> in a form that you can run
+on a PC/Windows, PC/Linux, or SUN computer as a desktop application, or that you can run as a
+local EcoCyc Web server on your intranet
+ <li><a href="download.shtml">As a set of flat files</a> you can load into your local database, or query using Perl scripts
+ </ul>
+
+<p>
+</UL>
+
+
+
+<hr>
+
+<a name="8.1"></a>
+
+<H1>Release Notes for EcoCyc Version 8.1</H1>
+
+Released on June 23, 2004.<P>
+<!-- Updated by: Ingrid Keseler, Jun-17-2004  -->
+
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>182</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3547</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>1132</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>197</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4491</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>931</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>8696</TD>
+</TR>
+</TABLE>
+
+<UL>
+
+<LI> Our curation update project is progressing.  Of the 4479 polypeptides within EcoCyc, 3395 now have comments or citations or are components of a complex that has a comment or citations.  The database now contains 8696 citations. 
+
+<P> 
+<LI>We have added five new pathways to EcoCyc:
+<UL>
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=ALANINE-SYN2-PWY">alanine biosynthesis II</a> 
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=PWY0-1021">alanine biosynthesis III</a>
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=PWY0-901">selenocysteine biosynthesis</a>
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=PWY0-862">fatty acid elongation -- unsaturated</a>
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=PWY0-981">taurine degradation IV</a>
+</UL> 
+<P>
+<li>We have completed curation of DNA repair enzymes in <i>E. coli</i>. In <i>E. coli</i>, there
+are a wide range of DNA repair systems. These systems include those for
+the direct reversal of DNA damage (photoreactivation, alkyltransfer) as
+well as indirect repair through the excision of damaged bases/sections
+of DNA and subsequent resynthesis using the intact strand as template
+(base excision repair, nucleotide excision repair, mismatch repair) and
+homologous recombination. This curation work was performed at TIGR
+under the guidance of Dr. Jonathan Eisen.
+
+<p>
+<li>EcoCyc is now an open database, meaning it is free to all users, and that it can be redistributed,
+with or without modifications.  See the license agreement that you
+click through on the way to the data files for more details.
+EcoCyc continues to be available in the following forms:
+ <ul>
+ <li><a href="download.shtml">Bundled with the Pathway Tools software</a> in a form that you can run
+on a PC/Windows, PC/Linux, or SUN computer as a desktop application, or that you can run as a
+local EcoCyc Web server on your intranet
+ <li><a href="download.shtml">As a set of flat files</a> you can load into your proprietary database
+ </ul>
+
+<p>
+<li>A <a href="http://EcoCyc.org/enzymes.shtml">Web page</a>
+generated at each EcoCyc release contains a list of unsequenced
+enzymes of <i>E. coli</i>.  These are enzymes that have been
+characterized biochemically and reported in the experimental
+literature, but whose gene has not been identified in the
+<i>E. coli</i> genome.  Identification of these genes represents a
+challenge to the experimental community.  A link to this page can be
+found under Information on the right menu on the <a
+href="http://EcoCyc.org">EcoCyc.org</a> page.  A commentary on the
+larger topic of enzyme activities for which no sequence is known <a
+href="http://genomebiology.com/2004/5/8/401">has been published by
+P. Karp</a> in Genome Biology.
+
+<p>
+<li> Conferences of interest to the <i>E. coli</i> community are now tabulated on 
+our Web site.  See the Conferences link under Services on the right menu on the <a href="http://EcoCyc.org">EcoCyc.org</a> page,
+or <a href="http://EcoCyc.org/conferences.shtml">click here</a>.
+
+<p>
+<li>EcoCyc gene pages now contain links to corresponding  pages in the EcoGene database.
+
+</UL>
+
+
+<hr>
+
+<a name="8.0"></a>
+
+<H1>Release Notes for EcoCyc Version 8.0</H1>
+
+Released on March 12, 2004.<P>
+<!-- Updated by: Martha Arnaud Jan-19-2004  -->
+
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>178</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3331</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>1043</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>183</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4479</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>858</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>8014</TD>
+</TR>
+</TABLE>
+
+<UL>
+
+<LI> Our curation update project is progressing.  Of the 4474 polypeptides within EcoCyc, 2595 now have comments or citations or are components of a complex that has a comment or citations.  The database now contains 8014 citations. 
+
+<P> 
+<LI> The reactions contained within the <a href="ECOLI/NEW-IMAGE?type=PATHWAY&object=ARGDEG-PWY">superpathway of arginine degradation</a> have been organized into separate subpathways:
+<UL>
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=PWY0-823">arginine degradation XII</a>, which includes the reactions from arginine to putrescine 
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=PUTDEG-PWY">putrescine degradation</a>, which includes the reactions from putrescine to 4-aminobutyrate
+<LI><a href="ECOLI/new-image?type=PATHWAY&object=4AMINOBUTMETAB-PWY">4-aminobutyrate degradation</a>, which includes the reactions from 4-aminobutyrate to succinate
+</UL> 
+<P>
+<LI> We have made extensive updates to the database links within
+EcoCyc.  The links from EcoCyc to Swiss-Prot were previously incomplete;
+we have added links to virtually all EcoCyc polypeptides, so that
+99% of EcoCyc entries now contain links to Swiss-Prot.  We have also
+added links from most EcoCyc polypeptides to RefSeq.  The preceding
+links are all displayed under the heading "Unification Links," meaning
+links to information about the same biological object in a different
+database.
+
+</UL>
+
+
+
+<hr>
+
+<a name="7.6"></a>
+
+<H1>Release Notes for EcoCyc Version 7.6</H1>
+
+Released on November 4, 2003.<P>
+<!-- Updated by: Martha Arnaud Oct-30-2003  -->
+
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>176</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3177</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>992</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>169</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4477</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>828</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>6223</TD>
+</TR>
+</TABLE>
+
+<UL>
+<LI> Our curation update project is progressing.  Of the 4474 polypeptides within EcoCyc, 1925 now have comments or citations or are components of a complex that has a comment or citations.  The database now contains 6223 citations. 
+
+<a name="sRNAs"></a>
+<P>
+<LI> We have added information about untranslated RNA species to
+EcoCyc.  Information about the following RNAs has been curated:  
+<a href="ECOLI/new-image?type=TRNA&object=CSRB-RNA
+">csrB</a>,
+<a href="ECOLI/new-image?type=TRNA&object=CSRC-RNA
+">csrC</a>,
+<a href="ECOLI/new-image?type=TRNA&object=DICF-RNA
+">dicF</a>,
+<a href="ECOLI/new-image?type=TRNA&object=DSRA-RNA
+">dsrA</a>,
+<a href="ECOLI/new-image?type=TRNA&object=FFS-RNA">ffs</a>,
+<a href="ECOLI/new-image?type=TRNA&object=GCVB-RNA
+">gcvB</a>,
+<a href="ECOLI/new-image?type=TRNA&object=MICF-RNA
+">micF</a>,
+<a href="ECOLI/new-image?type=TRNA&object=OXYS-RNA
+">oxyS</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RDLD-RNA
+">rdlD</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RNPB-RNA
+">rnpB</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RPRA-RNA
+">rprA</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYBA-RNA
+">rybA</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYBB-RNA
+">rybB</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYDB-RNA
+">rydB</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYEA-RNA
+">ryeA</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYEB-RNA
+">ryeB</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYEC-RNA
+">ryeC</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYED-RNA
+">ryeD</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYEE-RNA
+">ryeE</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYFA-RNA
+">ryfA</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYGB-RNA
+">rygB</a>,
+<a href="ECOLI/new-image?type=TRNA&object=RYGC-RNA
+">rygC</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SPF-RNA">spf</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAA-RNA
+">sraA</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAB-RNA
+">sraB</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAD-RNA
+">sraD</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAE-RNA
+">sraE</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAF-RNA
+">sraF</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAG-RNA
+">sraG</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAH-RNA
+">sraH</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAI-RNA
+">sraI</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAJ-RNA
+">sraJ</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SRAL-RNA
+">sraL</a>,
+<a href="ECOLI/new-image?type=TRNA&object=SSRA-RNA
+">ssrA</a>,
+<a href="ECOLI/new-image?type=TRNA&object=6S-RNA
+">ssrS</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0067-RNA
+">C0067</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0293-RNA
+">C0293</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0299-RNA
+">C0299</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0343-RNA
+">C0343</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0362-RNA
+">C0362</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0465-RNA
+">C0465</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0614-RNA
+">C0614</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0664-RNA
+">C0664</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0719-RNA
+">C0719</a>,
+<a href="ECOLI/new-image?type=TRNA&object=C0730-RNA
+">C0730</a>,
+<a href="ECOLI/new-image?type=TRNA&object=IS061-RNA
+">IS061</a>,
+<a href="ECOLI/new-image?type=TRNA&object=IS092-RNA
+">IS092</a>,
+<a href="ECOLI/new-image?type=TRNA&object=IS102-RNA
+">IS102</a>,
+<a href="ECOLI/new-image?type=TRNA&object=IS128-RNA
+">IS128</a>,
+<a href="ECOLI/new-image?type=TRNA&object=IS183-RNA
+">IS183</a>,
+<a href="ECOLI/new-image?type=TRNA&object=T44-RNA">T44</a>,
+<a href="ECOLI/new-image?type=TRNA&object=TKE1-RNA
+">tke1</a>,
+<a href="ECOLI/new-image?type=TRNA&object=TKE8-RNA
+">tke8</a>,
+<a href="ECOLI/new-image?type=TRNA&object=TP2-RNA">tp2</a>,
+<a href="ECOLI/new-image?type=TRNA&object=TPKE11-RNA
+">tpke11</a>, and
+<a href="ECOLI/new-image?type=TRNA&object=TPKE70-RNA
+">tpke70</a>.
+
+<P>
+<LI> Since February, we have added 129 new regulatory interactions, 57 
+promoters, 48 transcription units, 5 protein complexes of 
+transcriptional regulators, 9 terminators, and corrected 3 genes.  These updates are supported by 323 references to the literature.
+
+<P>
+<LI> Transcriptional regulator names have been updated to be more descriptive.
+
+<P> 
+<LI> The following pathways have been updated: 
+<UL>
+<LI> The <A href="ECOLI/NEW-IMAGE?type=PATHWAY&object=PWY0-662">PPRP biosynthesis I</A> and <A href="ECOLI/NEW-IMAGE?type=PATHWAY&object=PWY0-661">PPRP biosynthesis II</A> pathways have been added.
+<LI> The pantothenate and coenzyme A biosynthesis pathway has been split into two distinct pathways, <A href="ECOLI/NEW-IMAGE?type=PATHWAY&object=PANTO-PWY">pantothenate biosynthesis</A> and <A href="ECOLI/NEW-IMAGE?type=PATHWAY&object=COA-PWY">coenzyme A biosynthesis</A>.
+<LI> The glutamate biosynthesis pathway has also been divided into two distinct pathways, <A href="ECOLI/NEW-IMAGE?type=PATHWAY&object=GLUTSYN-PWY">glutamate biosynthesis I</A> and <A href="ECOLI/NEW-IMAGE?type=PATHWAY&object=GLUTSYNIII-PWY">glutamate biosynthesis III</A>.
+</UL>
+
+
+<P> 
+<LI> Many other miscellaneous corrections and updates have been applied.
+ 
+</UL>
+
+<hr>
+
+<a name="7.5"></a>
+
+<H1>Release Notes for EcoCyc Version 7.5</H1>
+
+Released on August 29, 2003.<P>
+
+<!-- Updated by: Martha Arnaud Oct-30-2003  -->
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>173</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3090</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>975</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>168</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4399</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>810</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>4710</TD>
+</TR>
+</TABLE>
+
+
+<UL>
+
+<LI> We are currently updating and expanding our curation of
+all <i>E. coli</i> gene products.  As part of this expansion, we are 
+authoring extended comments and curating updated reference lists.  This 
+information is typically found in the display windows for gene products 
+in EcoCyc (rather than in the gene windows).  Of the 4468 polypeptides 
+within EcoCyc, 1600 now 
+have comments or citations or are components of a complex that has a 
+comment or citation.  Our goal is to complete this expansion
+within the next few years. 
+<P>
+<LI> EcoCyc database windows now feature full lists of references in addition 
+to the links to abstracts that have been supplied previously.  The list of 
+references associated with each database object (e.g., polypeptide, pathway, 
+transcription unit, etc.) is located at the bottom of the display window.  
+<P>
+<LI> The pathway class hierarchy within EcoCyc has been updated and improved to facilitate 
+browsing of metabolic pathways within the BioCyc databases.  The pathway 
+hierarchy may be viewed <A href="ECOLI/class-subs?object=Pathways">here.</A>
+<P>
+<LI> The Pathway Tools software now supports association of evidence codes 
+with information in the database.  Currently, EcoCyc uses these codes most
+frequently for transcription units and promoters to indicate the type
+of evidence for the existence of these entities (for example, was a
+promoter predicted computationally or elucidated experimentally?).  In subsequent releases, 
+more evidence information will be available.  The presence of a computer icon or a
+flask icon, respectively, indicate computational versus experimental evidence for an entity.  Click
+on those icons to obtain more details about the evidence for an entity.
+For more information click <A href="http://bioinformatics.ai.sri.com/ptools/release-notes.html">here.</A>
+<P>
+<LI> Many other miscellaneous corrections and updates have been applied.
+</UL>
+
+<P>
+
+<HR>
+
+<a name="7.1"></a>
+
+<H1>Release Notes for EcoCyc Version 7.1</H1>
+
+Released on May 20, 2003.<P>
+
+<!-- Updated by: Martha Arnaud Feb-5-2003  -->
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>173</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>3001</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>944</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>168</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4396</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>777</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>4406</TD>
+</TR>
+</TABLE>
+
+<UL>
+
+<LI>We are pleased to announce that new releases of EcoCyc at the BioCyc web site now occur quarterly, 
+rather than twice a year.  Newly updated EcoCyc flat files are also released quarterly.  (The downloadable
+executable Pathway Tools containing EcoCyc is still released twice per year.)
+<P>
+<LI>The following pathways have been added to EcoCyc:
+<UL>
+<LI>cyclopropane fatty acid (CFA) biosynthesis
+<LI>fructoselysine degradation
+<LI>lipoate biosynthesis and modification
+<LI>lipoate salvage and modification<P>
+</UL>
+<LI> The y-gene names created by Dr. K. Rudd have been added to all ORFs within EcoCyc to enable 
+searching for <i>E. coli</i> genes by those names.  For example, the gene b1806 is now named yeaY. 
+<P>
+<LI> Many other miscellaneous corrections and updates have been applied.
+</UL>
+
+<P>
+
+<HR>
+
+
+<a name="7.0"></a>
+
+<H1>Release Notes for EcoCyc Version 7.0</H1>
+
+Released on February 28, 2003.<P>
+
+<!-- Updated by: Martha Arnaud Feb-5-2003  -->
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>169</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>2909</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>930</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>169</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4392</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>747</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>3780</TD>
+</TR>
+</TABLE>
+
+<UL>
+
+<LI> In 2001, Serres et al. (Genome Biol 2(9)RESEARCH0035) published an update to the annotation of the
+<i>E. coli</i> genome in which new functions for unidentified <i>E. coli</i> ORFs
+were listed, based on experimental reports in the literature, and
+based on sequence analysis.  We have loaded an even newer version of
+the annotation updates by Riley's group (from Riley's GenProtEC database) into EcoCyc.  These
+updates involved changes to the function of ORFs only, and not to
+other genes with functions already assigned.  In many cases, the
+new functional information was partial, such as indicating only that
+a protein is a putative membrane protein.<P>
+
+<LI>The pathways describing synthesis of nucleotides have been updated
+and divided into de novo and salvage synthesis pathways.  The salvage
+synthesis pathways have been moved within the pathway hierarchy from
+the Network of nucleotide interconversions class (a subclass of
+Central intermediary metabolism) to the Nucleotides class (a subclass
+of Biosynthesis).  The pathway objects replaced by these new updated
+pathways have been removed from EcoCyc.
+<UL>
+<LI> The pathway de novo
+biosynthesis of pyrimidine ribonucleotides replaces and extends the
+former pyrimidine biosynthesis pathway.  The pyrimidine biosynthesis
+pathway ended with the synthesis of UMP; the new de novo biosynthesis
+of pyrimidine ribonucleotides pathway extends to UDP, UTP, CDP, and
+CTP.  
+<LI> The new salvage pathways of pyrimidine ribonucleotides replace
+the former pyrimidine ribonucleotide/ribonucleoside metabolism
+pathway.  
+<LI> The pathways de novo biosynthesis of pyrimidine
+deoxyribonucleotides and salvage pathways of pyrimidine
+deoxyribonucleotides replace the former deoxypyrimidine
+nucleotide/side metabolism.  The pathway de novo biosynthesis of
+pyrimidine deoxyribonucleotides includes the reduction of the
+nucleoside di- and tri-phosphates to the corresponding
+deoxyribonucleotides, which was not depicted within deoxypyrimidine
+nucleotide/side metabolism.  
+<LI> The pathway de novo biosynthesis of
+purine nucleotides replaces and extends the former purine biosynthesis
+pathway to include the reductions of the nucleoside di- and
+triphosphates to the corresponding deoxyribonucleotides.  
+<LI> Two salvage
+pathways of purine nucleoside biosynthesis have been added, salvage
+pathways of adenine, hypoxanthine, and their nucleosides and salvage
+pathways of guanine, xanthine, and their nucleosides, which replace
+the former purine ribonucleotide/ribonucleoside metabolism pathway.
+<LI> Because the reduction of each ribonucleotide to the corresponding
+deoxyribonucleotide has been added to the pathways describing the de
+novo biosyntheses, the pathway that formerly comprised this group of
+reactions (entitled deoxyribonucleotide metabolism) has been
+removed.<P>
+</UL>
+<LI>The following other pathways have been added:
+<UL>
+<LI>phenylacetate degradation, aerobic
+<LI>L-ascorbate degradation<P>
+</UL>
+<LI> We have added 17 new promoters, 25 new DNA-binding sites for specific transcriptional regulators and 23 new
+transcription units.
+As a result of identifying the promoter, we verified and modified the precise position of the initiation of 21 genes
+(aldB, aspA, focA, gntK, livJ, slp, tdcR, caiF, upp, fixA, aroK, tauA,
+gcvR,nmpC, zraP, phoA, rbsD, ilvI, csiD, sugE, fxsA), whose initiation was overlapping transcription initiation.<P>
+<LI> Many other miscellaneous corrections and updates have been applied.
+</UL>
+
+<P>
+
+<HR>
+
+<a name="more"></a>
+
+<H1>Release Notes for EcoCyc Version 6.5</H1>
+
+Released on August 30, 2002.<P>
+
+<!-- Updated by: Peter Karp, Aug-9-2002  -->
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>164</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>2862</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>918</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>168</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4393</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>724</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>3701</TD>
+</TR>
+</TABLE>
+
+<UL>
+<LI> Note that the reaction count includes metabolic reactions,
+transport reactions, and reactions related to transcriptional
+control of gene expression<P>
+<LI> Approximately 40 new transcription units have been added to EcoCyc
+since the last release.  We have currently gathered information for 
+110 transcriptional regulators, 956 associated operator
+sites and interactions, and 812 mapped promoters.
+We estimate that these numbers correspond to approximately 25% of the interactions and knowledge necessary to describe
+the regulatory network of <i>E. coli</i>.
+Some general properties of this fraction of the network are the following. Around 80% of all transcription units are
+composed of one to three genes. These genes are mostly transcribed by a single promoter (80% of the cases) with
+few genes having two to six different promoters. We estimate that more than 85% of these are of the type recognized
+by sigma 70 RNApolymerase. More than 90% of genes are regulated by at most 3 different regulatory proteins. This
+significant fraction of the regulatory network in <i>E. coli</i> is a powerful resource for analysis of global experimental studies
+of transription and proteome, as well as in studies of properties of regulatory networks.
+</UL>
+
+<P>
+
+<HR>
+<H1>Release Notes for EcoCyc Version 6.0</H1>
+
+Released on February 15, 2002.<P>
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>164</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>2760</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>914</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>164</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4393</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>684</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>3636</TD>
+</TR>
+</TABLE>
+
+<UL>
+<LI> Note that the reaction count includes metabolic reactions,
+transport reactions, and reactions related to transcriptional
+control of gene expression<P>
+<LI> EcoCyc contains many updates to the descriptions of
+ <i>E. coli</i> genes, enzymes, pathways, and transporters<P>
+<LI> Approximately 50 new transcription units have been added to EcoCyc
+since the last release
+</UL>
+
+<P>
+<HR>
+<H1>Release Notes for EcoCyc Version 5.6</H1>
+
+Released on June 15, 2001.<P>
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>165</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>2604</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>905</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>162</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4393</TD>
+</TR>
+<TR>
+<TD>Transcription Units</TD>
+<TD>629</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>3508</TD>
+</TR>
+</TABLE>
+
+<UL>
+<LI> EcoCyc contains many updates to the descriptions of E. coli genes, enzymes,
+and transporters
+<LI> Over 100 new E. coli transcription units have been added since the last version
+<LI> EcoCyc proteins now contain WWW links to the PIR database
+<LI> The following pathways were added to EcoCyc since the last release:
+<UL>
+<LI> threonine biosynthesis from homoserine
+<LI> alkanesulfonate monooxygenase two-component system
+<LI> conversion of succinate to propionate
+<LI> propionate metabolism, methylcitrate cycle
+<LI> allantoin assimilation
+<LI> D-allose catabolism
+<LI> ketogluconate metabolism 
+<LI> tRNA charging reactions
+<LI> biosynthesis of 2'-(5"-triphosphoribosyl)-3'-dephospho-CoA
+<LI> BarA-UvrY Two-Component Signal Transduction System
+</UL>
+</UL>
+
+
+<HR>
+<H1>Release Notes for EcoCyc Version 5.4</H1>
+
+Released on Sept 1, 2000.<P>
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>165</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>2115</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>884</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>158</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4393</TD>
+</TR>
+<TR>
+<TD>Chemical Compounds</TD>
+<TD>773</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>3208</TD>
+</TR>
+</TABLE>
+
+
+<UL>
+<LI> Dr. Julio Collado's RegulonDB database has been integrated with EcoCyc.
+EcoCyc therefore contains descriptions of many transcription units, where
+a transcription unit is defined as
+a promoter, its associated regulatory elements, and its downstream genes.
+EcoCyc also contains descriptions of many transcription factors, and their 
+interactions with the transcription units they control.<p>
+
+This information may be accessed within EcoCyc in several ways.  
+Gene-display windows now show schematic diagrams of known
+transcription units for the gene.  Within that transcription unit:
+<UL>
+<LI> Clicking on the transcription unit as a whole will produce a new
+type of window that displays information about the transcription unit and
+all of its internal regulatory sites.
+<LI> Clicking on a transcription-factor binding site within the transcription
+unit will produce a display window for the transcription factor that lists
+all transcription units that it controls.
+<LI> Clicking on the promoter ...
+<LI> Clicking on a gene within the transcription unit will display a
+window for that gene.
+</UL>
+<LI> Because MetaCyc is now meant as our general-purpose metabolic-pathway database, 
+we have removed non-<i>E. coli</i> specific metabolic information from EcoCyc,
+such as metabolic reactions and compounds that do not occur in <i>E. coli</i>.
+That data had previously been present in EcoCyc for general reference purposes.
+<LI> A new version of Dr. Monica Riley's classification system for <i>E. coli</i>
+genes has been added to EcoCyc.
+<LI> An assignment of <i>E. coli</i> genes to paralogous groups by Dr. Riley
+and Dr. Bernard Labedan has been added to EcoCyc.  When a gene is a
+member of a paralogous group, the name of the group will be displayed in the
+EcoCyc gene window.  Clicking on the group name will display a list of all
+genes within the group.  See: Labedan, B and M. Riley. (1999)  Genetic inventory: Escherichia coli as a
+window on ancestral proteins .In Organization of the Prokaryotic Genome
+(Robert Charlebois, editor) Chapter 17, pages 311-329, ASM Press,
+Washington, D.C.
+<LI> Many revisions to <i>E. coli</i> gene names and to the functions of
+<i>E. coli</i> gene products have been incorporated in EcoCyc.
+</UL>
+
+
+<HR>
+<H1>Release Notes for EcoCyc Version 5.0</H1>
+
+<P>Released on June 16, 1999.<P>
+
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<CAPTION><STRONG>EcoCyc KB Statistics</STRONG>
+</CAPTION>
+<TR>
+<TD>Pathways</TD>
+<TD>159</TD>
+</TR>
+<TR>
+<TD>Reactions</TD>
+<TD>946</TD>
+</TR>
+<TR>
+<TD>Enzymes</TD>
+<TD>629</TD>
+</TR>
+<TR>
+<TD>Transporters</TD>
+<TD>13</TD>
+</TR>
+<TR>
+<TD>Genes</TD>
+<TD>4390</TD>
+</TR>
+<TR>
+<TD>Chemical Compounds</TD>
+<TD>1868</TD>
+</TR>
+<TR>
+<TD>Citations</TD>
+<TD>1944</TD>
+</TR>
+</TABLE>
+
+Notes: "Pathways" includes both pathways of small-molecule metabolism and
+signalling pathways.  "Reactions" includes enzymatic and transport reactions.<P>
+
+<H3>Changes to the EcoCyc Data</H3>
+<UL>
+<LI>Drs. Ian Paulsen and Milton Saier of UC San Diego have recently joined
+the EcoCyc collaboration.  Their group will be annotating the transport
+proteins of <i>E. coli</i> using the same detailed, literature-based approach
+as used for <i>E. coli</i> enzymes and pathways.  Version 5.0 of EcoCyc
+contains all of the <i>E. coli</i> phosphotransferase system (PTS)
+transporters. Subsequent versions of Ecocyc will include detailed
+descriptions of the primary and secondary transporters and channel
+proteins present in <i>E. coli</i>.<BR>
+
+The PTS functions by transporting and concomitantly phosphorylating
+their sugar substrates using phosphoenolpyruvate as a phosphate donor.
+Each PTS transporter characteristically consists of a sugar-specific
+multidomain Enzyme II complex with between one and four protein subunits
+and two general energy coupling proteins, Enzyme I and Hpr. The Version
+5.0 release describes each of the 20 Enzyme II complexes and the two
+general energy coupling proteins of the PTS.
+<LI> New pathways in this version are:
+<UL>
+<LI> isopentenyl diphosphate biosynthesis, mevalonate-independent
+<LI> acetate utilization
+<LI> dissimilation of N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminic acid
+<LI> ammonia assimilation cycle
+<LI> L-idonate catabolism
+<LI> arginine catabolism
+</UL>
+<LI> A variety of miscellaneous updates have been applied to EcoCyc genes and
+enzymes.
+</UL>
+
+
+
+<H3>Modifications to the Pathway/Genome Navigator Interface</H3>
+
+<UL>
+<LI> You must
+now use Netscape 4.0 or Internet Explorer 4.0 (or higher) to access EcoCyc
+because older versions of these programs do not have proper support for
+Javascript.
+<LI> The EcoCyc web site has been upgraded and reorganized.  
+Although the location of the EcoCyc home page has not changed, the URL of the
+main EcoCyc query page has changed to:
+<A href="http://ecocyc.PangeaSystems.com:1555/server.html">
+http://ecocyc.PangeaSystems.com:1555/server.html</A>.  
+Please update any bookmarks you may have to the old server page.
+<LI> Users may now issue structured queries to the EcoCyc database using an
+HTML query form that is available at URL  
+<A href="http://ecocyc.PangeaSystems.com:1555/query.html">
+http://ecocyc.PangeaSystems.com:1555/query.html</A>.  
+<LI> X-Windows version: In Overview mode, the menu that appears when the
+user right clicks on a compound or reaction in the Overview has been
+reorganized and has additional functionality.  A new function is the ability
+to show all connections from one occurrence of a compound in the Overview
+to all other occurrences of that compound.
+<LI> X-windows version: A new user preference allows the Overview diagram to
+be scaled as desired.
+<LI> X-windows version: The user can now print the contents of the Answer List
+and the History List using commands under the Special menu.
+<LI> X-Windows version: Users can now control the font size using
+a newly defined user preference
+</UL>
+
+<HR>
+<H1>Release Notes for EcoCyc Version 4.5</H1>
+
+<P>Released September 4, 1998.
+
+<P>The most significant changes are marked with a "*".
+
+<H3>Changes to the EcoCyc Data</H3>
+
+<UL>
+<LI> The gene descriptions within EcoCyc have undergone extensive curation to update gene name
+and synonym information, as well as product descriptions for all <i>E.
+coli</i> genes.
+
+<LI> EcoCyc is very careful to distinguish genes whose functions
+have been determined experimentally, from those whose functions have 
+been determined through sequence analysis.  The names of gene products
+whose functions have been determined through sequence analysis always
+contain the word "putative" and, very occasionally for a high certainty
+hit, "probable." The level of assurance for each functional assignment is
+given in the following way. If an orf sequence shows similarity to a number
+of hydrolases, all of which act on on sugars, the orf is identified as, for
+instance, a "putative sugar hydrolase" . In other cases an assignment may
+be "putative amidotransferase" or "putative aminotransferase" or "putative
+formyl acetyltransferase". More often a degree of uncertainty is signified
+by by confining the assignment to a general class such as "putative
+transferase" or sometimes only as an "enzyme" if the orf can be identified
+as an enzyme, but not what kind of enzyme. the same gradations are used
+throughout for all types of gene products such as regulators, transport
+components, rnas.
+</UL>
+
+<H3>Modifications to the EcoCyc Graphical User Interface (GUI)</H3>
+
+<UL>
+<LI> *EcoCyc pathway diagrams now include arrows showing regulatory
+interactions between small molecules and enzymes of a pathway.  Each
+arrow portraying feedback inhibition or activation leads from a small
+molecule in the pathway to a "+" or "-" sign adjacent to the enzyme
+whose activity it modERates.  The presence of the "+" or "-" indicates
+whether activators, inhibitors, or both, are known for a given enzyme.
+
+<LI> The Overview diagram now uses different icons for different
+classes of compounds: <br>
+ square = carbohydrate <br>
+ triangle = amino acid <br>
+ diamond = lipid <br>
+ horiz elipse = purine <br>
+ vert elipse = pyrimidine <br>
+ hexagon = protein <br>
+ circle = all other compound types <br>
+ Solid icons mean the compound is phosphorylated
+
+<LI> *EcoCyc now generates automatic layouts of
+signal-transduction pathways, and the Overview diagram now includes
+signal-transduction pathways.  For example, query the proteins 
+<A HREF="http://ecocyc.PangeaSystems.com:1555//NEW-IMAGE?type=ENZYME&object=PHOB-MONOMER">PhoB</A>
+or
+<A HREF="http://ecocyc.PangeaSystems.com:1555//NEW-IMAGE?type=ENZYME&object=NARQ-MONOMER">NarQ,</A>
+and you will see links to their pathways, which can be displayed.
+</UL>
+
+<H3>X-Windows EcoCyc GUI Modifications</H3>
+
+<UL>
+<LI> *The Highlighting menu for Overview mode has been
+redesigned and has a number of additional features and query
+operations, including the ability to paint expression data
+on the Overview diagram.
+
+<LI> A new user
+preference controls whether the "Next Answer" command retrieves only
+one answer per click, or N answers, when there are N display panes
+active.
+
+<LI> The main menu now includes commands called Fix and
+Unfix, which allow the user to fix a display pane, thus preventing
+additional object displays from replacing the object shown in that
+pane.  Fix a pane if you wish to see the same object across a number
+of queries.  If all panes are fixed and the user displays an
+additional object, it will be displayed in a pop-up window (an
+existing window will be reused; otherwise a new window will be
+created).  
+
+</UL>
+
+
+
+<h3>Current knowledge base size:</h3>
+
+<PRE>&nbsp;&nbsp; :::: Ecocyc KB statistics on Fri Sep 4, 1998 ::::
+
+Reactions: 4607 total
+  180 have no EC#
+  904 occur in E. coli
+
+Polypeptides: 1265
+Protein complexes: 576
+Enzymes: 802
+Two-component sig trans: 45
+
+Pathways:
+  Small-molecule metabolism: 131
+  Signaling: 20
+  Superpathways: 34
+
+Compounds: 1308   (975 have structures)
+
+Genes:  4391 
+  1400 ORFs
+
+tRNAs: 79
+</PRE>
+
+<P>
+
+
+<HR>
+<H1>Release Notes for EcoCyc Version 4.0</H1>
+
+<P>Released April 15, 1998.
+
+<P>The most significant changes are marked with a "*".
+
+<H3>
+Changes to the EcoCyc Data</H3>
+
+<UL>
+<LI>
+EcoCyc describes all published pathways of E. coli metabolism. The following
+pathways were added since version 3.7:</LI>
+
+<UL>
+<LI>
+carnitine metabolism, CoA-linked</LI>
+
+<LI>
+enterobactin synthesis</LI>
+
+<LI>
+phenylethylamine degradation</LI>
+</UL>
+
+<LI>
+*EcoCyc now describes&nbsp;<it>E. coli</it> two-component signal transduction
+proteins.</LI>
+
+<LI>
+EcoCyc now describes&nbsp;<it>E. coli</it> tRNAs.</LI>
+
+<LI>
+*Data from the full&nbsp;<it>E. coli</it> nucleotide sequence determined
+by the Blattner laboratory (Science 277:1453 1997) are now included within
+EcoCyc. The included data were obtained from the Genbank entry submitted
+by the Blattner laboratory.</LI>
+
+
+<P>&nbsp;All genes defined in this Genbank entry (which we term the "Blattner
+genes") were loaded into EcoCyc by merging the Blattner genes with gene
+objects that existed previously in EcoCyc. The initial merging was performed
+programatically by matching the gene names assigned to the Blattner genes
+against the gene names and synonyms maintained in EcoCyc. These matches
+were confirmed by checking the Swiss-Prot links provided for many genes
+by the Blattner group with the Swiss-Prot links that exist for many EcoCyc
+genes. 2497 matches were found of which 2265 were confirmed using the Swiss-Prot
+links. A number of additional gene correspondences were determined through
+manual inspection.
+
+<P>Therefore, EcoCyc now contains three classes of&nbsp;<it>E. coli</it>
+genes: (a) Genes that existed previously in EcoCyc that no Blattner gene
+matched, (b) Genes that existed previously in EcoCyc that were merged with
+a matching Blattner gene, and (c) Genes defined in the Blattner Genbank
+record that were not found to match any EcoCyc gene. The class of each
+gene is indicated in EcoCyc using a history entry that is displayed within
+the gene window. Over time, we expect more gene correspondences to be discovered.
+
+<LI>
+Many more citations are now linked to PubMed.</LI>
+</UL>
+
+<H3>
+Modifications to the EcoCyc Graphical User Interface (GUI)</H3>
+
+<UL>
+<LI>
+The display of chemical structures within compound windows now uses a concept
+called superatoms, which is a hierarchical structuring of chemical structures.
+For example, when displaying the structure for succinyl-CoA, the structure
+is initially displayed with the word "CoA" in place of the structure of
+the CoA moiety. If the user clicks on the word CoA, however, the full structure
+of that moiety will be displayed (clicking on the name to expand works
+only in the X-windows version).</LI>
+
+<LI>
+Pathway displays now include a small circular genome map, marked with the
+positions of all genes that encode the enzymes within the current pathway.
+Moving the mouse over the mark for a given gene flashes the gene name at
+the bottom of the screen, and also (X-Windows version only) highlights the
+arrows within the pathway for the reaction(s) catalzed by the gene product.
+Clicking on a gene navigates to the gene display.</LI>
+
+<LI>
+Circular pathways are now drawn with curved reaction arrows.</LI>
+
+<LI>
+*EcoCyc uses a new scheme for displaying iterative pathways of synthesis
+or degradation of poymeric compounds. For each iteration the polymer increases
+or decreases a fixed number of monomers. The repeating iterations are indicated
+with a dashed line.</LI>
+
+<LI>
+Displays for gene classes now show gene name and gene product (where known)
+rather than just gene name.</LI>
+
+<LI>
+In the display of compounds and proteins, the presentation of the reactions
+in which a compound or protein is a substrate has been reorganized. Each
+reaction is listed under the pathway(s) (if any) in which it occurs.</LI>
+</UL>
+
+
+<H3>
+Modifications Specific to the X-windows GUI</H3>
+
+<UL>
+<LI>
+*Overview Mode is now available for the first time in the
+X-windows Ecocyc.  This mode displays the full metabolic map of
+<it>E. coli</it>.  A number of queries are supported including
+highlighting reactions within the map according to EC number,
+enzyme name, gene name, and according to activation or inhibition
+of an enzyme by a specified compound.</LI>
+
+<LI>
+Enzyme command mode has been renamed Protein Mode because it can be used
+to query and display other types of proteins in addition to enzymes.</LI>
+
+<LI>
+A new command called Get Rxn by Substrates allows you to query all reactions
+that contain a specified set of reactants and/or products.</LI>
+
+<LI>
+EcoCyc uses a dedicated Netscape window for looking up citations.</LI>
+
+<LI>
+Cloned windows now have forward and back buttons.</LI>
+
+<LI>
+Hard copy printing of Greek letters now works, and some lines that previously
+were drawn with an extremely thin width are now drawn wider.</LI>
+
+<LI>
+Short comments are now displayed in the pointer documentation window when
+the mouse is passed over them. (Longer comments still need to be displayed
+in a pop-up window)</LI>
+
+<LI>
+The EcoCyc history list now stores the window scrolling position within
+the history, so that when the user moves forward and backward in the history,
+the scrolled position is remembered. </LI>
+</UL>
+
+<H3>
+Modifications Specific to the World-Wide Web GUI</H3>
+
+<UL>
+<LI>
+We are now using client-side imagemaps, rather than server-side imagemaps,
+with imbedded javascript to show object names/descriptions instead of URLs.</LI>
+</UL>
+
+
+<p>
+<h3>Current knowledge base size:</h3>
+
+<PRE>&nbsp;&nbsp; :::: Ecocyc KB statistics on Fri Dec 12, 1997 ::::
+
+Reactions: 4412 total;&nbsp; 988 occur in ECOLI;&nbsp; 166 have no EC#
+
+Polypeptides: 1196;&nbsp; Protein complexes: 563; Enzymes: 804
+
+Genes: 4909&nbsp;&nbsp; (4357 have assigned map positions)
+
+Base pathways: 123;&nbsp; Superpathways: 34
+
+Compounds: 1303&nbsp;&nbsp; (977 have structures)
+
+</PRE>
+
+<P>
+
+<HR>
+<h1>EcoCyc Version 3.7, released March 7, 1997</h1>
+
+Changes introduced in this version include:
+
+<UL>
+
+<LI> An <A HREF="ov.html">Overview diagram</A>
+of the entire <I>E. coli</I> metabolic map is now available
+<LI> We believe that EcoCyc now describes all published pathways of
+E. coli metabolism.
+The following pathways were added since version 3.1:
+<UL>
+<LI> trehalose biosynthesis
+<LI> NAD phosphorylation and dephosphorylation
+<LI> betaine biosynthetic pathway
+<LI> mannose and GDP-mannose metabolism
+<LI> formylTHF biosynthesis
+<LI> methylglyoxal metabolism
+<LI> nucleotide metabolism
+<LI> arginine utilization
+<LI> L-serine degradation
+<LI> glutamine utilization
+<LI> glutamate utilization
+<LI> L-cysteine catabolism
+<LI> tryptophan utilization
+<LI> ornithine degradation
+<LI> putrescine degradation
+<LI> D-galactarate catabolism
+<LI> galactitol catabolism pathway
+<LI> mannitol degradation
+<LI> sorbitol degradation
+<LI> trehalose degradation, low osmolarity
+<LI> D-glucarate catabolism
+<LI> cobalamin biosynthesis
+<LI> glutathione-glutaredoxin redox reactions
+<LI> anaerobic respiration, electron acceptors reaction list
+<LI> aerobic electron transfer
+<LI> aerobic respiration, electron donors reaction list
+<LI> anaerobic respiration, electron donors reaction list
+<LI> anaerobic respiration
+<LI> anaerobic electron transfer
+</UL>
+
+<LI> Compound displays now sort the set of reactions that contain the
+compound according to the pathways that contain the reactions.
+
+<LI> The X-window version of EcoCyc now displays links to other databases;
+if you click on a link then EcoCyc will invoke Netscape to query the
+linked object via the WWW.  
+
+<LI> In the X-window version, most modes that allow you to query
+objects by their exact name allow you to enter in several names within
+one pop-up window, separated by commas, e.g., "Find Gene by Name"
+allows you to enter "hisA, hisB, hisC."  The exception is compound
+mode, because many compounds have commas within their names.
+
+<LI> Links have been added from EcoCyc to the Swiss-Model database
+(thanks to Manuel Peitsch for assistance).
+
+<LI> A second gene-classification system has been added to EcoCyc.  This
+second system, also developed by Riley, is much simpler than the first
+system, and classifies genes according to the type of their product,
+e.g., enzyme, regulator, transport protein.
+
+<LI> EcoCyc executables are now available for Solaris but are no
+longer available for SunOS.
+
+<LI> EcoCyc does <I>not</I> yet contain the full annotation of the
+<I>E. coli</I> genome; that task is next on our list.  Thus, the data
+in slots centisome-position, left-end-position, and
+right-end-position, are all derived from EcoGene7.
+
+</UL>
+
+Current knowledge base size: <P>
+
+<PRE>
+    :::: Ecocyc KB statistics on Thu Feb 20, 1997 ::::
+
+Reactions: 3241 total;  736 occur in ECOLI;  165 have no EC#
+
+Polypeptides: 1029;  Protein complexes: 419; Enzymes: 731
+
+Genes: 3025   (2571 are mapped)
+
+Base pathways: 131;  Superpathways: 26
+
+Compounds: 1294   (964 have structures)
+</PRE>
+
+
+
+<HR>
+<h1>EcoCyc Version 3.1, released July 17, 1996</h1>
+
+Improvements introduced in this version include:
+
+<UL>
+<LI> EcoCyc executables are now available for Solaris in addition to
+SunOS.
+<LI> This version contains detailed descriptions of pathways that
+were only superficially encoded in the previous version, including
+detailed information on 125 new enzymes.  It also contains a number
+of new reactions that connect to many pathways, and hence are not
+recorded as being part of specific pathway.  
+<LI> Many data corrections and additions have been made.  
+<LI> The following pathways were added since version 2.7:
+<UL>
+<LI> lactose degradation
+<LI> (deoxy)ribose phosphate metabolism
+<LI> riboflavin, FMN and FAD biosynthesis
+<LI> pyridoxal 5'-phosphate biosynthesis
+<LI> menaquinone biosynthesis
+<LI> biosynthesis of proto- and siroheme
+</UL>
+<LI> EcoCyc now displays superscripts, subscripts, and greek
+characters in appropriate places.
+<LI> Database links -- EcoCyc is now linked to the CGSC in addition to
+SwissProt and PDB.
+<LI> The Clone Window command in the X-window EcoCyc allows a display of
+any object to be cloned in a separate window.  Replaces the Fix-Item and Unfix-Item commands.
+<LI> The EcoCyc class hierarchy can now be queried through the WWW
+interface, and users can navigate the hierarchy within individual
+object displays by following the Superclass, Subclass, and Instance links.
+<LI> EcoCyc genes are now classified according to two hierarchies
+developed by Riley: one hierarchy considers the physiological role
+of the gene product, the other hierarchy considers the type of the
+product (enzyme, regulator, etc)
+<LI> The WWW map browser now allows the user to expand the map to show a gene that is specified by the user
+<LI> The representation of cofactors and coenzymes in EcoCyc has been
+revised; see the <B>Guide to the EcoCyc Schema</B>
+(<A href="doc/ecocyc-schema/paper.html">html</A>, 
+<A href="doc/karp-ecocyc-schema.ps.Z">compressed postscript</A>,
+<A href="doc/karp-ecocyc-schema.ps">uncompressed postscript</A>)
+<LI> The X-window version of EcoCyc now queries Medline and Entrez
+using Netscape, which must be installed on your system for these
+queries to work
+<LI> For the bracketed numbers that refer to citations and comments
+in EcoCyc displays, such as [1], if the number is italicized it is
+a comment, otherwise it is a citation.
+</UL>
+
+Current knowledge base size: <P>
+
+<PRE>
+Reactions: 2965 total;  690 occur in ECOLI;  87 have no EC#
+
+Polypeptides: 598;  Protein complexes: 312; Enzymes: 523
+
+Genes: 2957   (2571 are mapped)
+
+Base pathways: 101;  Superpathways: 26
+
+Compounds: 1274
+
+Publications: 765
+</PRE>
+
+
+
+<HR>
+<h1>EcoCyc Version 2.7, released Feb 19, 1996</h1>
+
+Improvements introduced in this version include:
+
+<UL>
+<LI> A number of minor programming enhancements
+<LI> The following pathways were added since version 2.4:
+<UL>
+<LI> methyl-donor molecule biosynthesis
+<LI> propionate metabolism, methylmalonyl pathway
+<LI> UDP-N-acetylglucosamine biosynthesis
+<LI> peptidoglycan precursor and lipid a precursor biosynthesis
+<LI> ppGpp metabolism
+<LI> glycolate metabolism
+<LI> glucosamine catabolism
+<LI> pyrimidine ribonucleotide/ribonucleoside metabolism
+<LI> glycine biosynthesis
+<LI> asparagine biosynthesis
+<LI> glycogen biosynthesis
+<LI> peptidoglycan precursor biosynthesis
+<LI> peptidoglycan biosynthesis
+<LI> dTDP-rhamnose biosynthesis
+<LI> KDO biosynthesis
+<LI> lipid-A-precursor biosynthesis
+<LI> degradation of short-chain fatty acids
+<LI> galactose, galactoside and glucose catabolism
+<LI> glyoxylate degradation
+<LI> rhamnose catabolism
+</UL>
+</UL>
+
+Current knowledge base size: <P>
+
+<PRE>
+    Reactions: 2929 total;  627 occur in E. coli;  87 have no EC#
+    
+    Polypeptides: 523;  Protein complexes: 264
+    
+    Enzymes: 397
+    
+    Genes: 2956   (2571 are mapped)
+    
+    Total Pathways: 94;  Superpathways: 11
+    
+    Compounds: 1253
+    
+    Publications: 565
+</PRE>
+
+
+<HR>
+<h1>EcoCyc Version 2.6, released Dec 11, 1995 </h1>
+
+(This version was released on our WWW server only.) <P>
+
+Improvements introduced in this version include:
+
+<UL>
+<LI> New gene data -- EcoCyc now contains Rudd's EcoGene.7, which describes 1000 more mapped E. coli genes than EcoGene.6
+<LI> Database links -- EcoCyc is now linked to SwissProt and PDB
+<LI> Gene-Reaction schematics summarize gene/enzyme/reaction relationships
+<LI> Several new pathways have been added
+<LI> Pathway windows now contain commands called More Detail / Less Detail,
+which apply different levels of information filtering to pathway displays
+</UL>
+
+Knowledge base size: <P>
+
+<PRE>
+    Reactions: 2910 total;  598 in E. coli;  87 w/ no EC#
+    
+    Polypeptides: 491;  Protein complexes: 250
+    
+    Enzymes: 348
+    
+    Genes: 2962   (2577 are mapped)
+    
+    Total Pathways: 97;  Superpathways: 11
+    
+    Compounds: 1241
+    
+    Publications: 470
+</PRE>
+
+
+<HR>
+<h1>EcoCyc Version 2.4, released Oct 4, 1995</h1>
+
+Improvements introduced in this version include:
+
+<UL>
+<LI> More data -- EcoCyc now contains 100 metabolic pathways
+<LI> The circular genomic-map viewer is introduced (see Gene Map Mode
+  command)
+<LI> Any EcoCyc window can be saved to a postscript file for printing
+  (see Print To File command)
+<LI> All reactions known to occur in E. coli are now marked as such,
+  even if EcoCyc does not yet describe the corresponding enzyme 
+<LI> Many citations were added to the KB
+<LI> A new user preference controls whether reactions are drawn in
+  the systematic direction defined by Enzyme Nomenclature, or in the
+  direction they proceed in the context of a pathway
+<LI> Different enzyme names can now be explicitly associated with the
+  different activities of an enzyme
+<LI> Citations and Genbank sequences can be saved to a file
+<LI> Relationships among components of an enzyme complex are
+  displayed more accurately, and reactions catalyzed by the components
+  are shown 
+<LI> The curved arcs adjacent to side compounds are now drawn in
+  pathway displays
+</UL>
+
+<HR>
+
+<!--#include virtual="/template-part3of3.shtml" -->

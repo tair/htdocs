@@ -1,0 +1,27 @@
+
+Job Title: Programmer in Bioinformatics
+
+Required Skills:
+
+BS or MS in Computer Science or Bioinformatics. Strong programming background in 
+C++/C, Java, PHP and other web programming is required. Working experience with 
+relational database such as MySQL 5.0 is a plus. Critical thinking, algorithm 
+development and the ability to work independently are a must.
+
+Job Description:
+
+A new bioinformatics lab is being set up with a current focus on data 
+production, integration and mining of Expressed Sequence Tags (ESTs) and 454 
+cDNA sequence reads. Your responsibility will include development of integrated 
+databases, associated data processing pipelines and web-based interfaces for 
+ConiferGDB (www.conifergdb.org) by developing and applying various computational 
+tools. ConiferGDB is aimed to allow in-depth mining of all cDNA sequence 
+features including protein-coding domains, 3’ and 5’ untranslated regions 
+(UTRs), simple sequence repeats (SSRs), single nucleotide polymorphisms (SNPs), 
+polyadenylation signals, putative miRNAs and their targets, splice variants and 
+so on. In addition, you need to be versatile to deal with issues related with 
+system administration and database management.
+
+Please contact Dr. Chun Liang by email (liangc@muohio.edu)
+
+

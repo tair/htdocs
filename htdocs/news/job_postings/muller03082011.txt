@@ -1,0 +1,45 @@
+The Carnegie Institution for Science, located on the Stanford University campus, is looking for a 
+programmer to handle bioinformatics programming work for our state-of-the-art model organism database. 
+TAIR, The Arabidopsis Information Resource (http://arabidopsis.org) provides leading-edge genomics 
+research data and tools.
+
+Responsibilities:
+
+- Programming bioinformatics systems in Java, Perl, Python, and SQL
+- Managing large data sets and processes using file systems and relational databases (MySQL, Oracle, 
+PostgreSQL) with SQL
+- Maintaining existing bioinformatics tools and systems in a variety of languages
+- Other bioinformatics-related duties as required
+
+Requirements:
+
+- MS or PhD in genomics or bioinformatics-related discipline, or equivalent experience with work in 
+algorithm development and bioinformatics tools, with exposure to gene prediction, next gen sequence 
+data and protein function prediction
+- At least two years of experience with bioinformatics programming in Perl, including Perl modules and 
+the debugger (schoolwork doesn't count here) with project work in bioinformatics tool development and 
+maintenance and work involving the manipulation of large data sets and processes
+- At least 1 year of experience programming databases with SQL and at least six months experience with 
+database administration of MySQL, Oracle, or PostgreSQL, preferably on projects involving biological 
+or genomic data
+- At least 1 year of experience in a Linux environment
+- Basic knowledge of software engineering (programming, testing, object-oriented systems programming 
+and design)
+- Flexibility to learn and grow in a dynamic research environment with a strong interest in genomics 
+research and development
+- Ability to interact, to work cooperatively, and to communicate with co-workers
+
+Preferred:
+
+- Experience with GBrowse or other genome browsers and their related data formats such as GFF
+- Deeper knowledge of genomics or molecular biology (published work would be great)
+- Exposure to configuration and maintenance of web-related technologies such as Apache, Tomcat, and 
+JBoss or web services (SOAP or REST)
+- Experience with server cluster and/or cloud computing technologies (for example, Torque)
+- Carnegie offers excellent benefits, a competitive salary, 5 weeks of vacation per year, a great 
+work location on the Stanford campus, and a stimulating scientific and computing environment. For 
+immediate consideration, please email your resume (in text [ASCII], HTML, Acrobat (PDF), or Microsoft 
+Word format) to jobs@arabidopsis.org. A successful candidate must be able to provide proof of 
+employment eligibility upon acceptance of a job offer.
+
+Equal Opportunity Employer.

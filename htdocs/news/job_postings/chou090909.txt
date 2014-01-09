@@ -1,0 +1,45 @@
+Postdoctoral Research Associate on RNA Interference Technology
+One to two postdoctoral research associate positions are available immediately 
+for energetic individuals with a firm background training in molecular biology or 
+biochemistry and a prior PhD research work on Arabidopsis, C. elegans or other 
+related model species. Special preferences are given to candidates who have 
+performed RNA interference (RNAi) experiments on these model species. The 
+annual salary will be no less than $40K and commensurate with candidate 
+qualification. These positions are expected to last four years until August 2013, 
+subject to the continuous funding support from National Science Foundation 
+(NSF).
+The successful candidates will be given the resource and guidance to conduct 
+research on RNAi transfection technologies. The candidates will devise more 
+controllable, economical and efficient RNAi delivery procedures for various model 
+species, and to design and perform experiments involving RNAi transfections, 
+microarray hybridizations and qRT-PCRs to validate the newly developed RNAi 
+transfection procedures. The new postdocs will be members of our new NSF 
+sponsored project team to develop optimal siRNA design software based on 
+whole genome thermodynamic analysis. This project will use the novel RNAi 
+transfection procedures to validate the designed siRNAs in vivo.
+For these postdoc positions, applicants must hold a Ph.D. degree in related fields 
+with the preferred expertise as stated above. Use of computers in solving 
+biological research problems will be an essential part of the project. 
+Nevertheless, prior experience in bioinformatics is helpful but not essential - we 
+will train the new postdocs on the job for using computational biology techniques. 
+To apply, please send a letter of intent stating your future research interest and 
+also a curriculum vitae documenting your past experience to Dr. Chou's email 
+address below. Upon request from us, applicants may be asked to solicit three 
+reference letters to be sent directly to the same email address below.
+Our laboratory conducts interdisciplinary research, taking advantage of 
+expertises from both computational and biological sciences, We are a member of 
+the Iowa State bioinformatics research community and are affiliated with 
+the Laurence H. Baker Center for Bioinformatics and Biological Statistics, 
+the Center for Plant Genomes, the Center for Integrated Animal Genomics and 
+the Plant Sciences Institute. We are also affiliated with the Bioinformatics and 
+Computational Biology Interdepartmental Graduate Major and the Bioinformatics 
+and Computational Biology Undergraduate Major at Iowa State University.
+Dr. Hui-Hsien Chou  
+Complex Computation Lab  
+Department of Genetics, Development and Cell Biology  
+Department of Computer Science  
+Iowa State University  
+Ames, IA 50011-3223  
+ 
+Email: hhchou at iastate dot edu
+

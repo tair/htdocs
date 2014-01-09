@@ -1,0 +1,33 @@
+<TITLE>TIGR A. th. EST db:  Methods</TITLE>
+<BODY>
+<img src = "banner1.gif">
+<hr>
+<H2><CENTER>The Assembly Method</CENTER></H2>
+
+The basic strategy for producing assemblies of ESTs is to  perform pairwise sequence comparisons of each EST against all others.  This can be very computer intensive.  We have used an in-house program developed by Granger Sutton at TIGR called TIGR Assembler to speed up this assembly process 
+(<A HREF="references.html#Sutton" >Sutton et al. 1995</A>).
+  TIGR Assembler has succesfully been used to assemble sequences from three completed bacterial genome sequencing projects (<a href="references.html#Fleischmann">Fleischmann et al., 1995</a>;<a href = "references.html#Fraser">Fraser et al., 1995</a>;Bult et al, in preparation), as well as for human EST analyses.
+<P>
+TIGR Assembler begins the assembly process by building a table of all possible 10-mers found within the EST dataset, and then uses the 10-mer content of each EST to group possibly overlapping sequences together.  The alignment of overlapping sequence is performed by a modified Smith-Waterman algorithm.  The degree of similarity needed for the algorithm to add a new EST sequence to an assembly is at least 95% identity over a minimum of 40 bp of overlapping sequence, with a maximum of 25bp of unmatched sequence at either end.  
+<P>
+<center>
+<TABLE BORDER=2 cellpadding=4>
+
+<td><IMG align=center SRC="assembly.gif"><P>
+
+<center><B>Figure 1</B><br>
+</center>
+This diagram illustrates a typical EST assembly and the parameters involved.  Here, 5 individual EST sequences, shown as arrows are derived from the same gene, with one being a sequence from the 3' end.  They each have substantial overlap with the other ESTs, which are shown by the color bars between each EST.  Red regions are regions greater than 40bp long with over 95% sequence identity.  Blue regions are short regions found at the ends of sequences which may fall below the 95% identity but only if they are 25 bp or shorter.  This parameter is necessary because single pass sequencing produces a higher level of errors towards the end of sequencing runs.  The consensus sequence is built pairwise as new ESTs are added to the assembly.  
+
+</TABLE>
+</center>
+<p><B>Caveat : - </B>For the most part the parameters used in the assembly process produce a good compromise between the two extremes that would either group together all ESTs from similar but distinct genes or at the other extreme never assemble anything but identical sequence entries (single pass EST sequencing would rarely produce such perfect sequence).  As a result of this compromise it is important to remember that the assemblies are artificial groupings based on sequence similarity found in the EST data itself.  Thus there are situations where assemblies do not include all the ESTs actually derived from that gene, and other cases where ESTs from very closely related genes are indistinguishable.  Bearing this in mind, the process is still very worthwhile.  The assemblies reduce redundancy, aid in identification because the consensus sequences are longer than individual ESTs, and have the potential to identify alternative splice products.
+    
+
+<HR>
+<A HREF="summary.html"><CENTER>Back to the Index</CENTER></A>
+
+
+
+
+</BODY>

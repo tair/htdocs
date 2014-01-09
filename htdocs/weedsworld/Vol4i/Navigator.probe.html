@@ -1,0 +1,112 @@
+
+<HTML>
+<script language="javascript">
+<!--
+	// keep static pages here!
+	var home_page = "http://probe.nalusda.gov:8000/otherdocs/ww/Vol4i/";
+
+
+	function load_static_page(page) {
+
+	// first three buttons always the same (WW cont, Vol cont, and ftp)
+	   if (page == 1)
+		{
+			window.parent.location = home_page + "../home.html";
+			return;
+		}
+
+	   else if (page == 2)
+		{
+			window.parent.frame_main.location = home_page + "Contents.html";
+			return;
+		}
+
+	   else if (page == 3)
+		{	
+			window.parent.location = "http://nasc.nott.ac.uk/ftp/pub/._A";
+			return;
+		}
+
+	// the last three buttons are also static (mail, help and copyright)
+
+	   else if (page == 7)
+		{
+			window.parent.frame_main.location = "Copyright.html";
+			return;
+		}
+
+	   else if (page == 8)
+		{
+			window.parent.frame_main.location = "";
+			return;
+		}
+
+	   else if (page == 0)
+		{
+			window.parent.frame_main.location = "";
+			return;
+		}
+
+
+}
+
+	function static_message(id) {
+
+	   if (id == 1)
+		strng = 'WeedsWorld Home Page';
+	   else if (id == 2)
+		strng = 'Volume 4i Contents Page';
+	   else if (id == 3)
+		strng = 'The WeedsWorld FTP Site';
+
+	   else if (id == 7)
+		strng = 'Mail the editors';
+	   else if (id == 8)
+		strng = 'Help Page';
+	   else if (id == 9)
+		strng = 'Copyright Notice';
+
+	   else
+		return false;
+
+	window.status = strng;
+	return true;
+
+
+}
+
+
+// end of the script -->
+</script>
+		
+
+<HEAD>
+<TITLE>Weeds World Volume 4i - Sept 1996</TITLE>
+
+</HEAD>
+<BODY bgcolor=#ffffff>
+
+
+<center>
+<table align="center" border="0" width="85%" cellspacing="0" cellpadding="0">
+<tr>
+<td align=left><a href="javascript:load_static_page(1);" onmouseover="return static_message(1)"><img src="images/home4.gif" border="0" width="35" height="35" alt="[Home]"></a>
+<a href="javascript:load_static_page(2);" onmouseover="return static_message(2)"><img src="images/toc_bt.gif" border="0" width="35" height="35" alt="[Contents]"></a>
+<a href="javascript:load_static_page(3);" onmouseover="return static_message(3)"><img src="images/ftp_btn.gif" border="0" width="35" height="35" alt="[Contents]"></a>
+</td>
+<td align=center>
+<a href="javascript:window.parent.frame_main.Page_load(4);" onmouseover="return window.parent.frame_main.message(4)"><img src="images/btn-005.jpg" border="0" width="35" height="35"></a>
+<a href="javascript:window.parent.frame_main.Page_load(5);" onmouseover="return window.parent.frame_main.message(5)"><img src="images/btn-006.jpg" border="0" width="35" height="35"></a>
+<a href="javascript:window.parent.frame_main.Page_load(6);" onmouseover="return window.parent.frame_main.message(6)"><img src="images/btn-008.jpg" border="0" width="35" height="35"></a>
+</td>
+
+<td align=right><a href="mailto:editor@thale.nott.ac.uk" onmouseover="return static_message(7)"><img src="images/btn-003.jpg" border="0" width="35" height="35" alt="[mail editor]">
+<a href="help.html" onmouseover="return static_message(8)" target=frame_main><img src="images/btn-010.jpg" border="0" width="35" height="35"></a>
+<a href="Copyright.html" onmouseover="return static_message(9)" target="frame_main"><img src="images/btn-011.jpg" border="0" width="35" height="35">
+
+
+</table>
+</center>
+
+</BODY>
+</HTML>

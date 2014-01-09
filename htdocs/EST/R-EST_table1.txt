@@ -1,0 +1,75 @@
+Table 1. R-ESTs with sequence similarity to disease resistance genes.											
+				Target Resistance Protein					Region of	TC	
+GENBK	Cf-9	Xa21	RPM1	RPS2	L6	N	RPP5	Pto	Similarity (a)	Group (b)	Contigs with: (b)
+F13577	76 (c)	70	-	-	-	-	-	-	LRR 	na	
+F14315	-	-	-	-	-	74	160	-	NBS	na	
+F15353	62	95	-	-	-	-	-	-	LRR 	na	
+F15571	59	62	-	-	-	-	-	-	LRR 	na	
+F20107	124	164	-	-	-	62	-	-	LRR 	na	(F20107 and F20108 are from the same clone.)
+H36320	-	-	94	-	-	-	-	-	LRR	na	
+H36821	128	112	-	-	-	-	-	-	LRR 	na	
+H36913	-	146	-	-	-	-	-	91	Kinase	na	
+H37061	-	-	-	-	-	62	-	-	LRR	na	
+H77224	-	-	-	-	87	58	74	-	post-Toll	na	
+N38401	74	59	-	-	-	-	-	-	LRR 	na	
+N65198	132	121	-	-	-	-	-	-	LRR	na	
+N65416	87	116	-	-	-	-	-	-	LRR	na	
+N65549	88	83	-	-	-	-	-	-	LRR	na	
+N65692	-	-	-	-	204	272	125	-	Toll	na	
+N65836	93	111	-	-	-	-	-	-	LRR	na	
+N95848	99	104	-	-	-	-	-	-	LRR 	na	
+N96078	-	-	-	-	-	62	196	-	LRR	na	
+N96307	-	65	76	67	-	73	-	-	LRR	na	
+N96493	-	-	-	66	72	-	111	-	LRR	na	
+N96711	82	56	-	-	-	-	64	-	LRR 	na	
+N97067	-	-	99	59	-	76	-	-	LRR	na	
+R29891	-	-	-	-	192	296	149	-	Toll	na	
+R30025	-	-	-	-	-	68	48	-	LRR	TC8582	T21838
+R30624	104	88	-	-	-	-	-	-	LRR	na	
+R64794	-	105	-	-	-	-	-	161	Kinase	TC11717	Z37669
+R64932	-	-	-	568	62	-	-	-	LRR	na	
+R89998	173	216	-	-	-	68	61	-	LRR	TC9681	H37195, H37296, H37300, R84144, T21150
+R90150	107	94	-	-	-	55	-	-	LRR	TC11266	R65475
+T04109	77	94	-	-	-	67	-	-	LRR	na	
+T04135	135	113	-	-	-	-	-	-	LRR	na	
+T04362	88	54	-	-	-	-	-	-	pre-LRR+LRR	na	
+T13648	90	100	-	-	-	-	-	-	LRR	na	
+T14233	97	128	-	-	-	55	60	-	LRR	na	
+T20493	145	153	-	49	-	-	65	-	LRR	na	
+T20671	71	101	-	-	-	-	-	-	LRR	na	
+T20808	-	-	-	-	68	96	156	-	Toll	TC13957	W43530
+T21447	173	189	-	-	-	78	53	-	LRR	na	
+T41629	76	78	-	-	-	-	-	-	LRR	na	
+T41662	-	-	-	-	-	-	477	-	LRR	na	
+T42294	69	66	75	63	-	67	-	-	LRR	na	
+T43968	-	-	-	-	-	55	114	-	LRR	na	
+T44885	-	-	635	65	-	-	-	-	pre-LRR+LRR	na	
+T44979	-	-	-	-	-	-	-	-	pre-LRR+LRR	TC8357	R64813, R90306, T04461, T04558, T44406, T46409, Z37660 
+T45845	130	201	-	55	-	62	-	-	LRR	na	
+T45996	78	94	-	-	-	-	-	-	LRR	na	
+T46064	-	-	60	-	-	99	203	-	LRR	na	
+T46145	-	-	-	-	-	-	119	-	LRR	TC9706	H36884, T22090, T44830, Z34571, Z34572
+T46379	91	101	-	-	-	-	-	-	LRR	na	
+T46721	-	-	-	-	67	74	83	-	Toll	na	
+T75662	60	-	-	-	-	-	-	-	pre-LRR	TC11016	T42271
+T88149	53	-	80	577	-	64	-	-	LRR	na	
+Z17798	138	171	-	-	-	65	-	-	LRR	na	
+Z17993	-	-	-	191	-	-	-	-	pre-LRR+LRR	na	
+Z18443	-	-	-	-	65	83	64	-	pre-LRR	na	
+Z26226	163	209	-	48	-	63	-	-	LRR	TC8632	H36976, N38535, Z26710, Z30856, Z33755, DRT100  (Z26226 and Z26710 are  from the same clone.)
+Z30800	95	102	-	-	-	-	-	-	LRR	TC10452	T42336
+Z30811	-	-	-	-	-	-	-	-	LRR	na	
+Z30817	65	-	-	-	-	-	-	-	pre-LRR	TC10756	T22460
+Z33873	82	53	-	-	-	-	-	-	LRR	TC9829	Z46820 (Z46819 and Z46820 are from the same clone.)
+Z34772	-	-	-	-	-	52	56	-	NBS	na	
+Z46819	128	133	-	-	-	56	-	-	LRR 	TC11040	T45680 (Z46819 and Z46820 are from the same clone.)
+
+(a) The designation "LRR" or "pre-LRR" indicates that the R-ESTs was similar to a disease resistance gene in the LRR domain or the 											
+domain immediately upstream of the LRR domain. "Toll", "NBS" and "Kinase" indicate that the R-EST showed similarity to a Toll-											
+signaling, a nucleotide binding site or a ser/thr kinase domain respectively.											
+(b) The last two columns indicate the TIGR TC assembly group to which the R-EST belongs and any other ESTs that are members 											
+of the same TC group. na, not assignable.											
+(c) The values represent TBLASTN scores (BLOSUM 62 matrix, no filtering), which reflect the degree of sequence similarity 											
+between the deduced amino acid sequences of the indicated disease resistance protein and the R-EST, with higher scores											
+indicating a greater degree of sequence similarity. Dashes ("-") indicate that no sequence similarity was found. See Altschul et al. 											
+(1990) and Newman et al. (1994) for a description of BLAST scores. 											

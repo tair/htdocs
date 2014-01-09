@@ -1,0 +1,45 @@
+<script language="javascript">
+
+<!--
+
+function Page_load(page) {
+        
+
+                
+           if (page == 4)
+                page_title = "%s";
+           else if (page == 5)
+                page_title = "%s";
+           else if (page == 6)
+                page_title = "%s";
+
+        if (page_title == "")
+                return;
+        
+        
+        window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+           
+}
+
+        var strng;
+        function message(id) {
+           
+
+           if (id == 4)
+                strng = '%s';
+           else if (id == 5)
+                strng = '%s';
+           else if (id == 6)
+                strng = '%s';
+
+           else 
+                return false;
+
+        window.status = strng;
+        return true;
+}
+
+// end of script -->
+
+</script>
+

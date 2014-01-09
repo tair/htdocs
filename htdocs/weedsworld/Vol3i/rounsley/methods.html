@@ -1,0 +1,95 @@
+<TITLE>TIGR A. th. EST db:  Methods</TITLE>
+<BODY>
+<img src = "banner1.gif">
+<hr>
+
+<H2><CENTER>The <I>Arabidopsis</I> Assemblies</CENTER></H2>
+
+<H3>Input sequences</H3>
+
+<B>ESTs :-</B>  
+
+All <I>Arabidopsis</I> EST sequences in dbEST were downloaded and subjected to a 'cleaning' procedure.  Due to the nature of the assembly process, the presence of similar stretches of 'contaminating' sequence can cause false assemblies.  The 'cleaning' process checks for vector sequence, poly(A) or (T) tails, and stretches of poly (CT) and trims these away.  Similarly, a maximum of 4% of ambiguous bases are allowed in any one sequence, and the final length after trimming must be greater than 100 bp.  A nightly script downloads new ESTs from dbEST and periodically these are incorporated into the existing assemblies.
+
+<P>
+<B>Known <I>Arabidopsis</I> coding sequences : -</B>
+
+To help 'anchor' ESTs from known <I>Arabidopsis</I> genes, we included a set of non-redundant protein coding genes from <I>Arabidopsis</I> in the assembly process.  ESTs that assembled with these known genes can be easily assigned an identification.
+<P>
+<center>
+<TABLE BORDER=2 cellpadding = 4>
+<tr><TD>
+<B>23921</B> EST and <B>822</B> known transcripts sequences input.
+ 
+<tr><TD>
+<p><B>3764</B> assemblies produced, containing <B>15218</B> ESTs.<br>
+<B>8701</B> 'singletons' remained.
+ 
+<tr><TD>
+<B>63.6%</B> of ESTs assemble into contigs. <br>
+Average number of ESTs per contig = <B>4.0</B>  Max = <B>221</B>
+ 
+</TABLE>
+</center>
+
+
+
+<H3>Assigning Identifications</H3>
+
+<B>Assemblies: </B>
+The consensus sequence of each assembly was searched against the public nucleotide and protein databases in order to glean some information about putative identification of the gene.  Alignments were assessed by eye, and the most sensible biological identification was assigned if the match was significant.  Assemblies that contained a known <I>Arabidopsis</I> coding sequence were automatically assigned.  Attempts were made to keep the putative identification as generalized as possible to enable useful keyword searching. 
+
+<P>
+<B>Classes of Identifications: </B>
+Based on the sequence to which a significant match is found, the match is assigned to one of four classes.  Class 1 indicates that the EST is derived from an <I>Arabidopsis</I> gene that has already been isolated and sequenced.  Class 2 indicates that the EST is from a gene that is closely related to another previously cloned <I>Arabidopsis</I> gene, but the two are distinct members of the same gene family.  Class 3 indicates that the hit is to a non-<I>Arabidopsis</I> gene, and that no similar <I>Arabidopsis</I> gene is present in the public databases.  This class can be subdivided to indicate whether the match is from another plant species or from a more evolutionary distant ancestor.  Class 4 is a class for 'junk' sequences such as rRNA genes, and contamination by bacterial sequences.
+<P>
+<B>Non-assembled ESTs (Singletons): </B>  ESTs that were not part of an assembly
+ were not subjected to manual identifications, and class assignment, but the results of blast searches
+ contained in the dbEST database were parsed to extract the ID of the highest scoring blastx hit where the score was greater than 90.  ESTs that did not have significant hits to a protein entry were not assigned any identification.
+ 
+
+<P>
+<center><table border =3>
+        <tr><th colspan=4>Name Assignment Summary
+	<tr><td rowspan = 7 align = center> TC's
+        <td colspan=3 ><B>1826</b> assemblies (<b>48.5%</B>) have been assigned putative IDs. 
+        <tr><th align = center>Class
+            <th align = center>Assemblies
+            <th align = center>ESTs
+        <tr><td align = center>1
+            <td align = center>641 (17%)
+            <td align = center>4275 (28%)
+        <tr><td align = center>2
+            <td align = center>279 (7.4%)
+            <td align = center>1286 (8.5%)
+        <tr><td align = center>3
+            <td align = center>888 (23.6%)
+            <td align = center>3808 (25%)
+        <tr><td align = center>4
+            <td align = center>18 (0.5%)
+            <td align = center>71 (0.5%)
+        <tr><td align = center>No Match
+            <td align = center>1938 (51.5%)
+            <td align = center>5778 (38%)
+	<tr>
+	<tr><td rowspan=5 align=center>Singletons<br> (IDs parsed<br> automatically<br> from dbEST)
+	<td rowspan=1 align=center>Significant Hit
+	    <td align=center>2446 (32%)
+	    <td rowspan=3><img src="arab.li.gif"></td>
+        <tr><td align=center>No Significant hits
+            <td align=center>5175 (68%)
+        <tr><td align=center>No data available
+            <td align=center>1082
+
+
+</table>
+
+
+
+
+<hr>
+<center><A HREF="summary.html">Back to the Index</A></center>
+
+
+
+</BODY>

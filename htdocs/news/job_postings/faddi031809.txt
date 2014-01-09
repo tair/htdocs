@@ -1,0 +1,39 @@
+As part of our collaborative research work with SELEX Sensors and 
+Airborne Systems Limited, we wish to recruit a research student for a 
+PhD study on sensor networks for surveillance and monitoring 
+applications. The main objective of the proposed research project is 
+to explore the usage of sensor networks in improving monitoring and 
+surveillance performances, with an emphasis on the provision of 
+actionable user information (e.g. decision support etc.) gathered from 
+integrated multi-modal systems. This requires, first, improving 
+deployment strategies and associated supporting tools for the 
+deployment of static sensor nodes in order to provide optimal coverage/ 
+context awareness from the deployed system within the monitored area. 
+Based on decentralized sensing architecture, robust threat 
+identification and sensor node localization algorithms will also be 
+investigated. In addition, efficient data/information fusion from 
+heterogeneous sensors (such as EO/IR visual, acoustic and seismic 
+sensors) will be carried on to improve threat detection, behaviour 
+within it’s operating context. The potential to exploit the 
+distributed tracking capabilities of multi-modal sensor networks will 
+also be assessed during this work. The project will be carried out in 
+close collaboration with our industrial partner and the resulting 
+interactions will provide an exceptionally rich research environment. 
+In addition to simulation validation, this project entails 30% real 
+time experiments to embed proposed algorithms on representative sensor 
+network hardware capabilities. 
+ 
+Entry Requirements: For this research studentship, we are seeking a 
+talented graduate, having (or be expected to obtain) at least an upper 
+second class honours degree (first class honours preferred), MSc or 
+equivalent in electrical engineering or computer science. Good 
+mathematical background and experience of sensor signal processing, 
+distributed/networked systems, Bayesian based inference techniques, 
+data/information fusion and real time systems would be most desirable. 
+ 
+ 
+Visit this website for more information 
+ 
+http://www.scholarships-
+links.com/viewdetail/id/225/PhD_Studentships_in_Sensor_Networks_for_Surveillance_and_Monit
+oring_Applications,_Cranfield_Universi/

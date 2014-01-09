@@ -1,0 +1,75 @@
+<HTML>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "Contents.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "mapping/Chromosome1.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'WeedsWorld Volume 3(iii) Contents';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 3(iii) Contents';
+	   else if (id == 6)
+		strng = 'Chromosome 1 Graphical map';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+
+<TITLE>The latest RI map using the Lister and Dean mapping lines ( 5-Sep-1996)</TITLE>
+<!-- Changed by: Dr Mike Arnold,  5-Sep-1996 -->
+
+
+</HEAD>
+<BODY bgcolor="#ffffff" TEXT="#000000" LINK="#FF0000" ALINK="#0000FF" >
+<blockquote>
+<p>
+<h1>The latest RI map using the Lister and Dean mapping lines</h1>
+<hr>
+<ul>
+<li><A HREF="Chromosome1.html">Chromosome 1 map</A> - Graphic</li>
+<p>
+<li><A HREF="Chromosome2.html">Chromosome 2 map</A> - Graphic</li>
+<p>
+<li><A HREF="Chromosome3.html">Chromosome 3 map</A> - Graphic</li>
+<p>
+<li><A HREF="Chromosome4.html">Chromosome 4 map</A> - Graphic</li>
+<p>
+<li><A HREF="Chromosome5.html">Chromosome 5 map</A> - Graphic</li>
+<p>
+<li><a href="Chromosomes_text.html">All Chromosomes</a> - text</li>
+<p>
+<li><a href="ftp://nasc.nott.ac.uk/pub/RI_data/" target="_top">Postscript version of the maps for printing</a></li>
+</ul>
+<hr>
+
+</BODY>
+</HTML>

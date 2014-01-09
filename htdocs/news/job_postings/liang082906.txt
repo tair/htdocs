@@ -1,0 +1,43 @@
+Subject:
+[Arabidopsis] Ph.D./M.S. Assitantships in Plant Genomics and Bioinformatics
+From:
+liangc@muohio.edu
+Date:
+Fri, 25 Aug 2006 22:40:07 -0400 (EDT)
+To:
+arab-gen@magpie.bio.indiana.edu
+
+Starting in Fall 2007, two Ph.D./M.S. assistantships are available in
+Botany Department, Miami University to participate in the area of Plant
+Genomics and Bioinformatics.  The research work for the selected students
+will be an integral component of ConiferGDB (www.conifergdb.org). 
+Possible research topics include data mining, database knowledge
+discovery, automatic information retrieval and text mining, GO, software
+and database development and other bioinformatics applications addressing
+various biological questions.  Candidates must have strong computational
+background with decent knowledge in plant biology.
+
+Please contact with Dr. Chun Liang (liangc@muohio.edu).
+
+Miami University is an Equal Opportunity Employer which encourages
+applications from minority group members and women.
+
+
+*************************************************
+Dr. Chun Liang
+Assistant Professor in Bioinformatics
+Department of Botany
+Miami University
+Oxford, Ohio 45056
+
+Email: liangc@muohio.edu
+Phone: (O) (513) 529-2336
+       (H) (513) 523-8536
+
+http://www.bioinfolab.org/
+*************************************************
+
+_______________________________________________
+Arab-gen mailing list
+Arab-gen@net.bio.net
+http://www.bio.net/biomail/listinfo/arab-gen

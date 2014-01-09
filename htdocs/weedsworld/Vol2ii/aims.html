@@ -1,0 +1,250 @@
+<TITLE>Enhanced stock searching facilities and direct
+linking to sequence databases in AIMS via the World Wide Web</TITLE>
+
+<H2>    Enhanced stock searching facilities and direct
+linking to sequence databases in AIMS via the World Wide Web</H2><P>
+
+                  Randy Scholl and Jin Kim <p>
+
+    ABRC, Ohio State University; and Dept. of Computer
+Science, Michigan State University, respectively. <p>
+<HR>
+<H2>INTRODUCTION           </H2>
+
+    A large volume of information is available on the
+Internet relating to genetics and molecular biology of
+Arabidopsis. However, this exists in different locations,
+and the most effective terms to enter when executing
+searches for information for these sources are sometimes
+uncertain. Hence, two new features have been added to the
+Web version of AIMS.  These are automatic links to the
+sequence databases (including EST Sequence Analysis
+Database at the University of Minnesota and to EST
+Sequence and GenBank databases of NCBI) and a structured
+phenotypic searching tool for seed stocks which is based
+on a fixed, systematic set of categories. These system
+enhancements are described below, and examples of their
+use are included. This is part of the continued adaptation
+of AIMS to the Web, in which we have previously
+implemented a number of improvements including stock
+ordering and searching(see <a HREF="http://genesys.cps.msu.edu:3333/">AIMS menu</a>).
+
+<H2>STRUCTURED PHENOTYPE-BASED SEARCHING </H2>
+
+<H3>A. Description </H3>
+
+    Locating items of interest in a large database can
+sometimes be difficult and becomes a greater challenge
+when the user is unfamiliar with the terminology of the
+subject. Also, use of terminology can differ between
+individual scientists, and the database user is thus faced
+with the challenge of ascertaining the terms that
+individuals entering the data may have been employing.  If
+there is any inconsistency of terminology in data entry,
+these difficulties are magnified.  Hence, we have
+developed a series of categories for AIMS in which all
+mutants (seed stocks) can be classified and the
+classification system then employed as a stock-locating
+tool. This new addition is referred to as "structured
+phenotypic searching" and has just been added to the AIMS
+Web server - as a link from the seed stock searching page
+(the address of the structured phenotype search page is
+ <a HREF="http://genesys.cps.msu.edu:3333/phenotype.html">http://genesys.cps.msu.edu:3333/phenotype.html</a>). <P>
+
+    The logical base of this tool is an hierarchical
+classification scheme developed as a collaboration between
+members of the Chris Somerville lab and AIMS personnel. 
+In this scheme, mutant stocks are assigned at least one
+category in the structure.  The four main headings of the
+classification are  <a HREF="http://genesys.cps.msu.edu:3333/development-doc.html">I. Development</a>, 
+<a HREF="http://genesys.cps.msu.edu:3333/cytogenetics-doc.html">
+II. Cytogenetics</a>, <a
+HREF="http://genesys.cps.msu.edu:3333/biochemistry-doc.html">III.
+Biochemistry</a> and <a
+HREF="http://genesys.cps.msu.edu:3333/environment-doc.html">IV. Environmental Interaction.</a> To see the
+subcategories of any of these groups, you may click on the
+appropriate category name.  While the categories are
+arranged into an outline format, there are also assigned
+sequence numbers which are shown at the left of each line. 
+These exist simply for convenience of the user, and are
+designed to assist in keeping track of one's location in
+the outline at any point in time (or to flag a location of
+a category for future use) <P>
+
+    The logic of the category structure is that main
+headings represent very widely based searches, subheading
+are more specific and sub-subheadings still more specific. 
+Searching for the item "rosette leaf" will find any stock
+affecting size, shape, color or pubescence of the leaf
+(which are subheadings of "rosette leaf"). A stock which
+has been classified as possessing a characteristic that is
+general (e.g., the "Fertility" subsection (#61) of
+Development) will not be found in searches specifying more
+specific subsections (e. g., "Male sterility" (#62)). <P>
+
+    For stocks which have complex phenotypes and/or
+multiple effects, more than one of the categories may be
+appropriate and are assigned.  Hence, different search
+choices may find the same stock.  In this sense, the
+category system also becomes a tool for identifying
+different stocks affecting single aspects of development
+or metabolism.<P>
+
+    A search for stocks affecting silique development can
+be used as an example of a simple category search. The
+actions required to execute the search are; a) click on
+"roots" (line #5 ), and then click on "Search."  The
+resulting page with the list of stocks, including choices
+for additional stock details, stock ordering, viewing and
+comparing of images operates exactly the same way as the
+similar page of the standard stock search. (Click <a HREF="http://genesys.cps.msu.edu:3333/phenotype.html">here </a> to
+connect to the search page and work the example.)  Note
+that, as previously, single or multiple stocks can be
+highlighted for simultaneous viewing of details or order
+placement. <P>
+
+    More complex or concise structured phenotype searches
+can be formulated using the structured phenotypic search
+screen by executing joint searches among different
+categories.  For example, highlighting only "rosette leaf
+color" (item #14) finds a very large number of stocks. If,
+however, one suspects that a mutant of interest affects
+both leaf color and shape, these two categories can be
+simultaneously highlighted to achieve a joint search.
+(Highlighting of multiple categories is achieved on the
+Macintosh by clicking sequentially on the desired
+categories while depressing the "Apple" key; in other
+systems the action is similar with keys such as "control"
+being used instead of "Apple.")  Note that this search
+will find multiple mutants which have genes cumulatively
+affecting all of the selected categories as well as stocks
+with single loci having multiple effects. <P>
+
+          <H3>B. Comments </H3>
+
+    Some categories of this structure presently have
+large numbers of assigned mutants and others are more
+sparsely populated.  Categories representing easily
+identifiable phenotypes, such as rosette leaf color, have
+large numbers.  Searches utilizing such categories work
+correctly, although they may be slow - requiring up to
+several minutes to produce the found list of stocks.  To
+minimize long searching times, we have classified the
+Feldmann T-DNA lines and recombinant inbred lines as Type
+= "lab strains" as opposed to the "mutant" classification
+utilized for individual mutant lines. Hence, choosing
+"mutant" using the button labelled "Type:" at the bottom
+of this screen eliminates these relatively large groups
+from the search pool and speeds the process. 
+
+    It is hoped that this scheme will assist researchers
+in locating desired stocks among the rapidly increasing
+array of mutants and other stocks of Arabidopsis.  The
+present categories were designed to be comprehensive but
+not overly complicated. Undoubtedly there are neglected
+areas, and aspects which could have been constructed more
+logically.  While alteration of the AIMS Sybase data
+structure to accommodate major changes would require
+substantial effort, it should be possible to make some
+changes in the categories, as warranted. A few such
+changes have been accomplished during the data entry by
+ABRC, as deficiencies of the structure were identified. 
+Comments and suggestions on the structure are welcome as
+are suggestions regarding category assignments of specific
+stocks.  We will do everything possible to make the
+category structure most useful.<P> 
+
+     If you have any questions, comments or suggestions
+regarding this database feature, feel free to contact ABRC
+or the AIMS manager.<P> 
+
+
+<H2>AUTOMATIC LINKS FROM AIMS TO SEQUENCE DATABASES </H2>
+
+    Several important resources relating to Arabidopsis
+DNA sequences are now available via the World Wide Web. 
+Links among all of these databases have been in existence
+for some time so that transfer among them is simple. 
+However, AIMS and the sequence databases at NCBI and the
+Arabidopsis cDNA Sequencing Project deal with different
+data relating to the same entities - namely sequenced DNA
+clones, especially ESTs.  AIMS maintains clone data, stock
+center availability of clones and histories of orders
+placed for clones.  The sequence databases maintain
+sequence information and a very useful variety of
+similarity analysis results.  Hence an opportunity exists
+to create direct links between corresponding data items. 
+Linkages at both individual clone levels and general
+search pages have been created in AIMS and are described
+below.  These links should complement the similar links
+that exist between the Minnesota cDNA sequence database
+and GenBank and between dbEST and GenBank. <P> 
+
+<H3>    A. Description of AIMS clone-to-remote sequence linkages</H3>
+
+    One potentially useful link of this type is a link
+from a clone in AIMS (with associated stock data) to the
+up-to-date sequence information available in GenBank,
+dbEST and the Arabidopsis cDNA Sequence Analysis Project. 
+This has now been implemented in AIMS.  Clone searches in
+AIMS are executed from the DNA search page, and in the
+resulting report page details of clones are accessed,
+orders initiated and the corresponding sequence similarity
+information from any of these three databases can be
+automatically accessed. Here is an example which can be
+worked through starting with a click on the hypertext
+"Start" below; 1) After the hypertext link is executed,
+the AIMS DNA search page should appear, and you then enter
+a clone number (e.g., 124f20t7) in the clone name field;
+2) Click on "Submit Query"; 3) Examine the table at the
+bottom of the resulting search results page, and select
+appropriate hypertext items to initiate automatic searches
+in any of the three database. Click <A HREF="http://genesys.cps.msu.edu:3333/dna-search.html">Start</A> if you wish to
+initiate this search. If ***** is found in a cell of the
+table, the corresponding database cannot be accessed.  
+These links should work for all AIMS EST entries to both
+dbEST and the Minnesota analysis database. In the latter
+case, an entry will only be seen if similarity results
+exist for the sequence in question. For all clones of AIMS
+having sequence entries in GenBank, the automatic link
+will be functional.<P>
+
+<H3>    B. Description of AIMS main search-page links</H3>
+
+    Linkages from the main search page of AIMS to
+GenBank, dbEST, the Arabidopsis cDNA Analysis Project and
+ATGC at the University of Pennsylvania also have been
+created.  This is similar to existing links among a number
+of the databases possessing Arabidopsis data.  In the case
+of these links, the transfer is to the main search pages,
+where possible.  Hence, searches within each of these
+databases can be launched directly from this location.<P> 
+
+<H3>    C. Comments </H3>
+
+    The principle for database linking and the level at
+which clone-sequence links are created pose several
+choices.  The linking principle to the Minnesota database
+and dbEST is clone name, and GenBank accession number is
+employed in GenBank.  These are items that are reliably
+associated with the correct sequence in the respective
+database and have produced consistent results in our
+initial testing.  The level of linking is aimed at
+producing the same list of items that would be initially
+found by a search for clone name or identification number
+in the respective database.  A clear alternative to this
+would be to target the specific sequence associated with
+the clone/stock.  However, the former was chosen since the
+correct clone is usually the first item on the report
+list, and the additional choices represent potentially
+very useful information (e.g., as alternate or additional
+choices for study).  It is thus hoped that the most useful
+possible link has been generated.  Any suggestions for
+improvement of these new linkages are welcome.<P>
+
+    The contacts for questions or comments regarding
+these or any other features of AIMS are: aims-manager@aims.cps.msu or 
+arabidopsis+@osu.edu.  All
+comments are welcome.
+     
+

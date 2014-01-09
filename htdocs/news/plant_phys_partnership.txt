@@ -1,0 +1,55 @@
+Plant Physiology and TAIR Partnership Will Provide Genetic Information to Public 
+Database  
+	A unique partnership has been formed between Plant Physiology and The 
+Arabidopsis Information Resource (TAIR) to create an efficient mechanism that will 
+ensure that genetic and molecular data on Arabidopsis published in the Journal are 
+reliably captured in TAIR’s public database. This collaboration—the first of its kind-- 
+provides authors with the ability to submit manuscripts to the Journal for publication and 
+gene information to the TAIR database at the same time. 
+      Plant Physiology (http://www.plantphysiol.org/) is an international plant science 
+journal established in 1926. It publishes articles on broad aspects of plant biology 
+including physiology, biochemistry, cellular and molecular biology, genetics, biophysics, 
+and environmental biology of plants. Although Plant Physiology publishes papers on a 
+wide range of plants, it publishes a very high number of papers that describe the use of 
+the model organism Arabidopsis thaliana to decipher how plants function. These 
+Arabidopsis articles are the foundation of the connection with TAIR. 
+	TAIR (http://www.arabidopsis.org/) was created in 1999. Its mission is to collect 
+information and maintain a database of genetic and molecular biology data for 
+Arabidopsis thaliana, a widely used model plant. Since its inception, TAIR has grown 
+and now includes the complete genome sequence along with gene structure, gene product 
+information, metabolism, gene expression, DNA and seed stocks, genome maps, genetic 
+and physical markers, and publications, as well as information about the Arabidopsis 
+research community. 
+	For some time now, TAIR has been curating data from the published literature, 
+adding new or additional information relating to Arabidopsis genetics and molecular 
+biology data to the database. Curation is a labor-intensive process that makes certain that 
+the information included in the database is of high quality and as accurate as possible. 
+TAIR’s goal is to achieve the widest possible coverage of annotations of the genome.  
+However, due to the high number of Arabidopsis-related publications and the relatively 
+small number of TAIR curators, keeping on top of the current literature is difficult. In 
+part, because of the high volume of Arabidopsis papers that Plant Physiology publishes, 
+in 2006–2007 only about 25% (50/200) of the Arabidopsis papers in the Journal were 
+captured in TAIR.    
+	In May 2007 Sue Rhee, Principal Investigator; Eva Huala, Director of TAIR; and 
+Plant Physiology Editor-in-Chief Don Ort conceived the idea of Plant Physiology 
+partnering with TAIR to increase the curation of Arabidopsis gene function data from the 
+Journal to as close to 100% as possible. The concept behind this is simple:  once a 
+manuscript has been accepted, the author submits all the relevant gene information to 
+Plant Physiology, which will then submit the information in bulk to TAIR for vetting and 
+addition to the database. A link to a web-based interface will be included in the 
+manuscript provisional acceptance letter; this is anticipated to make it even easier for 
+authors to submit their Arabidopsis gene function data to TAIR.  
+	All parties benefit from this interaction. Since TAIR shares its information with 
+larger databases such as the National Center for Biotechnology Information (NCBI) and 
+the Gene Ontology (GO), both Plant Physiology and its authors gain greater visibility in 
+the research community by having their data available from all these resources. TAIR 
+gains by sharing the load of capturing all this valuable data with the authors themselves. 
+The biggest beneficiary of this partnership is the entire plant science community through 
+access to increased gene annotation information.  
+	Both TAIR and Plant Physiology are enthusiastic about this project and think it 
+will be a successful partnership that other biological databases and journals can emulate 
+to increase the flow of information and data dissemination within the research 
+community. 
+
+ 
+

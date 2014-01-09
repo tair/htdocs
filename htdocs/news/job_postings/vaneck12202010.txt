@@ -1,0 +1,20 @@
+Bioinformatics Summer Internship, The Boyce Thompson Institute at Cornell University 
+
+Be part of an exciting research project in the summer of 2011. The project is a large international 
+effort to sequence the tomato genome. You can learn more about the project by visiting the SOL 
+Genomics Network (SGN; http://solgenomics.net) and clicking on the link for the International Tomato 
+Project. 
+
+Students will work under the direction of a small team of bioinformaticians. We are seeking highly 
+motivated individuals with strong interests in computers and/or biology to work on computational 
+projects such as web-programming of new tools for plant scientists and designing and implementing 
+relational databases for genomics applications. Knowledge of programming is desired. 
+
+Compensation is provided through a stipend. In addition, a predetermined amount of funds is available 
+towards travel expenses and to cover housing for students outside the Ithaca, NY area. 
+
+Graduate students are not eligible for this internship. 
+Applications are available at http://solgenomics.net/outreach. The application deadline is March 7, 
+2011. 
+
+For additional information, contact Dr. Joyce Van Eck (jv27@cornell.edu). 

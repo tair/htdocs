@@ -1,0 +1,51 @@
+Genome Annotation Curator, Biological Research Database, Carnegie Institution, 
+Stanford, CA
+
+TAIR, The Arabidopsis Information Resource (http://arabidopsis.org) is a 
+National Science Foundation-funded web resource for thousands of plant biology 
+researchers worldwide, providing free access to a wide array of biological data 
+and tools for the model plant Arabidopsis.  The Carnegie Institution Department 
+of Plant Biology is co-located with the Department of Global Ecology on a seven-
+acre site on the campus of Stanford University.
+
+We are currently seeking applicants for the position of genome annotation 
+curator. The successful candidate will work with a team of curators, software 
+engineers, and database developers to provide data to over 13,000 users of the 
+TAIR website and database.  The ideal candidate is a plant biologist with 
+extensive lab research experience, a good publication record, excellent 
+communication and critical thinking skills and a desire to facilitate plant 
+research while remaining on the cutting edge of plant biology and genomics.  We 
+will train the successful candidate in any needed computer skills.
+
+Main Responsibilities:
+
+*	Carry out manual and computational reannotation of gene structure and 
+	function for TAIR genome releases as a member of our genome annotation 
+	team 
+*	Read current research articles and extract gene function data for loading 
+	into TAIR
+*	Contribute to the development of standard curation procedures 
+*	Provide support to the research community including answering questions 
+	and providing training on how to use the database and related tools
+*	Assist scientists with large data submissions 
+*	Assist with design of new or improved web interfaces and tools
+
+Requirements: 
+
+*	A Ph.D in Biology or related discipline with research experience in plant 
+	biology
+*	Demonstrated ability for independent, critical thinking
+*	Excellent written and verbal communication skills
+*	Ability to work well as part of a team 
+*	Good basic computer skills (word processing, spreadsheets, web browsers)
+
+Recommended: 
+
+*	Experience with Internet-based literature searching, Unix, HTML, Perl and 
+	mySQL would be useful but is not required.
+
+This is an on-site position, telecommuters will not be considered.  Qualified 
+candidates should email a cover letter, CV and names of 3 references to Dr. Eva 
+Huala at huala@acoma.stanford.edu.
+
+The Carnegie Institution of Washington is an equal opportunity employer.

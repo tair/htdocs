@@ -1,0 +1,39 @@
+Two 3-year European Research Council-funded post-doctoral positions
+
+Two 3-year European Research Council-funded post-doctoral positions are 
+available immediately in the Dean group at the John Innes Centre, Norwich. 
+These individuals will join a team analysing aspects of vernalization and 
+flowering time in Arabidopsis (http://www.jic.ac.uk/staff/caroline-dean). 
+
+An early step in the vernalization process is the up-regulation of 
+non-coding transcripts to the floral repressor gene, FLC. This is followed 
+by a cold-induced accumulation of a modified Polycomb Response Complex 2 
+(PRC2) at one site in the large intron (nucleation event). This PRC2 complex 
+is associated with three different PHD proteins and results in a progressive 
+increase in H3K27me3 at the nucleation site. At a certain point the 
+accumulated H3K27me3 causes the locus to flip into an epigenetically 
+silenced state. One of the new appointments will continue analysing the role 
+of the non-coding RNAs in the silencing process, whereas the other will 
+focus on the nucleation process including the role of the PHD proteins. 
+
+The applicants will require a PhD in genetics or molecular biology, good 
+experience in genetics or molecular biology (but not necessarily with plant 
+experience), demonstrable scientific success, good oral and written 
+communication and excellent team-working skills. Salary will be dependent 
+on experience within the range £26,610 - £29,566. 
+Please contact Caroline Dean (caroline.dean@bbsrc.ac.uk) with expressions of 
+interest. 
+
+Swiezewski, S., Crevillen, P., Liu, F., Ecker, J., Jerzmanowski, A., Dean, 
+C. (2007) Small RNA-mediated chromatin silencing directed to the 3' region 
+of the developmental regulator, FLC. Proc. Natl. Acad. Sci 27, 3633-8 
+Baürle, I., Smith L, Baulcombe, D.C. Dean, C. (2007) Widespread role for the 
+flowering time regulators FCA and FPA in RNA-mediated chromatin silencing 
+Science 318: 109-112 
+Liu, F., Quesada, V., Crevillen, P., Baürle, I., Swiezewski, S., Dean, C. 
+(2007) The Arabidopsis RNA binding protein FCA requires a Lysine Specific 
+Demethylase 1 homologue to down-regulate FLC. Molecular Cell 28:398-407. 
+De Lucia F Crevillen, P., Jones AM, Greb, T. Dean C (2008) A PHD-Polycomb 
+Repressive Complex 2 triggers the epigenetic silencing of FLC during 
+vernalization. Proc Natl Acad Sci U S A. 105(44):16831-6 
+Manzano, D., Marquardt, S., Jones, A.M.E., Bäurle, I., Liu, F.and Dean, C

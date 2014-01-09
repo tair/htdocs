@@ -1,0 +1,33 @@
+Research Assistant/ Post-doc 
+ 
+The Bioinformatics Analyst (Research Assistant/ Post-doc) will work on 
+sequence analysis and annotation for high-throughput smallRNA/gene 
+expression and pattern analysis in very large data sets. The ideal candidate 
+will bioinformatically analyze the sequence reads obtained from Illumina or 
+454 sequencing technology. 
+ 
+Qualifications: Successful candidate (Research Assistant) will have a 
+Bachelor's or Master's degree in the Biological Sciences, plus experience 
+working with computers in the field of biological sciences and a familiarity 
+with DNA sequence and annotation tools and practices. Experience with 
+standard bioinformatics tools and packages like BLAST, FASTA, and genome 
+browsers are a must. Candidates will also have a demonstrated competence in 
+appropriate computer languages including Perl, SQL, HTML and cgi-scripting; 
+Operating Systems including UNIX and UNIX variants. The Bioinformatics 
+Analyst will have a solid knowledge of molecular biology as it relates to 
+DNA sequences, sequencing technologies and genomics. Strong written and 
+verbal communication skills, excellent organization skills and work 
+independently are a must. 
+ 
+Candidates with BS/MS degrees are also encouraged to apply. 
+ 
+To apply, please send your application to 
+ 
+Ramanjulu Sunkar 
+Assistant Professor 
+Dept. of Biochemistry and Molecular Biology 
+Oklahoma State University 
+Stillwater, OK, 74078 
+Tel: 405-744-8496 
+Fax: 405-744-7799 
+e-mail: ramanjulu.sunkar@okstate.edu

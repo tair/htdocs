@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Text versions of all chromosomes - Dec 1996</title>
+  </head>
+
+<script language="javascript">
+
+<!--
+
+function Page_load(page) {
+        
+
+                
+           if (page == 4)
+                page_title = "mapping/Chromosome5.html";
+           else if (page == 5)
+                page_title = "mapping/mapping.html";
+           else if (page == 6)
+                page_title = "mapping_paper/RI_maps.interpretation.html";
+
+        if (page_title == "")
+                return;
+        
+        
+        window.parent.frame_main.location = page_title;
+           
+}
+
+        var strng;
+        function message(id) {
+           
+
+           if (id == 4)
+                strng = 'Chromosome 5 Graphical map';
+           else if (id == 5)
+                strng = 'The latest Lister and Dean RI maps';
+           else if (id == 6)
+                strng = 'The RI Mapping project moves to NASC';
+
+           else 
+                return false;
+
+        window.status = strng;
+        return true;
+}
+
+// end of script -->
+
+</script>
+  <frameset cols="20%,*">
+    <frame src="chrom_menu.html" name="main_menu">
+      <frame src="chrom1_text.html" name="main_main">
+  </frameset>
+
+  <body>
+
+  </body>
+</html>

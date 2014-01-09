@@ -1,0 +1,655 @@
+<html>
+
+
+
+<head>
+
+
+
+<title>TAIR Clone Search</title>
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!--
+
+
+
+// Copyright (c) 2000 internet.com Corp. 
+
+// http://www.webreference.com/js/
+
+// License is granted if and only if this entire
+
+// copyright notice is included. By Tomer Shiran.
+
+
+
+function launch(newURL, newName, newFeatures, orgName) {
+
+  var remote = open(newURL, newName, newFeatures);
+
+  if (remote.opener == null)
+
+    remote.opener = window;
+
+  remote.opener.name = orgName;
+
+  return remote;
+
+}
+
+
+
+function launchRemote() {
+
+  myRemote = launch("help.html", "help", "height=200,width=300,channelmode=0,dependent=1,directories=0,fullscreen=0,location=0,menubar=0,resizable=1,scrollbars=0,status=0,toolbar=0", "helpWin");
+
+}
+
+
+
+// -->
+
+</SCRIPT>
+
+
+
+<style>
+
+
+
+<!--
+
+
+
+h1           { font-size: 16pt; font-family: Arial, Helvetica, sans-serif}
+
+
+
+body         { font-family: Times New Roman }
+.sm {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt}
+td {  font-family: Arial, Helvetica, sans-serif; font-size: 12pt}
+
+
+
+-->
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+
+
+<body bgcolor="#F5F9FF">
+<div align="center">
+
+
+
+  <center>
+
+
+
+
+
+
+
+    <table border="0" cellpadding="0" cellspacing="0" width="660">
+      <tr>
+
+
+
+    <td>
+
+
+
+          <h1><a href="/index.html"><img border="0" src="images/tairsmall.gif" width="61" height="25" name="images/tairsmall.gif"></a>&nbsp; 
+            TAIR Clone Search Result</h1>
+
+
+
+    </td>
+
+
+
+        <td align="right" valign="top"> &nbsp; <a href="mailto:curator@arabidopsis.org"><img border="0" src="images/contact.gif" width="25" height="25"></a>&nbsp; 
+          <a href="javascript:{}" onClick="launchRemote()"><img border="0" src="images/help.gif" width="25" height="25"></a></td>
+
+
+
+  </tr>
+
+
+
+  <tr>
+
+
+
+        <td colspan="2"> 
+          <form method="POST">
+            <table width="100%" border="0" cellpadding="3" cellspacing="0" bgcolor="#D5D9DD">
+              <tr>
+                <td width="43%" valign="top"><span class="sm">new clone search 
+                  by name&nbsp;<input type="text" name="textfield" size="12">&nbsp;<input type="submit" name="go" value="go" class="sm">
+                  &nbsp;&nbsp;&nbsp;</span></td>
+                <td align="center" width="32%" valign="top"><span class="sm">search 
+                  again&nbsp;<input type="submit" name="search" value="search" class="sm"></span></td>
+                <td align="right" width="25%" valign="top"><span class="sm"><font color="#666666">download</font>
+                  <input type="submit" name="download" value="download" class="sm">
+                  </span></td>
+              </tr>
+            </table>
+            <p><b><font size="+1">Summary: </font></b><font size="+1">127 matches 
+              found, displaying 1-25 </font></p>
+            <table width="100%" border="0" cellspacing="0">
+              <tr align="left"> 
+
+                <td class="sm">&nbsp;</td>
+
+                <th class="sm"><a href="dummy.html">Clone Name</a></th>
+
+                <th class="sm"><a href="dummy.html">Vector Type</a></th>
+
+                <th class="sm"><a href="dummy.html">Chrom</a></th>
+
+                <th class="sm"><a href="dummy.html">Position</a></th>
+
+                <th class="sm"><a href="dummy.html">Map Type</a></th>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">1</td>
+
+                <td class="sm"><a href="dummy.html">T125</a></td>
+
+                <td class="sm">BAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Classical</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">2</td>
+
+                <td class="sm"><a href="dummy.html">pSQD1</a></td>
+
+                <td class="sm">BAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">30.6cM</td>
+
+                <td class="sm"><a href="dummy.html">Classical</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">3</td>
+
+                <td class="sm"><a href="dummy.html">S122</a></td>
+
+                <td class="sm">YAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">30.7cM</td>
+
+                <td class="sm"><a href="dummy.html">Classical</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">4</td>
+
+                <td class="sm"><a href="dummy.html">pMap34</a></td>
+
+                <td class="sm">lambda</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">30.8cM</td>
+
+                <td class="sm"><a href="dummy.html">Sequence</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">5</td>
+
+                <td class="sm"><a href="dummy.html">T33423</a></td>
+
+                <td class="sm">BAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">30.9cM</td>
+
+                <td class="sm"><a href="dummy.html">Sequence</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">6</td>
+
+                <td class="sm"><a href="dummy.html">Sig33</a></td>
+
+                <td class="sm">YAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">31.0cM</td>
+
+                <td class="sm"><a href="dummy.html">Sequence</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">7</td>
+
+                <td class="sm"><a href="dummy.html">T125</a></td>
+
+                <td class="sm">YAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">31.1cM</td>
+
+                <td class="sm"><a href="dummy.html">Sequence</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">8</td>
+
+                <td class="sm"><a href="dummy.html">pSQD1</a></td>
+
+                <td class="sm">P1</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">31.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Sequence</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">9</td>
+
+                <td class="sm"><a href="dummy.html">S122</a></td>
+
+                <td class="sm">BAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">31.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Classical</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">10</td>
+
+                <td class="sm"><a href="dummy.html">pMap34</a></td>
+
+                <td class="sm">lambda</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">31.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Classical</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">11</td>
+
+                <td class="sm"><a href="dummy.html">T33423</a></td>
+
+                <td class="sm">YAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">31.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Classical</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">12</td>
+
+                <td class="sm"><a href="dummy.html">Sig33</a></td>
+
+                <td class="sm">P1</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Classical</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">13</td>
+
+                <td class="sm"><a href="dummy.html">T125</a></td>
+
+                <td class="sm">BAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Sequence</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">14</td>
+
+                <td class="sm"><a href="dummy.html">pSQD1</a></td>
+
+                <td class="sm">BAC</td>
+
+                <td class="sm">1</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Physical</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">15</td>
+
+                <td class="sm"><a href="dummy.html">S122</a></td>
+
+                <td class="sm">cosmid</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Physical</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">16</td>
+
+                <td class="sm"><a href="dummy.html">pMap34</a></td>
+
+                <td class="sm">cosmid</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Physical</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">17</td>
+
+                <td class="sm"><a href="dummy.html">T33423</a></td>
+
+                <td class="sm">YAC</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Physical</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">18</td>
+
+                <td class="sm"><a href="dummy.html">Sig33</a></td>
+
+                <td class="sm">P1</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">RI</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">19</td>
+
+                <td class="sm"><a href="dummy.html">T125</a></td>
+
+                <td class="sm">plasimd</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">RI</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">20</td>
+
+                <td class="sm"><a href="dummy.html">pSQD1</a></td>
+
+                <td class="sm">P1</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">AGI</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">21</td>
+
+                <td class="sm"><a href="dummy.html">S122</a></td>
+
+                <td class="sm">YAC</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">AGI</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">22</td>
+
+                <td class="sm"><a href="dummy.html">pMap34</a></td>
+
+                <td class="sm">P1</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">AGI</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">23</td>
+
+                <td class="sm"><a href="dummy.html">T33423</a></td>
+
+                <td class="sm">plasmid</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Physical</a></td>
+
+              </tr>
+
+              <tr> 
+
+                <td class="sm">24</td>
+
+                <td class="sm"><a href="dummy.html">Sig33</a></td>
+
+                <td class="sm">BAC</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Physical</a></td>
+
+              </tr>
+
+              <tr bgcolor="#D5D9DD"> 
+                <td class="sm">25</td>
+
+                <td class="sm"><a href="dummy.html">Dop11</a></td>
+
+                <td class="sm">BAC</td>
+
+                <td class="sm">2</td>
+
+                <td class="sm">30.5cM</td>
+
+                <td class="sm"><a href="dummy.html">Physical</a></td>
+
+              </tr>
+
+            </table>
+
+            <p align="center" class="sm">previous [ 1 | <a href="dummy.html">2</a> 
+              | <a href="dummy.html">3</a> | <a href="dummy.html">4</a> | <a href="dummy.html">5</a> 
+              ] <a href="dummy.html">next</a></p>
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+              <tr> 
+
+                <td valign="top" colspan="4">&nbsp; </td>
+
+              </tr>
+
+              <tr> 
+
+                <td valign="top" colspan="4">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#F5F9FF">
+                    <tr align="center"> 
+                      <td colspan="3"><a href="/index.html"><span class="sm">Home</span></a><span class="sm"> 
+                        | <a href="/dir.html">Site Map</a> | <font color="#999999">Tools</font> 
+                        | <a href="ftp://ftp.arabidopsis.org">FTP 
+                        Directory</a> | <a href="/atdb-new.html">What's New</a><br>
+                        <a href="/about1.html">About TAIR</a> |<a href="/contact.html"> 
+                        Contact TAIR</a> | <font color="#999999">Documentation</font> 
+                        | <font color="#999999">User's Guide</font></span></td>
+                    </tr>
+                    <tr> 
+                      <td><a href="http://www.ncgr.org"><img src="images/ncgrlogoredsm.gif" width="87" height="15" border="0"></a></td>
+                      <td> 
+                        <div align="center"><font color="#999999"><span class="sm">General 
+                          Liability</span></font><span class="sm"> | <font color="#999999">Privacy 
+                          &amp; Security</font></span></div>
+                      </td>
+                      <td> 
+                        <div align="right"><a href="http://carnegiedpb.stanford.edu"><img src="images/ciw-logosm.gif" width="86" height="25" border="0"></a></div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+              </tr>
+
+            </table>
+
+
+
+      </form>
+
+
+
+
+
+
+
+    </td>
+
+
+
+
+
+
+
+  </tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+  </center>
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
+
+
+

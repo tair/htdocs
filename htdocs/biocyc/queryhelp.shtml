@@ -1,0 +1,210 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>
+BioCyc Advanced Query Help Page
+</title>
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<h1>Advanced Query Help Page</h1>
+
+This page describes how to use the Pathway Tools <A
+HREF="query.html">Advanced Query
+Form</A>.  The form allows you to issue queries that retrieve
+information from EcoCyc and from pathway/genome datasets for other
+organisms.  Each query retrieves a set of objects from a specified
+class according to constraints provided for attributes of that class.
+<P> <B>WWW Browser Requirements</B>: Because the Advanced Query Form
+uses modern Javascript features for updating the contents of the
+selector boxes, a modern WWW browser is needed. The form has been
+tested on Netscape 4.05 and Internet Explorer 4.0. However, it will
+not work on version 3.x of these browsers.  <P>
+
+<H2>Selecting the Query Dataset and Query Class</H2>
+
+The top part of the form is used for setting the context of the
+query. Each query applies to one <B>dataset</B>, and to one
+<B>class</B> of database objects (frames) associated with that
+dataset.  These choices can be made with the topmost two selector
+boxes.  The class defines a type of biological object.
+For example, you might choose to query the class of proteins associated
+with the <i>E. coli</i> dataset, or to query all genes
+associated with a different organism.  The set of datasets available
+will vary at different sites.
+
+<h2>Selecting the Query Connective</h2>
+
+The third box is used for choosing the logical <B>connective</B> that
+is used to combine the results of each clause in the query to form
+the end result of the full query.  If you choose AND, then the query
+will will return those results that are common to all of the query
+clauses; choosing OR will cause the query to return those results
+selected by any of the query clauses; choosing EXCLUSIVE-OR will
+return only those results selected by exactly one of the clauses.
+
+
+<h2>Defining the Query Clauses</h2>
+
+The actual query consists of a set of clauses.  Each clause is a
+condition that is used to screen all objects in the class selected for
+the query.  The condition refers to slots (attributes) of the objects.
+<P>
+
+For example, if the class of small molecules (called Compounds) is
+selected, each clause is evaluated against every small molecule in the
+database for the selected dataset.  Every class has a different set
+of slots; each clause refers to one slot, and is selected using a box
+within the clause.  Compounds, for example, contain slots such as
+Molecular-Weight and Names whose values are a numerical molecular weight 
+and one or more names for the chemical compound, respectively.  A clause
+can be used to compare the values of a slot for each compound against 
+a value supplied by the user.
+<P>
+
+The main part of the form contains 5 identical sections for
+formulating clauses of the query.  At least one clause should
+be filled in for each query -- the remaining sections should be left blank.
+<P>
+
+The selector boxes within a clause are used to build up
+the statement of the condition to form a readable phrase such as,
+"The value of slot molecular-weight is < 54".  The meaning of those
+boxes is as follows.
+<P>
+
+
+<OL>
+<LI>The first selector box allows querying directly for the <B>value</B>
+in a given slot, or alternatively, for the <B>number of values</B>
+that a slot contains, because some slots can contain more than one
+value. This latter setting can be used to ask whether a given
+slot has any values at all.
+<P>
+<LI>The second selector box should be used to specify the name of the
+<B>slot</B> one would like to query.
+<P>
+<LI>The third selector box allows <B>negation</B> of the slot query.
+<P>
+<LI>The fourth selector box should be used to specify the comparison
+<B>operator</B> that will be used for matching values in the slot to
+the query value that the user enters into the form. The allowed
+operators are determined by the type of values that are allowed to
+reside in the slot that was selected under (2). The main distinction is
+between numbers that allow operations such as greater-than and less-than, and
+text strings that allow substring searches.
+<P>
+<LI>Last is a text box in which the user enters
+a <B>query value</B> for comparison purposes, which together with the
+operator will determine whether a frame satisfies the slot query. The
+values that can be entered are numbers and text strings.  For slots that
+take boolean values, you may use the strings TRUE and FALSE for
+comparison purposes.  The values of some slots are frame IDs, so you may
+enter frame IDs as strings in this box.
+</OL>
+<P>
+If in any of the slot queries the choice of slot name or operator is
+not made, or no query value is entered in the text box, that
+particular slot query is ignored from the final results.
+<P>
+
+<h2>Defining the Query Results</h2>
+
+The lower part of the form contains a multiple selection box that
+allows you to choose what slot values should be included in the table of
+frames that will be returned as the query result. If no slots are chosen
+here, the table will only contain the name of each result frame.
+<P>
+
+Additionally, a check box allows inclusion of the frame ID (the
+internal database unique identifier) in the results table. The frame ID
+is used in URL links to EcoCyc objects.
+<P>
+Finally, at the bottom of the form, clicking on the <B>Submit</B>
+button will send the query to the server, and will return the results
+in a table. Each result row corresponds to one frame that satisfied the query.
+The  columns of the table list the values of the slots that were chosen
+by the user. The first column shows the "common 
+name" of the frame if one is available; the second column optionally shows the frame
+ID, if this choice was made above.
+<P>
+Additionally, the result page includes the original query.
+<P>
+
+
+<H2>Example Queries</H2>
+
+1. As a simple query to start with, let's assume we would like to ask for
+all compounds in <I>E. coli</I> that contain "tryp" in one of their
+names or synonyms. The slot we would query is called NAMES. Because
+we are querying for only one slot, the connective chosen does not
+matter. The query that will answer our question is:
+<P>
+<PRE>
+In dataset [E. coli], in class [Compounds] :
+AND
+     The [value] of slot [NAMES] [is] [superstring of] ["tryp"]
+</PRE>
+<P>
+In the early 1999 version of EcoCyc, this query will return 11 compound frames.
+<P>
+We can further narrow down the results by additionally asking for only
+those compounds that are larger than 200Da. To achieve this, we can
+query an additional slot that stores the MOLECULAR-WEIGHT. We will
+need to connect the two slot queries with AND, like this:
+<P>
+<PRE>
+In dataset [E. coli], in class [Compounds] :
+AND
+     The [value] of slot [NAMES] [is] [superstring of] ["tryp"]
+     The [value] of slot [MOLECULAR-WEIGHT] [is] [larger than] ["200"]
+</PRE>
+<P>
+This query reduces the number of returned frames to 8.
+<P>
+
+2. As a more complicated example, let us assume we would like to
+investigate the usage of the term "synthase" and "synthetase". Do they
+tend to be used interchangeably, or is there a difference in meaning
+and usage ? The class of frames we need to query is Enzymatic-Reactions,
+because this class encodes enzyme names.
+<P>
+First, we can just query for all the frames that contain either or
+both of these terms, and so our connective would be OR:
+<P>
+<PRE>
+In dataset [E. coli], in class [Enzymatic Reactions] :
+OR
+     The [value] of slot [NAMES] [is] [superstring of] ["synthase"]
+     The [value] of slot [NAMES] [is] [superstring of] ["synthetase"]
+</PRE>
+<P>
+This query returns 177 frames. This query, however, will not tell us whether some
+of these frames use both terms at the same time. If we change the
+connective to AND, we will be able to see that 42 frames are returned.
+<P>
+To find the frames which use these terms unambiguously, i.e. uniquely,
+we can change the connective to EXCLUSIVE-OR. This will return 135
+frames. Looking at the frames returned in these two sets could tell us
+something about whether the uses of these terms are very strict or
+rather loose.
+<P>
+To find all frames that only use one term, but not the other, we can
+modify the query as follows, using negation of one term:
+<P>
+<PRE>
+In dataset [E. coli], in class [Enzymatic Reactions] :
+AND
+     The [value] of slot [NAMES] [is] [superstring of] ["synthase"]
+     The [value] of slot [NAMES] [is not] [superstring of] ["synthetase"]
+</PRE>
+<P>
+We find that 71 frames only use "synthase", and 64 use
+"synthetase". These two numbers add up the what the EXCLUSIVE-OR query
+returned, as we expected. It appears that the usage of these two terms
+is approximately balanced, and used relatively interchangeably.
+
+
+<!--#include virtual="/template-part3of3.shtml" -->

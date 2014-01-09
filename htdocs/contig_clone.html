@@ -1,0 +1,296 @@
+<html><head><TITLE>Submit Contig Clone Info.</TITLE></head>
+
+<body background="/images/arabidopsisbackground.gif">
+<a href=/><img src="/images/tairsmall.gif" border=0 align=left></a>
+
+<img width=114 align=right
+src="/images/example_clone_50.gif"
+ALT="[Clone]">
+
+<H1 align=center>Submit Contig CLONE Details to TAIR
+<br clear=left>
+</H1>
+
+
+
+<img src="/images/line.red2.gif" align=left alt="[line]">
+<p>
+
+<FORM METHOD="POST"
+ACTION="/cgi-bin/atdb-contig_probe">
+
+<INPUT TYPE="Hidden" NAME="Form_Name" VALUE="Contig_Probe_Info">
+<br>
+
+<center>
+<b>THIS FORM IS FOR YOU TO GIVE TAIR DETAILS OF A SPECIFIC CLONE FROM YOUR CONTIG
+</b>
+</center>
+<p>
+
+In this form, you provide us with further details on a clonee from a
+physical-map contig. You will have previously supplied information on
+this contig to TAIR using either a <a
+href="/contig_simplemap.html">
+Submit Simple-</a> or <a
+href="/contig_complexmap.html">
+Submit Complex-</a> Contig Map Details Form. If you have <i>probe</i>,
+not clone, details, go to the <a
+href="/contig_probe.html">
+Submit Contig PROBE form</a> instead.
+
+<p>
+
+
+If you haven't filled in a "Submit Contig CLONE Details to TAIR" form
+before, <a
+href="/contig_info.html#Clone">
+read about this form </a> before starting.</b> Also available are an
+<a
+href="/contig_intro.html">
+introduction to TAIR's forms</a> for submitting physical-mapping data
+and a longer <a
+href="/contig_info.html">
+explanation and help</a>.
+
+<p>
+<br>
+<hr>
+<p> 
+
+Please start this form by filling in the name you previously gave on
+the "Submit Contig Map Form" for: (i) your contig, (ii) your probe,
+(iii) the clone to which your probe hybridizes.
+
+<p>
+
+<pre>
+		     YOUR NAME: <INPUT NAME="Name" SIZE=50> (Required)<br>
+	  NAME of your <b>CONTIG</b>: <INPUT NAME="Contig_name" SIZE=20>  [<i>e.g.</i>, IV m600 - mi123] (Required)<br>
+	    NAME of your <b>PROBE</b>: <INPUT NAME="Probe_name" SIZE=20> (Required)<br>
+NAME of your hybridizing <b>CLONE</b>: <INPUT NAME="Clone_hyb_name" SIZE=20> (Required)
+  Alternative name(s) for clone: <INPUT NAME="Clone_hyb_alias" SIZE=30>
+  (separate multiple alternatives with commas)<br>
+Please indicate if this is a new entry or an update to an exisiting
+clone entry: <INPUT TYPE="radio" NAME="update" VALUE="new_entry" CHECKED> New <INPUT TYPE="radio" NAME="update" VALUE="update_entry"><b>Update</b><p>
+
+	 	  Clone type: <SELECT NAME="Clone_hyb_type">
+<OPTION SELECTED>YAC 
+<OPTION> YAC left end
+<OPTION> YAC right end
+<OPTION> BAC
+<OPTION> BAC left end
+<OPTION> BAC right end
+<OPTION> cosmid
+<OPTION> lambda
+<OPTION> cDNA
+<OPTION> EST
+<OPTION> RFLP
+<OPTION> RAPD
+<OPTION> AFLP
+<OPTION> SSLP
+<OPTION> T-DNA flanking seqs
+<OPTION> transposon flanking
+<OPTION> Other (specify-->)
+</SELECT> If "other": <INPUT NAME="Clone_hyb_alt_type" SIZE=10>
+
+	     Clone size (kb): <INPUT NAME="Clone_size" SIZE=10> <br>
+	      <b>If</b> sized, how?: <SELECT NAME="Size_method">
+<OPTION SELECTED>Not sized
+<OPTION>PFGE (CHEF, etc.)
+<OPTION>Southern
+<OPTION>Agarose gel (EtBr)
+<OPTION>Sequencing
+<OPTION>Other (specify-->)
+</SELECT> <b>If</b> "other": <INPUT NAME="alt_size_method" SIZE=10><br>
+
+Hybrid'n checked on Southern: <SELECT NAME="Hyb_South_check">
+<OPTION SELECTED>No
+<OPTION> Yes - expected, as parental
+<OPTION> Yes - expected, but one or more parental missing (clone not spanning marker)
+<OPTION> Yes - anomalous, altered molecular weight (different fragment size)
+<OPTION> Yes - anomalous, other bands (specify) 
+</SELECT><br>
+	 <b>If</b> "Yes... other bands", describe: <INPUT NAME="alt_South_hyb" SIZE=30><br>
+	 Digital image available of Southern?: <INPUT TYPE="radio" NAME="S_image" VALUE="no_S_image" CHECKED> No <INPUT TYPE="radio" NAME="S_image" VALUE="yes_S_image" > Yes (If yes, we will contact you.)
+
+	   Chromosome Number: <SELECT NAME="Clone_chromsome">
+<OPTION SELECTED VALUE="">unknown
+<OPTION>I
+<OPTION>II
+<OPTION>III
+<OPTION>IV
+<OPTION>V
+</SELECT> Map location: <INPUT NAME="clone_map_location" SIZE=8>cM (if known)
+
+	     Map used: <SELECT NAME="clone_map_used">
+<OPTION SELECTED VALUE="">Not applicable
+<OPTION>Visible
+<OPTION>Dean & Lister RI
+<OPTION>Scolnik 3LOD 
+<OPTION>Scolnik All
+<OPTION>Integrated (Hauge)
+<OPTION>Unified (AAtDB)
+<OPTION>AFLP
+<OPTION>Physical
+<OPTION>Other (specify-->)
+</SELECT> <b>If</b> "other": <INPUT NAME="alt_clone_map_used" SIZE=10>
+
+
+Clone tested for chimerism?: <SELECT NAME="tested_for_chimerism?">
+<OPTION SELECTED>Don't know
+<OPTION> No
+<OPTION> Yes
+</SELECT> 
+
+	 <b>If tested</b>, is it chimeric?: <SELECT NAME="chimeric?">
+<OPTION SELECTED VALUE="">Not tested
+<OPTION> Yes - left end
+<OPTION> Yes - right end
+<OPTION> Yes - left & right end
+<OPTION> Yes - elsewhere
+<OPTION> NOT chimeric
+</SELECT>
+
+	 <b>If chimeric</b>, check type(s) of chimerism:
+	 
+	 <INPUT TYPE="checkbox" NAME="Unknown_chimera" VALUE="Yes">Unknown
+
+					     <b>Chromosome & Map location</b> (if known)
+	 <INPUT TYPE="checkbox" NAME="nuc_same_chr_chimera" VALUE="Yes">nuclear, non-rep same chr   <SELECT NAME="samechr_chr_loc">
+<OPTION SELECTED VALUE="">chr unknown
+<OPTION>I
+<OPTION>II
+<OPTION>III
+<OPTION>IV
+<OPTION>V
+</SELECT><INPUT NAME="samechr_map_loc" SIZE=8>cM
+					Map used: <SELECT NAME="samechr_map_used"><OPTION SELECTED VALUE="">Not applicable
+<OPTION>Visible
+<OPTION>Dean & Lister RI
+<OPTION>Scolnik 3LOD
+<OPTION>Scolnik All
+<OPTION>Integrated (Hauge)
+<OPTION>Unified (AAtDB)
+<OPTION>AFLP
+<OPTION>Physical
+<OPTION>Other (specify-->)
+</SELECT>If "other": <INPUT NAME="samechr_alt_map_used" SIZE=10><br>
+	 <INPUT TYPE="checkbox" NAME="nuc_other_chr_chimera" VALUE="Yes">nuclear, non-rep other chr <SELECT NAME="otherchr_chr_loc">
+<OPTION SELECTED VALUE="">chr unknown
+<OPTION>I
+<OPTION>II
+<OPTION>III
+<OPTION>IV
+<OPTION>V
+</SELECT><INPUT NAME="otherchr_map_loc" SIZE=8>cM
+					Map used: <SELECT NAME="otherchr_map_used"><OPTION SELECTED VALUE="">Not applicable
+<OPTION>Visible
+<OPTION>Dean & Lister RI
+<OPTION>Scolnik 3LOD
+<OPTION>Scolnik All
+<OPTION>Integrated (Hauge)
+<OPTION>Unified (AAtDB)
+<OPTION>AFLP
+<OPTION>Physical
+<OPTION>Other (specify-->)
+</SELECT>If "other": <INPUT NAME="otherchr_alt_map_used" SIZE=10><br>
+	 <INPUT TYPE="checkbox" NAME="Ribosomal_chimera" VALUE="Yes">Ribosomal DNA	            <SELECT NAME="rib_chr_loc">
+<OPTION SELECTED VALUE="">chr unknown
+<OPTION>I
+<OPTION>II
+<OPTION>III
+<OPTION>IV
+<OPTION>V
+</SELECT><INPUT NAME="rib_map_loc" SIZE=8>cM
+					Map used: <SELECT NAME="rib_map_used"><OPTION SELECTED VALUE="">Not applicable
+<OPTION>Visible
+<OPTION>Dean & Lister RI
+<OPTION>Scolnik 3LOD
+<OPTION>Scolnik All
+<OPTION>Integrated (Hauge)
+<OPTION>Unified (AAtDB)
+<OPTION>AFLP
+<OPTION>Physical
+<OPTION>Other (specify-->)
+</SELECT>If "other": <INPUT NAME="rib_alt_map_used" SIZE=10><br>
+	 <INPUT TYPE="checkbox" NAME="Repetitive_chimera" VALUE="Yes">Repetitive DNA	       	    <SELECT NAME="rep_chr_loc">
+<OPTION SELECTED VALUE="">chr unknown
+<OPTION>I
+<OPTION>II
+<OPTION>III
+<OPTION>IV
+<OPTION>V
+</SELECT><INPUT NAME="rep_map_loc" SIZE=8>cM
+					Map used: <SELECT NAME="rep_map_used"><OPTION SELECTED VALUE="">Not applicable
+<OPTION>Visible
+<OPTION>Dean & Lister RI
+<OPTION>Scolnik 3LOD
+<OPTION>Scolnik All
+<OPTION>Integrated (Hauge)
+<OPTION>Unified (AAtDB)
+<OPTION>AFLP
+<OPTION>Physical
+<OPTION>Other (specify-->)
+</SELECT>If "other": <INPUT NAME="rep_alt_map_used" SIZE=10><br>
+	 <INPUT TYPE="checkbox" NAME="Chloroplast_chimera" VALUE="Yes">Chloroplast DNA<p>
+
+	 <INPUT TYPE="checkbox" NAME="Mitochondrial_chimera" VALUE="Yes">Mitochondrial DNA<br>	   
+
+
+Was either a left-end or a right-end probe (or both) made from this clone?:
+		<SELECT NAME="end_probes_made">
+<OPTION SELECTED VALUE="">Not applicable
+<OPTION> No
+<OPTION> Yes - left-end only
+<OPTION> Yes - right-end only
+<OPTION> Yes - left & right
+</SELECT> 
+Were any other sub-clones made from this clone?:
+		<SELECT NAME="sub-clone_made">
+<OPTION SELECTED VALUE="">Not applicable
+<OPTION> No
+<OPTION> Yes
+</SELECT> 
+<b>If</b> any end-probes or other sub-clones were made, please remember to fill in a 
+complete new form (all Sections) for each one used successfully as a probe.
+
+Clone orientation: <SELECT NAME="Orientation">
+<OPTION SELECTED>Not determined
+<OPTION>left-end North
+<OPTION>right-end North
+</SELECT>
+
+
+Any other relevant information about this clone, <i>e.g.</i>, known problems, references:
+			<TEXTAREA NAME="Other_hyb_info" ROWS=5 COLS=40 wrap=soft></TEXTAREA>
+
+</pre>
+
+<p>
+
+<hr>
+
+<p>
+
+Thank you for completing this form. Please don't forget to fill in one
+for each of your contig's clones for which you have information.
+
+<p>
+
+To transmit your information for this clone, please press this button:
+<INPUT TYPE="submit"
+VALUE="Submit Clone Form">.
+<br>Press <INPUT TYPE="reset" VALUE="Reset">
+to clear this form and start over.
+</form>
+<hr>
+<p>
+<center>Please send suggestions or comments to 
+<A HREF="mailto:curator@arabidopsis.org">TAIR Curator</A><br>
+Last update: August 13, 1996</center>
+<p>
+<hr size=3 noshade width=95%>
+<p>
+<a href="/"><img src="/images/arrow.small.up.gif" border=0>Return to TAIR Home Page</a>
+</body></html>

@@ -1,0 +1,39 @@
+CAPS markers (Cleaved Amplified Polymorphic Sequences) can be used to
+unambiguously map an Arabidopsis gene to one of the 10 Arabidopsis
+chromosome arms.  For a detailed examination of the procedure see:
+
+Andrzej Konieczny and Fredrerick M. Ausubel, (1993) A procedure for
+mapping Arabidopsis mutations using co-dominant ecotype-specific
+PCR-based markers.  The Plant Journal 4:(2), 403-410.
+
+
+New CAPS markers continue to be developed by members of the
+Arabidopsis research community.  Eliana Drenkard and Fred Ausubel have
+collected the current list of markers, and provided it in tabular form
+for each of the five chromosomes.  Markers are given in the order of
+their chromosome position.  Additional information includes the primer
+sequences, restriction enzyme and number of cuts for each of the
+examined ecotypes.  If you have developed CAPS markers for an
+additional locus, please contact either Eliana
+(eliana.drenkard@frodo.mgh.harvard.edu) or Fred
+(fred.ausubel@frodo.mgh.harvard.edu) so that they may include your
+information in the next update.
+
+
+The tables are available in three formats.  
+
+Files ending in .txt are plain text versions, reformated for easier
+reading via gopher.
+
+Files ending in .hqx are binhex versions of formated Microsoft Word
+documents (for the Mac) which may be downloaded to your Macintosh.
+
+Files ending in .rtf are "rich text" versions which may be downloaded
+and imported into a variety of word processors.
+
+
+Also included in the directory is a (Cvi_CAPS.txt) file, first posted
+on the newsgroup from Maarten Koornneef`s group, showing polymorphisms
+for CAPS markers in the Cvi ecotype in relation to Ler and Col.
+
+

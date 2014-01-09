@@ -1,0 +1,33 @@
+
+*POSTDOCTORAL POSITION IN BIOINFORMATICS AND EVOLUTIONARY GENOMICS: 
+Next generation sequencing and analysis of complex polyploid genomes:* 
+
+The research group Genome Evolution and Speciation (Team "Mechanisms 
+Generating Biodiversity" MOB, UMR CNRS 6553 Ecobio) at University of 
+Rennes 1 (France) invites applications for a 18 month postdoctoral 
+position in bioinformatics to work on the analysis of genome and 
+transcriptome sequence data (generated using 454 Roche and Illumina 
+technologies) in the context of allopolyploid speciation. Genomic 
+redundancy is a characteristic of major plant lineages, and requires the 
+development of adapted analytic strategies. In the present project, 
+these analyses aim at exploring genome and transcriptome evolution 
+following recent interspecific hybridization and genome duplication in 
+highly polyploid (hexaploid and dodecaploid) /Spartina/ species invading 
+coastal salt-marshes. The host laboratory (http://ecobio.univ-rennes1.fr 
+<http://ecobio.univ-rennes1.fr/> ) has strengths in ecology, evolution, 
+polyploid speciation, genome evolution and phylogeny. On-campus genomic 
+and bioinformatic facilities are available at the Biogenouest plateforms 
+(/e.g/. http://www.genouest.org/). 
+
+Applicants must have a PhD in bioinformatics or genomics, excellent 
+corresponding publication records, with strong proficiency in one or 
+more programming languages, and preferably have experience with 
+high-throughput genome and/or transcriptome data analyses. There is no 
+citizenship requirement, and applications from abroad are encouraged 
+(applicants should NOT have stayed in France for more than 6 months 
+since 2010). 
+
+Applications should be sent to malika.ainouche@univ-rennes1.fr 
+<mailto:malika.ainouche@univ-rennes1.fr> . Please send a cover letter 
+describing your research interests and experience, C.V. and contact 
+information for two references. 

@@ -1,0 +1,50 @@
+Postdoctoral Research Fellow in Computational Systems Biology 
+
+Application End: Saturday March 31 2012 
+
+The Laboratory of Computational Systems Biology at the Faculty of Informatics, 
+Masaryk University, Czech Republic is currently expanding its research team and 
+is looking for highly motivated and talented individuals to a three year-fixed 
+term post. 
+
+The position is available to participate in a project focused on parameter 
+estimation in computational systems biology. 
+
+A central challenge in computational modeling of biological systems is the 
+determination of the model parameters. Typically, only a fraction of the 
+parameters (such as kinetic rate constants) are experimentally measured, while 
+the rest are often fitted. The fitting process is usually based on experimental 
+time course measurements of observables, which are used to assign parameter 
+values that minimize some measure of the error between these measurements and 
+the corresponding model prediction. 
+
+The goal of our research is to develop effective, fast, and scalable methods, 
+techniques and tools for automated parameter estimation for computational 
+analysis of biological systems. Our approach considers a generalized form of the 
+problem provided that traditional fitting to experimental measurements is 
+enhanced by considering several explicit hypotheses about expected behavior of 
+the system. We employ computer science approaches, methods and techniques as 
+known from the analysis of computer systems (like model checking) to fit 
+parameters according to the expected behavior. Requirements 
+
+Candidates must hold a PhD degree (or equivalent) awarded after 1 April 2008, 
+should be highly motivated and have either a strong background in systems 
+biology, molecular biology, cell biology or biochemistry OR a strong background 
+in informatics or computational modeling and an interest in biological 
+systems. Candidate must have excellent analytical skills, and strong 
+interpersonal and communication skills. 
+
+The deadline for applications is March 31, 2012. The gross salary is about 2200 
+EUR per month. The post is available from September 1, 2012, but the precise 
+starting date is negotiable. 
+
+Interested candidates should email their CV, list of publications, brief statement of 
+interest and career goals, names and contact information for 3 references contained in 
+one single PDF file to: 
+
+Prof. Lubos Brim 
+Masaryk University Brno 
+Faculty of Informatics 
+Botanicka 68a, 602 00 Brno 
+Czech Republic 
+Email: brim at fi dot muni dot cz 

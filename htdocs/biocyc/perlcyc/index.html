@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>perlcyc.pm</title>
+</head>
+
+<body>
+<center>
+<table width=600><tr><td>
+<font face=verdana,arial,helvetica,sans-serif size=2>
+    <a href="/"><IMG SRC=../aracyc_logo_mini.gif border=0></a>
+<h2>perlcyc.pm</h2>
+
+<h4>Description</h4>
+perlcyc.pm is a Perl module for accessing internal Pathway-Tools functions. The current version is 1.0, of August 28, 2002. 
+<P>
+To use the Perl module, Pathway Tools has to know that you send queries.
+If you are running Pathway Tools 6.0 or earlier, you need the 
+<a href=socket_server.txt>socket_server.lisp</a> program. To use socket_server.lisp, start Pathway-Tools with the -lisp option, at the prompt, type: 
+<BLOCKQUOTE>(load "/path/to/socket_server.lisp")</BLOCKQUOTE>
+then start the socket_server by typing:
+<BLOCKQUOTE>(start_external_access_daemon :verbose? t)</BLOCKQUOTE>
+<P>
+If you use Pathway Tools 6.5 or newer, you can invoke the socket server by starting Pathway Tools with the -api option. This will also start the external access daemon.
+<P>
+
+<h4>Downloads:</h4>
+    <a href=perlcyc_1.0.tar.gz>perlcyc_1.0.tar.gz</a> (CPAN formatted version)
+    <P>
+    <a href=perlcyc.pm.gz>perlcyc.pm.gz</a> (just the module)
+    <P>
+    <a href=perlcyc.html>POD Documentation</a> (html documentation)
+    <P>
+    <a href=perlcyc.txt>Source code</a>
+<P>
+<hr>
+<address></address>
+<!-- hhmts start -->
+Last modified: Wed Aug 28 15:38:00 PDT 2002
+<!-- hhmts end -->
+    </td></tr>
+</table>
+</font>
+</body> </html>

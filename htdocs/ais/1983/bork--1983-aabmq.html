@@ -1,0 +1,148 @@
+<title>bork--1983-aabmq.html</title>
+Vol 20: 
+<h2>A COMPUTERIZED SYSTEM FOR MICRODOSIMETRIC MEASUREMENTS OF HZE-PARTICLES WITH SEEDS AND SPORES</h2><p>
+
+U. Bork and A.R. Kranz<p>
+
+Botanisches Institut, J.W Goethe-Universitat, Postfach 111 932, D-6000
+Frankfurt am Main<p>
+
+INTRODUCTION<p>
+
+Ionizing radiation effects are commonly based on total dose and not on
+microdosimetric evaluation of single ion particles. Therefore a more
+detailed evaluation of single hit effects could not be achieved
+(Bucker, 1974). With broadened availability of heavy ions and nuclear
+track detectors methods of microdosimetric measurements have been
+elaborated by which the distances of particle tracks from the
+biological objects are measured under an improved microscope equipped
+for micropositioning. In this way dose calculation was based more
+directly to the energy deposition in microspace of the particle track
+(Schafer et al., 1977). In parallel an improvement of the particle hit
+inside uni- or multicellular organisms could be achieved (Scheidemann
+et al., 1978). In the scope of studies on the biological effectiveness
+of heavy ions in powerful accelerator as well as in space flight
+experiments a new approach has been made for improving the biophysical
+basis of dose parameters (Barckhausen et al., 1981).<p>
+
+Seeing that a large number of seeds (Arabidopsis thaliana) and spores
+(Sordaria fimicola) have to be examined (Schott et al, 1983) it was
+decided to install a computerized system for microdosimetric
+measurements of HZE particles with seeds and spores.<p>
+
+<a href="/ais/images/vol20/vol20-pg20-fig1.gif">Click here for figure</a><p>
+
+<a href="/ais/images/vol20/vol20-pg20-fig2.gif">Click here for figure</a><p>
+
+<a href="/ais/images/vol20/vol20-pg21-fig3.gif">Click here for figure</a><p>
+
+<a href="/ais/images/vol20/vol20-pg21-fig4.gif">Click here for figure</a><p>
+
+<a href="/ais/images/vol20/vol20-pg21-fig5.gif">Click here for figure</a><p>
+
+Figure 1-5:<p>
+
+OPERATIONS<p>
+
+Presently, the installed system consists of the microcomputer SIRIUS I
+with 256kByte RAM with two printers and Leitz Orthoplan microscope
+with a desk which is micropositioned by step-motors through an
+interface unit. The step-motors can be controlled by the computer
+which is installed presently (Figure 1).<p>
+
+At the time being the software for controlling the microscope and
+executing measurements of seeds or spores and tracks with analysis of
+the obtained data are being developed.<p>
+
+The program is divided into several parts by overlay procedures
+because of the limited space available. At the beginning of a
+measurement you can call the Main Menu, which allows to select from
+some subprograms that one you need for your purpose (Figure 2). The
+subprograms also have a menu-structure with different number of
+possibilities to select. The subprogram for measurements of seeds or
+spores is divided into 6 subprograms (Figure 3). The most important
+parts of this program are, the subprogram for getting the data of the
+objects measured, e.g., localization of the object on the detector,
+and the subprogam for calculation of this form with data storage on
+disk, and afterwards plotting the object. The plotted form of the
+object is determined by an ellipse but instead of two different
+semiaxis it is necessary to use four different semiaxis. In case of
+seed the position of the radicle meristem is specified by only one
+measurement. The form of the meristem is calculated out of the data of
+the seed. The suggested form of meristem is the half of an ellipse.
+With a spore, specific compartments of a cell (nucleus, vacuole) may
+be measured.<p>
+
+<a href="/ais/images/vol20/vol20-pg23-fig6.gif">Click here for figure</a><p>
+
+Figure 6: Plot demonstration of a measured seed.<p>
+
+The subprogram for measurement of tracks is divided into four
+subprograms (Figure 4). Within this program it is possible to
+determine a track by measuring two points of it and to store these
+data on a minidisk.<p>
+
+The subprogram for calculating the impact parameter (Figure 5) needs
+the data of the two programs discussed before. It calculates the
+distance between each track measured and a spore cell compartment or
+the radicle meristem of a seed. The object and the tracks within a
+certain impact parameter may be plotted on the screen and on the
+needle printer with some mo-information (Figure 6).<p>
+
+The whole program is written in BASIC, but to accelerate the graphics
+and the handling of the large number of data we do use a BASIC
+compiler. In order to accelerate the graphics and the calculation of
+the impact parameter it is planned to rewrite the parts of the program
+to Fortran or even to Assembler. It is expected for the near future
+that the whole system will be available.<p>
+
+The sequence of operations will be divided into three parts: a) At the
+beginning the seeds or spores which are fixed on a HZE particle
+detector are completely measured out, and the individual data are
+stored on a minidisk. The measured object can be plotted on the screen
+of the microcomputer and the plot may be printed by the needle printer
+with additional information of position and size of the object (Figure
+6).  b) Following these measurements the tracks of the HZE particles
+can be measured out and the data stored on a minidisk.  c) After step
+b) it will be possible to calculate the impact parameter of the HZE
+particle and the objects measured. The hit or nearly hit objects and
+the corresponding tracks may be plotted on the screen; the plot is
+then printed by the needle printer with additional information of the
+object and the HZE particle.<p>
+
+After this procedure the most interesting objects may be selected,
+removed from the detector and the biological effects can be finally
+examined by seeding on relevant culture media.<p>
+
+CONCLUSION<p>
+
+The system described allows rationalizing of the time-consuming
+microdosimetric operations and, furthermore, the complete storage and
+data processing permits effective statistical analysis of the
+measurements performed.<p>
+
+ACKNOWLEDGEMENT<p>
+
+This work is part of the experiment LDEF A0015 'Free Flyer Biostack'
+and has been supported by German Ministry of Research and Technology
+(BMFT, 01 QV 342).<p>
+
+REFERENCES<p>
+
+Barckhausen, R., A.R. Kranz, J.U. Schott: Arabid. Inf. Serv. 18, 16-36
+(1981)<p>
+
+Bucker, H.: Life Sciences and Space Research XII. Proceed. XVIth
+Cospar Meeting, Constanze (Akad. Verl. Berlin) pp 43-50 (1974).<p>
+
+Schafer, M., H. Bucker, R. Facius and D. Hildebrand: High Precision
+Localization Methods for HZE-particles. Radiat. Effects 34, 129-132
+(1977)<p>
+
+Scheidemann, U., H. Bucker, R. Facius and C. Thomas: Proceed. IX. Int.
+Conf., Neuherberg (Munchen). Pergamon Press, Eds. Granzer, F.,
+Paretzke, H., Schopper, E. (1978) Schopper, E. (1978)<p>
+
+Schott, J.U., G. Reitz and A.R. Kranz: Arabid. Inf. Serv. 20, 13-18
+(1983)<p>
+

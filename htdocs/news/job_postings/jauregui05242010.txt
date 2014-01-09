@@ -1,0 +1,61 @@
+PhD student position available
+
+Early stage researcher in bioinformatics and statistics, BIOBASE GmbH.
+
+
+Description
+
+The goal of the SYSFLO project is to train young scientists within a network
+of research institutions and knowledge-based companies in the field of
+systems biology. The work will combine the handling of large-scale datasets
+with advanced computational analysis, modelling, and prediction, applied to
+the area of plant reproduction. The student working at BIOBASE will be
+trained in the area of bioinformatical and statistical methods applied to
+the collection, processing, and analysis of high-throughput DNA sequencing
+data resulting from genetic or genomic experiments, and collaborate with
+other partners (University of Leeds, PRI International Wageningen,
+University of Milan, Max-Planck Institute for Plant Breeding Köln, JIC
+Norwich, Institute of Plant Genetics at the Polish Academy of Sciences, and
+VIB Ghent), who provide the experimental data, and will test the predictions
+resulting from the bioinformatical work.
+
+
+Requirements
+
+We are looking for mathematicians/informaticians with interest in biological
+research or biologists with interest in statistics/informatics, possibly
+with proven prior training in these areas, and with an appropriate MSc of
+not more than 4 years ago. Experience with statistical packages (e.g. R,
+Genstat, Matlab) and programming (e.g. Ruby, Perl, Python, Java) is
+advantageous, and proficiency in English mandatory. Applicants must not have
+more than 4 years of research experience (on a full time basis) since
+obtaining their diploma, must not be german residents and must not have
+finished a PhD. Appointment time is 1 year minimum, 3 years maximum. PhD
+completion is possible.
+
+
+
+This position is funded by the EU FP7 Marie-Curie ITN project SYSFLO
+"Training in Systems Biology Applied to Flowering". Benefits according to
+the ITN regulations include: living allowance (salary), mobility allowance,
+travel allowance, career exploratory allowance (single payment), coverage of
+participation expenses.
+
+
+About BIOBASE
+
+BIOBASE, headquartered in Wolfenbuettel, Germany, is a leading provider of
+biological databases, knowledge tools, software and services for the life
+science industry, with branch offices in the USA, India and Japan. BIOBASE
+provides an excellent scientific environment and actively participates in
+international research projects on developing systems biology tools and
+revealing molecular mechanisms of human diseases, drug target and biomarker
+discovery.
+
+
+Application
+
+Please send your application with CV and the name of two references to Dr.
+Frank Schacherer, BIOBASE GmbH, Halchtersche StraBe 33, D-38304
+Wolfenbuettel, Germany. E-mail: frank.schacherer@biobase-international.com
+

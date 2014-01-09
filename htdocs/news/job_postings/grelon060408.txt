@@ -1,0 +1,58 @@
+POST-DOCTORAL FELLOWSHIP
+
+A postdoctoral position in Molecular Biology and Genetics is available at INRA of 
+Versailles.
+
+Post Doc Project:
+
+Meiotic recombination initiation mechanisms in Arabidopsis thaliana
+
+In budding yeast, meiotic recombination events are initiated by DNA double strand 
+breaks (DSBs) catalysed by the Spo11 protein. In this species, DSB formation also 
+requires nine other proteins whose molecular function is poorly understood. Nevertheless, 
+recent studies tend to group them into subcomplexes, indicating that they can be 
+intimately linked and can form a large recombination initiation complex in which DSBs 
+are made.
+Many investigations have been carried out to identify in other organisms, homologs of 
+these DSB forming proteins. Unfortunately, unlike Spo11, most of these are not 
+conserved across kingdoms. Furthermore, even when DSB proteins are conserved, their 
+role in meiotic DSB formation is missing.
+A large-scale forward genetic approach to isolate plant meiotic genes has revealed the 
+existence of new meiotic functions that could be necessary for meiotic DSB formation in 
+the model plant Arabidopsis thaliana. The selected candidate will be in charge of the 
+cloning and the characterisation of several of these genes at the molecular, genetic and 
+cytological levels.
+A large range of tools are already available in the laboratory (as chromosome structure or 
+meiotic recombination progression markers), while others will be developed by the 
+selected candidate in order to analyse the function of the isolated DSB forming proteins, 
+as well as their in vitro or in vivo interactions.
+
+Candidate profile
+
+Applicants should have completed their PhD less than 5 years ago. A strong background 
+in molecular biology, genetics or cytology will be appreciated. The position is available 
+before the end of the year for a period of two years.
+
+If interested, please send an application outlining research experience and interests, 
+curriculum vitae, and the names and addresses of two references to Dr. Mathilde Grelon 
+(grelon@versailles.inra.fr), Institut Jean-Pierre Bourgin, INRA de Versailles, Station de 
+Génétique et d'Amélioration des Plantes, UR-254, Route de Saint-Cyr, F-78026 
+Versailles, France. Phone: (+33)(0)1.30.83.33.08. Fax:(+33)(0)1.30.83.33.19
+
+
+Significant recent publications of the group
+
+- Mercier R., Grelon M. (2008) Meiosis in plants: ten years of gene discovery. 
+Cytogenetics and Genome Research.  Reviews in Plant Cytogenetics. 120(3-4):281-290.
+- de Muyt A., Vezon D., Gendrot G., Gallois J.-L., Stevens  R., Grelon M. (2007) 
+AtPRD1 is required for meiotic double strand break formation in Arabidopsis thaliana. 
+EMBO J. 2007 Sep 19; 26(18):4126-37
+- Chelysheva L., Gendrot G., Vezon D., Doutriaux M.-P., Mercier R., Grelon M. (2007) 
+Zip4/Spo22 is required for class I CO formation but not for synapsis completion in 
+Arabidopsis thaliana. PLoS Genet. 2007 May 25;3(5):e83.
+- Chelysheva L., Diallo S., Vezon D., Gendrot G., Vrielynck N., Belcram K., Rocques N., 
+Márquez-Lema A., Bhatt A. M., Horlow C., Mercier R., Mézard C, Grelon M. (2005) 
+AtREC8 and AtSCC3 are essential to the monopolar orientation of the kinetochores 
+during meiosis. J. Cell Sci. Oct 15;118(Pt 20):4621-32
+-Grelon M, Vezon D, Gendrot G, Pelletier G. (2001) AtSPO11-1 is neccessary for 
+efficient meiotic recombination in plants. EMBO J. Feb 1;20(3):589-600.

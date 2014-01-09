@@ -1,0 +1,111 @@
+INFORMATION for CANDIDATES
+
+This document is designed to give you as much information as possible about the role you have applied for.
+
+Post:			Research Technician, Centre for Systems Biology at Edinburgh 
+School/Department:	Biological Sciences / CSBE
+Vacancy Ref. No:	31013100
+Closing date:		Thursday 17 August 2010
+
+
+Job description:
+
+Funding body: 	 	BBSRC/EPSRC
+Hours:			Full time	
+Start date: 		September 2010 or as soon as possible thereafter
+Duration: 		24 months  
+Project Manager:		Dr Karen Halliday
+Supervisor: 		Dr Julia Foreman
+Informal enquiries: 	Valerie Sparling (valerie.sparling@ed.ac.uk)
+
+Background: 
+Our previous studies have combined genetics, molecular biology and in vivo imaging to understand the intricacies of phytochrome and circadian clock signal transduction in Arabidopsis thaliana. A key feature of the circadian clock is that it is quite resistant to the effects of temperature. We are now beginning to understand the molecular basis for this biological temperature compensation (Gould et al., Plant Cell. 2006 5:1177-87). Our work has also demonstrated that collective action of the phytochromes provides another type of biological buffer that ensures events, such as the flowering time, are not affected by daily fluctuations in temperature (e.g. Halliday et al., Plant J. 2003 5:875-85). In this project we are want to establish the features of our molecular network that: 1. buffer the effects of temperature, or 2. trigger responses to temperature change. To do this we are combining mathematical, informatics and experimental approaches to construct dynamic network models. Our initial models will be developed by extending our existing mathematical models of the Arabidopsis clock (e.g. Locke et al., Mol. Syst. Biol. 2006 2:59). 
+
+A main component of the experimental programme will be to generate high quality data on temperature-regulation of molecular steps through the network. This scale of project necessarily requires large scale production of Arabidopsis wild type and mutant lines (for the ~50 genes in our network) expressing reporter constructs. These transgenic plants will be produced mainly by  transformation, selection and testing. You will contribute to this work and our genetic crossing programme working alongside other technicians. You will be responsible for ensuring that you proportion of the work is conducted in an orderly fashion and that all the required materials are generated within the stated project deadlines. You will conduct large scale qPCR timecourse analysis using bench-top (rotorgene) and robotised qPCR system within CSBE. You will be responsible for conducting timeseries p:LUC analysis, setting up and maintaining plant growth experiments. This work will involve growing and analysing seedlings under close-controlled conditions and harvesting samples over circadian time. You will also be responsible for maintaining: lab safety, stocks/reagents and growth facilities, and for distributing materials to collaborators and stock centres. 
+
+Your day to day work will involve working alongside a senior experimental postdoc. With input from the senior PDRA, you will be expected to organise your own work schedule, to plan ahead,  to ensure that your work is accurate and that you meet internal deadlines. Alongside other members of the ROBuST team your duties will also include assisting undergraduate and graduate students with specific tasks. This is a highly integrative project and you will be expected to communicate your progress and results to other members of the ROBuST team. 
+
+The project is a team effort involving the Halliday research group, and the Millar, Gilmore and Williams groups at the Edinburgh site, the Penfield and Graham groups at York, the Hall and White groups at Liverpool, and the Rand and Finkenstadt groups at Warwick.  At Edinburgh the ROBuST team work in close association with Informatics and CSBE. The modelling work is tightly coordinated with experimental research, so there are frequent cross-site video-link meetings to aid communication.  You will work directly with the senior PDRA, Dr Julia Foreman and have regular reporting contact with the project coordinator Dr Colin Moran, Dr Karen Halliday the lead PI and the ROBuST wider team.
+ 
+Job Profile:
+You will provide support for the experimental PDRAs, with instruction from the senior experimental PDRA, Julia Foreman, Colin Moran, the project coordinator and Karen Halliday, the project manager. An overview of your principle duties follows:
+
+1.  Support for experimental work: prep. of materials, e.g. growing plants, harvesting plant material, protein/RNA/DNA extraction, qRT-PCR, p:LUC and physiological analysis. 
+2.   Assist with large-scale production promoter:LUC lines by plant transformation. Assist with organisation and execution of our genetic crossing program.
+3.   Weekly operation of the laboratory, ensuring satisfactory stock level of requirements (chemicals, consumables, cultures etc), maintaining compliance with relevant regulations. Maintenance of growth facilities.
+4.   Organisation of collection, storage and distribution of materials produced to our other sites and stock centres.
+5.    Provide advice and assistance for junior staff, research students and undergraduates, as required. Prepare reports/presentations on work for discussion with the PIs and further analysis by others.
+ 
+
+Person specification:
+Essential
+•	Training to BSc level or equivalent in biological sciences.
+•	Knowledge of molecular biology, genetics and/or biochemistry.
+•	Experience of working plants ideally Arabidopsis thaliana.
+•	Experience of molecular biology techniques (DNA, RNA, protein) and plant growth regimes. 
+•	You must be meticulous in the laboratory, and able to obtain highly reproducible results using standard operating procedures. 
+•	IT literate, and able to use word processing and spreadsheet software.
+
+Desirable
+•	Plant RNA extraction, transformation, genetic crossing.
+•	Quantitative RT-PCR. 
+•	Experience of working with high-throughput equipment.
+•	Experience of storing experimental data in databases will be an advantage.
+
+
+Research facilities
+
+You will work within the Halliday lab which is based within the Daniel Rutherford Building (DRB) on the Edinburgh Kings Buildings Campus. You will have strong links with CSBE, which operates within the CH Waddington building located next to DRB within the School of Biological Sciences, and with our School of Informatics. 
+
+Salary
+The role is grade UE05 and attracts an annual salary of £20,327 to £23,566 for full-time hours, due to funding restrictions this post in caped at £22,236. Salary is paid monthly by direct transfer to your Bank or Building Society account, normally on the 28th of each month. Salaries for part-time staff are calculated on the full-time scales, pro-rata to the Standard Working Week.
+
+We anticipate interviews will be held in late August or early September 2010. If you have not been invited for interview by 30August 2010, you have not been successful.
+
+
+GENERAL INFORMATION 
+
+The University of Edinburgh
+For information about the University of Edinburgh, please visit http://www.ed.ac.uk/about/
+
+The College of Science and Engineering
+For information about the College of Science and Engineering, please visit http://www.scieng.ed.ac.uk/About/index.asp
+
+The School of Biological Sciences 
+The School of Biological Sciences is located at the King's Buildings campus. It includes about 125 academic staff and independently-funded senior research fellows, around 200 research assistants, most of whom are postdoctoral, 150 technicians, 50 administrative and IT staff and approximately 200 postgraduate research students. Research grant expenditure is currently about £20M per year. The School comprises six research-focused Institutes with a strong inter-disciplinary remit: Structural and Molecular Biology, Cell Biology, including the Wellcome Trust Centre for Cell Biology, Stem Cell Research, Immunology and Infection Research, Evolutionary Biology, and Molecular Plant Science. Research of the highest international standard is conducted over a wide range of pure and applied biological science Postgraduate research students are members of the Graduate School of Biological Sciences, and the School is a partner in the Wellcome Trust 4-year PhD Programme. 
+The School's teaching programme includes both undergraduate and taught Masters degrees, with some 1600 students enrolled on our degree programmes. Many programmes are taught jointly with other Schools, in particular with Biomedical Sciences and GeoSciences. About 400 students are admitted each year to read biological subjects, across 15 Honours Schools and 4 MSc programmes. The administration of teaching is co-ordinated by the Biology Teaching Organisation. For more information please visit the BTO web-site at http://www.bto.ed.ac.uk/ .  Further information about the School of Biological Sciences and its constituent Institutes is available on the Web at http://www.biology.ed.ac.uk 
+ 
+The Centre for Systems Biology at Edinburgh     csbe.ed.ac.uk
+The Centre for Systems Biology at Edinburgh (CSBE) brings together two of Edinburgh University’s great strengths, world-class informatics and world-class biology, as part of the University’s vision “to integrate the physical with the life sciences”. CSBE is one of 6 UK 'Centres for Integrative Systems Biology' and the only one in Scotland. It was initially supported by an £18M investment from BBSRC, EPSRC, and the University of Edinburgh. CSBE aim is to integrate biological data and mathematical models into large-scale informatics infrastructure and apply novel tools to understand a range of dynamic biological processes. 
+
+Strong collaborations among the faculty underpin CSBE’s research focus on the process of systems modelling. In contrast to many Systems Biology Centres, our research crosses biological processes, species and levels of organisation. The biological pilot projects include RNA metabolism in yeast, interferon signalling in human macrophages and the plant circadian clock; theoretical projects include process algebras and graphical notations for systems biology modelling, machine learning methods for network inference, an integrated informatics infrastructure for model development and mathematical tools for high-dimensional model analysis.
+
+CSBE draws expertise from 11 internationally-leading Systems Biology research groups in the Schools of Biological Sciences (Beggs, Tollervey, Millar), Informatics (Gilmore, Hillston, Plotkin), Engineering (Walton) and Biomedical Sciences (Ghazal), together with staff at the Mathematics Department of Heriot-Watt University (Painter, Sherratt) and at Biomathematics and Statistics Scotland (BioSS; Husmeier). An additional Chair of Systems Biology, Michael Tyers (formerly of the University of Toronto), will strongly interact with CSBE. These groups have numerous additional links in the areas of synthetic biology, biological chemistry and mass spectroscopy, amongst others.
+
+Research facilities
+CSBE is fully integrated within the University, benefiting from outstanding experimental and computing facilities here. CSBE has a dedicated experimental facility measures the kinetic parameter values of dynamic biological processes, either directly or by statistical inference from timeseries data. This Kinetic Parameter Facility (KPF) includes state-of-the-art biochemistry and protein mass spectroscopy, together with robotised qRT-PCR and biophysical methods including ITC and SPR. Our aim is to link the experimental work in the KPF directly to the software infrastructure of the Centre.
+
+Strong interdisciplinary links with other Schools and Research Centres are a key part of CSBE’s research. CSBE is collaborating on protein characterisation with the Centre for Translational and Chemical Biology (CTCB) and will benefit from CTCB’s outstanding facilities for protein production. The computing facilities for CSBE are integrated with those of the Edinburgh Centre for Bioinformatics (ECB). The Division of Pathway Medicine’s excellent microarray facility is available to CSBE, including novel developments in micro- and nanoscale assays jointly with the Scottish Microelectronics Centre (SMC). Very strong computational support is available from the Edinburgh Parallel Computing Centre, which runs the UK’s national supercomputers, and from the UK National E-Science Centre which is based jointly in Edinburgh and hosted by the University. This positions CSBE to create a seamless research continuum in interdisciplinary biology.
+
+The School of INFORMATICS    www.inf.ed.ac.uk
+Informatics is the study of information and computation, in both natural and artificial systems. It embraces a vast range of scientific and engineering endeavour and has enormous economic and social impact.  In order to achieve a concerted and systematic approach to the development of informatics, in August 1998 the University of Edinburgh formed the Division (now School) of Informatics. This brought together the then Departments of Artificial Intelligence, Cognitive Science and Computer Science, together with the Artificial Intelligence Applications Institute. The School possesses a combination of breadth and strength unparalleled elsewhere in the UK and competitive world-wide; as an intellectual endeavour it is strikingly original. There is activity in informatics throughout the University, with the School representing the central scientific and engineering activity in the subject. There is a rich variety of related effort within the College of Science and Engineering and within the two other Colleges of the University, Medicine and Humanities & Social Sciences. The School is the only university grouping in the UK to have achieved a 5*A rating in Computer Science in the 2001 RAE round. With 87.1 research-active staff submitted for assessment, it is the UK's biggest research group in this area.
+
+
+Life Sciences in the City of Edinburgh 
+Edinburgh and its surroundings provide one of the largest groupings of bioscience researchers in the UK. Local research partners include Heriot-Watt University, the SEERAD-funded Biomathematics and Statistics Scotland (located on the Kings Buildings campus), and the BBSRC Roslin Institute. The Scottish Agricultural College is co-located on the Kings Buildings campus and we have good links with other Associated Institutions in Edinburgh such as the Royal Botanic Garden Edinburgh. Links to knowledge transfer organisations are strong with a bioscience incubator on the King’s Buildings campus and the Edinburgh Science Park based just outside the city, including the Edinburgh Technopole. 
+
+As a place to live the City of Edinburgh has all the advantages of a European capital city with a distinctive historical and architectural heritage and a vibrant cultural life including the world’s largest arts festival. It is also within easy access of some of the most beautiful country and highland scenery to be found anywhere.
+
+Application Procedure:
+We encourage all applicants to apply online at www.jobs.ed.ac.uk. The application process is quick and easy to follow, and you will receive email confirmation of safe receipt of your application. The online system allows you to submit a CV.
+
+If you do not have access to a computer, you can call our recruitment line on 0131 650 2511 for an application pack. This will be posted out to you for you to complete and return. Please return the Application form and all enclosures (except the equal opportunities form) to SBS Contracts, School of Biological Sciences, School Office, Darwin Building, The Kings Buildings, Edinburgh, EH9 3JR by the closing date of Thursday 17th of August 2010. Return the equal opportunities form in the separate prepaid envelope.  To complete the application process both online and in paper format, you need to complete the (i) Application Form (ii) Additional Personal Information Form, (iii) Equality & Diversity Monitoring Form, and (iv) Rehabilitation of Offenders Form and (v) full curriculum vitae and (vi) the names and contact details (including email) of two referees. You should additionally include a letter of application outlining how you meet the person specification and what you would bring to the post. We cannot guarantee to consider late applications. 
+
+Please quote reference no: 31013100
+
+Closing date: Thursday 17 August  2010
+
+The University reserves the right to vary the candidate information or make no appointment at all. Neither in part, nor in whole does this information form part of any contract between the University and any individual
+
+
+

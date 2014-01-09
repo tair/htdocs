@@ -1,0 +1,67 @@
+Postdoc - Kansas State University, Genome bioinformatics 
+
+Dr. Toomajian's Molecular Population Genetics Lab investigates genetic 
+variation in natural populations of plants and fungi with an aim of 
+understanding the genetics of adaptation. The lab spans the 
+intersection of computational biology, evolution, and functional 
+genomics. We are recruiting a highly motivated postdoc to help analyze 
+Arabidopsis next-generation transcriptome sequence to characterize 
+gene expression variation. This project is laying the groundwork for 
+studies of the genetic control and evolution of gene expression and 
+the integration with population genomics data. The candidate will also 
+participate in the lab's fungal population genomics projects, and 
+training on techniques related to all projects is available. 
+Toomajian lab website https://sites.google.com/site/toomajianlab/ 
+NSF Arabidopsis 2010 project website http://seqr-1.biology.utah.edu/NSF2010/index.html 
+Department website www.plantpath.ksu.edu 
+The lab interacts with K-State's Ecological Genomics Institute http://ecogen.ksu.edu/ 
+
+The area of emphasis for this position will be bioinformatics and 
+genomics. The successful candidate may develop independent projects 
+related to the main goals of the lab. This position requires excellent 
+independent discretion and judgment and may involve some supervision 
+of graduate and/or undergraduate students. 
+
+Qualifications include: 
+- PhD in a Biosciences field 
+
+- Computer programming skills (i.e., C/C++, Python, PERL, Ruby, 
+or R) 
+
+- Familiarity with the UNIX/LINUX computer-operating environment 
+and with databases 
+
+- Experience in and/or knowledge of bioinformatics and 
+statistical analysis 
+
+Other preferred qualifications include: 
+- Previous experience with molecular biology laboratory techniques 
+
+- Experience working with next-generation sequencing datasets and 
+analysis tools 
+
+- Experience analyzing RNA-Seq data 
+
+- Knowledge of population genetics and/or molecular evolution 
+
+
+Application procedure: 
+See full ad with complete instructions at: http://www.plantpath.ksu.edu/doc1303.ashx 
+A complete application must include: 1) a cover letter that includes 
+timing of availability for this position and lists your research 
+interests in working in the lab of Dr. Toomajian; 2) a curriculum 
+vitae; 3) a statement describing your relevant educational and 
+research experiences and how they relate to the qualifications 
+(necessary and preferred) of the position (2 pages maximum); 4) up to 
+3 reprints; and 5) arrange to have 3 professional letters of 
+recommendation sent. 
+All application materials may be sent as hard copies or PDF documents 
+electronically. 
+E-mailed applications should be sent to plantpath@ksu.edu Use "Genome 
+bioinformatics position" in subject line of email to ensure your 
+application materials are received. 
+Deadline for applications: 02/20/2012. 
+
+Kansas State University is an equal opportunity, affirmative action 
+employer and actively seeks diversity among its employees. Background 
+checks required. 

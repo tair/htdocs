@@ -1,0 +1,109 @@
+#geneForm .field {
+    text-align: left;
+}
+
+#geneForm td label.fieldLabel {
+    text-align: right;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding-right: 2px
+}
+
+.headerLabel td {
+    text-align: left;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.exampleTableHeader td {
+    text-align: left;
+    color: blue;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px
+}
+
+.instructionTableHeader td {
+    text-align: left;
+    color: black;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px
+}
+
+.tooltip td {
+    font-size: 10px;
+    font-weight: normal;
+    color: black;
+    width: 150px;
+    white-space: normal;
+}
+
+.tooltip {
+    font-size: 10px;
+    font-weight: normal;
+    color: black;
+    width: 150px;
+    white-space: normal;
+}
+
+.rich-tool-tip {
+    font-size: 10px;
+    font-weight: normal;
+    color: black;
+    width: 150px;
+    white-space: normal;
+}
+
+.errorMessage {
+    color: red;
+}
+
+#geneForm .radioLabel td {
+    text-align: left;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding-right: 2px
+}
+
+#geneForm .annotationLink {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#geneForm .annotationLink td {
+    text-align: left;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0px
+}
+
+#savedPanelText {
+    text-align: left;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.rich-panelbar-header-act {
+    font-size: 14px;
+}
+
+.rich-panelbar-header {
+    font-size: 14px;
+}
+
+.rich-table-subheadercell {
+    vertical-align: text-top;
+}
+
+.textArea {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    text-align: left;
+    border: thin inset;
+}

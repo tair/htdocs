@@ -1,0 +1,36 @@
+<TABLE ID="2" BORDER>>
+<TR><TH>Line Number<TH>No insert<TH>1 insert<TH>2 inserts<TH>3 or more inserts<TH>Other*
+<TR><TD><TD><TD><TD><TD><TD><TD><TD><TD>or non- segregating
+<TR>
+<TR><TD>Ratio<TD><TD>All kanS<TD>3:1<TD><TD>Between 3:1<TD>63:1 or &gt;63:1
+<TR><TD>kanR:kanS<TD><TD><TD><TD><TD>and 15:1
+<TR><TD><TD><TD><TD><TD><TD>
+<TR><TD>178<TD><TD>19<TD><TD>2<TD><TD>1
+<TR>
+<TR><TD>243<TD><TD><TD><TD>3<TD><TD>1<TD><TD>4<TD><TD><TD>2
+<TR>
+<TR><TD>547<TD><TD>3<TD><TD>7<TD><TD>1<TD><TD>4<TD><TD><TD>1
+<TR>
+<TR><TD>1097<TD><TD>3<TD><TD>12<TD><TD>2<TD><TD>2<TD><TD><TD>5
+<TR>
+<TR><TD>1180<TD><TD>9<TD><TD>4<TD><TD><TD>
+<TR>
+<TR><TD>1885<TD><TD>2<TD><TD>5<TD><TD>2<TD><TD>1<TD><TD><TD>12
+<TR>
+<TR><TD>1926<TD><TD>17<TD><TD>9
+<TR>
+<TR><TD>2379<TD><TD>1<TD><TD>5<TD><TD>5<TD><TD><TD><TD><TD>15
+<TR>
+<TR><TD>2415<TD><TD>2<TD><TD>1<TD><TD>1<TD><TD>7<TD><TD><TD>6
+<TR>
+<TR><TD>2522<TD><TD>29
+<TR>
+<TR><TD>2836<TD><TD>6<TD><TD>2
+<TR>
+<TR><TD>3181<TD><TD>2<TD><TD>8
+<TR>
+<TR><TD>3529<TD><TD><TD><TD>3<TD><TD>3<TD><TD>5
+<TR>
+<TR><TD>3914<TD><TD>6<TD><TD>9
+<TR>
+<TR><TD>4416<TD><TD><TD><TD>4<TD><TD><TD><TD>1<TD><TD><TD>3

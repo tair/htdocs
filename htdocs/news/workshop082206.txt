@@ -1,0 +1,71 @@
+Subject:
+[Arabidopsis] Microarray Workshop
+From:
+David Galbraith <galbraith@arizona.edu>
+Date:
+Wed, 16 Aug 2006 08:52:23 -0700
+To:
+arab-gen@magpie.bio.indiana.edu
+
+SEVENTH INTERNATIONAL LONG-OLIGONUCLEOTIDE
+MICROARRAY WORKSHOP
+
+January 7-12, 2007
+The University of Arizona
+Tucson, Arizona
+
+This workshop will comprise a combination of lectures and hand-on
+laboratory sessions. The participants will primarily employ
+Arabidopsis and maize (plant side) and human, bovine and
+porcine (animal side)  whole genome 70-mer oligonucleotide
+microarrays in their laboratory work (for details of the plant arrays see
+http://www.ag.arizona.edu/microarray and
+http://www.maizearray.org/.
+
+The workshop will be divided into two parts: Part I (Sunday 4PM to
+Wednesday 5PM) will cover wet-lab aspects of microarray target
+production and amplification, microarray hybridization, and scanning.
+Part II (all day, Thursday and Friday) will concentrate on data extraction,
+statistical analysis, and experimental design. Together these topics
+are aimed at the goal of the participants obtaining optimal results using
+oligonucleotide-based microarrays. Part II may be taken separately.
+
+Specific topics to be covered include:
+
+* Experimental design.
+* Probe preparation and microarray printing.
+* Microarray rehydration and probe immobilization.
+* Target preparation, including RNA extraction, direct and indirect
+labeling, and amplification techniques.
+* Microarray hybridization.
+* Array scanning and data extraction.
+* Data analysis and archiving.
+
+Registration (Part I plus Part II) is $650, which includes costs of
+the microarrays and other supplies that you will use.
+Part II registration only is $250. Part I participants will be
+limited to 30 on a first-come, first-serve basis. Overall
+participation will be limited to 40 individuals.
+
+Note:  There are a number of airline connections from
+Tucson to San Diego on Friday evening, allowing
+workshop participants convenient access to the Plant
+and Animal Genome XV Meeting (January 13-17).
+
+For further details and to register, please contact
+David Galbraith (galbraith@arizona.edu)
+
+
+David W. Galbraith
+Professor of Plant Sciences and The Bio5 Institute
+University of Arizona
+Department of Plant Sciences
+303 Forbes Building
+Tucson Arizona 85721 USA
+Tel: (520) 621-9153
+Fax: (520) 621-7186
+
+_______________________________________________
+Arab-gen mailing list
+Arab-gen@net.bio.net
+http://www.bio.net/biomail/listinfo/arab-gen

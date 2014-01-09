@@ -1,0 +1,96 @@
+Postdoc positions in computational biology in Perth, Australia: 
+
+RESEARCH ASSOCIATE/RESEARCH ASSISTANT PROFESSOR (REF: 3797) 
+SYSTEMS BIOLOGIST 
+CENTRE OF EXCELLENCE IN COMPUTATIONAL SYSTEMS BIOLOGY at THE UNIVERSITY OF WESTERN AUSTRALIA 
+
+An outstanding opportunity to be involved in exciting epigenomics/genomics research projects in a world class 
+research environment located in a city with exceptional quality of life 
+
+¥ ¥	3 year appointment 
+¥ ¥	Salary: Level A $77,328 p.a. 
+¥ ¥	Salary range: Level B $81,400 - $96,663 p.a. 
+¥ ¥	Closing date: Friday, 13 January 2012 
+
+Applications are invited from a highly motivated scientist to work in a multi-disciplinary team environment on 
+epigenomics/genomics research projects within both plant and animal systems. You will join a dedicated team of 
+bioinformaticists/mathematicians/statisticians who analyse the genomic, epigenomic, transcriptomic, proteomic 
+and metabolomic data produced by the ARC Centre of Excellence in Plant Energy Biology (CoE PEB) researchers. A 
+wider aim of the CoE PEB will be to promote the understanding and uptake of modern systems orientated 
+approaches within biotech research and industry in WA, both in plant and animal sciences. 
+
+You will lead the integrative data analysis for key research projects that aim to answer fundamental unresolved 
+questions in plants and animals concerning the regulation of genomic information by epigenetic mechanisms. 
+Additionally, you will also lead the analysis and interpretation of a variety of high-throughput DNA sequencing 
+experiments performed in the CoE PEB, including whole-genome profiling of DNA methylation, transcriptome, 
+protein-DNA interactions, and chromatin modifications profiles. Applicants must have a PhD in computational 
+biology, molecular biology or related discipline. Previous experience in genomics and the computational analysis 
+of next-generation DNA sequencing data would be an advantage. 
+
+The position will involve tight collaboration with CoE PEB researchers and close links to nearby computing 
+centres such as iVEC@UWA and the Centre for Comparative Genomics based at Murdoch University. 
+
+For further information regarding the position please contact Winthrop Professor Ryan Lister by email 
+ryanlister@gmail.com. 
+
+
+RESEARCH ASSOCIATE/RESEARCH ASSISTANT PROFESSOR (REF: 3825) 
+(COMPUTATIONAL BIOLOGIST) 
+CENTRE OF EXCELLENCE IN COMPUTATIONAL SYSTEMS BIOLOGY at THE UNIVERSITY OF WESTERN AUSTRALIA 
+  
+An outstanding opportunity to be involved in exciting systems biology research projects in a world class 
+research environment located in a city with exceptional quality of life. 
+
+¥	2 year appointment 
+¥	Salary: Level A $77,328 p.a. 
+¥	Salary range: Level B $81,400 - $96,663 p.a. 
+¥	Closing date: Friday, 20 January 2012 
+
+Applications are invited from a highly motivated scientist to work in a multi-disciplinary team environment 
+on research projects with a dedicated team of bioinformaticists/mathematicians/statisticians who analyse the 
+genomic, epigenomic, transcriptomic, proteomic and metabolomic data produced by ARC Centre of Excellence in 
+Plant Energy Biology researchers. The wider aim of the Centre is to promote the understanding and uptake of 
+modern systems approaches within biotech research and industry in WA, both in plant and animal sciences. 
+
+The successful applicant will lead the data analysis for key research projects that aim to answer fundamental 
+unresolved questions in plant metabolism. The appointee will also lead the continuing development of the SUBA 
+database (suba.plantenergy.uwa.edu.au) holding protein localisation data and its integration with databases of 
+enzyme function in order to construct and analyse genome-wide compartmentalised models of plant metabolism. A 
+PhD in computational biology, molecular biology, or related disciplines is essential, and past experience in 
+the computational analysis of biological networks would be an advantage. The position will involve tight 
+collaboration with Centre of Excellence Plant Energy Biology researchers and close links to nearby supercomputing 
+centres such as iVEC@UWA and modelling groups at the University of Queensland. 
+
+For further information regarding the position please contact by email, Professor Ian Small ian.small@uwa.edu.au 
+or Winthrop Professor Harvey Millar harvey.millar@uwa.edu.au. 
+
+
+Research Associate /Research Assistant PROFESSOR (REF: 3826) 
+(SYSTEMS BIOLOGIST) 
+CENTRE OF EXCELLENCE IN COMPUTATIONAL SYSTEMS BIOLOGY at THE UNIVERSITY OF WESTERN AUSTRALIA 
+
+An outstanding opportunity to be involved in exciting genomics research projects in a world class research 
+environment located in a city with exceptional quality of life. 
+
+¥	2 year appointment 
+¥	Salary: Level A $77,328 p.a. 
+¥	Salary range: Level B $81,400 - $96,663 p.a. 
+¥	Closing date: Friday, 20 January 2012 
+
+Applications are invited from a highly motivated scientist to work in a multi-disciplinary team environment on 
+genomics research projects with a dedicated team of bioinformaticists/mathematicians/statisticians who analyse 
+the genomic, epigenomic, transcriptomic, proteomic and metabolomic data produced by ARC Centre of Excellence in 
+Plant Energy Biology researchers. The wider aim of the Centre is to promote the understanding and uptake of 
+modern systems approaches within biotech research and industry in WA, both in plant and animal sciences. 
+
+The Research Associate will lead the data analysis for key research projects that aim to answer fundamental 
+unresolved questions in plants concerning the regulation of gene expression via transcriptional and 
+post-transcriptional mechanisms. The successful applicant will lead the analysis and interpretation of a variety 
+of high-throughput RNA and DNA sequencing experiments performed in the Centre, including genome-wide profiling 
+of transcript abundance, RNA processing events, Chip-Seq and RIP-Seq samples. A PhD in computational biology, 
+molecular biology, or related disciplines is essential, and past experience in genomics and the computational 
+analysis of next-generation RNA or DNA sequencing data would be an advantage. The position will involve tight 
+collaboration with Centre of Excellent Plant Energy Biology researchers and close links to nearby supercomputing 
+centres such as iVEC@UWA. 
+
+For further information regarding the position please contact Professor Ian Small by email, ian.small@uwa.edu.au. 

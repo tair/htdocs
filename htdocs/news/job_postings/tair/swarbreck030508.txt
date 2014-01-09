@@ -1,0 +1,39 @@
+Genome Annotation Curator, Biological Research Database, Carnegie Institution, 
+Stanford, CA
+
+TAIR, The Arabidopsis Information Resource (http://arabidopsis.org) is a 
+National Science Foundation-funded web resource for thousands of plant biology 
+researchers worldwide, providing free access to a wide array of biological data and 
+tools for the model plant Arabidopsis.  The Carnegie Institution Department of Plant 
+Biology is co-located with the Department of Global Ecology on a seven-acre site on 
+the campus of Stanford University.
+
+We are currently seeking applicants for the position of scientific curator to work on 
+our genome annotation project. The successful candidate will be involved in 
+computational and manual updates of structural annotation for genes and other 
+sequenced objects and computational updates of functional annotation. Duties 
+include: analyzing and interpreting sequence data, comparative genomics techniques, 
+examining experimental data and compiling results; dealing with user requests and 
+presenting and/or publishing data. You will also work alongside our technical team to 
+assist with the design of new or improved web interfaces and tools.
+The ideal candidate will have a PhD in biology, molecular biology or related field, a 
+demonstrated ability for independent critical thinking, knowledge of sequence 
+analysis and annotation approaches and concepts, good communication skills and a 
+keen eye for detail. Familiarity with UNIX, HTML, MYSQL and Perl would be 
+beneficial but is not required.
+
+This is an on-site position, telecommuters will not be considered. Qualified candidates 
+should email a cover letter, CV and names of 3 references to Dr. David Swarbreck at: 
+dswarbreck@stanford.edu
+The Carnegie Institution for Science is an equal opportunity employer.
+
+
+
+
+
+
+
+
+
+
+

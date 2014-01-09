@@ -1,0 +1,53 @@
+Postdoctoral Position - Bioinformatics/Computational Biology 
+USDA-ARS / Iowa State University 
+Functional Genomics of Plant Disease Defense 
+ 
+A postdoctoral research position is available immediately in the Crop 
+Genomics and Informatics Laboratory (CGIL), a collaborative effort of 
+ARS and Iowa State University scientists.  The overall goals of the 
+"Functional Genomics of Plant Disease Defense" project are to utilize 
+genomics tools and resources to accelerate comparative analysis of 
+disease defense pathways important in agriculture 
+(http://nsf.gov/awardsearch/showAward.do?AwardNumber=0500461). 
+ 
+The candidate will work with a team responsible for molecular, 
+genetic, and functional characterization of genes associated with and 
+required for R-gene mediated resistance responses using barley 
+powdery mildew and barley stem rust as model systems.  The candidate 
+will work with GeneNetwork [http://www.genenetwork.org/] to integrate 
+eQTL analysis modules into the multi-crop plant expression database, 
+PLEXdb [http://plexdb.org/] to enable visualization and analysis of 
+quantitative gene expression- and trait data collected from 
+segregating populations and diversity panels.  Biologically relevant 
+co-expression networks will be extracted and tested for function in 
+disease defense. 
+ 
+Recent Ph.D. in Bioinformatics/Computational Biology or a closely 
+related field is required.  Knowledge of Genetics/Cell 
+Biology/Pathology/Biochemistry are desirable.  Salary starts at 
+$54,494 (GS-11).  Funding is available for two years with possibility 
+of extension. 
+ 
+INFORMATION ON SALARY AND APPLICATION PROCEDURES is available at: 
+http://www.afm.ars.usda.gov/divisions/hrd/hrdhomepage/vacancy/pd962.html 
+ 
+Citizenship limitations may apply; see 
+http://www.afm.ars.usda.gov/hrd/jobs/VISA/countries.htm 
+ 
+INFO ON EMPLOYEE BENEFITS is available at: http://www.usajobs.opm.gov/ei61.asp 
+ 
+Highly motivated individuals should send curriculum vitae, research 
+interests, and reprints to the address below (Include name, e-mail, 
+address, phone, and fax no. of three references) 
+ 
+Dr. Roger Wise, USDA-ARS 
+Department of Plant Pathology 
+351 Bessey Hall 
+Iowa State University, Ames, IA 
+50011-1020  USA 
+Phone:  515-294-9756    Fax:    515-294-9420      E-mail: rpwise@iastate.edu 
+http://wiselab.org/ 
+http://plexdb.org/ 
+http://barleygenome.org/ 
+ 
+Refer to Announcement No. RA-07-016H

@@ -1,0 +1,479 @@
+<H2>Does ELVIS
+(GA[AG]CT[ACGT]GT[ACGT]AT[ACT]TC[ACGT]TA[AG]) Live in Minnesota's
+Arabidopsis Databank?</H2>
+<P>
+<ADDRESS>Kristi L. Swope<em sup>(1,2), </em>Paul Bieganski<em
+sup>(2)</em>, Ed Chi<em sup>(2)</em>, Elizabeth Shoop<em sup>(2)</em>,
+Olaf Holt<em sup>(2)</em>, John Carlis<em sup>(2)</em>, John Riedl<em
+sup>(2)</em>, Thomas Newman<em sup>(3)</em> and Ernest F. Retzel<em
+sup>(1)</em></ADDRESS>
+<P>
+<ADDRESS> <em sup>(1)</em>Medical School and <em
+sup>(2)</em>Department of Computer Science, University of Minnesota,
+Minneapolis MN;</ADDRESS>
+<ADDRESS><em sup>(3)</em>DOE Plant Research Laboratory, Michigan State
+University, East Lansing, MI</ADDRESS>
+<P>
+<ADDRESS>email: comments@lenti.med.umn.edu</ADDRESS>
+
+<HR><H2>Table of Contents</H2>
+
+<UL> <A HREF="mX_blastn_tutorial.html#HDR1"><B>1.0 Summary</B></A> <BR>
+
+<A HREF="mX_blastn_tutorial.html#HDR2"><B>2.0 Searching with DNA or Protein
+Motifs</B></A>
+
+<UL> <A HREF="mX_blastn_tutorial.html#HDR3">2.1 Simple searches</A> <BR>
+
+<A HREF="mX_blastn_tutorial.html#REF60783">2.2 More complex searches</A> <BR>
+
+<A HREF="mX_blastn_tutorial.html#HDR4">2.3 Future additions</A> </UL>
+
+<A HREF="mX_blastn_tutorial.html#HDR5"><B>3.0 Searching with longer DNA
+Sequences</B></A>
+
+<UL> <A HREF="mX_blastn_tutorial.html#HDR6">3.1 How to search</A> <BR>
+
+<A HREF="mX_blastn_tutorial.html#HDR7">3.2 Future additions</A> </UL>
+
+<A HREF="mX_blastn_tutorial.html#REF75549"><B>4.0 Searching with Key
+Words</B></A> <BR>
+
+<A HREF="mX_blastn_tutorial.html#HDR8"><B>5.0 Acknowledgments</B></A> <BR>
+
+<A HREF="mX_blastn_tutorial.html#HDR9"><B>6.0 References</B></A> </UL>
+
+
+<HR><!-- This file was created with the fm2html filter.The filter is
+copyright Norwegian Telecom Research and was programmed by Jon
+Stephenson von Tetzchner.  --><TITLE>Does ELVIS
+(GA[AG]CT[ACGT]GT[ACGT]AT[ACT]TC[ACGT]TA[AG]) Live in Minnesota ('s
+Arabidopsis Databank)?</TITLE>
+
+<H2><A NAME="HDR1">1.0 Summary</A></H2> 
+
+Several programs have been developed at the University of Minnesota's
+Plant Molecular Informatics Center to aid in the molecular investigation of
+<I>Arabidopsis</I>. Expressed Sequence Tags (ESTs) provided by Dr. Tom
+Newman at Michigan State University  <A
+HREF="mX_blastn_tutorial.html#NEWMAN">(Newman <I>et al</I>., 1994</A>)
+are pre-processed by automatically searching for and removing vector,
+as well as trimming off sequence that has a high concentration of
+ambiguous bases (<A
+HREF="mX_blastn_tutorial.html#BIEGANSK95">Bieganski, 1995</A>; <A
+HREF="mX_blastn_tutorial.html#SHOOP">Shoop <I>et al</I>., 1995</A>).
+These sequences are then input into databases, which in turn have been
+exploited to develop software for the plant community.  The various
+software has been designed to allow you to search quickly through
+enormous amounts of similarity data and DNA sequences to arrive at a
+set of sequences that may interest you. Regardless of your research
+interests and approaches, we likely have a search mechanism for you!
+These tools include:<p>
+
+<UL> <LI>Motif Explorer--a locally developed tool for searching
+<I>Arabidopsis</I> ESTs or PIR sequences for the presence of your
+short DNA or protein motif;<BR>
+
+<LI>EST databases for plants--for searching <I>Arabidopsis</I> ESTs or
+other plant cDNA for similarity to the DNA sequence of your
+choice;<BR>
+
+<LI>a WAIS index search--for searching exhaustive reports detailing
+the similarity of <I>Arabidopsis</I> ESTs to sequences in GenBank,
+GenInfo and PIR.<BR> </UL>
+
+
+The purpose of this brief electronic tutorial is to highlight proper
+search strategies for all three tools, and to provide detailed
+examples for searching with Motif Explorer and utilizing the plant EST
+database. These tools are available <I>via</I> <a
+href="http://lenti.med.umn.edu/">
+our World Wide Web
+server</A> [http://lenti.med.umn.edu]. Since this tutorial is
+designed to be used on-line, you may want to open multiple windows in
+your browser. This way you can have this article in one window and one
+of our tools in a second window, allowing for experimentation as you
+read. As you explore, keep in mind that most of the <I>Arabidopsis</I>
+sequences have been submitted to dbEST (<A
+HREF="mX_blastn_tutorial.html#BOGUSKI">Boguski <I>et al</I>.,
+1993 </A>) at  <A HREF="http://www.ncbi.nlm.nih.gov/">NCBI</A>, and <I>all</I> of the <I>Arabidopsis</I>
+clones, from which the EST sequences are derived, are made available at the
+<A HREF="http://aims.cps.msu.edu/aims/">
+ABRC Stock Center</A> at Ohio State University.<p>
+
+<H2><A NAME="HDR2">2.0 Searching with DNA or Protein Motifs</A></H2>
+
+Motif Explorer (<A HREF="mX_blastn_tutorial.html#BIEGANSK96">Bieganski <I>et al</I>., 1996</A>) was developed in
+house using an indexing structure, termed a generalized suffix tree,
+which allows a subsequence to be rapidly located in one or more
+sequences (<A HREF="mX_blastn_tutorial.html#BIEGANSK95">Bieganski <I>et al</I>., 1994; Bieganski, 1995</A>). Using
+this tool, you can search a database of sequences for the presence of
+a <I>short</I> protein or DNA sequence. (Longer sequences are addressed in
+<A HREF="mX_blastn_tutorial.html#HDR5">Section 3.0</A>.)  For example, if you are
+studying phosphorylation in kinases, you might be interested in the
+prevalence of casein kinase II phosphorylation sites in
+<I>Arabidopsis</I>. By searching for the pattern provided by
+PROSITE (<A HREF="mX_blastn_tutorial.html#BAIROCH">Bairoch, 1995</A>), you will locate all sequences that are
+likely to contain casein kinase II phosphorylation sites. Say now you
+want to find sequences that contain a pattern that is slightly
+different from the motif you just tried. No problem! You can easily
+modify the search you just ran, or even design an entirely new
+motif. The paragraphs below explain how to conduct a search, how to
+interpret the results, and discuss future additions we have
+planned.<p>
+
+<H3><A NAME="HDR3">2.1 Simple searches</A></H3>
+
+Motif Explorer is available on <a
+href="http://lenti.med.umn.edu/">our server</A> under the <i>Arabidopsis</i> cDNA
+project and you can
+operate it by completing a simple Web form (<A
+HREF="mX_blastn_tutorial.html#FIG1">Figure 1</A>). Three steps are
+necessary to complete the form. First, click on the
+&quot;database&quot; button to choose the Michigan State University
+<I>Arabidopsis</I> database (a DNA database), or a protein database
+consisting of PIR sequences. Similarly, click on the &quot;pattern
+alphabet&quot; button to tell the program to search using nucleotides
+or amino acids. Third, you must enter the sequence you wish to
+locate--make sure this corresponds to your alphabet selection. There
+are other parameters you may set (<A
+HREF="mX_blastn_tutorial.html#REF60783">Section 2.2</A>); we recommend that
+for your first few searches, you keep the default settings.<p>
+<A NAME="FIG1">
+<IMG ALIGN=BOTTOM SRC="fig1.ME_form.gif">
+<P>
+
+If you want to find ELVIS in PIR (alas, we could not find him in
+<I>Arabidopsis</I>), fill out the form as shown in (<A
+HREF="mX_blastn_tutorial.html#FIG1">Figure 1</A>)
+and press the &quot;search&quot; button to receive a report similar to
+the one shown in (<A
+HREF="fig2.elvis_pir.gif">Figure 2</A>). At the top of this report, you
+are reminded of the pattern, or motif, for which you searched. A total
+of the matches found is the next item in the report, followed by the
+unique matching fragment summary. Note that the search was actually
+conducted on ELVIS? not ELVIS, and the question mark serves as a wild
+card. That is, any amino acid (or base, for DNA searches) is
+acceptable. Since there are 20 amino acids, there could be as many as
+20 unique fragments that are found, and any of these could be repeated
+any number of times. After this summary is a list of all the sequences
+in which the query was found. The query motif is shown in pointy
+brackets and a short piece of surrounding sequence is also displayed,
+as it may provide additional insight for your search. A list of these
+sequences, along with links to the PIR or <I>Arabidopsis</I> database,
+is provided at the end of this report. By clicking on these links you
+will find out detailed information about the sequences that contain
+your search pattern. If you search using the PIR database, the
+resulting links go directly to the Entrez document server, and if you
+search using the <I>Arabidopsis</I> database, the links go to an html
+document created at the University of Minnesota that contains detailed
+information regarding the similarity of that sequence to sequences
+from other public databases. These are the same reports that have been
+WAIS indexed for key word searching and they are discussed below (<A
+HREF="mX_blastn_tutorial.html#REF75549">Section 4.0</A>). <p>
+
+<H3><A NAME="REF60783">2.2 More complex searches</A></H3>
+
+The power and flexibility of Motif Explorer is endless! There are a
+few basic conventions that you need to learn, and then simply let your
+imagination soar. Some of the conventions are based on PROSITE
+(<A HREF="mX_blastn_tutorial.html#BAIROCH">Bairoch, 1995</A>). First and foremost, the standard IUPAC one-letter
+codes for amino acids and nucleotides are used to designate residues
+and bases, respectively, with &quot;x&quot; standing for any amino
+acid (or base). Different shaped brackets have different meaning. For
+example, square brackets mean &quot;accept any amino acid (or base)
+listed&quot;, and curly brackets mean &quot;accept any amino acid (or
+base) <I>except</I> those listed&quot;. Also, parenthesis are used to
+designate a numerical value or range. Therefore, a search on<p>
+
+<A NAME="CONVENTIONS">
+CAT-[CG]-x-GTG-{CG}-x(2,6)-GTA<p>
+
+will find sequences that fit this pattern: <p>
+
+CAT-[either C or G]-any base-GTG-{any base except C or G}-(any two to
+six bases)-GTA <p>
+
+The <a HREF="conventions_eg.html">results</A> from using this search on the
+<I>Arabidopsis</I> database include six fragments of varying length.
+The hyphens are not essential; they merely aid in
+grouping.<p>
+
+PROSITE conventions also allow searching for patterns at the beginning
+or end of a sequence using left or right pointy brackets
+(&quot;&lt;&quot; or &quot;&gt;&quot;), respectively. For example,
+&lt;A-x-[ST](2)-x(0,1)-V will list only matches to the N-terminal of
+the sequence, and G[ACG]GATC&gt; will list matches occurring at the 3'
+end of the DNA sequence. Motif Explorer works using the strategy of
+finding whether or not a motif is contained within a sequence before
+it locates the position of the subsequence. (This strategy enables
+increased speed in searching.) As a result, the &quot;Unique matching
+fragment summary&quot; lists all unique motifs found anywhere in the
+database sequences, while the &quot;Matches&quot; section only lists
+those sequences that have hits to the appropriate sequence
+location. For example, the query <p>
+
+<A NAME="3PRIME">
+G[ACG]GATC&gt;<p>
+
+locates over 3,700 fragments matching the patterns GAGATC, GCGATC, and
+GGGATC, but <A HREF="3prime_eg.html">the report</A> indicates that only three examples from the latter two patterns are found
+at the 3' end of the sequence. <P>
+
+There is a slight oddity you may notice
+when you run a search using the left pointy bracket,
+&quot;&lt;&quot;. This symbol is used by Motif Explorer to designate
+the beginning of a sequence, and it is also has meaning for HTML (the
+language we use to make Motif Explorer available to you on the
+server). Due to this double use of &quot;&lt;&quot;, the &quot;Query
+expression&quot; line on the report will show up blank, but this is
+not cause for concern, as the search and its results are not
+affected.<p>
+
+Additional searching power is gained using regular expressions, a
+pattern searching technique that is commonly used in computer
+science. The ? (question mark) character, the | (vertical bar, or "pipe")
+operator, and parenthesis are used along with the letters of the DNA
+(or protein) alphabet to make these expressions. The ? (question mark)
+character allows for any base (or amino acid) to be accepted, just as
+with the &quot;x&quot; in PROSITE conventions, and the | (vertical
+bar, or "pipe") operator acts as an &quot;or statement&quot;. For example, if you
+were looking for EcoRI or AlwnI restriction enzyme digestion sites,
+you could enter the following search:<p>
+
+(GAATTC)|(CAG???CTG)<p>
+
+to find matches to GAATTC, or any string of bases that starts with
+CAG, ends with CTG and has any 3 bases in between. Parenthesis can
+also be used to nest the expressions. By searching on AC((AG)|(CC))T,
+you will match sequences ACAGT and ACCCT.<p>
+
+The more complex queries may require that you change some of the other
+parameters on the form. Many searches will get completed using the
+default &quot;very fast&quot; search time. Sometimes your search will
+take longer, and the 20 second time limit is appropriate. Chances are,
+if you need to conduct a search that has no time limit, the results you
+obtain are likely not to be useful to your work. If you
+&quot;uncheck&quot;, or turn off, the &quot;Report unique matching
+fragments&quot; box, then the report will not show the &quot;Unique
+matching fragment summary&quot; section, which is missing in <A
+HREF="fig3.no_unique.gif">Figure 3</A> (compare with <A
+HREF="fig2.elvis_pir.gif">Figure 2</A>, which has this section). This section is most
+useful when your search may find more than one distinct pattern.
+By
+&quot;unchecking&quot; the &quot;Report matching sequences&quot;, you
+will not get the list of matches (<A
+HREF="fig4.no_map.gif">Figure 4</A>; compare with <A
+HREF="fig2.elvis_pir.gif">Figure 2</A>). While this step
+drastically limits the amount of information you will receive in the
+report, it does speed up the query time, and is useful when you are
+testing out the prevalence of your search pattern.<p>
+
+<H3><A NAME="HDR4">2.3 Future additions</A></H3>
+
+Currently, if you conduct a protein search on the MSU<I>
+Arabidopsis</I> DNA database, the characters are interpreted as DNA
+bases, <I>not</I> as amino acids. That is, when you input a peptide
+sequence, it is back-translated, using full redundancy, to the appropriate nucleotide
+sequence(s) before running the search. (Similarly, motifs for DNA
+searches on the PIR database are translated to protein before the
+search is conducted.) In the future, we plan to perform reading frame
+prediction using GRAIL to reduce the likelihood of false-positive
+hits. <I>Arabidopsis</I> sequences will then be translated into
+probable reading frames and searched as polypeptides when you conduct
+a search using a protein motif. Also, we will eventually be putting
+all <I>Arabidopsis</I> sequences available at NCBI's dbEST in the
+Motif Explorer <I>Arabidopsis</I> DNA database; presently, as mentioned above,
+only those from the
+MSU project are included.<p>
+
+<H2><A NAME="HDR5">3.0 Searching with longer DNA Sequences</A></H2>
+
+<H3><A NAME="HDR6">3.1 How to search</A></H3>
+
+If you have sequenced a gene from <I>Arabidopsis</I> or another plant,
+you will be interested in the plant EST databases that we have created
+by compiling <I>Arabidopsis</I>, maize, rice, and loblolly pine
+sequences. Using the form provided (a completed example is shown in
+(<A
+HREF="mX_blastn_tutorial.html#FIG5">Figure 5</A>)), you may analyze your DNA sequence for similarity (using
+the BLASTN algorithm; <A HREF="mX_blastn_tutorial.html#ALTSCHUL">Altschul, <I>et al</I>., 1990</A>) against a
+single genome or all of the plant species we have available. The
+advantage of this tool is that you can compare your plant sequence
+against a large number of other plant cDNA without having to sift
+through all the matches in other public databases, which are comprised
+mainly of animal cell, bacterial, and other non-plant DNA. In
+addition, the BLASTN analysis is performed essentially
+instantaneously, without your needing to format a special
+email. Simply choose your database from the list provided, enter the
+sequence you are studying (if you already have your sequence in the
+computer, be sure to copy and paste it in the form to avoid typing
+errors!), and press the &quot;submit your query&quot; button. Your
+sequence will then be blasted against all the cDNA we have available
+in the database you chose. <p>
+
+<A NAME="DATABASE">
+<A NAME="FIG5">
+<IMG ALIGN=BOTTOM SRC="fig5.blastn_form.gif">
+<P>
+
+The reports that you see when the search is completed are easy to
+interpret. They start and end with a listing of the database you used
+for your search and the sequence you analyzed. In between, are first a
+list of the sequences producing high-scoring alignments, and second,
+the actual alignments with score, <I>p</I>-value and % identity
+information. Searches investigating the similarity of the
+<I>Arabidopsis</I> EST 169H15T7 (a probable catalase, shown in Figure
+5) to the maize (corn) (<A HREF="corn_blastn.html">maize summary</A>)
+and the entire plant database (<A HREF="plants_blastn.html">plant
+summary</A>) were conducted for your perusal. Note that this sequence
+has a high similarity to one maize EST, which is more easily seen in
+the corn-only database, and it also appears in the plants database,
+along with many good matches to both <I>Arabidopsis</I> and rice
+ESTs.<p>
+
+There are only a few points to remember when using this program. While
+the minimum sequence length is 12 nucleotides, this program is
+intended for use with sequences that are about 50 bases or
+longer. Five bases are acceptable in your query sequence: G, A, T, C,
+or N, if there is an ambiguity. Also, keep in mind that your blast
+must be conducted on a &quot;fixed&quot; sequence. That is, if you
+want to look at two sequences that are slightly different, you must
+run two run the BLASTN program twice, using a different sequence each
+time. If you are interested in learning more about the subject
+sequence, or the sequence that your query sequence matched, you can
+enter its clone id into the WAIS index search that we have established
+(described below, <A HREF="mX_blastn_tutorial.html#REF75549">Section
+4.0</A>).<p>
+
+<H3><A NAME="HDR7">3.2 Future additions</A></H3>
+
+We have several plans for improving this tool. For example, if you
+find an EST that aligns with your sequence, you cannot link directly
+into our similarity analysis report for that EST. This feature will be
+added shortly. Right now, however, you can get to this report
+relatively quickly by copying the EST clone id and pasting it in the
+WAIS index form (<A HREF="mX_blastn_tutorial.html#REF75549">Section
+4.0</A>). In addition, we plan to provide similar databases for
+protein sequences. These databases will be made using GRAIL so that
+similarities to sequences in the incorrect reading frame will be
+minimized. We will also be adding over 700 <I>Brassica</I>
+<I>napus</I> cDNA sequences (<A
+HREF="mX_blastn_tutorial.html#REF75549">Section 4.0</A>) to the next version
+of the plant EST databases. <p>
+
+<H2><A NAME="REF75549">4.0 Searching with Key Words</A></H2>
+
+The last tool that we mention here is the WAIS index search (<A
+HREF="mX_blastn_tutorial.html#FIG6">Figure 6</A>
+) that we have on <a href="http://lenti.med.umn.edu/">our server</A>, again, under the <i> Arabidopsis </I>
+project. We have indexed
+exhaustive reports, detailing the similarity of <I>Arabidopsis</I>
+ESTs and other genome cDNA to sequences in GenBank, GenInfo and
+PIR. These files are best searched using key words or phrases, similar
+to a literature search, except instead of searching through many
+journals for articles of interest, you are searching through quality
+and blast reports for sequences of interest. WAIS index searching and
+the interpretation of the results have been explained previously
+(<A HREF="mX_blastn_tutorial.html#SHOOP">Shoop, <I>et al.</I>, 1995</A>; <A
+HREF="mX_blastn_tutorial.html#SWOPE">Swope <I>et al</I>., 1995</A>). Our <A
+HREF="http://nasc.life.nott.ac.uk:8300/Vol2ii/tutorial.fm3.html"> first tutorial</A>,
+which demonstrates how to access and
+study the results, also explains how we prepare the raw sequence for
+processing, as well as what analysis is conducted. Currently, we
+index reports from over 18,500 <I>Arabidopsis</I> ESTs from both
+Michigan State and France (with about 1,000 new sequences per month),
+1,200 maize (corn) ESTs, 250 loblolly pine ESTs, 11,000 rice ESTs, and
+and recently we have added a new genome, <I>Brassica napus, </I>with
+700<I> </I>ESTs. The indexes have been designed so that you may select
+any combination of these species for a given search.<p>
+
+<A NAME="FIG6">
+<IMG ALIGN=BOTTOM SRC="fig6.wais.gif">
+<P>
+
+Regardless of your search preference, we wish you happy hunting! As
+you peruse our server, please be sure to complete the registration
+form, so you will be notified of changes, updates and new
+additions. If you have any questions or comments about this tutorial
+or any of the tools we have available on the web, please email us at
+comments@lenti.med.umn.edu and one of us will get back to you.<p>
+
+<H2><A NAME="HDR8">5.0 Acknowledgments</A></H2>
+
+The University of Minnesota
+Plant Data Acquisition, Analysis and Distribution Project is funded
+under NSF Grant BIR 940-2380, and the Michigan State University DOE
+Plant Research Laboratory <I>Arabidopsis</I> cDNA Sequencing Project
+is funded under NSF Grant BIR 931-3751. In addition, we are supported
+by major resources from the following: The University of Minnesota
+Medical School, with special thanks to Dean Frank Cerra; Computing and
+Informations Services, with special thanks to Professor and Vice
+President Don Riley; University Networking Services, with special
+thanks to Director Larry Dunn; Sun Microsystems, with special thanks
+to Sandra Swenson; IBM, with special thanks to Norm Troullie and Pat
+Carey; and Cray Research, Inc., with special thanks to John Carpenter
+and Bill King.<p>
+
+We would also like to give our thanks to Mary Anderson of the
+Nottingham <I>Arabidopsis</I> Stock Centre, and Carolyn Tolstoshev,
+Mark Boguski and Jane Weisemann of NCBI's dbEST; their encouragement
+and assistance in this work has been very important to us. <p>
+
+<H2><A NAME="HDR9">6.0 References</A></H2>
+
+<A NAME="ALTSCHUL">S.F. Altschul, W. Gish, W. Miller, E.W. Myers, and
+D. J. Lipman. 1990. &quot;Basic Alignment Search Tool&quot;, Journal
+of Molecular Biology, <B>215</B>:403-410.<BR><P>
+
+<A NAME="BAIROCH">A. Bairoch. 1995. &quot;PROSITE: A Dictionary of Protein
+Sites and Patterns: User Manual&quot;, Release 13.0, available at 
+[<A HREF="http://expasy.hcuge.ch/sprot/prosite.html">
+http://expasy.hcuge.ch/sprot/prosite.html</A>].<BR><P>
+
+<A NAME="BIEGANSK95">P. Bieganski. 1995. &quot;Genetic Sequence Data Retrieval and
+Manipulation based on Generalized Suffix Trees&quot;, Ph.D. Thesis,
+University of Minnesota, Minneapolis, MN.<BR><P>
+
+<A NAME="BIEGANSK96">P. Bieganski, J. Riedl, J.V. Carlis and
+E.F. Retzel. 1996. &quot;High-Performance Interactive Exploration of
+Amino Acid Sequence Motifs&quot;, Pacific Symposium on Biocomputing,
+Hawaii. Accepted.<BR><P>
+
+<A NAME="BIEGANSK94">P. Bieganski, J. Riedl, J.V. Carlis and
+E.F. Retzel. 1994. &quot;Generalized Suffix Trees for Biological
+Sequence Data: Applications and Implementation&quot; In: Proceedings
+of the IEEE 27th Hawaii International Conference on System
+Sciences. Oahu, Hawaii. L. Shriver and L. Hunter, (Eds.). IEEE
+Computer Society Press. <B>V</B>:35-44.<BR><P>
+
+<A NAME="BOGUSKI">M.S. Boguski, T.M.J. Lowe, and
+C.M. Tolstoshev. 1993. &quot;dbest - database for expressed sequence
+tags.&quot; Nature Genetics, <B>4</B>:332-333.<BR><P>
+
+<A NAME="NEWMAN"> T. Newman, F. de Bruijn, P. Green, </A>K. Keegstra,
+H. Kende, L.  McIntosh, J.  Ohlrogge, N. Raikhel, S. Somerville, M.
+Thomashow, E.F. Retzel and C.  Somerville. 1994. &quot;Genes Galore: A
+Summary of Methods for Accessing Results from Large-Scale Partial
+Sequencing of Anonymous <I>Arabidopsis</I> cDNA Clones.&quot;  Plant
+Physiology. <B>106</B>:1241-1255.<BR><P>
+
+<A NAME="SHOOP">E. Shoop, E. Chi, J.V. Carlis, P. Bieganski, J. Riedl,
+N. Dalton, T. Newman and E.F. Retzel.1995. &quot;Implementation and
+Testing of an Automated EST Processing and Similarity Ana lysis
+System.&quot; In: Proceedings of the IEEE 28th Annual International
+Conference on System Sciences. Maui, Hawaii. L. Shriver and L. Hunter,
+(Eds.). IEEE Computer Society Press. <B>5</B>:52-61.<BR><P>
+
+<A NAME="SWOPE">K.L. Swope, T.C. Newman, E. Shoop, P.  Bieganski, E.
+Chi, O. Holt, J. Carlis, J. Riedl and E.F.  Retzel. 1995.
+&quot;Everything you wanted to know about the University of Minnesota's
+analysis of <I>Arabidopsis</I> ESTs but were afraid to ask.&quot; Weeds
+World: The International Electronic <I>Arabidopsis</I> Newsletter.
+<B>2</B>(ii):21-26. Available at <A
+HREF="http://nasc.life.nott.ac.uk:8300/"> [http://nasc.life.nott.ac.
+uk:8300/</A>]<BR><P> 
+
+<A NAME="ENDFILE"><PRE> </PRE></A>
+
+

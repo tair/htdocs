@@ -1,0 +1,57 @@
+One 3 yr post-doctoral position (post 1655, salary range ~24-27K) is available 
+in Caroline Dean's group at the John Innes Centre, Norwich, UK starting 
+immediately. This is a BBSRC-funded project entitled 'Natural variation in 
+vernalization response of Arabidopsis accessions'. The plan is to exploit our 
+understanding of the molecular basis of vernalization in Arabidopsis 
+(http://www.jic.ac.uk/staff/caroline-dean/index.htm) and the adaptive importance 
+of this trait and combine a molecular, evolutionary and ecological study to 
+understand how Arabidopsis accessions have spread to very different parts of 
+Europe. Analysis of flowering in Arabidopsis accessions provides a rare 
+opportunity to link mechanistic understanding of a complex trait with an 
+understanding of the fitness consequences of different alleles and thus 
+distribution within the population. The specific aims (for two post-doctoral 
+fellows, one already appointed) will be to 
+1) fully define the molecular variation underpinning the natural variation in 
+accessions carefully selected to represent a range of vernalization responses 
+2) to investigate how that molecular variation has resulted in changed flowering 
+phenotype. 
+
+We will also analyse the range of allelic variation and pattern of polymorphism 
+in the loci involved to understand their molecular evolution and determine the 
+fitness consequences of that variation in different environments to investigate 
+the selective forces that have resulted in the phenotypic variability in natural 
+populations. This will be in collaboration with Dr Magnus Nordborg (U. S. 
+California) and Dr Johanna Schmitt (Brown U. RI).
+
+If interested please email to caroline.dean@bbsrc.ac.uk.
+
+Recent relevant publications: 
+Bastow R, Mylne J. S., Lister C., Lippman Z., Martienssen R.A. & Dean C. (2004) 
+Vernalization requires epigenetic silencing of FLC by histone methylation. 
+Nature 427, 164-167.
+
+Shindo, C., Aranzana, M.J., Lister, C., Baxter, C., Nicholls, C., Nordborg, M., 
+Dean, C. (2005) Role of FRIGIDA and FLOWERING LOCUS C in determining variation 
+in flowering time in Arabidopsis accessions Plant Physiol. 138, 1163-73
+
+Aranzana, M, Kim, S., Zhao, K., Bakker E., Horton M., Jakob K., Lister C., 
+Molitor J., Shindo C., Tang C., Toomajian C., Traw B., Zheng H., Bergelson J., 
+Dean C., Marjoram P., Nordborg M. (2005) Genome-wide association mapping in 
+Arabidopsis thaliana identifies previously known genes responsible for variation 
+in flowering time and pathogen resistance PLoS Genetics Nov 11;1(5):e60
+
+Toomajian, C., Hu, T., Aranzana, MJ., Lister, C., Tang, C., Zheng, H., 
+Calíbrese, P., Dean, C., Nordborg, M. (2005) A nonparametric test reveals 
+selection for rapid flowering in the Arabidopsis genome PLoS Biology 
+May;4(5):e137
+
+Shindo C, Lister C, Crevillen P, Nordborg M, Dean C. (2006) Variation in the 
+epigenetic silencing of FLC contributes to natural variation in Arabidopsis 
+vernalization response. Genes Dev 20(22):3079-83
+
+Greb T, Mylne JS, Crevillen P, Geraldo N, An H, Gendall AR, Dean C. (2007) The 
+PHD Finger Protein VRN5 Functions in the Epigenetic Silencing of Arabidopsis 
+FLC. Curr Biol. 17, 73-78.
+
+
+

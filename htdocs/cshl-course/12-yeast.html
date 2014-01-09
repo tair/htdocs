@@ -1,0 +1,1167 @@
+<html>
+<head>
+<title>Lab 12: Isolation of Arabidopsis cDNAs by Complementation in Yeast</title>
+<script language="JavaScript" src="/js/navbar.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/main.css" >
+<script language='JavaScript'>
+var highlight = 0; var helpfile="";
+</script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#F5F9FF">
+
+
+<!-- HEADER using external JavaScript file -->
+
+<script language='JavaScript' SRC='/js/header'>
+</script><p>
+
+<!-- End of header -->
+
+
+<p>
+<table width="602" align="center" border="0" cellspacing="0" cellpadding="2">
+	<tr>
+		<td width="602">
+
+<P>
+<center>
+<B>Lab 12: Isolation of Arabidopsis cDNAs by Complementation in Yeast</B>
+<P>
+Cold Spring Harbor Arabidopsis Molecular Genetics Course
+<P>
+July, 1996
+<P>
+Dr. Brian Keith<br>
+Department of Molecular Genetics and Cell Biology<br>
+University of Chicago<br>
+Chicago, IL  60637<br>
+email:  keith@cummings.uchicago.edu
+
+<P>
+Protocols modified from those designed by
+<P>
+Dr. Judith Bender<br>
+Johns Hopkins University<br>
+email:  jbender@welchlink.welch.jhu.edu
+
+<p>
+
+<B>1. Experiment #1:  Isolation of Arabidopsis <I>LEU2</I> cDNAs by complementation
+of the yeast <I>leu2</I> mutation<BR>
+</B>
+</CENTER>
+<P>
+<B>INTRODUCTION</B>
+<P>
+ An effective strategy for isolating Arabidopsis homologs of other
+eukaryotic genes is to screen or select for Arabidopsis cDNAs
+in a yeast expression vector that can complement the appropriate
+yeast mutant.  The complementation approach has two major advantages
+to other cloning approaches:  it does not rely on nucleic acid
+or amino acid sequence homology, and cDNAs isolated in a complementation
+experiment are directly demonstrated to be functional.  Also,
+the complementation approach might reveal genes that bypass rather
+than directly substitute for a yeast function.
+<P>
+ In recent years two good Arabidopsis<I> </I>cDNA libraries have
+been constructed in yeast expression vectors.  The &quot;Davis&quot;
+library (Elledge et al., 1991) is made from the above-ground portions
+of plants (ecotype Columbia) ranging from very young to bolting
+in age.  The cDNAs are inserted into a vector with a relatively
+low copy number origin (pBR) in <I>E. coli</I>, a low copy number
+origin in yeast (<I>CEN</I>), the yeast selectable marker <I>URA3</I>
+on the vector, and cDNA expression under control of the yeast
+galactose-inducible promoter <I>GAL1</I>.  This library is appropriate
+for genes that are potentially toxic when over-expressed in either
+<I>E.</I> <I>coli</I> or yeast, and for genes that are specific
+to adult plant tissue (such as flowers and siliques).  This library
+has the advantage that the yeast galactose-inducible promoter
+allows regulation of cDNA expression:  the gene is not expressed
+when grown on medium containing glucose, but is expressed when
+grown on medium containing galactose.  This library has the disadvantages
+that the low copy numbers in <I>E. coli</I> and yeast make clones
+difficult to manipulate, and the requirement for galactose induction
+of cDNA expression sometimes introduces an extra step into a complementation
+scheme.  (Yeast transformants should always be first selected
+on glucose medium, then replica plated to galactose medium.  Direct
+plating of transformants on galactose medium reduces transformation
+efficiency 10-fold since yeast cannot readily metabolize galactose).
+ Another problem with the galactose induction of the Davis library
+is that many yeast strains are &quot;<I>gal-</I>&quot;--that
+is, they cannot metabolize galactose as a carbon source at all.
+ In this case, the yeast strain has to be reconstructed in a Gal+
+background.
+<P>
+ The &quot;Lacroute&quot; library (Minet et al., 1992) is made
+from whole tissue of two-week old seedlings (ecotype Landsberg).
+ The cDNAs are inserted into a vector with a high copy number
+origin (pUC) in <I>E. coli</I>, a high copy number origin in yeast
+(2 &#181;), the yeast selectable marker <I>URA3</I> on the vector,
+and cDNAs expressed from the strong constitutive yeast promoter
+<I>PGK1</I>.  This library is appropriate for genes that should
+not adversely affect <I>E. coli</I> or yeast when over-expressed
+(for example, most biosynthetic genes), for root-specific genes,
+and for genes that are not specific to adult plant tissue.  This
+library has the advantages that the high copy numbers in <I>E.
+coli</I> and yeast make clones easy to manipulate.  This library
+has the disadvantages that overexpression of a particular cDNA
+in <I>E. coli</I> or yeast might have unforeseen toxic effects,
+and the yeast <I>PGk1</I> promoter cannot be regulated to turn
+cDNA expression off and on at will.
+<P>
+ In this experiment we will select Arabidopsis cDNAs that can
+complement a non-revertible <I>leu2</I> auxotrophic yeast strain
+and allow the strain to grow on medium lacking leucine.  Since
+the high expression of the <I>LEU2</I> gene does not have any
+toxic effects on yeast, we can isolate cDNAs from the Lacroute
+library for ease of DNA manipulations.  Lacroute and co-workers
+report that <I>LEU2</I> cDNAs occur at about 1 in 104
+in their library.  Thus, we need over 104
+transformants from this library to find the desired clones.  We
+will use a high efficiency yeast transformation protocol that
+should yield 10<sup>5</sup>-10<sup>6</sup> transformants
+per 100 ml of culture (modified from Schiestl and Gietz, 1987
+and Gietz et al., 1992).
+<P>
+ <I>LEU2</I> transformants will be selected by first allowing
+bulk transformants into a <I>ura3 leu2</I> yeast strain to grow
+up as large colonies on medium that selects for the <I>URA3</I>
+marker on the vector, then replica plating the transformants to
+medium lacking leucine, where only the <I>LEU2</I> transformants
+should grow.  This two-step approach allows a transformant that
+might not grow well under direct selection to achieve a good colony
+mass before the selection is applied.
+<P>
+<B>PROCEDURES</B>
+<P>
+<B>Large-scale transformation of library DNA into a <I>ura3 leu2</I>
+yeast strain<BR>
+</B>
+<P>
+(Modified from Schiestl and Gietz, 1989 and Gietz et al., 1992).
+<BR>
+
+<P>
+1.  Inoculate 100 ml YPD broth with 1 ml overnight culture of
+yeast strain JBY575 (<I>MAT</I><B>a</B><I> ura3-52 leu2-3, 112
+his3 *delta symbol* 200 trp1 *delta symbol* 63 ade2 kss1 </I>Gal+).  Grow
+at 30 &deg;C for 6-8 hr until culture is in mid-log
+phase.<BR>
+
+<P>
+2.  Transfer culture to 2 50 ml Falcon tubes.  Spin down cells
+at 2K rpm for 2 minutes in a table top Sorvall or clinical centrifuge.
+ (While cells are spinning, heat salmon sperm DNA in a boiling
+water bath or heat block for about 10 minutes to denature).<BR>
+
+<P>
+3.  Resuspend cells in 25 ml 1X TE LiOAc per tube, spin down at
+2K rpm for 2 minutes.  Resuspend cells again in 25 ml 1X TE LiOAc
+per tube, spin down at 2K rpm for 2 minutes.  (While cells are
+spinning, let salmon sperm DNA cool to room temperature).  Resuspend
+cells in a &quot;slurry&quot; in residual liquid.<BR>
+
+<P>
+4.  Add 25 &#181;l salmon sperm DNA (10 mg/ml) and 25 &#181;l Lacroute cDNA
+library at about 1 &#181;g/&#181;l concentration to each tube.  Add 5ml
+50% PEG in 1X TE LiOAc to each tube.  Mix well.  Incubate tubes
+at 30 &deg;C, preferably with gentle shaking,
+for 30 minutes.<BR>
+
+<P>
+5.  Incubate tubes in 42 &deg;C water bath for
+20 minutes.<BR>
+
+<P>
+6.  Dilute out PEG by filling each tube with YPD.  Spin down cells
+in a table top centrifuge 2 minutes at 2K rpm.  Pour off excess
+supernatant, leaving 1-2 ml residual volume of cells and liquid.
+ Resuspend slurry in residual liquid.<BR>
+
+<P>
+7.  Measure volume of slurry in each tube with a pipet.  Spread
+one tenth volume on each of 10 SC -URA plates for each tube (total
+of 20 plates) spreading cells evenly with glass pipet or spreader
+and letting excess liquid dry into plate.<BR>
+
+<P>
+8.  Incubate plates at 30 &deg;C 2 days to allow
+transformants to grow.<BR>
+
+<P>
+9.  Replica plate transformants from SC -URA plates to SC -LEU
+plates.  Incubate plates (in plastic bags or plastic wrap to prevent
+drying) at 30 &deg;C 2-4 days, then score <I>LEU2</I>
+prototrophs. <BR>
+<BR>
+
+<P>
+<B>MATERIALS</B>
+<P>
+YPD broth (1% Bacto-yeast extract, 2% Bacto-peptone, 2% Dextrose--autoclave
+no longer than 30 minutes to prevent carmelization of dextrose)
+<BR>
+
+<P>
+1X TE LiOAc:  Prepared from 10XTE (0.1 M Tris-Cl, 0.01 mM EDTA,
+pH 7.5)  and 10X LiOAc (1M LiOAc pH 7.5 adjusted with diluted
+acetic acid)  mixed 1 part 10X TE:1 part 10X LiOAc:8 parts sterile
+distilled water<BR>
+
+<P>
+50% PEG4000 in 1X TE LiOAc (50% PEG 4000 in 1X TE LiOAc, filtered,
+ stored at 4 &deg;C between uses)<BR>
+
+<P>
+transforming DNA (Lacroute cDNA library at 1 &#181;g/&#181;l concentration)
+<BR>
+
+<P>
+sheared salmon sperm carrier DNA 10mg/ml (Sigma-D1626 Type III
+sodium 
+<P>
+ salt from salmon testes dissolved in TE at 10 mg/ml by drawing
+up and 
+<P>
+ down in 10 ml pipet, then incubating overnight at 4&deg;C.
+ Sonicated twice 
+<P>
+ for 30 seconds at 3/4 power to give average size of 7 kb.  Extracted
+once 
+<P>
+ with phenol, once with phenol:chloroform (50:50), and once with
+
+<P>
+ chloroform.  Precipitated with 1/10 volume 3M NaOAc (pH 5.2)
+and 2.5 
+<P>
+ volumes 100% ethanol.  Centrifuged 12,000 g to pellet, and 
+<P>
+ resuspended in TE at 10 mg/ml.  Denatured in a boiling water
+bath for 
+<P>
+ 20 minutes.  Aliquoted into screw top tubes and stored at -20
+&deg;C.   Denatured by boiling 10 minutes prior
+to each use.)<BR>
+
+<P>
+selective yeast media SC -URA and SC -LEU (See Appendix)<BR>
+
+<P>
+replica plating blocks and sterile velvets<BR>
+<BR>
+
+<P>
+<B>Experiment #2:  Recovery of plasmid DNA from yeast cells<BR>
+</B>
+<P>
+<B>INTRODUCTION</B>
+<P>
+<B> </B>Once yeast transformants have been isolated from a screen,
+cDNA clones must be recovered from these strains for further analysis.
+ If the clones are on a high copy number 2&#181; vector (as for the
+Lacroute library [Minet et al., 1992]), it is relatively easy
+to purify enough plasmid DNA from yeast to recover large numbers
+of transformants in <I>E. coli</I>.  However, if the clones are
+on a low copy number <I>CEN</I> vector (as for the Davis library
+[Elledge et al., 1991]) maximum yields of pure DNA and maximum
+efficiency of <I>E. coli</I> transformation are required to recover
+bacterial transformants.  In this experiment we will compare the
+isolation and retransformation into <I>E. coli</I> of <I>LEU2
+Arabidopsis </I> cDNAs isolated from both libraries.
+<P>
+ Using a quick miniprep protocol (modified from Hoffman and Winston,
+1987) we will recover yeast DNA from a 10 ml culture of sufficient
+yield and purity to electroporate into <I>E. coli</I> and recover
+transformants even for low copy number <I>CEN</I> vectors.  Electroporation-competent
+<I>E. coli</I> cells will be provided, but a protocol for their
+preparation is included as an <B>Addendum</B> to this section.
+ Subsequently (see Experiment #3), more than one transformant
+of each sample should be checked in parallel in case some of the
+transformants arose from a contaminating DNA or in case the original
+yeast isolate contained more than one clone.  <BR>
+
+<P>
+<B>PROCEDURES</B>
+<P>
+<B>Quick DNA Preparation from yeast</B>
+<P>
+(From Hoffman and Winston, 1987).<BR>
+
+<P>
+1.  Grow 10 ml yeast cultures to saturation in selective medium
+(SC -URA broth) at 30 &deg;C.<BR>
+
+<P>
+2.  Collect the cells by centrifugation for 2 minutes in a clinical
+centrifuge.  Remove the supernatant and resuspend the cells in
+0.5 ml distilled water.  Transfer the cells to a 1.5 ml microfuge
+tube and collect them with a 5 second spin in a microcentrifuge.
+ (If possible, use a 1.5 ml screw cap microfuge tube to prevent
+leaking of the phenol mix during vortexing in step 4 below.  Do
+not use 2 ml screw cap tubes--when full they will not fit into
+standard microcentrifuges).<BR>
+
+<P>
+3.  Decant the supernatant and briefly vortex the tube to resuspend
+the pellet in the residual liquid.<BR>
+
+<P>
+4.  Add 0.2 ml of Lysis Buffer (2% Triton X-100, 1% SDS, 100mM
+NaCl, 10 mM Tris-Cl pH 8.0, 1mM EDTA).  Add 0.2 ml of phenol:chloroform:isoamyl
+alcohol (25:24:1).  Add 0.3 g of glass beads.<BR>
+
+<P>
+5.  Vortex for 3-4 minutes.  (For a large number of samples a
+multi-vortexer 6'' replacement head that holds 60 tubes can be
+attached to the vortexer--Fisher 12-812B.  Extremely vigourous
+shaking is required to fully break open the yeast cells.)  Add
+0.2 ml of TE. <BR>
+
+<P>
+6.  Centrifuge for 5 minutes in a microfuge.  Transfer the aqueous
+layer to a fresh tube.  Add 1 ml of 100% ethanol.  Mix by inversion.
+<BR>
+
+<P>
+7.  Centrifuge  for 2 minutes in a microfuge.  Discard the supernatant.
+ Resuspend the pellet in 0.4 ml of TE plus 3 &#181;l of a 10 mg/ml
+solution of RNase A.  Incubate for 5 minutes at 37 &deg;C.
+ Add 10 &#181;l of 4 M ammonium acetate plus 1 ml of 100% ethanol.
+ Mix by inversion.<BR>
+
+<P>
+8.  Centrifuge  for 2 minutes in a microfuge.  Discard the supernatant.
+ Air-dry the pellet and resuspend in 50 &#181;l of TE.  Use 1 &#181;l to
+electroporate into <I>E. coli</I>.<BR>
+
+<P>
+<B>Electroporation with Electrocompetent Cells<BR>
+</B>
+<P>
+1.  If cells are frozen, thaw on ice.<BR>
+
+<P>
+2.  In a chilled microfuge tube mix 40 &#181;l cells with 1 &#181;l transforming
+DNA.<BR>
+
+<P>
+3.  Set the BioRad Gene Pulser apparatus at 25 &#181;F and 2.45 kV.
+ Set the Pulse Controller to 200 *omega symbol*.<BR>
+
+<P>
+4.  Transfer the cell/DNA mix to a chilled 0.2 cm electroporation
+cuvette, and shake the suspension to the bottom of the cuvette.
+ Wipe moisture off the outside of the cuvette with a tissue, put
+the cuvette in the slide, and push the slide into the chamber
+until the cuvette is seated between the contacts in the base of
+the chamber.<BR>
+
+<P>
+5.  Pulse once (until you hear the beep).<BR>
+
+<P>
+6.  Remove the cuvette from the chamber and <U>immediately</U>
+add 1 ml SOC broth to the cuvette to resuspend the cells.<BR>
+
+<P>
+7.  Transfer the cells to a culture tube and incubate at 37 &deg;C
+for 1 hr with aeration.<BR>
+
+<P>
+8.  Plate on LB ampicillin medium:  for Davis library <I>CEN</I>
+vector isolates, plate the whole 1 ml on one LB amp plate, for
+Lacroute library 2&#181; vector isolates, plate 0.1 ml on one LB amp
+plate, remaining 0.9 ml on a second LB amp plate.<BR>
+<BR>
+
+<P>
+<B>MATERIALS</B>
+<P>
+SC -URA broth (See appendix)<BR>
+
+<P>
+Lysis buffer:  2% Triton X-100, 1% SDS, 100 mM NaCl, 10 mM Tris-Cl
+(pH  8.0), 1 mM EDTA<BR>
+
+<P>
+Phenol:chloroform:isoamylalcohol (25:24:1)<BR>
+
+<P>
+Glass beads (Sigma G8772, 425-600 microns, acid-washed)<BR>
+
+<P>
+TE (10 mM Tris-Cl (pH 8.0), 1 mM EDTA (pH 8.0))<BR>
+
+<P>
+100% ethanol<BR>
+
+<P>
+10 mg/ml RNase A in 10 mM Tris-Cl (pH 7.5), 15 mM NaCl<BR>
+
+<P>
+4 M ammonium acetate<BR>
+
+<P>
+SOC broth (2% Difco Bacto-tryptone, 0.5% Difco Bacto-yeast Extract,
+10 mM 
+<P>
+ NaCl, 2.5 mM KCl, 10 mM MgCl2, 10 mM MgSO<sub>4</sub>,
+20 mM glucose)<BR>
+
+<P>
+Electroporation cuvettes (1 per transformation)<BR>
+
+<P>
+LB ampicillin plates (1% Difco Bacto-tryptone, 0.5% Difco Bacto-yeast
+ extract, 0.5% NaCl, 1.5% Difco Bacto-agar, 100 &#181;g/ml ampicillin)
+<P>
+<B>Addendum:  Preparation of Electrocompetent Cells</B>
+<P>
+(Modified from BioRad Gene Pulser User's Manual).<BR>
+
+<P>
+1.  Innoculate 1 liter of LB broth with 10 ml of a fresh overnight
+of DH5 *alpha* (<I>F'</I>/<I>endA1 hsdR17 (rK<I>-</I>
+mK<I>+</I>])supE44 thi-1 recA1 gyrA</I> (NalR)
+<I>relA1 *delta symbol* (lacZYA-argF)U169 (*phi*80dlacD(lacZ)M15</I>)).<BR>
+
+<P>
+2.  Grow cells at 37 &deg;C to an OD<sub>600</sub>
+of 0.5-1.0 (approximately 3 hr).<BR>
+
+<P>
+3.  Chill flask of cells on ice for 15-30 minutes.  (NOTE:  It
+is essential to keep the cells cold from this point onwards).
+ Transfer to 6 chilled 250 ml centrifuge bottles on ice and spin
+in a cold rotor at 5K for 5 minutes.  <BR>
+
+<P>
+4.  Decant supernatant gently.  Resuspend cells in 150 ml chilled
+water per centrifuge bottle (900 ml total volume).  Spin at 5K
+for 5 minutes.<BR>
+
+<P>
+5.  Decant supernatant gently.  Resuspend cells in 50 ml chilled
+water per centrifuge bottle (300 ml total volume).  Consolidate
+cells in two centrifuge bottles.  Spin at 5K for 5 minutes.<BR>
+
+<P>
+6.  Decant supernatant gently.  Resuspend cells in 10 ml chilled
+10% glycerol in each bottle (20 ml total volume).  Transfer cells
+to 40 ml centrifuge tube.  Spin at 5K for 5 minutes.<BR>
+
+<P>
+7.  Decant supernatant gently.  Resuspend cells in residual 10%
+glycerol to a final volume of 2-3 ml.  Use 30-40 &#181;l cells per
+transformation.  Cells can be aliquoted and stored at -70 &deg;C.
+<BR>
+
+<P>
+<B>Materials</B>
+<P>
+LB broth (1% Difco Bacto-tryptone, 0.5% Difco Bacto-yeast extract,
+0.5%  NaCl)<BR>
+
+<P>
+10% glycerol
+<P>
+<B>3.</B> <B>Experiment #3:  Analysis of Arabidopsis</B> <B>cDNAs
+that complement a yeast <I>leu2</I> mutation<BR>
+</B>
+<P>
+<B>INTRODUCTION</B>
+<P>
+ Once a putative yeast-complementing cDNA has been recovered from
+the yeast strain in which it was isolated, it is critical to show
+that this cDNA can be retransformed into the original yeast strain
+and reconstitute the selected phenotype--that is, the phenotype
+must shown to be plasmid-linked.  Some isolates from a yeast complementation
+screen can be shown to be false positives even before retransformation
+into yeast by restriction digest analysis of the cDNA insert size.
+ Clones with no insert or a very small insert (&lt;500 bp) can
+usually be eliminated.  Also, clones with double inserts or very
+large fused inserts can be set aside for further analysis only
+if necessary.  More than one transformant of each candidate should
+be checked in parallel in case some of the bacterial transformants
+arose from a contaminating DNA or in case the original yeast isolate
+contained more than one clone.  
+<P>
+ In this experiment we will prepare plasmid miniprep DNA from
+<I>E. coli</I> transformants of putative Arabidopsis <I>LEU2</I>
+cDNAs isolated from both the Davis (Elledge et al., 1991)  and
+Lacroute (Minet et al., 1992) libraries in complementation screens.
+ The minipreps will be digested with various diagnostic restriction
+enzymes and analyzed by agarose gel electrophoresis.  In real
+life, you would transform plasmids that have &quot;normal&quot;
+structures into a <I>leu2</I> yeast strain and test for the ability
+to confer <I>LEU2</I> prototrophy:  although we will not have
+time to complete this final step, a  useful protocol for rapid,
+small scale yeast transformation is included as an <B>Addendum</B>
+to this section.
+<P>
+<B>PROCEDURES</B>
+<P>
+<B>Preparation of Plasmid Miniprep DNA from <I>E. coli</I></B>
+<P>
+(Modified from Maniatis et al. 1982, pp 368-369).<BR>
+
+<P>
+1.  Grow a 2-5 ml overnight culture in LB ampicillin broth of
+each <I>E. coli</I> transformant to be analyzed.<BR>
+
+<P>
+2.  Transfer 1.5 ml of each culture to a microfuge tube.  Pellet
+cells by spinning for 15 seconds in a microfuge.  Pour off supernatant
+and remove residual liquid by aspiration or pipet.<BR>
+
+<P>
+3.  Resuspend each pellet thoroughly in 100 &#181;l of Solution 1 (50
+mM glucose, 10 mM EDTA, 25 mM Tris-Cl (pH 8.0).<BR>
+
+<P>
+4.  Add 200 &#181;l of Solution 2 (1% SDS, 0.2 N NaOH) to each sample.
+ Close the tubes and invert each sample gently to lyse cells.
+<BR>
+
+<P>
+5.  Add 150 &#181;l of Solution 3 (5M KOAc, pH ~4.8) to each sample.
+ Vortex to mix.  Chill on ice 10 minutes.  Spin 10 minutes in
+a microfuge.<BR>
+
+<P>
+6.  Transfer supernatant to a new tube.  Add 1 ml 100% ethanol
+and mix by inversion.  Spin 10 minutes in a microfuge.<BR>
+
+<P>
+7.  Gently pour off supernatant and allow pellet to air-dry inverted
+over paper towels.  Resuspend pellet in 50 &#181;l TE.<BR>
+<BR>
+<BR>
+
+<P>
+<B>Restriction Digest of Plasmid DNA</B>
+<P>
+1.  Pipet DNA samples to be digested into microfuge tubes labeled
+with the sample name and restriction enzyme name.  For high copy
+(pUC) <I>E. coli</I> vectors such as the vector for the Lacroute
+library, use 2 &#181;l of a 50 &#181;l miniprep per sample.  For lower copy
+(pBR) <I>E. coli </I>vectors such as the vector for the Davis
+library, use 5 &#181;l of a 50 &#181;l miniprep per sample. <BR>
+
+<P>
+2.  To digest a number of samples with the same enzyme, a cocktail
+of the enzyme in a buffered solution should be prepared and then
+pipeted into each tube of DNA.  
+<P>
+ For 2 &#181;l &quot;Lacroute&quot; DNA samples use the following recipe
+for your cocktail:  2.5 &#181;l appropriate 10X NEBL enzyme buffer
++ 20.5 &#181;l water.  Multiply each ingredient by one or two more
+than your total number of samples and measure these amounts into
+a microfuge tube.  Add 0.5-1 &#181;l 10mg/ml RNase A solution (the
+exact amount is not important) to the cocktail.  Add restriction
+enzyme to give about 5 units enzyme per each digest, and mix the
+cocktail by flicking the tube with your finger.  Pipet 23 &#181;l cocktail
+on to each DNA sample to give a final total volume of 25 &#181;l. 
+Spin the digests 1 second in the microfuge to make sure DNA and
+cocktail are both mixed in the bottom of the tube.   Incubate
+the digests at 37 &deg;C for at least 1 hr.
+<P>
+ These &quot;Lacroute&quot; samples should be cut with: 
+<P>
+ (a)  NotI, the enzyme that releases the insert from the vector.
+<P>
+ (b)  HindIII, an enzyme that cuts once in the vector and fairly
+
+<P>
+ frequently in AT-rich Arabidopsis DNA sequences--this digest
+is a 
+<P>
+ guess at an enzyme that
+<P>
+ might cut in the cDNA sequences and help orient them relative
+to sites 
+<P>
+ on the vector.<BR>
+
+<P>
+ For 5 &#181;l &quot;Davis&quot; DNA samples use the following recipe
+for your cocktail:  2.5 &#181;l appropriate 10X NEBL buffer + 17.5
+&#181;l water.  Scale this recipe up and add RNase and enzyme as described
+above, then pipet 20 &#181;l cocktail on to each sample.  Spin the
+digests 1 second in the microfuge to mix.  Incubate the digests
+at 37 &deg;C for at least 1 hr.
+<P>
+ These &quot;Davis&quot; samples should be cut with:
+<P>
+ (a)  EcoRI, an enzyme that releases the insert from the vector.
+<P>
+ (b)  HindIII + XbaI--HindIII to identify possible sites in the
+insert (as 
+<P>
+ above) and XbaI to cut once in the vector to help orient these
+sites.<BR>
+
+<P>
+<B>Agarose Gel Electrophoresis of Restriction Digests</B>
+<P>
+1.  While your samples are digesting you should pour a 1% agarose
+gel in 1X TBE buffer.  Melt the agarose into the buffer by microwaving
+with occasional stirring.  Allow the molten agar to cool to about
+55 &deg;C.  Add ethidium bromide (10 mg/ml) to a final concentration
+of 0.5 &#181;g/ml (5 &#181;l per 100ml of agarose).  Ethidium bromide is
+a powerful mutagen, so always wear gloves and exercise caution
+when working with this dye.  Pour the molten agarose into a gel
+tray with the appropriate comb(s) for your number of samples.
+<BR>
+
+<P>
+2.  Set up a gel box filled with 1X TBE buffer sufficient to just
+submerge the gel.<BR>
+
+<P>
+3.  Place the solidified agarose gel in the gel box.  Remove combs.
+<BR>
+
+<P>
+4.  When the restriction digests are complete, add 4 &#181;l 6X loading
+buffer to each sample.<BR>
+
+<P>
+5.  Load the samples on the gel, along with DNA molecular weight
+standards (lambda BstEII or HindIII digests).  Electrophorese the gel
+at about 75 volts until the loading buffer dyes are well-separated
+(about 4 hr).<BR>
+
+<P>
+6.  Visualize DNA in the gel with a UV transilluminator.  Take
+a Polaroid photograph of the gel for your records.<BR>
+
+<P>
+7.  From the data on the gel, decide which DNA samples have a
+normal structure and which have an aberrant structure.  Transform
+the normal looking samples back into the starting yeast strain
+JBY575 as described below.<BR>
+<BR>
+
+<P>
+<B>MATERIALS</B>
+<P>
+LB ampicillin broth (1% Difco Bacto-tryptone, 0.5% Difco Bacto-yeast
+extract, 0.5% NaCl, 100 &#181;g/ml ampicillin)<BR>
+
+<P>
+Solution 1 (50 mM glucose, 10 mM EDTA, 25 mM Tris-Cl (pH 8.0))
+<BR>
+
+<P>
+Solution 2 (1% SDS, 0.2 N NaOH)<BR>
+
+<P>
+Solution 3 (5M KOAc, pH ~4.8 made as follows:  to 60 ml of 5M
+KOAc, add 11.5 ml of glacial acetic acid and 28.5 ml water.  The
+resulting solution is 3M with respect to potassium and 5M with
+respect to acetate)<BR>
+
+<P>
+100% ethanol<BR>
+
+<P>
+TE ( 10 mM Tris-Cl (pH 8.0), 1 mM EDTA (pH 8.0))<BR>
+
+<P>
+10X NEBL restriction enzyme buffers for NotI, EcoRI (Buffer #3),
+and HindIII + XbaI (Buffer #2) <BR>
+
+<P>
+10 mg/ml RNase A in 10 mM Tris-Cl (pH 7.5), 15 mM NaCl<BR>
+
+<P>
+Restriction enzymes NotI, EcoRI, HindIII, and XbaI<BR>
+
+<P>
+DNA molecular weight standards:  lambda BstEII digest or lambda HindIII
+digest<BR>
+
+<P>
+6X sample loading buffer( 15% Ficoll type 400, 0.25% xylene cyanol,
+0.25% bromophenol blue)<BR>
+
+<P>
+1X TBE (Prepare a 5X stock:  54 g Tris base, 27.5 g boric acid,
+20 ml 0.5 M 
+<P>
+ EDTA (pH 8.0) per liter of water.  The 1X working solution diluted
+<P>
+  from this stock is 0.089 M Tris-borate, 0.089 M boric acid,
+0.002 M 
+<P>
+ EDTA)<BR>
+
+<P>
+10 mg/ml Ethidium Bromide in water<BR>
+
+<P>
+Polaroid film<BR>
+<BR>
+<BR>
+
+<P>
+<B>Addendum:  Small scale yeast transformation in microfuge tube</B>
+<P>
+1.  Inoculate 10ml YPD with 0.1 ml overnight culture of yeast
+strain JBY575 (<I>MAT</I><B>a</B><I> ura3-52 leu2-3, 112 his3 *delta symbol* 200
+trp1 *delta symbol* 63 ade2 kss1 </I>Gal+).  Grow at 30 &deg;C for 6-8 hr until culture
+is in mid-log phase.<BR>
+
+<P>
+2.  Transfer 1.5 ml culture to microfuge tube.  Spin down cells
+with a 5 second spin.  (Heat salmon sperm DNA in a boiling water
+bath or heat block for about 10 minutes to denature).<BR>
+
+<P>
+3.  Resuspend cells in 1 ml 1X TE LiOAc, spin down for 5 seconds.
+ Resuspend cells again in 1 ml 1X TE LiOAc, spin down for 5 seconds.
+ (While cells are spinning, let salmon sperm DNA cool to room
+temperature).  Resuspend cells in a &quot;slurry&quot; in residual
+liquid.<BR>
+
+<P>
+4.  Add 2.5 &#181;l salmon sperm DNA (10 mg/ml).  Add 5 &#181;l transforming
+miniprep DNA (~1 mg).  Add 0.5 ml 50% PEG in 1X TE LiOAc.  Mix
+well.  Incubate tube at 30 &deg;C, preferably with shaking, for 30
+minutes.<BR>
+
+<P>
+5.  Incubate tube in 42 &deg;C water bath for 20 minutes.<BR>
+
+<P>
+6.  Dilute out PEG by filling tube with YPD.  Spin down cells
+with a 5 second spin.  Pour off excess supernatant.  Resuspend
+slurry in residual liquid.<BR>
+
+<P>
+7.  For &quot;Lacroute&quot; transformants, spread half of slurry
+on an SC -URA plate to pre-select general transformants.  For
+fun, plate the other half of the slurry directly onto SC -LEU.
+ You can compare the transformation efficiency between this direct
+selection for the <I>Arabidopsis LEU2</I> cDNA and the general
+pre-selection on SC -URA.<BR>
+
+<P>
+ For &quot;Davis&quot; transformants where cDNA expression is
+controlled by a galactose-inducible (<I>GAL1</I>) promoter, spread
+one third of the slurry on an SC -URA plate.  For fun, plate the
+remaining two thirds of the transformation slurry on SC -LEU and
+SC -LEU GAL to see what levels of transformation efficiency you
+get.<BR>
+
+<P>
+8.  Incubate plates at 30 &deg;C 2 days to allow transformants to
+grow.<BR>
+
+<P>
+9.  Check transformants plated directly on SC -LEU or SC -LEU
+GAL for growth.  For &quot;Davis&quot; transformants, only the
+cells plated on galactose should be able to grow.  This is a test
+that the complementing cDNA is actually being correctly regulated
+from the yeast promoter on the vector.<BR>
+
+<P>
+10.  Restreak multiple picks (at least 4) from each &quot;Lacroute&quot;
+transformation to SC -URA to purify and to SC -LEU to test the
+cDNA phenotype.  Restreak multiple picks from each &quot;Davis&quot;
+transformation to SC -URA to purify and to both SC -LEU and SC
+-LEU GAL to test the cDNA phenotype.  Incubate plates at 30&deg;C
+2-4 more days, then score growth.<BR>
+<BR>
+<BR>
+
+<P>
+<B>Materials</B>
+<P>
+YPD broth (1% Bacto-yeast extract, 2% Bacto-peptone, 2% Dextrose--autoclave
+no longer than 30 minutes to prevent carmelization of dextrose)
+<BR>
+
+<P>
+1X TE LiOAc:  Prepared from 10XTE (0.1 M Tris-Cl, 0.01 mM EDTA,
+pH 7.5) and 10X LiOAc (1M LiOAc pH 7.5 adjusted with diluted acetic
+acid) mixed 1 part 10X TE:1 part 10X LiOAc:8 parts sterile distilled
+water<BR>
+
+<P>
+50% PEG4000 in 1X TE LiOAc (50% PEG 4000 in 1X TE LiOAc, filtered,
+stored at 4 &deg;C between uses)<BR>
+
+<P>
+sheared salmon sperm carrier DNA 10mg/ml (Sigma-D1626 Type III
+sodium salt from salmon testes dissolved in TE at 10 mg/ml by
+drawing up and down in 10 ml pipet, then incubating overnight
+at 4 &deg;C.  Sonicated twice for 30 seconds at 3/4 power to give
+average size of 7 kb.  Extracted once with phenol, once with phenol:chloroform
+(50:50), and once with chloroform.  Precipitated with 1/10 volume
+3M NaOAc (pH 5.2) and 2.5 volumes 100% ethanol.  Centrifuged 12,000
+g to pellet, and resuspended in TE at 10 mg/ml.  Denatured in
+a boiling water bath for 20 minutes.  Aliquoted into screw top
+tubes and stored at -20 &deg;C.  Denatured by boiling 10 minutes prior
+to each use.)<BR>
+
+<P>
+selective medium plates SC -URA, SC -LEU, SC -LEU GAL (see Appendix)
+<BR>
+<BR>
+
+<P>
+<B>4.</B> <B>Experiment #4:  Preparation of library DNA from the
+Lacroute cDNA library<BR>
+</B>
+<P>
+<B>INTRODUCTION</B>
+<P>
+<B> </B>Of the two yeast expression vector Arabidopsis cDNA libraries
+currently available, the Lacroute library (Minet et al., 1992)
+can be obtained from the Arabidopsis Biological Resource Center
+at Ohio State, and the Davis library (Elledge et al., 1991) can
+be obtained by request from the Davis lab.  We will prepare large
+quantities of Lacroute library DNA with which you can perform
+your own screens for Arabidopsis genes that complement yeast mutants.
+<P>
+ We will make our own amplification of Lacroute library DNA into
+<I>E. coli</I>, using high-efficiency electroporation to recover
+the millions of clones represented in the primary library.  These
+transformants will be grown out on plates, where cDNAs that cause
+a growth defect in <I>E. coli</I> will have less of a disadvantage
+than in liquid medium.  We will then pool the bulked transformants
+and make a quick high-concentration library DNA preparation with
+the commercially available Qiagen kit.    You can test the transformation
+efficiency of the library DNA at a later time using the transformation
+protocol included as an <B>Addendum</B>.<BR>
+
+<P>
+<B>PROCEDURES</B>
+<P>
+<B>Electroporation of electrocompetent cells with library DNA</B>
+<P>
+1.  If cells are frozen, thaw on ice.<BR>
+
+<P>
+2.  In a chilled microfuge tube mix 40 &#181;l cells with 1 &#181;l transforming
+DNA.<BR>
+
+<P>
+3.  Set the BioRad Gene Pulser apparatus at 25 &#181;F and 2.45 kV.
+ Set the Pulse Controller to 200 *omega symbol*.<BR>
+
+<P>
+4.  Transfer the cell/DNA mix to a chilled 0.2 cm electroporation
+cuvette, and shake the suspension to the bottom of the cuvette.
+ Wipe moisture off the outside of the cuvette with a tissue, put
+the cuvette in the slide, and push the slide into the chamber
+until the cuvette is seated between the contacts in the base of
+the chamber.<BR>
+
+<P>
+5.  Pulse once (until you hear the beep).<BR>
+
+<P>
+6.  Remove the cuvette from the chamber and <U>immediately</U>
+add 1 ml SOC broth to the cuvette to resuspend the cells.<BR>
+
+<P>
+7.  Transfer the cells to a culture tube and incubate at 37 &deg;C
+for 1 hr with aeration.<BR>
+
+<P>
+8.  Repeat the electroporation 4 more times for a total of 5 ml
+transformed cells.<BR>
+
+<P>
+9.  Plate 5 ml cells on 5 big LB amp plates (1 ml/plate).  Allow
+transformants to grow overnight (16-18 hr).<BR>
+
+<P>
+<B>Harvest of library DNA from transformed cells</B>
+<P>
+(From Qiagen Kit Protocol)<BR>
+
+<P>
+1.  Wash transformants off plates with 10-20 ml LB broth per plate
+and a glass spreader or pipet.  Pool  resuspended transformants
+into a centrifuge bottle.  Collect cells by spinning down at 5K
+for 5 minutes.<BR>
+
+<P>
+2.  Resuspend the cell pellet 10 ml Qiagen buffer P1.  Split into
+2 40 ml centrifuge tubes, 5 ml per tube.<BR>
+
+<P>
+3.  Add 5 ml buffer P2 to each tube, mix gently, and incubate
+at room temperature about 5 minutes until lysis looks complete.
+<BR>
+
+<P>
+4.  Add 5 ml chilled buffer P3 to each tube, mix immediately and
+store on ice 15 minutes.  Spin tubes at 15K for 30 minutes.<BR>
+
+<P>
+5.  Prepare a Qiagen-tip 500 column by suspending over a 50 ml
+Falcon tube or small Erlenmeyer flask and equilibrating with 10
+ml buffer QBT while the lysed cells are spinning.  Place a funnel
+lined with Miracloth in the neck of the column.<BR>
+
+<P>
+6.  Pour the supernatants through the Miracloth onto each column
+and allow the liquid to enter the resin bed by gravity flow.<BR>
+
+<P>
+7.  Wash the column with 30 ml buffer QC.<BR>
+
+<P>
+8.  Place the column over a fresh 50 ml Falcon tube.  Elute DNA
+with 15 ml buffer QF.<BR>
+
+<P>
+9.  Precipitate DNA with 0.7 volumes isopropanol (10.5 ml).  Transfer
+the DNA/isopropanol mix to two 30 ml Corex tubes (12.75 ml per
+tube).  Chill the tubes at -20 &deg;C for 30 minutes.
+ Spin at 10K for 20 minutes to pellet DNA.<BR>
+
+<P>
+10.  Resuspend each pellet in 0.5 ml TE and transfer to two microfuge
+tubes.  Add 10 &#181;l 5 M NaCl and 1 ml 100% ethanol to each tube.
+Invert gently to mix.    Chill at -20 &deg;C for
+15 minutes.  Spin 15 minutes in microfuge.  Air-dry pellet.  Resuspend
+contents of each tube in 500 ml TE (for a total yield of 1 ml
+per column).  <BR>
+<BR>
+
+<P>
+<B>MATERIALS</B>
+<P>
+electroporation cuvettes <BR>
+
+<P>
+SOC broth (2% Difco Bacto-tryptone, 0.5% Difco Bacto-yeast extract,
+10 mM NaCl, 2.5 mM KCl, 10 mM MgCl<sub>2</sub>, 10 mM
+MgSO<sub>4</sub>, 20 mM glucose)<BR>
+
+<P>
+LB ampicillin plates<BR>
+
+<P>
+Qiagen kit with Qiagen tip-500 (Maxi) columns<BR>
+
+<P>
+Miracloth<BR>
+
+<P>
+isopropanol<BR>
+
+<P>
+100% ethanol<BR>
+
+<P>
+5M NaCl<BR>
+
+<P>
+TE (10 mM Tris-Cl (pH 8.0), 1 mM EDTA (pH 8.0))<BR>
+<BR>
+
+<P>
+<B>Addendum:  Testing library DNA for yeast transformation efficiency</B>
+<P>
+1.  Inoculate 10 ml YPD with 0.1 ml overnight culture of yeast
+strain JBY575 (<I>MAT</I><B>a</B><I> ura3-52 leu2-3, 112 his3 *delta symbol* 200
+trp1 *delta symbol* 63 ade2 kss1 </I>Gal+).  Grow at 30&deg;C
+for 6-8 hr until culture is in mid-log phase.<BR>
+
+<P>
+2.  Transfer 1.5 ml culture to each of two microfuge tubes.  Spin
+down cells with a 5 second spin.  (Heat salmon sperm DNA in a
+boiling water bath or heat block for about 10 minutes to denature).
+<BR>
+
+<P>
+3.  Resuspend cells in 1 ml 1X TE LiOAc per tube, spin down for
+5 seconds.  Resuspend cells again in 1 ml 1X TE LiOAc per tube,
+spin down for 5 seconds.  (While cells are spinning, let salmon
+sperm DNA cool to room temperature).  Resuspend cells in a &quot;slurry&quot;
+in residual liquid.<BR>
+
+<P>
+4.  Add 2.5 &#181;l salmon sperm DNA (10 mg/ml).  Add 1 &#181;l (~1 &#181;g)
+Lacroute library DNA.  Add 0.5 ml 50% PEG in 1X TE LiOAc.  Mix
+well.  Incubate tubes at 30 &deg;C, preferably
+with shaking, for 30 minutes.<BR>
+
+<P>
+5.  Incubate tubes in 42 &deg;C water bath for
+20 minutes.<BR>
+
+<P>
+6.  Dilute out PEG by filling tubes with YPD.  Spin down cells
+with a 5 second spin.  Pour off excess supernatant.  Resuspend
+slurries in residual liquid.<BR>
+
+<P>
+7.  Spread serial dilutions of slurries on SC -URA plates to quantitate
+transformation efficiency, spreading cells evenly with glass pipet
+or spreader and letting excess liquid dry into plate.  Make 10-,
+100-, and 1000-fold serial dilutions of each transformation into
+YPD broth as follows:  add 0.1 ml transformants to 0.9 ml YPD,
+mix well, then add 0.1 ml of this 10-fold dilution to 0.9 ml YPD,
+mix well, etc.  Plate 0.1 ml each dilution on an SC-URA plate.
+ Incubate plates at 30 &deg;C for 2 days.  Quantitate
+transformants per 1.5 ml yeast culture.<BR>
+
+<P>
+8.  Incubate plates at 30 &deg;C 2 days to allow
+transformants to grow.<BR>
+<BR>
+<BR>
+
+<P>
+<B>Materials</B>
+<P>
+YPD broth (1% Bacto-yeast extract, 2% Bacto-peptone, 2% Dextrose--autoclave
+no longer than 30 minutes to prevent carmelization of dextrose)
+<BR>
+
+<P>
+1X TE LiOAc:  Prepared from 10XTE (0.1 M Tris-Cl, 0.01 mM EDTA,
+pH 7.5) and 10X LiOAc (1M LiOAc pH 7.5 adjusted with diluted acetic
+acid) mixed 1 part 10X TE:1 part 10X LiOAc:8 parts sterile distilled
+water<BR>
+
+<P>
+50% PEG4000 in 1X TE LiOAc (50% PEG 4000 in 1X TE LiOAc, filtered,
+stored at 4 &deg;C between uses)<BR>
+
+<P>
+sheared salmon sperm carrier DNA 10mg/ml (Sigma-D1626 Type III
+sodium salt from salmon testes dissolved in TE at 10 mg/ml by
+drawing up and down in 10 ml pipet, then incubating overnight
+at 4 &deg;C.  Sonicated twice for 30 seconds at 3/4 power to give
+average size of 7 kb.  Extracted once with phenol, once with phenol:chloroform
+(50:50), and once with chloroform.  Precipitated with 1/10 volume
+3M NaOAc (pH 5.2) and 2.5 volumes 100% ethanol.  Centrifuged 12,000
+g to pellet, and resuspended in TE at 10 mg/ml.  Denatured in
+a boiling water bath for 20 minutes.  Aliquoted into screw top
+tubes and stored at -20 &deg;C.  Denatured by boiling 10 minutes prior
+to each use.)<BR>
+
+<P>
+selective medium plates SC -URA (see Appendix)<BR>
+<BR>
+<BR>
+<BR>
+
+<P>
+<B>5.</B> <B>Appendix:  Preparation of Yeast Media<BR>
+</B>
+<P>
+(See Guide to Yeast Genetics and Molecular Biology:  Sherman F.
+ Getting started with yeast, pp12-16 attached).<BR>
+
+<P>
+<B>INTRODUCTION<BR>
+</B>
+<P>
+ The standard medium on which to select prototrophic yeast is
+called &quot;synthetic complete&quot; (SC) minus whichever nutrient(s)
+for which prototrophic selection is desired (for example, uracil
+[URA] or leucine [LEU]).  This type of medium is also often called
+&quot;drop out&quot; medium.  
+<P>
+ SC medium is prepared from &quot;synthetic minimal&quot; (SD)
+medium by supplementing the basic mix of essential nutrients with
+a mix of amino acids and nucleotides from which only the desired
+ingredient is omitted.  For example, SC -URA medium has all the
+amino acids and nucleotides except uracil.  
+<P>
+ Another component of the medium is the carbon source.  For regular
+SC media and rich YPD medium, 2% glucose or dextrose is added.
+ For galactose medium, needed to induce the <I>GAL1</I> promoter,
+2% galactose is substituted.  Since galactose is a less &quot;digestible&quot;
+carbon source than glucose, even Gal+ yeast strains grow slowly
+on galactose medium.
+<P>
+ SC media can be prepared as broth, or prepared as solid by adding
+2% Difco Bacto-agar. 
+<P>
+ SC media are most conveniently prepared as three separate sterile
+solutions that can be mixed prior to use:  a 2X solution of the
+basic SD plus dropped out nutrient stock, 40% glucose, and for
+solid media 4% (2X) agar.  For broth, the appropriate amount of
+glucose (one twentieth final volume) can be mixed with the 2X
+nutrient stock and brought up to 1X concentration with sterile
+water.  For solid media, 4% agar can be melted in the microwave,
+and then the 2X nutrient stock and glucose can be added (note--the
+extra one twentieth volume contributed by the glucose is negligible
+and does not need to be corrected).  When the cool nutrient stock
+is added into the molten agar, the resulting mix is at about the
+right temperature (55 &deg;C) to pour into petri plates immediately.
+ SC drop-out media are commercially available from BIO101.
+<P>
+ Galactose is temperature-labile in solution.  It should be prepared
+as a 20% stock and filter-sterilized, then stored at 4 &deg;C.  Galactose
+should not be added to the other components of media until they
+have cooled to 55 &deg;C.  
+<P>
+ Attached are recipes and instructions from the Basic Methods
+of Yeast Genetics section of Methods in Enzymology Volume 194:
+ Guide to Yeast Genetics and Molecular Biology.  This book is
+a valuable resource for any questions or problems you might have
+while working with yeast.      
+<P>
+<B>6.</B> <B>References<BR>
+</B>
+<P>
+Elledge SJ, Mulligan JT, Ramer SW, Spottswood M, Davis RD (1991)
+lambda YES:  a multifunctional cDNA expression vector for the isolation
+of genes by complementation of yeast and <I>Escherichia coli</I>
+mutations.  Proc. Natl. Acad. Sci. USA 88: 1731-1735<BR>
+
+<P>
+Gietz D, St. Jean A, Woods RA, Schiestl RH (1992) Improved method
+for high efficiency transformation of intact yeast cells.  Nucl.
+Acids Res. 20: 1425<BR>
+
+<P>
+Hoffman CS, Winston F (1987) A ten-minute DNA preparation from
+yeast efficiently releases autonomous plasmids for transformation
+of <I>Escherichia coli</I>.  Gene 57: 267-272<BR>
+
+<P>
+Maniatis T, Fritsch EF, Sambrook J (1982) Molecular Cloning: 
+A Laboratory Manual.  Cold Spring Harbor Laboratory Press, Cold
+Spring Harbor, New York, pp 368-369<BR>
+
+<P>
+Minet M, Dufour M-E, Lacroute F (1992) Complementation of <I>Saccharomyces
+cerevisiae</I> auxotrophic mutants by <I>Arabidopsis thaliana</I>
+cDNAs.  Plant J. 2: 417-422<BR>
+
+<P>
+Schiestl RH, Gietz RD (1989) High efficiency transformation of
+intact yeast cells using single stranded nucleic acids as carrier.
+ Curr. Genet. 16: 339-334<BR>
+
+<P>
+Sherman F (1991) Getting started with yeast.  In:  Guthrie C,
+Fink GR (ed.s) Guide to Yeast Genetics and Molecular Biology,
+Methods in Enzymology Volume 194.  Academic Press, San Diego,
+California, pp 3-21<BR>
+<P>
+<center>Last modified on January 18, 2002</center>
+
+		</td>
+	</tr>
+</TABLE>
+
+<!-- FOOTER -->
+<script language="javascript" src="/js/footer.js"></script>
+</body>
+</html>

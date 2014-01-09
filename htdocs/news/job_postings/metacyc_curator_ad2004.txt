@@ -1,0 +1,36 @@
+Metabolic pathway curator position available March 1, 2004
+
+We are seeking applicants for a full-time position of a curator to
+annotate metabolic pathways of plants, with an emphasis on secondary
+metabolism. This project is a collaboration between Carnegie
+Institution and SRI International, in which plant metabolic pathways
+are being curated into MetaCyc, a comprehensive, experimentally
+verified metabolic pathway database (http://www.metacyc.org/) and
+AraCyc, an Arabidopsis-specific metabolic pathway database
+(http://www.arabidopsis.org/aracyc/).
+
+The curator will be responsible for:
+
+1. researching new plant metabolic pathways, enzymes, and transporters
+in the scientific literature, and to evaluate, organize, and add that
+information to the MetaCyc and AraCyc databases.
+
+2. contributing to the development of standard operation procedures on
+annotation methods and to the general development of MetaCyc and
+AraCyc such as adding new data types, data integration, and web page
+enhancement.
+
+3. communicating with researchers at meetings or via email to improve
+the quality of the data, train researchers in using the tools at
+MetaCyc and AraCyc, and supporting user questions.
+
+The successful candidate will work with a team of curators, software
+engineers, and database developers. Successful candidates will have a
+Ph.D. degree or equivalent in biochemistry, a demonstrated ability for
+independent, critical thinking and excellent communication and
+teamwork skills.
+
+Qualified candidates should email a resume to Peifen Zhang at:
+peifenz@acoma.stanford.edu
+
+

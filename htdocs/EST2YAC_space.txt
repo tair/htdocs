@@ -1,0 +1,274 @@
+GenBankID EST CloneID  YAC         YAC       Chromosome Number-Marker/Contig                               Nucleotide Homology
+                       Anchored    Size (kb)
+T04068    S7ATM        yUP10C3     250                                                                     GLYCINE RICH CELL WALL S=57
+T04085    SCD11T7P     yUP15D4     360-450                                                                 LASCORBATE PEROXIDASE S=633
+T04089    SCE11T7P     CIC2E4      590                                                                     PROHIBITIN  S=294
+T04089    SCE11T7P     yUP13G8     260                                                                     PROHIBITIN    S=294
+T04089    SCE11T7P     yUP13H5     160                                                                     PROHIBITIN    S=294
+T04097    SCF9T7P      CIC10C9     480       1-g15894                                                      HISTONE H2B.2 S=215
+T04118    1B4T7P       EG20A7                1-g4026                                                       MYB PROTEIN 308 S=471
+T04143    20G4T7       yUP2G1      250       5-cosflo11, LFY
+T04149    23B11T7      CIC4B3      675                                                                     Glutamateammonia ligase  S=661
+T04149    23B11T7      CIC4B3      675                                                                     Glutamate-ammonia ligase  S=661
+T04150    23B3T7       yUP13C10    300       1-m532                                                        CAB S=143
+T04161    23F11T7      CIC6E11     630       2-17999, pCIT4241, 8863, ve019, SG5, 15414                    WATERSTRESS INDUCED TONOPLAST S=351
+T04170    2A9T7P       CIC2A5      820                                                                     HELICASE S=85
+T04170    2A9T7P       CIC2A5      820                                                                     HELICASE
+T04196    4A12T7P      yUP21H6               3-g4523, g17341                                               ADENYLATE TRANSLOCATOR S=614
+T04197    4A9T7P       CIC7B11     430                                                                     MERI-5 (AT) s=349
+T04208    31F4T7       CIC10E3     200                                                                     PHYCOBILIPROTEIN S=59
+T04208    31F4T7       yUP8A9      320                                                                     PHYCOBILIPROTEIN S=59
+T04222    33F1T7       yUP13C4     330                                                                     METHYLAMINE OXIDASE S=291
+T04222    33F1T7       yUP13C6     200                                                                     METHYLAMINE OXIDASE S=291
+T04224    33F3T7       CIC4D6      525                                                                     GENOME POLYPROTEIN S=57
+T04229    33G5T7       yUP5H7      240       5-pCITd94, mi97                                               RIBOSOMAL PROTEIN S6 KINASE II S=73
+T04241    34B2T7       EG6A12                3-m243                                                        PROTEIN KINASE s=58
+T04241    34B2T7       yUP15H2     300       4-CC5P13/CC7J19, ELI3, g4551, g2486, CC127                    Protein kinase S=58
+T04243    34B5T7       yUP13H2     250                                                                     DNA TOPOISOMERASE II S=65
+T04248    34C5T7       CIC4A10     540                                                                     CHLOROPLAST PHOSPHATE S=448
+T04269    34H9T7       yUP15B10    140                                                                     CHALCONE SYNTHASE S=662
+T04272    35B3T7       CIC6F6      600                                                                     GLUTAMATE DECARBOXYLASE S=221
+T04280    35F2T7       yUP8H3      275       1-g4552                                                       CATALASE S=569
+T04285    35H2T7       yUP13A1     250       1-m310 contig (yUP19E10LE) / 4-pCITf3                         MURINE LEUKEMIA VIRUS S=66
+T04287    36A10T7      CIC10D2     340                                                                     PECTINESTERASE 2 S=102
+T04292    36B2T7       yUP19F2     310                                                                     MOBILITY GROUP PROTEIN S=63
+T04295    36C11T7      yUP6B11     30                                                                      SEED LECTIN   S=106
+T04300    38C4T7*      CIC4B4      625       2-ABL3, mi54, ve014, m220, m283                               UL73 GLYCOPROTEIN TRANSLOCATOR S=53
+T04300    38C4T7*      yUP13B2     50                                                                      UL73 GLYCOPROTEIN S=53
+T04335    38A6T7       CIC4D5      460       3-nga32                                                       POTASSIUM TRANSPORT PROTEIN s=58
+T04345    38D4T7       CIC2E12     640       2-GPA1, B68                                                   MYOSIN P S=58
+T04352    38G1T7       yUP4C8      270                                                                     CLB4
+T04361    39B1T7       CIC10B3     320       2-GPA1                                                        TRYPSIN INHIBITOR IV S=58
+T04388    39F7T7       yUP8A9      320                                                                     ferritin precursor S=230
+T04389    39F8T7       CIC4F1      480       1-g6838                                                       VACUOLAR ATP SYNTHASE 57KD SU S=506
+T04397    39H5T7       CIC1A6                                                                              PHOSPHOGLY- 5 CERATE MUTASE S=495
+T04414    40D3T7       CIC10C9     480       1-g15894                                                      ELONGATION FACTOR 1 ALPHA-A4  S=468
+T04414    40D3T7       EG22C6                1-PAI1                                                        ELONGATION FACTOR 1 ALPHA-A4  S=468
+T04418    40E1T7       CIC6E11     630       2-17999, pCIT4241, 8863, ve019, SG5, 15414                    NODULIN-26 HOMOLOG S=508
+T04418    40E1T7       yUP16H7     290                                                                     NODULIN26 HOMOLOG S=508
+T04462    35B9T7       CIC2E5      550       2-m336, 17999                                                 INSULIN GROWTH FACTOR BINDING s=63
+T04466    35C9T7       CIC7G8      490       4-CC16N19, CC20I2, CC15D15, g4539, mi112, mi330, g3845        ATHB2 DNA BINDING PROTEIN S=504
+T04473    35H8T7       yUP3B5      350       3-g4125, AP3                                                  PYRIMIDINE BINDING PROTEIN 1  S=88
+T04476    36C4T7       CIC5D8      380                                                                     LINOLEIC ACID DESATURASE  S=150
+T04482    36D4T7       yUP11B12    210                                                                     HEAT SHOCK 70 KD PROTEIN S=65
+T04485    36D9T7       CIC7G8      490       4-CC16N19, CC20I2, CC15D15, g4539, mi112, mi330, g3845        DNA POLYMERASE BETA CHAIN S=61
+T04485    36D9T7       CIC7H6                                                                              DNA POLYMERASE BETA CHAIN S=61
+T04492    36E9T7       CIC3A3      1500      5-LFY, g17337                                                 GLUTAMATE RECEPTOR CHANNEL S=63
+T04499    36F7T7       yUP8D1      180                                                                     LAR PROTEIN S=57
+T04503    36G12T7      CIC8A12     480                                                                     RNA BINDING  PROTEIN S=178
+T04519    36H9T7       yUP13H3     70                                                                      ENVELOPE  GLYCOPROTEIN GP340  S=64
+T04519    36H9T7       yUP17A2     60                                                                      ENVELOPE GLYCOPROTEIN GP340 S=64
+T04531    37B4T7       CIC1A12     420                                                                     PROTEIN F3 S=63
+T04539    37C6T7       yUP15E5     310                                                                     ODDSKIPPED  PROTEIN. S=68
+T04559    39G12T7      CIC6F4      760                                                                     UBIQUITIN  PRECURSOR S=446
+T04609    SBA6T7P      CIC1C2      370       4-mi198, g14587                                               GAG simian virus S=67
+T04619    SBB7T7P      yUP11C12    270                                                                     CYTOSOL AMINOPEPTIDASE (AT) S=160
+T04623    SBC11T7P     CIC10E1     470       4-TSB2, mi123, 02213-2, g4513, I/dSpm64, mi232                SEED STROAGE PROTEIN 3(AT) S=376
+T04634    SBD1T7P      CIC4D6      525                                                                     GLUTAMIC ACID RICH PROTEIN S=219
+T04641    SBE10T7P     CIC7H4      360                                                                     POLYADENYLATE BINDING PROTEIN S=72
+T04651    SBF11T7P     CIC5H3      460       5-nga151                                                      EXTENSIN S=73
+T04655    SBF3T7P      CIC2E5      550       2-m336, 17999                                                 ACYL CARRIER PROTEIN S=202
+T04655    SBF3T7P      CIC2E7      560       2-m336, 17999                                                 ACYL CARRIER PROTEIN S=202
+T04655    SBF3T7P      yUP8D3      260                                                                     ACYL CARRIER PROTEIN S=202
+T04657    SBF6T7P      yUP11C10    240       5-tt4-g5962 contig (EW21H6LE)                                 DELTA ENDOTOXIN S=59
+T04661    SBG11T7P     yUP13A7     320                                                                     orf S=61
+T04678    SCA3T7P      CIC5C9      475                                                                     LFUCOSE PERMEASE S=64
+T04681    SCB3T7P      CIC3C8      390       4-nga12                                                       COAT PROTEIN  S=62
+T04681    SCB3T7P      yUP15D11    260       2-6191 / 4-LD, BIO206, GA1                                    COAT PROTEIN
+T04705    23D11T7      CIC3A6      510       3-FUS6 contig (yUP10E2LE)                                     ORF (PIR::Sll850) S=159
+T04711    23F12T7      yUP13A1     250       1-m310 contig (yUP19E10LE) / 4-pCITf3                         MITOCHONDRIAL COMPLEX I 23K  S=321
+T04715    31A11T7      CIC4F1      480       1-g6838                                                       VACUOLAR ATP SYNTASE 16KD S=519
+T04718    31A5T7       CIC5B1      460                                                                     SOLUBLE HYDROGENASE 42 KD SUB S=99
+T04718    31A5T7       CIC5B2      490                                                                     SOLUBLE HYDROGENASE 42 KD SUB S=99
+T04726    31B5T7       CIC4D9      425                                                                     HYPOTHETICAL PROTEIN R08D7 S=223
+T04741    31E1T7       CIC10D7     480       2-4532, 4133                                                  IG HEAVY CHAIN C S=65
+T04744    31E7T7       CIC1E5      1050      4-ve030, KG32, AGP66, SEP2B, CC128                            DNA POLYMERASE S=62
+T04744    31E7T7       EG1D10                1-g17311                                                      DNA POLYMERASE S=62
+T04772    32C4T7       CIC8D6      360                                                                     CLB4 S=64
+T04814    5G6T7P       CIC8B7      550       1-m219 / 1-g8986                                              CYTOCHROME P450 LAXIAL S=240
+T04814    5G6T7P       yUP11B1     280       1-g8986                                                       CYTOCHROME P450 LAXIAL S=240
+T04814    5G6T7P       yUP13A6     270       1-m219 / 1-g8986                                              CYTOCHROME P450 LAXIAL S=240
+T04817    6E10T7P      yUP5H2      300       4-g2616                                                       RHODOPSIN/BETA ADRENERGIC  RE S=64
+T04832    9B4T7P       EG22G6                2-g6842                                                       SOR gene s=61
+T04832    9B4T7P       yUP23C5     50
+T04833    9C1T7P       yUP13H8     270                                                                     FCB GENES S=60
+T12940    SCD3T7       CIC10F7     500       2-21502, ve015, TEn5, 21301, spl3, mi277                      3KETOACYLCOA THIOLASE PEROXISOMAL S=99
+T13673    34D5T7       CIC6G2      420       2-ve012                                                       Homo sapiens 59 protein mRNA, s=67
+T13686    35D6T7       CIC2H2      150                                                                     0xygen evolving enhancer S=391
+T13729    37G8T7*      yUP13B10    270                                                                     eukaryotic protein synthesis S=496
+T13730    37H10T7*     yUP13C10    300       1-m532                                                        mu-immunoglobulin S=60
+T13795    41B1T7*      CIC1C2      370       4-mi198, g14587                                               KERATIN, TYPE II CYTOSKELETAL  S=177
+T13795    41B1T7*      CIC1C9      395                                                                     KERATIN, TYPE II CYTOSKELETAL S=177
+T13795    41B1T7*      yUP10B12    230       1-m402-m254 contig (yUP14H12RE)                               KERATIN, TYPE II CYTOSKELETAL S=177
+T13842    42A11T7*     CIC3A2      410                                                                     guanylate binding protein S=58
+T13842    42A11T7*     CIC4C4      590       4-CC44H2, pCITd104, g15064, AtGþ, g3088                       guanylate binding protein
+T13898    43C11T7      yUP4D11     260                                                                     Mouse MHC H2K/tw5linked S=86
+T13946    44A12T7      CIC5B4      575       2-m465                                                        cobalamin-independent methioni S=263
+T13946    44A12T7      yUP8D6      370                                                                     cobalamin-independent methioni S=263
+T20560    88C16T7*     CIC10C9     480       1-g15894                                                      lactoylglutathione lyase human Score:115
+T20562    88C24T7      CIC4D4      470       5-nga139                                                      cytochrome P450 ALK4, alkane-inducible-yeast Score: 118
+T20705    91H3T7       yUP22H6     330       5-g6856                                                       PRT1 protein yeast S=75
+T20769    92H23T7      CIC7E2      650       2-m465                                                        regulatory protein HAP2 yeast Score: 174
+T20864    94J16T7      CIC1C2      370       4-mi198, g14587                                               allene oxide synthase [Linum usitatissimum] Score: 171
+T21001    92L6T7       yUP2B11     210                                                                     superoxide dismutase (CuZn), chloroplast petunia
+T21001    92L6T7       yUP2B11     210                                                                     superoxide dismutase (CuZn), chloroplast petunia
+T21062    94P19T7      yUP11E5     190       1-m333                                                        chorismate mutase Erwinia herbicola S=128
+T21115    90F16T7      CIC6H1      530       1-nga111, MRL3, g14226                                        S receptor kinase wild cabbage S=94
+T21191    90N9T7       CIC2E5      550       2-m336, 17999                                                 Blue copper-binding protein Arab. s=423
+T21207    90P5T7       CIC10B4     700                                                                     MYRISTOYL-COA:N MYRISTOYLTRANS FERASE HUMAN Score: 236
+T21225    93D9T7       CIC5D1      765       1-g4026                                                       LACTASE-PHLORIZIN HYDROLASE PRECURSOR HUMAN Score: 163
+T21228    93E13T7      CIC3B1      670       5-m555                                                        transforming protein (myb) Arab. S=214
+T21295    93N1T7       yUP12D11    240       1-m335 contig (yUP15D4LE)                                     bacteriochlorophyll synthase 43K chain Rhodobacter capsulatus Score: 80
+T21315    95H10T7      CIC4E3      385                                                                     H+transporting ATPase 57K chain Arabidopsis nucleotide bindinG Score=219
+T21399    99D22T7      CIC6E11     630       2-17999, pCIT4241, 8863, ve019, SG5, 15414                    phosphomannomutase [C.albicans] S=152
+T21399    99D22T7      CIC6H11     460       4-RPS18C, pCITf3                                              phosphomannomutase [C.albicans] S=152
+T21447    76A5T7       yUP2H12     260                                                                     receptor-like protein
+T21512    93L16T7      yUP24F12    180       2-m104, PHYB
+T21543    94M20T7      yUP15C12    180                                                                     triosephosphate isomerase (Schistosoma mansoni) Score: 80
+T21562    94O19T7      yUP11E5     190       1-m333                                                        chorismate mutase Erwinia herbicola S=128
+T21620    95L17T7      yUP24G12    170                                                                     phorbol ester-binding protein unc-13 C.elegans S=90
+T21688    96N23T7      CIC10A12    580       2-05841, 6768, 1789, 4514                                     SUGAR-NUCLEOTIDYLATION ENZYME Streptomyces griseus Score: 141
+T21745    97E19T7      CIC5C4      610                                                                     ELI32 protein Arabidopsis Score:435
+T21770    98B9T7       yUP21D8     300                                                                     Drosophila virilis mastermind gene S=265
+T21865    103N18T7     CIC4C5      460                                                                     initiation factor eIF-4A1 Arabidopsis translation initiation score: 613
+T21871    103N6T7      CIC7F2      380                                                                     psaE subunit III of 3 photosystem I reaction centre Spinacia oleracea Score: 21
+T21894    104C15T7     yUP2B4      300       4-g3713, g3265 / 5-u2r5                                       6-phosphogluconate dehydrogenase [Synechococcus sp.]S=266
+T21916    104G7T7      CIC6E11     630       2-17999, pCIT4241, 8863, ve019, SG5, 15414                    P.sativum legK gene (clone lambda LegJ2) Score: 154
+T21983    104M24T7     yUP1H10     320       4-CC16N19, CC20I2, CC15D15                                    D.discoiedeum AACrich mRNA (AAC3) Score: 202
+T22087    106G13T7     CIC6B6      460                                                                     Arabidopsis thaliana cDNA clone 43H10T7. Score: 1340
+T22089    106G2T7      CIC6A4      250                                                                     tonoplast intrinsic protein,gamma isoform Arabidopsis S=337
+T22119    96P15T7      CIC3H3      550       1-ACC2
+T22185    98J7T7       yUP12D7     290       1-ACC2                                                        cDNA LambdaPRL2 A.thaliana
+T22365    104E15T7     yUP3B5      350       3-g4125, AP3                                                  cDNA LambdaPRL2 A.thaL. kinase precursor Arabidopsis Score: 168
+T22463    105G12T7     yUP15H2     300       4-CC5P13/CC7J19, ELI3, g4551, g2486, CC127                    Arabidopsis Eli31 gene product S=466
+T22529    105N23T7     CIC3B1      670       5-m555                                                        succinate dehydrogenase flavoprotein Rickettsia Score:386
+T22599    99M21T7      yUP19B6
+T22676    105P12T7     CIC10B3     320       2-GPA1                                                        ubiquitinconju gating enzyme UBC10 Arabidopsis Score: 474
+T22787    107F13T7     CIC8C4      155                                                                     cDNA LambdaPRL2 A.thaliana
+T22787    107F13T7     CIC8D10     415                                                                     cDNA LambdaPRL2 A.thaliana
+T22792    107F19T7     yUP15B4     220       1-m241                                                        cDNA LambdaPRL2 A.thaliana
+T22836    107I9T7      CIC6F3      690                                                                     Para rubber tree mitochondrial ATP synthase beta S=97
+T22943    108D6T7      CIC4D5      460       3-nga32                                                       Rice cDNA, partial sequence (C2546_2A) Score: 521
+T22976    108H22T7     CIC8G12     380                                                                     ATPdependent protease proteolytic subunit Chloroplast Pinus contorta Score: 120
+T22998    108I8T7      CIC10C9     480       1-g15894                                                      elongation factor eEF1 alpha chain carrot S=454
+T23001    108J1T7      CIC7E10     370       2-ve014, m220, m283                                           A. thaliana transcribed sequence; clone VBVEE01 Score: 173
+T23006    108J2T7      EG12D8                                                                              S.cerevisiae Kre5 protein (KRE5) S=96
+T23014    109C11T7     yUP2A11     350                                                                     mitochondrial F1ATPase delta subunit [Ipomoea batatas] Score: 268
+T41533    102B8T7      yUP19B3     150                                                                     A. thaliana transcribed sequence: clone PAP075:5' end
+T41570    47C2T7       yUP11A12    60                                                                      C. RESEUS HSP90 S=1139
+T41601    61C1T7       yUP21A7                                                                             1292    Arabidopsis thaliana cDNA clone 45C3T7
+T41622    62B12T7      EG7H1                 3-g4117, g2534                                                A.t. clone 92N24T7 S=1453
+T41721    65D1T7       CIC3B5                                                                              A.t. clone 47B5T7 S=1183
+T41879    109F7T7      yUP15H2     300       4-CC5P13/CC7J19, ELI3, g4551, g2486, CC127                    Arabidopsis thaliana cDNA clone 90G17T7 S=1402
+T41886    109G22T7     yUP12D7     290       1-ACC2                                                        A.thal. putative transmembrane S=1386
+T41892    109H11T7     CIC11E3     350                                                                     A.t. nucleosome assembly protein S=927
+T41902    109H9T7      yUP24G7     230                                                                     1779 Arabidopsis thaliana cDNA clone 5E4T7P
+T41999    110A12T7     yUP1G7      350/220                                                                 A.t. cDNA clone 40H11T7  S=1610
+T42054    110E15T7     yUP17E11    170                                                                     1119 Arabidopsis thaliana cDNA clone 31D8T7
+T42099    110H22T7     yUP13B7     300       5-m291                                                        Arabidopsis thaliana protein phosphatase S=1569
+T42213    111C22T7     yUP9C3      280                                                                     No protein matches with Non-redundant database
+T42214    111C24T7     CIC4B2      460                                                                     A.t. clone 81F4T7 S=1070
+T42214    111C24T7     yUP9C3      280                                                                     A.t. clone 81F4T7 S=1070
+T42351    111P5T7      yUP7G1      250                                                                     Arabidopsis thaliana cDNA clone 106A14T7 S=519
+T42377    113C18T7     yUP20D1               1-RS10, nga59, ACC2                                           177 Arabidopsis thaliana cDNA clone 38d4T7
+T42542    114A10T7     yUP10H2     250       1-PhAra1, m322                                                Protease inhibitor II S=1490
+T42542    114A10T7     yUP15D11    260       2-g6191 / 4-LD, BIO206, GA1                                   1490 A.thaliana mRNA for protease inhibitor II
+T42542    114A10T7     yUP18A11    210       1-m402-m254 contig (yUP14H12RE) / 4-g14587, PRL1, mi260       1490 A.thaliana mRNA for protease inhibitor II
+T42550    114A24T7     yUP4H7      190                                                                     No nuc matches
+T42560    114B23T7     yUP24F2     290       3-g4523 / 5-m472                                              1376 Arabidopsis thaliana cDNA clone 34G9T7
+T42666    114F24T7     yUP9G7      270                                                                     P.hybrida myb.Ph3 gene encoding protein 1 S=222
+T42670    114H1T7      yUP12H11    250                                                                     No nuc matches
+T42677    114L3T7      yUP8H3      275       1-g4552                                                       A.t. clone 98N15T7 S=203
+T42677    114L3T7      yUP8H3      275       1-g4552 / 3-nga112 / 4-pCITf3-pCITd23 contig (yUP9G8LE)       203 Arabidopsis thaliana cDNA clone 98N15T7
+T42708    116D10T7     yUP9H1      280                                                                     Arabidopsis thaliana cDNA clone 107F20T7 S=613
+T42721    116D4T7      yUP20C3     340       1-g3829-m235 contig (yUP9H2LE)                                194 Mouse MHC class I Q4 beta-2-microglobin9Qb-1) gene
+T42722    116D8T7      yUP15A3     310                                                                     Rice cDNA, partial sequence (C10230_1A) S=303
+T42752    116I9T7      yUP19B3     150                                                                     338   Arabidopsis thaliana cDNA clone SBD4t7P
+T42798    116O11T7     CIC8A12     480                                                                     No nuc matches
+T42803    116O18T7     CIC10F7     500       2-21502, ve015, TEn5, 21301, spl3, mi277                      Albumin 2S subunit 3 S=1387
+T42804    116O19T7     CIC10F7     500       2-21502, ve015, TEn5, 21301, spl3, mi277                      A.t. clone 36A12T7 S=1796
+T42806    116O21T7     CIC3B10     500
+T42806    116O21T7     yUP13B7     300       5-m291                                                        No nuc matches
+T42819    116P9T7      CIC10C9     480       1-g15894                                                      Mouse Csa-19 S=851
+T42855    118B15T7     yUP2H2      30                                                                      No nuc matches
+T42858    118B1T7      yUP13G8     260                                                                     Caenorhabditis elegans cosmid F36G3.S=163
+T43007    114I7T7      CIC5B2      490                                                                     A.t. Blue Copper Binding protein gene S=1020
+T43007    114I7T7      yUP3B11                                                                             blue copper-binding protein S=1020
+T43017    114J24T7     yUP19B3     150                                                                     139 ATAF2 protein-Arabidopsis thaliana
+T43072    114I16T7     EG4H6                 3-17341                                                       A.t. Adenylate translocator S=1599
+T43134    115M14T7     yUP17D9     150       4-ve031                                                       1546 Arabidopsis thaliana cDNA clone 36C5T7
+T43202    119A7T7      yUP13G4     290                                                                     S.commersonii mRNA for osmotin-like protein S=313
+T43246    119F19T7     yUP11D7     40                                                                      No nuc matches
+T43264    119H24T7     yUP22C6     360       1-g8986 / 3-GAPC                                              1085 Mustard mRNA for cytosolic glceraldehyde 3-phosphate dehydrogenase (GAPDH,NAD-specific)
+T43299    117F4T7      yUP15E5     310                                                                     1304 A.thaliana AtMT1 mRNA for metallothionein-like protein
+T43308    117G3T7      CIC7A10     420       4-CC50H10, m214, I/dSpm76, AP2
+T43324    117I11T7     yUP14H2     120       4-H2761                                                       A.t. clone 37A1T7 S=1637
+T43338    117J5T7      CIC7E1      510                                                                     No nuc matches
+T43391    118H23T7     CIC1F4      100                                                                     A.t. clone VBVCD06 5'end S=924
+T43416    120B16T7     yUP8E2      270                                                                     Arabidopsis thaliana cDNA clone 48C8T7 S=967
+T43439    117L17T7     EG14F5      120       4-ELI3, g4551, g2486, CC127                                   Arabidopsis thaliana cDNA clone 43B2T7 S=1607
+T43509    120J4T7      CIC5A2      575       4-TG1C8, AtM4, LM117, RJS                                     No nuc matches
+T43539    120O15T7     CIC7B11     430                                                                     No nuc matches
+T43543    121A16T7     yUP14D5     360                                                                     551 Arabidopsis thaliana cDNA clone 42G9T7
+T43565    121C20T7     CIC10F12    530       2-ve018, pATC4                                                A.t. clone 39D5T7 S=1595
+T43565    121C20T7     yUP4G9      110       1-g14237, g5972                                               cDNA clone 39D5T7 S=1595
+T43596    121G2T7      CIC10B5     200                                                                     A.t. clone 105O3T7 S=240
+T43596    121G2T7      yUP15C2     280                                                                     240 Arabidopsis thaliana cDNA clone 105O3T7
+T43618    121J24T7     yUP10C1     320       4-2616 / 4-m600 contig (EW9C3LE)                              Arabidopsis thaliana GF14 protein psi chain S=1566
+T44136    122M18T7     CIC8A4      1060                                                                    n-Beta MSD,S=99
+T44247    123N15T7     yUP13G6     280       2-m336                                                        1230 A.thaliana for Sec61 beta-subunit homolog
+T44256    123N7T7      CIC10D1                                                                             No nuc matches with Non-redundant database
+T44599    127E16T7     yUP8F8      250                                                                     1005 Arabidopsis thaliana cDNA clone 103E7T7
+T44640    129A21T7     yUP2E10     150                                                                     730 Arabidopsis thaliana cDNA clone 36H11T7
+T44769    124G16T7     yUP14D3     100       3-g17343 / 3-m339                                             No nuc matches with Non-redundant database
+T44966    27L3T71      yUP1H12     300       1-m315                                                        699 A. thaliana transcribed sequence; clone GBGa208, 5' end.
+T45236    82G6T7       CIC6H6      460                                                                     ATP Synthase B-chain S=284
+Z30817    VBVBE04      yUP11E2     310       3-MR1, g6220
+Z33674    FAFI40 (5')  CIC7D11     100                                                                     S.cerevisiae chromosome XI reading frame ORF YKR031c s=81
+Z33674    FAFI40 (5')  CIC7F6      565
+Z33674    FAFI40 (5')  yUP20B3     30                                                                      S.cerevisiae ch XI ORF YKR031c  S=81
+Z33694    FAFJ75       yUP15F4     120       3-GAPC                                                        shortchain alcohol dehydrogenase [Picea abies] S=181
+Z33695    FAFJ81       CIC4C4      590       4-CC44H2, pCITd104, g15064, AtGþ, g3088                       INDOLE-3-ACETIC ACID INDUCED PROTEIN ARG7 Vigna radiata Score: 152
+Z33730    OAO269 (5')  yUP11E4     320       4-CYCAt, AP2, CC12J20                                         cadmium efflux adenosine triphosphatase Staphylococcus aureus Score: 137
+Z34036    GBGe227 (5') CIC7D4      100                                                                     ankyrin B, 440K human Score: 165
+Z34036    GBGe227 (5') CIC7F6      565                                                                     ankyrin B, 440K human Score: 165
+Z34062    GBGe273 (5') EG4C1                 4-DD1, m272, TSB2                                             aspartate-tRNA ligase rat S=272
+Z34083    GBGe338a (5')CIC4C7      450                                                                     epoxide hydrolase Solanum tuberosum Score: 196
+Z34185    VBVDG05      CIC7D4      100                                                                     protoporphyrin IX magnesium chelatase snapdragon S=415
+Z34255    VBVEA06 (3') yUP15A11    250                                                                     cytosolic triose phosphate isomerase [A.thaliana] S=120
+Z34259    VBVEH03 (3') CIC10B3     320       2-GPA1                                                        3-isopropylmalate dehydrogenase rape Score: 211
+Z34616    VBVEB12      yUP22A9     250       3-m4014
+Z35749    YAY192 (5')  yUP11F10    330
+Z35749    60628        yUP11F10    330
+Z35751    YAY195 (5')  yUP2B4      300       4-g3713, g3265 / 5-u2r5
+Z37168    OAO383 (5')  CIC10F2     500
+Z37177    FAFM29 (3')  EG21A11               3-g17341
+Z37210    FAFN42       CIC6B4      250
+Z37211    FAFN43       CIC1C2      370       4-mi198, g14587
+Z37216    FAFM86       EW5E8
+Z37265    PAP575 (5')  CIC10A4     850
+Z37281    YAPS33 (3')  yUP24F2     290       3-m4523
+Z37283    YAPS35 (5')  EW5E6
+Z37475    FAFI13 (3')  CIC10F7     500       2-21502, ve015, TEn5, 21301, spl3, mi277
+Z37584    62383        yUP18E7     75
+Z37611    VBVFH07      CIC3C1      540       4-mi128, g6837, g2620, COP9, UM713, mi30, mi279, g10086
+Z37611    VBVFH07      CIC3D3      555
+Z37622    VBVGH02      CIC10E10    450       1-g4121 / 2-17288
+Z37623    VBVGH02      CIC10E10    450       1-g4121 / 2-17288
+Z37623    VBVGH02      yUP20G12
+Z37636    VBVHC07      yUP18D3     270
+Z37654    VBVHF04      yUP18E4     30
+Z37669    VBVJE01 (5') CIC10B4     700
+Z37670    VBVJE01 (3') CIC10B4     700
+Z37671    VBVJE02      CIC6G11
+Z37691    VBVJH11      CIC10C11
+Z37717    YBY029 (5')  CIC10B4     700
+Z37718    YBY029 (3')  CIC10B4     700
+Z38042    VBVKG08      CIC2H2      150
+Z38044    VBVKH01 (5') yUP19B5     140       4-AG
+Z38051    VBVMC09 (5') yUP23C8     270
+Z38053    VBVMD03      EW8D4                 1-g2488b
+Z38091    VBVMF07      CIC10C9     480       1-g15894
+Z46821    TBT7G03 (3') yUP23A5     280       4-m210, pCITd23
+
+          (* = not in dbs)

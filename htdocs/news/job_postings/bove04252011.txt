@@ -1,0 +1,49 @@
+Postdoctoral position at INRA, Angers, FRANCE 
+
+*Characterization of the regulatory networks governing desiccation tolerance
+and longevity during seed maturation.*
+
+The ability of a seed to germinate rapidly and uniformly under different
+environmental conditions is an important agronomical trait, ensuring
+homogenous seedling establishment needed for optimal crop production. A key
+factor that contributes to physiological quality is the capacity of seeds to
+tolerate desiccation and to remain alive for extended periods of time in the
+dry state (i.e. longevity), traits that are acquired during the maturation
+phase, at the end of seed filling. Changes in environmental conditions
+during maturation affect seed longevity and cause considerable loss to the
+seed industry. Information on the molecular processes underlying the
+acquisition of longevity during maturation and the influence of
+environmental factors on this acquisition will provide tools to monitor and
+predict physiological seed quality before harvest, an issue that is
+particularly important in the context of climate change.
+
+The project proposes a large-scale acquisition and integration of data using
+a number of previously developed physiological models related to the
+acquisition and loss of desiccation tolerance and longevity in seeds of
+Medicago truncatula, one of the genetic and genomic model species for
+legumes. Transcriptomic datasets will be generated using a new and
+comprehensive array designed in this project, together with the acquisition
+of metabolite profiles. Using this information, the postdoctoral fellow will
+create underlying regulatory networks to highlight putative key hubs
+involved in the regulation of seed survival in the dry state. The network
+will be validated through functional analysis of insertion or TILLING
+mutants of M. truncatula. Generated datasets will also serve as a basis for
+the identification of "molecular signatures" in relation to the complex
+traits related to desiccation tolerance and longevity, which can be further
+developed into diagnostic and predictive tools.
+
+The candidate will hold a Ph.D. in molecular biology with proven record in
+bioinformatics and systems biology. Conversely, she/he will hold a Ph.D. in
+bioinformatics with technical competences in molecular biology and
+functional genomics. Knowledge of plant or seed biology is an asset. French
+citizens are not eligible.
+
+Duration: *24 months, starting October 2011.*
+Location: UMR 1191 Molecular Seed Physiology, Angers, France
+
+Applicants should provide a letter of interest, a complete CV, and three
+reference letters.
+
+The requested information should be send to *Dr. Julia Buitink (
+julia.buitink@angers.inra.fr)*, UMR Molecular Seed Physiology, 16 Bd
+Lavoisier, 49045 Angers, France. (tel +33 241 22 55 44). 

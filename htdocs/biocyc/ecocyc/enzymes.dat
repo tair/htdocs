@@ -1,0 +1,65 @@
+<!-- EcoCyc Enzymes Without Known Gene Sequences -->
+<H1>E. coli Enzymes That Have Unknown Gene Sequences</H1>
+The following enzymes were described in the literature as
+present in <I>E. coli</I> K-12, and are present in the EcoCyc
+database.  However, these enzymes either have no gene
+associated with them, or have no sequence associated
+with their gene.
+<P>
+File written on 19-Feb-2004  15:36:10.
+<P>
+<TABLE BORDER>
+<TR><TD><b>Enzyme</b><TD><b>EC Number(s)</b></TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=DEHYDROPANTLACRED-MONOMER">2-dehydropantoyl-lactone reductase (B-specific)</A></b><TD>1.1.1.214</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=HYDGLUTSYN-MONOMER">2-hydroxyglutarate synthase</A></b><TD>4.1.3.9</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=MERCAPYSTRANS-CPLX">3-mercaptopyruvate sulfurtransferase</A></b><TD>2.8.1.2</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=6PGLUCONOLACT-MONOMER">6-phosphogluconolactonase</A></b><TD>3.1.1.31</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=ACECOATRANS-MONOMER">acetate CoA-transferase</A></b><TD>2.8.3.8</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=ACETATEKINB-MONOMER">acetate kinase B</A></b><TD>2.7.2.1</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=ADPSUGPPHOSPHAT-MONOMER">ADPsugar pyrophosphatase</A></b><TD>3.6.1.21</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=AMINOBUTDEHYDROG-CPLX">aminobutyraldehyde dehydrogenase</A></b><TD>1.2.1.19</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=AMINOPROPDEHYDROG-CPLX">D-aminopropanol dehydrogenase</A></b><TD>1.1.1.75</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=GALACTODEHYDROG-MONOMER">D-galactose 1-dehydrogenase</A></b><TD>1.1.1.48</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=D-RIBULOKIN-CPLX">D-ribulokinase</A></b><TD>2.7.1.47</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=ACETOINDEHYDROG-MONOMER">diacetyl reductase</A></b><TD>1.1.1.5</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=DIHYDRONEOPTERIN-MONO-P-DEPHOS-MONOMER">dihydroneopterin monophosphate dephosphorylase</A></b><TD>3.6.1.-</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=H2NEOPTERINP3PYROPHOSPHOHYDRO-MONOMER">dihydroneopterin triphosphate pyrophosphohydrolase</A></b><TD>3.6.1.-</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=FORMATETHFLIG-MONOMER">formate-tetrahydrofolate ligase</A></b><TD>6.3.4.3</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=GLUCONOLACT-MONOMER">gluconolactonase</A></b><TD>3.1.1.17</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=GLUTAMINA-CPLX">glutaminase A</A></b><TD>3.5.1.2</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=GLUTAMINB-CPLX">glutaminase B</A></b><TD>3.5.1.2</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=PRODISULFREDUCT-MONOMER">glutaredoxin reductase</A></b><TD>1.8.4.2</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=GLYCOLATEDEHYDRO-MONOMER">glycolate dehydrogenase</A></b><TD>1.1.99.14</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=GLYOXIII-CPLX">glyoxalase III</A></b><TD></TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=GUANYLCYC-MONOMER">guanylate cyclase</A></b><TD>4.6.1.2</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=HISTTRANSAM-MONOMER">histidine transaminase</A></b><TD>2.6.1.38</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=IMILACTDEHYDROG-MONOMER">imidazol-5-yl-lactate dehydrogenase</A></b><TD>1.1.1.111</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=ISOAMYL-MONOMER">isoamylase</A></b><TD>3.2.1.68</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=CYSLYDE-MONOMER">L-cysteine desulfhydrase / cystathionine gamma-lyase / homoserine deaminase</A></b><TD>4.4.1.1</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=MALOX-MONOMER">malate oxidase</A></b><TD>1.1.3.3</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=MANNKIN-MONOMER">mannokinase</A></b><TD>2.7.1.7</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=ADOMETSYN2-CPLX">methionine adenosyltransferase 2</A></b><TD>2.5.1.6</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=METHYLGLYREDUCT-MONOMER">methylglyoxal reductase</A></b><TD></TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=METHYLMALONYL-COA-EPIM-MONOMER">methylmalonyl-CoA epimerase</A></b><TD>5.1.99.1</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=SUCCINYLDIAMINOPIMTRANS-MONOMER">N-succinyldiaminopimelate-aminotransferase</A></b><TD>2.6.1.17</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=NADNUCLEOSID-MONOMER">NAD(+) nucleosidase</A></b><TD>3.2.2.5</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=NQOR-CPLX">NAD(P)H dehydrogenase (quinone)</A></b><TD>1.6.99.2</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=NADPPHOSPHAT-MONOMER">NADP phosphatase</A></b><TD>3.1.3.-</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=NMNAMIDOHYDRO-MONOMER">NMN amidohydrolase</A></b><TD>3.5.1.42</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=NMNNUCLEOSID-MONOMER">NMN nucleosidase</A></b><TD>3.2.2.14</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=PGPPHOSPHAC-MONOMER">phosphatidylglycerophosphatase C</A></b><TD>3.1.3.27</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=PGLYCEROLTRANSII-MONOMER">phosphoglycerol transferase II</A></b><TD></TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=PROPIONYL-COA-CARBOXY-MONOMER">propionyl-CoA carboxylase</A></b><TD>6.4.1.3</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=PUTTRANSAM-MONOMER">putrescine transaminase / diamine transaminase</A></b><TD>2.6.1.29</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=PYROXALTRANSAM-MONOMER">pyridoxamine-oxaloacetate transaminase</A></b><TD>2.6.1.31</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=PYRDAMPTRANS-MONOMER">pyridoxamine-phosphate transaminase</A></b><TD>2.6.1.54</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=RIBOPHOSPHAT-MONOMER">pyrimidine phosphatase</A></b><TD></TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=PYRUFLAVREDUCT-MONOMER">pyruvate synthase</A></b><TD>1.2.7.1</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=MONOMER0-702">ribose 1-phosphokinase</A></b><TD></TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=SUCCSEMIALDDEHYDROG-NAD-CPLX">succinate semialdehyde dehydrogenase, NAD-dependent</A></b><TD>1.2.1.24</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=THTOREDUCT-MONOMER">tetrahydrothiophene 1-oxide reductase</A></b><TD></TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=THIKIN-MONOMER">thiamin kinase</A></b><TD>2.7.1.89</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=TRANSENOYLCOARED-CPLX">trans-2-enoyl-CoA reductase (NADPH)</A></b><TD>1.3.1.38</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=TREHALOSEPHOSPHACAT-MONOMER">trehalose phosphatase, catabolic</A></b><TD>3.1.3.12</TR>
+<TR><TD><b><A HREF="ECOLI/new-image?type=ENZYME&object=TMAOREDUCTII-MONOMER">trimethylamine N-oxide reductase II</A></b><TD>1.6.6.9</TR>
+</TABLE>

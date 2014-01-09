@@ -1,0 +1,59 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+
+<title>MtbCdcCyc Release Note History</title>
+
+
+<!--#include virtual="/template-part2of3.shtml" -->
+
+
+<!-- MtbCdcCyc Release Notes -->
+<h2>MtbCdcCyc Release Note History</h2>
+
+<hr>
+
+<H2>Version 7.6</H2>
+
+<p>Released on November 4, 2003
+<ul>
+
+<li>We have added links between equivalent genes and proteins in our
+MtbRvCyc and MtbCDCCyc PGDBs.  The links were inferred based on the
+all-vs-all sequence comparisons in the TIGR 
+<a href="http://www.tigr.org/tigr-scripts/CMR2/CMRHomePage.spl">CMR</a>
+database.  These links allow easy navigation between equivalent genes
+in the two  <i>M. tuberculosis</i> strains. <p>
+
+The links appear on gene pages and protein pages in these two PGDBs.
+The link relationships are termed "orthologs" or "homologs" according
+to the following definitions.  <p>
+
+3544 protein ortholog pairs, 3544 gene ortholog pairs, 323 protein homolog pairs,
+and 323 gene homolog pairs were added to each of the two PGDBs.
+<br><br>
+ <dl>
+ <dt><b>ortholog pairs</b>
+     <dd>A pair of genes in MtbRvCyc and MtbCDCCyc
+       where each polypeptide product is each other's strongest BLAST
+       sequence match and the length of the match
+       extends over at least 90% of each polypeptide.
+ <dt><b>homolog pairs</b>
+     <dd>A pair of genes where each
+       gene of the pair has no ortholog in the other organism and the
+       P-value of the BLAST sequence match between the two polypeptide
+       products is less than 0.00001.
+ </dl>
+
+</ul>
+
+<hr>
+
+<H2>Version 6.0</H2>
+<p>Released on February 15, 2002.
+<p>
+<ul>
+<li> First release of MtbCDCCyc.
+</ul>
+
+
+<!--#include virtual="/template-part3of3.shtml" -->

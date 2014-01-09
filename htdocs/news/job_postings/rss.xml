@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+
+	<channel>
+		<title>TAIR - Job Postings</title>
+		<link>http://arabidopsis.org/news/jobs.jsp?RSS=jobs</link>
+		<atom:link href="http://arabidopsis.org/news/job_postings/rss.xml" rel="self" type="application/rss+xml"
+			/>
+		<description>Job postings</description>
+		<language>en-us</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+
+		<lastBuildDate>Fri, 23 Aug 2013 12:00:00 PDT</lastBuildDate>
+
+		<item>
+			<title>
+				Aug 23, 2013, Junior Research Fellow
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/purushothaman08232013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=739</guid>
+			<pubDate>Fri, 23 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				SRM University, Kattankulathur (near Chennai), India
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 23, 2013, Postdoctoral Position on Priming and Memory in the Response to Stress
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/schmuelling08232013-02.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=738</guid>
+			<pubDate>Fri, 23 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				Institute of Biology / Applied Genetics, Dahlem Centre of Plant Sciences, Freie Universität
+					Berlin,
+					Germany
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 23, 2013, Postdoctoral Position in Plant Development
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/schmuelling08232013-01.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=737</guid>
+			<pubDate>Fri, 23 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				Institute of Biology / Applied Genetics, Dahlem Centre of Plant Sciences, Freie Universität
+					Berlin,
+					Germany
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 21, 2013, Postdoctoral Position in Plant Hormone, Molecular Biology, and Biochemistry
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/qiao08212013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=736</guid>
+			<pubDate>Fri, 23 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				 University of Texas, Austin, TX, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 21, 2013, Post-doctoral Research Position
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/holt08212013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=735</guid>
+			<pubDate>Fri, 23 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				Department of Microbiology and Plant Biology, University of Oklahoma, Norman, OK,
+					USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 21, 2013, Multiple Faculty Positions in Genomics and Cell Biology
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/michaels08212013.html
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=734</guid>
+			<pubDate>Wed, 21 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				The Genomics, Cell, and Developmental Biology Program, Indiana University, Bloomington,
+					IN,
+					USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 19, 2013, PhD Studentship in Plant Biology
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/bishopp08192013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=733</guid>
+			<pubDate>Wed, 21 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				Reproduction et Développement des Plantes, Ecole Normale Supérieure de Lyon, Lyon,
+					France
+				<br />
+				School of Biosciences, Sutton Bonington Campus, University of Nottingham, UK
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 17, 2013, Postdoctoral Position in Functional Fenomics of Photosynthesis
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/jonikas08172013-02.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=732</guid>
+			<pubDate>Wed, 21 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				Department of Plant Biology, Carnegie Institution for Science, Stanford, CA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 17, 2013, Postdoctoral Position in Functional Genomics of Algal Lipid Accumulation
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/jonikas08172013-01.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=731</guid>
+			<pubDate>Wed, 21 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				Department of Plant Biology, Carnegie Institution for Science, Stanford, CA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 14, 2013, Faculty Position in Plant Biology
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/blake08142013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=730</guid>
+			<pubDate>Wed, 14 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				Department of Plant Biology, University of California, Davis, CA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 7, 2013, Six PhD Positions and One Post-Doc Position
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/tire08072013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=729</guid>
+			<pubDate>Wed, 7 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				EC Marie Curie Research Training Network CHIP-ET, European Community
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 5, 2013, Post-Doc Position on the ERC Project MeioSight
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/mercier08052013.html
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=728</guid>
+			<pubDate>Wed, 7 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				 INRA IPB, Versailles, France
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 4, 2013, Starting Investigator Research Grant (SIRG) in Plant Genetics &amp; Epigenetics
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/spillane08042013.html
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=727</guid>
+			<pubDate>Wed, 7 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				Genetics &amp; Biotechnology Lab, PABC, National University of Ireland, Galway, Ireland
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Aug 1, 2013, Postdoctoral Positions on the Mechanism of Plant Development
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/torii08012013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=726</guid>
+			<pubDate>Wed, 7 Aug 2013 12:00:00 PDT</pubDate>
+			<description>
+				Institute of Transformative Biomolecules, Najoya University, Nagoya, Japan
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 30, 2013, Postdoctoral Position
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/folter07302013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=725</guid>
+			<pubDate>Wed, 31 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 LANGEBIO, CINVESTAV-IPN, Irapuato, Mexico
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 28, 2013, Postdoc Positions in Plant Development
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/eviatar07282013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=725</guid>
+			<pubDate>Wed, 31 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Department of Biology at the Technion – Israel Institute of Technology, Haifa, Israel
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 26, 2013, Postdoctoral Position, Arabidopsis Innate Immunity, Epigenetics and
+					Priming
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/zimmerli07262013.html
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=724</guid>
+			<pubDate>Wed, 31 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 National Taiwan University, Taipei, Taiwan
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 25, 2013, Postdoctoral Scientist with Expertise in Plant Molecular Biology
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/doohan07252013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=723</guid>
+			<pubDate>Wed, 31 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				UCD Earth Institute and School of Biology and Environmental Science, UCD Dublin, Ireland
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 23, 2013, Lecturer in Biology/Plant Biology
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/friesner07232013.html
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=722</guid>
+			<pubDate>Wed, 31 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				School of Biosciences, University of Birmingham, Birmingham, UK
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 22, 2013, Postdoctoral Scientist
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/bevan07222013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=721</guid>
+			<pubDate>Wed, 31 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Norwich BioScience Institutes Partnership, Norwich Bioscience Institutes, Norwich,
+					UK
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 22, 2013, Postdoctoral Position
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/dunoyer07222013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=720</guid>
+			<pubDate>Wed, 31 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Institut de Biologie Moléculaire des Plantes, Strasbourg, France
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 22, 2013, Postdoctoral Position on the Biophysics of Cellulose synthesis
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/baskin07192013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=719</guid>
+			<pubDate>Wed, 31 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Biology Department, University of Massachusetts, Amherst, MA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 16, 2013, Postdoctoral position in drought-related signaling
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/verslues07162013.pdf
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=718</guid>
+			<pubDate>Wed, 31 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Institute of Plant and Microbial Biology, Academia Sinica, Taipei, Taiwan
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 17, 2013, Postdoctoral Position in Mechanotransduction and Electrophysiology
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/haswell07172013.html
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=717</guid>
+			<pubDate>Wed, 17 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 Washington University, St. Louis, MO, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 17, 2013, International PhD Program in the BIOLOGICAL SCIENCES
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/patheiger07172013.pdf
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=716</guid>
+			<pubDate>Wed, 17 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Max Planck Institute for Developmental Biology and Friedrich Miescher Laboratory of
+					the
+					Max Planck Society, Tuebingen, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 16, 2013, Postdoctoral Research Position
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/meier07162013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=715</guid>
+			<pubDate>Wed, 17 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Department of Molecular Genetics, The Ohio State University, Columbus, OH, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 16, 2013, Graduate Research Assistantship
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/mendu07162013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=714</guid>
+			<pubDate>Wed, 17 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 Texas Tech University, Lubbock, TX, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 15, 2013, Research Fellow (PhD position) in Molecular Cell Biology of Microalgae
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/reumann07152013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=713</guid>
+			<pubDate>Wed, 17 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				The Centre for Organelle Research (CORE), University of Stavanger, Stavanger, Norway
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 9, 2013, Postdoctoral Position in Molecular Breeding
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/whitaker07092013.pdf
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=712</guid>
+			<pubDate>Wed, 10 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Gulf Coast Research and Education Center, University of Florida, Tampa, FL, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 6, 2013, Two Postdoctoral positions in Plant Biology/Molecular Biology
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/tsuda07062013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=711</guid>
+			<pubDate>Wed, 10 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Max Planck Institute for Plant Breeding Research (MPIPZ), Cologne, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 4, 2013, Post-Doctoral Position
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/schmidt07042013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=710</guid>
+			<pubDate>Wed, 10 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				Institute of Plant and Microbial Biology, Academia Sinica, Taipei, Taiwan
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 3, 2013, Post-Doctoral Research Scientist
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/haslam07032013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=709</guid>
+			<pubDate>Wed, 3 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 Rothamsted Research, Harpenden, UK
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 2, 2013, Post-doctoral Research Positions at UC Davis
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/harmer07022013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=708</guid>
+			<pubDate>Wed, 3 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 University of California, Davis, CA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jul 2, 2013, Postdoctoral research positions at the University of Washington
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/takato07022013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=707</guid>
+			<pubDate>Wed, 3 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 University of Washington, Seattle, WA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 27, 2013, Postdoctoral positions in Sorghum Improvement
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/mengiste06272013.doc
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=706</guid>
+			<pubDate>Wed, 3 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 Purdue University, West Lafayette, IN, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 27, 2013, Postdoc in plant shoot meristem development and dynamics
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/reddy06272013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=705</guid>
+			<pubDate>Wed, 3 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 University of California Riverside, Riverside, CA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 27, 2013, A Postdoc in Plant Physiology
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/andersson06272013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=704</guid>
+			<pubDate>Wed, 3 Jul 2013 12:00:00 PDT</pubDate>
+			<description>
+				 University of Gothenburg, Gothenburg, Sweden
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 25, 2013, Postdoctoral Position in Hormone Signaling
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/estelle06252013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=703</guid>
+			<pubDate>Wed, 26 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				 University of California, San Diego, CA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 25, 2013, Senior Scientific Editor, Molecular Plant
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/cui06252013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=702</guid>
+			<pubDate>Wed, 26 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				Molecular Plant
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 20, 2013, Postdoctoral Position Focusing on Mechanisms of Plant Adaptive Responses
+					to
+					Low Iron Conditions
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/waters06202013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=701</guid>
+			<pubDate>Wed, 26 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				University of Nebraska - Lincoln, Lincoln, NB, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 12, 2013, Postdoctoral Position to Study the Functional Relevance and Regulation
+					of
+					Alternative Splicing
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/duque06122013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=700</guid>
+			<pubDate>Wed, 12 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				Instituto Gulbenkian de Ciência, Lisbon, Portugal
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 7, 2013, Postdoctoral Position in Switchgrass Genomics
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/tobias06072013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=699</guid>
+			<pubDate>Wed, 12 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				US Dept. of Agriculture, Western Regional Research Center, Genomics and Gene Discovery
+					Research
+					Unit, Albany, CA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 7, 2013, Postdoctoral Positions in the Area of Computer Science and Simulation
+					Modeling
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/schueller06072013.pdf
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=698</guid>
+			<pubDate>Wed, 12 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				
+				
+				Max Planck Institute of Plant Breeding Research, Köln, Germany
+			
+			
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 6, 2013, International Student for a project in Molecular Plant-Microbe Interaction
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/germain06142013.html
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=697</guid>
+			<pubDate>Wed, 12 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				University of Trois-Rivières, Trois-Rivières, Qc, Canada
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 4, 2013, Post-doctoral Position in Fungal Proteomics
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/stergiopoulos06042013-2.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=696</guid>
+			<pubDate>Wed, 05 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				Department of Plant Pathology, University of California, Davis, CA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jun 4, 2013, Bioinformatics Position in Comparative Fungal Genomics
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/stergiopoulos06042013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=695</guid>
+			<pubDate>Wed, 05 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				Department of Plant Pathology, University of California, Davis, CA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>Jun 3, 2013, </title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/schueller06032013.pdf
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=694</guid>
+			<pubDate>Wed, 05 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+				
+				Max Planck Institute for Plant Breeding Research, Köln, Germany 
+			
+			</description>
+		</item>
+
+		<item>
+			<title>May 30, 2013, Postdoctoral position</title>
+			<link>http://arabidopsis.org/news/job_postings/ni05302013.html</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=693</guid>
+			<pubDate>Wed, 05 Jun 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Minnesota, Minneapolis/St. Paul, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				
+				
+				May 28, 2013, Postdoctoral position in plant molecular biology
+			
+			
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/friese05282013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=692</guid>
+			<pubDate>Wed, 29 May 2013 12:00:00 PDT</pubDate>
+			<description>
+        Gregor Mendel Institute, Vienna, Austria
+      </description>
+		</item>
+
+		<item>
+			<title>
+				May 24, 2013, A postdoctoral position in the Systems Biology of nutrient interaction
+					signaling
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/susko05242013.html</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=691</guid>
+			<pubDate>Wed, 29 May 2013 12:00:00 PDT</pubDate>
+			<description>
+				NYU’s Courant Institute of Math &amp; Computer Sciences, New York City, NY, USA
+			</description>
+		</item>
+
+		<item>
+			<title>May 21, 2013, VIB International Postdoc Program</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/russanova05212013.html
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=690</guid>
+			<pubDate>Thu, 23 May 2013 12:00:00 PDT</pubDate>
+			<description>
+        VIB, Flanders, Belgium
+      </description>
+		</item>
+
+		<item>
+			<title>
+				May 20, 2013, A postdoctoral position in photosynthesis and amino acid metabolism
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/lu05202013.html</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=689</guid>
+			<pubDate>Thu, 23 May 2013 12:00:00 PDT</pubDate>
+			<description>
+        Western Michigan University, Kalamazoo, MI, USA
+      </description>
+		</item>
+
+		<item>
+			<title>May 15, 2013, Post-Doctoral Associate</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/gleason05152013.html
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=688</guid>
+			<pubDate>Wed, 15 May 2013 12:00:00 PDT</pubDate>
+			<description>
+        Georg-August-University Göttingen, Göttingen, Germany
+      </description>
+		</item>
+
+		<item>
+			<title>May 15, 2013, Ph.D. position available</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/germain05152013.html
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=687</guid>
+			<pubDate>Wed, 15 May 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Trois-Rivières, Trois-Rivières, Qc, CA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				May 9, 2013, Post-Doctoral Associate -- Biology Department - 0405310
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/monroe05092013.html</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=686</guid>
+			<pubDate>Wed, 15 May 2013 12:00:00 PDT</pubDate>
+			<description>
+        James Madison University, Harrisonburg, VA, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				May 3, 2013, Postdoctoral position to study the regulation of small RNAs and epigenetics
+					in
+					plant-microbial
+					interaction
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/jin05032013.html</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=685</guid>
+			<pubDate>Wed, 15 May 2013 12:00:00 PDT</pubDate>
+			<description>
+  University of California Riverside, Riverside, CA, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				May 8, 2013, Postdoctoral opportunity "Early events in flower development"
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/wagner05082013.html</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=684</guid>
+			<pubDate>Wed, 15 May 2013 12:00:00 PDT</pubDate>
+			<description>
+				University of Pennsylvania Biology Department, Philadelphia, PA, USA
+			</description>
+		</item>
+
+		<item>
+			<title>May 7, 2013, Postdoctoral Position</title>
+			<link>http://arabidopsis.org/news/job_postings/baskin05072013.html</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=683</guid>
+			<pubDate>Wed, 15 May 2013 12:00:00 PDT</pubDate>
+			<description>
+				
+				University of Massachusetts Biology Department, Amherst, MA, USA 
+			
+			</description>
+		</item>
+
+		<item>
+			<title>
+				May 8, 2013, Post-doctoral position in Rice Drought Tolerance
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/walia05082013.html</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=682</guid>
+			<pubDate>Wed, 8 May 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Nebraska-Lincoln, Lincoln, NB, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				May 3, 2013, Marie Curie Fellowships (Ph.D. positions) in the Initial Training Network
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/reumann05082013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=681</guid>
+			<pubDate>Fri, 3 May 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Stavanger, Stavanger, Norway
+      </description>
+		</item>
+
+		<item>
+			<title>Apr 30, 2013, Postdoctoral Research Associate 1</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/mosher043020132013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=679</guid>
+			<pubDate>Tue, 30 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Arizona, Tucson, AZ, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				
+				Apr 25, 2013, Postdoctoral opportunities at the University of Illinois
+			
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/friesner04252013.txt
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=678</guid>
+			<pubDate>Thu, 25 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Illinois, IL, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				
+				Apr 24, 2013, Laboratory Technician, Functional Genomics of Green Algae
+			
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/li04242013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=677</guid>
+			<pubDate>Wed, 24 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        Carnegie Institution for Science, Stanford, CA, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				Apr 24, 2013, Postdoctoral Research Position to Elucidate the Regulatory Mechanisms
+					that
+					Control
+					the Onset of Flower Formation
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/wagner04242013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=676</guid>
+			<pubDate>Wed, 24 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Pennsylvania, Philadelphia, PA, USA
+      </description>
+		</item>
+
+		<item>
+			<title>Apr 24, 2013, M.S. Graduate Research Assistantships</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/manoharan04232013.txt
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=675</guid>
+			<pubDate>Wed, 24 April 2013 12:00:00 PDT</pubDate>
+			<description>
+				University of Arkansas at Pine Bluff, Pine Bluff, AK, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Apr 22, 2013, "Women Tenure Track" Assistant Professor Position
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/galis04222013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=674</guid>
+			<pubDate>Wed, 24 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        Okayama University, Okayama, Japan
+      </description>
+		</item>
+
+		<item>
+			<title>
+				Apr 18, 2013, Research Fellowship: Plant Genomics/Plant Molecular Biology
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/kesavan04182013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=673</guid>
+			<pubDate>Wed, 24 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Minho, Portugal
+      </description>
+		</item>
+
+		<item>
+			<title>
+				
+				Apr 17, 2013, Postdoctoral Researcher and Foreign Professor Positions
+			
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/bae04172013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=672</guid>
+			<pubDate>Wed, 17 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        Yeungnam University, Gyeongsan, Korea
+      </description>
+		</item>
+
+		<item>
+			<title>Apr 17, 2013, Bioinformatician, Bio-Analytic Resource</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/donaldson04172013.txt
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=671</guid>
+			<pubDate>Wed, 17 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Toronto,Ontario, Canada
+      </description>
+		</item>
+
+		<item>
+			<title>
+				
+				Apr 17, 2013, PhD studentship in Plant Science/Developmental Biology
+			
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/bishopp04172013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=670</guid>
+			<pubDate>Wed, 17 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Nottingham, UK
+      </description>
+		</item>
+
+		<item>
+			<title>Apr 17, 2013, Postdoc position in plant chromatin research</title>
+			<link>http://arabidopsis.org/news/job_postings/hennig04172013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=669</guid>
+			<pubDate>Wed, 17 April 2013 12:00:00 PDT</pubDate>
+			<description>
+				Swedish University of Agricultural Sciences, Uppsala, Sweden
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Apr 10, 2013, Postdoctoral Position in Plant Shoot Development
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/friese04102013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=668</guid>
+			<pubDate>Wed, 10 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        Gregor Mendel Institute, Vienna, Austria
+      </description>
+		</item>
+
+		<item>
+			<title>Apr 10, 2013, Postdoctoral position in fungal proteomics</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/stergiopoulos04102013.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=667</guid>
+			<pubDate>Wed, 10 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of California Davis, CA, USA
+      </description>
+		</item>
+
+		<item>
+			<title>Apr 10, 2013, Postdoctoral position</title>
+			<link>http://arabidopsis.org/news/job_postings/mendu04102013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=666</guid>
+			<pubDate>Wed, 10 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        Texas Tech University, Lubbock, TX, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				Apr 10, 2013, M.Res./Ph.D. Studentship for a Project on Plant Root Regeneration
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/sena04102013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=665</guid>
+			<pubDate>Wed, 10 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        Imperial College London, UK
+      </description>
+		</item>
+
+		<item>
+			<title>Apr 2, 2013, Ph.D (combined Ph.D) student position</title>
+			<link>http://arabidopsis.org/news/job_postings/lee04022013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=664</guid>
+			<pubDate>Wed, 2 April 2013 12:00:00 PDT</pubDate>
+			<description>
+        ChonNam National University, Gwangju, Korea
+      </description>
+		</item>
+
+		<item>
+			<title>
+				Mar 27, 2013, Postdoctoral Position in drought-related metabolism and signaling
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/verslues03272013.pdf
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=663</guid>
+			<pubDate>Wed, 27 March 2013 12:00:00 PDT</pubDate>
+			<description>
+				Institute of Plant and Microbial Biology, Academia Sinica, Taipei, Taiwan
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Mar 20, 2013, 13 PhD stipends at the Cluster of Excellence on Plant Sciences
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/honl03202013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=662</guid>
+			<pubDate>Wed, 20 March 2013 12:00:00 PDT</pubDate>
+			<description>
+        Universities of Duesseldorf and Cologne, Germany
+      </description>
+		</item>
+
+		<item>
+			<title>Mar 20, 2013, Postdoctoral Position</title>
+			<link>http://arabidopsis.org/news/job_postings/huq03202013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=661</guid>
+			<pubDate>Wed, 20 March 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Texas, Austin, TX, USA
+      </description>
+		</item>
+
+		<item>
+			<title>Mar 20, 2013, Postdoctoral Position</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/colquhoun03202013.txt
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=660</guid>
+			<pubDate>Wed, 20 March 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Florida, Gainsville, FL, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				Mar 14, 2013, PhD Student Position: DNA methylation in poplar
+			</title>
+			<link>
+				
+				
+				http://arabidopsis.org/news/job_postings/stephane03142013.pdf
+			
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=659</guid>
+			<pubDate>Wed, 14 March 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Orleans, Orleans, France
+      </description>
+		</item>
+
+		<item>
+			<title>Mar 14, 2013, Independent Research Fellowships</title>
+			<link>http://arabidopsis.org/news/job_postings/reeves03142013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=657</guid>
+			<pubDate>Wed, 14 March 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Oxford, UK
+      </description>
+		</item>
+
+		<item>
+			<title>Mar 14, 2013, Postdoctoral Position</title>
+			<link>http://arabidopsis.org/news/job_postings/wagner03142013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=656</guid>
+			<pubDate>Wed, 14 March 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Pennsylvania, Philadelphia, PA, USA
+      </description>
+		</item>
+
+		<item>
+			<title>
+				Mar 6, 2013, Postdoctoral Position: Abiotic stress tolerance biotechnology
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/spillane030613.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=655</guid>
+			<pubDate>Wed, 6 March 2013 12:00:00 PDT</pubDate>
+			<description>
+				Plant and AgriBiosciences Research Centre (PABC), Galway, Ireland
+			</description>
+		</item>
+
+		<item>
+			<title>Feb 27, 2013, Faculty positions</title>
+			<link>http://arabidopsis.org/news/job_postings/wu022713.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=654</guid>
+			<pubDate>Wed, 27 February 2013 12:00:00 PDT</pubDate>
+			<description>
+				Zhejiang Agriculture &amp; Forestry University, Hangzhou, Zhejiang, China
+			</description>
+		</item>
+
+		<item>
+			<title>Feb 27, 2013, M.S. Graduate Assistantship position</title>
+			<link>http://arabidopsis.org/news/job_postings/mukherjee022713.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=653</guid>
+			<pubDate>Wed, 27 February 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Central Arkansas, Conway, AR, USA
+      </description>
+		</item>
+
+		<item>
+			<title>Feb 27, 2013, Two postdoctoral positions</title>
+			<link>http://arabidopsis.org/news/job_postings/walia022713.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=652</guid>
+			<pubDate>Wed, 27 February 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Nebraska, Lincoln, NE, USA
+      </description>
+		</item>
+
+		<item>
+			<title>Feb 27, 2013, PhD Student Position</title>
+			<link>http://arabidopsis.org/news/job_postings/holt022713.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=651</guid>
+			<pubDate>Wed, 27 February 2013 12:00:00 PDT</pubDate>
+			<description>
+        University of Oklahoma,Norman, OK, USA
+      </description>
+		</item>
+
+		<item>
+			<title>Feb 20, 2013, Postdoctoral Research Associate Position</title>
+			<link>http://arabidopsis.org/news/job_postings/ugtifton022013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=650</guid>
+			<pubDate>Wed, 20 February 2013 12:00:00 PDT</pubDate>
+			<description>
+				Department of Horticulture, University of Georgia, Tifton Campus
+			</description>
+		</item>
+
+		<item>
+			<title>Feb 20, 2013, PhD student and Post-Doc Positions</title>
+			<link>http://arabidopsis.org/news/job_postings/woodev022013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=649</guid>
+			<pubDate>Wed, 20 February 2013 12:00:00 PDT</pubDate>
+			<description>
+				Wood Development Group (PI: Ykä Helariutta [Academy Professor]), University of Helsinki
+			</description>
+		</item>
+
+		<item>
+			<title>Feb 13, 2013, 3 Postdoctoral Positions</title>
+			<link>http://arabidopsis.org/news/job_postings/hofius02132013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=648</guid>
+			<pubDate>Wed, 13 February 2013 12:00:00 PDT</pubDate>
+			<description>
+				Swedish University of Agricultural Sciences, Uppsala, Sweden
+			</description>
+		</item>
+
+		<item>
+			<title>Feb 13, 2013, Bioinformatics Scientist</title>
+			<link>http://arabidopsis.org/news/job_postings/maszle02132013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=647</guid>
+			<pubDate>Wed, 13 February 2013 12:00:00 PDT</pubDate>
+			<description>Mendel Biotechnology, Inc., Hayward, CA, USA</description>
+		</item>
+
+		<item>
+			<title>Feb 6, 2013, RESEARCH FACULTY POSITION IN PLANT SCIENCES</title>
+			<link>http://arabidopsis.org/news/job_postings/guzman02062013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=646</guid>
+			<pubDate>Wed, 6 February 2013 12:00:00 PDT</pubDate>
+			<description>Cinvestav-Unidad, Irapuato, Mexico</description>
+		</item>
+
+		<item>
+			<title>
+				Feb 6, 2013, FACULTY POSITIONS: Plant Epigenetics and Signaling
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/fedoroff02072013.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=645</guid>
+			<pubDate>Wed, 6 February 2013 12:00:00 PDT</pubDate>
+			<description>
+				King Abdullah University of Science and Technology, Saudi Arabia
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Feb 6, 2013, FACULTY POSITIONS: Halophyte Physiology and Domestication
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/fedoroff02062013.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=644</guid>
+			<pubDate>Wed, 6 February 2013 12:00:00 PDT</pubDate>
+			<description>
+				King Abdullah University of Science and Technology, Saudi Arabia
+			</description>
+		</item>
+
+		<item>
+			<title>Feb 6, 2013, Postdoctoral Researcher</title>
+			<link>http://arabidopsis.org/news/job_postings/gaudin02062013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=643</guid>
+			<pubDate>Wed, 6 February 2013 12:00:00 PDT</pubDate>
+			<description>Chonnam National University, Buk-gu, Gwangju, ROC</description>
+		</item>
+
+		<item>
+			<title>Feb 6, 2013, Postdoctoral Researcher</title>
+			<link>http://arabidopsis.org/news/job_postings/lee02062013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=642</guid>
+			<pubDate>Wed, 6 February 2013 12:00:00 PDT</pubDate>
+			<description>Chonnam National University, Buk-gu, Gwangju, ROC</description>
+		</item>
+
+		<item>
+			<title>
+				Feb 6, 2013, Post-Doc and PhD student position in Plant Epigenetics
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/baurle02062013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=641</guid>
+			<pubDate>Wed, 6 February 2013 12:00:00 PDT</pubDate>
+			<description>University of Potsdam, Germany</description>
+		</item>
+
+		<item>
+			<title>Feb 6, 2013, Group Leader Position</title>
+			<link>http://arabidopsis.org/news/job_postings/murrell02062013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=640</guid>
+			<pubDate>Wed, 6 February 2013 12:00:00 PDT</pubDate>
+			<description>John Innes Centre, Norwich, UK</description>
+		</item>
+
+		<item>
+			<title>Feb 6, 2013, Group Leader Position</title>
+			<link>http://arabidopsis.org/news/job_postings/murrell02062013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=640</guid>
+			<pubDate>Wed, 6 February 2013 12:00:00 PDT</pubDate>
+			<description>John Innes Centre, Norwich, UK</description>
+		</item>
+
+		<item>
+			<title>Jan 30, 2013, Group Leader Positions</title>
+			<link>http://arabidopsis.org/news/job_postings/friese01312013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=638</guid>
+			<pubDate>Wed, 30 January 2013 12:00:00 PDT</pubDate>
+			<description>
+				Gregor Mendel Institute of Molecular Plant Biology, Vienna, Austria
+			</description>
+		</item>
+
+		<item>
+			<title>Jan 30, 2013, Postdoctoral Position in Plant Epigenetics</title>
+			<link>http://arabidopsis.org/news/job_postings/mathieu01312013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=637</guid>
+			<pubDate>Wed, 30 January 2013 12:00:00 PDT</pubDate>
+			<description>CNRS, GReD institute, Clermont-Ferrand, France</description>
+		</item>
+
+		<item>
+			<title>Jan 23, 2013, Postdoctoral Position in Epigenomics</title>
+			<link>http://arabidopsis.org/news/job_postings/chen01232013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=636</guid>
+			<pubDate>Wed, 23 January 2013 12:00:00 PDT</pubDate>
+			<description>The University of Texas at Austin, TX, USA</description>
+		</item>
+
+		<item>
+			<title>Jan 23, 2013, Lecturer in Genetics</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/putterill01232013.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=635</guid>
+			<pubDate>Wed, 23 January 2013 12:00:00 PDT</pubDate>
+			<description>University of Auckland, New Zealand</description>
+		</item>
+
+		<item>
+			<title>
+				
+				
+				Jan 23, 2013, Postdoctoral Scholarship in Plant Biotechnology
+			
+			
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/ezcurra01232013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=634</guid>
+			<pubDate>Wed, 23 January 2013 12:00:00 PDT</pubDate>
+			<description>KTH School of Biotechnology, Stockholm, Sweden</description>
+		</item>
+
+		<item>
+			<title>Jan 23, 2013, Director of Institutional Research</title>
+			<link>http://arabidopsis.org/news/job_postings/bell01232013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=633</guid>
+			<pubDate>Wed, 23 January 2013 12:00:00 PDT</pubDate>
+			<description>Blinn College, Brenham, TX</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 23, 2013, POSTDOCTORAL RESEARCH ASSOCIATE IN DEVELOPMENTAL BIOLOGY
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/yaakoup01232013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=632</guid>
+			<pubDate>Wed, 23 January 2013 12:00:00 PDT</pubDate>
+			<description>The University of Sydney, Australia</description>
+		</item>
+
+		<item>
+			<title>Jan 23, 2013, Post-Doc in Molecular Plant Nutrition</title>
+			<link>http://arabidopsis.org/news/job_postings/bienert01242013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=631</guid>
+			<pubDate>Wed, 23 January 2013 12:00:00 PDT</pubDate>
+			<description>
+				Leibniz Institute of Plant Genetics and Crop Plant Research, Seeland, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>Jan 23, 2013, PhD student in Molecular Plant Nutrition</title>
+			<link>http://arabidopsis.org/news/job_postings/bienert01232013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=630</guid>
+			<pubDate>Wed, 23 January 2013 12:00:00 PDT</pubDate>
+			<description>
+				Leibniz Institute of Plant Genetics and Crop Plant Research, Seeland, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 16, 2013, Tenure Track Faculty Position in Plant Science/Plant Biotechnology
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/liang01162013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=629</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>Academia Sinica, Taiwan</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 16, 2013, 9 faculty positions at the Cluster of Excellence on Plant Sciences
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/hoecker01162013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=628</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>Universities of Deusseldorf and Cologne, Germany</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 16, 2013, Program Director position in the Division of Molecular and Cellular
+					Biosciences
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/thomasina01162013.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=627</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>National Science Foundation, Arlington, VA, USA</description>
+		</item>
+
+		<item>
+			<title>Jan 16, 2013, Postdoc Position in Plant Epigenetics</title>
+			<link>http://arabidopsis.org/news/job_postings/kohler01162013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=625</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>
+				Swedish University of Agricultural Science, Uppsala, Sweden
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 16, 2013, Postdoctoral position, Plant genome engineering using TAL Effectors
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/mahfouz01162013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=624</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>
+				King Abdullah University of Science and Technology, Saudi Arabia
+			</description>
+		</item>
+
+		<item>
+			<title>Jan 16, 2013, Post-Doctoral position</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/gallagher01162013.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=623</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>University of Pennsylvania, Philadelphia, PA, USA</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 16, 2013, Post-Doctoral position, Epigenetic Natural Variation in Arabidopsis
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/bouche01162013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=622</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>INRA, Versailles, France</description>
+		</item>
+
+		<item>
+			<title>Jan 16, 2013, M.Res./Ph.D. scholarship research position</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/giovanni01162013.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=621</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>Imperial College London, UK</description>
+		</item>
+
+		<item>
+			<title>Jan 16, 2013, Postdoctoral Position</title>
+			<link>http://arabidopsis.org/news/job_postings/walia01162013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=620</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>University of Nebraska, Lincoln, NE, USA</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 16, 2013, Postdoctoral Fellow - Plant Biologist (epigenetics &amp; reproduction)
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/lauder01162013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=619</guid>
+			<pubDate>Wed, 16 January 2013 12:00:00 PDT</pubDate>
+			<description>CSIRO, Adelaide, South Australia</description>
+		</item>
+
+		<item>
+			<title>Jan 9, 2013, Two to three postdoctoral positions</title>
+			<link>http://arabidopsis.org/news/job_postings/zhang01092013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=618</guid>
+			<pubDate>Wed, 9 January 2013 12:00:00 PDT</pubDate>
+			<description>Texas A &amp; M University, College Station, TX, USA</description>
+		</item>
+
+		<item>
+			<title>Jan 9, 2013, PhD position</title>
+			<link>http://arabidopsis.org/news/job_postings/wenkel01092013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=617</guid>
+			<pubDate>Wed, 9 January 2013 12:00:00 PDT</pubDate>
+			<description>University of Tuebingen, Germany</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 9, 2013, Executive Director, Pacific Division, American Association for the Advancement
+					of
+					Science
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/kate01092013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=616</guid>
+			<pubDate>Wed, 9 January 2013 12:00:00 PDT</pubDate>
+			<description>Southern Oregon University, Ashland, OR, USA</description>
+		</item>
+
+		<item>
+			<title>Jan 9, 2013, Postdoctoral Position in Signal Transduction</title>
+			<link>http://arabidopsis.org/news/job_postings/jonak01092013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=615</guid>
+			<pubDate>Wed, 9 January 2013 12:00:00 PDT</pubDate>
+			<description>Gregor Mendel Institute, Vienna, Austria</description>
+		</item>
+
+		<item>
+			<title>Jan 9, 2013, POSTDOC Applied epigenomics</title>
+			<link>http://arabidopsis.org/news/job_postings/stam01092013.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=614</guid>
+			<pubDate>Wed, 9 January 2013 12:00:00 PDT</pubDate>
+			<description>KeyGene, Wageningen, The Netherlands</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 9, 2013, Assistant/Associate Professor: Biomass Feedstock Molecular Physiology
+					and
+					Breeding
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/stacey01092013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=613</guid>
+			<pubDate>Wed, 9 January 2013 12:00:00 PDT</pubDate>
+			<description>University of Missouri, Columbia, MO, USA</description>
+		</item>
+
+		<item>
+			<title>Jan 2, 2013, Research Technician, Plant Epigenetics</title>
+			<link>http://arabidopsis.org/news/job_postings/hisashi01022013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=612</guid>
+			<pubDate>Wed, 2 January 2013 12:00:00 PDT</pubDate>
+			<description>Gregor Mendel Institute, Vienna, Austria</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 2, 2013, Doctoral student in molecular plant biology/plant biochemistry
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/wrzaczek01022013.pdf 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=611</guid>
+			<pubDate>Wed, 2 January 2013 12:00:00 PDT</pubDate>
+			<description>University of Helsinki, Finland</description>
+		</item>
+
+		<item>
+			<title>
+				Jan 2, 2013, 3 Post-doctoral positions available in genetics of flowering
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/ahn01022013.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=610</guid>
+			<pubDate>Wed, 2 January 2013 12:00:00 PDT</pubDate>
+			<description>Korea University, Seoul, Korea</description>
+		</item>
+
+
+		<item>
+			<title>Dec 19, 2012, TALEN Mediated Mutagenesis of Sugarcane</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/altpeter12202012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=609</guid>
+			<pubDate>Wed, 19 December 2012 12:00:00 PDT</pubDate>
+			<description>University of Florida, Gainesville, FL, USA</description>
+		</item>
+
+		<item>
+			<title>
+				
+				
+				Dec 19, 2012, Plant Genome Research Program Summer Internships
+			
+			
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/yambrovich12202012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=608</guid>
+			<pubDate>Wed, 19 December 2012 12:00:00 PDT</pubDate>
+			<description>
+				Boyce Thompson Institute for Plant Research, Ithaca, NY, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Dec 19, 2012, Postdoctoral position in plant genomics and bioinformatics
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/yang12202012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=607</guid>
+			<pubDate>Wed, 19 December 2012 12:00:00 PDT</pubDate>
+			<description>University of California at Riverside, CA, USA</description>
+		</item>
+
+		<item>
+			<title>
+				Dec 12, 2012, Postdoctoral position in plant genomics and bioinformatics
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/xu12122012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=606</guid>
+			<pubDate>Wed, 12 December 2012 12:00:00 PDT</pubDate>
+			<description>
+				Max Planck Institute for Chemical Ecology, Jena, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>
+				Dec 12, 2012, Two to three positions available at the MS or PhD level
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/nadella12122012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=605</guid>
+			<pubDate>Wed, 12 December 2012 12:00:00 PDT</pubDate>
+			<description>Ohio University, Athens, OH, USA</description>
+		</item>
+
+		<item>
+			<title>
+				Dec 12, 2012, 2 PhD opportunities to study small RNA regulated root growth
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/maizel12132012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=604</guid>
+			<pubDate>Wed, 12 December 2012 12:00:00 PDT</pubDate>
+			<description>University of Heidelberg, Germany</description>
+		</item>
+
+		<item>
+			<title>
+				Dec 12, 2012, Post doctoral position - structural basis of RNA silencing
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/maizel12121012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=603</guid>
+			<pubDate>Wed, 12 December 2012 12:00:00 PDT</pubDate>
+			<description>University of Heidelberg, Germany</description>
+		</item>
+
+		<item>
+			<title>
+				Dec 12, 2012, POST-DOCTORAL POSITION IN BIOCHEMISTRY / MOLECULAR BIOLOGY
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/clarke12121012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=602</guid>
+			<pubDate>Wed, 12 December 2012 12:00:00 PDT</pubDate>
+			<description>Gothenburg University, Sweden</description>
+		</item>
+
+		<item>
+			<title>
+				Dec 5, 2012, Engineer/Laboratory Manager in mass spectroscopy and chromatography
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/moller12062012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=601</guid>
+			<pubDate>Wed, 5 December 2012 12:00:00 PDT</pubDate>
+			<description>University of Copenhagen, Denmark</description>
+		</item>
+
+		<item>
+			<title>Dec 5, 2012, Faculty Positions</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/friesner12062012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=600</guid>
+			<pubDate>Wed, 5 December 2012 12:00:00 PDT</pubDate>
+			<description>
+				The Donald Danforth Plant Science Center, St. Louis, MO, USA
+			</description>
+		</item>
+
+		<item>
+			<title>November 28, 2012, Postdoctoral position</title>
+			<link>http://arabidopsis.org/news/job_postings/simon11282012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=599</guid>
+			<pubDate>Wed, 28 November 2012 12:00:00 PDT</pubDate>
+			<description>Heinrich-Heine University, Dusseldorf, Germany</description>
+		</item>
+
+		<item>
+			<title>November 28, 2012, RESEARCH ASSOCIATE</title>
+			<link>http://arabidopsis.org/news/job_postings/mylne11282012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=598</guid>
+			<pubDate>Wed, 28 November 2012 12:00:00 PDT</pubDate>
+			<description>The University of Western Australia, Perth, Australia</description>
+		</item>
+
+		<item>
+			<title>November 28, 2012, Postdoctoral Opportunity</title>
+			<link>http://arabidopsis.org/news/job_postings/folta11282012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=597</guid>
+			<pubDate>Wed, 28 November 2012 12:00:00 PDT</pubDate>
+			<description>University of Florida, Gainesville, FL, USA</description>
+		</item>
+
+		<item>
+			<title>November 21, 2012, 3 PhDs, Research Fellow</title>
+			<link>http://arabidopsis.org/news/job_postings/bassel11212012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=595</guid>
+			<pubDate>Wed, 21 November 2012 12:00:00 PDT</pubDate>
+			<description>University of Birmingham, Birmingham, UK</description>
+		</item>
+
+		<item>
+			<title>November 21, 2012, 3 PhDs, 4 Postdocs and 1 Technician</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/dhonukshe11212012.pdf 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=594</guid>
+			<pubDate>Wed, 21 November 2012 12:00:00 PDT</pubDate>
+			<description>Flanders Institute for Biotechnology, Ghent, Belgium</description>
+		</item>
+
+		<item>
+			<title>November 21, 2012, Master/Diploma Students</title>
+			<link>http://arabidopsis.org/news/job_postings/oh11212012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=593</guid>
+			<pubDate>Wed, 21 November 2012 12:00:00 PDT</pubDate>
+			<description>
+				Max Planck Institute for Chemical Ecology, Jena, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>November 21, 2012, Postdoctoral Research Associate</title>
+			<link>http://arabidopsis.org/news/job_postings/cadle11212012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=592</guid>
+			<pubDate>Wed, 21 November 2012 12:00:00 PDT</pubDate>
+			<description>
+				USDA, Grape Genetics Research Unit, Geneva, New York, USA
+			</description>
+		</item>
+
+		<item>
+			<title>November 14, 2012, Assistant Professor</title>
+			<link>http://arabidopsis.org/news/job_postings/feakes11142012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=591</guid>
+			<pubDate>Wed, 14 November 2012 12:00:00 PDT</pubDate>
+			<description>University of Manitoba, Winnipeg, Manitoba, Canada</description>
+		</item>
+
+		<item>
+			<title>November 14, 2012, Assistant Professor - Biochemistry</title>
+			<link>http://arabidopsis.org/news/job_postings/raina11142012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=590</guid>
+			<pubDate>Wed, 14 November 2012 12:00:00 PDT</pubDate>
+			<description>Syracuse University, Syracuse, NY, USA</description>
+		</item>
+
+		<item>
+			<title>October 31, 2012, Postdoctoral Research-Teaching Position</title>
+			<link>http://arabidopsis.org/news/job_postings/monroe10312012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=589</guid>
+			<pubDate>Wed, 31 October 2012 12:00:00 PDT</pubDate>
+			<description>James Madison University, Harrisonburg, VA, USA</description>
+		</item>
+
+		<item>
+			<title>
+				October 31, 2012, Three Positions Available in Plant Synthetic Biology
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/medford10312012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=588</guid>
+			<pubDate>Wed, 31 October 2012 12:00:00 PDT</pubDate>
+			<description>Colorado State University, Fort Collins, CO, USA</description>
+		</item>
+
+		<item>
+			<title>October 31, 2012, Post-doctoral Position</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/thorsten10312012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=587</guid>
+			<pubDate>Wed, 31 October 2012 12:00:00 PDT</pubDate>
+			<description>
+				Norwegian University of Science and Technology, Trondheim, Norway
+			</description>
+		</item>
+
+		<item>
+			<title>October 25, 2012, Post-doctoral Position</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/harrison10252012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=586</guid>
+			<pubDate>Thur, 25 October 2012 12:00:00 PDT</pubDate>
+			<description>Cornell University, Ithaca, NY, USA</description>
+		</item>
+
+		<item>
+			<title>
+				October 25, 2012, ASSISTANT PROFESSOR, Plant Evolutionary Biologist
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/devilbiss10272012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=585</guid>
+			<pubDate>Thur, 25 October 2012 12:00:00 PDT</pubDate>
+			<description>Colorado State University, Fort Collins, CO, USA</description>
+		</item>
+
+		<item>
+			<title>
+				October 25, 2012, ASSISTANT PROFESSOR, BIOINFORMATICS/COMPUTATIONAL BIOLOGY
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/devilbiss10262012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=585</guid>
+			<pubDate>Thur, 25 October 2012 12:00:00 PDT</pubDate>
+			<description>Colorado State University, Fort Collins, CO, USA</description>
+		</item>
+
+		<item>
+			<title>October 25, 2012, Chair of the Department of Biology</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/devilbiss10252012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=585</guid>
+			<pubDate>Thur, 25 October 2012 12:00:00 PDT</pubDate>
+			<description>Colorado State University, Fort Collins, CO, USA</description>
+		</item>
+
+		<item>
+			<title>October 25, 2012, Postdoctoral/Research Scientist Position</title>
+			<link>http://arabidopsis.org/news/job_postings/torii10252012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=584</guid>
+			<pubDate>Thur, 25 October 2012 12:00:00 PDT</pubDate>
+			<description>University of Washington, Seattle, WA, USA</description>
+		</item>
+
+		<item>
+			<title>October 25, 2012, Three Postdoctoral Positions</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/bhattacharyya 10252012.txt
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=583</guid>
+			<pubDate>Thur, 25 October 2012 12:00:00 PDT</pubDate>
+			<description>Iowa State University, Ames, IA, USA</description>
+		</item>
+
+		<item>
+			<title>October 25, 2012, Two four-year-PhD positions</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/buerstenbinder10252012.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=582</guid>
+			<pubDate>Thur, 25 October 2012 12:00:00 PDT</pubDate>
+			<description>
+				Leibniz Institute of Plant Biochemistry, Halle, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>October 18, 2012, Postdoc and PhD positions</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/kaufmann10182012.pdf 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=581</guid>
+			<pubDate>Thur, 18 October 2012 12:00:00 PDT</pubDate>
+			<description>The University of Potsdam, Germany</description>
+		</item>
+
+		<item>
+			<title>October 18, 2012, Laboratory Technician Position</title>
+			<link>http://arabidopsis.org/news/job_postings/lyer10182012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=580</guid>
+			<pubDate>Thur, 18 October 2012 12:00:00 PDT</pubDate>
+			<description>Purdue University, West Lafayette, IN, USA</description>
+		</item>
+
+		<item>
+			<title>
+				
+				
+				October 18, 2012, Tenure-Track Position for a Plant Biologist
+			
+			
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/Ahn10182012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=579</guid>
+			<pubDate>Thur, 18 October 2012 12:00:00 PDT</pubDate>
+			<description>Korea University, Seoul, Korea</description>
+		</item>
+
+		<item>
+			<title>October 18, 2012, M.S. Graduate Assistantship position</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/mukherjee10182012.pdf 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=578</guid>
+			<pubDate>Thur, 18 October 2012 12:00:00 PDT</pubDate>
+			<description>University of Central Arkansas, Conway, AR, USA</description>
+		</item>
+
+		<item>
+			<title>
+				October 18, 2012, Two Assistant Professor Positions-Physiology, Plant Biology
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/whitlow10182012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=577</guid>
+			<pubDate>Thur, 18 October 2012 12:00:00 PDT</pubDate>
+			<description>Seattle University, Seattle, WA, USA</description>
+		</item>
+
+		<item>
+			<title>October 10, 2012, Postdoctoral Fellow</title>
+			<link>http://arabidopsis.org/news/job_postings/matzke10102012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=576</guid>
+			<pubDate>Wed, 10 October 2012 12:00:00 PDT</pubDate>
+			<description>
+				Institute of Plant and Microbial Biology, Academia Sinica, Taipei, Taiwan
+			</description>
+		</item>
+
+		<item>
+			<title>October 10, 2012, Postdoctoral Fellow</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/blancaflor10102012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=575</guid>
+			<pubDate>Wed, 10 October 2012 12:00:00 PDT</pubDate>
+			<description>
+				The Samuel Roberts Noble Foundation, Inc., Ardmore, OK, USA
+			</description>
+		</item>
+
+		<item>
+			<title>
+				October 10, 2012, Canada Research Chair in Cellular Dynamics
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/bendickson10102012.pdf 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=574</guid>
+			<pubDate>Wed, 10 October 2012 12:00:00 PDT</pubDate>
+			<description>University of British Columbia, Vancouver, BC, Canada</description>
+		</item>
+
+		<item>
+			<title>October 3, 2012, Head of Proteomics</title>
+			<link>http://arabidopsis.org/news/job_postings/foster10032012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=573</guid>
+			<pubDate>Wed, 3 October 2012 12:00:00 PDT</pubDate>
+			<description>The Sainsbury Laboratory, Norwich, UK</description>
+		</item>
+
+		<item>
+			<title>October 3, 2012, Assistant Professor, Plant Biology</title>
+			<link>http://arabidopsis.org/news/job_postings/estelle10032012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=572</guid>
+			<pubDate>Wed, 3 October 2012 12:00:00 PDT</pubDate>
+			<description>University of California, San Diego, La Jolla CA, USA</description>
+		</item>
+
+		<item>
+			<title>
+				October 3, 2012, Post-doctoral position in two-component signaling in rice
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/keiber10032012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=571</guid>
+			<pubDate>Wed, 3 October 2012 12:00:00 PDT</pubDate>
+			<description>University of North Carolina, Chapel Hill, NC, USA</description>
+		</item>
+
+		<item>
+			<title>October 3, 2012, Structural Biology Faculty Position</title>
+			<link>http://arabidopsis.org/news/job_postings/johnson10032012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=570</guid>
+			<pubDate>Wed, 3 October 2012 12:00:00 PDT</pubDate>
+			<description>Brown University, Providence, RI, USA</description>
+		</item>
+
+		<item>
+			<title>October 3, 2012, Two Faculty Positions</title>
+			<link>http://arabidopsis.org/news/job_postings/krizek10032012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=569</guid>
+			<pubDate>Wed, 3 October 2012 12:00:00 PDT</pubDate>
+			<description>University of South Carolina, Columbia, SC, USA</description>
+		</item>
+
+		<item>
+			<title>
+				September 26, 2012, M.S. Postdoctoral Position in Systemic RNA signal
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/yu09262012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=568</guid>
+			<pubDate>Mon, 26 September 2012 12:00:00 PDT</pubDate>
+			<description>Academia Sinica, Taipei, Taiwan</description>
+		</item>
+
+		<item>
+			<title>
+				September 26, 2012, M.S. Graduate Assistantship and Post-doc Position
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/huang09262012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=567</guid>
+			<pubDate>Mon, 26 September 2012 12:00:00 PDT</pubDate>
+			<description>University of Arkansas, Pine Bluff, AR, USA</description>
+		</item>
+
+		<item>
+			<title>
+				September 26, 2012, Postdoctor al position in epigenetic gene silencing
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/casas09262012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=566</guid>
+			<pubDate>Mon, 26 September 2012 12:00:00 PDT</pubDate>
+			<description>Universidade de Sao Paulo, Sao Paulo, Brasil</description>
+		</item>
+
+		<item>
+			<title>September 26, 2012, 2 Postdoc Positions</title>
+			<link>http://arabidopsis.org/news/job_postings/henning09262012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=565</guid>
+			<pubDate>Mon, 26 September 2012 12:00:00 PDT</pubDate>
+			<description>
+				Swedish University of Agricultural Sciences, Uppsala, Sweden
+			</description>
+		</item>
+
+		<item>
+			<title>
+				September 26, 2012, Plant Molecular Biology and Cell Biology faculty positions
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/chen09262012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=564</guid>
+			<pubDate>Mon, 26 September 2012 12:00:00 PDT</pubDate>
+			<description>University of Texas, Austin, TX, USA</description>
+		</item>
+
+		<item>
+			<title>September 26, 2012, Tenure Track Faculty Position</title>
+			<link>http://arabidopsis.org/news/job_postings/chapple09262012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=563</guid>
+			<pubDate>Mon, 26 September 2012 12:00:00 PDT</pubDate>
+			<description>Purdue University, West Lafayette, IN, USA</description>
+		</item>
+
+		<item>
+			<title>
+				September 26, 2012, Tenure Track Assistant Professor of Biology
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/brooks09262012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=562</guid>
+			<pubDate>Mon, 26 September 2012 12:00:00 PDT</pubDate>
+			<description>Doane College, Crete, NE, USA</description>
+		</item>
+
+		<item>
+			<title>
+				September 26, 2012, Assistant Professor, MOLECULAR AND TRANSLATIONAL PLANT SCIENCE
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/elomaa09262012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=561</guid>
+			<pubDate>Mon, 26 September 2012 12:00:00 PDT</pubDate>
+			<description>University of Helsinki, Finland</description>
+		</item>
+
+		<item>
+			<title>
+				September 26, 2012, 11 PhD and 3 Postdoc positions in plant epigenetics
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/gaudin09262012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=560</guid>
+			<pubDate>Mon, 26 September 2012 12:00:00 PDT</pubDate>
+			<description>
+				EpiTRAITS, The Netherlands, Germany, England, Belgium, Poland, France and Spain
+			</description>
+		</item>
+
+		<item>
+			<title>
+				September 17, 2012, Postdoctoral and Post-Masters Research Associates in Plant Synthetic
+					Biology
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/yang09172012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=559</guid>
+			<pubDate>Mon, 17 September 2012 12:00:00 PDT</pubDate>
+			<description>Oak Ridge National Laboratory Oak Ridge, TN, USA</description>
+		</item>
+
+		<item>
+			<title>
+				September 17, 2012, Tenure positions for Research Associate, Scientific Officer, Sr.
+					Scientific
+					Officer
+					and Group Leader
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/sharma09172012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=558</guid>
+			<pubDate>Mon, 17 September 2012 12:00:00 PDT</pubDate>
+			<description>
+				DBT-IOC centre for Advanced Bioenergy Research, Faridabad, India
+			</description>
+		</item>
+
+		<item>
+			<title>
+				September 17, 2012, Tenure Track Faculty Position in Plant Science/Plant Biotechnology
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/liang09172012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=557</guid>
+			<pubDate>Mon, 17 September 2012 12:00:00 PDT</pubDate>
+			<description>Academia Sinica, Taipei City, Taiwan</description>
+		</item>
+
+		<item>
+			<title>
+				September 17, 2012, Assistant Professor in Cellular network biology
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/becraft09172012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=556</guid>
+			<pubDate>Mon, 17 September 2012 12:00:00 PDT</pubDate>
+			<description>Iowa State University, Ames, IA, USA</description>
+		</item>
+
+		<item>
+			<title>September 17, 2012, M.S. Graduate Research Assistantships</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/manoharan09172012.pdf 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=555</guid>
+			<pubDate>Mon, 17 September 2012 12:00:00 PDT</pubDate>
+			<description>University of Arkansas, Pine Bluff, AR, USA</description>
+		</item>
+
+		<item>
+			<title>September 17, 2012, PhD student and Post-doc positions</title>
+			<link>http://arabidopsis.org/news/job_postings/showk09172012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=554</guid>
+			<pubDate>Mon, 17 September 2012 12:00:00 PDT</pubDate>
+			<description>University of Helsinki, Finland</description>
+		</item>
+
+		<item>
+			<title>September 17, 2012, Assistant Professor Position</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/friesner09172012.txt 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=553</guid>
+			<pubDate>Mon, 17 September 2012 12:00:00 PDT</pubDate>
+			<description>University of Massachusetts, Amherst, MA, USA</description>
+		</item>
+
+		<item>
+			<title>
+				September 12, 2012, TWO Postdoctoral Positions, Novel Regulation of Heterotrimeric
+					G
+					protein
+					Activation
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/jones09122012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=552</guid>
+			<pubDate>Wed, 12 September 2012 12:00:00 PDT</pubDate>
+			<description>University of North Carolina, Chapel Hill, NC, USA</description>
+		</item>
+
+		<item>
+			<title>
+				September 12, 2012, Faculty Positions in Molecular, Cellular, and Developmental Biology
+			</title>
+			<link>
+				http://arabidopsis.org/news/job_postings/schiefelbein09122012.pdf
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=551</guid>
+			<pubDate>Wed, 12 September 2012 12:00:00 PDT</pubDate>
+			<description>University of Michigan, MI, USA</description>
+		</item>
+
+		<item>
+			<title>
+				September 12, 2012, Postdoctoral position, UV-B Perception and Signalling
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/ulm09122012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=550</guid>
+			<pubDate>Wed, 12 September 2012 12:00:00 PDT</pubDate>
+			<description>University of Geneva, Switzerland</description>
+		</item>
+
+		<item>
+			<title>
+				September 5, 2012, Three Post-doctoral positions available in genetics of flowering
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/ahn09052012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=549</guid>
+			<pubDate>Wed, 5 September 2012 12:00:00 PDT</pubDate>
+			<description>
+				Creative Research Initiative, Korea University, Seoul, Korea
+			</description>
+		</item>
+
+		<item>
+			<title>
+				September 5, 2012, Postdoctoral Position in drought-related signaling and metabolism
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/verslues09052012.pdf 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=548</guid>
+			<pubDate>Wed, 5 September 2012 12:00:00 PDT</pubDate>
+			<description>
+				Institute of Plant and Microbial Biology, Academia Sinica, Taipei, Taiwan
+			</description>
+		</item>
+
+		<item>
+			<title>September 5, 2012, Lab Manager</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/schueller09052012.pdf 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=547</guid>
+			<pubDate>Wed, 5 September 2012 12:00:00 PDT</pubDate>
+			<description>
+				Max Planck Institute for Plant Breeding Research, Cologne, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>
+				September 5, 2012, Postdoc and a Ph.D. student in abiotic stress signaling
+			</title>
+			<link>http://arabidopsis.org/news/job_postings/quint09052012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=546</guid>
+			<pubDate>Wed, 5 September 2012 12:00:00 PDT</pubDate>
+			<description>
+				Leibniz Institute of Plant Biochemistry, Halle, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>August 29, 2012, Postdoctoral position</title>
+			<link>http://arabidopsis.org/news/job_postings/jenkins08292012.txt</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=545</guid>
+			<pubDate>Wed, 29 August 2012 12:00:00 PDT</pubDate>
+			<description>University of Glasgow, Glasgow, Scotland, UK</description>
+		</item>
+
+		<item>
+			<title>August 29, 2012, Curator</title>
+			<link>https://www.jobsatosu.com/postings/43717</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=544</guid>
+			<pubDate>Wed, 29 August 2012 12:00:00 PDT</pubDate>
+			<description>Ohio State University, Columbus, OH, USA</description>
+		</item>
+
+		<item>
+			<title>
+				August 29, 2012, Two Ph.D. positions in Biochemistry or Genetics
+			</title>
+			<link>
+				
+				http://arabidopsis.org/news/job_postings/dissmeyer08292012.pdf 
+			
+			</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=543</guid>
+			<pubDate>Wed, 29 August 2012 12:00:00 PDT</pubDate>
+			<description>
+				Leibniz Institute of Plant Biochemistry, Halle, Germany
+			</description>
+		</item>
+
+		<item>
+			<title>August 29, 2012, Post­doctoral position</title>
+			<link>http://arabidopsis.org/news/job_postings/budar08292012.pdf</link>
+			<guid isPermalink="false">http://arabidopsis.org/news/jobs.jsp#id=542</guid>
+			<pubDate>Wed, 29 August 2012 12:00:00 PDT</pubDate>
+			<description>INRA, Versailles, France</description>
+		</item>
+
+	</channel>
+</rss> 
+

@@ -1,0 +1,30 @@
+A three-year postdoctoral position is available at the John Innes Centre 
+(Norwich, UK; www.jic.ac.uk) to work on a collaborative project that aims to 
+model how regulatory genes control organ development, using floral homeotic 
+genes in Arabidopsis as the model system. 
+ 
+The ideal candidate will be a developmental biologist with a strong interest 
+in live imaging techniques and the ability to communicate with computer 
+scientists to develop in silico models of floral organ development.  The 
+successful candidate will join the group of Robert Sablowski 
+(http://www.jic.ac.uk/STAFF/robert-sablowski/sablowski.htm 
+<http://www.jic.ac.uk/STAFF/robert-sablowski/sablowski.htm> ) and work in 
+close collaboration with the Jan Traas group (École Normale Supérieure de 
+Lyon, France) for modelling at the cellular level and with the Enrico Coen 
+group (JIC, Norwich) for modelling at the whole-organ level. 
+ 
+A PhD in molecular biology, genetics or related subject is required; 
+experience in plant development, genetics and computer programming are 
+desirable but not essential. The candidates must be available to travel to 
+international meetings and for short visits to collaborating labs abroad. 
+ 
+To apply, please send a CV and personal statement to 
+robert.sablowski@bbsrc.ac.uk, quoting job reference 1001675. The deadline 
+for applications is 18 February 2008. 
+ 
+Useful reading: 
+ 
+de Reuille, P.B., et al. (2006). Proc. Natl. Acad. Sci. U. S. A. 103, 
+1627-1632 
+Gomez-Mena, C., et al. (2005). Development 132, 429-438 
+Coen, E., et al. (2004). Proc. Natl. Acad. Sci. U. S. A. 101, 4728-4735

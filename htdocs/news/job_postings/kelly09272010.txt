@@ -1,0 +1,37 @@
+RESEARCH ASSOCIATE - COMPUTATIONAL BIOLOGY/BIOINFORMATICS 
+
+Department of Plant Sciences 
+
+Salary: £27,319-£35,646 pa 
+
+Limit of Tenure applies* 
+
+Genome-wide mapping of recombination in Arabidopsis thaliana 
+
+We are using high throughput sequencing to determine the segregation of 
+genetic markers as a means to map genome-wide meiotic recombination 
+frequencies in the model plant, Arabidopsis thaliana. The research associate 
+will work jointly with Dr Ian Henderson and the Department Bioinformatics 
+Group of 6 researchers led by Dr Krys Kelly. The associate will perform 
+computational analysis of high throughout sequencing data to generate 
+crossover frequency maps, which will be correlated with other genomic and 
+epigenomic datasets. This work has important implications for population 
+genetics and crop improvement. 
+
+Applicants should have a PhD and substantial experience of a computer 
+language (e.g. R, Perl). Experience in statistics, statistical genetics, 
+quantitative genetics or genomics would also be beneficial. 
+
+For further particulars please visit the Department website at 
+http://www.plantsci.cam.ac.uk/jobs/index.html or contact Dr Ian Henderson 
+(email: irh25@cam.ac.uk) 
+
+To apply, please send a covering letter, CV, a Chris/6 cover sheet (parts I 
+and III only) - http://www.admin.cam.ac.uk/offices/hr/forms/chris6/ - and 
+the names and contact details (including email addresses) of 3 referees to 
+Ombretta Orsini, Head of Department's Secretary, Department of Plant 
+Sciences, Downing Street, Cambridge, CB2 3EA or email: oo203@cam.ac.uk 
+
+* Limit of tenure: The post is available for 2 years. 
+
+Quote Reference: PD07149,Closing Date: 4 October 2010 

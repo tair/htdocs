@@ -1,0 +1,136 @@
+<HTML>
+<HEAD>
+<TITLE>Classical Genetic Map</TITLE>
+</HEAD>
+<HR>
+<CENTER>
+<H1>Classical Genetic Map</H1>
+</CENTER>
+<HR>
+Classical map of mutant genes of <I>Arabidopsis</I>.  Last updated in June, 1996.  Next major update scheduled for June 1998.  Data are organized 
+into columns which show the map location in cM and locus name. Genes marked with an 
+asterisk (*) were initially placed on the recombinant inbred map based on recombination 
+data with molecular markers and then transferred to the classical map as described in 
+<A HREF="mutant_list_exp.html">this link</A>. Map locations shown here are estimates based largely on 2-point recombination 
+data. The orders of closely-linked genes may therefore differ slightly from those shown.
+
+	<H2><CENTER><STRONG>Classical Genetic Map of All Chromosomes <BR></STRONG></CENTER></H2><BR>
+	<PRE>
+	<B><U>Chromosome 1	Chromosome 2	Chromosome 3	Chromosome 4	Chromosome 5</U></B><BR>
+	AN:	0  	EMB91:	0  	EMB145:	0  	FRI:	0  	CTR1:	0  	<BR>
+	SUS1:	0  	EMB34:	4  	ILR1:	1 *	GA1:	5  	EIN2:	1  	<BR>
+	CER1:	1  	STI:	8  	QRT2:	2 *	EMBRG7:	9  	EMB24:	1  	<BR>
+	RGN:	1  	EMB93:	11  	EMB52:	3  	HY4:	10  	PTL:	1  	<BR>
+	EMB233:	3  	EMB62:	15  	DOC1:	4  	CSI:	11  	TFL1:	2 *	<BR>
+	FUS5:	4 *	EMB239:	17  	PDS2:	4  	BP1:	15  	EMB175:	6  	<BR>
+	EMB173:	6  	EMB58:	18  	EMB1:	5  	EMB132:	18  	EMB256:	6  	<BR>
+	POM1:	9 *	EMB146:	20  	EMB286:	6  	DET1:	20  	TT7:	6  	<BR>
+	ABA3:	10  	EMB57:	22  	RPM1:	7 *	EMB160:	21  	CHP7:	8  	<BR>
+	AXR3:	11  	TAG1:	28  	FAD7:	8  	FUR1:	22  	FLC:	8  	<BR>
+	EMB176:	11  	IAE1:	29 *	DGD1:	11 *	TT8:	22  	HY5:	8  	<BR>
+	EMB237:	11  	FVE:	32  	HY2:	12  	EMB148:	27  	EMB163:	9  	<BR>
+	RPS5:	11 *	PHYB:	35  	SPY:	12  	EMB171:	27  	EMB68:	9  	<BR>
+	ALB1:	12  	SUR:	35  	COP10:	13 *	CP1:	28  	HXC1:	9 *	<BR>
+	AXR1:	12  	CHL2:	36  	EMB51:	14  	COP9:	29  	LU:	10  	<BR>
+	DET3:	12  	CP2:	38  	FAD5:	16  	EMB150:	29  	TRP5:	10 *	<BR>
+	EMB142:	12  	GUN1:	46 *	FUS9:	16  	CN:	31  	AMT1:	11  	<BR>
+	FHA:	12  	CLV3:	47  	EMB153:	17  	FCA:	32  	EMF1:	12 *	<BR>
+	SEX1:	13  	ELF3:	47  	OMR1:	17  	EMB236:	33  	FY:	12  	<BR>
+	CHL1:	14  	ER:	48  	VRN1:	17 *	EMB137:	34  	LAD:	12 *	<BR>
+	KEU:	14  	HY1:	48  	MTO1:	19  	TH3:	34  	CBB3:	13 *	<BR>
+	PHYA:	16  	POM2:	49 *	FAD2:	20  	ARA1:	37  	CO:	13  	<BR>
+	DIS1:	19  	FUS12:	50  	EMB201:	23  	RPP5:	37  	TT4:	13  	<BR>
+	TWN2:	19 *	RTN:	50 *	EMB29:	24  	RPP4:	38  	ALB2:	15  	<BR>
+	EMB30:	21  	EMB152:	51  	EMB95:	24  	EMB109:	39  	ALF4:	15 *	<BR>
+	GA4:	22  	ABI5:	53  	DWF1:	26  	EMB81:	39  	ANL1:	15  	<BR>
+	GAI:	22  	PY:	53  	MS2:	27  	ALB4:	40  	TFL2:	15 *	<BR>
+	MP:	22  	LAN:	54  	PHO1:	27  	EMB230:	41  	EMB262:	16  	<BR>
+	DW1:	23  	EMB53:	58  	EMB90:	28  	AG:	42  	EMB269:	18  	<BR>
+	EMB43:	26  	FAD3:	58  	EMB224:	30  	CH42:	44  	EMB213:	20  	<BR>
+	PDS1:	26  	COP1:	60  	CHM:	32  	EMB181:	44  	FUS11:	20 *	<BR>
+	EMB10:	27  	RXC1:	60 *	AXR2:	33  	RPP2:	45  	TSL:	20  	<BR>
+	EMB232:	27  	PID:	62  	EMB125:	35  	EMB130:	46  	PI:	21  	<BR>
+	EMB131:	29  	RE:	63  	SUP:	35  	EMB257:	47  	CHL6:	22  	<BR>
+	LEC1:	29  	AS1:	64  	EMB293:	36  	EMB274:	48  	ADD1:	23 *	<BR>
+	TTN2:	29  	DET2:	64  	ABI3:	38  	IM:	48  	EMB86:	23  	<BR>
+	PFL:	32  	GRL:	64  	FUS3:	41  	EMBRG5:	50  	FS1:	23  	<BR>
+	CHS1:	33  	CYT1:	65  	GL1:	46  	RML1:	50 *	MS1:	23  	<BR>
+	GI:	33  	EMB18:	65  	RPP1:	52  	CER2:	52  	EMB2:	27  	<BR>
+	TH1:	33  	ABI4:	66  	UVR1:	53  	EMB140:	52  	TTG:	28  	<BR>
+	EMB260:	34  	AUX1:	66  	RPP13:	56 *	GA5:	53  	EMB108:	30  	<BR>
+	ACT1:	35  	BIO2:	67  	VAL1:	59  	EMB20:	54  	EMB222:	31  	<BR>
+	TRP4:	35  	EMB225:	67  	EMB65:	60  	FAD6:	54  	GA3:	33  	<BR>
+	EMB88:	42  	EMB111:	68  	NPH1:	61  	FWA:	54  	SU:	35  	<BR>
+	DIS2:	45  	EMB38:	70  	RPT1:	62 *	ABI1:	55  	DOC2:	36  	<BR>
+	TED2:	45 *	FIL:	71 *	EMB167:	63  	ACL1:	55  	EMB161:	39  	<BR>
+	CAL:	46  	SUL:	74  	RPP11:	64  	EMB106:	55  	EMB215:	40  	<BR>
+	UFO:	46  	VAR2:	75  	ACD1:	68  	RPS2:	55  	TNY:	40 *	<BR>
+	EMB126:	49  	CER8:	76  	CSR1:	70  	DRG:	56 *	CH5:	43  	<BR>
+	RAC1:	51  	CPC:	77 *	EMB208:	72  	EMB56:	57  	CUE1:	43 *	<BR>
+	TT1:	55  	EMB39:	77  	EMB69:	73  	EMB28:	58  	TT2:	44  	<BR>
+	CHL3:	56  	FPA:	87  	EMB172:	74  	EMB35:	58  	TH2:	47  	<BR>
+	CH1:	58  			EMB149:	75  	TOR1:	58  	HCF109:	48 *	<BR>
+	AXR4:	62  			FK:	77  	EMB77:	59  	BEL1:	50  	<BR>
+	GK:	62  			AP3:	81  	EMB202:	60  	EMB139:	51  	<BR>
+	EMB27:	66  			TT5:	81  	SSR16:	60  	GL3:	53  	<BR>
+	LE:	66  			CH6:	84  	CER4:	61  	EMB141:	56  	<BR>
+	EMB118:	69  			EMB117:	84  	EMB70:	61  	FAS2:	56  	<BR>
+	RPP7:	69  			EMB154:	85  	EMB104:	62  	CAD1:	57  	<BR>
+	ABA2:	70  			TTN1:	85  	ELG:	63  	TT3:	57  	<BR>
+	AIN1:	70  			FUS6:	87  	FD:	64  	RPP8:	58  	<BR>
+	CER5:	70  			TIR1:	87 *	CUD:	66 *	EMB9:	59  	<BR>
+	EMB244:	71  			CER7:	88  	ACD2:	68  	EMB170:	60  	<BR>
+	STM:	75  			TRP3:	90 *	AP2:	68  	ALS1:	62 *	<BR>
+	EMB128:	76  			TT6:	96  	SPT:	68  	FUS4:	62 *	<BR>
+	EMB80:	76  					FAD4:	69  	PGM:	63  	<BR>
+	ACL2:	83 *					CP3:	73  	ATS:	64  	<BR>
+	EMB71:	84  					CBB2:	76 *	FUS8:	64  	<BR>
+	AS2:	85  					CER9:	76  	VAR1:	65  	<BR>
+	SUS3:	86  							ALF3:	68 *	<BR>
+	CAR1:	87 *							EMF2:	69 *	<BR>
+	FAS1:	88  							TT10:	69  	<BR>
+	FT:	88  							EIR1:	70  	<BR>
+	SAB:	88 *							EMB64:	71  	<BR>
+	BUM:	89  							GR2:	71  	<BR>
+	CLV2:	89  							LIT:	72 *	<BR>
+	WAM:	89  							BIO1:	74  	<BR>
+	DOC3:	90  							TZ:	77  	<BR>
+	EMB41:	92  							EMB67:	79  	<BR>
+	SMA4:	92 *							TOC1:	79 *	<BR>
+	ETR1:	93  							COB:	80  	<BR>
+	NIM1:	95 *							CER3:	82  	<BR>
+	CER6:	96  							EMB209:	82  	<BR>
+	EMBRG2:	97  							LFY:	82  	<BR>
+	AP1:	99  							ETO1:	83  	<BR>
+	EMB179:	99  							EMB15:	85  	<BR>
+	CRC:	100  							EMB87:	85  	<BR>
+	EMB25:	100  							REV:	85 *	<BR>
+	EMBRG3:	102  							YI:	85  	<BR>
+	PIN1:	103  							PRC1:	86  	<BR>
+	IAR1:	105 *							MIN:	90  	<BR>
+	CLV1:	110  							EMB16:	91  	<BR>
+	EMB54:	110  							EMB246:	92  	<BR>
+	EMB120:	113  							ABA1:	98  	<BR>
+	EMB17:	113  									<BR>
+	ADH1:	114  									<BR>
+	BOT1:	115 *									<BR>
+	EMB156:	115  									<BR>
+	NIA1:	116  									<BR>
+	SUS2:	116  									<BR>
+	GL2:	118  									<BR>
+	GA2:	119  									<BR>
+	FE:	122  									<BR>
+	<BR>
+	</PRE>
+Number of loci on chromosome 1 is 104<BR>
+Number of loci on chromosome 2 is 53<BR>
+Number of loci on chromosome 3 is 66<BR>
+Number of loci on chromosome 4 is 70<BR>
+Number of loci on chromosome 5 is 95	
+<P>
+<B><I>Total number of loci in entire map is 383</I></B><BR>
+</FONT>
+<a href="genepage.html"><IMG SRC="back.gif" BORDER = 0></a><BR>
+<a href="genepage.html">Back</a><P>
+</BODY>
+</HTML>

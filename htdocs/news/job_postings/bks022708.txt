@@ -1,0 +1,30 @@
+Bioinformatics Scientist 
+ 
+Mendel Biotechnology, Inc. is looking for an individual to 
+lead an important project to collect, organize and analyze 
+data with the goal of improving traits in Miscanthus and 
+other plants for use as biofeedstocks.  You will work with 
+biologists, agronomists, business people, and computer 
+scientists in an interdisciplinary environment.  This is a 
+well-funded, full-time position in our Hayward, California 
+offices. 
+ 
+Knowledge in these areas is helpful: 
+ o Genomics and gene databases; 
+ o Standard bioinformatics tools; 
+ o Plant traits and QTLs; 
+ o Plant breeding and pedigree databases; 
+ o SNPs; 
+ o Illumina Beadstation; 
+ o Oracle, Linux, Perl, Apache interactions; 
+ 
+To apply for this job, please read carefully: 
+  1. Do not send attachments or HTML-formatted mail; 
+  2. Send plain-text ASCII mail with highlights of 
+     your c.v. or resume in the body of the e-mail; 
+  3. You may include relevant URLs in your e-mail; 
+  4. Send e-mail to 
+         job107@mendelbio.com 
+ 
+For more information on Mendel Biotechnology see 
+   http://www.mendelbio.com/

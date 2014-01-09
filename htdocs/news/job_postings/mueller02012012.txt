@@ -1,0 +1,32 @@
+SGN MetaCyc Curator position 
+
+PROJECT DESCRIPTION 
+SGN has an open position for a MetaCyc curator. MetaCyc is the large 
+biochemical pathway database created and hosted by SRI International 
+in Menlo Park, California, http://www.metacyc.org/ . MetaCyc is used 
+as a reference database for hundreds of biochemical pathway databases 
+around the world, and has been used to build databases such as AraCyc 
+(http://www.arabidopsis.org/tools/biocyc/) and SolCyc (http://solcyc.solgenomics.net/ ), which are used by 
+researchers to analyze large-scale genomics data, such as from 
+microarray, RNA-Seq and metabolomics experiments. 
+
+JOB DESCRIPTION 
+The successful candidate will annotate new biochemical pathways into 
+the MetaCyc database, and improve the annotation of existing pathways, 
+with a strong focus on biochemical pathways found in higher plants and 
+fungi, particularly secondary metabolite pathways. The project is 
+based on Pathway Tools software, which offers a graphical user 
+interface for annotation work. Some annotation work may require 
+writing custom scripts in Lisp or Perl, such as for bulk annotation 
+efforts. The job location is at the Boyce Thompson Institute for Plant 
+Research, Ithaca, NY, USA, as part of the SGN group 
+(http://solgenomics.net/ ). 
+
+REQUIRED QUALIFICATIONS 
+PhD or equivalent experience in biochemistry or related field, a 
+strong interest in informatics and programming, and a meticulous work 
+ethic are essential. Knowledge of biochemistry required. 
+
+HOW TO APPLY 
+Interested applicants should contact Lukas Mueller by email 
+(LAM87@cornell.edu) with "MetaCyc Curator position" in the subject line 

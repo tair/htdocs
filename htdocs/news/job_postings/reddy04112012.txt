@@ -1,0 +1,19 @@
+*Research Associate in Bioinformatics- Genomics/ Computational Biology* 
+
+West Virginia State University Research and Development Corporation/Gus R. 
+Douglass Institute invites applications for the position of full time 
+Research Associate in Bioinformatics. This Associate will contribute to 
+the research and programmatic efforts of the EPSCoR RII program through 
+affiliation with the Department of Biology at WVSU by teaching, research 
+and training/consulting. Applicant must have knowledge of programming 
+skills and Nextgen sequencing data pipelines for analysis such as RNAseq, 
+De Novo assembly and phylogenetic analysis to support our plant, animal, 
+human and microbe genomic research. The candidate will have access to a 
+high performance computing system and visualization environment For a 
+complete job description, required qualifications, and instructions on how 
+to apply, visit http://grdi.wvstateu.edu/employment and if need to learn 
+more details, also can contact Dr. Tim Ruhnke, Professor of Biology at 
+ruhnketr@wvstateu.edu. 
+
+*WVSU R&D Corporation is* *committed to affirmative action, equal 
+opportunity, and the diversity of its workplace.* 

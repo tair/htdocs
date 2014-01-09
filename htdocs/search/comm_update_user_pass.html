@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+<head>
+<title>TAIR Community Search Page</title>
+
+<script language="JavaScript" src="/js/navbar.js">
+</script>
+<link rel="stylesheet" type="text/css" href="/css/main.css" >
+<script language='JavaScript'>
+var highlight = 0; var helpfile="";
+</script>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#F5F9FF">
+
+<!-- HEADER using external JavaScript file -->
+
+<script language='JavaScript' SRC='/js/header'>
+</script><p>
+
+<!-- End of header -->
+
+
+<p>
+<table width="602" align="center" border="0" cellspacing="0" cellpadding="2">
+        <tr>
+                <td width="602">
+
+                <!-- Content goes here //-->
+
+<span class="header">TAIR Community UPDATE USER NAME AND PASSWORD </span>
+<BR>
+<B>All Fields Must Have Input</B><hr>
+
+<FORM ACTION = "http://acoma.stanford.edu:8080/cgi-bin/comm_update_user_pass.pl" METHOD="POST">
+ <center>      
+<table width =602  border="0" cellspacing="0">
+
+<tr>
+<td><B> Type of TAIR Community Member</B></td>
+<td>
+<SELECT NAME="COMM_TYPE">
+<OPTION VALUE="Person">Person
+<OPTION VALUE="Organization">Organization
+</select></td></tr>
+
+
+<TR>
+<TD><B>Current User Name</B></TD>
+<TD><INPUT NAME="USER_NAME_ENTERED" SIZE="25"></TD>
+</TR>
+
+<TR>
+<TD><h3>Current Password</h3></TD>
+<TD><INPUT type = "password" NAME="USER_PASSWORD_ENTERED" SIZE="25"></TD>
+
+</TR>
+
+<TR>
+<TD><h3>New User Name</h3></TD>
+<TD><INPUT NAME="NEW_USER_NAME" SIZE="25"></TD>
+
+</TR>
+
+<TR>
+<TD><h3>New Password</h3></TD>
+<TD><INPUT type="password" NAME="NEW_PASSWORD1" SIZE="25"></TD>
+
+</TR>
+
+<TR>
+<TD><h3>New Password (Type Again To Verify)</h3></TD>
+<TD><INPUT type="password" NAME="NEW_PASSWORD2" SIZE="25"></TD>
+
+<tr>
+<td><input type="submit" value="Update My Information"></td>
+<td></td>
+<td><input type = "reset" value=Reset>
+</td>
+</tr>
+      
+</TABLE>
+
+<a href=http://acoma.stanford.edu:8080/comm_search.html> <h3> BACK TO COMMUNITY SEARCH </h3> </a>
+</center>
+</form>
+
+   </td>
+        </tr>
+</TABLE>
+<!-- FOOTER -->
+<script language="javascript" src="/js/footer.js"></script>
+</body>
+</html>
+

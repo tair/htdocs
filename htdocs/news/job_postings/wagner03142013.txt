@@ -1,0 +1,25 @@
+My lab studies the switch to flower formation in Arabidopsis as well as chromatin-mediated control of developmentally 
+appropriate gene expression. In eukaryotes, genomic DNA is highly compacted in the nucleus. This compaction renders 
+portions of the genomic DNA inaccessible to transcription factors or the general transcriptional machinery. A large 
+fraction of the inaccessible DNA consists of gene-poor heterochromatin. Portions of the gene-rich euchromatin are also 
+inaccessible or silenced. A hallmark of this silencing is that it occurs only in certain conditions, for example in 
+some cell types or in the absence of an environmental cue. In multicellular eukaryotes, euchromatic silencing is 
+largely mediated by Polycomb repression. Polycomb repressors do not have inherent sequence specificity, they need to 
+be targeted to the correct genomic loci. We are seeking a talented your postdoc to join our lab to address how these 
+chromatin regulators are recruited to the genomic DNA to prevent precocious flower formation. The ideal candidate 
+would have experience in both molecular biology and computational biology, however well qualified individuals that 
+have experience in developmental biology and molecular biology are also encouraged to apply. Please send your CV and 
+a list of three references by e-mail to wagnerdo@sas.upenn.edu. 
+
+Doris Wagner 
+Associate Professor and Graduate Chair 
+Department of Biology 
+University of Pennsylvania 
+Philadelphia, PA 190104-6084 
+USA 
+
+wagnerdo@sas.upenn.edu 
+215-898-0483 
+
+http://www.bio.upenn.edu/people/doris-wagner 
+https://www.plant-epigenome.org/ 

@@ -1,0 +1,241 @@
+<html>
+<head>
+<title>TAIR Marker and Polymorphism Data submission</title>
+<script language="JavaScript" src="/js/navbar.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/main.css" >
+<script language='JavaScript'>
+var highlight = 3; var helpfile="";
+</script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#F5F9FF">
+
+
+<!-- HEADER using external JavaScript file -->
+
+<script language='JavaScript' SRC='/js/header'>
+</script><p>
+
+<!-- End of header -->
+
+
+<p>
+<table width="602" align="center" border="0" cellspacing="0" cellpadding="2">
+        <tr>
+                <td width="602">
+
+<span class="header">Marker and Polymorphism Data Submission to TAIR</span>
+<BR>
+
+ <script language="JavaScript" SRC="/js/infominiheader.js"></script>
+
+ <script language="JavaScript">
+                    <!--
+                    infominiheader("Marker")
+                    //  -->
+                    </script>
+
+
+
+
+
+<P><DT>Fields indicated in <font color="#0000ff"><b>blue</B></font> are required. Fields marked with an asterisk(*) can have more than one entry but the entries must be seperated by a semicolon with no intervening spaces (e.g. Ecker,Joseph;Bell,Callum). Please fill in as much information as possible.
+<DT> Please include the column headers as the first line in your files.
+<DT>    
+<br>
+  <TABLE  align="center" border="1" cellspacing="0" cellpadding="2">
+    <TR><TH><B>Field</B></TH>
+        <TH><B>Description</B></TH>
+        <TH><B>Values/Constraints</B></TH>
+        <TH><B>Example</B></TH></TR>
+        
+
+	<TR><TD valign=top><font color="#0000ff"><b>contact person name</B></font>*</TD>
+        <TD>Last name,First name</TD>    
+        <TD>no space between first and last names or between semicolon</TD>
+        <TD>Buschmann,Henrik</TD></TR>
+
+<TR><TD valign=top><font color="#0000ff"><b>contact person email address</b></font></TD>
+        <TD>current email address</TD>    
+        <TD>limit 100 characters</TD>
+        <TD>buschmann@gsf.de</TD></TR>
+
+	
+	<TR><TD valign=top><font color="#0000ff"><b>contact person community_ID</b></font>*</TD>
+        <TD>unique identifier for a community member in TAIR. You must be registered to have a community ID</TD>    
+        <TD>TAIR accession from <a href="http://arabidopsis.org/servlets/Search?action=new_search&type=community" target="display">TAIR People/Labs Search</A></TD>
+        <TD>person:1035</TD></TR>
+
+		
+	
+	<TR><TD valign=top><font color="#0000ff"><b>marker or polymorphism name</b></font></TD>
+        <TD>name of the marker or polymorphism, for polymorphisms associated to markers this is the same name as the marker.</TD>    
+        <TD>limit 50 characters</TD>
+        <TD>PT1</TD></TR>
+
+
+	
+	
+<TR><TD valign=top><font color="#0000ff"><b>chromosome</b></font></TD>
+        <TD>the chromosome in which the marker or polymorphism is found</TD>    
+        <TD>1,2,3,4,5 or unknown</TD>
+        <TD>5</TD></TR>
+
+	
+<TR><TD valign=top><font color ="#0000ff"><b>genetic marker type</B></font></TD>
+        <TD>type of genetic marker</TD>    
+        <TD>CAPS,SSLP,AFLP,RFLP,RAPD</TD>
+        <TD>CAPS</TD></TR>
+
+
+
+	
+	<TR><TD valign=top><font color="#0000ff"><b>polymorphism type</B> </font></TD>
+        <TD>Definitions of polymorphism types<br><u>digest_pattern</u>:polymorphisms detected by restriction enzyme digestion<br><u>PCR_product_length</u>: polymorphisms detected by PCR<br><u>SNPs</u>: single nucleotide polymorphisms<br><u>INDELs</u>: insertion/ deletions where sequence between two identical flank sequences is deleted in one ecotype relative to another<br><u>INSERTIONS</u>: include native and introduced transposons, transgene insertions and T-DNAs<br><u>SUBSTITUTIONS</u>: sequence variations where two ecotypes differ in sequence between identical flanking sequences only in base composition but not number.<br><u>DELETION</u>: used for polymorphisms where one allele has one or more sequential base pairs deleted relative to an allele of the same ecotype.</TD>    
+        <TD>digest_pattern, PCR_product_length, SNP, INDEL, INSERTION, SUBSTITUTION, DELETION, UNKNOWN</TD>
+        <TD>SNP</TD></TR>
+
+
+
+	
+<tr><TD valign=top>insertion type</td>
+  <td>transposon, gene fusion, T-DNA, other</td>
+  <td>limit to 50 characters</td>
+  <td>transposon</td>    
+	
+	<TR><TD valign=top><font color ="#0000ff"><b>DNA fragment length</b></font>*</TD>
+        <TD>length of digested fragment, PCR product length, polymorphism length or AFLP product length in <B>bp</B>, seperate multiple sizes with ; (no intervening spaces) </TD>    
+        <TD>limit 60 characters</TD>
+        <TD>1300</TD></TR>
+	
+	
+	<TR><TD valign=top><font color="#0000ff"><b>Flank Sequence type</b></font></TD>
+        <TD>For CAPS, SSLP, AFLP and RAPD markers this corresponds to the PCR primers user to amplify the marker before digestion. For SNPs this corresponds to 20 base pairs flanking the site of the SNP on either side.  For INSERTIONS/DELETIONS, this is the sequence flanking the site of insertion/deletion.</TD>         <TD>PCR_primer</TD>
+        <TD>flank</TD></TR>
+
+		<TR><TD valign=top><font color="#0000ff"><b>PCR primer sequence 1</b></font></TD>
+        <TD>The first PCR primer sequence/ SNP 5' flanking sequence/ INSERTION/DELETION flanking sequence</TD>         <TD>&nbsp;</TD>
+        <TD>ATGGTGCCGTGACGTCGGAA</TD></TR>
+
+		<TR><TD valign=top><font color="#0000ff"><b>PCR Primer sequence 2</b></font></TD>
+        <TD>the second PCR  primer sequence/ SNP 3' flanking sequence/ INSERTION/ DELETION flanking sequence</TD>         <TD>&nbsp;</TD>
+        <TD>AATTGGGTGTGCTAGTCGAT</TD></TR>
+
+<TR><TD valign=top>special conditions*</TD>
+        <TD>indicate any special conditions required for marker detection; annealing temperature, cuts wild type or cuts mutant etc.</TD>    
+        <TD>limit 255 characters</TD>
+        <TD>annealing temp 62C</TD></TR>
+
+
+	
+<TR><TD valign=top><font color="#0000ff"><b>restriction enzyme name</b></font>*</TD>
+        <TD>name of the restriction enzyme used to detect the polymorphism for CAPS, RFLP and AFLP markers</TD>    
+        <TD>consult <a href="http://rebase.neb.com/rebase/rebase.html" target="display">REBASE</A> for standard enzyme name</TD>
+        <TD>HindIII;EcoRV</TD></TR>
+
+<TR><TD valign=top><font color="#0000ff"><b>ecotype/accession name</B></font>*</TD>
+        <TD>the ecotype which shows the specific polymorphism. If more than one ecotype shares a polymorphism, list all ecotypes.</TD>    
+        <TD>limit 50</TD>
+        <TD>Col-O;RLD;Ler</TD></TR>	
+
+	
+
+
+<TR><TD valign=top>map_name</TD>
+        <TD>name of the  map the marker is mapped to. If a marker has more than one map location (i.e. a sequence map location and RI map location) make a new row for each assignment to a map.</TD>    
+        <TD>Lister-Dean_RI_map; classical_genetic;AGI_clone. For mapping relative to BAC clone the name of the BAC clone as it appears in TAIR.</TD>
+        <TD>AGI_clone:F23K29</TD></TR>
+
+<TR><TD valign=top>map_location_start</TD>
+        <TD>the position of the marker or polymorphism on the map. For genetic map locations the start and end point will be the same</TD>    
+        <TD>numeric</TD>
+        <TD>123300</TD></TR>
+
+<TR><TD valign=top>map_location_end</TD>
+        <TD>the ending  position of the marker or polymorphism on the map</TD>    
+        <TD>numeric</TD>
+        <TD>123333</TD></TR>
+
+<TR><TD valign=top>map_units</TD>
+        <TD>units of the map</TD>    
+        <TD>cM,kb,bp</TD>
+        <TD>bp</TD></TR>
+	
+	<TR><TD valign=top>assignment_method</TD>
+        <TD>recombination,sequence match, hybridization. See notes for instructions on providing sequence based locations.For sequence matches provide the name of the BLAST dataset (AGI BAC sequences), run date and e value</TD>    
+        <TD>&nbsp;</TD>
+        <TD>sequence match;AGI BAC sequences (DNA);2/12/01;e-174</TD></TR>	
+
+
+	
+
+	<TR><TD valign=top rowspan="3">marker or polymorphism reference_id</TD>
+        <TD>the reference(s) that describe the polymorphism. please use the unique TAIR publication accession.
+
+</TD>    
+        <TD>TAIR accession from <A href="http://arabidopsis.org/servlets/Search?action=new_search&type=publication" target="display">TAIR Publication Search</A></TD>
+        <TD>publication:12344</TD></TR>
+
+	
+	<TR>
+        <TD>Citation for reference(s) that are not in the TAIR database. For articles referring to the polymorphisms that are not yet in TAIR, please contact a <a href="mailto:curator@arabidopsis.org">curator</A> to update this information into the database when the paper is published.</TD>    
+        <TD>&nbsp;</TD>
+        <TD>Lewis, J and Martin, D (2001) Identification of a locus required for funny bone development. Antics 14:3001-3903; http://www.humor.edu</TD></TR>
+
+<tr>
+  <td>URL</td>
+      <td>&nbsp;</td>
+	<td>http://www.humor.edu</td>
+</TABLE>
+
+<P>
+<center>Last modified on February 13th, 2002</center>
+
+
+
+                </td>
+        </tr>
+</TABLE>
+
+<!-- FOOTER -->
+<script language="javascript" src="/js/footer.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

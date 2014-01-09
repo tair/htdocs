@@ -1,0 +1,19 @@
+ 
+Advertisement for a Postdoctoral Position 
+ 
+A postdoctoral position is available in the laboratory of Dr. Dan Voytas at the University 
+of Minnesota to work on a new and powerful platform for making targeted sequence 
+modifications in plant genes.  The platform uses zinc finger nucleases (ZFNs) – enzymes 
+engineered to create DNA double strand breaks in specific target loci.  Cleavage of target 
+genes by ZFNs introduces mutations at the cut site by imprecise repair through non-
+homologous end-joining (Mol Cell 31:294).  In the presence of a homologous DNA 
+template, specific modifications can be introduced into target genes by homologous 
+recombination (Plant J 44:693).  The candidate will implement gene targeting in a crop 
+plant with the goal of conferring traits of agronomic value.  The position involves 
+considerable interactions with industry and entails travel to Europe to work with 
+collaborators.  The incumbent should posses a PhD in molecular biology, genetics or 
+plant biology.  Experience working with plants is considered essential, and expertise in 
+plant metabolism and physiology is desired.  The position will remain open until filled 
+and will last for three years. Interested applicants should send a CV and the names and 
+contact information of three persons who can provide a letter of reference.  Please send 
+information by email to chra0004@umn.edu.

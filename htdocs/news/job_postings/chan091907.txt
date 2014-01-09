@@ -1,0 +1,8 @@
+
+Bioinformatics.  We are seeking a postdoctoral fellow to work jointly
+with the Jacobsen and Pellegrini laboratories in the Dept. of Molecular,
+Cell and Developmental Biology at UCLA (www.mcdb.ucla.edu) in the
+analysis whole genome chromatin profiling data using ultra high
+throughput sequencing. Candidate will conduct sophisticated data
+analyses using Matlab, Mathematica, R, C, and C++, and participate in
+database construction.  Please apply to mingh@ucla.edu.

@@ -1,0 +1,21 @@
+Bioinformatics postdoc position to study protein-protein interactions in Arabidopsis
+
+A bioinformatics postdoctoral position is available immediately in the laboratory of Dr. Sue Rhee at the Carnegie 
+Institution, Department of Plant Biology (Stanford, CA), to participate in generating the first genome-wide membrane 
+protein-protein interaction maps in Arabidopsis. To understand the regulation of cell-environment, cell-cell, and 
+intracellular compartment to cytosol interactions better, a consortium of six laboratories plan to determine the 
+interactions of 6,400 proteins from the reference plant Arabidopsis. This set comprises essentially all integral 
+membrane proteins and a large number (>1,000) of proteins predicted to be involved in signaling or protein modification. 
+More information about the project can be found at http://associomics.org/.
+
+The successful candidate will be responsible for carrying out bioinformatic analyses to select genes for initial 
+interactions and subsequent experimental validation, to determine statistically significant interactions, to make the 
+data easily accessible to researchers, and to create and analyze the interaction network maps. S/he will work with 
+postdocs and other scientists in molecular, cell and theoretical biology labs.
+
+Qualified candidates must have a Ph.D. or equivalent in Biology, Mathematics, Computer Science, Engineering or related 
+field, a strong background in using statistics, some background in modeling and programming, and strong communication 
+skills.
+
+Please email a brief letter describing your research experience, plus your CV and contact information for 3 references 
+to Dr. Sue Rhee at rhee@acoma.stanford.edu.

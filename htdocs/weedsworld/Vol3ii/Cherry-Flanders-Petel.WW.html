@@ -1,0 +1,471 @@
+<html>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "sol-modGFP.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "Netscape.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Protocol on the use of GFP in Arabidopsis thaliana studies';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 3(ii) Contents';
+	   else if (id == 6)
+		strng = 'NASC - the real reason for the upgrades';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+<HEAD>
+<title>New Directions for Genome Databases at Stanford</title>
+<!-- Changed by: Dr Mike Arnold,  5-Sep-1996 -->
+</HEAD>
+
+<body BGCOLOR="#FFFFFF">
+<BLOCKQUOTE>
+<h1>
+<img src="/images/tairsmall.gif" border=0 align=left>
+New Directions in Genome Databases at Stanford</h1>
+
+
+<a href="mailto:cherry@genome.stanford.edu">Mike Cherry</a>, <a href="mailto:flanders@genome.stanford.edu">David Flanders</a>, and <a href="mailto:fabien@genome.stanford.edu">Fabien Petel</a><p>
+Department of Genetics, Stanford University, Stanford, California 94305-5120 U.S.A.
+
+
+<hr>
+<h4>Abstract</h4>
+
+A small group at Stanford University has begun development of a new database
+which will provide easier access, better reliability, and the ability to 
+store more information than the current ACEDB-based database.  We describe here
+not the specifics of our development efforts, but rather introduce the
+basic technologies being used: the new programming language called Java and
+the new object-relational database from <a href="http://www.informix.com/" target="_top">Illustra Information Technologies</a>.
+
+<p>
+
+<h4>Introduction</h4>
+
+In 1991, Howard Goodman's laboratory (Massachusetts General Hospital, Boston)
+undertook the creation of a database for <i>Arabidopsis thaliana</i>.  The
+<a href="/about_acedb.html" target="_top">ACEDB</a>
+software, originally developed for the <i>Caenorhabditis elegans</i> genome
+project, was used to create AAtDB (An <i>Arabidopsis thaliana</i> Database).
+This database contained: genetic and physical
+maps, all <i>Arabidopsis</i> DNA sequences, a catalog of DNA and seed stocks, extensive collection of published <i>Arabidopsis</i> literature, names and addresses of scientists interested in <i>Arabidopsis</i>, and more.
+In late 1995, the AAtDB project was moved to the Genome Databases Group, Department
+of Genetics, at
+Stanford University and given a new name: AtDB (<i>Arabidopsis thaliana</i> DataBase).
+
+<p>
+
+The AtDB project at Stanford is currently developing new software that
+will greatly expand the ability of our group to provide information to
+the <i>Arabidopsis</i> community.  However, while this development is
+our main focus the, old ACEDB-based database is being maintained.
+Indeed, the old ACEDB database has been given a <!--<a
+href="/cgi-bin/search_at/AtDB?" target="_top"> -->new WWW
+look</a> and will continue to be used at Stanford for at least the
+next year or two.  Many new features have also been added to the <a
+href="/" target="_top">AtDB home page</a>,
+for example, sequence similarity searches against
+<i>Arabidopsis</i>-only sequences using <a
+href="/blast/" target="_top">BLAST</a>
+and <a
+href="/cgi-bin/fasta/TAIRfasta.pl" target="_top">FASTA</a>.
+
+
+<p>
+
+The software developments at Stanford are focusing in two areas: user
+interface and modern database technology.  As more and more
+information becomes available on <i>Arabidopsis</i> the databases that
+hold this information must be able to process information faster and
+provide summary views of complex details.  To do this, the Java
+programming language will be used to create interactive graphical
+displays of complex information, such as genetic and physical maps,
+and gene structure. The latter will be at both the DNA and protein
+sequence level as well as the structural/3-dimensional level.  The
+ability to hold and process large amounts of complex information
+effectively will be a result of the use of a new commercial database
+product from Illustra.  The ACEDB WWW version of AtDB provides a
+useful view of <i>Arabidopsis</i> information, but there are
+limitations.  The graphic views of various parts of the database are
+slow and static.  The user can click on these images to change the
+view, but this involves a new image being created on the AtDB server
+at Stanford and then transported to the user's computer.  The ACEDB
+database is a fantastic example of software engineering (developed by
+Richard Durbin, Sanger Centre, U.K. and Jean Thierry-Mieg, CNRS,
+Montpellier, France).  ACEDB allows biological information to be
+stored and presented easily.  However, ACEDB was designed for use by
+small groups of people and is limiting in features used for database
+systems where several people can add or modify information
+simultaneously.
+
+<p>
+
+Java will allow the creation of new WWW programs that minimize
+the amount of information that is transmitted between the AtDB computers
+and the user's computer.  Illustra provides all the standard features
+required by commercial user's of large database centers plus several new
+enhancements that will aid in the creation of an easy to use and an
+easy to manage database environment for the AtDB curators, and thus allow
+more timely and complete information to be provided to the <i>Arabidopsis</i>
+and plant-biological-community worldwide.
+
+<h4>Java</h4>
+
+You've probably at least heard of Java.  Even though it's only been
+around for a year or so in it's publicly-available form, it's been the
+subject of numerous<!-- 
+<a href="http://www.icom-net.com/solution/news.htm" target="_top"> --> news</a> articles.
+
+<p>
+
+So what is Java, what's all the fuss about, and what interest is it to
+Weeds World-types?
+
+<p>
+
+Java is a new type of (relatively) simple
+computer-programming-language, developed by <a
+href="http://www.sun.com/" target="_top"> Sun</a> Microsystems. Java comes into its own
+in enabling the creation of truly interactive Web-pages. A measure of
+Java's popularity is that over 1.7 gigabytes are downloaded from Sun's
+<a href="http://www.javasoft.com/" target="_top">Java pages</a> a day.
+
+<p>
+
+Web interactivity is achieved through small programs -- termed applets
+-- written in Java. When using a WWW browser that supports Java,
+special instructions are included in Web pages containing applets.
+These instructions direct your browser to download the applet onto
+your computer. (Great care has been and is being taken to ensure that
+this is not a security risk.) The applets, the small programs written
+in the Java language, then run on your computer, rather than on the
+computer where the Web page is located.
+
+<p>
+
+This can happen, because one of the main strengths of Java is that
+an applet, once written, will run, without further modification, on
+any type of computer -- PC, Mac, UNIX, <i>etc</i>.-- providing that
+the computer is running a Java-enabled Web-browser, such as <a
+href="http://home.netscape.com" target="_top">Netscape</a>. (The recently released Netscape version 3.0 is java-enabled for Windows 95, UNIX and Mac machines and can be downloaded from Netscape (URL: <a href="http://home.netscape.com/comprod/upgrades/" target="_top">http://home.netscape.com/comprod/upgrades/</a>))
+
+<p>
+
+This ability to run applets on your computer, combined with transfer
+of data over the Web permits the production of very interactive Web
+pages.
+
+<p>
+
+<a href="/" target="_top">AtDB</a> will be incorporating Java into our Web-based
+facilities. One important area to do this is with our
+Web-forms. For example, you can send physical-map <a href="/contig_complexmap.html" target="_top">contig 
+details to AtDB</a> using a Web form. Currently, you do this by
+entering clone names and positions.  When this form is re-written using
+Java, you will be able to draw and label your contig directly into the
+AtDB Web-page (using an applet that looks and behaves very much like a
+standard computer-drawing program).  This will be quicker, easier, less
+prone to error and provide you and the community with information
+already to go in a "map" display.
+
+<p>
+
+AtDB is involved in a Bay Area collaboration with <a href="http://genome-www.stanford.edu/Saccharomyces/" target="_top">SGD</a>
+(<i>Saccharomyces</i> Genome Database, also in the Genetics Dept. at
+Stanford) and <a href="http://fly2.berkeley.edu/" target="_top">BDGP</a> (Berkeley
+<i>Drosophila</i> Genome Project).  All three teams are working on using Java
+and a really nice example of an interactive, Java-based, <a href="http://flybane.berkeley.edu/gregg/genomebrowser/GenomeBrowser.html" target="_top" target="_top">Genome
+Browser</a> for fly-information has already been produced by Gregg
+Helt at Berkeley.
+
+<p>
+
+Other examples of Java pages of interest to biologists can be found at
+<a href="http://www.embl-heidelberg.de/~toldo/JaMBW.html" target="_top">The
+Java-based Molecular Biology Work Bench</a>.  Links to hundreds of
+other Java sites may be found at <a
+href="http://www.developer.com/directories/pages/dir.java.html">Gamelan</a>, the Java
+Directory.
+
+<hr>
+
+<h4>The Illustra ORDBMS</h4>
+
+
+<h5>A Bit of Background</h5>
+<p>
+The Illustra server is an example of an 'Object-Relational Database
+Management System' (ORDBMS), also called 'Extended-Relational' by
+others. It is similar in many ways to traditional DBMS such as Sybase
+or Oracle, but also provides some interesting object-oriented features.
+
+<p>
+
+Illustra, the company that sells the Illustra server, was founded
+in 1992 by Michael Stonebreaker (the founder of Ingres Corp.) and
+represents the commercialization of a seven-year University of California
+database research project called "Postgres".
+
+<p>
+
+The whole goal is to allow users to ask more complex queries on more
+complex data than could be done with previous DBMS's. Application
+architects are seeking to expand the definition of data to include,
+for example, diagrams, maps, images, sound, documents, time series and
+multi-dimensional data. Relational Database Management Systems
+(RDBMS's) usually store complex data as uninterpreted BLOBs (Binary
+Large Objects), but because BLOBs are uninterpreted bit patterns, the
+RDBMS does not know how to perform content-based queries on them and
+it has no sensible comparison operators, so it cannot intelligently
+build an optimal query plan and it cannot provide high performance
+storage and retrieval.  The hard work is left up to the individual
+application developer - the work of understanding the contents,
+format, and methodologies required for each data type - and this work
+needs to be re-invented and re-embedded in each application. Worse,
+because the RDBMS cannot understand BLOB contents, BLOBs have to be
+shipped across the network to the client for processing, placing a
+heavy burden on scarce network bandwidth.
+
+<p>
+
+Object Orientation (OO) offers a new way to view and model the
+relationship between data and applications and brings the hope that
+applications will become easier to develop, more robust and more
+maintainable.  Some RDBMS vendors are grafting an object layer on top
+of previous relational product, but the basic engine is generally
+unable to understand how to optimize storage and access to object
+data, thus making the DBMS somewhat inefficient. The merger of the
+existing client/server database model with Object Orientation led to
+the development of Object-Oriented Database Management Systems
+(OODBMS) that could store objects created by an OO application,
+<i>e.g.</i>, a C++ program. However, the OODBMS model suffered from
+the lack of a common query language. Much of the appeal of the RDBMS's
+stems from their use of a widely-adopted query-language, SQL, which
+makes their architecture so flexible. In addition many ODBMS systems
+seem to lack very important high level features required by
+corporations, including scalability, security, server-side functions
+and concurrency.
+
+<p>
+
+Illustra tries to combine the best of both worlds by providing a
+reliable and efficient system with a standard SQL query language
+interface together with the tools to manage complex data and achieve
+content-based query capability, comparison operators, query
+optimization, efficient storage and access, and reasonable
+performance on complex types.
+
+<p>
+
+<h5>Brief Comparison with Traditional RDBMS</h5>
+
+<p>
+
+Illustra shares many aspects with other well-known Relational DBMS
+products:
+
+<ul>
+<li>usual data types and built-in functions: int, float, date, varchar, abs(), sum(), count(), <i>etc</i>
+<li>usual structures and server-enforced data integrity: page and table locks, keys, defaults, tables, views, cursors, <i>etc</i>
+<li>flexible data access via ANSI-SQL 92, the current agreed-upon industry standard
+<li>client-server architecture with built-in support for TCP/IP
+<li>rules (to specify actions to be taken before, after, or instead of a user request)
+<li>standard security controls, transactions and recovery (log, dump and transaction management)
+<li>client API (C and C++) and user-defined functions executable on the server side
+</ul>
+
+Illustra adds some very interesting features:
+
+<ul>
+<li>function overloading (use of a signature)
+<li>single and multiple inheritance on both tables and types
+<li>user-defined composite datatypes and type casting
+<li>arrays and sets
+<li>references (<i>i.e.</i>, pointer to a row's internal object identifier)
+<li>alerters to inform external programs about events within the databases
+<li>archiving of non-current (<i>i.e.</i>, deleted or updated) data for 'time travel' or versioning
+<li>scrollable (non-updatable) cursors
+<li>possibility of defining a table's column as the result of a user-defined function
+<li>datablades, which are sets of domain-oriented data types, functions and access methods
+optimized for certain tasks such as image processing, text searches or www publishing.
+The datablades enhance the flexibility and the extensibility of the databases and their
+related applications
+</ul>
+
+<p>
+
+The combination of some of these features allows Illustra to exhibit the following object-oriented features :
+<ul>
+<li>encapsulation
+<li>inheritance
+<li>polymorphism
+</ul>
+
+<p>
+
+Illustra lacks some features that have proven to be useful in other
+systems such as Sybase:
+
+<p>
+
+<ul>
+<li>no added flow control in the SQL language (<i>e.g.</i>, nothing like Sybase's Transact-SQL)
+<li>only a few third-party tools (may change, as still a young product)
+<li>uncertainty about the performance on sites with multiple simultaneous database modifications
+<li>nothing done for the replication of server data on secondary sites
+</ul>
+
+<p>
+
+However, the recent purchase of Illustra by Informix may solve some of
+these issues in the soon-to-be released 'Informix Universal Server'
+which is supposed to integrate the Illustra engine and its datablades.
+
+<p>
+
+<h5>Advantages for Biology and Genetics</h5>
+
+<p>
+
+Using object-orientation doesn't necessarily make your model easier to
+design, but it may help making it more understandable by biologists
+with no particular database background.  Moreover, your database
+logical design is closer to reality and to what users really want,
+thus making it potentially easier to maintain and re-use.
+
+<p>
+
+The datablades allow you to quickly use efficient tools for
+manipulating biological data that are usually not easily handled by
+relational DBMS. Among many features, Illustra provides :
+
+<p>
+
+<ul>
+<li>visual information retrieval (VIR) to search the content of an image
+on color, composition (spatial arrangements of the color regions in
+the scene), texture (e.g. wood grain, granite, marble or clouds) and
+structure (general shape characteristics of the object in the
+image). You don't need to store images in the database unless you
+choose to do so.  When an image is loaded, the Illustra engine
+analyzes it and does a "feature extraction" which produces a small
+numeric string that describes the image along the search criteria
+listed above. This allows you to store the image on a less expensive
+archival medium and also provides very fast searches.
+
+<li>2D and 3D spatial objects to search for overlap, perimeter, area,
+containment and volumes
+
+<li>advanced document and text searches, storage and management.
+
+<li>management of web pages and generation of dynamic database front-end
+with live web pages.
+</ul>
+
+All these features can be combined to answer complex queries such as :
+
+<ul>
+<li>find pictures of anthocyanin-producing lines with a Columbia background 
+<li>give me all the references where an abstract is related to gene splicing 
+<li>find all the people in Sweden working on seed-irradiation
+<li>draw me the physical map with this set of contigs 
+<li>find all light-regulated genes and color in red their protein factor on the global sequence
+
+<!-- ADD YOUR FAVORITE ONES HERE ----------- -->
+
+</ul>
+
+<p>
+<h5>Information on Object-Relational Databases</h5>
+
+<p>
+
+Even if some uncertainties are still surrounding the Illustra
+products, it is time to think to better approaches in order to tackle
+the complex and intuitive queries that biologists have been wanting to
+ask for years. Illustra is one of the few DBMS's that provides flexibility
+and reliability while maintaining the legacy of SQL-based
+projects. Furthermore, its set of tools allows us to create biology-related
+applications and databases that could be easier to learn, query, adapt
+and maintain.
+
+<p>
+
+For more information available on the WWW :
+
+<p>
+
+<ul>
+<li><a href="http://www.illustra.com/cgi-bin/Webdriver?MIval=white_papers_browse&name=Object%2dRelational+DBMS+%2d+The+Next+Wave" target="_top">Object-Relational DBMS - The Next Wave</a>: a paper from Michael
+Stonebraker, the founder of Illustra
+
+<li><a href="http://www.illustra.com/cgi-bin/Webdriver?MIval=products_software_browse&name=Illustra+Object+Relational+Database+Management+System" target="_top">The Illustra DBMS server</a>: A document describing the features of Illustra's product.
+
+<li><a href="http://www.informix.com/informix/products/new_plo/plo1.htm#database" target="_top">Informix products</a>: A list of current Informix products.
+
+</ul>
+
+
+Other ORDBMS :
+
+<ul>
+<li><a href="http://www.unisql.com/" target="_top">UniSQL</a>
+<li><a href="http://www.omniscience.com/default.htm" target="_top">Omniscience</a>
+</ul>
+
+<h5>Current <i>Arabidopsis thaliana</i> Database Prototype</h5>
+
+The <a
+href="http://genome-www3.stanford.edu/atdb2_welcome.html" target="_top"><i>Arabidopsis
+thaliana Database</i> Prototype</a>, a work in progress, can now be
+used.  As of July 1996 three types of information are available from
+the prototype: Colleague (names and addresses of <i>Arabidopsis</i>
+researchers from around the world, References (published literature on
+<i>Arabidopsis</i>), and YAC/Cosmid physical map walking results
+called "Tiling Paths".  The first two areas can also be found in the
+<a href="/cgi-bin/search_at/AtDB?" target="_top">ACEDB
+based AtDB</a>, but the Tiling Paths are only available from the
+prototype.
+
+<hr>
+
+</BLOCKQUOTE></body></html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+TAIR Database Administrator
+
+TAIR, The Arabidopsis Information Resource -- http://arabidopsis.org -- is a National Science Foundation-funded 
+web resource for thousands of plant biology researchers worldwide, providing free access to a wide array of 
+biological data and analysis tools for the model plant Arabidopsis, including the first and most complete 
+multicellular eukaryotic genome sequence. 
+
+We are looking for a Database Administrator to support internal and production mission-critical Sybase and 
+MySQL databases. Initially, the primary focus will be on assisting with the migration in-house of a set of 
+large, complex Sybase databases from a subcontractor. In addition to DBA responsibilities, the preferred 
+candidate will be capable of wearing multiple hats and could provide at least backup-level system administration 
+support for our Solaris / Linux infrastructure and production environment. 
+
+Responsibilities: 
+
+- Provide primary database support for the in-house migration of a set of large, complex, mission-critical 
+Sybase 12.x databases on the Solaris SPARC platform. Learn the schema in detail (interacting with subcontractor 
+staff as necessary), create and maintain in-house instances of the database (including specifying the physical 
+structure), load the database from dump files, troubleshoot and tune the database, etc. 
+
+- Develop information storage requirements with internal users. 
+
+- Implement and deploy databases that are correct, reliable, secure, and high performing. Monitor databases 
+on an ongoing basis. 
+
+- Devise high-availability strategies for databases (backup and restore procedures, mirroring, replication, etc.). 
+
+- Provide expert support for existing database schemas and instances, including routine administrative and 
+24x7 production support. 
+
+- Install and upgrade DBMS and OS software as needed. 
+
+- Write extensive documentation on database schemas and instance support. 
+
+- Provide at least backup-level system administration support when needed. Technologies used by TAIR 
+include Linux (Red Hat), Solaris, Apache, Tomcat, Macromedia JRun, NFS, Perl, and Python. 
+
+Requirements: 
+
+- BS in Computer Science / Management Information Systems or equivalent experience. 
+- At least three years of experience designing and managing complex Sybase 12.x databases. 
+- At least one year of experience designing and managing MySQL 4 databases. 
+- Willingness to support production databases 24x7. 
+- Knowledge of / interest in plant biology strongly desirable. 
+- Ability to lift and carry computer equipment (minimum 50 lbs.). 
+- Ability to assemble and connect computer equipment. 
+- Ability to interact, work cooperatively, and communicate with coworkers. 
+
+For immediate consideration, please email your resume (in text [ASCII], HTML, or Microsoft Word format) 
+to dba-jobs@aztec.stanford.edu. 

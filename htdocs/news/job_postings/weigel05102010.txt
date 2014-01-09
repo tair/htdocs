@@ -1,0 +1,47 @@
+PhD and postdoc positions in bioinformatics 
+
+New sequencing technologies are revolutionizing both bottom-up and top-down 
+approaches in biology. The Weigel lab has been a leading early adopter of these 
+technologies and was one of the first in Europe to extensively exploit the Illumina 
+sequencing platform (since 2007). We have developed a variety of analysis tools based on 
+our SHORE pipeline, and are using these for diverse applications, from genome sequencing 
+and epigenetic profiling to transcriptome and transcription factor binding studies, in 
+bacteria, animals and plants. Two positions are available both for developing new 
+algorithms and strategies for primary analysis of second- and soon third-generation 
+sequencing technologies, and for using these data to study a wide array of biological 
+questions. The flagship project in this area is the 1001 Genomes project for Arabidopsis 
+thaliana (http://1001genomes.org), which we have initiated and for which we have 
+already delivered over 80 genomes.
+
+We are also taking a leading role in having the genomes of several members of the 
+Brassicaceae, to which the model plant Arabidopsis thaliana belongs, sequenced. Our first 
+efforts in this area resulted in reference genome sequences for Arabidopsis lyrata and 
+Capsella rubella . One position is available for comparative genomics studies that will take 
+advantage of these data sets.
+
+Finally, automated image analyses are beginning to play an important role in high-
+throughput phenotyping projects aimed at linking genotypic to phenotypic diversity. One 
+position is available in this area.
+
+Candidates will have knowledge and interest in sequence and genome analyses, and 
+experience in programming (PERL/PYTHON, Java, SQL, C/C++) and in the use of Linux OS. 
+
+We are working closely with other groups in Tübingen that are primarily informatically 
+oriented. These include Daniel Huson at the University Tübingen, Gunnar Rätsch at the 
+Friedrich Miescher Laboratory and Bernhard Schölkopf at the Max Planck Institute for 
+Biological Cybernetics on the same campus, as well as Karsten Borgwardt, who heads a 
+departmental research group jointly sponsored with Bernhard Schölkopf. Our work in this 
+and other areas routinely results in high-profile publications (e.g., Maizel et al., 
+Science 2005; Wigge et al., Science 2005; Clark et al., Science 2007; Sureshkumar et al., 
+Science 2009; Wang et al., Cell 2009; Ossowski et al., Science 2010; Todesco et al., 
+Nature in press), and presents extraordinary opportunities for talented and ambitious 
+students and postdocs. Additional information on the group, the institute, and Tübingen 
+can be found on our website (http://weigelworld.org). 
+
+Please send applications, with a statement of purpose, names of references, and the subject 
+line <bioinformatics posting> to
+
+Detlef Weigel 
+Director, MPI for Developmental Biology 
+weigel@tue.mpg.de
+ 

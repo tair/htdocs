@@ -1,0 +1,391 @@
+<head>
+<title>ACE-mbly Displays</title>
+</head>
+
+ACE-mbly is an ACEDB based program for displaying and editing sequence
+reads from an ABI sequencer. It is being developed by Ulrich Savauge and 
+Danielle & Jean Thierry-Mieg.  This documentation was developed at the ACE95
+conference using the prototype software available at the meeting.
+
+<h2>The Main KeySet Window</h2>
+
+<img src=main.0.gif>
+
+<p> This window lists the results of the automatic assembly program.
+Each item is an assembly of DNA sequencing reads. <p>
+
+After clicking on an item (for example a2), the program opens a Sequence Display window<p>
+
+
+<h2>Sequence Display (fmap) in the assembly package</h2>
+
+<img src=arrow.1.gif><p>
+
+By default the Sequence Display (fmap) in the assembly package shows
+the following columns (Appearence is dependent on the presence of the
+appropriate data in the database).
+
+</ul>
+<li> Up Genes
+<li> Restriction map
+<li> Scale
+<li> Down Genes
+<li> Embl Features
+<li> Alleles
+<li> Assembly Tags
+<li> Alignements 
+<li> Previous Contigs
+<li> Contigs
+<li> Trace Assembly
+<li> Multiplets
+<li> Brief Identifications
+<li> Text Features
+</ul>
+
+The specialize columns in the assembly sequence display are;.
+</ul>
+<li> Previous Contigs<br> <img src=PreviousContigs.gif><p>
+<li> Contigs<br> <img src=contigs.gif><br>
+<dl>The Contigs bar has a pop-up menu with the following items<br>
+<dd>Flip - flips contig
+<dd>Move to - moves contig 
+<dd>Join to - attempts to join two contigs
+<dd>Compair to-
+<dd>Fix- automatically changes sequence 
+<dd>Extend Extremities - attempts to lengthen reads
+<dd>Consolidate clips -
+<dd>Re-assemble - 
+<dd>Auto-edit
+<dd>Double-Strand
+<dd>Clip on Excellent - most stringent clipping
+<dd>Clip on Good - stringent clipping
+<dd>Clip on Fair - moderately stringent clipping
+<dd>Unclip to Max - extend to maximum length
+<dd>Repeated 12 mers - show repeated 12 mers from selected contig over the entire project, an exampe is show below.
+</dl>
+<p>
+
+<img src=acemb12mer.gif><p> The colored bands on the yellow bar at
+the far left represent the 12 mers.  The presence of the additional
+colored bands on the end of the contig above is a suggestion that the
+two contigs may be joined.<p>
+
+
+<li> Trace Assembly<br> <img src=TraceAssembly.gif><br>
+The Trace Assembly lines have a pop-up menu with the following items<br>
+<dd>Who am I
+<dd>Repeated 15-mer
+<dd>Remove Sequence
+<p>
+
+<li> Multiplets <br><img src=multiplets.gif><br>
+Multiplets are paired reads from either side of the cloning
+vector. Lines are created based on the sequence read names. Identical
+names (excluding the suffix after the last period '.') are joined.
+Reads separated by more than 1500??? base pairs are in red, reads of the
+expected size are in light green.
+
+
+<p>
+</ul>
+
+
+
+<h3> Window Actions</h3>
+Various window buttons affect the column display.<p>
+
+Columns, Whole, Zoom In, Zoom Out, Analysis; are the same as the
+regular sequence display.  Assembly, Arrows, Quality, DNA are specific to,
+or modified in the assembly display.
+<li> <b>Assembly</b> - a submenu button 
+<dd> Assemble - attemps assembly of project reads
+<dd> Join - attemps contig joins
+<dd> Re-insert Loners - attemps to re insert loner reads
+<dd> Fix - 
+<dd> Consolidate Clips - 
+<dd> AutoEdit - makes machine suggested edits in reads
+<dd> Save - 
+<dd> Command Window - 
+
+<li> <b>Arrows</b> toggles Trace Assembly arrows
+<li> <b>Quality</b> toggles "quality" display items
+<li> <b>DNA</b> toggles display of DNA sequence
+<li> <b>Variations</b> appears once the DNA sequence is displayed 
+<p>
+
+
+
+
+By clicking on the Zoom In button several times, the arrow heads of
+the Trace Assembly column expand to show intervals. The direction of the
+read is indicated by the direction of the arrow. The small circles at
+the top and bottom of the column indicate that the read extends beyond
+the window display area.<br>
+<img src=TraceAssembly2.gif><br>
+
+Clicking on the "Quality" button displays the regions of sequence
+conflict on the Trace Assembly lines, red for miss matches  and blue
+boxes for insertions. The
+contigs column also changes to indicate the relative coverage on both
+strands.<br>
+
+<img src=TraceAssembly3.gif><br>
+<p>
+
+
+<h3>Additional columns</h3>
+
+Additional columns appear on the display depending on your selections.
+
+By clicking on an arrow <img src=arrow.3.gif>
+you bring up the sequencing traces themselves.
+<p>
+
+<h2>The Traces Window</h2>
+<img src=traces.window.gif><p>
+
+The Traces window contains a complex series of columns. From left to
+right these are;<br> 
+
+<dl> 
+
+<li><b>Scale and Consensus sequence</b><br>
+ <dd> <img src=traceScale1.gif><br>
+indicates position within the sequence in base pairs<p>
+
+<li><b>Base Calls</b><br>
+<img src=traceBaseCall.gif><br>
+<dd> Dots in the column indicate agreement
+with the consensus sequece.  The number of dots indicates the number
+of overlaping reads in the portion of the sequence being displayed.
+Blue bars located in the "dot" columns indicate vector sequence.<p>
+
+<li><b>Locator bar</b><br>
+<img src=traceLocator.gif><br>
+<dd> The length of the green locator bar
+indicates the proportion of the sequence which is displayed in the
+trace columns.  Clicking on the green bar brings the contig display
+window to the front<p>
+
+<li><b>Scale 2</b><br>
+<dd><img src=traceScale2.gif><p>
+Base pair position and consensus sequence relative to the trace
+display
+
+
+<li><b>Traces</b><br>
+<dd><img src=traceTraces.gif><br>
+
+Intensity traces from the sequencer are displayed with a color code; A
+in green, T in red, G in black and C in blue.  The number of traces
+which are displayed depends on selections under Show button. The
+numbers at the top of trace columns indicate the position within the
+individual read. A blue background indicates that the read has be
+designated as high quality (generally a reflection of the sequencing
+protocol). Triangles at the top indicate the direction of the read.
+Clicking on a triangle removes the trace from the display window. A
+second character (a t g c) with a highlighted background in the base
+call column is a suggestion for an edit to the sequence calls, and
+occurs at positions where the ACEDB base calling procedure conflicts
+with the sequence of the SCF file.  Machine edited positions are shown
+with a green background, while manually edited positions are shown
+with a yellow background.  Regions which have been removed from base
+calling (clipped sequences) are shown as yellow bars over the sequence
+read.
+ </dl>
+
+<h3>The Traces Window Buttons</h3>
+
+Quit, Help, Zoom In, Zoom Out, Print; These buttons function as in the
+sequence display.<p>
+
+<li><b>Show</b> - a submenu button <br>
+<dd>Show All Traces
+<dd>Show Up Traces
+<dd>Show Down Traces
+<dd>Compare To Other Consensus
+<dd>Show best + Errors
+<dd>Show only best traces
+<p>
+
+
+
+<li><b>Next</b> - a submenu button <br>
+<dd>Clip
+<dd>Hole
+<dd>Error
+<dd>Problem
+<dd>Comparison
+<p>
+
+<li><b>Fix</b> - a submenu button <br>
+<dd>Fix Whole Contig
+<dd>Realign
+<dd>Auto Edit BaseCall
+<p>
+
+<li><b>Tag</b> - a submenu button <br>
+<dd>Compression
+<dd>Ambiguity
+<dd>Resolved
+
+<h3> Window Actions</h3>
+
+<b>Navigation</b>
+Zoom and scroll can be controlled by licking to the
+left of the Locator bar with the middle mouse button. Dragging up or
+down controls the vertical position, while dragging left or right
+controls the zoom.<p>
+
+Clicking to the right of the Locator bar with the middle mouse button
+displays a horizontal cursor. Releasing the button causes the display
+to recenter at the position of the cursor.<p>
+
+Following a selection from the "Next" button submenu,  a similar
+middle button click, but coupled with a vertical drag, will move the
+display to the next display object (for example the next error).<p>
+
+<h3>Sequence Editing</h3>
+<dl>
+<li> Manual Editing
+
+<dd> Placing the mouse cursor on a sequence character and clicking
+with the right button opens an editing menu.  Bases may be changed or
+deleted or the sequence may be clipped.  The menu items "energie de la
+derivee" and "periodicite" produce graphics for the analysis of trace
+amplitude and periodicity.<p>
+
+
+Clicking between sequence characters with the right button brings up
+the insert menu, allowing the addition of a base.  If you click out
+side the vertical column defined by the sequence characters, an empty
+character box indicates a misplacement of the cursor.<p>
+
+<img src=traceOpenSeq1.gif><br>
+
+Clipped regions (yellow bars above) may be opened to add more sequence
+to the read by clicking on the down arrows head at the beginning of
+the clipped segment as shown below.  Similarly, the clipped region may
+be extended by clicking on the opposite arrow head.  <br>
+
+<img src=traceOpenSeq2.gif><p>
+
+The suggested changes in the base calls<img src=traceChangeBase1.gif>
+may be accepted by simply clicking on the highlighted character with
+the left mouse button, this yields a single highlighted character<img
+src=traceChangeBase2.gif> in the trace base call column.
+
+
+A double highlight <img src=traceInsertBase.gif><p>represents a
+suggested insertion. After clicking on the highlighted character, the
+display is updated to insert the base at the position of peak
+intensity, as show in these before <img
+src=traceInsert1.gif>and after <img src=traceInsert2.gif>pictures.<br>
+
+
+<h3>Automatic Corrections</h3>
+Automatic edits may be made using the items of the Fix button.<p>
+
+The Fix Whole Contig item makes one pass through all the reads of the
+contig, making the suggested base call changes.  This may produce
+additional suggested corrections for a second pass.<p>
+
+Realign recalculates the contig consensus sequences.<p>
+
+Auto Edit Base automatically makes suggested edits on the region in
+the current window.<p>
+
+
+<h3>Building ACE Objects for the Traces Display</h3>
+
+Data entry for the Ace-mbly and Traces Display is through Sequence
+Objects.  The main body of tags for the Sequence class is described
+elsewhere, however, the ace-mbly tags are given below.
+
+<pre>
+	  ABI      ABI_Date Text
+                   Run_Start Text
+                   Run_Stop Text
+                   BaseCall ?BaseCall
+                   Significant_bases Int UNIQUE Text
+                   Clipping UNIQUE Int UNIQUE Int // present clipping
+                   Old_Clipping UNIQUE Int UNIQUE Int // as imported from Ted
+                   Trace_quality  Excellent_upto UNIQUE Int 
+                                  Good_upto UNIQUE Int 
+                                  Fair_upto UNIQUE Int 
+                   Otto Text REPEAT
+                   Stolen
+                   ABI_Comment ?Text
+	           ABI_Analysis Text
+	           ABI_Machine Text
+	           Sample Text
+                   Author ?Author XREF Sequence
+                   Allele Text
+                   Primer ?Motif XREF PCR_Product
+                   SCF_File UNIQUE Text
+                   Fragment_of UNIQUE ?Sequence 
+          Vector   // Set for Sequence Lorist6 etc.. -> Blue in acembly
+</pre>
+
+<h3>Example entries</h3>
+
+A shotgun sequencing project for a given clone might be named "a2."
+It is made up of Contigs which are listed under the <b>Subsequece</b>
+tag. The integers following each subsequence defines the position of
+the Subsequence on the Ace-mbly map display.  A partial project
+Sequence object is shown below<p> <img src=acembTree1.gif><p>
+
+Subsequence (a contig) is made up of individual overlaping sequence
+reads.  The Subsequence has a consensus sequence which is stored as a
+DNA object of a given length. The individual reads are Sequence
+objects listed under the <b>Assembled_From</b> tag.  The integers
+following each sequence read identifies the base-pair position within
+the subsequence (contig). The sequences of individual reads may
+disagree with the consensus for the Subsequence to which they
+belong. A partial Subsequence entry is shown below.<br>
+
+<img src=acembTree2.gif><p>
+
+Information on the individual reads is stored as a separate Sequence
+object.  Each read has a corresponding DNA object. The name and length
+are stored following the <b>DNA</b> tag.  An individual read may be
+part of several Subsequences, each of which are listed following the
+<b>Assembled_into</b> tag.  The <b>ABI</b> tag indicates that trace
+information is available for a given sequence read. <b>Clipping</b>
+indicates the region which is currently removed from assembly
+calculations.  This changes dynamically with editing choices.
+<b>Old_Clipping</b> is read once from the SCF file and does not change
+dynamically. <b>SCF_File</b> designates the location of the original
+SCF file that is read by ACEDB.  Two examples are given below.<p>
+
+<img src=acembTree3.gif><p>
+<img src=acembTree3a.gif><p>
+
+
+In order to load a DNA sequence and view its trace, follow the steps below:
+<li> Set the environmental variable SCF_DATA to the directory where the SCF files are stored.
+<li> Read in the Sequence annotations in a Sequence object.
+<li> Read in the DNA sequence as a standard DNA .ace file.<p>
+
+For example if the SCF files were stored on /disk2/abi/SCF, use the
+command "setenv SCF_DATA /disk2/abi/SCF".  In the example below, the
+value F46G11/bt09f09.r1 following the tag SCF_File indicates that the file can be found in a subdirectory named F46G11 in the SCF directory.
+
+<pre>
+Sequence : "F46G11.bt09f09.r1abi"
+DNA	 "F46G11.bt09f09.r1abi" 200
+Assembled_into	 "a12.1"
+Clipping	 9 395
+Old_Clipping	 5 369
+SCF_File	 "F46G11\/bt09f09.r1"
+
+DNA : "F46G11.bt09f09.r1abi"
+         tcaaagtacctgaaaaatagttttagctaaaatcagcaacgaaagaccaa
+         ccatttccgtttataagcaaattttctgctttgatatctcggtggatggc
+         accgacggaatgcaaatatactagggctcttgttgtaaagtagattatgc
+         gaacgacaaagtcaattgagacttctttgtacttgagaagcacatccgca
+
+</pre>
+
+<hr>
+<a href=http://probe.nalusda.gov:8000/acedocs/index.html> Back to ACE Documentation</a>

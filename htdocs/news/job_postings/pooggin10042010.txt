@@ -1,0 +1,47 @@
+We are looking for a PhD student to work on a project 
+
+"Next generation sequencing for studying viruses and RNA silencing-based 
+antiviral defense in model and crop plants" 
+
+We shall apply the Illumina deep-sequencing technology and develop 
+bioinfomatic tools to study the viral genome, transcriptome and small 
+RNA populations in experimentally infected Arabidopsis plants and 
+naturally-infected crop plants with the ultimate goal to obtain 
+knowledge for designing an effective RNA-based antiviral vaccine. 
+
+Virus-infected crop plants including rice, cassava, blackgram, cotton, 
+banana and tomato, collected in fields worldwide, will be investigated 
+by deep-sequencing of fractionated nucleic acids in order to (i) 
+identify and de novo assemble complete genomes of newly emerging and 
+resistance-breaking viruses, viral strains and viral satellites; (ii) 
+determine the nucleotide polymorphism in virus populations; (ii) de 
+novo assemble the viral transcriptome and (ii) create genome-wide maps 
+of virus-derived siRNAs. 
+
+The project is part of a large COST action network with more than 20 
+member-countries (http://costfa0806.aua.gr/). 
+
+
+A successful candidate should have a master/diploma degree in molecular 
+biology and a background and/or a strong interest in boinformatics. 
+
+
+The position is available from the 1st of January 2011; earlier or later 
+starting dates will also be considered. 
+
+
+The working places will be: 
+
+1) Institute of Botany, University of Basel, Basel, Switzerland 
+2) Fasteris AG, Geneva, Switzerland (www.fasteris.com) 
+
+The PhD project will be co-supervised by PD Dr. Mikhail Pooggin (University 
+of Basel) and Dr. Laurent Farinelli (Fasteris AG). 
+
+Contact info: 
+
+Mikhail.Pooggin@unibas.ch; Tel +41 61 267 27 29 
+
+or 
+
+Laurent.Farinelli@fasteris.com; Tel. +41 22 794 22 23 

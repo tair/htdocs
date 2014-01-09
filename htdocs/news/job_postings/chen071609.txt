@@ -1,0 +1,32 @@
+Postdoctoral Fellow in Computational Biology 
+The University of Texas at Austin 
+ 
+We seek a highly motivated scientist to work in a plant molecular genetics and genomics 
+laboratory. Our recent work on polyploidy, hybrid vigor, and epigenetics has led to the 
+publications in Nature and PNAShttp://polyploidy.biosci.utexas.edu/publications.php. The position 
+is available immediately, and salary is competitive with experience. 
+ 
+Successful candidates should have a Ph.D. in Computational Biology, Statistics or Computer 
+Science with interest and experience in analyzing genome sequence and gene expression data. 
+Training and skills in computer programming (perl/C/C++/shell script/linux), mathematical 
+modeling, statistic tests, genome browser, and DNA sequence analysis are desirable. 
+ Experience with data structure of plant genomes, microarrays, small RNAs, microRNAs, and 
+next-generation sequencing data are helpful. In addition to hypothesis testing using genomic and 
+expression data, the postdoctoral fellow will work with a dynamic team of experimental biologists 
+to analyze RNA-seq, ChIP-seq, and small RNA-seq  data. 
+ 
+The Chen lab http://polyploidy.biosci.utexas.edu/ is located in the section of Molecular Cell and 
+Developmental Biology (http://www.biosci.utexas.edu/MCDB/) in the School of Biological 
+Sciences (http://www.biosci.utexas.edu/) and the Institute for Cellular and Molecular Biology 
+(http://www.icmb.utexas.edu/) at The University of Texas at Austin.  There will be excellent 
+opportunities for the postdoctoral fellows and graduate students to interact with faculty and 
+students within MCDB as well as research groups in the Integrative Biology 
+(http://www.biosci.utexas.edu/IB/) and the Center for Computational Biology and Bioinformatics 
+(http://ccbb.biosci.utexas.edu/).  Please visit http://www.utexas.edu for more information about 
+the university and living in Austin. 
+ 
+The University of Texas at Austin is an Affirmative Action/Equal Opportunity employer. 
+ 
+Interested candidates should send a statement of career goals and a copy of curriculum vitae 
+including names and addresses of three references via email <zjchen@mail.utexas.edu>. 
+

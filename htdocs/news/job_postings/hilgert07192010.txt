@@ -1,0 +1,26 @@
+Bioinformatics and Computer Programmer 
+
+The Dolan DNA Learning Center (DNALC) of Cold Spring Harbor Laboratory 
+is looking for a talented programmer to participate in a major National 
+Science Foundation-sponsored project to develop cyberinfrastructure to 
+support plant biology research (iPlant Collaborative). The programmer 
+will work with a multi-disciplinary team to design, develop, and 
+maintain applications for interfacing public APIs, SQL databases, and 
+large data sets. 
+
+The successful candidate should come from a bioinformatics background 
+that includes work with BioPerl, genome databases (such as Chado), 
+browsers, and annotation tools. Expertise in Java, SQL and database 
+schemata, and Unix/Linux are essential. Experience developing web user 
+interfaces - templating, javascript/ajax, DOM, and CSS - is also 
+desirable. 
+
+Excellent problem-solving and communication skills are required to 
+become a member of an elite Internet development team that operates at 
+the interface of high-level biological research and education. 
+
+CSHL offers a competitive salary and comprehensive benefits package. 
+
+Please apply for Position # 934 online at:
+https://careers.peopleclick.com/careerscp/client_cshl/external/en-us/ 
+gateway.do?functionName=viewFromLink&jobPostId=704&localeCode=en-us 

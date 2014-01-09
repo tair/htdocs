@@ -1,0 +1,39 @@
+
+
+
+Dear Colleagues
+
+Some of you might have noticed EMBL accessions Z97335-Z97344 inclusive, sent to
+EBI on June 15. These are ten 200 kb  contiguous regions from the FCA region of
+chromosome 4, between markers COP9 to G3845. The EMBL accessions will be
+updated quite soon with EST matches, the latest modifications to gene modelling
+and with the cosmid and BAC clone containing the sequence. A graphical version
+of the relationship between the chromosome markers, cosmid and BAC clones and
+sequence features is being implemented by NASC (Mary Anderson and Sean Walsh)
+and Stanford (Mike Cherry and Dave Flanders). This will help you identify the
+clones containing your sequence. The cosmid clones and TAMU BAC clones from
+this contig will be available from AIMS shortly. The IGF BACs can be obtained
+from http://www.rzpd.de/ (the Thomas Altmann lab). Note that our early sequence
+only contains TAMU BACs from the original 11 plate library ( the "classic"
+collection) which are available from AIMS. Individual TAMU BACs from plates
+12-33 can be obtained from Ian Bancroft at JIC, until a distribution policy for
+the complete TAM library can be arranged.
+
+BAC sequences from the second stage of the EU project are accessible per
+anonymous ftp  (ftp ehpmic.mips.biochem.mpg.de)
+ login:anonymous
+ password:guest
+ subdirectory  CRESS)
+and links from our web BAC allocation table are implemented.
+
+These clones are not yet annotated, but their precise collinearity with the
+genome is known by matching restriction sites. The sequence must be regarded as
+incomplete until annotation is done, as modelling can reveal potential
+frameshifts that will be investigated. Once they have been annotated and any
+sequence errors corrected they will be sent to EMBL and removed from the ftp
+site.
+
+MIke Bevan
+Coordinator
+EU Arabidopsis Genome Project
+

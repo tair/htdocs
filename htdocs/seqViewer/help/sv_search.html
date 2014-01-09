@@ -1,0 +1,113 @@
+<html>
+
+<head>
+<title>SeqViewer Search Page</title>
+</head>
+<link rel="stylesheet" type="text/css" href="/css/help.css">
+
+<!-- HEADER using external JavaScript file -->
+<script language="JavaScript" src="/js/helpheader.js"></script>
+<script>
+setPrevious("sv_intro.html");
+setNext("sv_closeup.html");
+writeHeader();
+</script>
+
+<!-- End of header -->
+</head>
+
+<blockquote>
+<h2>SeqViewer Search Page</h2>
+<hr>
+
+   <font class="cont">The SeqViewer search page displays a clickable view of the whole Arabidopsis genome at the top and tools for searching and customizing closeup views below.</font><p>
+<dl>
+<font class="cont"><b><a href="#wholesearch">Whole Genome View</a></b></font><br>
+<font class="cont"><b><a href="#closesearch">Closeup View Controls</a></b></font><br>
+<font class="cont"><b><a href="#searchtools">Search Functions</a></b></font><br>
+<font class="cont"><b><a href="#nucnamesearch">Search by Name</a></b></font><br>
+<font class="cont"><b><a href="#nameressum">Name Search Summary Page</a></b></font><br>
+<font class="cont"><b><a href="#nucseqsearch">Search by Sequence</a></b></font><br>
+
+
+
+<h2><a name="wholesearch"></a><font class="cont">Whole Genome View</font></h2>
+<p><font class="cont"> Each of the five nuclear chromosomes is displayed as a green chromosome bar. Landmark markers used for orientation are indicated in grey. Centromeres are incidcated in blue.</font>
+<p><font class="cont">The whole genome view allows you to browse a region of the genome. Click anywhere on one of the green chromosome bars to open a closeup window centered on the selected region.</font>
+<p><img src="images/home1.gif">
+<hr></hr>
+<h2><a name="closesearch"></a>Closeup View Controls</h2>
+<p><img src="images/home2.gif" border="1">
+<p>
+<font class="cont">The Closeup View controls allow the zoom level and map bands of closeup views to be customized before a closeup view is opened.  Use the drop-down menu to choose the desired zoom level and put check marks by the data types desired in the closeup view.  After choosing the zoom level and data types, click on a chromosome in the whole genome view at the top to open a closeup view. If you perform a <a href="#nucnamesearch">search</a>, the default settings will be used. Click on the red tick mark representing your query result to open a closeup view. </font> 
+<p>
+<hr>
+<p>
+<h2><a name="searchtools"></a>Search Tools</h2>
+
+<p><font class="cont">Below the five chromosomes is the whole genome view options box where you can search for a variety of features. Two buttons allow you to search by name or sequence. You can either input your text directly or upload a text file from your computer.</font>
+<h4><a name="nucnamesearch"></a>Search by Name</h4>
+   <font class="cont"><img src="images/home3.gif" border="1">
+<p>
+<font class="cont">To search for an object such as a marker, gene or clone by name: Make sure the "name" button is selected, then choose an object type from the drop-down menu. Enter the name in the search term input box, and click on the Search button.  Names can include wild cards (asterisks that will match any character).For example "phy*" would find all genes starting with phy (e.g. phyA, phyB) or "*ap*" would find all genes containing ap (e.g. ap1, ap2, gap2, rap1). To search with multiple names (of the same data type) either input each name on a new line or upload a file containing  a list of names. Up to 250 names can be searched at one time.</font> 
+</p>
+
+<p>
+
+</font>
+</p>
+
+<p>
+<font class="cont">Search results will be displayed as vertical red bars on the whole genome view at the top of the page.  Clicking on the chromosome near the hit will open a <a href= "sv_closeup.html">closeup view</a> displaying the hit as a name highlighted in yellow.</font> 
+</p>
+<p><img src="images/home6.gif" border="1">
+<h4><a name="nameressum"></a>Name Results Summary Page</h4>
+<p><font class="cont">When you search by name the number of hits is displayed in the whole genome view along with the vertical bars on the chromosomes. Clicking on the results opens a window displaying a list of all of the matched items. Clicking on the coordinates in the Location row will open a <a href="sv_nuc.html">Nucleotide Sequence View</a> centered on the object of interest.</font>
+<p><img src="images/home7.gif" border="1">
+<h4><a name="nucseqsearch"></a>Search by Sequence Match</h4>
+
+<p>
+<font class="cont">The Sequence Search box can be used to search for up to four 15-150 nt sequences.  For example, this search can be used to find all matches to a pair of PCR primers and display the primer matches as highlighted areas on a nucleotide sequence page. Sequences must be in raw, fasta (for one sequence) or multifasta (for two to four sequences) format.<p>
+
+Fasta format:<br>
+>my primer<br>
+agaagaagataacaactcaacac<p>
+
+Raw format:<br>
+agaagaagataacaactcaacac<p>
+
+Multifasta format:<br>
+>primer 1<br>
+agaagaagataacaactcaacac<br>
+>primer 2<br>
+tgggtatgcaacataatcagaag<p>
+
+
+To search for a sequence, click on the "sequence" button, paste the query sequence into the box and click on the Submit button.  </font> 
+</p>
+
+<p>
+   <font class="cont"><img src="images/home4.gif"border="1">
+</font>
+</p>
+
+<p>
+<font class="cont">Sequence search results will be displayed as vertical red bars on the whole genome view at the top of the page and also as numbers in a drop-down menu for each chromosome that had a sequence match.  Clicking on one of the red bars on the genome view will open a <a href= "sv_closeup.html">closeup view</a> containing a new band showing the query location in red.  Selecting one of the numbers from the drop-down menu will open a new window containing a <a href= "sv_nuc.html">nucleotide view</a> with the matching nucleotides highlighted in red.</font> 
+
+<p><img src="images/home5.gif">
+
+  </tr>
+</table>
+
+<!-- footer using external javascript file starts here -->
+<script language="JavaScript" src ="/js/helpfoot.js"></script>
+<script>
+setPrevious("sv_intro.html");
+setNext("sv_closeup.html");
+writeFooter();
+</script>
+<!-- end footer -->
+
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+[Arabidopsis] Postdoctoral position available at the University of Oxford, UK
+
+
+Project Description: Proteomics of the metabolic network of Arabidopsis
+Closing Date:  Monday, August 21, 2006
+
+This is a 3 year project funded by BBSRC and it is hoped the successful
+candidate will begin by 1st October 2006 or soon thereafter. The grant
+holders are Dr Lee Sweetlove, University of Oxford and Prof David Fell,
+Oxford Brookes University and the successful applicant will be under Dr
+Sweetlove's immediate direction and based in his research lab in the Dept of
+Plant Sciences.
+
+The aim of the project is to provide specific experimental information that
+will be used as constraints within a mathematical model of the metabolic
+network of heterotrophic cells of Arabidopsis. This model will ultimately
+allow an exploration of strategies to specifically engineer metabolism for
+altered production of useful end products. The modelling part of the project
+will be done in David Fell's group located nearby at Oxford Brookes
+University and the experimental part in Lee Sweetlove's group. This advert
+relates to the experimental part of the project. Experimentally, two pieces
+of information will be required to constrain the model. First, changes in
+metabolite composition of the cell culture medium will be analysed to
+provide metabolic input and output constraints. And second, information
+about enzyme abundance will be required. The latter will be derived from a
+shotgun proteomics approach in which proteins will be extensively
+fractionated by 2-dimensional HPLC, quantified on gels and identified by
+mass spectrometry. The project will use a state-of-the-art protein
+fractionation system purchased specifically for this project and both
+MALDI-ToF and LC-MS/MS mass spectrometry. The project will also include a
+comparative proteomic study (using ITRAQ) of the proteomic response to
+abiotic stress. Opportunities for cross disciplinary training (ie in the
+mathematical / computational side of the project) will be available.
+
+More details and information on how to apply can be found at
+www.plants.ox.ac.uk by following the "jobs" link. Informal enquiries can be
+made directly to lee.sweetlove@plants.ox.ac.uk
+
+Dr Lee Sweetlove
+University Lecturer
+Department of Plant Sciences
+University of Oxford
+UK

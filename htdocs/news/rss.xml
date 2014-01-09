@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss
+  version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+
+  <channel>
+    <title>TAIR - Breaking News</title>
+    <link>http://arabidopsis.org/doc/news/breaking_news/140?RSS=news</link>
+    <atom:link
+      href="http://arabidopsis.org/news/rss.xml"
+      rel="self"
+      type="application/rss+xml" />
+    <description>The latest news from TAIR</description>
+    <language>en-us</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+
+    <lastBuildDate>Wed, 28 May 2013 11:00:00 PDT</lastBuildDate>
+
+    <item>
+      <title>TAIR will continue with subscription support</title>
+      <link>http://arabidopsis.org/doc/news/breaking_news/140#id45</link>
+      <guid isPermaLink="false">http://arabidopsis.org/doc/news/breaking_news/140#id45</guid>
+      <pubDate>Fri, 23 Aug 2013 11:00:00 PDT</pubDate>
+      <description>
+        A new plan that includes subscription support will keep TAIR available
+        to researchers for the long term. Read more <a href="/doc/news/breaking_news/140#id45">here...</a>
+      </description>
+    </item>
+
+    <item>
+      <title>TAIR moved to servers at iPlant</title>
+      <link>http://arabidopsis.org/doc/news/breaking_news/140#id44</link>
+      <guid isPermaLink="false">http://arabidopsis.org/doc/news/breaking_news/140#id44</guid>
+      <pubDate>Mon, 20 May 2013 11:00:00 PDT</pubDate>
+      <description>
+        Ordering and registration services are available after
+        the completion of the TAIR move to servers at iPlant.
+      </description>
+    </item>
+
+    <item>
+      <title>TAIR moving to servers at iPlant</title>
+      <link>http://arabidopsis.org/doc/news/breaking_news/140#id43</link>
+      <guid isPermaLink="false">http://arabidopsis.org/doc/news/breaking_news/140#id43</guid>
+      <pubDate>Wed, 8 May 2013 11:00:00 PDT</pubDate>
+      <description>
+        Ordering and registration will be disabled from
+        Friday May 17 to
+        Monday May 20 while we move data files to the
+        new server. All services
+        will be restored on May 20 and the URL
+        will remain the same.
+      </description>
+    </item>
+
+    <item>
+      <title>ABRC Fee Increase</title>
+      <link>http://arabidopsis.org/doc/news/breaking_news/140#id42</link>
+      <guid isPermaLink="false">http://arabidopsis.org/doc/news/breaking_news/140#id42</guid>
+      <pubDate>Wed, 10 April 2013 11:00:00 PDT</pubDate>
+      <description>
+        There will be a fee increase for stocks and orders
+        beginning July 1, 2013. This raise in fees is in accordance to
+        our Business Plan submitted to NSF.
+      </description>
+    </item>
+
+    <item>
+      <title>New Set of Confirmed T-DNA Lines Available</title>
+      <link>http://arabidopsis.org/doc/news/breaking_news/140#id41</link>
+      <guid isPermaLink="false">http://arabidopsis.org/doc/news/breaking_news/140#id41</guid>
+      <pubDate>Wed, 28 November 2012 11:00:00 PDT</pubDate>
+      <description>
+        The fourth one-allele set of confirmed T-DNA lines
+        representing 3,263 new loci is now available for ordering as
+        CS27944.
+      </description>
+    </item>
+
+    <item>
+      <title>New from ABRC Education and Outreach</title>
+      <link>http://arabidopsis.org/doc/news/breaking_news/140#id40</link>
+      <guid isPermaLink="false">http://arabidopsis.org/doc/news/breaking_news/140#id40</guid>
+      <pubDate>Wed, 31 October 2012 11:00:00 PDT</pubDate>
+      <description>
+        ABRC is pleased to announce a re-designed Education
+        and Outreach website. The website allows quick
+        and easy donation
+        of education modules, direct ordering and online
+        evaluation of
+        education kits.
+      </description>
+    </item>
+
+    <item>
+      <title>2012 MASC Report Now Available</title>
+      <link>http://arabidopsis.org/doc/news/breaking_news/140#id39</link>
+      <guid isPermaLink="false">http://arabidopsis.org/doc/news/breaking_news/140#id39</guid>
+      <pubDate>Wed, 11 July 2012 11:00:00 PDT</pubDate>
+      <description>
+        Please check out the latest report from the
+        Multinational Arabidopsis Steering Committee.
+      </description>
+    </item>
+
+  </channel>
+</rss> 
+

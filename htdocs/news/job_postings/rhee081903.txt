@@ -1,0 +1,40 @@
+TAIR is seeking applicants for a full-time position of a scientific
+curator who will coordinate the Plant Ontology Consortium efforts. The
+Plant Ontology Consortium is a collaboration between plant model organism
+databases (rice, Arabidopsis, maize, grasses, legumes, and solanaceae) to
+develop shared vocabularies to describe phenotypes and gene expression
+patterns.
+
+Duties and Responsibilities: * organize and moderate monthly phone
+conferences on the project * develop and refine the ontologies with the PO
+curators in participating databases * annnotate Arabidopsis gene projects
+and germplasms with the vocabularies in the ontologies * participate in
+development and application of methods to streamline and enhance the
+quality of annotations
+
+The successful candidate will work with a team of curators, software
+engineers, and database developers at TAIR and collaborating database
+projects such as Grameme. Successful candidates will have a Ph.D. degree
+or equivalent in an aspect of plant biology (e.g. Development, Physiology,
+Biochemistry, Genetics, Plant Pathology), a demonstrated ability for
+independent, critical thinking and excellent communication and teamwork
+skills. Experience with Arabidopsis is preferred but not essential. The
+curator must be able to travel and attend 3 meetings/year of the PO
+consortium. Familiarity with basic UNIX commands, spreadsheets, and
+commonly used biological research tools such as BLAST and MEDLINE
+searching is desired. A working knowledge of PERL and/or SQL would be an
+asset but an extensive background in computing is not required. Qualified
+candidates should email a resume to: Sue Rhee(rhee@acoma.stanford.edu)
+
+
+-----------------------------------------------------------------------------
+Sue Rhee                         	rhee@acoma.stanford.edu
+The Arabidopsis Information Resource	URL: www.arabidopsis.org
+Carnegie Institution of Washington	FAX: +1-650-325-6857
+Department of Plant Biology		Tel: +1-650-325-1521 ext. 251
+260 Panama St.
+Stanford, CA 94305
+U.S.A.
+-----------------------------------------------------------------------------
+
+---

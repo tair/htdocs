@@ -1,0 +1,214 @@
+<TITLE>Graph display models</TITLE>
+
+<H1>Graph display</H1>
+<I>/staffan 1995-05-25</I> <P>
+A proposal for a tag2 system set of models that could be used for
+driving a general graph/network display.
+
+<PRE>
+?Graph ...
+       Contains &lt;TagX&gt; &lt;?Class&gt; XREF Graph
+                ...
+                Graph ?Graph XREF Graph #GraphInfo
+       ...
+</PRE>
+
+Tag2, so &lt;TagX&gt; can be anything. The objects of &lt;?Class&gt;
+should either be ?Graph objects themselves <B>or</B> have the following:
+
+<PRE>
+&lt;?Class&gt; ...
+         Graph ?Graph XREF &lt;TagX&gt; #GraphInfo
+         ...
+
+</PRE>
+
+where &lt;TagX&gt; is the same tag as the one under Contains in the
+?Graph model. <P>
+
+All the complications have to be handled in ?GraphInfo. The main
+one is that of the different natures of arcs and nodes. One
+way of solving this would be to simply force one
+representation. A related complication is that we'll want to keep
+track both of the Class and the name of each object placed on the
+Graph (compare this to Map, where all info is in the form of Tags and
+Floats in Map_position.)
+
+<hr>
+<H2>First iteration</H2>
+
+Force node representation. The ?GraphInfo class keeps info on which
+other Nodes to direct arcs at. To make this general, wee need to make
+this Tag2 also:
+
+<PRE>
+?GraphInfo Label ?Text
+           ArcFrom &lt;Tag&gt; &lt;?Class&gt; // node type
+                   ...
+           ArcTo &lt;Tag&gt; &lt;?Class&gt; // node type
+                 ...
+</PRE>
+It's up to the curator to add all the needed node classes. <P>
+
+The equivalent arc representation would be:
+<PRE>
+?GraphInfo Label ?Text
+           FromNode &lt;Tag&gt; &lt;?Class&gt; // node type
+                    ...
+           ToNode &lt;Tag&gt; &lt;?Class&gt; // node type
+                  ...
+</PRE>
+
+Again, it's up to the curator to add all the needed node
+classes to GraphInfo. <P>
+
+Note that in the Node representation it is hard to represent
+multiple-headed or -tailed arcs, while it's easy in the arc
+representation, <B>but</B> only if we keep an arcID of some sort (I
+think... but this may be internal to the code?)
+
+<hr>
+
+<H2>Second iteration</H2>
+
+Simply bung both representations together! It's now up to the model
+writer/data enterer to chose a sensible representation. In the code,
+though, representation should probably be arc, since that allows
+making multiple-head and -tail arcs.
+<PRE>
+?GraphInfo UNIQUE Node Label ?Text
+                       ArcFrom &lt;Tag&gt; &lt;?Class&gt; // node type
+                               ...
+                       ArcTo &lt;Tag&gt; &lt;?Class&gt; // node type
+                             ...
+                  Arc Label ?Text
+                      FromNode &lt;Tag&gt; &lt;?Class&gt; // node type
+                               ...
+                      ToNode &lt;Tag&gt; &lt;?Class&gt; // node type
+                             ...
+</PRE>
+
+In actual usage you might want to make the Arc and Node branches
+separate constructed subtypes - this would simplify the Tag naming
+[see the Example].
+
+<hr>
+
+<H2>Example</H2>
+
+A simple metabolic pathway expressed in the 'old' notation, and in the
+old models:
+
+<PRE>
+Pathway : "*Alanine biosynthesis"
+Components	 "Glutamate -> Alanine"
+
+Pathway : "Glutamate -> Alanine"
+Major_Reactant	 "Glutamate"
+Major_Reactant	 "Pyruvate"
+Major_Product	 "Alanine"
+Major_Product	 "2-Oxoglutarate"
+</PRE>
+
+Second-iteration models for this:
+
+<PRE>
+?Graph ...
+       Contains Pathway ?Pathway XREF Graph
+                Reaction ?Reaction XREF Graph
+                Metabolite ?Metabolite XREF Graph
+                Graph ?Graph XREF Graph #GraphInfo
+       ...
+
+?Reaction ...
+          Pathway ?Pathway XREF Reaction
+          Metabolites Reactant ?Metabolite
+                      Product ?Metabolite
+          Graph ?Graph XREF Reaction #GraphInfo
+          ...
+
+?Pathway ...
+         Reaction ?Reaction XREF Pathway
+         Graph ?Graph XREF Pathway #GraphInfo
+         ...
+
+?Metabolite ...
+            Graph ?Graph XREF Metabolite #GraphInfo
+            ...
+
+?GraphInfo UNIQUE Node #NodeInfo
+                  Arc #ArcInfo
+
+?NodeInfo Label ?Text
+          ArcFrom FromMetabolite ?Metabolite // node type
+          ArcTo ToMetabolite ?Metabolite // node type
+
+?ArcInfo Label ?Text
+         FromNode FromMetabolite ?Metabolite // node type
+         ToNode ToMetabolite ?Metabolite // node type
+</PRE>
+
+Data expressed in <B>Node style</B> in these models look like:
+<PRE>
+Reaction : "*Alanine biosynthesis"
+Reactant "Glutamate"
+Reactant "Pyruvate"
+Product "Alanine"
+Product "2-Oxoglutarate"
+
+Metabolite : "Glutamate"
+Graph "*Alanine biosynthesis" Node ToMetabolite "Alanine"
+Graph "*Alanine biosynthesis" Node ToMetabolite "2-Oxoglutarate"
+
+Metabolite : "Pyruvate"
+Graph "*Alanine biosynthesis" Node ToMetabolite "Alanine"
+Graph "*Alanine biosynthesis" Node ToMetabolite "2-Oxoglutarate"
+</PRE>
+
+Note that in this case the graph will look like:
+<PRE>
+         Glutamate      Pyruvate
+	     |  \  	/     |
+	     |	 \     /      |
+	     |	  \   /       |
+	     |	   \ /        |
+	     |	    X	      |
+	     |	   / \	      |
+	     |	  /   \	      |
+	     |	 /     \      |
+	     v |_       _|    v
+	 Alanine	  2-Oxoglutarate
+</PRE>
+
+Expressed in <B>Arc style</B>:
+
+<PRE>
+Reaction : "*Alanine biosynthesis"
+Reactant "Glutamate"
+Reactant "Pyruvate"
+Product "Alanine"
+Product "2-Oxoglutarate"
+Graph "*Alanine biosynthesis" Arc FromMetabolite "Glutamate"
+Graph "*Alanine biosynthesis" Arc FromMetabolite "Pyruvate"
+Graph "*Alanine biosynthesis" Arc ToMetabolite "Alanine"
+Graph "*Alanine biosynthesis" Arc ToMetabolite "2-Oxoglutarate"
+</PRE>
+
+I have the feeling this would require some magic stuff in the code -
+namely the implicit assumption that each Arc type object only has one
+arc on the graph, so that all the Graph lines with the same Graph
+object in the object apply to the same Arc. <P>
+
+
+<hr>
+
+<H2>Some remarks</H2>
+
+<I>A personal caveat</I> I have problems keeping this right in my head, so I
+wouldn't be surprised if this is completely off the mark. <P>
+<I>Probably obvious!</I> The code should pass through all the redirections to collect the
+entire network, and check it for consistency before trying to lay it
+out (does the metabolic pathway code do this?) <P>
+
+<hr>
+

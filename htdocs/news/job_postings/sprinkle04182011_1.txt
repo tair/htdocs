@@ -1,0 +1,62 @@
+iPlant Genotype to Phenotype Scientific Analyst
+
+The iPlant Collaborative is a cyberinfrastructure collaborative, working to address grand 
+challenges identified by the plant sciences community. The iPlant Collaborative seeks to 
+develop a comprehensive national cyberinfrastructure which will unite researchers in 
+every plant biology discipline--from those working at the microscopic level, such as 
+molecular biologists, cellular biologists and geneticists, to those working on the 
+ecosystem and planetary level.  iPlant works in partnership with computer scientists and 
+engineers, information scientists, mathematicians and social scientists, in order to 
+facilitate communication and collaboration across all of these disciplines to address 
+questions of global importance and advance all of these fields. 
+
+The iPlant Genotype to Phenotype (iPG2P) project (http://ipg2p.iplantcollaborative.org) is 
+seeking an engagement team analyst (ETA). The ETA serves as a liaison between 
+scientific working groups, the iPlant software development team and iPlant leadership. 
+This involves active discussion with the scientists, research into appropriate 
+bioinformatics tools and supporting technologies, and the judicious application of 
+technical judgment to convert working group conversation into practical design 
+requirements.
+
+The primary responsibilities of the iPG2P Engagement Team Analyst include:
+*	Translation of working group discussions into formal software requirements
+*	Attending working group meetings and leading technical discussions
+*	Working with scientific collaborators to identify needs, articulate priorities, and 
+develop workflows and narratives
+*	Tool research and evaluation, prototype software development and testing
+*	Managing and reporting on project requirements, progress, and deliverables
+*	Performing related duties as assigned by the iPG2P Scientific Lead and Project 
+Manager
+*	Being proactive in identifying opportunities and potential problems
+*	Coordinating development across projects, facilitating integration and cross-
+communication
+
+REQUIRED QUALIFICATIONS
+*	Advanced degree (MS or Ph.D) in a life science discipline (biology, genetics, 
+biochemistry, etc.). Candidates with a degree in another natural science, computer 
+science, information technology or a related discipline will also be considered with 
+a demonstrated track record of research experience in the life sciences;
+*	2-3 years work experience conducting computational biology research and/or 
+collaborative scientific software development (academic, government, or industry);
+*	Interest in science and technology and ability to rapidly adapt to new technologies;
+*	Excellent oral presentation and communications skills
+*	Strong interpersonal skills and ability to build consensus
+*	Advanced ability to work independently under established deadlines and as part of 
+a team
+*	Ability to travel as required to partner/collaborator institutions, relevant conferences, 
+etc.
+
+PREFERRED QUALIFICATIONS
+*	A research background in genomics, genetics, physiology, or molecular 
+biochemistry
+*	Experience in projects involving advanced computing and information technologies 
+used in life science research in academia, government laboratories, and/or industry
+*	Competence in at least two of the following: Perl, Python, C, C++, R, UNIX Shell, 
+Java
+*	Proven ability to promote and support the use of high-performance computing, 
+visualization, networking, and massive data storage systems to scientists to 
+expand their research impact.
+
+Please proceed to the University of Arizona Jobs website to apply, 
+(https://www.uacareertrack.com) and search for "team analyst".  The University of 
+Arizona is an Affirmative Action and Equal Opportunity Employer.

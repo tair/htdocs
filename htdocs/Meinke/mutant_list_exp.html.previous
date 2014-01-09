@@ -1,0 +1,81 @@
+<!This page was last modified by Todd Nickle 6/6/96>
+<HTML>
+<HEAD>
+<TITLE>Explanation of Linkage Table</TITLE>
+</HEAD>
+<BODY BGCOLOR=#FFFFDD>
+<HR>
+<CENTER>
+<H1>Explanation of Linkage Table</H1>
+</CENTER>
+<HR>
+<H2>Column Descriptions:</H2> <P>
+<BR>
+<STRONG>Locus:	</STRONG><BR>
+Name of gene identified by mutation, arranged in alphabetical 
+order, and written in CAPS and without italics to avoid 
+confusion between numbers and letters.  Genes marked with 
+an asterisk are known by more than one name.  Synonyms for 
+these genes are included in the table but are marked with 
+(=) in the second (#) column.<BR>
+<BR>
+<STRONG>#:</STRONG><BR>
+Chromosome where gene is located.  When two different numbers 
+are included, the mutant gene exhibits linkage to markers on 
+different chromosomes.  An equal sign (=) denotes synonyms as 
+explained above.  <BR>
+<BR>
+<STRONG>Status:</STRONG><BR>
+This column summarizes the current status of linkage data:<BR>
+<BLOCKQUOTE>
+	CM:	Gene placed on classical map.<BR>
+	AV:	Location approximated with visible markers.<BR>
+	AM:	Location approximated with molecular markers.<BR>
+	AVM:	Location approximated with visible and molecular markers.<BR>
+	LO:	Gene assigned to linkage group only.<BR>
+	U:	Nature and extent of mapping data unresolved.<BR>
+</BLOCKQUOTE>
+<STRONG>Map:</STRONG><BR>
+Estimated location (cM) of locus on classical genetic map.  
+Numbers marked with an asterisk refer to 
+genes that were initially placed on the recombinant inbred 
+map based on data with molecular markers.  To compensate for 
+map expansion of RI chromosomes, the estimated location of 
+a given locus on the RI map was multiplied by the following 
+constant: <BR>
+<PRE>
+<STRONG>(total length of classical chromosome) / (total length of RI chromosome) </STRONG><BR>
+</PRE>
+in order to estimate the corresponding location on the 
+classical map.  These values for each chromosome were: 
+<UL>
+<LI>chromosome 1 (0.722); 
+<LI>chromosome 2 (0.879); 
+<LI>chromosome 3 (0.678); 
+<LI>chromosome 4 (0.624); 
+<LI>chromosome 5 (0.609).  
+</UL>
+Other genes were localized only to chromosomal regions: top; middle (mid); and bottom (bot).<P>
+<STRONG>Linked Marker:</STRONG><BR>
+Linked visible or molecular marker with recombination 
+data available.  In some cases, data with more than 
+one marker are included.  <BR>
+<BR>
+<STRONG>% Rec </STRONG><BR>
+Recombination percentage between locus and linked marker.  
+A = locus is above linked marker; B = locus is below linked marker.  <BR>
+<BR>
+<STRONG>Lab:</STRONG><BR>
+Reference laboratory that either provided linkage data or 
+has worked extensively with the mutant.
+<BR>
+<STRONG>Full Descriptive Name of Gene Symbol:</STRONG><BR>
+Self explanatory.  Contact stock centers, databases, 
+recent publications, or reference laboratories for 
+additional information.  
+<BR><P>
+
+<P>
+<a href="genepage.html"><IMG SRC="back.gif" BORDER=0></A><BR><A HREF="genepage.html">Back</A><P>
+</BODY></HTML>
+

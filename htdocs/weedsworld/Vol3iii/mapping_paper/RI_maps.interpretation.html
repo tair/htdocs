@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>Mapping and map interpretation; a learning experience</title>
+  </head>
+<script language="javascript">
+<!--
+
+function Page_load(page) {
+	
+
+		
+	   if (page == 4)
+		page_title = "mapping/mapping.html";
+	   else if (page == 5)
+		page_title = "Contents.html";
+	   else if (page == 6)
+		page_title = "mapping_paper/figure1.html";
+
+	if (page_title == "")
+		return;
+	
+	
+	window.parent.frame_main.location = window.parent.frame_menu.home_page + page_title;
+	   
+}
+
+	var strng;
+	function message(id) {
+	   
+
+	   if (id == 4)
+		strng = 'Latest Lister and Dean RI maps';
+	   else if (id == 5)
+		strng = 'WeedsWorld Volume 3(ii) Contents';
+	   else if (id == 6)
+		strng = 'Figure 1 - Marker representation on RI maps';
+
+	   else 
+		return false;
+
+	window.status = strng;
+	return true;
+}
+
+// end of script -->
+</script>
+
+
+  <body bgcolor="#ffffff">
+    <bodytext>
+      <blockquote>
+	  <h1>Mapping and map interpretation - a learning experience</h1>
+<p><a href="mailto:mike@nasc.nott.ac.uk">Mike Arnold</a> and <A HREF="mailto:mary@nasc.nott.ac.uk">Mary Anderson</a> </p>
+<p>
+Nottingham Arabidopsis Stock Centre, Department of Life Science, University of Nottingham, Nottingham, NG7 2RD, UK.</p>
+
+      <hr>
+      <p>In putting together the most recent map we have learnt to appreciate both the problems of interpreting/collating data from many sources and to understand what the data on a map really means. For us this has been a learning experience and so we thought it would be worthwhile to outline what we have found so that others new (and maybe not so new) to mapping can benefit.</p>
+      
+      <h3>How the RI map was constructed.</h3>
+      <p>
+	In order to attempt to automate the process of map construction, and to aid the placement of markers with multiple positions, we have assigned a "framework" of markers which will act as a consistent backbone for the map. Each new map produced will always be constructed from this "framework" thus maintaining consistency through each generation of the RI maps. </p>
+<p>
+So how was the framework constructed? Three of the chromosomes, 2, 4 and 5, have complete, or almost complete physical maps. For markers which appeared on both the physical map and the recombinant inbred map for these chromosomes we set the "framework" to be the order of the physical map. From this framework, all other markers could be placed using recombination scores. For chromosomes 1 and 3 we took the markers which had been mapped and analysed the number of lines for which they had been scored. For markers where more than 90 lines had been tested out of a possible 101, we used this marker in the "framework" for that chromosome. This resulted in a good spread of markers across the entire length of chromosomes 1 and 3, and provides a consistent means of assigning markers to these chromosomes. 
+      </p>
+      <p>
+	After setting the appropriate "framework" for each chromosome, markers are assigned to the map by linkage analysis. Two-point data is calculated for the entire collection of markers and the results of this calculation are used to assign markers to chromosomes based on their linkage to the "framework" markers. In the two cases where a marker could have been assigned to more than one chromosome, we assigned the marker to the chromosome to which Clare Lister had previously mapped the marker. Once the markers were linked to a specific chromosome, we "placed" markers in their most probable position based on three-point data.
+      </p>
+      <p>
+	The maps for some of the chromosomes produced in this way are considerably smaller than previous maps. We can only suggest that the reason for this is that we are no longer constraining the markers to appear in a certain position. By allowing the Mapmaker software to calculate possible local re-arrangements of markers has probably allowed the markers to move closer together.
+      </p>
+
+            <h3>How to interpret the RI maps.</h3>
+      
+      <p>When you view a map with its order of markers and map distances between the markers there is a general reassurance that the order and to some extent the distances between them are "right". However, it cannot be emphasised enough that the accuracy of a map is entirely influenced by the quality of the data that is used in its construction. As map curators can we encourage people who do submit data to use the entire set of the 101 RI Lines. Sending in data for markers which have been scored on only 20 or 30 lines can only yield a very approximate placement and affects the quality of the map overall.</p> 
+<p>
+So having stated that the quality of maps are totally dependent on the data used in their construction, what does the data presented show. We all know and have heard the phrase that maps are "not carved in stone", but there is an underlying belief that what we see is the only representation of the data. In fact, all the markers that you see on a map are not placed there with the same certainty, some may have a unique map position but others may have 7, 8 or more possible map positions and that the one that is shown is the most probable. </p>
+      
+      <p>On the latest map what we have done is to try and represent the certainty of placement of markers. Markers that map to a unique site are shown in <code>plain text</code>, ones that map to more than one site are shown in <i>italics</i>, with the position they are given being the one most likely based on the current data. Markers that have been placed in a framework or subsequence are shown in <b>bold</b>. An example of the new marker representations is shown in <A HREF="figure1.html">Figure 1</a>.</p>
+
+      <p>The way that the distances between each marker is shown on the new maps is also a little confusing. Some of the markers are placed on the backbone of the map.  The rest of the markers are presented to the right of the backbone markers. Each marker which is not on the backbone, has a number associated with it, which shows the relative distance away from the marker placed on the map backbone. The number does not show the relative distances between the non-backbone markers. Where no number is shown, this means that the marker maps to the same position as the backbone marker. <A HREF="figure2.html">Figure 2</a> gives an example of the way distances are represented on the new map. Finally, in some instances mapmaker draws markers at different positions when according to the data it appears they are mapping to the same position. We assume this difference is due to rounding errors in the calculation of position. An example of this is shown in <A HREF="figure2.html">Figure 2d.</a></p>
+      
+	  <h3>Acknowledgements</h3>
+Many thanks to Clare Lister for all her help and advice on mapping and for her helpful comments on this article.
+    </blockquote>
+    </bodytext>
+    
+
+  </body>

@@ -1,0 +1,93 @@
+<!--#include virtual="/template-part1of3.shtml" -->
+
+<title>
+EcoCyc -- Links to Other E. coli Resources on the Internet
+</title>
+
+<!--#include virtual="/template-part2of3.shtml" -->
+</head>
+<body>
+
+<h2>
+<i>E. coli</i> Internet Resources</h2>
+This page summarizes various Internet resources about <i>Escherichia coli</i>.
+This page was written by <a href="http://www.ai.sri.com/pkarp/">Peter D.
+Karp</a>; please send suggestions for additional sources to add to
+<script>obfuscate("ai.sri.com","pkarp","","")</script>.
+<ul>
+
+<li><a href="http://cgsc.biology.yale.edu/top.html">CGSC: <i>E. coli</i> Genetic Stock Center</a> -- A database of <i>E. coli</i> strains, genes, and mutations at Yale University.
+
+<li><a href="http://www.shigatox.net/stec/index.html">Center to facilitate the study of shiga toxin producing <i>E. coli</i></a> at the University of Michigan.
+
+<li><a href="http://genolist.pasteur.fr/Colibri/">Colibri and Metalgen</a> from the Pasteur Institute. Last updated 5/1999.
+
+<li><a href="http://www.uni-giessen.de/~gx1052/ECDC/ecdc.htm">ECDC</a> -- A database of the genetic map of <i>E. coli</i>.
+
+<li><a href="http://bmb.med.miami.edu/EcoGene/EcoWeb/">EcoGene/EcoMap/EcoSeq</a>
+
+<li><a href="http://www.ecosal.org/ecosal/index.jsp">EcoSal</a>, the online version of <i>Escherichia coli</i> and <i>Salmonella</i> (subscription required)
+
+<li><a href="http://www.cf.ac.uk/biosi/staff/ehrmann/tools/ecce/ecce.htm"><i>E. coli</i> Cell Envelope Protein Data Collection</a> at Cardiff University
+
+<li><a href="http://www.uni-giessen.de/~gx1052/IECA/ieca.html"><i>E. coli</i> Database Portal</a> contains many links to <i>E. coli</i> databases on the web.
+
+<li><a href="http://ecoli.bham.ac.uk/"><i>E. coli</i> Index</a> -- Includes Echobase, which contains information about genes and proteins characterized since the <i>E. coli</i> genome was sequenced, and other resources for <i>E. coli</i> researchers and teachers.
+
+<li><a href="http://redpoll.pharmacy.ualberta.ca/CCDB/cgi-bin/STAT_NEW.cgi"><i>E. coli</i> Statistics</a>
+
+<li><a href="http://www.genome.wisc.edu/resources/essential.htm">Essential genes in <i>E. coli</i></a> Last updated 3/2004.
+
+<li><a href="http://ecoli.aist-nara.ac.jp/">GenoBase</a>
+
+<li><a href="http://genprotec.mbl.edu/">GenProtEC</a> -- <i>E. coli</i> genome and proteome database at Marine Biological Laboratory, Woods Hole
+
+<li><a href="http://arep.med.harvard.edu/">Harvard-Lipper Center for Computational Genetics.</a> -- <i>E. coli</i> resources including microarray datasets and predicted location of DNA-binding sites for various proteins. 
+
+<li><a href="http://foodsafe.msu.edu/Whittam/">Microbial evolution laboratory</a> at Michigan State University.  Includes links to several culture collections.
+
+<li><a href="http://www.ou.edu/microarray">OU MCF</a> -- Oklahoma University Microarray Core Facility
+
+<li><a href="http://www.shigen.nig.ac.jp/ecoli/pec/">PEC</a> "Profiling of the <i>E. coli</i> chromosome." --  A compilation of information from various sources.
+
+<li><a href="http://redpoll.pharmacy.ualberta.ca/CCDB/index.html">Project CyberCell</a>
+
+<li><a href="http://www.cifn.unam.mx/Computational_Genomics/regulondb/">RegulonDB</a>
+
+<li><a href="http://www.pasteur.fr/recherche/unites/pmtg/repet/index.html">Short repeated elements</a> in <i>E. coli</i> and some other enterobacteria.
+
+<li><a href="http://www.genome.wisc.edu/">University of Wisconsin <i>E. coli</i> Genome Project</a>
+
+</ul>
+
+
+<h2>
+<i>E. coli</i> Strains and Knockouts</h2>
+
+<ul>
+
+<li><a href="http://cgsc.biology.yale.edu/top.html">CGSC: <i>E. coli</i> Genetic Stock Center</a> -- A database of <i>E. coli</i> strains, genes, and mutations at Yale University.
+
+<li><a href="http://www.genome.wisc.edu/functional/tnmutagenesis.htm
+">Systematic Mutagenesis of <i>E. coli</i> K-12 MG1655 ORFs</a> -- part of the <i>E. coli</i> Genome Project at University of Wisconsin, Madison
+
+</ul>
+
+<h2>
+<i>E. coli</i> Sites of General Interest</h2>
+
+<ul>
+
+<li><a href="http://www.bact.wisc.edu/Bact330/lectureecoli">Bacteriology lecture</a> web site, University of Wisconsin, Madison.
+
+<li><a href="http://www.cdc.gov/ncidod/diseases/submenus/sub_ecoli.htm">CDC infectious disease information pertaining to <i>E. coli</i>.</a> 
+
+<li><a href="http://vm.cfsan.fda.gov/~mow/intro.html">Medical Handbook on <i>E. coli</i></a> at the US Food and Drug Administration.
+
+<li><a href="http://people.ku.edu/~jbrown/ecoli.html">"What the Heck is an <i>E. coli</i>?"</a>
+
+</ul>
+
+<!--#include virtual="/template-part3of3.shtml" -->
+</body>
+</html>

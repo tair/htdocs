@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+#personDetail td.pdCol1 {
+    vertical-align: top;
+    text-align: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+#personDetail tr.pdRow1 {
+    background-color: #F1EFEC;
+}
+
+.addressColumn {
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+}

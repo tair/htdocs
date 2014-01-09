@@ -1,0 +1,28 @@
+3 year Postdoctoral Research Position  at UC Davis
+
+This NSF-sponsored project focuses on the cell-type specificity of DNA damage response in Arabidopsis.  
+Plants exhibit a robust transcriptional response to ionizing radiation, governed by damage-sensing 
+kinases (Culligan, Tissier, and Britt, Plant J, 2006).  Different cells within the plant exhibit very 
+different responses to irradiation, and these responses require the damage-induced transcription factor, 
+SOG1.  Recent advances in the purification of specific cell types from developmentally complex organisms 
+(Deal and Henikoff, Developmental Cell, 2010) allow us to break down the transcriptional response 
+according to cell type.  Thus plants provide us with a unique window into the developmental specificity 
+of damage response in eukaryotes.  The Postdoc sought here will investigate both the mechanism and 
+biological significance of the transcriptional response to DNA damage.
+
+The candidate should be familiar with standard molecular techniques and have an interest in chromosome 
+biology.  Previous experience with RNA-SEQ, expression analysis, and hormone response would be a definite 
+plus.  This project will be performed at the Dept. of Plant Biology at the University of California, Davis, 
+under the supervision of Dr. Anne Britt.  With over 100 plant-focused research groups and a strong program 
+in chromosome biology in many model systems, UC Davis provides an excellent environment for the study of 
+chromosome biology in plants.  Davis is a pleasant college town located in the northern Central Valley of 
+California.  It is 20 minutes from the state capitol (Sacramento), and 1hr 20’ from San Francisco.
+
+Applications should be submitted in electronic form, and should include a CV and three letters of reference.  
+The candidate should be obtained his or her PhD within the last 3 years, and a strong record of publication 
+will be the major criterion for screening applications.  Inquiries and applications should include the subject 
+line “Postdoctoral Position” and should be sent to:
+
+Dr. Anne Britt
+abbritt@ucdavis.edu
+1 530-752-0699

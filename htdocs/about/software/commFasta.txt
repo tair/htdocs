@@ -1,0 +1,225 @@
+#!/usr/local/bin/perl
+
+# commFasta.pl
+
+# Usage: perl commFasta.pl file1.fasta file2.fasta
+
+
+=head1 NAME
+
+B<commFasta.pl>
+
+=head1 SYNOPSIS
+
+C<perl commFasta.pl [-cdivh] file1 file2>
+
+=head1 VERSION
+
+1.2 of October 1, 2002
+
+=head2 Version history
+
+1.2 : [October 1, 2002] The program also returns the sequences that have no match in file2.
+1.1 : [October 24, 2001] some bug fixes
+
+=head1 DESCRIPTION
+
+commFasta.pl takes two fasta formatted files and compares all sequences in file1 to file2. If it finds two identical sequences, it prints out the sequence in fasta format, concatenating the two ids with a %==% sign, and also concatenating the description with %==%. The sequence is then printed once.
+If it does not find an identical sequence in file2 it prints the sequence identifier, followed by %!=%, followed by the sequence, in fasta format.
+The number of identical sequences and the number of sequences that didn't match any sequence in file2 are printed at the end of the program.
+With the -i option (identifiers only), the program prints the two identifiers of matching sequences. If the identifiers themselves are identical, it appends an = sign, otherwise it prints a # sign.
+
+=head1 OPTIONS
+
+=over 4
+
+=item -i
+
+prints identifiers only, no sequence or fasta format output is generated.
+
+=item -d
+
+prints fasta sequences of file1 that cannot be found in file2.
+
+=item -di 
+
+prints out file1 identifiers for only those sequences that don't appear in file2.
+
+=item -h
+
+-h prints a help message
+
+=item -v
+
+-v prints a version number.
+
+=item -c
+
+-c analyzes a file for duplicate sequence entries. Only 1 argument (filename) has to be supplied.
+
+C<perl commFasta.pl crappyfile.fasta>
+
+=back
+
+=head1 AUTHOR
+
+Lukas Mueller (bug reports to: mueller@acoma.stanford.edu)
+
+
+=cut
+
+
+use Getopt::Std;
+use Bio::Seq;
+use Bio::SeqIO;
+
+use strict;
+
+use vars qw($opt_h $opt_d $opt_i $opt_v $opt_c);
+
+my $nooptions = !scalar(@ARGV);
+
+getopts('chdiv');
+
+my $filename1 = shift;
+my $filename2 = shift;
+
+# Global variables
+
+my $file1;
+my $file2;
+my $accno1;
+my $accno2;
+my $desc1;
+my $desc2;
+my $seq1;
+my $seq2;
+my $id1;
+my $id2;
+my $seqobj1;
+my $seqobj2;
+my $duplicates=0; 
+
+# the seq hash contains all sequences seq2 as keys and a hash as a value
+# {desc} the description of the sequence in set2
+# {count} contains a counter how many times the corresponding sequence seq1 occurs
+# {id} the id of seq2
+
+my %seq =();
+
+my $identical = 0;
+my $different = 0;
+
+if (($opt_h) || $nooptions) { usage(); exit(); }
+if ($opt_v) { 
+  print "\ncommFasta2.pl Version 1.2 October 1, 2002, by Lukas Mueller (c) TAIR\n\n"; 
+  exit();
+}
+
+# The c option just checks a file for duplicate entries. Requires only one argument. We really 
+# normally check file2 so we have to assign the name of file1 to file2
+if ($opt_c) { $filename2 = $filename1; }
+
+# Build hash table with file2.
+print STDERR "Reading $filename2...\n"; 
+my $seqcount=0;
+$file2 = Bio::SeqIO -> new ('-format' => 'Fasta', -file => $filename2);
+while ($seqobj2 = $file2 -> next_seq() ) {
+  # Get line and chop it up in little pieces...
+  
+  $accno2 = $seqobj2 -> accession_number();
+  $desc2  = $seqobj2 -> desc(); 
+  $seq2  = $seqobj2 -> seq();
+  $id2   = uc($seqobj2 -> id());
+
+  $seq2 =~ s/\*//g;
+  $seq2 =~ s/ +//g;
+
+  if (exists ($seq{$seq2})) { 
+      if ($opt_c) { 
+	print "CAUTION. File $filename2 contains duplicate sequences ($seq{$seq2}{id} and $id2)\n"; 
+      }
+      $duplicates++;
+  }
+  else {
+    $seq{$seq2}{id} = $id2;
+    $seq{$seq2}{desc}=$desc2;
+    $seq{$seq2}{count}=0; # used to determine the number of corrsp. seq1's
+  }
+  $seqcount++;
+  if (($seqcount % 500) == 0) { print STDERR "Reading seq $seqcount\r";}
+}
+
+$file2 -> close();
+
+print "$filename2 contains $duplicates duplicate sequences.\n";
+
+# if option c: we have done our work and exit.
+if ($opt_c) { exit(); }
+
+# Read file 1 and check against hash.
+print STDERR "Reading $filename1, comparing...\n"; 
+$file1 = Bio::SeqIO -> new ('-format' => 'Fasta', -file => $filename1);
+while ($seqobj1 = $file1 -> next_seq() ) {
+  # Get line and chop it up in little pieces...
+  
+  $accno1 = $seqobj1 -> accession_number();
+  $desc1  = $seqobj1 -> desc(); 
+  $seq1  = $seqobj1 -> seq();
+  $id1   = uc($seqobj1 -> id());
+  
+  $seq1 =~ s/\*//g;
+  $seq1 =~ s/ +//g;
+
+  if ($opt_i) { 
+    if (exists $seq{$seq1}) {
+      $id2 = $seq{$seq1}{id};
+      my $equalids="";
+      if ($id1 eq $id2) { $equalids="="; }
+      else { $equalids = "#"; }
+      if (!$opt_d) { print "$id1\t$id2\t$equalids\n";}
+      $seq{$seq1}{count}++;
+      #print "Count: $seq{$seq1}{id}: $seq{$seq1}{count}\n";
+      $identical++;
+    }
+    else {
+      print "$id1\tNULL\t#\n";
+      $different++;
+    }
+  }
+  else {    
+    if (exists $seq{$seq1}) {   
+	#print if -d option is not set (-d = print differences only)
+	if (!$opt_d) { print ">$id1 $desc1 %==% $seq{$seq1}{id}\n$seq1\n"; }
+	$seq{$seq1}{count}++;
+	
+	$identical++;
+      }
+      else {
+	print ">$id1 $desc1 %!=%\n$seq1\n";
+	$different++;
+      }
+    }
+ 
+  
+}
+$file2 -> close();
+
+foreach my $h (keys %seq) {
+  
+  if ($seq{$h}{count} == 0) { 
+    print "NULL\t$seq{$h}{id}\t#\n";
+    $different++;
+  }
+  
+}
+print STDERR "Run finished. Identical sequences: $identical. Different: $different. Duplicate sequences in file 2: $duplicates\n";
+
+
+sub usage() {
+  print "\nUsage: perl commFasta.pl [-cidhv] file1 file2\n\n";
+  print "commFasta options:\n-h\tdisplay this text\n-d\t";
+  print "output different sequences only\n-i\toutput identifiers only in tab delimited format\n";
+  print "-c\tcheck file for duplicates and integrity (requires only file1 as parameter)\n";
+  print "-v\tdisplay version\n\n";
+}

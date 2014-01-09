@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+#content #comments caption.rf-dt-cap {
+    color: #444444;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#content #comments .rf-ds-dis {
+    color: #75A7E0;
+    text-align: center;
+    vertical-align: middle;
+    border-top-color: #E2E2E2;
+    border-top-width: 1px;
+}
+
+#content #comments .rf-ds-act {
+    color: #2A568F;
+    text-align: center;
+    vertical-align: middle;
+    border-top-color: #C0C0C0;
+}
+
+#content #comments .rf-ds-btn {
+    color: #2A568F;
+    text-align: center;
+    vertical-align: middle;
+}

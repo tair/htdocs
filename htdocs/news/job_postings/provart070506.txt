@@ -1,0 +1,54 @@
+Post-doctoral Position
+
+Cellular Systems Biology of Plant Stress Response - starting Fall 2006
+
+A post-doctoral fellowship is available in the Department of Cell and
+Systems Biology at the University of Toronto to study the cellular systems
+biology of plant stress response. The proposed research aims to measure
+these cell-type-specific responses in plants subjected to abiotic stress
+conditions at the transcriptional and other levels, using a combination of
+cell sorting and LCM followed by transcriptional profiling and other
+profiling methods, and to use this information to elucidate the cellular
+systems biology of stress response in Arabidopsis. By understanding the way
+a plant responds as an interconnected system to various environmental
+stresses (drought, heat, cold, salt, as well as to insects and pathogens) at
+the cellular and whole plant levels, we aim to gain insight into adaptive
+mechanisms, with implications for basic research and agriculture. The ideal
+candidate should have strong molecular and plant biology experience.
+Background in stress biology would be helpful.
+
+In addition to wet-lab research, the Provart lab has developed several
+web-based tools, available at http://bbc.botany.utoronto.ca, for exploring
+Arabidopsis microarray data, including the Botany Array Resource for
+performing electronic Northerns, Expression Angling, and generating
+"electronic fluorescent protein" representations of microarray data. There
+is also considerable in-house expertise in analyzing and interpreting
+microarray and other high throughput data sets. 
+
+The Department of Cell and Systems Biology at the University of Toronto has
+one of the best equipped plant biology units in Canada, and is situated in
+the heart of one of the most diverse and dynamic cities on the planet. The
+University of Toronto ranks 24th in the world, according to the Institute of
+Higher Education, Shanghai Jiao Tong University.
+
+Please send a CV, references, and a statement of research interests to
+
+Nicholas Provart, PhD
+Assistant Professor, Plant Bioinformatics
+Director, Program in Proteomics and Bioinformatics
+Rm 3051, Dept. of Cell and Systems Biology, Uni. Toronto
+25 Willcocks St., Toronto, ON. M5S 3B2. CANADA
+
+email. nicholas.provart@utoronto.ca
+Tel. (+1) (416) 978-7141, Fax. (+1) (416) 978-5878
+URL. http://www.botany.utoronto.ca/faculty/provart 
+Arabidopsis Webtools. http://bbc.botany.utoronto.ca
+
+I will be at the Arabidopsis meeting, and will be at our eFP Browser poster
+by B. Vinegar, D. Winter and N. Provart during the poster session if you'd
+like to talk in person about this position.
+
+Best regards,
+
+Nick
+

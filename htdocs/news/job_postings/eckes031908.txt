@@ -1,0 +1,46 @@
+PostDoc Position at Bayer CropScience
+
+
+ 
+Bayer CropScience in Frankfurt is looking for a PostDoc in a tri-national research 
+program (Germany, France, Spain) which has started in May 2007 and goes until May 
+2010  
+ 
+In this project the effect of several chemical compounds, which have shown to reduce 
+stress symptoms in plants, on the transcriptome, proteome and metabolome of such plants 
+will be analyzed.  
+Specific indicator genes for the compound effects will be identified. These indicator 
+genes will later be used to establish a biological screen for other compounds that are 
+beneficial for plant growth under stress conditions.  
+ 
+The PostDoc would have the following tasks:  
+- establish stress assays in the growth chamber for model and crop plants  
+- perform and analyze transcription profiling experiments with the model plant 
+Arabidopsis under different stress and non stress conditions  
+- select indicator genes (with additional input from proteome and metabolome analyses)  
+- identify their orthologs in other crop plant species  
+- evaluate the behavior of the orthologs under the specific stress conditions  
+- fuse promoters of the verified genes to marker genes to establish a screening assay for 
+other anti stress compounds  
+- verify the screening assay with selected compounds  
+ 
+For these purposes the PostDoc should already have some years of laboratory experience 
+in the field of Molecular Biology (e.g. from an earlier PostDoc position). Experience in 
+the field of plant responses to abiotic stress factors would be very helpful. The applicant 
+should have excellent experimental and organisational skills and a profound knowledge 
+in Bioinformatics. Because the PostDoc will work in a tri-national project, excellent 
+knowledge of the English language and the ability to work in an international team are a 
+prerequisite. Nevertheless the PostDoc should be able to work on his project very 
+independently.  
+ 
+To apply, please send a full C.V. including a cover letter,a brief description of research 
+experience and interests, and names/email addresses of three references via email to:  
+ 
+Dr. Peter Eckes  
+Scientific Computing  
+H872N  
+Bayer CropScience AG  
+Industrial Park Hoechst  
+65926 Frankfurt  
+ 
+e-mail: peter.eckes@bayercropscience.com

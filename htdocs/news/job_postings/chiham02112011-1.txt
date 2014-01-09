@@ -1,0 +1,40 @@
+MARS Bioinformatics Postdoctoral Fellowship at UC Davis / USDA 
+
+We are offering a 2 year postdoctoral position at the USDA-ARS Subtropical 
+Horticulture Research Station in Miami, FL for a highly skilled scientist in 
+bioinformatics. The successful candidate will be interested in working in 
+collaboration with cutting-edge genomics labs atUC Davis, Stanford 
+University and Washington State University and making original contributions 
+to a diverse set of scientific projects. The primary research topic will be 
+the analysis of the evolution and phylogeny of nuclear and organellar 
+genomes. In collaboration with other scientists, the incumbent will also 
+analyze differential gene expression patterns for gene function 
+identification. 
+The primary duties for this position are to design and implement pipelines 
+for acquiring and assembling genomic data, to compare whole genome sequences 
+and to analyze gene expression data. The incumbent will also be involved in 
+building resources for research outreach in collaboration with WSU. This 
+position requires an individual capable of communicating with students and 
+researchers, handling and prioritizing duties across multiple projects, and 
+working independently on critical tasks. 
+
+Desired Qualifications 
+- PhD in Biology, Statistics, Computer Science and 2+ years 
+experience in bioinformatics. 
+- Excellent problem solving and organization skills. 
+- Excellent communication and interpersonal skills. 
+- Excellent oral and written communication skills in English. 
+- Strong statistical background and experience with R. 
+- Proficiency with use of web databases including genome browsers. 
+- Experience in programming C/C++ and Perl or Python, and experience with 
+UNIX. 
+- Experience with bioinformatic software (e.g. PLINK, BLAST, SAMtools) 
+- Some knowledge of high-throughput genomics technologies or experience 
+analyzing genomic data. 
+- Familiarity with cloud computing (Amazon AWS). 
+
+Interested candidates should contact both: abbennett@ucdavis.edu and 
+juan.motamayor@effem.com 
+
+For more information on our research: 
+http://www.cacaogenomedb.org 

@@ -1,0 +1,44 @@
+Postdoctoral position 
+
+
+available in the laboratory of Dr. Ute Krämer, University of Heidelberg, Germany, on 
+
+
+
+Comparative genomics in Arabidopsis-related Brassicaceae species
+
+
+The aim of the project is the development of genome-wide phylogenetic footprinting approaches 
+for the identification of novel cis-regulatory elements. Applicants should have a strong interest 
+in evolutionary questions and/or the regulation of gene expression, as well as in computational 
+microarray data and sequence analysis.
+
+Past and ongoing microarray-based cross-species comparative genome hybridization and 
+transcript profiling approaches (Becher et al., 2004; Talke et al., 2006; unpublished) will be 
+expanded using a selected set of stimuli. The microarray data will then be used for phylogenetic 
+footprinting, together with emerging genome sequence data and complementary experimental 
+approaches. The results will be combined with results from conventional in silico and 
+experimental approaches for cis-regulatory element identification and validation. The project 
+will also address molecular mechanisms of naturally selected metal hyperaccumulation and 
+associated hypertolerance in Arabidopsis halleri (Hanikenne et al., 2008, Nature doi: 
+10.1038/nature06877). 
+
+Applicants should have very good English language skills (German not essential), a PhD in 
+plant molecular biology or a related subject and practical experience in several of the following 
+fields: plant molecular biology, microarray-based transcriptomics or comparative genome 
+hybridization, growth of Arabidopsis relatives in hydroponic culture, microarray data analysis 
+(e.g. using the software Genespring, R and/or BioConductor), in silico and experimental 
+promoter analysis, regulation of gene expression, phylogenetic footprinting. 
+
+The position is funded within the GABI-FUTURE initiative of the German Federal Ministry of 
+Education and Research for 24 months. Project partners are Dr. Imre Somssich and Dr. Mario 
+Roccaro, MPI-Z Cologne (functional screening of libraries of synthetic promoter elements), and 
+Dr. Lorenz Bülow, TU Braunschweig (database, bioinformatics and web interface) (www.gabi-
+advancis.de). 
+
+Further information is available at http://www.bot.uni-heidelberg.de/?u=ukraemer&l=e. 
+Please send applications including a CV, list of publications, a 1/2-page statement of research 
+interests and addresses of three referees to: Dr Ute Krämer (University of Heidelberg, 
+BIOQUANT BQ 23, Im Neuenheimer Feld 267, D-69120 Heidelberg, Germany, 
+ute.kraemer“at”bioquant.uni-heidelberg.de). Applications will be accepted until 30 June 2008, 
+or until the position is filled. 

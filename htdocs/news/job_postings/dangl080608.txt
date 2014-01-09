@@ -1,0 +1,69 @@
+Post-doc position in comparative genomics and evolution of host specialization and 
+virulence at UNC-Chapel Hill
+
+We are using new whole genome sequencing technologies to study the
+evolution of host-specialization and virulence in Pseudomonas syringae
+pathovars.  This is a NIH funded collaboration between Dr. Jeff
+Dangl and Dr. Corbin D. Jones.  We seek a highly motivated post-doc
+interested in merging computational and experimental biology.  Ideal
+candidates will have a strong evolutionary background and experience
+bioinformatics, programming, or genome assembly.
+
+The University of North Carolina at Chapel Hill is a diverse campus
+located in the Research Triangle of North Carolina.  Both North
+Carolina State University and Duke University are close by.  UNC-CH is
+repeatedly ranked one of the best public Universities and a great
+place to post-doc.
+
+Candidates should contact Corbin Jones at cdjones@ email.unc.edu
+
+
+Bioinformatics and Computational Biology Grad Student Position
+
+Project Description:  Develop and apply novel algorithms for whole
+genome assembly using new high throughput genome sequencing
+technologies.
+
+We are using new whole genome sequencing technologies to study the
+evolution of host-specialization and virulence in Pseudomonad
+pathovars.  This is a NIH funded collaboration between Dr. Jeff L.
+Dangl and Dr. Corbin D. Jones.  We seek highly motivated graduate
+students interested in developing approaches and software tools for
+the assembly of bacterial genomes using new short read sequencing
+technology.  In contrast to traditional approaches to genome
+sequencing, which are quite expensive, several new technologies—e.g.
+Roche/454 and Illumina/Solexa Genome Analyzer—have been developed that
+produce shorter more error prone DNA sequence at greatly reduced
+cost.  As the throughput and quality of these new technologies
+improves, they will likely supplant existing genome sequencing
+technologies.  Currently, there is a great need for software tools to
+analyze these data.  The unique characteristics of these data,
+however, prevent rote application of traditional methods.  Thus, there
+is a critical need to develop novel computational approaches to
+working with these new technologies.
+
+The Jones and Dangl labs are looking for a graduate student to be co-
+advised on this project.  No prior experience with genome assembly
+required, only motivated, enthusiastic students are needed.  We’ll
+teach you what you need to know.
+
+Candidates should apply to the BBSP Graduate Program at:
+
+http://www.med.unc.edu/bbsp/
+
+Websites:
+http://www.bio.unc.edu/Faculty/CDJones/Lab/
+http://www.bio.unc.edu/dangl/lab/
+
+Related publications:
+
+Jeck WR, Reinhardt JA, Baltrus DA, Hickenbotham MT, Magrini V, Mardis
+ER, Dangl JL, Jones CD. 2007. Extending assembly of short DNA
+sequences to handle error. Bioinformatics. 2007 Sep 24;
+
+Grant SR, Fisher EJ, Chang JH, Mole BM, Dangl JL. 2006. Subterfuge and
+manipulation: type III effector proteins of phytopathogenic bacteria.
+Annu Rev Microbiol.60:425-49.
+
+Jones JD, Dangl JL. 2006. The plant immune system. Nature. Nov
+16;444(7117):323-9.

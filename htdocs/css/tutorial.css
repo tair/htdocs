@@ -1,0 +1,135 @@
+/*div formats */
+/* this is an attempt to put the tair header in a div*/
+#header {
+position: absolute;
+left: 260 px;
+top: 0px;
+}
+
+/* this defines the location and format of the navigation/contents menu for the tutorial */
+#sidebar { 
+position: absolute;
+left: 0 px;
+top: 0 px;
+width: 260 px;
+background-color:#CCCCCC;
+
+}
+
+/* this defines the location and format of the menu selector */
+#menu
+{width: none;
+overflow: scroll;
+padding: 10px;
+border-style: none;
+background-color: #99FFCC;
+}
+
+#maincontent {
+position: absolute;
+left: 270 px;
+top: 100 px;
+border: none;
+}
+
+#maincontent2 {
+position:relative
+margin-left: 2 px;
+border: none;
+}
+/*defines the appearance of the second header level in the main page*/
+h2.main
+{font-family: Verdana,Ariel, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 16 pt;
+}
+
+/* defines the content type faces and fonts */
+h1.main
+{font-family: Verdana, Ariel, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 18 pt;
+}
+h2.menu
+{font-style: italic;
+}
+
+/* defines the content type faces and fonts */
+h1.menu
+{font-style: italic;
+}
+/* defines the navigation menu list fonts */
+ul
+{font-family: Verdana, Ariel, Helvetica, sans-serif;
+font-size: 12 pt;
+}
+
+li
+{font-family: Verdana,Ariel, Helvetica,sans-serif;
+font-size: 12pt;
+color:#000000;
+list-style-position: inside;
+}
+/* this defines the look of the first order content level when the subsection is open. */
+li.on
+{
+color: #FF0000;
+}
+
+li.off
+{visibility: hidden;
+}
+
+dd
+{font-family:Verdana,Ariel,Helvetica,sans-serif;
+}
+
+dt
+{font-size: 13pt;
+font-style: bold;
+}
+
+dl
+{font-size: 12pt;
+}
+
+/*defines the look of the main text content. */
+p
+{font-family:Verdana,Ariel,Helvetica,sans-serif;
+font-size:12pt;
+}
+/* defines the look of the explanitory text content */
+p.sm
+{color:#333333;
+}
+
+/* defines the appearance and behavior of the links in the main content and menu */
+a.main:link {color:#0000FF;text-decoration:none;}
+a.main:hover {text-decoration:underline;}
+a.main:active {text-decoration:none;color:#0000FF;}
+a.main:visited {text-decoration:none;color:#0000FF;}
+a.menu:link {text-decoration:underline; color:#333333;}
+a.menu:hover {text-decoration:underline;}
+a.menu:visited {color:#333333; text-decoration:none;}
+a.menu:active {text-decoration:none;color:#333333;}
+a.foot:link {text-decoration:none;}
+a.foot:hover {text-decoration:none;}
+a.foot:visited:{text-decoration:none;}
+a.foot:active:{text-decoration:none;}
+
+#footer
+{width: 200px;
+background-color:#CCCCCC;
+border-color: none;
+border-width:17px;
+valign: center;
+}
+
+td.footer{
+border-color: #CCCCCC;
+border-style:solid;
+border-left-width:6px;
+border-right-width: 6px;
+border-top-width:0px;
+border-bottom-width:2px;
+}

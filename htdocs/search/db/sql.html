@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<title>Enter SQL SUBMIT statement</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<!--form method="GET" action="/cgi-bin/search/sql3.pl"-->
+<form method="GET" action="/cgi-bin/search/sqlWeb.pl">
+  <h2>Enter SQL SELECT statement </h2>
+  <table cellspacing="5">
+    <tr> 
+      <td colspan="2">
+        <textarea name="query" wrap="PHYSICAL" cols="80" rows="10"></textarea>
+      </td>
+    </tr>
+    <tr valign="middle"> 
+      <td> 
+        <input type="radio" name="db" value="tairdb" checked>
+        Main DB<br>
+        <input type="radio" name="db" value="tairtest">
+        Test DB</td>
+      <td> 
+        <input type="text" name="low" size="10" maxlength="10" value="1">
+        min row<br>
+        <input type="text" name="high" size="10" maxlength="10" value="500">
+        max row</td>
+    </tr>
+    <tr>
+      <td>Output:<br>
+	  <input type=radio name="as_text" value="n" checked>As HTML<br>
+	  <input type=radio name="as_text" value="y">As text<br>
+      </td>
+      <td></td>
+    </tr>
+    <tr> 
+      <td>
+        <input type="submit" value="Submit" name="B1">
+      </td>
+      <td>
+        <input type="reset" value="Reset" name="B2">
+      </td>
+    </tr>
+
+</table>
+  <p>&nbsp;</p>
+</form>
+
+</body>
+
+</html>
